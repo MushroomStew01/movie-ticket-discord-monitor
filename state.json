@@ -1,1 +1,45 @@
-{}
+{
+  "https://www.cineplex.com/theatre/cineplex-cinemas-kitchener-and-vip": {
+    "name": "Cineplex Cinemas Kitchener and VIP",
+    "type": "theatre",
+    "hash": "e193cf23c61a940368e5c59d6ae3d866236f9122daf1c3784a38d866719230e2",
+    "checked_at_utc": "2026-07-26T19:14:46.576143+00:00",
+    "snapshot": {
+      "ticket_available": true,
+      "relevant_lines": [],
+      "movies": {}
+    }
+  },
+  "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan": {
+    "name": "Cineplex Cinemas Vaughan",
+    "type": "theatre",
+    "hash": "e193cf23c61a940368e5c59d6ae3d866236f9122daf1c3784a38d866719230e2",
+    "checked_at_utc": "2026-07-26T19:14:57.419326+00:00",
+    "snapshot": {
+      "ticket_available": true,
+      "relevant_lines": [],
+      "movies": {}
+    }
+  },
+  "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one": {
+    "name": "Cineplex Cinemas Mississauga Square One",
+    "type": "theatre",
+    "hash": "e193cf23c61a940368e5c59d6ae3d866236f9122daf1c3784a38d866719230e2",
+    "checked_at_utc": "2026-07-26T19:15:05.836817+00:00",
+    "snapshot": {
+      "ticket_available": true,
+      "relevant_lines": [],
+      "movies": {}
+    }
+  },
+  "https://www.cineplex.com/movie/imax70-the-odyssey-the-imax-experience-in-7": {
+    "name": "The Odyssey - IMAX 70mm",
+    "type": "movie",
+    "hash": "aab24e921f13d4c4fc625b980436c8252f8bf3a1d24478f6606350a79612ad98",
+    "checked_at_utc": "2026-07-26T19:15:14.118472+00:00",
+    "snapshot": {
+      "ticket_available": true,
+      "relevant_lines": []
+    }
+  }
+}
