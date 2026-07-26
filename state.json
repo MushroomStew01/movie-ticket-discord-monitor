@@ -1,1 +1,537 @@
-{}
+{
+  "https://www.cineplex.com/theatre/cineplex-cinemas-kitchener-and-vip": {
+    "name": "Cineplex Cinemas Kitchener and VIP",
+    "type": "theatre",
+    "hash": "e193cf23c61a940368e5c59d6ae3d866236f9122daf1c3784a38d866719230e2",
+    "checked_at_utc": "2026-07-26T19:31:28.430211+00:00",
+    "snapshot": {
+      "ticket_available": true,
+      "relevant_lines": [],
+      "movies": {}
+    }
+  },
+  "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge": {
+    "name": "Cineplex Cinemas Cambridge",
+    "type": "theatre",
+    "hash": "e193cf23c61a940368e5c59d6ae3d866236f9122daf1c3784a38d866719230e2",
+    "checked_at_utc": "2026-07-26T19:31:33.914602+00:00",
+    "snapshot": {
+      "ticket_available": true,
+      "relevant_lines": [],
+      "movies": {}
+    }
+  },
+  "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan": {
+    "name": "Cineplex Cinemas Vaughan",
+    "type": "theatre",
+    "hash": "e193cf23c61a940368e5c59d6ae3d866236f9122daf1c3784a38d866719230e2",
+    "checked_at_utc": "2026-07-26T19:31:39.445841+00:00",
+    "snapshot": {
+      "ticket_available": true,
+      "relevant_lines": [],
+      "movies": {}
+    }
+  },
+  "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one": {
+    "name": "Cineplex Cinemas Mississauga Square One",
+    "type": "theatre",
+    "hash": "e193cf23c61a940368e5c59d6ae3d866236f9122daf1c3784a38d866719230e2",
+    "checked_at_utc": "2026-07-26T19:31:44.846155+00:00",
+    "snapshot": {
+      "ticket_available": true,
+      "relevant_lines": [],
+      "movies": {}
+    }
+  },
+  "https://www.cineplex.com/en?theatresNearYou=true": {
+    "name": "Cineplex national movie listings",
+    "type": "listing",
+    "hash": "6172cda61b093629fe1ff63613937c0a4205fba749387d92874ac4c0f73d9ac9",
+    "checked_at_utc": "2026-07-26T19:31:53.870705+00:00",
+    "snapshot": {
+      "ticket_available": false,
+      "relevant_lines": [],
+      "movies": {
+        "https://www.cineplex.com/en/movie/avengers-doomsday": {
+          "title": "Avengers Doomsday",
+          "advance_tickets": "False",
+          "get_tickets": "False",
+          "formats": "",
+          "context": ""
+        },
+        "https://www.cineplex.com/en/movie/minions-monsters": {
+          "title": "Minions Monsters",
+          "advance_tickets": "False",
+          "get_tickets": "False",
+          "formats": "",
+          "context": ""
+        },
+        "https://www.cineplex.com/en/movie/spiderman-brand-new-day": {
+          "title": "Spiderman Brand New Day",
+          "advance_tickets": "False",
+          "get_tickets": "False",
+          "formats": "",
+          "context": ""
+        },
+        "https://www.cineplex.com/en/movie/the-odyssey": {
+          "title": "The Odyssey",
+          "advance_tickets": "False",
+          "get_tickets": "False",
+          "formats": "",
+          "context": ""
+        },
+        "https://www.cineplex.com/movie/alpha-hindi-west": {
+          "title": "Hindi Alpha (Hindi w/e.s.t.)",
+          "advance_tickets": "False",
+          "get_tickets": "False",
+          "formats": "",
+          "context": "Hindi Alpha (Hindi w/e.s.t.) Watch trailer"
+        },
+        "https://www.cineplex.com/movie/andre-rieus-2026-summer-concert-viva-maastricht": {
+          "title": "Advance tickets AUG 29 André Rieu's 2026 Summer Concert: Viva Maastricht!",
+          "advance_tickets": "False",
+          "get_tickets": "False",
+          "formats": "",
+          "context": "Advance tickets AUG 29 André Rieu's 2026 Summer Concert: Viva Maastricht!"
+        },
+        "https://www.cineplex.com/movie/ateez-light-the-way-in-cinemas-korean-west": {
+          "title": "Advance tickets AUG 6 ATEEZ : LIGHT THE WAY IN CINEMAS (Korean w.e.s.t.)",
+          "advance_tickets": "False",
+          "get_tickets": "False",
+          "formats": "",
+          "context": "Advance tickets AUG 6 ATEEZ : LIGHT THE WAY IN CINEMAS (Korean w.e.s.t.)"
+        },
+        "https://www.cineplex.com/movie/backrooms": {
+          "title": "Backrooms",
+          "advance_tickets": "False",
+          "get_tickets": "False",
+          "formats": "",
+          "context": "Backrooms Watch trailer"
+        },
+        "https://www.cineplex.com/movie/carry-on-jatta-4-punjabi-west": {
+          "title": "Punjabi Carry on Jatta 4 (Punjabi w/e.s.t.)",
+          "advance_tickets": "False",
+          "get_tickets": "False",
+          "formats": "",
+          "context": "Punjabi Carry on Jatta 4 (Punjabi w/e.s.t.)"
+        },
+        "https://www.cineplex.com/movie/crossing-mandarin-wchinese-and-est": {
+          "title": "Mandarin Crossing (Mandarin w/Chinese and e.s.t.)",
+          "advance_tickets": "False",
+          "get_tickets": "False",
+          "formats": "",
+          "context": "Mandarin Crossing (Mandarin w/Chinese and e.s.t.) Watch trailer"
+        },
+        "https://www.cineplex.com/movie/dastaar-punjabi-west": {
+          "title": "Punjabi Dastaar (Punjabi w/e.s.t.)",
+          "advance_tickets": "False",
+          "get_tickets": "False",
+          "formats": "",
+          "context": "Punjabi Dastaar (Punjabi w/e.s.t.)"
+        },
+        "https://www.cineplex.com/movie/dhamaal-4-hindi-west": {
+          "title": "Hindi Dhamaal 4 (Hindi w/e.s.t.)",
+          "advance_tickets": "False",
+          "get_tickets": "False",
+          "formats": "",
+          "context": "Hindi Dhamaal 4 (Hindi w/e.s.t.)"
+        },
+        "https://www.cineplex.com/movie/disclosure-day": {
+          "title": "Disclosure Day",
+          "advance_tickets": "False",
+          "get_tickets": "False",
+          "formats": "",
+          "context": "Disclosure Day Watch trailer"
+        },
+        "https://www.cineplex.com/movie/evil-dead-burn": {
+          "title": "Evil Dead Burn",
+          "advance_tickets": "False",
+          "get_tickets": "False",
+          "formats": "",
+          "context": "Evil Dead Burn Watch trailer"
+        },
+        "https://www.cineplex.com/movie/grateful-dead-meetup-at-the-movies-2026": {
+          "title": "Advance tickets AUG 8 Grateful Dead Meet-Up At The Movies 2026",
+          "advance_tickets": "False",
+          "get_tickets": "False",
+          "formats": "",
+          "context": "Advance tickets AUG 8 Grateful Dead Meet-Up At The Movies 2026"
+        },
+        "https://www.cineplex.com/movie/hadestown-the-musical": {
+          "title": "HADESTOWN: THE MUSICAL",
+          "advance_tickets": "False",
+          "get_tickets": "False",
+          "formats": "",
+          "context": "HADESTOWN: THE MUSICAL"
+        },
+        "https://www.cineplex.com/movie/i-know-who-you-are-mandarin-wchinese-est": {
+          "title": "Mandarin I Know Who You Are (Mandarin w/Chinese e.s.t.)",
+          "advance_tickets": "False",
+          "get_tickets": "False",
+          "formats": "",
+          "context": "Mandarin I Know Who You Are (Mandarin w/Chinese e.s.t.)"
+        },
+        "https://www.cineplex.com/movie/ishqnama-punjabi-west": {
+          "title": "Punjabi Ishqnama (Punjabi w/e.s.t.)",
+          "advance_tickets": "False",
+          "get_tickets": "False",
+          "formats": "",
+          "context": "Punjabi Ishqnama (Punjabi w/e.s.t.)"
+        },
+        "https://www.cineplex.com/movie/katseye-wild-hearts": {
+          "title": "Advance tickets AUG 12 KATSEYE: WILD HEARTS",
+          "advance_tickets": "False",
+          "get_tickets": "False",
+          "formats": "",
+          "context": "Advance tickets AUG 12 KATSEYE: WILD HEARTS"
+        },
+        "https://www.cineplex.com/movie/khali-balak-min-nafsak-arabic-west": {
+          "title": "Arabic Khali Balak Min Nafsak (Arabic w/e.s.t.)",
+          "advance_tickets": "False",
+          "get_tickets": "False",
+          "formats": "",
+          "context": "Arabic Khali Balak Min Nafsak (Arabic w/e.s.t.)"
+        },
+        "https://www.cineplex.com/movie/main-vaapas-aaunga-hindi-west": {
+          "title": "Hindi Main Vaapas Aaunga (Hindi w/e.s.t)",
+          "advance_tickets": "False",
+          "get_tickets": "False",
+          "formats": "",
+          "context": "Hindi Main Vaapas Aaunga (Hindi w/e.s.t)"
+        },
+        "https://www.cineplex.com/movie/minions-monsters": {
+          "title": "Minions & Monsters",
+          "advance_tickets": "False",
+          "get_tickets": "False",
+          "formats": "",
+          "context": "Minions & Monsters Watch trailer"
+        },
+        "https://www.cineplex.com/movie/moana-2026": {
+          "title": "Moana",
+          "advance_tickets": "False",
+          "get_tickets": "False",
+          "formats": "",
+          "context": "Moana Watch trailer"
+        },
+        "https://www.cineplex.com/movie/nimrods-a-green-day-comedy": {
+          "title": "Advance tickets AUG 11 Nimrods: A Green Day Comedy",
+          "advance_tickets": "False",
+          "get_tickets": "False",
+          "formats": "",
+          "context": "Advance tickets AUG 11 Nimrods: A Green Day Comedy"
+        },
+        "https://www.cineplex.com/movie/obsession-2026": {
+          "title": "Obsession",
+          "advance_tickets": "False",
+          "get_tickets": "False",
+          "formats": "",
+          "context": "Obsession Watch trailer"
+        },
+        "https://www.cineplex.com/movie/sakr-w-canaria-arabic-west": {
+          "title": "Arabic Sakr w Canaria (Arabic w/e.s.t)",
+          "advance_tickets": "False",
+          "get_tickets": "False",
+          "formats": "",
+          "context": "Arabic Sakr w Canaria (Arabic w/e.s.t)"
+        },
+        "https://www.cineplex.com/movie/sia-nostalgic-for-the-present": {
+          "title": "Sia: Nostalgic For The Present",
+          "advance_tickets": "False",
+          "get_tickets": "False",
+          "formats": "",
+          "context": "Sia: Nostalgic For The Present"
+        },
+        "https://www.cineplex.com/movie/six-the-musical-live": {
+          "title": "Advance tickets AUG 14 SIX: THE MUSICAL LIVE!",
+          "advance_tickets": "False",
+          "get_tickets": "False",
+          "formats": "",
+          "context": "Advance tickets AUG 14 SIX: THE MUSICAL LIVE!"
+        },
+        "https://www.cineplex.com/movie/spiderman-brand-new-day": {
+          "title": "Advance tickets JUL 31 Spider-Man: Brand New Day",
+          "advance_tickets": "False",
+          "get_tickets": "False",
+          "formats": "",
+          "context": "Advance tickets JUL 31 Spider-Man: Brand New Day Watch trailer"
+        },
+        "https://www.cineplex.com/movie/supergirl": {
+          "title": "Supergirl",
+          "advance_tickets": "False",
+          "get_tickets": "False",
+          "formats": "",
+          "context": "Supergirl Watch trailer"
+        },
+        "https://www.cineplex.com/movie/the-invite": {
+          "title": "The Invite",
+          "advance_tickets": "False",
+          "get_tickets": "False",
+          "formats": "",
+          "context": "The Invite Watch trailer"
+        },
+        "https://www.cineplex.com/movie/the-misanthrope-national-theatre-live": {
+          "title": "Advance tickets SEP 24 The Misanthrope - National Theatre Live",
+          "advance_tickets": "False",
+          "get_tickets": "False",
+          "formats": "",
+          "context": "Advance tickets SEP 24 The Misanthrope - National Theatre Live"
+        },
+        "https://www.cineplex.com/movie/the-odyssey": {
+          "title": "The Odyssey",
+          "advance_tickets": "False",
+          "get_tickets": "False",
+          "formats": "",
+          "context": "The Odyssey Watch trailer"
+        },
+        "https://www.cineplex.com/movie/toy-story-5": {
+          "title": "Toy Story 5",
+          "advance_tickets": "False",
+          "get_tickets": "False",
+          "formats": "",
+          "context": "Toy Story 5 Watch trailer"
+        },
+        "https://www.cineplex.com/movie/welcome-to-the-jungle-hindi-west": {
+          "title": "Hindi Welcome To The Jungle (Hindi w/e.s.t)",
+          "advance_tickets": "False",
+          "get_tickets": "False",
+          "formats": "",
+          "context": "Hindi Welcome To The Jungle (Hindi w/e.s.t)"
+        },
+        "https://www.cineplex.com/movie/wham-10-days-in-china": {
+          "title": "Advance tickets JUL 30 WHAM! 10 Days In China",
+          "advance_tickets": "False",
+          "get_tickets": "False",
+          "formats": "",
+          "context": "Advance tickets JUL 30 WHAM! 10 Days In China"
+        },
+        "https://www.cineplex.com/movie/your-letter-korean-west": {
+          "title": "Advance tickets AUG 17 Your Letter (Korean w/e.s.t.)",
+          "advance_tickets": "False",
+          "get_tickets": "False",
+          "formats": "",
+          "context": "Advance tickets AUG 17 Your Letter (Korean w/e.s.t.)"
+        }
+      }
+    }
+  },
+  "https://www.cineplex.com/movie/spiderman-brand-new-day": {
+    "name": "Spider-Man: Brand New Day",
+    "type": "movie",
+    "hash": "aab24e921f13d4c4fc625b980436c8252f8bf3a1d24478f6606350a79612ad98",
+    "checked_at_utc": "2026-07-26T19:31:59.599687+00:00",
+    "snapshot": {
+      "ticket_available": true,
+      "relevant_lines": []
+    }
+  },
+  "https://www.cineplex.com/movie/the-end-of-oak-street": {
+    "name": "The End of Oak Street",
+    "type": "movie",
+    "hash": "aab24e921f13d4c4fc625b980436c8252f8bf3a1d24478f6606350a79612ad98",
+    "checked_at_utc": "2026-07-26T19:32:06.137552+00:00",
+    "snapshot": {
+      "ticket_available": true,
+      "relevant_lines": []
+    }
+  },
+  "https://www.cineplex.com/movie/paw-patrol-the-dino-movie": {
+    "name": "PAW Patrol: The Dino Movie",
+    "type": "movie",
+    "hash": "8e900c62036e97b1139c0dbdf99e0715c94d5e4bc43b82fe5f1bfb272216bd21",
+    "checked_at_utc": "2026-07-26T19:32:11.647459+00:00",
+    "snapshot": {
+      "ticket_available": false,
+      "relevant_lines": []
+    }
+  },
+  "https://www.cineplex.com/movie/insidious-out-of-the-further": {
+    "name": "Insidious: Out of the Further",
+    "type": "movie",
+    "hash": "8e900c62036e97b1139c0dbdf99e0715c94d5e4bc43b82fe5f1bfb272216bd21",
+    "checked_at_utc": "2026-07-26T19:32:17.308546+00:00",
+    "snapshot": {
+      "ticket_available": false,
+      "relevant_lines": []
+    }
+  },
+  "https://www.cineplex.com/movie/mutiny": {
+    "name": "Mutiny",
+    "type": "movie",
+    "hash": "8e900c62036e97b1139c0dbdf99e0715c94d5e4bc43b82fe5f1bfb272216bd21",
+    "checked_at_utc": "2026-07-26T19:32:26.909287+00:00",
+    "snapshot": {
+      "ticket_available": false,
+      "relevant_lines": []
+    }
+  },
+  "https://www.cineplex.com/movie/coyote-vs-acme-2026": {
+    "name": "Coyote vs Acme",
+    "type": "movie",
+    "hash": "8e900c62036e97b1139c0dbdf99e0715c94d5e4bc43b82fe5f1bfb272216bd21",
+    "checked_at_utc": "2026-07-26T19:32:32.581232+00:00",
+    "snapshot": {
+      "ticket_available": false,
+      "relevant_lines": []
+    }
+  },
+  "https://www.cineplex.com/movie/the-dog-stars": {
+    "name": "The Dog Stars",
+    "type": "movie",
+    "hash": "8e900c62036e97b1139c0dbdf99e0715c94d5e4bc43b82fe5f1bfb272216bd21",
+    "checked_at_utc": "2026-07-26T19:32:38.068824+00:00",
+    "snapshot": {
+      "ticket_available": false,
+      "relevant_lines": []
+    }
+  },
+  "https://www.cineplex.com/movie/practical-magic-2": {
+    "name": "Practical Magic 2",
+    "type": "movie",
+    "hash": "8e900c62036e97b1139c0dbdf99e0715c94d5e4bc43b82fe5f1bfb272216bd21",
+    "checked_at_utc": "2026-07-26T19:32:43.536159+00:00",
+    "snapshot": {
+      "ticket_available": false,
+      "relevant_lines": []
+    }
+  },
+  "https://www.cineplex.com/movie/resident-evil-2026": {
+    "name": "Resident Evil",
+    "type": "movie",
+    "hash": "8e900c62036e97b1139c0dbdf99e0715c94d5e4bc43b82fe5f1bfb272216bd21",
+    "checked_at_utc": "2026-07-26T19:32:52.282632+00:00",
+    "snapshot": {
+      "ticket_available": false,
+      "relevant_lines": []
+    }
+  },
+  "https://www.cineplex.com/movie/digger": {
+    "name": "Digger",
+    "type": "movie",
+    "hash": "8e900c62036e97b1139c0dbdf99e0715c94d5e4bc43b82fe5f1bfb272216bd21",
+    "checked_at_utc": "2026-07-26T19:32:57.852416+00:00",
+    "snapshot": {
+      "ticket_available": false,
+      "relevant_lines": []
+    }
+  },
+  "https://www.cineplex.com/movie/the-social-reckoning": {
+    "name": "The Social Reckoning",
+    "type": "movie",
+    "hash": "8e900c62036e97b1139c0dbdf99e0715c94d5e4bc43b82fe5f1bfb272216bd21",
+    "checked_at_utc": "2026-07-26T19:33:03.491689+00:00",
+    "snapshot": {
+      "ticket_available": false,
+      "relevant_lines": []
+    }
+  },
+  "https://www.cineplex.com/movie/street-fighter-2026": {
+    "name": "Street Fighter",
+    "type": "movie",
+    "hash": "8e900c62036e97b1139c0dbdf99e0715c94d5e4bc43b82fe5f1bfb272216bd21",
+    "checked_at_utc": "2026-07-26T19:33:08.956497+00:00",
+    "snapshot": {
+      "ticket_available": false,
+      "relevant_lines": []
+    }
+  },
+  "https://www.cineplex.com/movie/clayface-2026": {
+    "name": "Clayface",
+    "type": "movie",
+    "hash": "8e900c62036e97b1139c0dbdf99e0715c94d5e4bc43b82fe5f1bfb272216bd21",
+    "checked_at_utc": "2026-07-26T19:33:14.500364+00:00",
+    "snapshot": {
+      "ticket_available": false,
+      "relevant_lines": []
+    }
+  },
+  "https://www.cineplex.com/movie/cat-in-the-hat": {
+    "name": "Cat in the Hat",
+    "type": "movie",
+    "hash": "8e900c62036e97b1139c0dbdf99e0715c94d5e4bc43b82fe5f1bfb272216bd21",
+    "checked_at_utc": "2026-07-26T19:33:19.846014+00:00",
+    "snapshot": {
+      "ticket_available": false,
+      "relevant_lines": []
+    }
+  },
+  "https://www.cineplex.com/movie/godzilla-minus-zero": {
+    "name": "Godzilla Minus Zero",
+    "type": "movie",
+    "hash": "8e900c62036e97b1139c0dbdf99e0715c94d5e4bc43b82fe5f1bfb272216bd21",
+    "checked_at_utc": "2026-07-26T19:33:25.294717+00:00",
+    "snapshot": {
+      "ticket_available": false,
+      "relevant_lines": []
+    }
+  },
+  "https://www.cineplex.com/movie/hunger-games-sunrise-on-the-reaping": {
+    "name": "The Hunger Games: Sunrise on the Reaping",
+    "type": "movie",
+    "hash": "8e900c62036e97b1139c0dbdf99e0715c94d5e4bc43b82fe5f1bfb272216bd21",
+    "checked_at_utc": "2026-07-26T19:33:30.793087+00:00",
+    "snapshot": {
+      "ticket_available": false,
+      "relevant_lines": []
+    }
+  },
+  "https://www.cineplex.com/movie/violent-night-2": {
+    "name": "Violent Night 2",
+    "type": "movie",
+    "hash": "8e900c62036e97b1139c0dbdf99e0715c94d5e4bc43b82fe5f1bfb272216bd21",
+    "checked_at_utc": "2026-07-26T19:33:36.341862+00:00",
+    "snapshot": {
+      "ticket_available": false,
+      "relevant_lines": []
+    }
+  },
+  "https://www.cineplex.com/movie/avengers-doomsday": {
+    "name": "Avengers: Doomsday",
+    "type": "movie",
+    "hash": "aab24e921f13d4c4fc625b980436c8252f8bf3a1d24478f6606350a79612ad98",
+    "checked_at_utc": "2026-07-26T19:33:41.721260+00:00",
+    "snapshot": {
+      "ticket_available": true,
+      "relevant_lines": []
+    }
+  },
+  "https://www.cineplex.com/movie/dune-part-3": {
+    "name": "Dune: Part 3",
+    "type": "movie",
+    "hash": "aab24e921f13d4c4fc625b980436c8252f8bf3a1d24478f6606350a79612ad98",
+    "checked_at_utc": "2026-07-26T19:33:47.353314+00:00",
+    "snapshot": {
+      "ticket_available": true,
+      "relevant_lines": []
+    }
+  },
+  "https://www.cineplex.com/movie/the-angry-birds-movie-3": {
+    "name": "The Angry Birds Movie 3",
+    "type": "movie",
+    "hash": "8e900c62036e97b1139c0dbdf99e0715c94d5e4bc43b82fe5f1bfb272216bd21",
+    "checked_at_utc": "2026-07-26T19:33:53.013204+00:00",
+    "snapshot": {
+      "ticket_available": false,
+      "relevant_lines": []
+    }
+  },
+  "https://www.cineplex.com/movie/jumanji-open-world": {
+    "name": "Jumanji: Open World",
+    "type": "movie",
+    "hash": "8e900c62036e97b1139c0dbdf99e0715c94d5e4bc43b82fe5f1bfb272216bd21",
+    "checked_at_utc": "2026-07-26T19:34:08.617306+00:00",
+    "snapshot": {
+      "ticket_available": false,
+      "relevant_lines": []
+    }
+  },
+  "https://www.cineplex.com/movie/werwulf": {
+    "name": "Werwulf",
+    "type": "movie",
+    "hash": "8e900c62036e97b1139c0dbdf99e0715c94d5e4bc43b82fe5f1bfb272216bd21",
+    "checked_at_utc": "2026-07-26T19:34:18.582344+00:00",
+    "snapshot": {
+      "ticket_available": false,
+      "relevant_lines": []
+    }
+  }
+}
