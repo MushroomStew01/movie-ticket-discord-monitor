@@ -3,8 +3,8 @@ name: Movie Ticket Monitor
 on:
   workflow_dispatch:
   schedule:
-    # At minutes 2, 7, 12, etc. Avoids the busiest exact top-of-hour time.
-    - cron: "2-59/5 * * * *"
+    # At minutes 2, 12, 22, etc. This leaves enough time to check the full watchlist.
+    - cron: "2-59/10 * * * *"
 
 permissions:
   contents: write
@@ -16,7 +16,7 @@ concurrency:
 jobs:
   monitor:
     runs-on: ubuntu-latest
-    timeout-minutes: 12
+    timeout-minutes: 20
 
     steps:
       - name: Check out repository
@@ -35,6 +35,13 @@ jobs:
 
       - name: Install Playwright Chromium
         run: python -m playwright install --with-deps chromium
+
+      - name: Test Discord on manual runs
+        if: github.event_name == 'workflow_dispatch'
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          DISCORD_USER_ID: ${{ secrets.DISCORD_USER_ID }}
+        run: python monitor.py --test-alert
 
       - name: Run monitor
         env:
