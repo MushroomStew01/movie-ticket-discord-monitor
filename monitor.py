@@ -40,6 +40,7 @@ DATE_PATTERN = re.compile(
 )
 TICKET_TERMS = (
     "get tickets",
+    "get advance tickets",
     "advance tickets available",
     "showtime",
     "showtimes",
@@ -81,6 +82,12 @@ def normalize_space(value: str) -> str:
     return re.sub(r"\s+", " ", value or "").strip()
 
 
+def normalize_title(value: str) -> str:
+    value = value.casefold().replace("&", " and ")
+    value = re.sub(r"[^a-z0-9]+", " ", value)
+    return normalize_space(value)
+
+
 def clean_title(value: str, href: str) -> str:
     title = normalize_space(value)
     if title and len(title) <= 180:
@@ -89,6 +96,18 @@ def clean_title(value: str, href: str) -> str:
     slug = urlparse(href).path.rstrip("/").split("/")[-1]
     slug = re.sub(r"[-_]+", " ", slug)
     return slug.title() or href
+
+
+def priority_match(title: str, priority_titles: tuple[str, ...]) -> str | None:
+    normalized = normalize_title(title)
+    if not normalized:
+        return None
+
+    for priority_title in priority_titles:
+        candidate = normalize_title(priority_title)
+        if candidate and (candidate in normalized or normalized in candidate):
+            return priority_title
+    return None
 
 
 def stable_hash(value: Any) -> str:
@@ -168,7 +187,6 @@ def open_target(page: Page, url: str, wait_ms: int) -> None:
     page.goto(url, wait_until="domcontentloaded", timeout=90_000)
     page.wait_for_timeout(wait_ms)
 
-    # Cookie overlays can hide content. These clicks are best-effort only.
     for label in ("Accept All", "Accept", "I Agree", "Continue"):
         try:
             button = page.get_by_role("button", name=re.compile(f"^{re.escape(label)}$", re.I))
@@ -225,17 +243,25 @@ def extract_movie_links(page: Page, base_url: str) -> dict[str, dict[str, str]]:
 
     for raw in raw_items:
         href = urljoin(base_url, raw.get("href", ""))
-        if "/movie/" not in urlparse(href).path:
+        if "/movie/" not in urlparse(href).path.lower():
             continue
+
+        # Strip tracking/query parameters so the same movie is not treated as a new URL.
+        parsed = urlparse(href)
+        href = parsed._replace(query="", fragment="").geturl().rstrip("/")
 
         context = normalize_space(raw.get("context", ""))[:1200]
         title = clean_title(raw.get("text", ""), href)
-        advance = "advance tickets available" in context.lower()
-        get_tickets = "get tickets" in context.lower()
+        lowered_context = context.lower()
+        advance = (
+            "advance tickets available" in lowered_context
+            or "get advance tickets" in lowered_context
+        )
+        get_tickets = "get tickets" in lowered_context
         formats = sorted(
             term.upper() if term == "imax" else term
             for term in ("imax", "70mm", "vip", "4dx", "ultraavx", "screenx", "d-box")
-            if term in context.lower()
+            if term in lowered_context
         )
 
         existing = movies.get(href)
@@ -254,8 +280,10 @@ def extract_movie_links(page: Page, base_url: str) -> dict[str, dict[str, str]]:
 
 def collect_snapshot(page: Page, target: Target) -> dict[str, Any]:
     body = visible_body_text(page)
-    ticket_available = (
-        "get tickets" in body.lower() or "advance tickets available" in body.lower()
+    lowered_body = body.lower()
+    ticket_available = any(
+        term in lowered_body
+        for term in ("get tickets", "get advance tickets", "advance tickets available")
     )
 
     snapshot: dict[str, Any] = {
@@ -263,38 +291,61 @@ def collect_snapshot(page: Page, target: Target) -> dict[str, Any]:
         "relevant_lines": relevant_lines(body, target.watch_keywords),
     }
 
-    if target.type.lower() == "theatre":
+    if target.type.lower() in {"theatre", "listing"}:
         snapshot["movies"] = extract_movie_links(page, target.url)
 
     return snapshot
 
 
-def format_new_movies(new_movies: list[tuple[str, dict[str, str]]]) -> str:
+def format_new_movies(
+    new_movies: list[tuple[str, dict[str, str]]],
+    priority_titles: tuple[str, ...],
+) -> tuple[str, bool]:
     lines = []
-    for href, movie in new_movies[:15]:
+    has_priority = False
+
+    for href, movie in new_movies[:20]:
         status = []
-        if movie.get("advance_tickets") == "True":
-            status.append("advance tickets")
+        if movie.get("advance_tickets") == "True" or movie.get("get_tickets") == "True":
+            status.append("tickets")
         if movie.get("formats"):
             status.append(movie["formats"])
+
+        title = movie.get("title", href)
+        matched_priority = priority_match(title, priority_titles)
+        marker = "🚨 " if matched_priority else "• "
+        has_priority = has_priority or matched_priority is not None
         suffix = f" — {', '.join(status)}" if status else ""
-        lines.append(f"• [{movie['title']}]({href}){suffix}")
-    if len(new_movies) > 15:
-        lines.append(f"• …and {len(new_movies) - 15} more")
-    return "\n".join(lines)
+        lines.append(f"{marker}[{title}]({href}){suffix}")
+
+    if len(new_movies) > 20:
+        lines.append(f"• …and {len(new_movies) - 20} more")
+
+    return "\n".join(lines), has_priority
 
 
-def compare_snapshots(previous: dict[str, Any], current: dict[str, Any]) -> list[tuple[str, str]]:
-    events: list[tuple[str, str]] = []
+def compare_snapshots(
+    previous: dict[str, Any],
+    current: dict[str, Any],
+    *,
+    target_name: str,
+    priority_titles: tuple[str, ...],
+) -> list[tuple[str, str, int]]:
+    events: list[tuple[str, str, int]] = []
+    target_is_priority = priority_match(target_name, priority_titles) is not None
 
     previous_movies = previous.get("movies", {})
     current_movies = current.get("movies", {})
     new_urls = sorted(set(current_movies) - set(previous_movies))
     if new_urls:
+        description, has_priority = format_new_movies(
+            [(url, current_movies[url]) for url in new_urls], priority_titles
+        )
         events.append(
             (
-                "New movie listing detected",
-                format_new_movies([(url, current_movies[url]) for url in new_urls]),
+                "🚨 Priority movie listing detected" if has_priority else "New movie listing detected",
+                description,
+                0xE74C3C if has_priority else 0xE67E22,
             )
         )
 
@@ -306,19 +357,25 @@ def compare_snapshots(previous: dict[str, Any], current: dict[str, Any]) -> list
         new_available = new.get("advance_tickets") == "True" or new.get("get_tickets") == "True"
         if new_available and not old_available:
             availability_changes.append((url, new))
+
     if availability_changes:
+        description, has_priority = format_new_movies(availability_changes, priority_titles)
         events.append(
             (
-                "Tickets may now be available",
-                format_new_movies(availability_changes),
+                "🚨 Priority tickets may now be available"
+                if has_priority
+                else "Tickets may now be available",
+                description,
+                0xE74C3C if has_priority else 0xE67E22,
             )
         )
 
     if current.get("ticket_available") and not previous.get("ticket_available"):
         events.append(
             (
-                "Ticket status changed",
-                "The page now contains **Get Tickets** or **Advance tickets available**.",
+                "🚨 Priority presale detected" if target_is_priority else "Ticket status changed",
+                "The page now contains **Get Tickets**, **Get Advance Tickets**, or **Advance tickets available**.",
+                0xE74C3C if target_is_priority else 0xE67E22,
             )
         )
 
@@ -333,7 +390,15 @@ def compare_snapshots(previous: dict[str, Any], current: dict[str, Any]) -> list
     ]
     if meaningful_added:
         excerpt = "\n".join(f"• {line[:300]}" for line in meaningful_added[:12])
-        events.append(("New ticket or showtime text detected", excerpt))
+        events.append(
+            (
+                "🚨 Priority ticket/showtime change"
+                if target_is_priority
+                else "New ticket or showtime text detected",
+                excerpt,
+                0xE74C3C if target_is_priority else 0xE67E22,
+            )
+        )
 
     return events
 
@@ -348,12 +413,38 @@ def parse_targets(config: dict[str, Any]) -> tuple[dict[str, Any], list[Target]]
             url=normalize_space(item["url"]),
             watch_keywords=tuple(normalize_space(k).lower() for k in item.get("watch_keywords", [])),
         )
-        if target.type not in {"theatre", "movie", "generic"}:
+        if target.type not in {"theatre", "movie", "listing", "generic"}:
             raise RuntimeError(f"Unsupported target type for {target.name}: {target.type}")
         targets.append(target)
     if not targets:
         raise RuntimeError("No targets are configured in targets.json.")
     return settings, targets
+
+
+def baseline_summary(entries: list[tuple[Target, dict[str, Any]]]) -> str:
+    lines = [
+        "Monitoring is active. The first run records the current pages as a baseline, so existing listings are not treated as new alerts.",
+        "",
+    ]
+
+    for target, snapshot in entries[:35]:
+        if target.type == "movie":
+            status = "ticket button visible now" if snapshot.get("ticket_available") else "no ticket button yet"
+        else:
+            count = len(snapshot.get("movies", {}))
+            status = f"listing monitor active ({count} movie links found)"
+        lines.append(f"• **{target.name}** — {status}")
+
+    if len(entries) > 35:
+        lines.append(f"• …and {len(entries) - 35} more targets")
+
+    lines.extend(
+        [
+            "",
+            "Future new listings, presales, ticket-button changes, and showtime-related changes will trigger alerts.",
+        ]
+    )
+    return "\n".join(lines)
 
 
 def run_monitor(*, test_alert: bool = False) -> int:
@@ -365,7 +456,7 @@ def run_monitor(*, test_alert: bool = False) -> int:
             title="✅ Movie ticket monitor connected",
             description=(
                 "Your Discord webhook works. Future alerts will be posted here.\n\n"
-                "The first normal monitor run creates a baseline and does not report every existing listing."
+                "A normal first run creates a baseline. The updated workflow also sends one baseline summary."
             ),
             user_id=user_id,
             color=0x3498DB,
@@ -378,10 +469,17 @@ def run_monitor(*, test_alert: bool = False) -> int:
     state = load_json(STATE_PATH, {})
     wait_ms = int(settings.get("page_wait_ms", 8000))
     alert_on_first_run = bool(settings.get("alert_on_first_run", False))
+    send_baseline_summary = bool(settings.get("send_baseline_summary", True))
     send_error_alerts = bool(settings.get("send_error_alerts", True))
+    priority_titles = tuple(
+        normalize_space(title)
+        for title in config.get("priority_titles", [])
+        if normalize_space(title)
+    )
 
     any_success = False
     any_failure = False
+    baseline_entries: list[tuple[Target, dict[str, Any]]] = []
 
     with sync_playwright() as playwright:
         browser = playwright.chromium.launch(headless=True)
@@ -396,6 +494,7 @@ def run_monitor(*, test_alert: bool = False) -> int:
 
                     if previous_entry is None:
                         LOGGER.info("Baseline created: %s", target.name)
+                        baseline_entries.append((target, current_snapshot))
                         if alert_on_first_run:
                             discord_post(
                                 webhook,
@@ -408,16 +507,21 @@ def run_monitor(*, test_alert: bool = False) -> int:
                     else:
                         previous_snapshot = previous_entry.get("snapshot", {})
                         if current_hash != previous_entry.get("hash"):
-                            events = compare_snapshots(previous_snapshot, current_snapshot)
+                            events = compare_snapshots(
+                                previous_snapshot,
+                                current_snapshot,
+                                target_name=target.name,
+                                priority_titles=priority_titles,
+                            )
                             if events:
-                                for event_title, event_description in events:
+                                for event_title, event_description, event_color in events:
                                     discord_post(
                                         webhook,
                                         title=f"🎟️ {event_title}: {target.name}",
                                         description=event_description,
                                         url=target.url,
                                         user_id=user_id,
-                                        color=0xE67E22,
+                                        color=event_color,
                                     )
                                 LOGGER.info("Alerted on %s change(s): %s", len(events), target.name)
                             else:
@@ -456,6 +560,21 @@ def run_monitor(*, test_alert: bool = False) -> int:
             browser.close()
 
     save_json(STATE_PATH, state)
+
+    if baseline_entries and send_baseline_summary:
+        try:
+            discord_post(
+                webhook,
+                title=f"✅ Baseline created for {len(baseline_entries)} new target(s)",
+                description=baseline_summary(baseline_entries),
+                user_id=user_id,
+                color=0x3498DB,
+            )
+            LOGGER.info("Baseline summary sent for %s target(s).", len(baseline_entries))
+        except Exception:
+            any_failure = True
+            LOGGER.exception("Could not send the baseline summary.")
+
     if not any_success:
         return 1
     return 2 if any_failure else 0

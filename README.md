@@ -1,5 +1,17 @@
 # Movie Ticket Discord Monitor
 
+## Version 2 additions
+
+- A manual GitHub Actions run now sends an immediate Discord test notification before checking Cineplex.
+- The first normal run sends one baseline summary instead of silently creating the baseline.
+- Added Cineplex Cinemas Cambridge.
+- Continues monitoring Kitchener VIP, Vaughan, and Mississauga Square One.
+- Added a national Cineplex listing monitor.
+- Added direct page monitoring for the major remaining 2026 blockbuster and franchise releases listed in `targets.json`.
+- Priority titles are marked with a red urgent Discord alert.
+
+When replacing an older version in GitHub, upload `monitor.py`, `targets.json`, and `.github/workflows/monitor.yml`. Replacing `state.json` with `{}` intentionally creates a fresh baseline and sends a new baseline summary on the next manual run.
+
 This project monitors selected Cineplex theatre and movie pages and posts alerts to a private Discord channel through a Discord incoming webhook.
 
 It currently includes:
@@ -154,9 +166,9 @@ The first normal run creates a baseline. It does not send alerts for listings th
 
 ## 4B. Cloud setup using GitHub Actions
 
-GitHub scheduled workflows can run as often as every five minutes, but GitHub warns scheduled jobs can sometimes be delayed during high load.
+GitHub scheduled workflows can run as often as every ten minutes, but GitHub warns scheduled jobs can sometimes be delayed during high load.
 
-For a five-minute monitor, use a **public repository** if you want standard GitHub-hosted Actions to be free. The webhook remains in GitHub Actions Secrets and is not placed in the files. A private repository consumes included Actions minutes and a five-minute browser workflow can exceed the included monthly quota.
+For a ten-minute monitor, use a **public repository** if you want standard GitHub-hosted Actions to be free. The webhook remains in GitHub Actions Secrets and is not placed in the files. A private repository consumes included Actions minutes and a ten-minute browser workflow can exceed the included monthly quota.
 
 ### Create the repository
 
