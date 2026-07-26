@@ -1,0 +1,63 @@
+{
+  "settings": {
+    "page_wait_ms": 8000,
+    "request_timeout_seconds": 30,
+    "alert_on_first_run": false,
+    "send_error_alerts": true
+  },
+  "targets": [
+    {
+      "name": "Cineplex Cinemas Kitchener and VIP",
+      "type": "theatre",
+      "url": "https://www.cineplex.com/theatre/cineplex-cinemas-kitchener-and-vip",
+      "watch_keywords": [
+        "advance tickets available",
+        "get tickets",
+        "vip",
+        "imax",
+        "70mm",
+        "4dx",
+        "ultraavx"
+      ]
+    },
+    {
+      "name": "Cineplex Cinemas Vaughan",
+      "type": "theatre",
+      "url": "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan",
+      "watch_keywords": [
+        "advance tickets available",
+        "get tickets",
+        "imax",
+        "70mm",
+        "4dx",
+        "ultraavx"
+      ]
+    },
+    {
+      "name": "Cineplex Cinemas Mississauga Square One",
+      "type": "theatre",
+      "url": "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one",
+      "watch_keywords": [
+        "advance tickets available",
+        "get tickets",
+        "imax",
+        "70mm",
+        "ultraavx"
+      ]
+    },
+    {
+      "name": "The Odyssey - IMAX 70mm",
+      "type": "movie",
+      "url": "https://www.cineplex.com/movie/imax70-the-odyssey-the-imax-experience-in-7",
+      "watch_keywords": [
+        "get tickets",
+        "advance tickets available",
+        "imax",
+        "70mm",
+        "vaughan",
+        "mississauga",
+        "square one"
+      ]
+    }
+  ]
+}
