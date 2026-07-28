@@ -3,7 +3,7 @@
     "name": "Cineplex Cinemas Kitchener and VIP",
     "type": "theatre",
     "hash": "e193cf23c61a940368e5c59d6ae3d866236f9122daf1c3784a38d866719230e2",
-    "checked_at_utc": "2026-07-28T11:35:13.194558+00:00",
+    "checked_at_utc": "2026-07-28T13:16:52.327939+00:00",
     "snapshot": {
       "ticket_available": true,
       "relevant_lines": [],
@@ -14,7 +14,7 @@
     "name": "Cineplex Cinemas Cambridge",
     "type": "theatre",
     "hash": "e193cf23c61a940368e5c59d6ae3d866236f9122daf1c3784a38d866719230e2",
-    "checked_at_utc": "2026-07-28T11:35:18.837955+00:00",
+    "checked_at_utc": "2026-07-28T13:16:58.133986+00:00",
     "snapshot": {
       "ticket_available": true,
       "relevant_lines": [],
@@ -25,7 +25,7 @@
     "name": "Cineplex Cinemas Vaughan",
     "type": "theatre",
     "hash": "e193cf23c61a940368e5c59d6ae3d866236f9122daf1c3784a38d866719230e2",
-    "checked_at_utc": "2026-07-28T11:35:23.984838+00:00",
+    "checked_at_utc": "2026-07-28T13:17:03.830892+00:00",
     "snapshot": {
       "ticket_available": true,
       "relevant_lines": [],
@@ -36,7 +36,7 @@
     "name": "Cineplex Cinemas Mississauga Square One",
     "type": "theatre",
     "hash": "e193cf23c61a940368e5c59d6ae3d866236f9122daf1c3784a38d866719230e2",
-    "checked_at_utc": "2026-07-28T11:35:29.855534+00:00",
+    "checked_at_utc": "2026-07-28T13:17:09.746427+00:00",
     "snapshot": {
       "ticket_available": true,
       "relevant_lines": [],
@@ -47,7 +47,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "hash": "253d5b6843feadd39e7c122152186f763fcb22ce5bac30be6bdc676624893e72",
-    "checked_at_utc": "2026-07-28T11:35:35.851744+00:00",
+    "checked_at_utc": "2026-07-28T13:17:15.380594+00:00",
     "snapshot": {
       "ticket_available": false,
       "relevant_lines": [],
@@ -318,7 +318,7 @@
     "name": "Spider-Man: Brand New Day",
     "type": "movie",
     "hash": "aab24e921f13d4c4fc625b980436c8252f8bf3a1d24478f6606350a79612ad98",
-    "checked_at_utc": "2026-07-28T11:35:41.213424+00:00",
+    "checked_at_utc": "2026-07-28T13:17:20.804817+00:00",
     "snapshot": {
       "ticket_available": true,
       "relevant_lines": []
@@ -328,7 +328,7 @@
     "name": "The End of Oak Street",
     "type": "movie",
     "hash": "aab24e921f13d4c4fc625b980436c8252f8bf3a1d24478f6606350a79612ad98",
-    "checked_at_utc": "2026-07-28T11:35:46.676984+00:00",
+    "checked_at_utc": "2026-07-28T13:17:27.166228+00:00",
     "snapshot": {
       "ticket_available": true,
       "relevant_lines": []
@@ -338,7 +338,7 @@
     "name": "PAW Patrol: The Dino Movie",
     "type": "movie",
     "hash": "8e900c62036e97b1139c0dbdf99e0715c94d5e4bc43b82fe5f1bfb272216bd21",
-    "checked_at_utc": "2026-07-28T11:35:52.398639+00:00",
+    "checked_at_utc": "2026-07-28T13:17:32.891647+00:00",
     "snapshot": {
       "ticket_available": false,
       "relevant_lines": []
@@ -348,7 +348,7 @@
     "name": "Insidious: Out of the Further",
     "type": "movie",
     "hash": "8e900c62036e97b1139c0dbdf99e0715c94d5e4bc43b82fe5f1bfb272216bd21",
-    "checked_at_utc": "2026-07-28T11:35:58.034833+00:00",
+    "checked_at_utc": "2026-07-28T13:17:38.246908+00:00",
     "snapshot": {
       "ticket_available": false,
       "relevant_lines": []
@@ -358,7 +358,7 @@
     "name": "Mutiny",
     "type": "movie",
     "hash": "8e900c62036e97b1139c0dbdf99e0715c94d5e4bc43b82fe5f1bfb272216bd21",
-    "checked_at_utc": "2026-07-28T11:36:03.567891+00:00",
+    "checked_at_utc": "2026-07-28T13:17:43.955593+00:00",
     "snapshot": {
       "ticket_available": false,
       "relevant_lines": []
@@ -368,7 +368,7 @@
     "name": "Coyote vs Acme",
     "type": "movie",
     "hash": "8e900c62036e97b1139c0dbdf99e0715c94d5e4bc43b82fe5f1bfb272216bd21",
-    "checked_at_utc": "2026-07-28T11:36:08.993155+00:00",
+    "checked_at_utc": "2026-07-28T13:17:49.791183+00:00",
     "snapshot": {
       "ticket_available": false,
       "relevant_lines": []
@@ -378,7 +378,7 @@
     "name": "The Dog Stars",
     "type": "movie",
     "hash": "8e900c62036e97b1139c0dbdf99e0715c94d5e4bc43b82fe5f1bfb272216bd21",
-    "checked_at_utc": "2026-07-28T11:36:14.490671+00:00",
+    "checked_at_utc": "2026-07-28T13:17:55.270223+00:00",
     "snapshot": {
       "ticket_available": false,
       "relevant_lines": []
@@ -388,7 +388,7 @@
     "name": "Practical Magic 2",
     "type": "movie",
     "hash": "8e900c62036e97b1139c0dbdf99e0715c94d5e4bc43b82fe5f1bfb272216bd21",
-    "checked_at_utc": "2026-07-28T11:36:19.998199+00:00",
+    "checked_at_utc": "2026-07-28T13:18:00.972101+00:00",
     "snapshot": {
       "ticket_available": false,
       "relevant_lines": []
@@ -398,7 +398,7 @@
     "name": "Resident Evil",
     "type": "movie",
     "hash": "8e900c62036e97b1139c0dbdf99e0715c94d5e4bc43b82fe5f1bfb272216bd21",
-    "checked_at_utc": "2026-07-28T11:36:30.367881+00:00",
+    "checked_at_utc": "2026-07-28T13:18:06.944553+00:00",
     "snapshot": {
       "ticket_available": false,
       "relevant_lines": []
@@ -408,7 +408,7 @@
     "name": "Digger",
     "type": "movie",
     "hash": "8e900c62036e97b1139c0dbdf99e0715c94d5e4bc43b82fe5f1bfb272216bd21",
-    "checked_at_utc": "2026-07-28T11:36:35.856578+00:00",
+    "checked_at_utc": "2026-07-28T13:18:12.458233+00:00",
     "snapshot": {
       "ticket_available": false,
       "relevant_lines": []
@@ -418,7 +418,7 @@
     "name": "The Social Reckoning",
     "type": "movie",
     "hash": "8e900c62036e97b1139c0dbdf99e0715c94d5e4bc43b82fe5f1bfb272216bd21",
-    "checked_at_utc": "2026-07-28T11:36:41.330829+00:00",
+    "checked_at_utc": "2026-07-28T13:18:17.884099+00:00",
     "snapshot": {
       "ticket_available": false,
       "relevant_lines": []
@@ -428,7 +428,7 @@
     "name": "Street Fighter",
     "type": "movie",
     "hash": "8e900c62036e97b1139c0dbdf99e0715c94d5e4bc43b82fe5f1bfb272216bd21",
-    "checked_at_utc": "2026-07-28T11:36:46.775067+00:00",
+    "checked_at_utc": "2026-07-28T13:18:23.399179+00:00",
     "snapshot": {
       "ticket_available": false,
       "relevant_lines": []
@@ -438,7 +438,7 @@
     "name": "Clayface",
     "type": "movie",
     "hash": "8e900c62036e97b1139c0dbdf99e0715c94d5e4bc43b82fe5f1bfb272216bd21",
-    "checked_at_utc": "2026-07-28T11:36:52.322832+00:00",
+    "checked_at_utc": "2026-07-28T13:18:29.177401+00:00",
     "snapshot": {
       "ticket_available": false,
       "relevant_lines": []
@@ -448,7 +448,7 @@
     "name": "Cat in the Hat",
     "type": "movie",
     "hash": "8e900c62036e97b1139c0dbdf99e0715c94d5e4bc43b82fe5f1bfb272216bd21",
-    "checked_at_utc": "2026-07-28T11:36:57.782093+00:00",
+    "checked_at_utc": "2026-07-28T13:18:34.939470+00:00",
     "snapshot": {
       "ticket_available": false,
       "relevant_lines": []
@@ -458,7 +458,7 @@
     "name": "Godzilla Minus Zero",
     "type": "movie",
     "hash": "8e900c62036e97b1139c0dbdf99e0715c94d5e4bc43b82fe5f1bfb272216bd21",
-    "checked_at_utc": "2026-07-28T11:37:03.542373+00:00",
+    "checked_at_utc": "2026-07-28T13:18:40.630317+00:00",
     "snapshot": {
       "ticket_available": false,
       "relevant_lines": []
@@ -468,7 +468,7 @@
     "name": "The Hunger Games: Sunrise on the Reaping",
     "type": "movie",
     "hash": "8e900c62036e97b1139c0dbdf99e0715c94d5e4bc43b82fe5f1bfb272216bd21",
-    "checked_at_utc": "2026-07-28T11:37:09.353579+00:00",
+    "checked_at_utc": "2026-07-28T13:18:46.481756+00:00",
     "snapshot": {
       "ticket_available": false,
       "relevant_lines": []
@@ -478,7 +478,7 @@
     "name": "Violent Night 2",
     "type": "movie",
     "hash": "8e900c62036e97b1139c0dbdf99e0715c94d5e4bc43b82fe5f1bfb272216bd21",
-    "checked_at_utc": "2026-07-28T11:37:15.243495+00:00",
+    "checked_at_utc": "2026-07-28T13:18:52.297201+00:00",
     "snapshot": {
       "ticket_available": false,
       "relevant_lines": []
@@ -488,7 +488,7 @@
     "name": "Avengers: Doomsday",
     "type": "movie",
     "hash": "aab24e921f13d4c4fc625b980436c8252f8bf3a1d24478f6606350a79612ad98",
-    "checked_at_utc": "2026-07-28T11:37:20.648925+00:00",
+    "checked_at_utc": "2026-07-28T13:18:57.663917+00:00",
     "snapshot": {
       "ticket_available": true,
       "relevant_lines": []
@@ -498,7 +498,7 @@
     "name": "Dune: Part 3",
     "type": "movie",
     "hash": "aab24e921f13d4c4fc625b980436c8252f8bf3a1d24478f6606350a79612ad98",
-    "checked_at_utc": "2026-07-28T11:37:26.614436+00:00",
+    "checked_at_utc": "2026-07-28T13:19:03.072176+00:00",
     "snapshot": {
       "ticket_available": true,
       "relevant_lines": []
@@ -508,7 +508,7 @@
     "name": "The Angry Birds Movie 3",
     "type": "movie",
     "hash": "8e900c62036e97b1139c0dbdf99e0715c94d5e4bc43b82fe5f1bfb272216bd21",
-    "checked_at_utc": "2026-07-28T11:37:32.277974+00:00",
+    "checked_at_utc": "2026-07-28T13:19:08.667849+00:00",
     "snapshot": {
       "ticket_available": false,
       "relevant_lines": []
@@ -518,7 +518,7 @@
     "name": "Jumanji: Open World",
     "type": "movie",
     "hash": "8e900c62036e97b1139c0dbdf99e0715c94d5e4bc43b82fe5f1bfb272216bd21",
-    "checked_at_utc": "2026-07-28T11:37:37.771791+00:00",
+    "checked_at_utc": "2026-07-28T13:19:14.194149+00:00",
     "snapshot": {
       "ticket_available": false,
       "relevant_lines": []
@@ -528,7 +528,7 @@
     "name": "Werwulf",
     "type": "movie",
     "hash": "8e900c62036e97b1139c0dbdf99e0715c94d5e4bc43b82fe5f1bfb272216bd21",
-    "checked_at_utc": "2026-07-28T11:37:43.369101+00:00",
+    "checked_at_utc": "2026-07-28T13:19:19.698790+00:00",
     "snapshot": {
       "ticket_available": false,
       "relevant_lines": []
