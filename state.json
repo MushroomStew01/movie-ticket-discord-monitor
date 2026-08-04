@@ -474,9 +474,9 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 3,
-    "hash": "bb34250a4a0a18bd82d03ba11abfb7ecbe8b6202bad302ffe308b356502c33f1",
+    "hash": "519089100c729c11a1def1a7866341b9c5edbc94122c3045ac5521cd86b750fb",
     "snapshot": {
-      "page_title": "Cineplex: Watch Movies on the Big Screen",
+      "page_title": "",
       "final_url": "https://www.cineplex.com/",
       "ticket_available": true,
       "ticket_phrases": [],
@@ -500,6 +500,8 @@
         "VIP"
       ],
       "relevant_lines": [
+        "Cineplex Cinemas Oakville and VIP",
+        "Cineplex Odeon Westmount Cinemas and VIP",
         "Advance tickets",
         "AUG 7",
         "AUG 14",
@@ -1042,15 +1044,23 @@
   "https://www.cineplex.com/movie/digger": {
     "name": "Digger",
     "type": "movie",
-    "hash": "8e900c62036e97b1139c0dbdf99e0715c94d5e4bc43b82fe5f1bfb272216bd21",
-    "checked_at_utc": "2026-08-04T21:43:49.967870+00:00",
+    "snapshot_version": 3,
+    "hash": "44e2faac9e4c5d1b71bca6a4b86b430f192fadd113b37b549f8a4e9b3c19d515",
     "snapshot": {
+      "page_title": "Digger",
+      "final_url": "https://www.cineplex.com/movie/digger",
       "ticket_available": false,
-      "relevant_lines": []
+      "ticket_phrases": [],
+      "showtimes": [],
+      "dates": [
+        "October 2"
+      ],
+      "formats": [],
+      "relevant_lines": [
+        "October 2, 2026"
+      ]
     },
-    "consecutive_failures": 2,
-    "last_error": "RuntimeError: The page returned too little readable content.",
-    "last_error_at_utc": "2026-08-04T22:26:41.678956+00:00"
+    "sent_event_ids": []
   },
   "https://www.cineplex.com/movie/the-social-reckoning": {
     "name": "The Social Reckoning",
@@ -1181,15 +1191,23 @@
   "https://www.cineplex.com/movie/violent-night-2": {
     "name": "Violent Night 2",
     "type": "movie",
-    "hash": "8e900c62036e97b1139c0dbdf99e0715c94d5e4bc43b82fe5f1bfb272216bd21",
-    "checked_at_utc": "2026-08-04T21:44:28.933996+00:00",
+    "snapshot_version": 3,
+    "hash": "d31cd2cfd4359f301433a277e3596f84004d42f3fb8bdb52bc235646f572add5",
     "snapshot": {
+      "page_title": "Violent Night 2",
+      "final_url": "https://www.cineplex.com/movie/violent-night-2",
       "ticket_available": false,
-      "relevant_lines": []
+      "ticket_phrases": [],
+      "showtimes": [],
+      "dates": [
+        "December 4"
+      ],
+      "formats": [],
+      "relevant_lines": [
+        "December 4, 2026"
+      ]
     },
-    "consecutive_failures": 2,
-    "last_error": "RuntimeError: The page returned too little readable content.",
-    "last_error_at_utc": "2026-08-04T22:28:24.958158+00:00"
+    "sent_event_ids": []
   },
   "https://www.cineplex.com/movie/avengers-doomsday": {
     "name": "Avengers: Doomsday",
