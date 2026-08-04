@@ -1,6 +1,7 @@
 import sys
 import unittest
 from pathlib import Path
+from unittest.mock import patch
 
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
@@ -96,6 +97,122 @@ class DetectorRegressionTests(unittest.TestCase):
             priority_formats=(),
         )
         self.assertEqual(events, [])
+
+    def test_showtime_values_are_normalized_and_deduplicated(self):
+        self.assertEqual(
+            monitor.extract_showtimes("7:00 p.m. 10:15 PM 7:00 PM"),
+            ["10:15 PM", "7:00 PM"],
+        )
+
+    def test_new_priority_showtime_creates_inventory_event(self):
+        previous = {
+            "movies": {
+                "title:dune-part-3": {
+                    "title": "Dune: Part 3",
+                    "showtimes": ["7:00 PM"],
+                    "dates": ["Dec 18"],
+                    "formats": ["IMAX"],
+                }
+            }
+        }
+        current = {
+            "movies": {
+                "title:dune-part-3": {
+                    "title": "Dune: Part 3",
+                    "showtimes": ["3:30 PM", "7:00 PM"],
+                    "dates": ["Dec 18"],
+                    "formats": ["IMAX"],
+                }
+            }
+        }
+        events = monitor.compare_snapshots(
+            previous,
+            current,
+            target_name="Cineplex Cinemas Vaughan",
+            target_type="theatre",
+            priority_titles=("Dune: Part 3",),
+            priority_formats=("IMAX", "70MM"),
+        )
+        self.assertEqual(len(events), 1)
+        self.assertIn("showtime inventory", events[0]["title"])
+        self.assertIn("3:30 PM", events[0]["description"])
+
+    def test_theatre_text_fallback_attaches_showtimes_to_movie(self):
+        body = """
+        Movies
+        Dune: Part 3
+        IMAX 70MM
+        Friday December 18
+        3:30 PM
+        7:00 p.m.
+        Menu Offers
+        """
+        movies = monitor.extract_text_movies(body, {})
+        dune = next(movie for movie in movies.values() if movie["title"] == "Dune: Part 3")
+        self.assertEqual(dune["showtimes"], ["3:30 PM", "7:00 PM"])
+        self.assertEqual(dune["formats"], ["70MM", "IMAX"])
+        self.assertTrue(dune["ticket_available"])
+
+    def test_priority_movie_added_to_theatre_is_explicit(self):
+        current_movie = {
+            "title": "Dune: Part 3",
+            "ticket_available": True,
+            "showtimes": ["7:00 PM"],
+            "dates": ["Dec 18"],
+            "formats": ["IMAX"],
+            "url": "https://www.cineplex.com/movie/dune-part-3",
+        }
+        events = monitor.compare_snapshots(
+            {"movies": {}},
+            {"movies": {"dune": current_movie}},
+            target_name="Cineplex Cinemas Kitchener and VIP",
+            target_type="theatre",
+            priority_titles=("Dune: Part 3",),
+            priority_formats=("IMAX",),
+        )
+        self.assertEqual(len(events), 1)
+        self.assertIn("added to this theatre", events[0]["title"])
+
+    def test_target_collection_retries_transient_render_failure(self):
+        class FakePage:
+            def __init__(self):
+                self.closed = False
+
+            def close(self):
+                self.closed = True
+
+        class FakeContext:
+            def __init__(self):
+                self.pages = []
+
+            def new_page(self):
+                page = FakePage()
+                self.pages.append(page)
+                return page
+
+        context = FakeContext()
+        target = monitor.Target("Digger", "movie", "https://www.cineplex.com/movie/digger", (), 0)
+        with (
+            patch.object(monitor, "open_target"),
+            patch.object(
+                monitor,
+                "collect_snapshot",
+                side_effect=[RuntimeError("blank"), RuntimeError("blank"), {"page_title": "Digger"}],
+            ),
+            patch.object(monitor.time, "sleep"),
+        ):
+            snapshot = monitor.collect_target_with_retry(
+                context,
+                target,
+                wait_ms=0,
+                timeout_seconds=1,
+                scroll_passes=1,
+                attempts=3,
+                retry_wait_ms=0,
+            )
+        self.assertEqual(snapshot["page_title"], "Digger")
+        self.assertEqual(len(context.pages), 3)
+        self.assertTrue(all(page.closed for page in context.pages))
 
 
 if __name__ == "__main__":
