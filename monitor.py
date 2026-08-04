@@ -562,18 +562,18 @@ def format_movies(
         title = movie.get("title") or key
         priority = is_priority_movie(title, movie, priority_titles, priority_formats)
         has_priority = has_priority or priority
-        marker = "ðŸš¨" if priority else "â€¢"
+        marker = "🚨" if priority else "•"
         status: list[str] = []
         if movie_available(movie):
             status.append("tickets")
         if movie.get("formats"):
             status.append(", ".join(movie["formats"]))
-        suffix = f" â€” {', '.join(status)}" if status else ""
+        suffix = f" — {', '.join(status)}" if status else ""
         href = movie.get("url")
         label = f"[{title}]({href})" if href else f"**{title}**"
         lines.append(f"{marker} {label}{suffix}")
     if len(entries) > 20:
-        lines.append(f"â€¢ â€¦and {len(entries) - 20} more")
+        lines.append(f"• …and {len(entries) - 20} more")
     return "\n".join(lines), has_priority
 
 
@@ -597,7 +597,7 @@ def compare_snapshots(
         )
         events.append(
             {
-                "title": "ðŸš¨ Priority movie listing detected" if has_priority else "New movie listing detected",
+                "title": "🚨 Priority movie listing detected" if has_priority else "New movie listing detected",
                 "description": description,
                 "color": 0xE74C3C if has_priority else 0xE67E22,
             }
@@ -614,7 +614,7 @@ def compare_snapshots(
         )
         events.append(
             {
-                "title": "ðŸš¨ Priority tickets may now be available" if has_priority else "Tickets may now be available",
+                "title": "🚨 Priority tickets may now be available" if has_priority else "Tickets may now be available",
                 "description": description,
                 "color": 0xE74C3C if has_priority else 0xE67E22,
             }
@@ -627,10 +627,10 @@ def compare_snapshots(
         phrases = current.get("ticket_phrases", [])
         description = "The movie page now shows a ticket-purchase option."
         if phrases:
-            description += "\n\n" + "\n".join(f"â€¢ {line[:300]}" for line in phrases[:8])
+            description += "\n\n" + "\n".join(f"• {line[:300]}" for line in phrases[:8])
         events.append(
             {
-                "title": "ðŸš¨ Priority presale detected" if target_is_priority else "Ticket status changed",
+                "title": "🚨 Priority presale detected" if target_is_priority else "Ticket status changed",
                 "description": description,
                 "color": 0xE74C3C if target_is_priority else 0xE67E22,
             }
@@ -647,8 +647,8 @@ def compare_snapshots(
         if meaningful:
             events.append(
                 {
-                    "title": "ðŸš¨ Priority ticket/showtime change" if target_is_priority else "New ticket or showtime text detected",
-                    "description": "\n".join(f"â€¢ {line[:300]}" for line in meaningful[:12]),
+                    "title": "🚨 Priority ticket/showtime change" if target_is_priority else "New ticket or showtime text detected",
+                    "description": "\n".join(f"• {line[:300]}" for line in meaningful[:12]),
                     "color": 0xE74C3C if target_is_priority else 0xE67E22,
                 }
             )
@@ -710,9 +710,9 @@ def initial_availability_description(target: Target, snapshot: dict[str, Any]) -
     movies = snapshot.get("movies", {})
     available = [movie for movie in movies.values() if movie_available(movie)]
     if available:
-        detail = "\n".join(f"  â€¢ {movie.get('title', 'Unknown movie')}" for movie in available[:8])
-        return f"â€¢ **[{target.name}]({target.url})**\n{detail}"
-    return f"â€¢ **[{target.name}]({target.url})** â€” ticket button visible"
+        detail = "\n".join(f"  • {movie.get('title', 'Unknown movie')}" for movie in available[:8])
+        return f"• **[{target.name}]({target.url})**\n{detail}"
+    return f"• **[{target.name}]({target.url})** — ticket button visible"
 
 
 def baseline_summary(entries: list[tuple[Target, dict[str, Any]]]) -> str:
@@ -722,9 +722,9 @@ def baseline_summary(entries: list[tuple[Target, dict[str, Any]]]) -> str:
             status = "tickets visible" if snapshot.get("ticket_available") else "no ticket button yet"
         else:
             status = f"{len(snapshot.get('movies', {}))} movies parsed"
-        lines.append(f"â€¢ **{target.name}** â€” {status}")
+        lines.append(f"• **{target.name}** — {status}")
     if len(entries) > 30:
-        lines.append(f"â€¢ â€¦and {len(entries) - 30} more")
+        lines.append(f"• …and {len(entries) - 30} more")
     return "\n".join(lines)
 
 
@@ -733,7 +733,7 @@ def run_monitor(*, test_alert: bool = False) -> int:
     if test_alert:
         discord_post(
             webhook,
-            title="âœ… Movie ticket monitor connected",
+            title="✅ Movie ticket monitor connected",
             description="Discord delivery and retry handling are working.",
             user_id=user_id,
             color=0x3498DB,
@@ -806,7 +806,7 @@ def run_monitor(*, test_alert: bool = False) -> int:
                     if previous_failures:
                         discord_post(
                             webhook,
-                            title=f"âœ… Monitor recovered: {target.name}",
+                            title=f"✅ Monitor recovered: {target.name}",
                             description=f"The target is readable again after {previous_failures} failed check(s).",
                             url=target.url,
                             color=0x2ECC71,
@@ -847,7 +847,7 @@ def run_monitor(*, test_alert: bool = False) -> int:
                         state[target.url] = entry
                         discord_post(
                             webhook,
-                            title=f"ðŸŽŸï¸ {event['title']}: {target.name}",
+                            title=f"🎟️ {event['title']}: {target.name}",
                             description=event["description"],
                             url=target.url,
                             user_id=user_id,
@@ -883,7 +883,7 @@ def run_monitor(*, test_alert: bool = False) -> int:
                         try:
                             discord_post(
                                 webhook,
-                                title=f"âš ï¸ Monitor error: {target.name}",
+                                title=f"⚠️ Monitor error: {target.name}",
                                 description=(
                                     f"Check **{failures}** failed. The last known-good snapshot was preserved.\n\n"
                                     f"`{type(exc).__name__}: {str(exc)[:1300]}`"
@@ -913,7 +913,7 @@ def run_monitor(*, test_alert: bool = False) -> int:
             )
             discord_post(
                 webhook,
-                title=f"ðŸš¨ Tickets already available on {len(pending)} newly added target(s)",
+                title=f"🚨 Tickets already available on {len(pending)} newly added target(s)",
                 description=description,
                 user_id=user_id,
                 color=0xE74C3C,
@@ -928,7 +928,7 @@ def run_monitor(*, test_alert: bool = False) -> int:
         try:
             discord_post(
                 webhook,
-                title=f"âœ… Baseline created for {len(baseline_entries)} new target(s)",
+                title=f"✅ Baseline created for {len(baseline_entries)} new target(s)",
                 description=baseline_summary(baseline_entries),
                 color=0x3498DB,
             )
@@ -971,7 +971,7 @@ def main() -> int:
             try:
                 discord_post(
                     webhook,
-                    title="ðŸš¨ Fatal movie-monitor error",
+                    title="🚨 Fatal movie-monitor error",
                     description=f"`{type(exc).__name__}: {str(exc)[:1500]}`",
                     user_id=user_id if user_id.isdigit() else "",
                     color=0xE74C3C,
