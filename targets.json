@@ -8,7 +8,8 @@
     "alert_available_on_first_seen": true,
     "send_baseline_summary": true,
     "send_error_alerts": true,
-    "error_alert_every": 6
+    "error_alert_every": 6,
+    "heartbeat_interval_hours": 24
   },
   "priority_formats": [
     "IMAX",
@@ -208,12 +209,14 @@
       "name": "Dune: Part 3",
       "type": "movie",
       "url": "https://www.cineplex.com/movie/dune-part-3",
+      "alert_available_on_first_seen": false,
       "watch_keywords": ["get advance tickets", "get tickets", "imax", "70mm", "ultraavx"]
     },
     {
       "name": "Dune: Part 3 — IMAX 70MM",
       "type": "movie",
       "url": "https://www.cineplex.com/movie/imax70-dune-part-3-the-imax-experience-in-70m",
+      "alert_available_on_first_seen": false,
       "watch_keywords": ["get advance tickets", "get tickets", "imax", "70mm"]
     },
     {

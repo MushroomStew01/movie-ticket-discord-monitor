@@ -25,7 +25,8 @@ ROOT = Path(__file__).resolve().parent
 CONFIG_PATH = ROOT / "targets.json"
 STATE_PATH = ROOT / "state.json"
 LOG_PATH = ROOT / "monitor.log"
-SNAPSHOT_VERSION = 3
+ARTIFACT_DIR = ROOT / "artifacts"
+SNAPSHOT_VERSION = 4
 
 logging.basicConfig(
     level=logging.INFO,
@@ -85,6 +86,7 @@ class Target:
     url: str
     watch_keywords: tuple[str, ...]
     min_movies: int
+    alert_available_on_first_seen: bool | None = None
 
 
 def utc_now() -> str:
@@ -191,6 +193,54 @@ def priority_match(title: str, priority_titles: tuple[str, ...]) -> str | None:
 def stable_hash(value: Any) -> str:
     raw = json.dumps(value, sort_keys=True, ensure_ascii=False, separators=(",", ":"))
     return hashlib.sha256(raw.encode("utf-8")).hexdigest()
+
+
+def event_id_for_transition(target_url: str, event: dict[str, Any], revision: int) -> str:
+    return stable_hash(
+        {
+            "target": target_url,
+            "transition_revision": revision,
+            "title": event["title"],
+            "description": event["description"],
+        }
+    )
+
+
+def canonical_movie_key(title: str) -> str:
+    """Return a stable key that does not depend on Cineplex link markup."""
+    normalized = normalize_title(title)
+    return f"title:{normalized.replace(' ', '-')}" if normalized else ""
+
+
+def canonicalize_movies(movies: dict[str, dict[str, Any]]) -> dict[str, dict[str, Any]]:
+    """Merge duplicate cards and key movies by title instead of transient URLs."""
+    canonical: dict[str, dict[str, Any]] = {}
+    for source_key, source_movie in movies.items():
+        movie = copy.deepcopy(source_movie)
+        title = normalize_space(str(movie.get("title", "")))
+        key = canonical_movie_key(title)
+        if not key:
+            LOGGER.warning("Ignoring movie card without a usable title: %s", source_key)
+            continue
+        movie["title"] = title
+        movie["formats"] = sorted(set(movie.get("formats", [])))
+        movie["showtimes"] = sorted(set(movie.get("showtimes", [])))
+        movie["dates"] = sorted(set(movie.get("dates", [])))
+        movie["ticket_available"] = movie_available(movie)
+
+        existing = canonical.get(key)
+        if existing is None:
+            canonical[key] = movie
+            continue
+
+        existing["ticket_available"] = movie_available(existing) or movie_available(movie)
+        for field in ("formats", "showtimes", "dates"):
+            existing[field] = sorted(set(existing.get(field, [])) | set(movie.get(field, [])))
+        if not existing.get("url") and movie.get("url"):
+            existing["url"] = movie["url"]
+        if len(str(movie.get("context", ""))) > len(str(existing.get("context", ""))):
+            existing["context"] = movie["context"]
+    return dict(sorted(canonical.items()))
 
 
 def get_environment() -> tuple[str, str]:
@@ -610,6 +660,39 @@ def extract_text_movies(body_text: str, existing: dict[str, dict[str, Any]]) -> 
     return movies
 
 
+def safe_artifact_name(value: str) -> str:
+    slug = re.sub(r"[^a-z0-9]+", "-", normalize_title(value)).strip("-")
+    return slug[:80] or "target"
+
+
+def save_failure_artifacts(page: Page, target: Target, attempt: int, exc: Exception) -> None:
+    """Keep bounded diagnostics for the final failed attempt only."""
+    stamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+    prefix = ARTIFACT_DIR / f"{safe_artifact_name(target.name)}-{stamp}"
+    try:
+        ARTIFACT_DIR.mkdir(parents=True, exist_ok=True)
+        metadata = {
+            "target": target.name,
+            "target_url": target.url,
+            "final_url": getattr(page, "url", ""),
+            "attempt": attempt,
+            "error": f"{type(exc).__name__}: {exc}",
+            "captured_at_utc": utc_now(),
+        }
+        save_json(prefix.with_suffix(".json"), metadata)
+        try:
+            prefix.with_suffix(".html").write_text(page.content(), encoding="utf-8")
+        except Exception as content_exc:
+            LOGGER.warning("Could not save failure HTML for %s: %s", target.name, content_exc)
+        try:
+            page.screenshot(path=str(prefix.with_suffix(".png")), full_page=True, timeout=15_000)
+        except Exception as screenshot_exc:
+            LOGGER.warning("Could not save failure screenshot for %s: %s", target.name, screenshot_exc)
+        LOGGER.info("Saved failure diagnostics with prefix %s", prefix)
+    except Exception as artifact_exc:
+        LOGGER.warning("Could not save failure diagnostics for %s: %s", target.name, artifact_exc)
+
+
 def collect_snapshot(page: Page, target: Target) -> dict[str, Any]:
     body = main_text(page, target.name)
     lines = normalized_lines(body)
@@ -667,7 +750,8 @@ def collect_snapshot(page: Page, target: Target) -> dict[str, Any]:
             raise RuntimeError(
                 f"Parser found only {len(movies)} movie(s); expected at least {target.min_movies}."
             )
-        snapshot["movies"] = dict(sorted(movies.items()))
+        movies = canonicalize_movies(movies)
+        snapshot["movies"] = movies
         snapshot["ticket_available"] = any(movie_available(movie) for movie in movies.values())
     else:
         phrases = [line for line in lines if TICKET_PATTERN.search(line)]
@@ -703,6 +787,8 @@ def collect_target_with_retry(
         except Exception as exc:
             last_error = exc
             if attempt >= attempts:
+                if page is not None:
+                    save_failure_artifacts(page, target, attempt, exc)
                 raise
             LOGGER.warning(
                 "Attempt %s/%s failed for %s: %s: %s; retrying",
@@ -929,6 +1015,11 @@ def parse_targets(config: dict[str, Any]) -> tuple[dict[str, Any], list[Target]]
                     if normalize_space(str(keyword))
                 ),
                 min_movies=max(0, int(item.get("min_movies", default_min))),
+                alert_available_on_first_seen=(
+                    bool(item["alert_available_on_first_seen"])
+                    if "alert_available_on_first_seen" in item
+                    else None
+                ),
             )
         )
     if not targets:
@@ -936,7 +1027,13 @@ def parse_targets(config: dict[str, Any]) -> tuple[dict[str, Any], list[Target]]
     return settings, targets
 
 
-def make_entry(target: Target, snapshot: dict[str, Any], sent_ids: list[str] | None = None) -> dict[str, Any]:
+def make_entry(
+    target: Target,
+    snapshot: dict[str, Any],
+    sent_ids: list[str] | None = None,
+    *,
+    revision: int = 0,
+) -> dict[str, Any]:
     return {
         "name": target.name,
         "type": target.type,
@@ -944,7 +1041,24 @@ def make_entry(target: Target, snapshot: dict[str, Any], sent_ids: list[str] | N
         "hash": stable_hash(snapshot),
         "snapshot": snapshot,
         "sent_event_ids": (sent_ids or [])[-200:],
+        "revision": max(0, revision),
     }
+
+
+def heartbeat_due(meta: dict[str, Any], interval_hours: int, now: datetime | None = None) -> bool:
+    if interval_hours <= 0:
+        return False
+    current = now or datetime.now(timezone.utc)
+    raw = str(meta.get("last_heartbeat_at_utc", ""))
+    if not raw:
+        return True
+    try:
+        previous = datetime.fromisoformat(raw.replace("Z", "+00:00"))
+        if previous.tzinfo is None:
+            previous = previous.replace(tzinfo=timezone.utc)
+    except ValueError:
+        return True
+    return (current - previous).total_seconds() >= interval_hours * 3600
 
 
 def initial_availability_description(target: Target, snapshot: dict[str, Any]) -> str:
@@ -995,6 +1109,7 @@ def run_monitor(*, test_alert: bool = False) -> int:
     send_error_alerts = bool(settings.get("send_error_alerts", True))
     alert_available_on_first_seen = bool(settings.get("alert_available_on_first_seen", True))
     error_alert_every = max(2, int(settings.get("error_alert_every", 6)))
+    heartbeat_interval_hours = max(0, int(settings.get("heartbeat_interval_hours", 24)))
     priority_titles = tuple(normalize_space(value) for value in config.get("priority_titles", []))
     priority_formats = tuple(normalize_space(value) for value in config.get("priority_formats", []))
 
@@ -1002,6 +1117,7 @@ def run_monitor(*, test_alert: bool = False) -> int:
     any_failure = False
     successful_urls: set[str] = set()
     baseline_entries: list[tuple[Target, dict[str, Any]]] = []
+    baseline_summary_sent = False
     target_by_url = {target.url: target for target in targets}
 
     with sync_playwright() as playwright:
@@ -1028,7 +1144,12 @@ def run_monitor(*, test_alert: bool = False) -> int:
                         LOGGER.info("Baseline created: %s", target.name)
                         baseline_entries.append((target, snapshot))
                         entry = make_entry(target, snapshot)
-                        if alert_available_on_first_seen and snapshot.get("ticket_available"):
+                        first_seen_alert = (
+                            target.alert_available_on_first_seen
+                            if target.alert_available_on_first_seen is not None
+                            else alert_available_on_first_seen
+                        )
+                        if first_seen_alert and snapshot.get("ticket_available"):
                             entry["pending_first_alert"] = True
                         state[target.url] = entry
                         continue
@@ -1041,6 +1162,7 @@ def run_monitor(*, test_alert: bool = False) -> int:
                             target,
                             snapshot,
                             list(previous.get("sent_event_ids", [])),
+                            revision=int(previous.get("revision", 0)),
                         )
                         continue
 
@@ -1074,14 +1196,13 @@ def run_monitor(*, test_alert: bool = False) -> int:
                         priority_titles=priority_titles,
                         priority_formats=priority_formats,
                     )
+                    transition_revision = int(previous.get("revision", 0)) + 1
                     sent_ids = list(entry.get("sent_event_ids", []))
                     for event in events:
-                        event_id = stable_hash(
-                            {
-                                "target": target.url,
-                                "title": event["title"],
-                                "description": event["description"],
-                            }
+                        event_id = event_id_for_transition(
+                            target.url,
+                            event,
+                            transition_revision,
                         )
                         if event_id in sent_ids:
                             LOGGER.info("Skipping already-delivered event: %s", event["title"])
@@ -1106,7 +1227,12 @@ def run_monitor(*, test_alert: bool = False) -> int:
                         LOGGER.info("Processed %s alert event(s): %s", len(events), target.name)
                     else:
                         LOGGER.info("Validated change without a ticket event: %s", target.name)
-                    updated = make_entry(target, snapshot, sent_ids)
+                    updated = make_entry(
+                        target,
+                        snapshot,
+                        sent_ids,
+                        revision=transition_revision,
+                    )
                     state[target.url] = updated
                 except Exception as exc:
                     any_failure = True
@@ -1174,9 +1300,33 @@ def run_monitor(*, test_alert: bool = False) -> int:
                 description=baseline_summary(baseline_entries),
                 color=0x3498DB,
             )
+            baseline_summary_sent = True
         except Exception:
             any_failure = True
             LOGGER.exception("Could not send the baseline summary.")
+
+    meta = state.get("_meta")
+    if not isinstance(meta, dict):
+        meta = {}
+        state["_meta"] = meta
+    if baseline_summary_sent:
+        # The baseline message already confirms that the monitor is healthy.
+        meta["last_heartbeat_at_utc"] = utc_now()
+    elif any_success and not any_failure and heartbeat_due(meta, heartbeat_interval_hours):
+        try:
+            discord_post(
+                webhook,
+                title="✅ Movie monitor heartbeat",
+                description=(
+                    f"The monitor completed successfully and checked **{len(successful_urls)}** "
+                    "Cineplex target(s). Change alerts remain active."
+                ),
+                color=0x3498DB,
+            )
+            meta["last_heartbeat_at_utc"] = utc_now()
+        except Exception:
+            any_failure = True
+            LOGGER.exception("Could not send the monitor heartbeat.")
 
     if state != original_state:
         save_json(STATE_PATH, state)

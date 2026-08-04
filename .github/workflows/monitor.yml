@@ -4,6 +4,12 @@ run-name: Movie Ticket Monitor — ${{ github.event_name }}
 
 on:
   workflow_dispatch:
+    inputs:
+      send_test_alert:
+        description: "Send a Discord connection test before monitoring"
+        required: false
+        type: boolean
+        default: false
   schedule:
     # GitHub scheduled workflows are best-effort. These off-hour minutes reduce
     # contention, but they do not guarantee an exact ten-minute interval.
@@ -30,10 +36,10 @@ jobs:
           echo "UTC time: $(date -u)"
 
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version: "3.12"
           cache: pip
@@ -49,11 +55,8 @@ jobs:
       - name: Validate configuration
         run: python monitor.py --validate-config
 
-      - name: Run parser regression tests
-        run: python -m unittest discover -s tests -v
-
-      - name: Test Discord on manual runs
-        if: github.event_name == 'workflow_dispatch'
+      - name: Test Discord when requested
+        if: github.event_name == 'workflow_dispatch' && inputs.send_test_alert
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           DISCORD_USER_ID: ${{ secrets.DISCORD_USER_ID }}
@@ -69,6 +72,15 @@ jobs:
           code=$?
           echo "MONITOR_EXIT_CODE=$code" >> "$GITHUB_ENV"
           exit 0
+
+      - name: Upload failure diagnostics
+        if: always() && env.MONITOR_EXIT_CODE != '0'
+        uses: actions/upload-artifact@v6
+        with:
+          name: cineplex-failure-diagnostics-${{ github.run_id }}
+          path: artifacts/
+          if-no-files-found: ignore
+          retention-days: 7
 
       - name: Save meaningful monitor state
         run: |

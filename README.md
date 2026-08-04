@@ -1,29 +1,33 @@
 # Movie Ticket Discord Monitor
 
-## Version 2 additions
+## Version 4 reliability improvements
 
-- A manual GitHub Actions run now sends an immediate Discord test notification before checking Cineplex.
-- The first normal run sends one baseline summary instead of silently creating the baseline.
-- Added Cineplex Cinemas Cambridge.
-- Continues monitoring Kitchener VIP, Vaughan, and Mississauga Square One.
-- Added a national Cineplex listing monitor.
-- Added direct page monitoring for the major remaining 2026 blockbuster and franchise releases listed in `targets.json`.
-- Priority titles are marked with a red urgent Discord alert.
+- Stable title-based movie identities prevent false “new movie” alerts when Cineplex changes links or card markup.
+- A showtime that disappears and later returns can alert again; delivery deduplication still protects retries of the same transition.
+- Failed targets preserve HTML, screenshot, and metadata diagnostics for the GitHub Actions run.
+- A blue Discord health heartbeat is sent every 24 hours after a successful run.
+- Parser tests run in a separate CI workflow instead of slowing every scheduled production check.
+- Dune: Part 3 and its IMAX 70MM page silently baseline their already-available ticket status.
+- Windows webhook secrets are loaded from an ignored local file and cannot be committed accidentally.
 
-When replacing an older version in GitHub, upload `monitor.py`, `targets.json`, and `.github/workflows/monitor.yml`. Replacing `state.json` with `{}` intentionally creates a fresh baseline and sends a new baseline summary on the next manual run.
+Replacing `state.json` with `{}` intentionally creates a fresh baseline. Existing availability is summarized, except targets configured with `"alert_available_on_first_seen": false`.
 
 This project monitors selected Cineplex theatre and movie pages and posts alerts to a private Discord channel through a Discord incoming webhook.
 
 It currently includes:
 
 - Cineplex Cinemas Kitchener and VIP
+- Cineplex Cinemas Cambridge
 - Cineplex Cinemas Vaughan
 - Cineplex Cinemas Mississauga Square One
+- Cineplex Cinemas Hamilton Mountain
 - The Odyssey IMAX 70mm movie page
 - Detection of newly added movie links
 - Detection when ticket wording appears
 - Detection of new ticket/showtime-related text
 - Optional direct Discord mention using your Discord User ID
+
+Important: Cineplex theatre and movie landing pages do not always expose individual session times. The monitor alerts on exact showtime/date/format additions whenever those values are present in readable page content, but it does not claim a showtime that the page did not expose. It never purchases, reserves, or holds seats.
 
 ## 1. Create a private Discord server
 
@@ -87,7 +91,7 @@ The ID contains digits only, for example:
 
 ## 4A. Recommended free setup on your Windows computer
 
-This method can check every two minutes. Your computer must be powered on and connected to the internet.
+The task requests a check every two minutes, but overlapping runs are skipped. The effective interval is therefore the previous scan time plus up to two minutes. Your computer must be powered on and connected to the internet.
 
 ### Install Python
 
@@ -111,30 +115,16 @@ Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
 .\setup_windows.ps1
 ```
 
-### Enter your webhook URL
+### Enter your webhook URL safely
 
-Open both of these files in Notepad:
-
-- `run_monitor_windows.ps1`
-- `test_discord_windows.ps1`
-
-Replace:
-
-```powershell
-$env:DISCORD_WEBHOOK_URL = "PASTE_YOUR_DISCORD_WEBHOOK_URL_HERE"
-```
-
-with your complete URL, for example:
+Copy `secrets.ps1.example` to `secrets.ps1`. Edit only `secrets.ps1` and paste your complete webhook URL:
 
 ```powershell
 $env:DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/123456789012345678/your_private_token"
-```
-
-Optional: paste your numeric User ID:
-
-```powershell
 $env:DISCORD_USER_ID = "123456789012345678"
 ```
+
+`secrets.ps1` is ignored by Git. Do not put the real webhook in `run_monitor_windows.ps1`, `test_discord_windows.ps1`, or any committed file.
 
 ### Test Discord
 
@@ -229,19 +219,7 @@ DISCORD_USER_ID
 4. Select the green **Run workflow** button.
 5. Open the workflow run and inspect each step.
 
-For a webhook-only test, temporarily edit the workflow Run monitor step from:
-
-```yaml
-python monitor.py
-```
-
-to:
-
-```yaml
-python monitor.py --test-alert
-```
-
-Run it once, confirm the Discord test message, then change it back.
+For a webhook-only test, start a manual workflow run and enable the **Send a Discord connection test before monitoring** checkbox. No workflow file edit is required.
 
 ## 5. Enable Discord phone notifications
 

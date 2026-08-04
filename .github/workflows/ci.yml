@@ -1,0 +1,54 @@
+name: Monitor CI
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "monitor.py"
+      - "targets.json"
+      - "requirements.txt"
+      - "tests/**"
+      - ".github/workflows/**"
+  pull_request:
+    paths:
+      - "monitor.py"
+      - "targets.json"
+      - "requirements.txt"
+      - "tests/**"
+      - ".github/workflows/**"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: monitor-ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install Python packages
+        env:
+          PIP_DISABLE_PIP_VERSION_CHECK: "1"
+        run: pip install -r requirements.txt
+
+      - name: Compile monitor
+        run: python -m py_compile monitor.py
+
+      - name: Validate configuration
+        run: python monitor.py --validate-config
+
+      - name: Run parser regression tests
+        run: python -m unittest discover -s tests -v

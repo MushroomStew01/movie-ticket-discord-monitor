@@ -27,4 +27,4 @@ Register-ScheduledTask `
     -Force
 
 Write-Host "Created scheduled task: $taskName"
-Write-Host "It will run every 2 minutes while this computer is powered on."
+Write-Host "It requests a run every 2 minutes while this computer is powered on; overlapping runs are skipped."

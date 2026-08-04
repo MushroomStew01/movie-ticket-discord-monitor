@@ -12,4 +12,4 @@ Write-Host "Installing the Playwright Chromium browser..."
 & .\.venv\Scripts\python.exe -m playwright install chromium
 
 Write-Host ""
-Write-Host "Setup complete. Next, edit run_monitor_windows.ps1 and paste your Discord webhook URL."
+Write-Host "Setup complete. Next, copy secrets.ps1.example to secrets.ps1 and add your Discord webhook URL."
