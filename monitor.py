@@ -24,7 +24,7 @@ ROOT = Path(__file__).resolve().parent
 CONFIG_PATH = ROOT / "targets.json"
 STATE_PATH = ROOT / "state.json"
 LOG_PATH = ROOT / "monitor.log"
-SNAPSHOT_VERSION = 2
+SNAPSHOT_VERSION = 3
 
 logging.basicConfig(
     level=logging.INFO,
@@ -390,6 +390,25 @@ def extract_formats(text: str) -> list[str]:
     return sorted({label for term, label in names.items() if term in lowered})
 
 
+def extract_showtimes(text: str) -> list[str]:
+    values: set[str] = set()
+    for match in TIME_PATTERN.finditer(text or ""):
+        value = normalize_space(match.group(0)).upper().replace(".", "")
+        value = re.sub(r"\s*([AP]M)$", r" \1", value)
+        values.add(value)
+    return sorted(values)
+
+
+def extract_dates(text: str) -> list[str]:
+    return sorted(
+        {
+            normalize_space(match.group(0)).title()
+            for match in DATE_PATTERN.finditer(text or "")
+            if normalize_space(match.group(0))
+        }
+    )
+
+
 def movie_available(movie: dict[str, Any]) -> bool:
     return bool(movie.get("ticket_available")) or movie.get("advance_tickets") == "True" or movie.get("get_tickets") == "True"
 
@@ -399,6 +418,8 @@ def movie_candidate(title: str, href: str, context: str) -> dict[str, Any]:
         "title": title,
         "ticket_available": TICKET_PATTERN.search(context) is not None,
         "formats": extract_formats(context),
+        "showtimes": extract_showtimes(context),
+        "dates": extract_dates(context),
         "context": normalize_space(context)[:1200],
         "url": href or None,
     }
@@ -407,11 +428,22 @@ def movie_candidate(title: str, href: str, context: str) -> dict[str, Any]:
 def extract_link_movies(page: Page, base_url: str) -> dict[str, dict[str, Any]]:
     raw_items = page.evaluate(
         """() => Array.from(document.querySelectorAll('main a[href*="/movie/"]')).map(a => {
-            const parent = a.closest('article, li, section, [data-testid*="movie"], div');
+            let node = a;
+            let bestText = (a.innerText || '').trim();
+            for (let depth = 0; node && depth < 8; depth += 1, node = node.parentElement) {
+                const movieLinks = Array.from(node.querySelectorAll('a[href*="/movie/"]'));
+                const uniqueMovies = new Set(movieLinks.map(link => {
+                    try { return new URL(link.href, document.baseURI).pathname; }
+                    catch (_) { return link.getAttribute('href') || ''; }
+                }));
+                if (uniqueMovies.size > 1) break;
+                const text = (node.innerText || '').trim();
+                if (text.length >= bestText.length && text.length <= 4000) bestText = text;
+            }
             return {
                 href: a.href || a.getAttribute('href') || '',
                 text: (a.innerText || a.getAttribute('aria-label') || a.getAttribute('title') || '').trim(),
-                context: parent ? (parent.innerText || '').trim() : ''
+                context: bestText
             };
         })"""
     )
@@ -451,20 +483,40 @@ def extract_text_movies(body_text: str, existing: dict[str, dict[str, Any]]) -> 
         if TICKET_PATTERN.search(line):
             if last_key is not None:
                 movies[last_key]["ticket_available"] = True
+                movies[last_key]["showtimes"] = sorted(
+                    set(movies[last_key].get("showtimes", [])) | set(extract_showtimes(line))
+                )
+                movies[last_key]["dates"] = sorted(
+                    set(movies[last_key].get("dates", [])) | set(extract_dates(line))
+                )
+                movies[last_key]["formats"] = sorted(
+                    set(movies[last_key].get("formats", [])) | set(extract_formats(line))
+                )
                 movies[last_key]["context"] = normalize_space(
                     f"{movies[last_key].get('context', '')} {line}"
                 )[:1200]
             continue
+        showtimes = extract_showtimes(line)
+        dates = extract_dates(line)
         formats = extract_formats(line)
-        if last_key is not None and formats and len(line) < 100:
-            movies[last_key]["formats"] = sorted(set(movies[last_key].get("formats", [])) | set(formats))
-            continue
-        if last_key is not None and (TIME_PATTERN.search(line) or DATE_PATTERN.fullmatch(line)):
+        if last_key is not None and (showtimes or dates):
+            movies[last_key]["showtimes"] = sorted(
+                set(movies[last_key].get("showtimes", [])) | set(showtimes)
+            )
+            movies[last_key]["dates"] = sorted(
+                set(movies[last_key].get("dates", [])) | set(dates)
+            )
+            movies[last_key]["formats"] = sorted(
+                set(movies[last_key].get("formats", [])) | set(formats)
+            )
             movies[last_key]["context"] = normalize_space(
                 f"{movies[last_key].get('context', '')} {line}"
             )[:1200]
-            if TIME_PATTERN.search(line):
+            if showtimes:
                 movies[last_key]["ticket_available"] = True
+            continue
+        if last_key is not None and formats and len(line) < 100:
+            movies[last_key]["formats"] = sorted(set(movies[last_key].get("formats", [])) | set(formats))
             continue
         if len(line) < 2 or len(line) > 180:
             continue
@@ -515,6 +567,9 @@ def collect_snapshot(page: Page, target: Target) -> dict[str, Any]:
         "final_url": final_url,
         "ticket_available": False,
         "ticket_phrases": [],
+        "showtimes": extract_showtimes(body),
+        "dates": extract_dates(body),
+        "formats": extract_formats(body),
         "relevant_lines": relevant_lines(body, target.watch_keywords),
     }
 
@@ -536,6 +591,51 @@ def collect_snapshot(page: Page, target: Target) -> dict[str, Any]:
         snapshot["ticket_available"] = bool(phrases)
 
     return snapshot
+
+
+def collect_target_with_retry(
+    context: BrowserContext,
+    target: Target,
+    *,
+    wait_ms: int,
+    timeout_seconds: int,
+    scroll_passes: int,
+    attempts: int,
+    retry_wait_ms: int,
+) -> dict[str, Any]:
+    last_error: Exception | None = None
+    for attempt in range(1, attempts + 1):
+        page: Page | None = None
+        try:
+            page = context.new_page()
+            open_target(
+                page,
+                target,
+                wait_ms=wait_ms,
+                timeout_seconds=timeout_seconds,
+                scroll_passes=scroll_passes,
+            )
+            return collect_snapshot(page, target)
+        except Exception as exc:
+            last_error = exc
+            if attempt >= attempts:
+                raise
+            LOGGER.warning(
+                "Attempt %s/%s failed for %s: %s: %s; retrying",
+                attempt,
+                attempts,
+                target.name,
+                type(exc).__name__,
+                exc,
+            )
+            time.sleep(max(0, retry_wait_ms) / 1000 * attempt)
+        finally:
+            if page is not None:
+                try:
+                    page.close()
+                except Exception:
+                    LOGGER.warning("Could not close a retry page for %s", target.name)
+    raise RuntimeError(f"Target failed without an exception: {target.name}") from last_error
 
 
 def is_priority_movie(
@@ -582,6 +682,7 @@ def compare_snapshots(
     current: dict[str, Any],
     *,
     target_name: str,
+    target_type: str = "generic",
     priority_titles: tuple[str, ...],
     priority_formats: tuple[str, ...],
 ) -> list[dict[str, Any]]:
@@ -597,7 +698,13 @@ def compare_snapshots(
         )
         events.append(
             {
-                "title": "🚨 Priority movie listing detected" if has_priority else "New movie listing detected",
+                "title": (
+                    "🚨 Priority movie added to this theatre"
+                    if has_priority and target_type == "theatre"
+                    else "🚨 Priority movie listing detected"
+                    if has_priority
+                    else "New movie listing detected"
+                ),
                 "description": description,
                 "color": 0xE74C3C if has_priority else 0xE67E22,
             }
@@ -620,6 +727,34 @@ def compare_snapshots(
             }
         )
 
+    inventory_lines: list[str] = []
+    for key in sorted(set(previous_movies) & set(current_movies)):
+        old_movie = previous_movies[key]
+        new_movie = current_movies[key]
+        title = new_movie.get("title") or key
+        if not is_priority_movie(title, new_movie, priority_titles, priority_formats):
+            continue
+        new_times = sorted(set(new_movie.get("showtimes", [])) - set(old_movie.get("showtimes", [])))
+        new_dates = sorted(set(new_movie.get("dates", [])) - set(old_movie.get("dates", [])))
+        new_formats = sorted(set(new_movie.get("formats", [])) - set(old_movie.get("formats", [])))
+        if not (new_times or new_dates or new_formats):
+            continue
+        inventory_lines.append(f"🚨 **{title}**")
+        if new_dates:
+            inventory_lines.append(f"  • New dates: {', '.join(new_dates[:8])}")
+        if new_times:
+            inventory_lines.append(f"  • New showtimes: {', '.join(new_times[:12])}")
+        if new_formats:
+            inventory_lines.append(f"  • New formats: {', '.join(new_formats[:8])}")
+    if inventory_lines:
+        events.append(
+            {
+                "title": "🚨 New priority showtime inventory",
+                "description": "\n".join(inventory_lines[:40]),
+                "color": 0xE74C3C,
+            }
+        )
+
     direct_ticket_transition = bool(current.get("ticket_available")) and not bool(
         previous.get("ticket_available")
     )
@@ -636,7 +771,29 @@ def compare_snapshots(
             }
         )
 
-    if not direct_ticket_transition and not availability_changes:
+    direct_inventory = False
+    if target_is_priority and not current_movies and not direct_ticket_transition:
+        new_times = sorted(set(current.get("showtimes", [])) - set(previous.get("showtimes", [])))
+        new_dates = sorted(set(current.get("dates", [])) - set(previous.get("dates", [])))
+        new_formats = sorted(set(current.get("formats", [])) - set(previous.get("formats", [])))
+        if new_times or new_dates or new_formats:
+            direct_inventory = True
+            parts: list[str] = []
+            if new_dates:
+                parts.append(f"• New dates: {', '.join(new_dates[:8])}")
+            if new_times:
+                parts.append(f"• New showtimes: {', '.join(new_times[:12])}")
+            if new_formats:
+                parts.append(f"• New formats: {', '.join(new_formats[:8])}")
+            events.append(
+                {
+                    "title": "🚨 New priority showtime inventory",
+                    "description": "\n".join(parts),
+                    "color": 0xE74C3C,
+                }
+            )
+
+    if not direct_ticket_transition and not availability_changes and not inventory_lines and not direct_inventory:
         old_lines = set(previous.get("relevant_lines", []))
         added_lines = [line for line in current.get("relevant_lines", []) if line not in old_lines]
         meaningful = [
@@ -748,6 +905,8 @@ def run_monitor(*, test_alert: bool = False) -> int:
     wait_ms = int(settings.get("page_wait_ms", 2500))
     timeout_seconds = int(settings.get("request_timeout_seconds", 45))
     scroll_passes = int(settings.get("scroll_passes", 8))
+    target_attempts = max(1, int(settings.get("target_attempts", 3)))
+    retry_wait_ms = max(0, int(settings.get("retry_wait_ms", 1500)))
     send_baseline_summary = bool(settings.get("send_baseline_summary", True))
     send_error_alerts = bool(settings.get("send_error_alerts", True))
     alert_available_on_first_seen = bool(settings.get("alert_available_on_first_seen", True))
@@ -766,16 +925,16 @@ def run_monitor(*, test_alert: bool = False) -> int:
         context = make_context(browser, timeout_seconds)
         try:
             for target in targets:
-                page = context.new_page()
                 try:
-                    open_target(
-                        page,
+                    snapshot = collect_target_with_retry(
+                        context,
                         target,
                         wait_ms=wait_ms,
                         timeout_seconds=timeout_seconds,
                         scroll_passes=scroll_passes,
+                        attempts=target_attempts,
+                        retry_wait_ms=retry_wait_ms,
                     )
-                    snapshot = collect_snapshot(page, target)
                     current_hash = stable_hash(snapshot)
                     previous = state.get(target.url)
                     any_success = True
@@ -827,6 +986,7 @@ def run_monitor(*, test_alert: bool = False) -> int:
                         previous.get("snapshot", {}),
                         snapshot,
                         target_name=target.name,
+                        target_type=target.type,
                         priority_titles=priority_titles,
                         priority_formats=priority_formats,
                     )
@@ -894,8 +1054,6 @@ def run_monitor(*, test_alert: bool = False) -> int:
                             )
                         except Exception:
                             LOGGER.exception("Could not send the Discord error alert.")
-                finally:
-                    page.close()
         finally:
             context.close()
             browser.close()

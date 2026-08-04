@@ -3,6 +3,8 @@
     "page_wait_ms": 2500,
     "request_timeout_seconds": 45,
     "scroll_passes": 8,
+    "target_attempts": 3,
+    "retry_wait_ms": 1500,
     "alert_available_on_first_seen": true,
     "send_baseline_summary": true,
     "send_error_alerts": true,

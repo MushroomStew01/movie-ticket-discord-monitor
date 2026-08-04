@@ -34,6 +34,9 @@ movie as a new listing.
 10. Stops changing `state.json` when nothing meaningful changed.
 11. Adds Hamilton Mountain, The Odyssey, Odyssey IMAX 70MM and Dune IMAX 70MM.
 12. Expands lazy-loaded listings and clicks `Show more` when available.
+13. Retries each Cineplex target up to three times before reporting a partial failure.
+14. Tracks new dates, showtimes and premium formats for priority movies.
+15. Explicitly alerts when Dune 3 or another priority movie appears at a newly monitored theatre.
 
 ## First deployment
 
