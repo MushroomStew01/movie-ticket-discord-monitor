@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 import copy
 import hashlib
+import html
 import json
 import logging
 import os
@@ -348,12 +349,87 @@ def open_target(
         expand_dynamic_content(page, scroll_passes)
 
 
-def main_text(page: Page) -> str:
+def html_to_readable_text(raw_html: str) -> str:
+    cleaned = re.sub(
+        r"<(?:script|style|noscript)\b[^>]*>.*?</(?:script|style|noscript)>",
+        " ",
+        raw_html or "",
+        flags=re.IGNORECASE | re.DOTALL,
+    )
+    cleaned = re.sub(r"</(?:p|div|section|article|li|h[1-6]|button|a|br)\s*>", "\n", cleaned, flags=re.IGNORECASE)
+    cleaned = re.sub(r"<[^>]+>", " ", cleaned)
+    return "\n".join(normalized_lines(html.unescape(cleaned)))
+
+
+def text_contains_title(text: str, expected_title: str) -> bool:
+    expected = normalize_title(expected_title)
+    actual = normalize_title(text)
+    return bool(expected and (expected in actual or title_matches(expected_title, text[:500])))
+
+
+def fetch_static_page_text(page: Page, expected_title: str) -> str:
     try:
-        # Do not normalize the complete text here; line boundaries are evidence.
-        return page.locator("main").inner_text(timeout=30_000)
-    except PlaywrightTimeoutError as exc:
-        raise RuntimeError("The main page content did not become readable.") from exc
+        user_agent = page.evaluate("() => navigator.userAgent")
+    except Exception:
+        user_agent = "Mozilla/5.0 MovieTicketMonitor/1.0"
+    try:
+        response = requests.get(
+            page.url,
+            headers={
+                "User-Agent": user_agent,
+                "Accept-Language": "en-CA,en;q=0.9",
+                "Accept": "text/html,application/xhtml+xml",
+            },
+            timeout=30,
+        )
+        response.raise_for_status()
+        parsed = html_to_readable_text(response.text[:5_000_000])
+        if len(normalize_space(parsed)) >= 80 and text_contains_title(parsed, expected_title):
+            LOGGER.info("Using server-rendered HTML fallback for %s", expected_title)
+            return parsed
+    except requests.RequestException as exc:
+        LOGGER.warning("Server-rendered fallback failed for %s: %s", expected_title, exc)
+    return ""
+
+
+def main_text(page: Page, expected_title: str = "") -> str:
+    candidates: list[tuple[str, str]] = []
+    try:
+        candidates.append(("main", page.locator("main").inner_text(timeout=30_000)))
+    except PlaywrightTimeoutError:
+        pass
+
+    main = candidates[0][1] if candidates else ""
+    if len(normalize_space(main)) >= 80 and (
+        not expected_title or text_contains_title(main, expected_title)
+    ):
+        return main
+
+    try:
+        candidates.append(("body", page.locator("body").inner_text(timeout=15_000)))
+    except PlaywrightTimeoutError:
+        pass
+
+    valid = [
+        (source, text)
+        for source, text in candidates
+        if len(normalize_space(text)) >= 80
+        and (not expected_title or text_contains_title(text, expected_title))
+    ]
+    if valid:
+        source, text = max(valid, key=lambda item: len(item[1]))
+        if source != "main":
+            LOGGER.info("Using full-body fallback for %s", expected_title or page.url)
+        return text
+
+    static_text = fetch_static_page_text(page, expected_title) if expected_title else ""
+    if static_text:
+        return static_text
+
+    longest = max(candidates, key=lambda item: len(item[1]), default=("", ""))[1]
+    if longest:
+        return longest
+    raise RuntimeError("The page content did not become readable.")
 
 
 def relevant_lines(body_text: str, keywords: tuple[str, ...]) -> list[str]:
@@ -535,7 +611,7 @@ def extract_text_movies(body_text: str, existing: dict[str, dict[str, Any]]) -> 
 
 
 def collect_snapshot(page: Page, target: Target) -> dict[str, Any]:
-    body = main_text(page)
+    body = main_text(page, target.name)
     lines = normalized_lines(body)
     lowered = normalize_space(body).casefold()
     if len(lowered) < 80:
@@ -550,11 +626,19 @@ def collect_snapshot(page: Page, target: Target) -> dict[str, Any]:
 
     h1 = ""
     try:
-        heading = page.locator("main h1")
-        if heading.count():
-            h1 = normalize_space(heading.first.inner_text(timeout=5000))
+        heading = page.locator("h1")
+        for index in range(min(heading.count(), 10)):
+            candidate = normalize_space(heading.nth(index).inner_text(timeout=5000))
+            if candidate and title_matches(target.name, candidate):
+                h1 = candidate
+                break
     except PlaywrightTimeoutError:
         pass
+
+    if not h1 and text_contains_title(body, target.name):
+        # Some Cineplex movie templates server-render the correct title but do
+        # not expose it through the hydrated main-region DOM on Linux runners.
+        h1 = target.name
 
     if target.type in {"movie", "theatre"}:
         if not h1:
