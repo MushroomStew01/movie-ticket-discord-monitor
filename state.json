@@ -474,7 +474,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 3,
-    "hash": "519089100c729c11a1def1a7866341b9c5edbc94122c3045ac5521cd86b750fb",
+    "hash": "2b6f519ff03edcd8f65bd423b0f65edcca7adc8deba831ec1eb627f137055e5e",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -501,7 +501,7 @@
       ],
       "relevant_lines": [
         "Cineplex Cinemas Oakville and VIP",
-        "Cineplex Odeon Westmount Cinemas and VIP",
+        "Cineplex Cinemas Winston Churchill & VIP",
         "Advance tickets",
         "AUG 7",
         "AUG 14",
