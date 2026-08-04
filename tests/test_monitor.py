@@ -104,6 +104,38 @@ class DetectorRegressionTests(unittest.TestCase):
             ["10:15 PM", "7:00 PM"],
         )
 
+    def test_html_fallback_removes_scripts_and_preserves_page_text(self):
+        raw = """
+        <html><body><script>fake Digger tickets</script>
+        <main><h1>Digger</h1><p>October 2, 2026</p></main></body></html>
+        """
+        text = monitor.html_to_readable_text(raw)
+        self.assertIn("Digger", text)
+        self.assertIn("October 2, 2026", text)
+        self.assertNotIn("fake Digger tickets", text)
+
+    def test_main_text_uses_body_when_main_is_blank(self):
+        class FakeLocator:
+            def __init__(self, text):
+                self.text = text
+
+            def inner_text(self, timeout):
+                return self.text
+
+        class FakePage:
+            url = "https://www.cineplex.com/movie/digger"
+
+            def locator(self, selector):
+                if selector == "main":
+                    return FakeLocator("Digger")
+                return FakeLocator(
+                    "Digger\nOctober 2, 2026\nLanguage\nEnglish\nMore Info\n"
+                    "Buy, share and refund tickets easily at Cineplex."
+                )
+
+        text = monitor.main_text(FakePage(), "Digger")
+        self.assertIn("October 2, 2026", text)
+
     def test_new_priority_showtime_creates_inventory_event(self):
         previous = {
             "movies": {
