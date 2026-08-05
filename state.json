@@ -489,7 +489,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "f953e064eae53525fad7a78c077fd7e527f5988461874badba1676aedff2a038",
+    "hash": "0511786aa4faf3f8d6d111b650a0e1e21364e08598f4973fdd11a4437576b079",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -515,8 +515,7 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Cinemas Oakville and VIP",
-        "Cineplex Odeon Westmount Cinemas and VIP",
+        "Cineplex Odeon McGillivray Cinemas and VIP",
         "Advance tickets",
         "AUG 7",
         "AUG 14",
@@ -530,6 +529,17 @@
         "What are UltraAVX, IMAX, VIP, 4DX, ScreenX and D-BOX?"
       ],
       "movies": {
+        "title:all-wishes-come-true-mandarin-w-chinese-and-e-s-t": {
+          "title": "All Wishes Come True! (Mandarin w/Chinese and e.s.t.)",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [
+            "Aug 14"
+          ],
+          "context": "Advance Tickets AUG 14 All Wishes Come True! (Mandarin w/Chinese and e.s.t.)",
+          "url": "https://www.cineplex.com/movie/all-wishes-come-true-mandarin-wchi"
+        },
         "title:arabic-khali-balak-min-nafsak-arabic-w-e-s-t": {
           "title": "Arabic Khali Balak Min Nafsak (Arabic w/e.s.t.)",
           "ticket_available": false,
@@ -676,17 +686,6 @@
           "dates": [],
           "context": "Moana Watch trailer",
           "url": "https://www.cineplex.com/movie/moana-2026"
-        },
-        "title:mr-hero-vietnamese-w-e-s-t": {
-          "title": "Mr. Hero (Vietnamese w/e.s.t.)",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [
-            "Aug 7"
-          ],
-          "context": "Advance Tickets AUG 7 Mr. Hero (Vietnamese w/e.s.t.) Watch trailer",
-          "url": "https://www.cineplex.com/movie/mr-hero-vietnamese-west"
         },
         "title:nimrods-a-green-day-comedy": {
           "title": "Nimrods: A Green Day Comedy",
@@ -860,9 +859,10 @@
       }
     },
     "sent_event_ids": [
-      "197bab6d463b825ab918ef1258199a47e1139b6b7acf6635d2f883294660c886"
+      "197bab6d463b825ab918ef1258199a47e1139b6b7acf6635d2f883294660c886",
+      "871e5530e06a6c14edaedbc162f1fadc8925faa88e63a9be5de7332ab55880f6"
     ],
-    "revision": 0
+    "revision": 1
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
