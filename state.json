@@ -498,7 +498,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "0e4cf34f3468bc92c762c165a0c7b24d5c935438942b79ee6bb4ff927c68da52",
+    "hash": "c36e99eff50338d14a9fe43690a7efaa03429be7ea25b4cd6dd37fd1893a6037",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -525,8 +525,7 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Cinemas Oakville and VIP",
-        "Cineplex Odeon Westmount Cinemas and VIP",
+        "Cineplex Odeon McGillivray Cinemas and VIP",
         "Advance tickets",
         "AUG 7",
         "AUG 14",
@@ -795,7 +794,7 @@
           "dates": [
             "Aug 7"
           ],
-          "context": "Advance tickets AUG 7 Super Troopers 3",
+          "context": "Advance tickets AUG 7 Super Troopers 3 Watch trailer",
           "url": "https://www.cineplex.com/movie/super-troopers-3"
         },
         "title:the-end-of-oak-street": {
@@ -889,7 +888,7 @@
       "871e5530e06a6c14edaedbc162f1fadc8925faa88e63a9be5de7332ab55880f6",
       "d1fd2ec41cd5b6fe0a33da489b2186e16cd1338352aa39b11da8d4afd42d7ba7"
     ],
-    "revision": 8
+    "revision": 9
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
