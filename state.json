@@ -2,8 +2,8 @@
   "https://www.cineplex.com/theatre/cineplex-cinemas-kitchener-and-vip": {
     "name": "Cineplex Cinemas Kitchener and VIP",
     "type": "theatre",
-    "snapshot_version": 3,
-    "hash": "d82b1d0ccc20f9bd235c25b6e478ab3c0a8832647e6f56bef2b19a412e90927f",
+    "snapshot_version": 4,
+    "hash": "596434e8c2d8a0d6424e824994dc942ea0948ea0e1608c212907b13b7a391b02",
     "snapshot": {
       "page_title": "Cineplex Cinemas Kitchener and VIP",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-kitchener-and-vip",
@@ -22,7 +22,7 @@
         "Tuesdays taste better in Cineplex VIP. Enjoy TACOS & TEQUILA every Tuesday with $5 Tacos and 10$ Select Tequila Drinks"
       ],
       "movies": {
-        "title:avengers doomsday": {
+        "title:avengers-doomsday": {
           "title": "Avengers: Doomsday",
           "ticket_available": true,
           "formats": [],
@@ -31,7 +31,7 @@
           "context": "Avengers: Doomsday Advance tickets available",
           "url": null
         },
-        "title:katseye wild hearts": {
+        "title:katseye-wild-hearts": {
           "title": "KATSEYE: WILD HEARTS",
           "ticket_available": true,
           "formats": [],
@@ -40,7 +40,7 @@
           "context": "KATSEYE: WILD HEARTS Advance tickets available",
           "url": null
         },
-        "title:minions and monsters": {
+        "title:minions-and-monsters": {
           "title": "Minions & Monsters",
           "ticket_available": false,
           "formats": [],
@@ -58,7 +58,7 @@
           "context": "Moana",
           "url": null
         },
-        "title:six the musical live": {
+        "title:six-the-musical-live": {
           "title": "SIX: THE MUSICAL LIVE!",
           "ticket_available": true,
           "formats": [],
@@ -67,7 +67,7 @@
           "context": "SIX: THE MUSICAL LIVE! Advance tickets available",
           "url": null
         },
-        "title:spider man brand new day": {
+        "title:spider-man-brand-new-day": {
           "title": "Spider-Man: Brand New Day",
           "ticket_available": false,
           "formats": [],
@@ -76,7 +76,7 @@
           "context": "Spider-Man: Brand New Day",
           "url": null
         },
-        "title:the end of oak street": {
+        "title:the-end-of-oak-street": {
           "title": "The End of Oak Street",
           "ticket_available": true,
           "formats": [],
@@ -85,7 +85,7 @@
           "context": "The End of Oak Street Advance tickets available",
           "url": null
         },
-        "title:the odyssey": {
+        "title:the-odyssey": {
           "title": "The Odyssey",
           "ticket_available": false,
           "formats": [],
@@ -94,7 +94,7 @@
           "context": "The Odyssey",
           "url": null
         },
-        "title:toy story 5": {
+        "title:toy-story-5": {
           "title": "Toy Story 5",
           "ticket_available": false,
           "formats": [],
@@ -105,13 +105,14 @@
         }
       }
     },
-    "sent_event_ids": []
+    "sent_event_ids": [],
+    "revision": 0
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge": {
     "name": "Cineplex Cinemas Cambridge",
     "type": "theatre",
-    "snapshot_version": 3,
-    "hash": "a6162a6a1a85c21561f8a1495431ccfcc1f7dc98b18a74b2d6acc1dec37cd7b3",
+    "snapshot_version": 4,
+    "hash": "8085488aeebeec88797fdaf66336947ec88353ab670a862e06f3c1d9cd00ec6f",
     "snapshot": {
       "page_title": "Cineplex Cinemas Cambridge",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge",
@@ -125,7 +126,7 @@
         "Advance tickets available"
       ],
       "movies": {
-        "title:andr rieu s 2026 summer concert viva maastricht": {
+        "title:andr-rieu-s-2026-summer-concert-viva-maastricht": {
           "title": "André Rieu's 2026 Summer Concert: Viva Maastricht!",
           "ticket_available": true,
           "formats": [],
@@ -134,16 +135,7 @@
           "context": "André Rieu's 2026 Summer Concert: Viva Maastricht! Advance tickets available",
           "url": null
         },
-        "title:cos fan tutte mozart italian w e s t metropolitan opera": {
-          "title": "Così fan tutte (Mozart) Italian w/e.s.t. – Metropolitan Opera",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Così fan tutte (Mozart) Italian w/e.s.t. – Metropolitan Opera Advance tickets available",
-          "url": null
-        },
-        "title:evil dead burn": {
+        "title:evil-dead-burn": {
           "title": "Evil Dead Burn",
           "ticket_available": false,
           "formats": [],
@@ -152,16 +144,16 @@
           "context": "Evil Dead Burn",
           "url": null
         },
-        "title:macbeth verdi italian w e s t metropolitan opera": {
-          "title": "Macbeth (Verdi) Italian w/e.s.t. – Metropolitan Opera",
+        "title:ice-cream-man": {
+          "title": "Ice Cream Man",
           "ticket_available": true,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Macbeth (Verdi) Italian w/e.s.t. – Metropolitan Opera Advance tickets available",
+          "context": "Ice Cream Man Advance tickets available",
           "url": null
         },
-        "title:minions and monsters": {
+        "title:minions-and-monsters": {
           "title": "Minions & Monsters",
           "ticket_available": false,
           "formats": [],
@@ -179,7 +171,7 @@
           "context": "Moana",
           "url": null
         },
-        "title:one night only": {
+        "title:one-night-only": {
           "title": "One Night Only",
           "ticket_available": true,
           "formats": [],
@@ -188,7 +180,16 @@
           "context": "One Night Only Advance tickets available",
           "url": null
         },
-        "title:spider man brand new day": {
+        "title:paw-patrol-the-dino-movie": {
+          "title": "Paw Patrol: The Dino Movie",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Paw Patrol: The Dino Movie Advance tickets available",
+          "url": null
+        },
+        "title:spider-man-brand-new-day": {
           "title": "Spider-Man: Brand New Day",
           "ticket_available": false,
           "formats": [],
@@ -197,7 +198,16 @@
           "context": "Spider-Man: Brand New Day",
           "url": null
         },
-        "title:the odyssey": {
+        "title:super-troopers-3": {
+          "title": "Super Troopers 3",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Super Troopers 3 Advance tickets available",
+          "url": null
+        },
+        "title:the-odyssey": {
           "title": "The Odyssey",
           "ticket_available": false,
           "formats": [],
@@ -206,7 +216,7 @@
           "context": "The Odyssey",
           "url": null
         },
-        "title:toy story 5": {
+        "title:toy-story-5": {
           "title": "Toy Story 5",
           "ticket_available": false,
           "formats": [],
@@ -214,25 +224,17 @@
           "dates": [],
           "context": "Toy Story 5",
           "url": null
-        },
-        "title:twenty years of the met in cinemas an anniversary celebration captured english w e s t metropolitan opera": {
-          "title": "Twenty Years of the Met in Cinemas: An Anniversary Celebration (Captured) English w/e.s.t - Metropolitan Opera",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Twenty Years of the Met in Cinemas: An Anniversary Celebration (Captured) English w/e.s.t - Metropolitan Opera Advance tickets available",
-          "url": null
         }
       }
     },
-    "sent_event_ids": []
+    "sent_event_ids": [],
+    "revision": 0
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan": {
     "name": "Cineplex Cinemas Vaughan",
     "type": "theatre",
-    "snapshot_version": 3,
-    "hash": "66b469184312a1fb81b12e84fc75b7c8919ca39dfa084428a9f0240c3e7695b9",
+    "snapshot_version": 4,
+    "hash": "c64f9aca318429c516a43b8b1b147efbb56939e089038ef1d2c7fd71ae60d544",
     "snapshot": {
       "page_title": "Cineplex Cinemas Vaughan",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan",
@@ -246,7 +248,7 @@
         "Advance tickets available"
       ],
       "movies": {
-        "title:evil dead burn": {
+        "title:evil-dead-burn": {
           "title": "Evil Dead Burn",
           "ticket_available": false,
           "formats": [],
@@ -255,7 +257,7 @@
           "context": "Evil Dead Burn",
           "url": null
         },
-        "title:i want your sex": {
+        "title:i-want-your-sex": {
           "title": "I Want Your Sex",
           "ticket_available": false,
           "formats": [],
@@ -264,7 +266,7 @@
           "context": "I Want Your Sex",
           "url": null
         },
-        "title:ice cream man": {
+        "title:ice-cream-man": {
           "title": "Ice Cream Man",
           "ticket_available": true,
           "formats": [],
@@ -273,7 +275,7 @@
           "context": "Ice Cream Man Advance tickets available",
           "url": null
         },
-        "title:minions and monsters": {
+        "title:minions-and-monsters": {
           "title": "Minions & Monsters",
           "ticket_available": false,
           "formats": [],
@@ -300,7 +302,7 @@
           "context": "Obsession",
           "url": null
         },
-        "title:one night only": {
+        "title:one-night-only": {
           "title": "One Night Only",
           "ticket_available": true,
           "formats": [],
@@ -309,7 +311,7 @@
           "context": "One Night Only Advance tickets available",
           "url": null
         },
-        "title:spider man brand new day": {
+        "title:spider-man-brand-new-day": {
           "title": "Spider-Man: Brand New Day",
           "ticket_available": false,
           "formats": [],
@@ -318,7 +320,7 @@
           "context": "Spider-Man: Brand New Day",
           "url": null
         },
-        "title:the end of oak street": {
+        "title:the-end-of-oak-street": {
           "title": "The End of Oak Street",
           "ticket_available": true,
           "formats": [],
@@ -327,7 +329,7 @@
           "context": "The End of Oak Street Advance tickets available",
           "url": null
         },
-        "title:the odyssey": {
+        "title:the-odyssey": {
           "title": "The Odyssey",
           "ticket_available": false,
           "formats": [],
@@ -336,7 +338,7 @@
           "context": "The Odyssey",
           "url": null
         },
-        "title:toy story 5": {
+        "title:toy-story-5": {
           "title": "Toy Story 5",
           "ticket_available": false,
           "formats": [],
@@ -347,13 +349,14 @@
         }
       }
     },
-    "sent_event_ids": []
+    "sent_event_ids": [],
+    "revision": 0
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one": {
     "name": "Cineplex Cinemas Mississauga Square One",
     "type": "theatre",
-    "snapshot_version": 3,
-    "hash": "e69a69c49f6c51ef307b5f0c3386a3b36236d5da76c2ef9cf23ead83f92d1f47",
+    "snapshot_version": 4,
+    "hash": "9c876f06311653dfd0f3b6dd5430baa40c4e5002e76286a97e64b54caca3ba06",
     "snapshot": {
       "page_title": "Cineplex Cinemas Mississauga Square One",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one",
@@ -367,7 +370,7 @@
         "Advance tickets available"
       ],
       "movies": {
-        "title:evil dead burn": {
+        "title:evil-dead-burn": {
           "title": "Evil Dead Burn",
           "ticket_available": false,
           "formats": [],
@@ -376,7 +379,7 @@
           "context": "Evil Dead Burn",
           "url": null
         },
-        "title:khali balak min nafsak arabic w e s t": {
+        "title:khali-balak-min-nafsak-arabic-w-e-s-t": {
           "title": "Khali Balak Min Nafsak (Arabic w/e.s.t.)",
           "ticket_available": false,
           "formats": [],
@@ -385,7 +388,7 @@
           "context": "Khali Balak Min Nafsak (Arabic w/e.s.t.)",
           "url": null
         },
-        "title:minions and monsters": {
+        "title:minions-and-monsters": {
           "title": "Minions & Monsters",
           "ticket_available": false,
           "formats": [],
@@ -412,7 +415,7 @@
           "context": "Obsession",
           "url": null
         },
-        "title:one night only": {
+        "title:one-night-only": {
           "title": "One Night Only",
           "ticket_available": true,
           "formats": [],
@@ -421,7 +424,7 @@
           "context": "One Night Only Advance tickets available",
           "url": null
         },
-        "title:six the musical live": {
+        "title:six-the-musical-live": {
           "title": "SIX: THE MUSICAL LIVE!",
           "ticket_available": true,
           "formats": [],
@@ -430,7 +433,7 @@
           "context": "SIX: THE MUSICAL LIVE! Advance tickets available",
           "url": null
         },
-        "title:spider man brand new day": {
+        "title:spider-man-brand-new-day": {
           "title": "Spider-Man: Brand New Day",
           "ticket_available": false,
           "formats": [],
@@ -439,7 +442,7 @@
           "context": "Spider-Man: Brand New Day",
           "url": null
         },
-        "title:super troopers 3 special broken lizard fan event": {
+        "title:super-troopers-3-special-broken-lizard-fan-event": {
           "title": "Super Troopers 3: Special Broken Lizard Fan Event",
           "ticket_available": true,
           "formats": [],
@@ -448,7 +451,7 @@
           "context": "Super Troopers 3: Special Broken Lizard Fan Event Advance tickets available",
           "url": null
         },
-        "title:the odyssey": {
+        "title:the-odyssey": {
           "title": "The Odyssey",
           "ticket_available": false,
           "formats": [],
@@ -457,7 +460,7 @@
           "context": "The Odyssey",
           "url": null
         },
-        "title:toy story 5": {
+        "title:toy-story-5": {
           "title": "Toy Story 5",
           "ticket_available": false,
           "formats": [],
@@ -468,13 +471,14 @@
         }
       }
     },
-    "sent_event_ids": []
+    "sent_event_ids": [],
+    "revision": 0
   },
   "https://www.cineplex.com/en?theatresNearYou=true": {
     "name": "Cineplex national movie listings",
     "type": "listing",
-    "snapshot_version": 3,
-    "hash": "83fc21d573268224c7a1370ed4edab94f6030b3193706354d99a228933b057df",
+    "snapshot_version": 4,
+    "hash": "f953e064eae53525fad7a78c077fd7e527f5988461874badba1676aedff2a038",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -500,8 +504,8 @@
         "VIP"
       ],
       "relevant_lines": [
+        "Cineplex Cinemas Oakville and VIP",
         "Cineplex Odeon Westmount Cinemas and VIP",
-        "Cineplex Cinemas Kitchener and VIP",
         "Advance tickets",
         "AUG 7",
         "AUG 14",
@@ -515,7 +519,25 @@
         "What are UltraAVX, IMAX, VIP, 4DX, ScreenX and D-BOX?"
       ],
       "movies": {
-        "https://www.cineplex.com/movie/ateez-light-the-way-in-cinemas-korean-west": {
+        "title:arabic-khali-balak-min-nafsak-arabic-w-e-s-t": {
+          "title": "Arabic Khali Balak Min Nafsak (Arabic w/e.s.t.)",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Arabic Khali Balak Min Nafsak (Arabic w/e.s.t.)",
+          "url": "https://www.cineplex.com/movie/khali-balak-min-nafsak-arabic-west"
+        },
+        "title:arabic-sakr-w-canaria-arabic-w-e-s-t": {
+          "title": "Arabic Sakr w Canaria (Arabic w/e.s.t)",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Arabic Sakr w Canaria (Arabic w/e.s.t)",
+          "url": "https://www.cineplex.com/movie/sakr-w-canaria-arabic-west"
+        },
+        "title:ateez-light-the-way-in-cinemas-korean-w-e-s-t": {
           "title": "ATEEZ : LIGHT THE WAY IN CINEMAS (Korean w.e.s.t.)",
           "ticket_available": true,
           "formats": [],
@@ -526,34 +548,7 @@
           "context": "Advance tickets AUG 6 ATEEZ : LIGHT THE WAY IN CINEMAS (Korean w.e.s.t.)",
           "url": "https://www.cineplex.com/movie/ateez-light-the-way-in-cinemas-korean-west"
         },
-        "https://www.cineplex.com/movie/bhai-tera-star-hai-hindi-west": {
-          "title": "Hindi Bhai Tera Star Hai (Hindi w/e.s.t.)",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Hindi Bhai Tera Star Hai (Hindi w/e.s.t.)",
-          "url": "https://www.cineplex.com/movie/bhai-tera-star-hai-hindi-west"
-        },
-        "https://www.cineplex.com/movie/dastaar-punjabi-west": {
-          "title": "Punjabi Dastaar (Punjabi w/e.s.t.)",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Punjabi Dastaar (Punjabi w/e.s.t.)",
-          "url": "https://www.cineplex.com/movie/dastaar-punjabi-west"
-        },
-        "https://www.cineplex.com/movie/dhamaal-4-hindi-west": {
-          "title": "Hindi Dhamaal 4 (Hindi w/e.s.t.)",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Hindi Dhamaal 4 (Hindi w/e.s.t.)",
-          "url": "https://www.cineplex.com/movie/dhamaal-4-hindi-west"
-        },
-        "https://www.cineplex.com/movie/el-gawahergy-arabic-west": {
+        "title:el-gawahergy-arabic-w-e-s-t": {
           "title": "El Gawahergy (Arabic w/e.s.t.)",
           "ticket_available": true,
           "formats": [],
@@ -564,7 +559,7 @@
           "context": "Advance Tickets AUG 7 El Gawahergy (Arabic w/e.s.t.)",
           "url": "https://www.cineplex.com/movie/el-gawahergy-arabic-west"
         },
-        "https://www.cineplex.com/movie/evil-dead-burn": {
+        "title:evil-dead-burn": {
           "title": "Evil Dead Burn",
           "ticket_available": false,
           "formats": [],
@@ -573,7 +568,7 @@
           "context": "Evil Dead Burn Watch trailer",
           "url": "https://www.cineplex.com/movie/evil-dead-burn"
         },
-        "https://www.cineplex.com/movie/ghost-2-big-to-rig": {
+        "title:ghost-2-big-to-rig": {
           "title": "GHOST: 2 Big To Rig",
           "ticket_available": true,
           "formats": [],
@@ -584,7 +579,7 @@
           "context": "Advance tickets AUG 26 GHOST: 2 Big To Rig",
           "url": "https://www.cineplex.com/movie/ghost-2-big-to-rig"
         },
-        "https://www.cineplex.com/movie/ghost-2-big-to-rig-the-imax-experience": {
+        "title:ghost-2-big-to-rig-the-imax-experience": {
           "title": "GHOST: 2 Big To Rig - The IMAX Experience®",
           "ticket_available": true,
           "formats": [
@@ -597,7 +592,7 @@
           "context": "Advance tickets AUG 26 GHOST: 2 Big To Rig - The IMAX Experience®",
           "url": "https://www.cineplex.com/movie/ghost-2-big-to-rig-the-imax-experience"
         },
-        "https://www.cineplex.com/movie/hadestown-the-musical": {
+        "title:hadestown-the-musical": {
           "title": "HADESTOWN: THE MUSICAL",
           "ticket_available": false,
           "formats": [],
@@ -606,34 +601,34 @@
           "context": "HADESTOWN: THE MUSICAL",
           "url": "https://www.cineplex.com/movie/hadestown-the-musical"
         },
-        "https://www.cineplex.com/movie/i-know-who-you-are-mandarin-wchinese-est": {
-          "title": "Mandarin I Know Who You Are (Mandarin w/Chinese e.s.t.)",
+        "title:hindi-bhai-tera-star-hai-hindi-w-e-s-t": {
+          "title": "Hindi Bhai Tera Star Hai (Hindi w/e.s.t.)",
           "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Mandarin I Know Who You Are (Mandarin w/Chinese e.s.t.)",
-          "url": "https://www.cineplex.com/movie/i-know-who-you-are-mandarin-wchinese-est"
+          "context": "Hindi Bhai Tera Star Hai (Hindi w/e.s.t.)",
+          "url": "https://www.cineplex.com/movie/bhai-tera-star-hai-hindi-west"
         },
-        "https://www.cineplex.com/movie/ishqnama-punjabi-west": {
-          "title": "Punjabi Ishqnama (Punjabi w/e.s.t.)",
+        "title:hindi-dhamaal-4-hindi-w-e-s-t": {
+          "title": "Hindi Dhamaal 4 (Hindi w/e.s.t.)",
           "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Punjabi Ishqnama (Punjabi w/e.s.t.)",
-          "url": "https://www.cineplex.com/movie/ishqnama-punjabi-west"
+          "context": "Hindi Dhamaal 4 (Hindi w/e.s.t.)",
+          "url": "https://www.cineplex.com/movie/dhamaal-4-hindi-west"
         },
-        "https://www.cineplex.com/movie/kankaan-de-ohle-punjabi-west": {
-          "title": "Punjabi Kankaan De Ohle (Punjabi w/e.s.t.)",
+        "title:hindi-main-vaapas-aaunga-hindi-w-e-s-t": {
+          "title": "Hindi Main Vaapas Aaunga (Hindi w/e.s.t)",
           "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Punjabi Kankaan De Ohle (Punjabi w/e.s.t.)",
-          "url": "https://www.cineplex.com/movie/kankaan-de-ohle-punjabi-west"
+          "context": "Hindi Main Vaapas Aaunga (Hindi w/e.s.t)",
+          "url": "https://www.cineplex.com/movie/main-vaapas-aaunga-hindi-west"
         },
-        "https://www.cineplex.com/movie/katseye-wild-hearts": {
+        "title:katseye-wild-hearts": {
           "title": "KATSEYE: WILD HEARTS",
           "ticket_available": true,
           "formats": [],
@@ -644,25 +639,16 @@
           "context": "Advance tickets AUG 12 KATSEYE: WILD HEARTS",
           "url": "https://www.cineplex.com/movie/katseye-wild-hearts"
         },
-        "https://www.cineplex.com/movie/khali-balak-min-nafsak-arabic-west": {
-          "title": "Arabic Khali Balak Min Nafsak (Arabic w/e.s.t.)",
+        "title:mandarin-i-know-who-you-are-mandarin-w-chinese-e-s-t": {
+          "title": "Mandarin I Know Who You Are (Mandarin w/Chinese e.s.t.)",
           "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Arabic Khali Balak Min Nafsak (Arabic w/e.s.t.)",
-          "url": "https://www.cineplex.com/movie/khali-balak-min-nafsak-arabic-west"
+          "context": "Mandarin I Know Who You Are (Mandarin w/Chinese e.s.t.)",
+          "url": "https://www.cineplex.com/movie/i-know-who-you-are-mandarin-wchinese-est"
         },
-        "https://www.cineplex.com/movie/main-vaapas-aaunga-hindi-west": {
-          "title": "Hindi Main Vaapas Aaunga (Hindi w/e.s.t)",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Hindi Main Vaapas Aaunga (Hindi w/e.s.t)",
-          "url": "https://www.cineplex.com/movie/main-vaapas-aaunga-hindi-west"
-        },
-        "https://www.cineplex.com/movie/minions-monsters": {
+        "title:minions-and-monsters": {
           "title": "Minions & Monsters",
           "ticket_available": false,
           "formats": [],
@@ -671,7 +657,7 @@
           "context": "Minions & Monsters Watch trailer",
           "url": "https://www.cineplex.com/movie/minions-monsters"
         },
-        "https://www.cineplex.com/movie/moana-2026": {
+        "title:moana": {
           "title": "Moana",
           "ticket_available": false,
           "formats": [],
@@ -680,7 +666,7 @@
           "context": "Moana Watch trailer",
           "url": "https://www.cineplex.com/movie/moana-2026"
         },
-        "https://www.cineplex.com/movie/mr-hero-vietnamese-west": {
+        "title:mr-hero-vietnamese-w-e-s-t": {
           "title": "Mr. Hero (Vietnamese w/e.s.t.)",
           "ticket_available": true,
           "formats": [],
@@ -691,7 +677,7 @@
           "context": "Advance Tickets AUG 7 Mr. Hero (Vietnamese w/e.s.t.) Watch trailer",
           "url": "https://www.cineplex.com/movie/mr-hero-vietnamese-west"
         },
-        "https://www.cineplex.com/movie/nimrods-a-green-day-comedy": {
+        "title:nimrods-a-green-day-comedy": {
           "title": "Nimrods: A Green Day Comedy",
           "ticket_available": true,
           "formats": [],
@@ -702,7 +688,7 @@
           "context": "Advance tickets AUG 11 Nimrods: A Green Day Comedy",
           "url": "https://www.cineplex.com/movie/nimrods-a-green-day-comedy"
         },
-        "https://www.cineplex.com/movie/obsession-2026": {
+        "title:obsession": {
           "title": "Obsession",
           "ticket_available": false,
           "formats": [],
@@ -711,7 +697,7 @@
           "context": "Obsession Watch trailer",
           "url": "https://www.cineplex.com/movie/obsession-2026"
         },
-        "https://www.cineplex.com/movie/one-night-only": {
+        "title:one-night-only": {
           "title": "One Night Only",
           "ticket_available": true,
           "formats": [],
@@ -722,16 +708,34 @@
           "context": "Advance tickets AUG 7 One Night Only Watch trailer",
           "url": "https://www.cineplex.com/movie/one-night-only"
         },
-        "https://www.cineplex.com/movie/sakr-w-canaria-arabic-west": {
-          "title": "Arabic Sakr w Canaria (Arabic w/e.s.t)",
+        "title:punjabi-dastaar-punjabi-w-e-s-t": {
+          "title": "Punjabi Dastaar (Punjabi w/e.s.t.)",
           "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Arabic Sakr w Canaria (Arabic w/e.s.t)",
-          "url": "https://www.cineplex.com/movie/sakr-w-canaria-arabic-west"
+          "context": "Punjabi Dastaar (Punjabi w/e.s.t.)",
+          "url": "https://www.cineplex.com/movie/dastaar-punjabi-west"
         },
-        "https://www.cineplex.com/movie/six-the-musical-live": {
+        "title:punjabi-ishqnama-punjabi-w-e-s-t": {
+          "title": "Punjabi Ishqnama (Punjabi w/e.s.t.)",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Punjabi Ishqnama (Punjabi w/e.s.t.)",
+          "url": "https://www.cineplex.com/movie/ishqnama-punjabi-west"
+        },
+        "title:punjabi-kankaan-de-ohle-punjabi-w-e-s-t": {
+          "title": "Punjabi Kankaan De Ohle (Punjabi w/e.s.t.)",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Punjabi Kankaan De Ohle (Punjabi w/e.s.t.)",
+          "url": "https://www.cineplex.com/movie/kankaan-de-ohle-punjabi-west"
+        },
+        "title:six-the-musical-live": {
           "title": "SIX: THE MUSICAL LIVE!",
           "ticket_available": true,
           "formats": [],
@@ -742,7 +746,7 @@
           "context": "Advance tickets AUG 14 SIX: THE MUSICAL LIVE!",
           "url": "https://www.cineplex.com/movie/six-the-musical-live"
         },
-        "https://www.cineplex.com/movie/spiderman-brand-new-day": {
+        "title:spider-man-brand-new-day": {
           "title": "Spider-Man: Brand New Day",
           "ticket_available": false,
           "formats": [],
@@ -751,7 +755,7 @@
           "context": "Spider-Man: Brand New Day Watch trailer",
           "url": "https://www.cineplex.com/movie/spiderman-brand-new-day"
         },
-        "https://www.cineplex.com/movie/super-troopers-3": {
+        "title:super-troopers-3": {
           "title": "Super Troopers 3",
           "ticket_available": true,
           "formats": [],
@@ -762,7 +766,7 @@
           "context": "Advance tickets AUG 7 Super Troopers 3",
           "url": "https://www.cineplex.com/movie/super-troopers-3"
         },
-        "https://www.cineplex.com/movie/supergirl": {
+        "title:supergirl": {
           "title": "Supergirl",
           "ticket_available": false,
           "formats": [],
@@ -771,7 +775,7 @@
           "context": "Supergirl Watch trailer",
           "url": "https://www.cineplex.com/movie/supergirl"
         },
-        "https://www.cineplex.com/movie/the-end-of-oak-street": {
+        "title:the-end-of-oak-street": {
           "title": "The End of Oak Street",
           "ticket_available": true,
           "formats": [],
@@ -782,7 +786,7 @@
           "context": "Advance tickets AUG 14 The End of Oak Street Watch trailer",
           "url": "https://www.cineplex.com/movie/the-end-of-oak-street"
         },
-        "https://www.cineplex.com/movie/the-last-blossom-japanese-west": {
+        "title:the-last-blossom-japanese-w-e-s-t": {
           "title": "The Last Blossom (Japanese w.e.s.t.)",
           "ticket_available": true,
           "formats": [],
@@ -793,7 +797,7 @@
           "context": "Advance tickets AUG 30 The Last Blossom (Japanese w.e.s.t.)",
           "url": "https://www.cineplex.com/movie/the-last-blossom-japanese-west"
         },
-        "https://www.cineplex.com/movie/the-odyssey": {
+        "title:the-odyssey": {
           "title": "The Odyssey",
           "ticket_available": false,
           "formats": [],
@@ -802,7 +806,7 @@
           "context": "The Odyssey Watch trailer",
           "url": "https://www.cineplex.com/movie/the-odyssey"
         },
-        "https://www.cineplex.com/movie/toy-story-5": {
+        "title:toy-story-5": {
           "title": "Toy Story 5",
           "ticket_available": false,
           "formats": [],
@@ -811,7 +815,7 @@
           "context": "Toy Story 5 Watch trailer",
           "url": "https://www.cineplex.com/movie/toy-story-5"
         },
-        "https://www.cineplex.com/movie/wham-10-days-in-china": {
+        "title:wham-10-days-in-china": {
           "title": "WHAM! 10 Days In China",
           "ticket_available": false,
           "formats": [],
@@ -820,7 +824,7 @@
           "context": "WHAM! 10 Days In China",
           "url": "https://www.cineplex.com/movie/wham-10-days-in-china"
         },
-        "https://www.cineplex.com/movie/your-name-10th-anniversary": {
+        "title:your-name-10th-anniversary": {
           "title": "Your Name. 10th Anniversary",
           "ticket_available": true,
           "formats": [],
@@ -831,7 +835,7 @@
           "context": "Advance tickets AUG 14 Your Name. 10th Anniversary",
           "url": "https://www.cineplex.com/movie/your-name-10th-anniversary"
         },
-        "https://www.cineplex.com/movie/your-name-10th-anniversary-japanese-west": {
+        "title:your-name-10th-anniversary-japanese-w-e-s-t": {
           "title": "Your Name. 10th Anniversary (Japanese w.e.s.t.)",
           "ticket_available": true,
           "formats": [],
@@ -846,12 +850,13 @@
     },
     "sent_event_ids": [
       "197bab6d463b825ab918ef1258199a47e1139b6b7acf6635d2f883294660c886"
-    ]
+    ],
+    "revision": 0
   },
   "https://www.cineplex.com/movie/spiderman-brand-new-day": {
     "name": "Spider-Man: Brand New Day",
     "type": "movie",
-    "snapshot_version": 3,
+    "snapshot_version": 4,
     "hash": "e82ad52859f43ad983ea27c2dba071876642e489b68c652ee6b8a5f89060dba1",
     "snapshot": {
       "page_title": "Spider-Man: Brand New Day",
@@ -870,12 +875,13 @@
         "Get Tickets"
       ]
     },
-    "sent_event_ids": []
+    "sent_event_ids": [],
+    "revision": 0
   },
   "https://www.cineplex.com/movie/the-end-of-oak-street": {
     "name": "The End of Oak Street",
     "type": "movie",
-    "snapshot_version": 3,
+    "snapshot_version": 4,
     "hash": "e57f111e49a0f9926297facdf3708c37d985304f66c14d274730f90e46287aa4",
     "snapshot": {
       "page_title": "The End of Oak Street",
@@ -894,12 +900,13 @@
         "Get Advance Tickets"
       ]
     },
-    "sent_event_ids": []
+    "sent_event_ids": [],
+    "revision": 0
   },
   "https://www.cineplex.com/movie/paw-patrol-the-dino-movie": {
     "name": "PAW Patrol: The Dino Movie",
     "type": "movie",
-    "snapshot_version": 3,
+    "snapshot_version": 4,
     "hash": "c7268c1fde5c5d5b52878456948b5ae370bafe7fa0dae5eda8dc2b4629cf3dc3",
     "snapshot": {
       "page_title": "Paw Patrol: The Dino Movie",
@@ -920,12 +927,13 @@
     },
     "sent_event_ids": [
       "1788d4d0e27302a005b385389b02c3bd5f262e6a7ff04113756d72096349c8e5"
-    ]
+    ],
+    "revision": 0
   },
   "https://www.cineplex.com/movie/insidious-out-of-the-further": {
     "name": "Insidious: Out of the Further",
     "type": "movie",
-    "snapshot_version": 3,
+    "snapshot_version": 4,
     "hash": "ee7d27148ff3fd6b65ebe2d907fc19ffe11390ddd60034c8367bcd1160d5638c",
     "snapshot": {
       "page_title": "Insidious: Out of the Further",
@@ -941,12 +949,13 @@
         "August 21, 2026"
       ]
     },
-    "sent_event_ids": []
+    "sent_event_ids": [],
+    "revision": 0
   },
   "https://www.cineplex.com/movie/mutiny": {
     "name": "Mutiny",
     "type": "movie",
-    "snapshot_version": 3,
+    "snapshot_version": 4,
     "hash": "a614e9d2740f967ac6c511d17ee8615c0a47a33180af507defafa6ab8b613613",
     "snapshot": {
       "page_title": "Mutiny",
@@ -962,12 +971,13 @@
         "August 21, 2026"
       ]
     },
-    "sent_event_ids": []
+    "sent_event_ids": [],
+    "revision": 0
   },
   "https://www.cineplex.com/movie/coyote-vs-acme-2026": {
     "name": "Coyote vs Acme",
     "type": "movie",
-    "snapshot_version": 3,
+    "snapshot_version": 4,
     "hash": "3e82f82a1df4f256c7d68243d99da830564d0fd0f9f6945a0bed4be18e14b617",
     "snapshot": {
       "page_title": "Coyote vs Acme",
@@ -983,12 +993,13 @@
         "August 28, 2026"
       ]
     },
-    "sent_event_ids": []
+    "sent_event_ids": [],
+    "revision": 0
   },
   "https://www.cineplex.com/movie/the-dog-stars": {
     "name": "The Dog Stars",
     "type": "movie",
-    "snapshot_version": 3,
+    "snapshot_version": 4,
     "hash": "398cc27f821cf2aa69e8bc6c22ca1d5a9d4eecd7494824745f21126619fcc8c1",
     "snapshot": {
       "page_title": "The Dog Stars",
@@ -1004,12 +1015,13 @@
         "August 28, 2026"
       ]
     },
-    "sent_event_ids": []
+    "sent_event_ids": [],
+    "revision": 0
   },
   "https://www.cineplex.com/movie/practical-magic-2": {
     "name": "Practical Magic 2",
     "type": "movie",
-    "snapshot_version": 3,
+    "snapshot_version": 4,
     "hash": "e4fc7dd5b8b77480d23ce0e557ee450461eda23b1e71401aa1bc7c9329e8e65e",
     "snapshot": {
       "page_title": "Practical Magic 2",
@@ -1025,12 +1037,13 @@
         "September 11, 2026"
       ]
     },
-    "sent_event_ids": []
+    "sent_event_ids": [],
+    "revision": 0
   },
   "https://www.cineplex.com/movie/resident-evil-2026": {
     "name": "Resident Evil",
     "type": "movie",
-    "snapshot_version": 3,
+    "snapshot_version": 4,
     "hash": "5332fc496685c3c386485c36da17220f9895ae719c560a5054dcf3c313a43565",
     "snapshot": {
       "page_title": "Resident Evil",
@@ -1046,12 +1059,13 @@
         "September 18, 2026"
       ]
     },
-    "sent_event_ids": []
+    "sent_event_ids": [],
+    "revision": 0
   },
   "https://www.cineplex.com/movie/digger": {
     "name": "Digger",
     "type": "movie",
-    "snapshot_version": 3,
+    "snapshot_version": 4,
     "hash": "44e2faac9e4c5d1b71bca6a4b86b430f192fadd113b37b549f8a4e9b3c19d515",
     "snapshot": {
       "page_title": "Digger",
@@ -1067,12 +1081,13 @@
         "October 2, 2026"
       ]
     },
-    "sent_event_ids": []
+    "sent_event_ids": [],
+    "revision": 0
   },
   "https://www.cineplex.com/movie/the-social-reckoning": {
     "name": "The Social Reckoning",
     "type": "movie",
-    "snapshot_version": 3,
+    "snapshot_version": 4,
     "hash": "34c597f43d76bc17a936b7c6269e87cba2b09ca2df33cc50d77f15ac3cf002d8",
     "snapshot": {
       "page_title": "The Social Reckoning",
@@ -1088,12 +1103,13 @@
         "October 9, 2026"
       ]
     },
-    "sent_event_ids": []
+    "sent_event_ids": [],
+    "revision": 0
   },
   "https://www.cineplex.com/movie/street-fighter-2026": {
     "name": "Street Fighter",
     "type": "movie",
-    "snapshot_version": 3,
+    "snapshot_version": 4,
     "hash": "49c8f5863a29f8bb75544584d6a8449d8efddd52f6ce7586036e8d5eb015f8d2",
     "snapshot": {
       "page_title": "Street Fighter",
@@ -1109,12 +1125,13 @@
         "October 16, 2026"
       ]
     },
-    "sent_event_ids": []
+    "sent_event_ids": [],
+    "revision": 0
   },
   "https://www.cineplex.com/movie/clayface-2026": {
     "name": "Clayface",
     "type": "movie",
-    "snapshot_version": 3,
+    "snapshot_version": 4,
     "hash": "b9449415ee63f2ce64f4e60b0baea198cc9cd1cc733cf02a13897c1bc4f811d6",
     "snapshot": {
       "page_title": "Clayface",
@@ -1130,12 +1147,13 @@
         "October 23, 2026"
       ]
     },
-    "sent_event_ids": []
+    "sent_event_ids": [],
+    "revision": 0
   },
   "https://www.cineplex.com/movie/cat-in-the-hat": {
     "name": "Cat in the Hat",
     "type": "movie",
-    "snapshot_version": 3,
+    "snapshot_version": 4,
     "hash": "a480319defcb2e01bb1af6b939033c200795c3a41b2be147a5b6f4616b1d5bea",
     "snapshot": {
       "page_title": "Cat in the Hat",
@@ -1151,12 +1169,13 @@
         "November 6, 2026"
       ]
     },
-    "sent_event_ids": []
+    "sent_event_ids": [],
+    "revision": 0
   },
   "https://www.cineplex.com/movie/godzilla-minus-zero": {
     "name": "Godzilla Minus Zero",
     "type": "movie",
-    "snapshot_version": 3,
+    "snapshot_version": 4,
     "hash": "c0af67c7117490865a28a4701355b21b01d33e2c235a8358705c40e76240f076",
     "snapshot": {
       "page_title": "Godzilla Minus Zero",
@@ -1172,12 +1191,13 @@
         "November 6, 2026"
       ]
     },
-    "sent_event_ids": []
+    "sent_event_ids": [],
+    "revision": 0
   },
   "https://www.cineplex.com/movie/hunger-games-sunrise-on-the-reaping": {
     "name": "The Hunger Games: Sunrise on the Reaping",
     "type": "movie",
-    "snapshot_version": 3,
+    "snapshot_version": 4,
     "hash": "8e9f0ac7bd84eed851ac85c30d268b2494cce21d71f0213abec9c31297d76c89",
     "snapshot": {
       "page_title": "Hunger Games: Sunrise on the Reaping",
@@ -1193,12 +1213,13 @@
         "November 20, 2026"
       ]
     },
-    "sent_event_ids": []
+    "sent_event_ids": [],
+    "revision": 0
   },
   "https://www.cineplex.com/movie/violent-night-2": {
     "name": "Violent Night 2",
     "type": "movie",
-    "snapshot_version": 3,
+    "snapshot_version": 4,
     "hash": "d31cd2cfd4359f301433a277e3596f84004d42f3fb8bdb52bc235646f572add5",
     "snapshot": {
       "page_title": "Violent Night 2",
@@ -1214,12 +1235,13 @@
         "December 4, 2026"
       ]
     },
-    "sent_event_ids": []
+    "sent_event_ids": [],
+    "revision": 0
   },
   "https://www.cineplex.com/movie/avengers-doomsday": {
     "name": "Avengers: Doomsday",
     "type": "movie",
-    "snapshot_version": 3,
+    "snapshot_version": 4,
     "hash": "8851bbe97cfed242e27839453531c8e7a623bd951c51e15113f31b6a334c45f2",
     "snapshot": {
       "page_title": "Avengers: Doomsday",
@@ -1238,12 +1260,13 @@
         "Get Advance Tickets"
       ]
     },
-    "sent_event_ids": []
+    "sent_event_ids": [],
+    "revision": 0
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
     "type": "movie",
-    "snapshot_version": 3,
+    "snapshot_version": 4,
     "hash": "f63b6f42098b13fe0d63cdff2530c50dc598eb72354f84fba19b22b3cc499e15",
     "snapshot": {
       "page_title": "Dune: Part 3",
@@ -1262,12 +1285,13 @@
         "Get Advance Tickets"
       ]
     },
-    "sent_event_ids": []
+    "sent_event_ids": [],
+    "revision": 0
   },
   "https://www.cineplex.com/movie/the-angry-birds-movie-3": {
     "name": "The Angry Birds Movie 3",
     "type": "movie",
-    "snapshot_version": 3,
+    "snapshot_version": 4,
     "hash": "b19793fee2ded46b9f6dd544fd18cce055554b1ebaf932ce4f9d88829494b1a6",
     "snapshot": {
       "page_title": "The Angry Birds Movie 3",
@@ -1283,12 +1307,13 @@
         "December 23, 2026"
       ]
     },
-    "sent_event_ids": []
+    "sent_event_ids": [],
+    "revision": 0
   },
   "https://www.cineplex.com/movie/jumanji-open-world": {
     "name": "Jumanji: Open World",
     "type": "movie",
-    "snapshot_version": 3,
+    "snapshot_version": 4,
     "hash": "f046c809bf82cbe39dc2e7fe771e5a7c8474bf17713db2826a316d120b936887",
     "snapshot": {
       "page_title": "Jumanji: Open World",
@@ -1304,12 +1329,13 @@
         "December 25, 2026"
       ]
     },
-    "sent_event_ids": []
+    "sent_event_ids": [],
+    "revision": 0
   },
   "https://www.cineplex.com/movie/werwulf": {
     "name": "Werwulf",
     "type": "movie",
-    "snapshot_version": 3,
+    "snapshot_version": 4,
     "hash": "e8709e288658030d82af8bbe4321dbeab96b0266c5c68341288559a8957570fb",
     "snapshot": {
       "page_title": "Werwulf",
@@ -1325,13 +1351,14 @@
         "December 25, 2026"
       ]
     },
-    "sent_event_ids": []
+    "sent_event_ids": [],
+    "revision": 0
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-hamilton-mountain": {
     "name": "Cineplex Cinemas Hamilton Mountain",
     "type": "theatre",
-    "snapshot_version": 3,
-    "hash": "2e356c86bd489ae6da673f94ed41062fd347fe1c9d54428540968793fc668616",
+    "snapshot_version": 4,
+    "hash": "30aee3b31102e26bda57fd22efcc08d151d72c8bea6f7a97d3700cd50c23c5ff",
     "snapshot": {
       "page_title": "Cineplex Cinemas Hamilton Mountain",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-hamilton-mountain",
@@ -1345,7 +1372,7 @@
         "Advance tickets available"
       ],
       "movies": {
-        "title:andr rieu s 2026 summer concert viva maastricht": {
+        "title:andr-rieu-s-2026-summer-concert-viva-maastricht": {
           "title": "André Rieu's 2026 Summer Concert: Viva Maastricht!",
           "ticket_available": true,
           "formats": [],
@@ -1354,7 +1381,7 @@
           "context": "André Rieu's 2026 Summer Concert: Viva Maastricht! Advance tickets available",
           "url": null
         },
-        "title:avengers doomsday": {
+        "title:avengers-doomsday": {
           "title": "Avengers: Doomsday",
           "ticket_available": true,
           "formats": [],
@@ -1363,7 +1390,7 @@
           "context": "Avengers: Doomsday Advance tickets available",
           "url": null
         },
-        "title:evil dead burn": {
+        "title:evil-dead-burn": {
           "title": "Evil Dead Burn",
           "ticket_available": false,
           "formats": [],
@@ -1372,7 +1399,7 @@
           "context": "Evil Dead Burn",
           "url": null
         },
-        "title:minions and monsters": {
+        "title:minions-and-monsters": {
           "title": "Minions & Monsters",
           "ticket_available": false,
           "formats": [],
@@ -1390,7 +1417,7 @@
           "context": "Moana",
           "url": null
         },
-        "title:spider man brand new day": {
+        "title:spider-man-brand-new-day": {
           "title": "Spider-Man: Brand New Day",
           "ticket_available": false,
           "formats": [],
@@ -1399,7 +1426,7 @@
           "context": "Spider-Man: Brand New Day",
           "url": null
         },
-        "title:super troopers 3 special broken lizard fan event": {
+        "title:super-troopers-3-special-broken-lizard-fan-event": {
           "title": "Super Troopers 3: Special Broken Lizard Fan Event",
           "ticket_available": true,
           "formats": [],
@@ -1408,7 +1435,7 @@
           "context": "Super Troopers 3: Special Broken Lizard Fan Event Advance tickets available",
           "url": null
         },
-        "title:the fast and the furious 25th anniversary": {
+        "title:the-fast-and-the-furious-25th-anniversary": {
           "title": "The Fast and the Furious: 25th Anniversary",
           "ticket_available": true,
           "formats": [],
@@ -1417,7 +1444,7 @@
           "context": "The Fast and the Furious: 25th Anniversary Advance tickets available",
           "url": null
         },
-        "title:the odyssey": {
+        "title:the-odyssey": {
           "title": "The Odyssey",
           "ticket_available": false,
           "formats": [],
@@ -1426,7 +1453,7 @@
           "context": "The Odyssey",
           "url": null
         },
-        "title:toy story 5": {
+        "title:toy-story-5": {
           "title": "Toy Story 5",
           "ticket_available": false,
           "formats": [],
@@ -1437,12 +1464,13 @@
         }
       }
     },
-    "sent_event_ids": []
+    "sent_event_ids": [],
+    "revision": 0
   },
   "https://www.cineplex.com/movie/the-odyssey": {
     "name": "The Odyssey",
     "type": "movie",
-    "snapshot_version": 3,
+    "snapshot_version": 4,
     "hash": "0909d75dcec52696fa260e8d6193d9173fa43a4c835ed8c216d307b655b34a54",
     "snapshot": {
       "page_title": "The Odyssey",
@@ -1464,12 +1492,13 @@
         "Christopher Nolan’s next film, The Odyssey, is a mythic action epic shot across the world using brand new IMAX® film technology. The film brings Homer’s foundational saga to IMAX® film screens for the first time and opens in theatres everywhere on July 17, 2026."
       ]
     },
-    "sent_event_ids": []
+    "sent_event_ids": [],
+    "revision": 0
   },
   "https://www.cineplex.com/movie/imax70-the-odyssey-the-imax-experience-in-7": {
     "name": "The Odyssey — IMAX 70MM",
     "type": "movie",
-    "snapshot_version": 3,
+    "snapshot_version": 4,
     "hash": "31c0e2370242cc12597b185e744de9906c1a340c389362834a5eb583cbaa4a20",
     "snapshot": {
       "page_title": "The Odyssey: The IMAX Experience® in 70MM Film",
@@ -1493,12 +1522,13 @@
         "Christopher Nolan’s next film, The Odyssey, is a mythic action epic shot across the world using brand new IMAX® film technology. The film brings Homer’s foundational saga to IMAX® film screens for the first time and opens in theatres everywhere on July 17, 2026."
       ]
     },
-    "sent_event_ids": []
+    "sent_event_ids": [],
+    "revision": 0
   },
   "https://www.cineplex.com/movie/imax70-dune-part-3-the-imax-experience-in-70m": {
     "name": "Dune: Part 3 — IMAX 70MM",
     "type": "movie",
-    "snapshot_version": 3,
+    "snapshot_version": 4,
     "hash": "1eecb6334c1dbe21985a8c9626de636e159230dc01008cf1f49662df70bf0ceb",
     "snapshot": {
       "page_title": "Dune: Part 3: The IMAX Experience® in 70MM",
@@ -1521,6 +1551,10 @@
         "Get Advance Tickets"
       ]
     },
-    "sent_event_ids": []
+    "sent_event_ids": [],
+    "revision": 0
+  },
+  "_meta": {
+    "last_heartbeat_at_utc": "2026-08-05T01:19:48.921418+00:00"
   }
 }
