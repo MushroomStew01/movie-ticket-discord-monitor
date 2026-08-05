@@ -1,5 +1,6 @@
 import sys
 import unittest
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from unittest.mock import patch
 
@@ -204,6 +205,56 @@ class DetectorRegressionTests(unittest.TestCase):
         )
         self.assertEqual(len(events), 1)
         self.assertIn("added to this theatre", events[0]["title"])
+
+    def test_movie_identity_is_stable_when_cineplex_link_markup_changes(self):
+        movies = monitor.canonicalize_movies(
+            {
+                "https://www.cineplex.com/movie/dune-part-3": {
+                    "title": "Dune: Part 3",
+                    "ticket_available": True,
+                    "showtimes": ["7:00 PM"],
+                    "dates": ["Dec 18"],
+                    "formats": ["IMAX"],
+                    "context": "Dune: Part 3 IMAX",
+                    "url": "https://www.cineplex.com/movie/dune-part-3",
+                },
+                "title:dune-part-3": {
+                    "title": "Dune: Part 3",
+                    "ticket_available": False,
+                    "showtimes": ["3:30 PM"],
+                    "dates": ["Dec 18"],
+                    "formats": ["70MM"],
+                    "context": "Dune: Part 3 IMAX 70MM",
+                    "url": None,
+                },
+            }
+        )
+        self.assertEqual(list(movies), ["title:dune-part-3"])
+        dune = movies["title:dune-part-3"]
+        self.assertEqual(dune["showtimes"], ["3:30 PM", "7:00 PM"])
+        self.assertEqual(dune["formats"], ["70MM", "IMAX"])
+        self.assertTrue(dune["ticket_available"])
+
+    def test_reappearing_inventory_gets_a_new_transition_id(self):
+        event = {
+            "title": "New priority showtime inventory",
+            "description": "New showtime: 7:00 PM",
+        }
+        first = monitor.event_id_for_transition("https://example.test/dune", event, 4)
+        reappeared = monitor.event_id_for_transition("https://example.test/dune", event, 6)
+        self.assertNotEqual(first, reappeared)
+        self.assertEqual(
+            first,
+            monitor.event_id_for_transition("https://example.test/dune", event, 4),
+        )
+
+    def test_daily_heartbeat_is_due_only_after_interval(self):
+        now = datetime(2026, 8, 4, 18, 0, tzinfo=timezone.utc)
+        recent = {"last_heartbeat_at_utc": (now - timedelta(hours=23)).isoformat()}
+        stale = {"last_heartbeat_at_utc": (now - timedelta(hours=25)).isoformat()}
+        self.assertFalse(monitor.heartbeat_due(recent, 24, now))
+        self.assertTrue(monitor.heartbeat_due(stale, 24, now))
+        self.assertFalse(monitor.heartbeat_due({}, 0, now))
 
     def test_target_collection_retries_transient_render_failure(self):
         class FakePage:
