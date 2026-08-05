@@ -498,7 +498,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "012d6942a492b1cdaa8e2bae8e7913ec23c58bc89c61a8accebbe1704c93e59d",
+    "hash": "0e4cf34f3468bc92c762c165a0c7b24d5c935438942b79ee6bb4ff927c68da52",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -525,6 +525,7 @@
         "VIP"
       ],
       "relevant_lines": [
+        "Cineplex Cinemas Oakville and VIP",
         "Cineplex Odeon Westmount Cinemas and VIP",
         "Advance tickets",
         "AUG 7",
@@ -559,7 +560,7 @@
           "dates": [
             "Aug 29"
           ],
-          "context": "Advance tickets AUG 29 André Rieu's 2026 Summer Concert: Viva Maastricht!",
+          "context": "Advance tickets AUG 29 André Rieu's 2026 Summer Concert: Viva Maastricht! Watch trailer",
           "url": "https://www.cineplex.com/movie/andre-rieus-2026-summer-concert-viva-maastricht"
         },
         "title:arabic-khali-balak-min-nafsak-arabic-w-e-s-t": {
@@ -888,7 +889,7 @@
       "871e5530e06a6c14edaedbc162f1fadc8925faa88e63a9be5de7332ab55880f6",
       "d1fd2ec41cd5b6fe0a33da489b2186e16cd1338352aa39b11da8d4afd42d7ba7"
     ],
-    "revision": 7
+    "revision": 8
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
