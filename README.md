@@ -8,7 +8,6 @@
 - A blue Discord health heartbeat is sent every 24 hours after a successful run.
 - Parser tests run in a separate CI workflow instead of slowing every scheduled production check.
 - Dune: Part 3 and its IMAX 70MM page silently baseline their already-available ticket status.
-- Windows webhook secrets are loaded from an ignored local file and cannot be committed accidentally.
 
 Replacing `state.json` with `{}` intentionally creates a fresh baseline. Existing availability is summarized, except targets configured with `"alert_available_on_first_seen": false`.
 
@@ -89,72 +88,7 @@ The ID contains digits only, for example:
 123456789012345678
 ```
 
-## 4A. Recommended free setup on your Windows computer
-
-The task requests a check every two minutes, but overlapping runs are skipped. The effective interval is therefore the previous scan time plus up to two minutes. Your computer must be powered on and connected to the internet.
-
-### Install Python
-
-1. Install current Python 3 from python.org.
-2. During installation, enable **Add Python to PATH** if shown.
-3. Restart PowerShell after installation.
-
-### Prepare the project
-
-1. Extract the ZIP to a permanent folder, for example:
-
-```text
-C:\MovieTicketMonitor
-```
-
-2. Right-click `setup_windows.ps1` and choose **Run with PowerShell**.
-3. If Windows blocks scripts, open PowerShell in the folder and run:
-
-```powershell
-Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
-.\setup_windows.ps1
-```
-
-### Enter your webhook URL safely
-
-Copy `secrets.ps1.example` to `secrets.ps1`. Edit only `secrets.ps1` and paste your complete webhook URL:
-
-```powershell
-$env:DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/123456789012345678/your_private_token"
-$env:DISCORD_USER_ID = "123456789012345678"
-```
-
-`secrets.ps1` is ignored by Git. Do not put the real webhook in `run_monitor_windows.ps1`, `test_discord_windows.ps1`, or any committed file.
-
-### Test Discord
-
-Run:
-
-```powershell
-.\test_discord_windows.ps1
-```
-
-Discord should receive a blue test message immediately.
-
-### Create the repeating Windows task
-
-Run PowerShell as Administrator in the project folder, then run:
-
-```powershell
-.\create_windows_task.ps1
-```
-
-Open **Task Scheduler** and look for:
-
-```text
-Movie Ticket Discord Monitor
-```
-
-Right-click the task and select **Run** for a manual test.
-
-The first normal run creates a baseline. It does not send alerts for listings that already existed. Future changes trigger alerts.
-
-## 4B. Cloud setup using GitHub Actions
+## 4. Cloud setup using GitHub Actions
 
 GitHub scheduled workflows can run as often as every ten minutes, but GitHub warns scheduled jobs can sometimes be delayed during high load.
 
@@ -301,31 +235,13 @@ The webhook URL is incorrect, incomplete, deleted, or regenerated. Copy it again
 - Confirm operating-system notifications are allowed.
 - Add your Discord User ID so the monitor directly mentions you.
 
-### `py` is not recognized
-
-Install Python 3 and restart PowerShell. You can also replace `py -3` in `setup_windows.ps1` with `python` if `python --version` works.
-
-### PowerShell says scripts are disabled
-
-Run:
-
-```powershell
-Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
-```
-
-Then rerun the setup script.
-
 ### Playwright browser is missing
 
-Run:
+The GitHub Actions workflow installs Chromium automatically. Open the failed workflow run and inspect the **Install Playwright Chromium** step.
 
-```powershell
-.\.venv\Scripts\python.exe -m playwright install chromium
-```
+### GitHub workflow does not run every exact ten minutes
 
-### GitHub workflow does not run every exact five minutes
-
-Scheduled GitHub Actions can be delayed. For tighter timing, use the Windows scheduled-task option, a continuously running home server, or a paid VPS.
+Scheduled GitHub Actions are best-effort and can occasionally be delayed. The workflow uses off-hour cron minutes to reduce congestion, but it cannot guarantee an exact interval.
 
 ### Too many false alerts
 
