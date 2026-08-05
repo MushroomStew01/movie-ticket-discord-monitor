@@ -245,7 +245,7 @@
     "name": "Cineplex Cinemas Vaughan",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "c64f9aca318429c516a43b8b1b147efbb56939e089038ef1d2c7fd71ae60d544",
+    "hash": "89f2a064694884d772ff3a57f738dc40cb428309a4bce95d074aaa0ab599c364",
     "snapshot": {
       "page_title": "Cineplex Cinemas Vaughan",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan",
@@ -277,15 +277,6 @@
           "context": "I Want Your Sex",
           "url": null
         },
-        "title:ice-cream-man": {
-          "title": "Ice Cream Man",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Ice Cream Man Advance tickets available",
-          "url": null
-        },
         "title:minions-and-monsters": {
           "title": "Minions & Monsters",
           "ticket_available": false,
@@ -302,6 +293,15 @@
           "showtimes": [],
           "dates": [],
           "context": "Moana",
+          "url": null
+        },
+        "title:mutiny": {
+          "title": "Mutiny",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Mutiny Advance tickets available",
           "url": null
         },
         "title:obsession": {
@@ -360,8 +360,10 @@
         }
       }
     },
-    "sent_event_ids": [],
-    "revision": 0
+    "sent_event_ids": [
+      "ec092a420f783136a8d2d4d6740623b2e83f0bc2c31d338a88d93bf01624f5d3"
+    ],
+    "revision": 1
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one": {
     "name": "Cineplex Cinemas Mississauga Square One",
@@ -489,7 +491,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "0511786aa4faf3f8d6d111b650a0e1e21364e08598f4973fdd11a4437576b079",
+    "hash": "ad29a180dff27ebb8f7e4b523e4ebde40a8b78dc69cb18c6d0c22d0b102d19b4",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -515,7 +517,8 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Odeon McGillivray Cinemas and VIP",
+        "Cineplex Cinemas Abbotsford and VIP",
+        "Cineplex Cinemas Seton and VIP",
         "Advance tickets",
         "AUG 7",
         "AUG 14",
@@ -862,7 +865,7 @@
       "197bab6d463b825ab918ef1258199a47e1139b6b7acf6635d2f883294660c886",
       "871e5530e06a6c14edaedbc162f1fadc8925faa88e63a9be5de7332ab55880f6"
     ],
-    "revision": 1
+    "revision": 2
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
