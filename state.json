@@ -245,7 +245,7 @@
     "name": "Cineplex Cinemas Vaughan",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "89f2a064694884d772ff3a57f738dc40cb428309a4bce95d074aaa0ab599c364",
+    "hash": "b90a875808db80ca7bcbf2e923de4b6f5e2751eb87502b6f774d1c73f98faaed",
     "snapshot": {
       "page_title": "Cineplex Cinemas Vaughan",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan",
@@ -277,6 +277,15 @@
           "context": "I Want Your Sex",
           "url": null
         },
+        "title:insidious-out-of-the-further": {
+          "title": "Insidious: Out of the Further",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Insidious: Out of the Further Advance tickets available",
+          "url": null
+        },
         "title:minions-and-monsters": {
           "title": "Minions & Monsters",
           "ticket_available": false,
@@ -293,15 +302,6 @@
           "showtimes": [],
           "dates": [],
           "context": "Moana",
-          "url": null
-        },
-        "title:mutiny": {
-          "title": "Mutiny",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Mutiny Advance tickets available",
           "url": null
         },
         "title:obsession": {
@@ -361,9 +361,10 @@
       }
     },
     "sent_event_ids": [
-      "ec092a420f783136a8d2d4d6740623b2e83f0bc2c31d338a88d93bf01624f5d3"
+      "ec092a420f783136a8d2d4d6740623b2e83f0bc2c31d338a88d93bf01624f5d3",
+      "a449f7df49c1693d5b93181f89ae7d0dab00710c2158048a59ba19c54b3de432"
     ],
-    "revision": 1
+    "revision": 2
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one": {
     "name": "Cineplex Cinemas Mississauga Square One",
