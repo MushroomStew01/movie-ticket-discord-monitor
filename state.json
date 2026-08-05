@@ -374,7 +374,7 @@
     "name": "Cineplex Cinemas Mississauga Square One",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "dd2b30aff7eada663e7bff9964da8b5ed5d5d09595776f600da91a1bb5c2062a",
+    "hash": "f95addb30f8fcdc1dead1c8d433d34bf1cec718b9787bbd4e77680925a604b28",
     "snapshot": {
       "page_title": "Cineplex Cinemas Mississauga Square One",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one",
@@ -388,13 +388,13 @@
         "Advance tickets available"
       ],
       "movies": {
-        "title:evil-dead-burn": {
-          "title": "Evil Dead Burn",
-          "ticket_available": false,
+        "title:ice-cream-man": {
+          "title": "Ice Cream Man",
+          "ticket_available": true,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Evil Dead Burn",
+          "context": "Ice Cream Man Advance tickets available",
           "url": null
         },
         "title:insidious-out-of-the-further": {
@@ -404,15 +404,6 @@
           "showtimes": [],
           "dates": [],
           "context": "Insidious: Out of the Further Advance tickets available",
-          "url": null
-        },
-        "title:khali-balak-min-nafsak-arabic-w-e-s-t": {
-          "title": "Khali Balak Min Nafsak (Arabic w/e.s.t.)",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Khali Balak Min Nafsak (Arabic w/e.s.t.)",
           "url": null
         },
         "title:minions-and-monsters": {
@@ -451,13 +442,13 @@
           "context": "One Night Only Advance tickets available",
           "url": null
         },
-        "title:six-the-musical-live": {
-          "title": "SIX: THE MUSICAL LIVE!",
+        "title:paw-patrol-the-dino-movie": {
+          "title": "Paw Patrol: The Dino Movie",
           "ticket_available": true,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "SIX: THE MUSICAL LIVE! Advance tickets available",
+          "context": "Paw Patrol: The Dino Movie Advance tickets available",
           "url": null
         },
         "title:spider-man-brand-new-day": {
@@ -467,6 +458,15 @@
           "showtimes": [],
           "dates": [],
           "context": "Spider-Man: Brand New Day",
+          "url": null
+        },
+        "title:super-troopers-3": {
+          "title": "Super Troopers 3",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Super Troopers 3 Advance tickets available",
           "url": null
         },
         "title:the-odyssey": {
@@ -490,15 +490,16 @@
       }
     },
     "sent_event_ids": [
-      "7f9851516f108c191949c0f17a19bf777de8e20ed5503e75e1c13abc563d7a60"
+      "7f9851516f108c191949c0f17a19bf777de8e20ed5503e75e1c13abc563d7a60",
+      "66e75258832ca143bd08ec60f7cf2e933b43242ac8bab3df74402066d4e0e8bf"
     ],
-    "revision": 1
+    "revision": 2
   },
   "https://www.cineplex.com/en?theatresNearYou=true": {
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "c36e99eff50338d14a9fe43690a7efaa03429be7ea25b4cd6dd37fd1893a6037",
+    "hash": "1c95ef874a7007b9109edc81cbae74755dc4b735ec058ccdee5700211632c74f",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -525,7 +526,8 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Odeon McGillivray Cinemas and VIP",
+        "Cineplex Cinemas Oakville and VIP",
+        "Cineplex Odeon Westmount Cinemas and VIP",
         "Advance tickets",
         "AUG 7",
         "AUG 14",
@@ -888,7 +890,7 @@
       "871e5530e06a6c14edaedbc162f1fadc8925faa88e63a9be5de7332ab55880f6",
       "d1fd2ec41cd5b6fe0a33da489b2186e16cd1338352aa39b11da8d4afd42d7ba7"
     ],
-    "revision": 9
+    "revision": 10
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
