@@ -474,7 +474,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 3,
-    "hash": "2b6f519ff03edcd8f65bd423b0f65edcca7adc8deba831ec1eb627f137055e5e",
+    "hash": "83fc21d573268224c7a1370ed4edab94f6030b3193706354d99a228933b057df",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -500,8 +500,8 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Cinemas Oakville and VIP",
-        "Cineplex Cinemas Winston Churchill & VIP",
+        "Cineplex Odeon Westmount Cinemas and VIP",
+        "Cineplex Cinemas Kitchener and VIP",
         "Advance tickets",
         "AUG 7",
         "AUG 14",
@@ -555,13 +555,13 @@
         },
         "https://www.cineplex.com/movie/el-gawahergy-arabic-west": {
           "title": "El Gawahergy (Arabic w/e.s.t.)",
-          "ticket_available": false,
+          "ticket_available": true,
           "formats": [],
           "showtimes": [],
           "dates": [
             "Aug 7"
           ],
-          "context": "Coming Soon AUG 7 El Gawahergy (Arabic w/e.s.t.)",
+          "context": "Advance Tickets AUG 7 El Gawahergy (Arabic w/e.s.t.)",
           "url": "https://www.cineplex.com/movie/el-gawahergy-arabic-west"
         },
         "https://www.cineplex.com/movie/evil-dead-burn": {
@@ -682,13 +682,13 @@
         },
         "https://www.cineplex.com/movie/mr-hero-vietnamese-west": {
           "title": "Mr. Hero (Vietnamese w/e.s.t.)",
-          "ticket_available": false,
+          "ticket_available": true,
           "formats": [],
           "showtimes": [],
           "dates": [
             "Aug 7"
           ],
-          "context": "Coming Soon AUG 7 Mr. Hero (Vietnamese w/e.s.t.) Watch trailer",
+          "context": "Advance Tickets AUG 7 Mr. Hero (Vietnamese w/e.s.t.) Watch trailer",
           "url": "https://www.cineplex.com/movie/mr-hero-vietnamese-west"
         },
         "https://www.cineplex.com/movie/nimrods-a-green-day-comedy": {
@@ -844,7 +844,9 @@
         }
       }
     },
-    "sent_event_ids": []
+    "sent_event_ids": [
+      "197bab6d463b825ab918ef1258199a47e1139b6b7acf6635d2f883294660c886"
+    ]
   },
   "https://www.cineplex.com/movie/spiderman-brand-new-day": {
     "name": "Spider-Man: Brand New Day",
@@ -898,22 +900,27 @@
     "name": "PAW Patrol: The Dino Movie",
     "type": "movie",
     "snapshot_version": 3,
-    "hash": "91c82e0c66641c00e8b60e7a6169ee73c97d3b9bff93a3368b1202eeeeffb48a",
+    "hash": "c7268c1fde5c5d5b52878456948b5ae370bafe7fa0dae5eda8dc2b4629cf3dc3",
     "snapshot": {
       "page_title": "Paw Patrol: The Dino Movie",
       "final_url": "https://www.cineplex.com/movie/paw-patrol-the-dino-movie",
-      "ticket_available": false,
-      "ticket_phrases": [],
+      "ticket_available": true,
+      "ticket_phrases": [
+        "Get Advance Tickets"
+      ],
       "showtimes": [],
       "dates": [
         "August 14"
       ],
       "formats": [],
       "relevant_lines": [
-        "August 14, 2026"
+        "August 14, 2026",
+        "Get Advance Tickets"
       ]
     },
-    "sent_event_ids": []
+    "sent_event_ids": [
+      "1788d4d0e27302a005b385389b02c3bd5f262e6a7ff04113756d72096349c8e5"
+    ]
   },
   "https://www.cineplex.com/movie/insidious-out-of-the-further": {
     "name": "Insidious: Out of the Further",
