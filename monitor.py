@@ -255,33 +255,13 @@ def get_environment() -> tuple[str, str]:
     return webhook, user_id
 
 
-def discord_post(
+def discord_send_payload(
     webhook: str,
+    payload: dict[str, Any],
     *,
-    title: str,
-    description: str,
-    url: str | None = None,
-    user_id: str = "",
-    color: int = 0x2ECC71,
     max_attempts: int = 4,
 ) -> None:
-    content = f"<@{user_id}>" if user_id else ""
-    embed: dict[str, Any] = {
-        "title": title[:256],
-        "description": description[:4096],
-        "color": color,
-        "timestamp": utc_now(),
-        "footer": {"text": "Movie Ticket Monitor"},
-    }
-    if url:
-        embed["url"] = url
-    payload = {
-        "username": "Movie Ticket Monitor",
-        "content": content,
-        "allowed_mentions": {"users": [user_id]} if user_id else {"parse": []},
-        "embeds": [embed],
-    }
-
+    """Deliver one Discord webhook payload with bounded retry handling."""
     last_error: Exception | None = None
     for attempt in range(1, max_attempts + 1):
         try:
@@ -308,6 +288,102 @@ def discord_post(
                 continue
             raise RuntimeError(f"Discord delivery failed after {max_attempts} attempts: {exc}") from exc
     raise RuntimeError(f"Discord delivery failed: {last_error}")
+
+
+def discord_post(
+    webhook: str,
+    *,
+    title: str,
+    description: str,
+    url: str | None = None,
+    user_id: str = "",
+    color: int = 0x2ECC71,
+    max_attempts: int = 4,
+) -> None:
+    content = f"<@{user_id}>" if user_id else ""
+    embed: dict[str, Any] = {
+        "title": title[:256],
+        "description": description[:4096],
+        "color": color,
+        "timestamp": utc_now(),
+        "footer": {"text": "Movie Ticket Monitor"},
+    }
+    if url:
+        embed["url"] = url
+    payload = {
+        "username": "Movie Ticket Monitor",
+        "content": content,
+        "allowed_mentions": {"users": [user_id]} if user_id else {"parse": []},
+        "embeds": [embed],
+    }
+    discord_send_payload(webhook, payload, max_attempts=max_attempts)
+
+
+def build_overview_batches(
+    queued_events: list[dict[str, Any]],
+) -> list[tuple[list[dict[str, Any]], list[dict[str, Any]]]]:
+    """Create Discord-safe embed batches while retaining their source events."""
+    batches: list[tuple[list[dict[str, Any]], list[dict[str, Any]]]] = []
+    embeds: list[dict[str, Any]] = []
+    items: list[dict[str, Any]] = []
+    character_count = 0
+
+    ordered_events = sorted(
+        queued_events,
+        key=lambda item: (
+            0 if int(item["event"]["color"]) == 0xE74C3C else 1,
+            normalize_title(item["target_name"]),
+            normalize_title(item["event"]["title"]),
+        ),
+    )
+    for item in ordered_events:
+        event = item["event"]
+        title = normalize_space(f"{item['target_name']} — {event['title']}")[:256]
+        target_link = f"[Open Cineplex page]({item['target_url']})"
+        description = f"{target_link}\n\n{event['description']}"
+        if len(description) > 4000:
+            description = description[:3997].rstrip() + "…"
+        embed = {
+            "title": title,
+            "description": description,
+            "color": int(event["color"]),
+            "timestamp": utc_now(),
+            "footer": {"text": "Movie Ticket Monitor"},
+        }
+        embed_size = len(title) + len(description) + len("Movie Ticket Monitor")
+        if embeds and (len(embeds) >= 10 or character_count + embed_size > 5700):
+            batches.append((embeds, items))
+            embeds = []
+            items = []
+            character_count = 0
+        embeds.append(embed)
+        items.append(item)
+        character_count += embed_size
+
+    if embeds:
+        batches.append((embeds, items))
+    return batches
+
+
+def discord_post_overview_batch(
+    webhook: str,
+    embeds: list[dict[str, Any]],
+    *,
+    user_id: str = "",
+    part: int = 1,
+    total_parts: int = 1,
+) -> None:
+    heading = "🎟️ Cineplex update overview"
+    if total_parts > 1:
+        heading += f" — part {part}/{total_parts}"
+    content = f"<@{user_id}>\n{heading}" if user_id else heading
+    payload = {
+        "username": "Movie Ticket Monitor",
+        "content": content,
+        "allowed_mentions": {"users": [user_id]} if user_id else {"parse": []},
+        "embeds": embeds,
+    }
+    discord_send_payload(webhook, payload)
 
 
 def make_context(browser: Any, timeout_seconds: int) -> BrowserContext:
@@ -898,18 +974,20 @@ def compare_snapshots(
         )
 
     inventory_lines: list[str] = []
+    inventory_has_priority = False
     for key in sorted(set(previous_movies) & set(current_movies)):
         old_movie = previous_movies[key]
         new_movie = current_movies[key]
         title = new_movie.get("title") or key
-        if not is_priority_movie(title, new_movie, priority_titles, priority_formats):
-            continue
+        is_priority = is_priority_movie(title, new_movie, priority_titles, priority_formats)
         new_times = sorted(set(new_movie.get("showtimes", [])) - set(old_movie.get("showtimes", [])))
         new_dates = sorted(set(new_movie.get("dates", [])) - set(old_movie.get("dates", [])))
         new_formats = sorted(set(new_movie.get("formats", [])) - set(old_movie.get("formats", [])))
         if not (new_times or new_dates or new_formats):
             continue
-        inventory_lines.append(f"🚨 **{title}**")
+        inventory_has_priority = inventory_has_priority or is_priority
+        marker = "🚨" if is_priority else "•"
+        inventory_lines.append(f"{marker} **{title}**")
         if new_dates:
             inventory_lines.append(f"  • New dates: {', '.join(new_dates[:8])}")
         if new_times:
@@ -919,9 +997,13 @@ def compare_snapshots(
     if inventory_lines:
         events.append(
             {
-                "title": "🚨 New priority showtime inventory",
+                "title": (
+                    "🚨 New priority showtime inventory"
+                    if inventory_has_priority
+                    else "New showtime inventory"
+                ),
                 "description": "\n".join(inventory_lines[:40]),
-                "color": 0xE74C3C,
+                "color": 0xE74C3C if inventory_has_priority else 0xE67E22,
             }
         )
 
@@ -1083,6 +1165,18 @@ def baseline_summary(entries: list[tuple[Target, dict[str, Any]]]) -> str:
     return "\n".join(lines)
 
 
+def prune_unconfigured_state(state: dict[str, Any], configured_urls: set[str]) -> list[str]:
+    """Remove snapshots for targets that no longer exist in the configuration."""
+    stale = [
+        key
+        for key in state
+        if key.startswith("https://") and key not in configured_urls
+    ]
+    for key in stale:
+        state.pop(key, None)
+    return sorted(stale)
+
+
 def run_monitor(*, test_alert: bool = False) -> int:
     webhook, user_id = get_environment()
     if test_alert:
@@ -1118,6 +1212,8 @@ def run_monitor(*, test_alert: bool = False) -> int:
     successful_urls: set[str] = set()
     baseline_entries: list[tuple[Target, dict[str, Any]]] = []
     baseline_summary_sent = False
+    queued_events: list[dict[str, Any]] = []
+    pending_event_entries: dict[str, dict[str, Any]] = {}
     target_by_url = {target.url: target for target in targets}
 
     with sync_playwright() as playwright:
@@ -1198,6 +1294,7 @@ def run_monitor(*, test_alert: bool = False) -> int:
                     )
                     transition_revision = int(previous.get("revision", 0)) + 1
                     sent_ids = list(entry.get("sent_event_ids", []))
+                    unsent_count = 0
                     for event in events:
                         event_id = event_id_for_transition(
                             target.url,
@@ -1207,24 +1304,23 @@ def run_monitor(*, test_alert: bool = False) -> int:
                         if event_id in sent_ids:
                             LOGGER.info("Skipping already-delivered event: %s", event["title"])
                             continue
-                        # Persist each successful delivery ID locally before the next event.
-                        # This prevents duplicate event 1 if event 2 fails in the same run.
-                        state[target.url] = entry
-                        discord_post(
-                            webhook,
-                            title=f"🎟️ {event['title']}: {target.name}",
-                            description=event["description"],
-                            url=target.url,
-                            user_id=user_id,
-                            color=int(event["color"]),
+                        queued_events.append(
+                            {
+                                "target_url": target.url,
+                                "target_name": target.name,
+                                "event_id": event_id,
+                                "event": event,
+                            }
                         )
-                        sent_ids.append(event_id)
-                        entry["sent_event_ids"] = sent_ids[-200:]
-                        state[target.url] = entry
-                        save_json(STATE_PATH, state)
+                        unsent_count += 1
 
                     if events:
-                        LOGGER.info("Processed %s alert event(s): %s", len(events), target.name)
+                        LOGGER.info(
+                            "Queued %s of %s alert event(s): %s",
+                            unsent_count,
+                            len(events),
+                            target.name,
+                        )
                     else:
                         LOGGER.info("Validated change without a ticket event: %s", target.name)
                     updated = make_entry(
@@ -1233,7 +1329,12 @@ def run_monitor(*, test_alert: bool = False) -> int:
                         sent_ids,
                         revision=transition_revision,
                     )
-                    state[target.url] = updated
+                    if unsent_count:
+                        # Keep the previous snapshot until its overview events are delivered.
+                        state[target.url] = entry
+                        pending_event_entries[target.url] = updated
+                    else:
+                        state[target.url] = updated
                 except Exception as exc:
                     any_failure = True
                     LOGGER.exception("Failed target %s", target.name)
@@ -1267,6 +1368,42 @@ def run_monitor(*, test_alert: bool = False) -> int:
         finally:
             context.close()
             browser.close()
+
+    if queued_events:
+        batches = build_overview_batches(queued_events)
+        for batch_number, (embeds, batch_items) in enumerate(batches, start=1):
+            try:
+                discord_post_overview_batch(
+                    webhook,
+                    embeds,
+                    user_id=user_id if batch_number == 1 else "",
+                    part=batch_number,
+                    total_parts=len(batches),
+                )
+            except Exception:
+                any_failure = True
+                LOGGER.exception("Could not deliver the Discord change overview.")
+                break
+
+            # Persist every successfully delivered batch before attempting the next.
+            for item in batch_items:
+                target_url = item["target_url"]
+                entry = copy.deepcopy(state.get(target_url, {}))
+                sent_ids = list(entry.get("sent_event_ids", []))
+                if item["event_id"] not in sent_ids:
+                    sent_ids.append(item["event_id"])
+                entry["sent_event_ids"] = sent_ids[-200:]
+                state[target_url] = entry
+            save_json(STATE_PATH, state)
+
+        queued_ids_by_target: dict[str, set[str]] = {}
+        for item in queued_events:
+            queued_ids_by_target.setdefault(item["target_url"], set()).add(item["event_id"])
+        for target_url, pending_entry in pending_event_entries.items():
+            delivered_list = list(state.get(target_url, {}).get("sent_event_ids", []))
+            if queued_ids_by_target.get(target_url, set()) <= set(delivered_list):
+                pending_entry["sent_event_ids"] = delivered_list[-200:]
+                state[target_url] = pending_entry
 
     pending = [
         (target_by_url[url], state[url].get("snapshot", {}))
@@ -1327,6 +1464,10 @@ def run_monitor(*, test_alert: bool = False) -> int:
         except Exception:
             any_failure = True
             LOGGER.exception("Could not send the monitor heartbeat.")
+
+    stale_urls = prune_unconfigured_state(state, set(target_by_url))
+    if stale_urls:
+        LOGGER.info("Removed %s unconfigured target snapshot(s) from state.", len(stale_urls))
 
     if state != original_state:
         save_json(STATE_PATH, state)

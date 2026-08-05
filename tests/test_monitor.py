@@ -2,6 +2,7 @@ import sys
 import unittest
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from types import SimpleNamespace
 from unittest.mock import patch
 
 
@@ -170,6 +171,39 @@ class DetectorRegressionTests(unittest.TestCase):
         self.assertIn("showtime inventory", events[0]["title"])
         self.assertIn("3:30 PM", events[0]["description"])
 
+    def test_new_nonpriority_showtime_also_creates_inventory_event(self):
+        previous = {
+            "movies": {
+                "title:example-movie": {
+                    "title": "Example Movie",
+                    "showtimes": ["7:00 PM"],
+                    "dates": ["Dec 18"],
+                    "formats": [],
+                }
+            }
+        }
+        current = {
+            "movies": {
+                "title:example-movie": {
+                    "title": "Example Movie",
+                    "showtimes": ["3:30 PM", "7:00 PM"],
+                    "dates": ["Dec 18"],
+                    "formats": [],
+                }
+            }
+        }
+        events = monitor.compare_snapshots(
+            previous,
+            current,
+            target_name="Cineplex Cinemas Cambridge",
+            target_type="theatre",
+            priority_titles=("Dune: Part 3",),
+            priority_formats=("IMAX", "70MM"),
+        )
+        self.assertEqual(len(events), 1)
+        self.assertEqual(events[0]["title"], "New showtime inventory")
+        self.assertIn("3:30 PM", events[0]["description"])
+
     def test_theatre_text_fallback_attaches_showtimes_to_movie(self):
         body = """
         Movies
@@ -255,6 +289,159 @@ class DetectorRegressionTests(unittest.TestCase):
         self.assertFalse(monitor.heartbeat_due(recent, 24, now))
         self.assertTrue(monitor.heartbeat_due(stale, 24, now))
         self.assertFalse(monitor.heartbeat_due({}, 0, now))
+
+    def test_overview_events_are_batched_with_discord_limits(self):
+        events = [
+            {
+                "target_url": f"https://www.cineplex.com/theatre/example-{index}",
+                "target_name": f"Example Theatre {index}",
+                "event_id": str(index),
+                "event": {
+                    "title": "New movie listing detected",
+                    "description": "• Example Movie",
+                    "color": 0xE67E22,
+                },
+            }
+            for index in range(11)
+        ]
+        batches = monitor.build_overview_batches(events)
+        self.assertEqual(len(batches), 2)
+        self.assertEqual(len(batches[0][0]), 10)
+        self.assertEqual(len(batches[1][0]), 1)
+        self.assertEqual(sum(len(items) for _, items in batches), 11)
+
+    def test_overview_places_priority_changes_first(self):
+        normal = {
+            "target_url": "https://www.cineplex.com/theatre/example",
+            "target_name": "Example Theatre",
+            "event_id": "normal",
+            "event": {"title": "New movie", "description": "Example", "color": 0xE67E22},
+        }
+        priority = {
+            "target_url": "https://www.cineplex.com/movie/dune-part-3",
+            "target_name": "Dune: Part 3",
+            "event_id": "priority",
+            "event": {"title": "Priority update", "description": "Dune", "color": 0xE74C3C},
+        }
+        batches = monitor.build_overview_batches([normal, priority])
+        self.assertEqual(batches[0][1][0]["event_id"], "priority")
+
+    def test_overview_mentions_user_only_in_requested_batch(self):
+        embeds = [{"title": "Example", "description": "Change", "color": 1}]
+        with patch.object(monitor, "discord_send_payload") as send:
+            monitor.discord_post_overview_batch(
+                "https://discord.com/api/webhooks/example/token",
+                embeds,
+                user_id="123456789",
+            )
+        payload = send.call_args.args[1]
+        self.assertIn("<@123456789>", payload["content"])
+        self.assertEqual(payload["allowed_mentions"], {"users": ["123456789"]})
+        self.assertEqual(payload["embeds"], embeds)
+
+    def test_unconfigured_target_state_is_pruned(self):
+        keep = "https://www.cineplex.com/theatre/keep"
+        remove = "https://www.cineplex.com/movie/remove"
+        state = {keep: {"snapshot": {}}, remove: {"snapshot": {}}, "_meta": {"ok": True}}
+        removed = monitor.prune_unconfigured_state(state, {keep})
+        self.assertEqual(removed, [remove])
+        self.assertIn(keep, state)
+        self.assertIn("_meta", state)
+        self.assertNotIn(remove, state)
+
+    def test_configuration_is_theatre_first_and_dune_only(self):
+        config = monitor.load_json(monitor.CONFIG_PATH, {})
+        _, targets = monitor.parse_targets(config)
+        names = {target.name for target in targets}
+        self.assertEqual(len(targets), 7)
+        self.assertNotIn("Cineplex Cinemas Hamilton Mountain", names)
+        self.assertFalse(any("Odyssey" in name for name in names))
+        self.assertFalse(any("Doomsday" in name for name in names))
+        self.assertEqual(
+            {name for name in names if name.startswith("Dune: Part 3")},
+            {"Dune: Part 3", "Dune: Part 3 — IMAX 70MM"},
+        )
+
+    def test_run_consolidates_change_events_into_one_overview(self):
+        target = monitor.Target(
+            "Cineplex Cinemas Cambridge",
+            "theatre",
+            "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge",
+            (),
+            1,
+        )
+        previous_snapshot = {"movies": {}}
+        current_snapshot = {
+            "movies": {
+                "title:example-movie": {
+                    "title": "Example Movie",
+                    "ticket_available": True,
+                    "showtimes": [],
+                    "dates": [],
+                    "formats": [],
+                    "url": None,
+                }
+            }
+        }
+        config = {
+            "settings": {
+                "send_baseline_summary": False,
+                "send_error_alerts": False,
+                "heartbeat_interval_hours": 0,
+            },
+            "priority_titles": ["Dune: Part 3"],
+            "priority_formats": ["IMAX", "70MM"],
+            "targets": [
+                {
+                    "name": target.name,
+                    "type": target.type,
+                    "url": target.url,
+                    "min_movies": 1,
+                }
+            ],
+        }
+        state = {target.url: monitor.make_entry(target, previous_snapshot)}
+
+        class DummyContext:
+            def close(self):
+                return None
+
+        class DummyBrowser:
+            def close(self):
+                return None
+
+        class DummyPlaywright:
+            chromium = SimpleNamespace(launch=lambda headless: DummyBrowser())
+
+        class DummyManager:
+            def __enter__(self):
+                return DummyPlaywright()
+
+            def __exit__(self, exc_type, exc, traceback):
+                return False
+
+        def fake_load(path, default):
+            if path == monitor.CONFIG_PATH:
+                return config
+            if path == monitor.STATE_PATH:
+                return state
+            return default
+
+        with (
+            patch.object(monitor, "get_environment", return_value=("webhook", "123456789")),
+            patch.object(monitor, "load_json", side_effect=fake_load),
+            patch.object(monitor, "sync_playwright", return_value=DummyManager()),
+            patch.object(monitor, "make_context", return_value=DummyContext()),
+            patch.object(monitor, "collect_target_with_retry", return_value=current_snapshot),
+            patch.object(monitor, "save_json"),
+            patch.object(monitor, "discord_post_overview_batch") as overview,
+            patch.object(monitor, "discord_post") as individual,
+        ):
+            result = monitor.run_monitor()
+
+        self.assertEqual(result, 0)
+        overview.assert_called_once()
+        individual.assert_not_called()
 
     def test_target_collection_retries_transient_render_failure(self):
         class FakePage:

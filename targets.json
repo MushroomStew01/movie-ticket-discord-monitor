@@ -14,33 +14,10 @@
   "priority_formats": [
     "IMAX",
     "70MM",
-    "4DX",
     "VIP"
   ],
   "priority_titles": [
-    "The Odyssey",
-    "Spider-Man: Brand New Day",
-    "The End of Oak Street",
-    "PAW Patrol: The Dino Movie",
-    "Insidious: Out of the Further",
-    "Mutiny",
-    "Coyote vs Acme",
-    "The Dog Stars",
-    "Practical Magic 2",
-    "Resident Evil",
-    "Digger",
-    "The Social Reckoning",
-    "Street Fighter",
-    "Clayface",
-    "Cat in the Hat",
-    "Godzilla Minus Zero",
-    "The Hunger Games: Sunrise on the Reaping",
-    "Violent Night 2",
-    "Avengers: Doomsday",
-    "Dune: Part 3",
-    "The Angry Birds Movie 3",
-    "Jumanji: Open World",
-    "Werwulf"
+    "Dune: Part 3"
   ],
   "targets": [
     {
@@ -48,21 +25,21 @@
       "type": "theatre",
       "url": "https://www.cineplex.com/theatre/cineplex-cinemas-kitchener-and-vip",
       "min_movies": 3,
-      "watch_keywords": ["advance tickets", "get tickets", "vip", "imax", "70mm", "4dx", "ultraavx"]
+      "watch_keywords": ["advance tickets", "get tickets", "vip", "imax", "70mm", "ultraavx"]
     },
     {
       "name": "Cineplex Cinemas Cambridge",
       "type": "theatre",
       "url": "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge",
       "min_movies": 3,
-      "watch_keywords": ["advance tickets", "get tickets", "imax", "70mm", "4dx", "ultraavx"]
+      "watch_keywords": ["advance tickets", "get tickets", "imax", "70mm", "ultraavx"]
     },
     {
       "name": "Cineplex Cinemas Vaughan",
       "type": "theatre",
       "url": "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan",
       "min_movies": 3,
-      "watch_keywords": ["advance tickets", "get tickets", "imax", "70mm", "4dx", "ultraavx"]
+      "watch_keywords": ["advance tickets", "get tickets", "imax", "70mm", "ultraavx"]
     },
     {
       "name": "Cineplex Cinemas Mississauga Square One",
@@ -72,138 +49,11 @@
       "watch_keywords": ["advance tickets", "get tickets", "imax", "70mm", "ultraavx"]
     },
     {
-      "name": "Cineplex Cinemas Hamilton Mountain",
-      "type": "theatre",
-      "url": "https://www.cineplex.com/theatre/cineplex-cinemas-hamilton-mountain",
-      "min_movies": 3,
-      "watch_keywords": ["advance tickets", "get tickets", "4dx", "d-box", "ultraavx", "atmos"]
-    },
-    {
       "name": "Cineplex national movie listings",
       "type": "listing",
       "url": "https://www.cineplex.com/en?theatresNearYou=true",
       "min_movies": 20,
-      "watch_keywords": ["advance tickets", "get tickets", "imax", "70mm", "vip", "4dx", "ultraavx", "screenx", "d-box"]
-    },
-    {
-      "name": "The Odyssey",
-      "type": "movie",
-      "url": "https://www.cineplex.com/movie/the-odyssey",
-      "watch_keywords": ["get advance tickets", "get tickets", "imax", "70mm", "4dx"]
-    },
-    {
-      "name": "The Odyssey — IMAX 70MM",
-      "type": "movie",
-      "url": "https://www.cineplex.com/movie/imax70-the-odyssey-the-imax-experience-in-7",
-      "watch_keywords": ["get advance tickets", "get tickets", "imax", "70mm"]
-    },
-    {
-      "name": "Spider-Man: Brand New Day",
-      "type": "movie",
-      "url": "https://www.cineplex.com/movie/spiderman-brand-new-day",
-      "watch_keywords": ["get advance tickets", "get tickets", "imax", "vip", "4dx", "screenx", "d-box"]
-    },
-    {
-      "name": "The End of Oak Street",
-      "type": "movie",
-      "url": "https://www.cineplex.com/movie/the-end-of-oak-street",
-      "watch_keywords": ["get advance tickets", "get tickets", "imax", "ultraavx"]
-    },
-    {
-      "name": "PAW Patrol: The Dino Movie",
-      "type": "movie",
-      "url": "https://www.cineplex.com/movie/paw-patrol-the-dino-movie",
-      "watch_keywords": ["get advance tickets", "get tickets"]
-    },
-    {
-      "name": "Insidious: Out of the Further",
-      "type": "movie",
-      "url": "https://www.cineplex.com/movie/insidious-out-of-the-further",
-      "watch_keywords": ["get advance tickets", "get tickets", "imax", "ultraavx"]
-    },
-    {
-      "name": "Mutiny",
-      "type": "movie",
-      "url": "https://www.cineplex.com/movie/mutiny",
-      "watch_keywords": ["get advance tickets", "get tickets", "imax", "ultraavx"]
-    },
-    {
-      "name": "Coyote vs Acme",
-      "type": "movie",
-      "url": "https://www.cineplex.com/movie/coyote-vs-acme-2026",
-      "watch_keywords": ["get advance tickets", "get tickets"]
-    },
-    {
-      "name": "The Dog Stars",
-      "type": "movie",
-      "url": "https://www.cineplex.com/movie/the-dog-stars",
-      "watch_keywords": ["get advance tickets", "get tickets", "imax", "ultraavx"]
-    },
-    {
-      "name": "Practical Magic 2",
-      "type": "movie",
-      "url": "https://www.cineplex.com/movie/practical-magic-2",
-      "watch_keywords": ["get advance tickets", "get tickets"]
-    },
-    {
-      "name": "Resident Evil",
-      "type": "movie",
-      "url": "https://www.cineplex.com/movie/resident-evil-2026",
-      "watch_keywords": ["get advance tickets", "get tickets", "imax", "ultraavx"]
-    },
-    {
-      "name": "Digger",
-      "type": "movie",
-      "url": "https://www.cineplex.com/movie/digger",
-      "watch_keywords": ["get advance tickets", "get tickets", "imax", "70mm", "ultraavx"]
-    },
-    {
-      "name": "The Social Reckoning",
-      "type": "movie",
-      "url": "https://www.cineplex.com/movie/the-social-reckoning",
-      "watch_keywords": ["get advance tickets", "get tickets"]
-    },
-    {
-      "name": "Street Fighter",
-      "type": "movie",
-      "url": "https://www.cineplex.com/movie/street-fighter-2026",
-      "watch_keywords": ["get advance tickets", "get tickets", "imax", "4dx", "ultraavx"]
-    },
-    {
-      "name": "Clayface",
-      "type": "movie",
-      "url": "https://www.cineplex.com/movie/clayface-2026",
-      "watch_keywords": ["get advance tickets", "get tickets", "imax", "ultraavx"]
-    },
-    {
-      "name": "Cat in the Hat",
-      "type": "movie",
-      "url": "https://www.cineplex.com/movie/cat-in-the-hat",
-      "watch_keywords": ["get advance tickets", "get tickets", "imax"]
-    },
-    {
-      "name": "Godzilla Minus Zero",
-      "type": "movie",
-      "url": "https://www.cineplex.com/movie/godzilla-minus-zero",
-      "watch_keywords": ["get advance tickets", "get tickets", "imax", "ultraavx"]
-    },
-    {
-      "name": "The Hunger Games: Sunrise on the Reaping",
-      "type": "movie",
-      "url": "https://www.cineplex.com/movie/hunger-games-sunrise-on-the-reaping",
-      "watch_keywords": ["get advance tickets", "get tickets", "imax", "70mm", "ultraavx"]
-    },
-    {
-      "name": "Violent Night 2",
-      "type": "movie",
-      "url": "https://www.cineplex.com/movie/violent-night-2",
-      "watch_keywords": ["get advance tickets", "get tickets"]
-    },
-    {
-      "name": "Avengers: Doomsday",
-      "type": "movie",
-      "url": "https://www.cineplex.com/movie/avengers-doomsday",
-      "watch_keywords": ["get advance tickets", "get tickets", "imax", "70mm", "vip", "4dx", "ultraavx", "screenx", "d-box"]
+      "watch_keywords": ["advance tickets", "get tickets", "imax", "70mm", "vip", "ultraavx", "screenx", "d-box"]
     },
     {
       "name": "Dune: Part 3",
@@ -217,24 +67,6 @@
       "type": "movie",
       "url": "https://www.cineplex.com/movie/imax70-dune-part-3-the-imax-experience-in-70m",
       "alert_available_on_first_seen": false,
-      "watch_keywords": ["get advance tickets", "get tickets", "imax", "70mm"]
-    },
-    {
-      "name": "The Angry Birds Movie 3",
-      "type": "movie",
-      "url": "https://www.cineplex.com/movie/the-angry-birds-movie-3",
-      "watch_keywords": ["get advance tickets", "get tickets"]
-    },
-    {
-      "name": "Jumanji: Open World",
-      "type": "movie",
-      "url": "https://www.cineplex.com/movie/jumanji-open-world",
-      "watch_keywords": ["get advance tickets", "get tickets", "imax", "4dx", "ultraavx"]
-    },
-    {
-      "name": "Werwulf",
-      "type": "movie",
-      "url": "https://www.cineplex.com/movie/werwulf",
       "watch_keywords": ["get advance tickets", "get tickets", "imax", "70mm"]
     }
   ]

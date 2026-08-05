@@ -1,7 +1,10 @@
 # Movie Ticket Discord Monitor
 
-## Version 4 reliability improvements
+## Theatre-first notification design
 
+- Checks seven pages instead of the previous 31: four theatres, national discovery, and two Dune: Part 3 editions.
+- Sends new movie, ticket, date, format, and showtime changes in one Discord overview per run.
+- Automatically discovers movies from theatre and national listing pages instead of maintaining a large movie watchlist.
 - Stable title-based movie identities prevent false “new movie” alerts when Cineplex changes links or card markup.
 - A showtime that disappears and later returns can alert again; delivery deduplication still protects retries of the same transition.
 - Failed targets preserve HTML, screenshot, and metadata diagnostics for the GitHub Actions run.
@@ -19,11 +22,12 @@ It currently includes:
 - Cineplex Cinemas Cambridge
 - Cineplex Cinemas Vaughan
 - Cineplex Cinemas Mississauga Square One
-- Cineplex Cinemas Hamilton Mountain
-- The Odyssey IMAX 70mm movie page
+- Cineplex national movie discovery
+- Dune: Part 3 and Dune: Part 3 IMAX 70MM direct pages
 - Detection of newly added movie links
 - Detection when ticket wording appears
-- Detection of new ticket/showtime-related text
+- Detection of new dates, formats, showtimes, and ticket-related text for every discovered movie
+- Consolidated Discord change overviews grouped into one message whenever Discord limits allow
 - Optional direct Discord mention using your Discord User ID
 
 Important: Cineplex theatre and movie landing pages do not always expose individual session times. The monitor alerts on exact showtime/date/format additions whenever those values are present in readable page content, but it does not claim a showtime that the page did not expose. It never purchases, reserves, or holds seats.
@@ -166,9 +170,9 @@ For a webhook-only test, start a manual workflow run and enable the **Send a Dis
 
 Using `DISCORD_USER_ID` is recommended because each alert directly mentions you.
 
-## 6. Add or remove theatres and movies
+## 6. Change monitored theatres
 
-Edit `targets.json`.
+Edit `targets.json`. General movies are discovered automatically from the theatre and national listing pages, so they do not need individual targets. The only permanent movie targets are the two Dune: Part 3 editions.
 
 Theatre example:
 
@@ -183,24 +187,6 @@ Theatre example:
     "imax",
     "70mm",
     "ultraavx"
-  ]
-}
-```
-
-Movie example:
-
-```json
-{
-  "name": "Dune: Part Three",
-  "type": "movie",
-  "url": "PASTE_THE_OFFICIAL_CINEPLEX_MOVIE_PAGE_URL_HERE",
-  "watch_keywords": [
-    "get tickets",
-    "advance tickets available",
-    "imax",
-    "70mm",
-    "vaughan",
-    "mississauga"
   ]
 }
 ```
