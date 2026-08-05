@@ -247,7 +247,7 @@
     "name": "Cineplex Cinemas Vaughan",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "f71b1629a8a63cd4b06b6100bbc9932c2fcfde35badca933ab3bd0421a0c0dae",
+    "hash": "af2435ef87c54604056bc641b26957254bdde1cfcfa02caf281a4a95a400c90f",
     "snapshot": {
       "page_title": "Cineplex Cinemas Vaughan",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan",
@@ -270,15 +270,6 @@
           "context": "Ice Cream Man Advance tickets available",
           "url": null
         },
-        "title:insidious-out-of-the-further": {
-          "title": "Insidious: Out of the Further",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Insidious: Out of the Further Advance tickets available",
-          "url": null
-        },
         "title:minions-and-monsters": {
           "title": "Minions & Monsters",
           "ticket_available": false,
@@ -295,15 +286,6 @@
           "showtimes": [],
           "dates": [],
           "context": "Moana",
-          "url": null
-        },
-        "title:mutiny": {
-          "title": "Mutiny",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Mutiny Advance tickets available",
           "url": null
         },
         "title:obsession": {
@@ -324,6 +306,15 @@
           "context": "One Night Only Advance tickets available",
           "url": null
         },
+        "title:paw-patrol-the-dino-movie": {
+          "title": "Paw Patrol: The Dino Movie",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Paw Patrol: The Dino Movie Advance tickets available",
+          "url": null
+        },
         "title:spider-man-brand-new-day": {
           "title": "Spider-Man: Brand New Day",
           "ticket_available": false,
@@ -331,6 +322,15 @@
           "showtimes": [],
           "dates": [],
           "context": "Spider-Man: Brand New Day",
+          "url": null
+        },
+        "title:super-troopers-3": {
+          "title": "Super Troopers 3",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Super Troopers 3 Advance tickets available",
           "url": null
         },
         "title:the-end-of-oak-street": {
@@ -365,9 +365,10 @@
     "sent_event_ids": [
       "ec092a420f783136a8d2d4d6740623b2e83f0bc2c31d338a88d93bf01624f5d3",
       "a449f7df49c1693d5b93181f89ae7d0dab00710c2158048a59ba19c54b3de432",
-      "6a040b4bd96614a163a1e6a415beb5ace2307313504362eaa9c20de6f8f598c4"
+      "6a040b4bd96614a163a1e6a415beb5ace2307313504362eaa9c20de6f8f598c4",
+      "abfef4b5c4ab6ea6fca974fe488a06caf800706ce6cb71c8edf0519278e68617"
     ],
-    "revision": 3
+    "revision": 4
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one": {
     "name": "Cineplex Cinemas Mississauga Square One",
@@ -497,7 +498,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "ce2ced0e358dccd751187fa6e637cd13858943e1543c3657944d84145a406ca0",
+    "hash": "012d6942a492b1cdaa8e2bae8e7913ec23c58bc89c61a8accebbe1704c93e59d",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -525,7 +526,6 @@
       ],
       "relevant_lines": [
         "Cineplex Odeon Westmount Cinemas and VIP",
-        "Cineplex Cinemas Kitchener and VIP",
         "Advance tickets",
         "AUG 7",
         "AUG 14",
@@ -888,7 +888,7 @@
       "871e5530e06a6c14edaedbc162f1fadc8925faa88e63a9be5de7332ab55880f6",
       "d1fd2ec41cd5b6fe0a33da489b2186e16cd1338352aa39b11da8d4afd42d7ba7"
     ],
-    "revision": 6
+    "revision": 7
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
