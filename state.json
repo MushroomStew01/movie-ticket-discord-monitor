@@ -499,7 +499,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "d26282ce7dcab344632457c116f3f3573e8f120ef95cb31c6573d61de07d957c",
+    "hash": "4edf4f687cef6a5e783b7cbdf1d281127d3165b86a2e2d47c609a7dffaa56eba",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -513,7 +513,6 @@
         "Aug 15",
         "Aug 26",
         "Aug 29",
-        "Aug 6",
         "Aug 7",
         "Aug 8"
       ],
@@ -533,7 +532,6 @@
         "AUG 12",
         "AUG 26",
         "GHOST: 2 Big To Rig - The IMAX Experience®",
-        "AUG 6",
         "AUG 15",
         "AUG 29",
         "AUG 11",
@@ -574,13 +572,11 @@
         },
         "title:ateez-light-the-way-in-cinemas-korean-w-e-s-t": {
           "title": "ATEEZ : LIGHT THE WAY IN CINEMAS (Korean w.e.s.t.)",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Aug 6"
-          ],
-          "context": "Advance tickets AUG 6 ATEEZ : LIGHT THE WAY IN CINEMAS (Korean w.e.s.t.)",
+          "dates": [],
+          "context": "ATEEZ : LIGHT THE WAY IN CINEMAS (Korean w.e.s.t.)",
           "url": "https://www.cineplex.com/movie/ateez-light-the-way-in-cinemas-korean-west"
         },
         "title:el-gawahergy-arabic-w-e-s-t": {
@@ -889,7 +885,7 @@
       "871e5530e06a6c14edaedbc162f1fadc8925faa88e63a9be5de7332ab55880f6",
       "d1fd2ec41cd5b6fe0a33da489b2186e16cd1338352aa39b11da8d4afd42d7ba7"
     ],
-    "revision": 11
+    "revision": 12
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
@@ -946,6 +942,6 @@
     "revision": 0
   },
   "_meta": {
-    "last_heartbeat_at_utc": "2026-08-05T01:19:48.921418+00:00"
+    "last_heartbeat_at_utc": "2026-08-06T03:49:58.610968+00:00"
   }
 }
