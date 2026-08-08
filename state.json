@@ -3,7 +3,7 @@
     "name": "Cineplex Cinemas Kitchener and VIP",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "eb0336c0d6138bf0a5a3b499c5a5c7cf8b7ed1677672e69a4a5906e67db72c12",
+    "hash": "596434e8c2d8a0d6424e824994dc942ea0948ea0e1608c212907b13b7a391b02",
     "snapshot": {
       "page_title": "Cineplex Cinemas Kitchener and VIP",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-kitchener-and-vip",
@@ -67,15 +67,6 @@
           "context": "SIX: THE MUSICAL LIVE! Advance tickets available",
           "url": null
         },
-        "title:space-jam-family-favourites": {
-          "title": "Space Jam - Family Favourites",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Space Jam - Family Favourites",
-          "url": null
-        },
         "title:spider-man-brand-new-day": {
           "title": "Spider-Man: Brand New Day",
           "ticket_available": false,
@@ -117,7 +108,7 @@
     "sent_event_ids": [
       "6b665fd23ebdb2326dc3c6e38af109cf03de3a4463b4cdb119bb6870054b67f0"
     ],
-    "revision": 1
+    "revision": 2
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge": {
     "name": "Cineplex Cinemas Cambridge",
@@ -504,7 +495,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "7d5b86e11b516d8f42e8a409189d71501ceb0822f298fd91d6ffbf2ea5a8dc15",
+    "hash": "2ffffe3fa9fb5063ec7db659fd3fd1958c3bb6c111315f693e2c7b0a0a8b513c",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -528,8 +519,7 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Cinemas Oakville and VIP",
-        "Cineplex Cinemas Winston Churchill & VIP",
+        "Cineplex Odeon McGillivray Cinemas and VIP",
         "Advance tickets",
         "AUG 14",
         "AUG 12",
@@ -872,7 +862,7 @@
       "d1fd2ec41cd5b6fe0a33da489b2186e16cd1338352aa39b11da8d4afd42d7ba7",
       "70abb950413b885886f946d8f48fdb200eafd47182859bc8e6f8ffabdcc28a2e"
     ],
-    "revision": 56
+    "revision": 57
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
