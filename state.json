@@ -502,7 +502,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "e86b8878f26ecda4022014ccc48ae8171e83115a49579572cc55cf78ac605772",
+    "hash": "bd3f32d8b7905c396fab6c50aaff62edc74b94365800d1b71e127066550a6f4a",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -515,8 +515,7 @@
         "Aug 14",
         "Aug 15",
         "Aug 26",
-        "Aug 29",
-        "Aug 8"
+        "Aug 29"
       ],
       "formats": [
         "4DX",
@@ -527,8 +526,8 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Cinemas Oakville and VIP",
-        "Cineplex Cinemas Winston Churchill & VIP",
+        "Cineplex Odeon Westmount Cinemas and VIP",
+        "Cineplex Cinemas Kitchener and VIP",
         "Advance tickets",
         "AUG 14",
         "AUG 12",
@@ -537,7 +536,6 @@
         "AUG 15",
         "AUG 29",
         "AUG 11",
-        "AUG 8",
         "What are UltraAVX, IMAX, VIP, 4DX, ScreenX and D-BOX?"
       ],
       "movies": {
@@ -616,13 +614,11 @@
         },
         "title:grateful-dead-meet-up-at-the-movies-2026": {
           "title": "Grateful Dead Meet-Up At The Movies 2026",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Aug 8"
-          ],
-          "context": "Advance tickets AUG 8 Grateful Dead Meet-Up At The Movies 2026",
+          "dates": [],
+          "context": "Grateful Dead Meet-Up At The Movies 2026",
           "url": "https://www.cineplex.com/movie/grateful-dead-meetup-at-the-movies-2026"
         },
         "title:hadestown-the-musical": {
@@ -874,7 +870,7 @@
       "d1fd2ec41cd5b6fe0a33da489b2186e16cd1338352aa39b11da8d4afd42d7ba7",
       "70abb950413b885886f946d8f48fdb200eafd47182859bc8e6f8ffabdcc28a2e"
     ],
-    "revision": 39
+    "revision": 40
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
