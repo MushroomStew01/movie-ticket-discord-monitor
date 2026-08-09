@@ -114,7 +114,7 @@
     "name": "Cineplex Cinemas Cambridge",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "e568c938bb5dab09d24019a81b7300552ba85c0ba685d3b797969bd4b0358859",
+    "hash": "d7faee3bcc9dad7ffa8989fbd2823c68da35f022d4761c2452c9d38a09f613ae",
     "snapshot": {
       "page_title": "Cineplex Cinemas Cambridge",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge",
@@ -137,6 +137,15 @@
           "context": "André Rieu's 2026 Summer Concert: Viva Maastricht! Advance tickets available",
           "url": null
         },
+        "title:carmen-encore-bizet-french-w-e-s-t-metropolitan-opera": {
+          "title": "Carmen Encore (Bizet) - French w/e.s.t. – Metropolitan Opera",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Carmen Encore (Bizet) - French w/e.s.t. – Metropolitan Opera Advance tickets available",
+          "url": null
+        },
         "title:cos-fan-tutte-mozart-italian-w-e-s-t-metropolitan-opera": {
           "title": "Così fan tutte (Mozart) Italian w/e.s.t. – Metropolitan Opera",
           "ticket_available": true,
@@ -144,6 +153,15 @@
           "showtimes": [],
           "dates": [],
           "context": "Così fan tutte (Mozart) Italian w/e.s.t. – Metropolitan Opera Advance tickets available",
+          "url": null
+        },
+        "title:la-fanciulla-del-west-puccini-italian-w-e-s-t-metropolitan-opera": {
+          "title": "La Fanciulla del West (Puccini) Italian w/e.s.t. - Metropolitan Opera",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "La Fanciulla del West (Puccini) Italian w/e.s.t. - Metropolitan Opera Advance tickets available",
           "url": null
         },
         "title:macbeth-verdi-italian-w-e-s-t-metropolitan-opera": {
@@ -155,67 +173,49 @@
           "context": "Macbeth (Verdi) Italian w/e.s.t. – Metropolitan Opera Advance tickets available",
           "url": null
         },
-        "title:minions-and-monsters": {
-          "title": "Minions & Monsters",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Minions & Monsters",
-          "url": null
-        },
-        "title:moana": {
-          "title": "Moana",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Moana",
-          "url": null
-        },
-        "title:one-night-only": {
-          "title": "One Night Only",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "One Night Only",
-          "url": null
-        },
-        "title:paw-patrol-the-dino-movie": {
-          "title": "Paw Patrol: The Dino Movie",
+        "title:manon-massenet-french-w-e-s-t-metropolitan-opera": {
+          "title": "Manon (Massenet) French w/e.s.t. – Metropolitan Opera",
           "ticket_available": true,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Paw Patrol: The Dino Movie Advance tickets available",
+          "context": "Manon (Massenet) French w/e.s.t. – Metropolitan Opera Advance tickets available",
           "url": null
         },
-        "title:spider-man-brand-new-day": {
-          "title": "Spider-Man: Brand New Day",
-          "ticket_available": false,
+        "title:otello-verdi-italian-w-e-s-t-metropolitan-opera": {
+          "title": "Otello (Verdi) Italian w/e.s.t. - Metropolitan Opera",
+          "ticket_available": true,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Spider-Man: Brand New Day",
+          "context": "Otello (Verdi) Italian w/e.s.t. - Metropolitan Opera Advance tickets available",
           "url": null
         },
-        "title:super-troopers-3": {
-          "title": "Super Troopers 3",
-          "ticket_available": false,
+        "title:samson-et-dalila-saint-sa-ns-french-w-e-s-t-metropolitan-opera": {
+          "title": "Samson et Dalila (Saint-Saëns) - French w/e.s.t. - Metropolitan Opera",
+          "ticket_available": true,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Super Troopers 3",
+          "context": "Samson et Dalila (Saint-Saëns) - French w/e.s.t. - Metropolitan Opera Advance tickets available",
           "url": null
         },
-        "title:the-odyssey": {
-          "title": "The Odyssey",
-          "ticket_available": false,
+        "title:silent-night-kevin-puts-english-w-e-s-t-metropolitan-opera": {
+          "title": "Silent Night (Kevin Puts) English w/e.s.t. – Metropolitan Opera",
+          "ticket_available": true,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "The Odyssey",
+          "context": "Silent Night (Kevin Puts) English w/e.s.t. – Metropolitan Opera Advance tickets available",
+          "url": null
+        },
+        "title:the-magic-flute-encore-mozart-english-w-e-s-t-metropolitan-opera": {
+          "title": "The Magic Flute Encore (Mozart) English w/e.s.t - Metropolitan Opera",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "The Magic Flute Encore (Mozart) English w/e.s.t - Metropolitan Opera Advance tickets available",
           "url": null
         },
         "title:twenty-years-of-the-met-in-cinemas-an-anniversary-celebration-captured-english-w-e-s-t-metropolitan-opera": {
@@ -233,9 +233,10 @@
       "a2d18ffaec2c97a9ca9cc1ca3b6530c0e16a61ab544155034cea617a0c56082d",
       "51a18e2492daa36c09dd2ea89898675927f858256e49299ebaebe806a0516436",
       "56fabfc7d83c7098019c8df74ac821d0b1deed4bc8c92ca5bfbbe10e14845a06",
-      "2fe1260d36b03ee6b9d799dcb00a198591905fb422617662d9d2934b383c8ae6"
+      "2fe1260d36b03ee6b9d799dcb00a198591905fb422617662d9d2934b383c8ae6",
+      "9d7fb095792f85721a89ce36b1a10d37342ee5e23d9f8b1c7bbf864a2d710965"
     ],
-    "revision": 7
+    "revision": 8
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan": {
     "name": "Cineplex Cinemas Vaughan",
@@ -496,7 +497,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "ec6164e7333c0179e0862e023fec352fb99ff64243de7c74d1fc3cc1a2a6e06e",
+    "hash": "f0af223250fac09e9280c86a860210a6c0683657c9c7a630ad20f1a4cf9d71b8",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -520,8 +521,7 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Cinemas Oakville and VIP",
-        "Cineplex Odeon Westmount Cinemas and VIP",
+        "Cineplex Cinemas Abbotsford and VIP",
         "Advance tickets",
         "AUG 14",
         "AUG 12",
@@ -864,7 +864,7 @@
       "d1fd2ec41cd5b6fe0a33da489b2186e16cd1338352aa39b11da8d4afd42d7ba7",
       "70abb950413b885886f946d8f48fdb200eafd47182859bc8e6f8ffabdcc28a2e"
     ],
-    "revision": 73
+    "revision": 74
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
