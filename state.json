@@ -114,7 +114,7 @@
     "name": "Cineplex Cinemas Cambridge",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "583f66e0e4448db76e5cb9d9819fd87eae148ac38135c928fa04c5dd0ba125b2",
+    "hash": "e568c938bb5dab09d24019a81b7300552ba85c0ba685d3b797969bd4b0358859",
     "snapshot": {
       "page_title": "Cineplex Cinemas Cambridge",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge",
@@ -137,13 +137,22 @@
           "context": "André Rieu's 2026 Summer Concert: Viva Maastricht! Advance tickets available",
           "url": null
         },
-        "title:ice-cream-man": {
-          "title": "Ice Cream Man",
-          "ticket_available": false,
+        "title:cos-fan-tutte-mozart-italian-w-e-s-t-metropolitan-opera": {
+          "title": "Così fan tutte (Mozart) Italian w/e.s.t. – Metropolitan Opera",
+          "ticket_available": true,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Ice Cream Man",
+          "context": "Così fan tutte (Mozart) Italian w/e.s.t. – Metropolitan Opera Advance tickets available",
+          "url": null
+        },
+        "title:macbeth-verdi-italian-w-e-s-t-metropolitan-opera": {
+          "title": "Macbeth (Verdi) Italian w/e.s.t. – Metropolitan Opera",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Macbeth (Verdi) Italian w/e.s.t. – Metropolitan Opera Advance tickets available",
           "url": null
         },
         "title:minions-and-monsters": {
@@ -209,15 +218,6 @@
           "context": "The Odyssey",
           "url": null
         },
-        "title:toy-story-5": {
-          "title": "Toy Story 5",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Toy Story 5",
-          "url": null
-        },
         "title:twenty-years-of-the-met-in-cinemas-an-anniversary-celebration-captured-english-w-e-s-t-metropolitan-opera": {
           "title": "Twenty Years of the Met in Cinemas: An Anniversary Celebration (Captured) English w/e.s.t - Metropolitan Opera",
           "ticket_available": true,
@@ -232,9 +232,10 @@
     "sent_event_ids": [
       "a2d18ffaec2c97a9ca9cc1ca3b6530c0e16a61ab544155034cea617a0c56082d",
       "51a18e2492daa36c09dd2ea89898675927f858256e49299ebaebe806a0516436",
-      "56fabfc7d83c7098019c8df74ac821d0b1deed4bc8c92ca5bfbbe10e14845a06"
+      "56fabfc7d83c7098019c8df74ac821d0b1deed4bc8c92ca5bfbbe10e14845a06",
+      "2fe1260d36b03ee6b9d799dcb00a198591905fb422617662d9d2934b383c8ae6"
     ],
-    "revision": 6
+    "revision": 7
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan": {
     "name": "Cineplex Cinemas Vaughan",
@@ -495,7 +496,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "bd3f32d8b7905c396fab6c50aaff62edc74b94365800d1b71e127066550a6f4a",
+    "hash": "1ac66be8f4ca2edb0890d78eb3ccb0166a1da508c466b1f154d1616e73c36631",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -519,8 +520,8 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Odeon Westmount Cinemas and VIP",
-        "Cineplex Cinemas Kitchener and VIP",
+        "Cineplex Cinemas Abbotsford and VIP",
+        "Cineplex Cinemas Seton and VIP",
         "Advance tickets",
         "AUG 14",
         "AUG 12",
@@ -863,7 +864,7 @@
       "d1fd2ec41cd5b6fe0a33da489b2186e16cd1338352aa39b11da8d4afd42d7ba7",
       "70abb950413b885886f946d8f48fdb200eafd47182859bc8e6f8ffabdcc28a2e"
     ],
-    "revision": 71
+    "revision": 72
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
