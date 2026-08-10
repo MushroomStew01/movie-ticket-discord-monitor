@@ -497,7 +497,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "629b8f1e58b88388b410ede7e6f251be5529933199f7eff0d258232de88f6b93",
+    "hash": "3fa14458ced3ccbee696646f6ab094cfa4289c29a6d7b513fd71ff60a2d3bb03",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -521,7 +521,7 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Odeon Westmount Cinemas and VIP",
+        "Cineplex Odeon McGillivray Cinemas and VIP",
         "Advance tickets",
         "AUG 14",
         "AUG 12",
@@ -764,7 +764,7 @@
           "dates": [
             "Aug 14"
           ],
-          "context": "Advance tickets AUG 14 SIX: THE MUSICAL LIVE!",
+          "context": "Advance tickets AUG 14 SIX: THE MUSICAL LIVE! Watch trailer",
           "url": "https://www.cineplex.com/movie/six-the-musical-live"
         },
         "title:spider-man-brand-new-day": {
@@ -864,7 +864,7 @@
       "d1fd2ec41cd5b6fe0a33da489b2186e16cd1338352aa39b11da8d4afd42d7ba7",
       "70abb950413b885886f946d8f48fdb200eafd47182859bc8e6f8ffabdcc28a2e"
     ],
-    "revision": 108
+    "revision": 109
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
