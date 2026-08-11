@@ -497,7 +497,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "b42803658627c55caf977e56f0a30e42f827105ff497ca9679b548de47792b78",
+    "hash": "7c7672a894fcf081d3ec6164d480a84f3b0f6ae7705cf21e35d098af391ff059",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -505,7 +505,6 @@
       "ticket_phrases": [],
       "showtimes": [],
       "dates": [
-        "Aug 11",
         "Aug 12",
         "Aug 14",
         "Aug 15",
@@ -521,8 +520,7 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Cinemas Abbotsford and VIP",
-        "Cineplex Cinemas Seton and VIP",
+        "Cineplex Odeon Westmount Cinemas and VIP",
         "Advance tickets",
         "AUG 14",
         "AUG 12",
@@ -530,7 +528,6 @@
         "GHOST: 2 Big To Rig - The IMAX Experience®",
         "AUG 15",
         "AUG 29",
-        "AUG 11",
         "What are UltraAVX, IMAX, VIP, 4DX, ScreenX and D-BOX?"
       ],
       "movies": {
@@ -683,13 +680,11 @@
         },
         "title:nimrods-a-green-day-comedy": {
           "title": "Nimrods: A Green Day Comedy",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Aug 11"
-          ],
-          "context": "Advance tickets AUG 11 Nimrods: A Green Day Comedy",
+          "dates": [],
+          "context": "Nimrods: A Green Day Comedy",
           "url": "https://www.cineplex.com/movie/nimrods-a-green-day-comedy"
         },
         "title:one-night-only": {
@@ -865,7 +860,7 @@
       "d1fd2ec41cd5b6fe0a33da489b2186e16cd1338352aa39b11da8d4afd42d7ba7",
       "70abb950413b885886f946d8f48fdb200eafd47182859bc8e6f8ffabdcc28a2e"
     ],
-    "revision": 117
+    "revision": 118
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
