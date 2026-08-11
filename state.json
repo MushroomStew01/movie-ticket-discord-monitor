@@ -3,7 +3,7 @@
     "name": "Cineplex Cinemas Kitchener and VIP",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "596434e8c2d8a0d6424e824994dc942ea0948ea0e1608c212907b13b7a391b02",
+    "hash": "0b4b9c29d4e116d846e838420e0e8462a9f9ad5e7472fb925285447a30c96069",
     "snapshot": {
       "page_title": "Cineplex Cinemas Kitchener and VIP",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-kitchener-and-vip",
@@ -22,6 +22,15 @@
         "Tuesdays taste better in Cineplex VIP. Enjoy TACOS & TEQUILA every Tuesday with $5 Tacos and 10$ Select Tequila Drinks"
       ],
       "movies": {
+        "title:a-minecraft-movie-family-favourites": {
+          "title": "A Minecraft Movie - Family Favourites",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "A Minecraft Movie - Family Favourites",
+          "url": null
+        },
         "title:avengers-doomsday": {
           "title": "Avengers: Doomsday",
           "ticket_available": true,
@@ -56,6 +65,15 @@
           "showtimes": [],
           "dates": [],
           "context": "Moana",
+          "url": null
+        },
+        "title:paw-patrol-the-dino-movie": {
+          "title": "Paw Patrol: The Dino Movie",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Paw Patrol: The Dino Movie Advance tickets available",
           "url": null
         },
         "title:six-the-musical-live": {
@@ -106,9 +124,10 @@
       }
     },
     "sent_event_ids": [
-      "6b665fd23ebdb2326dc3c6e38af109cf03de3a4463b4cdb119bb6870054b67f0"
+      "6b665fd23ebdb2326dc3c6e38af109cf03de3a4463b4cdb119bb6870054b67f0",
+      "0f44051cefa528ff26cf4f0112d4f6c58d979dfd17322c6e7dc573510bc41560"
     ],
-    "revision": 2
+    "revision": 3
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge": {
     "name": "Cineplex Cinemas Cambridge",
