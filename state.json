@@ -3,7 +3,7 @@
     "name": "Cineplex Cinemas Kitchener and VIP",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "0b4b9c29d4e116d846e838420e0e8462a9f9ad5e7472fb925285447a30c96069",
+    "hash": "c719f50b17e33f7149f2e6fedf8fbdeca3b6f9d32bcaee6cd31bf485e872f76b",
     "snapshot": {
       "page_title": "Cineplex Cinemas Kitchener and VIP",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-kitchener-and-vip",
@@ -42,11 +42,11 @@
         },
         "title:katseye-wild-hearts": {
           "title": "KATSEYE: WILD HEARTS",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "KATSEYE: WILD HEARTS Advance tickets available",
+          "context": "KATSEYE: WILD HEARTS",
           "url": null
         },
         "title:minions-and-monsters": {
@@ -127,7 +127,7 @@
       "6b665fd23ebdb2326dc3c6e38af109cf03de3a4463b4cdb119bb6870054b67f0",
       "0f44051cefa528ff26cf4f0112d4f6c58d979dfd17322c6e7dc573510bc41560"
     ],
-    "revision": 3
+    "revision": 4
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge": {
     "name": "Cineplex Cinemas Cambridge",
@@ -261,7 +261,7 @@
     "name": "Cineplex Cinemas Vaughan",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "0d266b5b35efdfdc477ec468e8a018b703ebe3dd7460da890688f6e6b86d61fd",
+    "hash": "023a3ea436caae9d7801feefba3649698ddfbd00d8eb5ca448f2938e8facd575",
     "snapshot": {
       "page_title": "Cineplex Cinemas Vaughan",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan",
@@ -300,15 +300,6 @@
           "showtimes": [],
           "dates": [],
           "context": "Moana",
-          "url": null
-        },
-        "title:obsession": {
-          "title": "Obsession",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Obsession",
           "url": null
         },
         "title:one-night-only": {
@@ -365,6 +356,15 @@
           "context": "The Odyssey",
           "url": null
         },
+        "title:tony": {
+          "title": "Tony",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Tony Advance tickets available",
+          "url": null
+        },
         "title:toy-story-5": {
           "title": "Toy Story 5",
           "ticket_available": false,
@@ -382,9 +382,10 @@
       "6a040b4bd96614a163a1e6a415beb5ace2307313504362eaa9c20de6f8f598c4",
       "abfef4b5c4ab6ea6fca974fe488a06caf800706ce6cb71c8edf0519278e68617",
       "43841752162cee7fa598199a49e5ceac92b2edf711ebaffe51043eb3b92bad7b",
-      "b368af248ba1bc08ac524ea5c1b5e6ecbd0d6023f5f90b6b58da570c3a1c63a8"
+      "b368af248ba1bc08ac524ea5c1b5e6ecbd0d6023f5f90b6b58da570c3a1c63a8",
+      "c7029ffcb49d311c5098f1072fb6ec85a564687360db29c3401682bb536dcdcf"
     ],
-    "revision": 9
+    "revision": 10
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one": {
     "name": "Cineplex Cinemas Mississauga Square One",
@@ -517,7 +518,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "593d0b2e8d4549815abbe20f9bb84e683fe9bce61f4605e8355295588f24fa6c",
+    "hash": "bd0f04a675398144e82a474db1a7e2019ea3dc4a4de47ac4be308c4701f49d61",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -525,7 +526,6 @@
       "ticket_phrases": [],
       "showtimes": [],
       "dates": [
-        "Aug 12",
         "Aug 14",
         "Aug 15",
         "Aug 26",
@@ -540,11 +540,9 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Cinemas Oakville and VIP",
-        "Cineplex Cinemas Winston Churchill & VIP",
+        "Cineplex Odeon Westmount Cinemas and VIP",
         "Advance tickets",
         "AUG 14",
-        "AUG 12",
         "AUG 26",
         "GHOST: 2 Big To Rig - The IMAX Experience®",
         "AUG 15",
@@ -663,13 +661,11 @@
         },
         "title:katseye-wild-hearts": {
           "title": "KATSEYE: WILD HEARTS",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Aug 12"
-          ],
-          "context": "Advance tickets AUG 12 KATSEYE: WILD HEARTS",
+          "dates": [],
+          "context": "KATSEYE: WILD HEARTS",
           "url": "https://www.cineplex.com/movie/katseye-wild-hearts"
         },
         "title:mandarin-i-know-who-you-are-mandarin-w-chinese-e-s-t": {
@@ -881,7 +877,7 @@
       "d1fd2ec41cd5b6fe0a33da489b2186e16cd1338352aa39b11da8d4afd42d7ba7",
       "70abb950413b885886f946d8f48fdb200eafd47182859bc8e6f8ffabdcc28a2e"
     ],
-    "revision": 137
+    "revision": 138
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
