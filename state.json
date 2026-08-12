@@ -522,7 +522,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "c3ed7614d8bcbd5f573fca522dce21df5cab588c21c45cbd3face0d48e503f18",
+    "hash": "746d33c61d21556d8ddf425f39c8eacc92998fa2134a4f1202070d0d2ca44396",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -633,7 +633,7 @@
           "dates": [
             "Aug 26"
           ],
-          "context": "Advance tickets AUG 26 GHOST: 2 Big To Rig",
+          "context": "Advance tickets AUG 26 GHOST: 2 Big To Rig Watch trailer",
           "url": "https://www.cineplex.com/movie/ghost-2-big-to-rig"
         },
         "title:ghost-2-big-to-rig-the-imax-experience": {
@@ -646,7 +646,7 @@
           "dates": [
             "Aug 26"
           ],
-          "context": "Advance tickets AUG 26 GHOST: 2 Big To Rig - The IMAX Experience®",
+          "context": "Advance tickets AUG 26 GHOST: 2 Big To Rig - The IMAX Experience® Watch trailer",
           "url": "https://www.cineplex.com/movie/ghost-2-big-to-rig-the-imax-experience"
         },
         "title:golden-boy-national-theatre-live": {
@@ -916,7 +916,7 @@
       "b82f3443e8ee8b03df001993d0712a25856bece90b89fdcaf3bac714c58760a0",
       "265dd24bfd2a3accd475650cb83a9f0b2f5621b03294259d71d1d30756a146bf"
     ],
-    "revision": 150
+    "revision": 151
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
