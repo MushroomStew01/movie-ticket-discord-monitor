@@ -518,7 +518,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "bd0f04a675398144e82a474db1a7e2019ea3dc4a4de47ac4be308c4701f49d61",
+    "hash": "ba92616efefbdf94333e93493383905878cefff04b3b2fda578912b3483e0ba0",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -541,6 +541,7 @@
       ],
       "relevant_lines": [
         "Cineplex Odeon Westmount Cinemas and VIP",
+        "Cineplex Cinemas Kitchener and VIP",
         "Advance tickets",
         "AUG 14",
         "AUG 26",
@@ -658,6 +659,15 @@
           "dates": [],
           "context": "Ice Cream Man Watch trailer",
           "url": "https://www.cineplex.com/movie/ice-cream-man"
+        },
+        "title:insidious-out-of-the-further": {
+          "title": "Insidious Out Of The Further",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "",
+          "url": "https://www.cineplex.com/movie/insidious-out-of-the-further"
         },
         "title:katseye-wild-hearts": {
           "title": "KATSEYE: WILD HEARTS",
@@ -875,9 +885,10 @@
       "197bab6d463b825ab918ef1258199a47e1139b6b7acf6635d2f883294660c886",
       "871e5530e06a6c14edaedbc162f1fadc8925faa88e63a9be5de7332ab55880f6",
       "d1fd2ec41cd5b6fe0a33da489b2186e16cd1338352aa39b11da8d4afd42d7ba7",
-      "70abb950413b885886f946d8f48fdb200eafd47182859bc8e6f8ffabdcc28a2e"
+      "70abb950413b885886f946d8f48fdb200eafd47182859bc8e6f8ffabdcc28a2e",
+      "25bad6473e997bf3af398c645febb259602e8b0c22c957e85498e0659c6c6f2f"
     ],
-    "revision": 138
+    "revision": 139
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
