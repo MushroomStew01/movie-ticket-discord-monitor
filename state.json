@@ -390,7 +390,7 @@
     "name": "Cineplex Cinemas Mississauga Square One",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "43389acf575c9359a8d5d8dbe51c8aeb1393f88ee219f0d76c12b41ff3b75911",
+    "hash": "6eb0743290587279a3a538f3e8ab2aa6b35825511d167feee351ac0261b45b75",
     "snapshot": {
       "page_title": "Cineplex Cinemas Mississauga Square One",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one",
@@ -411,15 +411,6 @@
           "showtimes": [],
           "dates": [],
           "context": "Ice Cream Man",
-          "url": null
-        },
-        "title:insidious-out-of-the-further": {
-          "title": "Insidious: Out of the Further",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Insidious: Out of the Further Advance tickets available",
           "url": null
         },
         "title:minions-and-monsters": {
@@ -485,6 +476,15 @@
           "context": "Super Troopers 3",
           "url": null
         },
+        "title:the-end-of-oak-street": {
+          "title": "The End of Oak Street",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "The End of Oak Street Advance tickets available",
+          "url": null
+        },
         "title:the-odyssey": {
           "title": "The Odyssey",
           "ticket_available": false,
@@ -508,15 +508,16 @@
     "sent_event_ids": [
       "7f9851516f108c191949c0f17a19bf777de8e20ed5503e75e1c13abc563d7a60",
       "66e75258832ca143bd08ec60f7cf2e933b43242ac8bab3df74402066d4e0e8bf",
-      "2cf572e8637b9f1f7ac731e271215018e5e12b932ed081fd3a68e0b39d68a6f2"
+      "2cf572e8637b9f1f7ac731e271215018e5e12b932ed081fd3a68e0b39d68a6f2",
+      "9112eaec69752a5a814df934861c837492e2df6c7e9620e5e3f438f930a06c41"
     ],
-    "revision": 5
+    "revision": 6
   },
   "https://www.cineplex.com/en?theatresNearYou=true": {
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "5a3de3c1083324b98114c7014fc6aa3005ee0d21b5b805e046ffa53818f09ae7",
+    "hash": "593d0b2e8d4549815abbe20f9bb84e683fe9bce61f4605e8355295588f24fa6c",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -539,7 +540,8 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Odeon McGillivray Cinemas and VIP",
+        "Cineplex Cinemas Oakville and VIP",
+        "Cineplex Cinemas Winston Churchill & VIP",
         "Advance tickets",
         "AUG 14",
         "AUG 12",
@@ -879,7 +881,7 @@
       "d1fd2ec41cd5b6fe0a33da489b2186e16cd1338352aa39b11da8d4afd42d7ba7",
       "70abb950413b885886f946d8f48fdb200eafd47182859bc8e6f8ffabdcc28a2e"
     ],
-    "revision": 136
+    "revision": 137
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
