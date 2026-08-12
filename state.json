@@ -3,7 +3,7 @@
     "name": "Cineplex Cinemas Kitchener and VIP",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "c719f50b17e33f7149f2e6fedf8fbdeca3b6f9d32bcaee6cd31bf485e872f76b",
+    "hash": "30ac3c2931bc9ef1b8ca2af7fbd87ce356448c2a1760982013d3ea2e1cb264bf",
     "snapshot": {
       "page_title": "Cineplex Cinemas Kitchener and VIP",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-kitchener-and-vip",
@@ -29,15 +29,6 @@
           "showtimes": [],
           "dates": [],
           "context": "A Minecraft Movie - Family Favourites",
-          "url": null
-        },
-        "title:avengers-doomsday": {
-          "title": "Avengers: Doomsday",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Avengers: Doomsday Advance tickets available",
           "url": null
         },
         "title:katseye-wild-hearts": {
@@ -74,6 +65,15 @@
           "showtimes": [],
           "dates": [],
           "context": "Paw Patrol: The Dino Movie Advance tickets available",
+          "url": null
+        },
+        "title:practical-magic-2": {
+          "title": "Practical Magic 2",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Practical Magic 2 Advance tickets available",
           "url": null
         },
         "title:six-the-musical-live": {
@@ -125,9 +125,10 @@
     },
     "sent_event_ids": [
       "6b665fd23ebdb2326dc3c6e38af109cf03de3a4463b4cdb119bb6870054b67f0",
-      "0f44051cefa528ff26cf4f0112d4f6c58d979dfd17322c6e7dc573510bc41560"
+      "0f44051cefa528ff26cf4f0112d4f6c58d979dfd17322c6e7dc573510bc41560",
+      "2fadbb188aec018f9fa1c9d0bd4db90d31383c6812353f2a07fcb6da2feb3805"
     ],
-    "revision": 4
+    "revision": 5
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge": {
     "name": "Cineplex Cinemas Cambridge",
@@ -521,7 +522,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "f47bd6acc1bc250f0b4c22ac8669eebe0d15e88dfcee0f228796bb2dd6f89deb",
+    "hash": "10d822fb282c1688384234b6e6526d7c7d1df5ed4c065198d81c82025e924d26",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -547,7 +548,8 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Cinemas Abbotsford and VIP",
+        "Cineplex Odeon Westmount Cinemas and VIP",
+        "Cineplex Cinemas Kitchener and VIP",
         "Advance tickets",
         "AUG 14",
         "AUG 21",
@@ -914,7 +916,7 @@
       "b82f3443e8ee8b03df001993d0712a25856bece90b89fdcaf3bac714c58760a0",
       "265dd24bfd2a3accd475650cb83a9f0b2f5621b03294259d71d1d30756a146bf"
     ],
-    "revision": 148
+    "revision": 149
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
