@@ -522,7 +522,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "7fc268abecba07c60d2e32684af6b1be67698391dcb67ade449bed43a47b40e3",
+    "hash": "369497dc1f413259cd02fe105d1544207e33172f72874c65e6e2eae8ee0196c7",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -548,7 +548,7 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Odeon McGillivray Cinemas and VIP",
+        "Cineplex Odeon Westmount Cinemas and VIP",
         "Advance tickets",
         "AUG 14",
         "AUG 21",
@@ -592,15 +592,6 @@
           "dates": [],
           "context": "Arabic El Gawahergy (Arabic w/e.s.t.)",
           "url": "https://www.cineplex.com/movie/el-gawahergy-arabic-west"
-        },
-        "title:arabic-khali-balak-min-nafsak-arabic-w-e-s-t": {
-          "title": "Arabic Khali Balak Min Nafsak (Arabic w/e.s.t.)",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Arabic Khali Balak Min Nafsak (Arabic w/e.s.t.)",
-          "url": "https://www.cineplex.com/movie/khali-balak-min-nafsak-arabic-west"
         },
         "title:awarapan-2-hindi-w-e-s-t": {
           "title": "Awarapan 2 (Hindi w/e.s.t.)",
@@ -861,6 +852,17 @@
           "context": "Advance tickets AUG 14 Tony Watch trailer",
           "url": "https://www.cineplex.com/movie/tony"
         },
+        "title:train-to-busan-10th-anniversary-remastered-and-revived-korean-w-e-s-t": {
+          "title": "Train to Busan - 10th Anniversary Remastered & Revived (Korean w/e.s.t.)",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [
+            "Aug 14"
+          ],
+          "context": "Advance Tickets AUG 14 Train to Busan - 10th Anniversary Remastered & Revived (Korean w/e.s.t.)",
+          "url": "https://www.cineplex.com/movie/train-to-busan-10th-anniversary-remastered-rev"
+        },
         "title:vietnamese-mr-hero-vietnamese-w-e-s-t": {
           "title": "Vietnamese Mr. Hero (Vietnamese w/e.s.t.)",
           "ticket_available": false,
@@ -913,9 +915,10 @@
       "25bad6473e997bf3af398c645febb259602e8b0c22c957e85498e0659c6c6f2f",
       "20102e390dc09c120134816d1219875cd3ec39d32ed314cd71dd3f0757de3231",
       "b82f3443e8ee8b03df001993d0712a25856bece90b89fdcaf3bac714c58760a0",
-      "265dd24bfd2a3accd475650cb83a9f0b2f5621b03294259d71d1d30756a146bf"
+      "265dd24bfd2a3accd475650cb83a9f0b2f5621b03294259d71d1d30756a146bf",
+      "6e5eef962aad111abdecb0b2613f05a5ca1859b74736c51d24ce6b647bf0eb54"
     ],
-    "revision": 156
+    "revision": 157
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
