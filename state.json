@@ -523,7 +523,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "b19cd30bc8404727b8a9b9460b3fd902d759724f0297349da316a885a0c2019d",
+    "hash": "46c158ed8eaefe0121b3df62e70e4b8a12ef337005643f30c773b7ef2fde5af3",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -549,7 +549,7 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Odeon McGillivray Cinemas and VIP",
+        "Cineplex Cinemas Abbotsford and VIP",
         "Advance tickets",
         "AUG 14",
         "AUG 21",
@@ -919,7 +919,7 @@
       "265dd24bfd2a3accd475650cb83a9f0b2f5621b03294259d71d1d30756a146bf",
       "6e5eef962aad111abdecb0b2613f05a5ca1859b74736c51d24ce6b647bf0eb54"
     ],
-    "revision": 173
+    "revision": 174
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
