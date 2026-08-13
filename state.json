@@ -394,7 +394,7 @@
     "name": "Cineplex Cinemas Mississauga Square One",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "8a7ca5c5278076d994b587f98597f1838374e8be2017cf882a9c2d69b9d71922",
+    "hash": "b1f806f86763c3af9bc7c1c0442f7bc80563378ffe39ee36179063249f93b186",
     "snapshot": {
       "page_title": "Cineplex Cinemas Mississauga Square One",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one",
@@ -435,13 +435,13 @@
           "context": "Minions & Monsters",
           "url": null
         },
-        "title:moana": {
-          "title": "Moana",
+        "title:obsession": {
+          "title": "Obsession",
           "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Moana",
+          "context": "Obsession",
           "url": null
         },
         "title:one-night-only": {
@@ -514,15 +514,16 @@
       "66e75258832ca143bd08ec60f7cf2e933b43242ac8bab3df74402066d4e0e8bf",
       "2cf572e8637b9f1f7ac731e271215018e5e12b932ed081fd3a68e0b39d68a6f2",
       "9112eaec69752a5a814df934861c837492e2df6c7e9620e5e3f438f930a06c41",
-      "8db78da0eea2b1930b7ae72944a7e424512412a34f32f5692da80f2f1261b25d"
+      "8db78da0eea2b1930b7ae72944a7e424512412a34f32f5692da80f2f1261b25d",
+      "65ca86e729794709579dfa42d7219a3e723cf947869cf8d706ca73b82d076bff"
     ],
-    "revision": 7
+    "revision": 8
   },
   "https://www.cineplex.com/en?theatresNearYou=true": {
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "217b7201a3070eb73d030b911c5a6c0ac8f1874460a5d6bf05b4c710096ce444",
+    "hash": "8077dba2bb6d9f45d4c1dd9d9e222d83fe3ad98c702bd9365ae12f2ec8a6dac6",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -548,8 +549,8 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Cinemas Oakville and VIP",
-        "Cineplex Cinemas Winston Churchill & VIP",
+        "Cineplex Odeon Westmount Cinemas and VIP",
+        "Cineplex Cinemas Kitchener and VIP",
         "Advance tickets",
         "AUG 14",
         "AUG 21",
@@ -919,7 +920,7 @@
       "265dd24bfd2a3accd475650cb83a9f0b2f5621b03294259d71d1d30756a146bf",
       "6e5eef962aad111abdecb0b2613f05a5ca1859b74736c51d24ce6b647bf0eb54"
     ],
-    "revision": 170
+    "revision": 171
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
