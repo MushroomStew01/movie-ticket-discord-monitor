@@ -263,7 +263,7 @@
     "name": "Cineplex Cinemas Vaughan",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "5e20ff3166011686442e9d2928a845dd6121cc9e4033e866efe61699c6655f97",
+    "hash": "35e7ab591275eb1e595d0fbe54bca79e7633c081e1dd76ede0fe79cf63549171",
     "snapshot": {
       "page_title": "Cineplex Cinemas Vaughan",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan",
@@ -306,11 +306,11 @@
         },
         "title:paw-patrol-the-dino-movie": {
           "title": "Paw Patrol: The Dino Movie",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Paw Patrol: The Dino Movie Advance tickets available",
+          "context": "Paw Patrol: The Dino Movie",
           "url": null
         },
         "title:spa-weekend": {
@@ -333,11 +333,11 @@
         },
         "title:the-end-of-oak-street": {
           "title": "The End of Oak Street",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "The End of Oak Street Advance tickets available",
+          "context": "The End of Oak Street",
           "url": null
         },
         "title:the-magic-faraway-tree": {
@@ -360,20 +360,20 @@
         },
         "title:the-rivals-of-amziah-king": {
           "title": "The Rivals of Amziah King",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "The Rivals of Amziah King Advance tickets available",
+          "context": "The Rivals of Amziah King",
           "url": null
         },
         "title:tony": {
           "title": "Tony",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Tony Advance tickets available",
+          "context": "Tony",
           "url": null
         }
       }
@@ -388,13 +388,13 @@
       "c7029ffcb49d311c5098f1072fb6ec85a564687360db29c3401682bb536dcdcf",
       "32d09a48d02b812c2efa02f2c3bb3bd3fd965770e17d3f65fb7ef404bb09d415"
     ],
-    "revision": 11
+    "revision": 12
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one": {
     "name": "Cineplex Cinemas Mississauga Square One",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "b1f806f86763c3af9bc7c1c0442f7bc80563378ffe39ee36179063249f93b186",
+    "hash": "84f8caeb5a81cdc19d003b9b2f0093071c60e2588b4b20ac4404e1b754c4ce69",
     "snapshot": {
       "page_title": "Cineplex Cinemas Mississauga Square One",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one",
@@ -455,11 +455,11 @@
         },
         "title:paw-patrol-the-dino-movie": {
           "title": "Paw Patrol: The Dino Movie",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Paw Patrol: The Dino Movie Advance tickets available",
+          "context": "Paw Patrol: The Dino Movie",
           "url": null
         },
         "title:spider-man-brand-new-day": {
@@ -482,11 +482,11 @@
         },
         "title:the-end-of-oak-street": {
           "title": "The End of Oak Street",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "The End of Oak Street Advance tickets available",
+          "context": "The End of Oak Street",
           "url": null
         },
         "title:the-odyssey": {
@@ -517,13 +517,13 @@
       "8db78da0eea2b1930b7ae72944a7e424512412a34f32f5692da80f2f1261b25d",
       "65ca86e729794709579dfa42d7219a3e723cf947869cf8d706ca73b82d076bff"
     ],
-    "revision": 8
+    "revision": 9
   },
   "https://www.cineplex.com/en?theatresNearYou=true": {
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "2bf9b3629aa67d479d0acc87cc5746ce95cb55a39728cdf0e62c646c4b039ee9",
+    "hash": "a60e7f95f91a25c99ad4a719c156610200bea6bfbb3c8806a5ad2ee3f2a3f980",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -537,6 +537,7 @@
         "Aug 26",
         "Aug 29",
         "Nov 5",
+        "Sep 30",
         "Sep 9"
       ],
       "formats": [
@@ -558,6 +559,7 @@
         "AUG 29",
         "NOV 5",
         "AUG 17",
+        "SEP 30",
         "What are UltraAVX, IMAX, VIP, 4DX, ScreenX and D-BOX?"
       ],
       "movies": {
@@ -625,15 +627,6 @@
           "context": "Advance tickets NOV 5 Golden Boy - National Theatre Live",
           "url": "https://www.cineplex.com/movie/golden-boy-national-theatre-live"
         },
-        "title:hadestown-the-musical": {
-          "title": "HADESTOWN: THE MUSICAL",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "HADESTOWN: THE MUSICAL",
-          "url": "https://www.cineplex.com/movie/hadestown-the-musical"
-        },
         "title:hindi-awarapan-2-hindi-w-e-s-t": {
           "title": "Hindi Awarapan 2 (Hindi w/e.s.t.)",
           "ticket_available": false,
@@ -691,6 +684,17 @@
           "dates": [],
           "context": "Korean Train to Busan - 10th Anniversary Remastered & Revived (Korean w/e.s.t.)",
           "url": "https://www.cineplex.com/movie/train-to-busan-10th-anniversary-remastered-rev"
+        },
+        "title:linkin-park-unshatter": {
+          "title": "LINKIN PARK: UNSHATTER",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [
+            "Sep 30"
+          ],
+          "context": "Advance tickets SEP 30 LINKIN PARK: UNSHATTER",
+          "url": "https://www.cineplex.com/movie/linkin-park-unshatter"
         },
         "title:mutiny": {
           "title": "Mutiny",
@@ -894,9 +898,10 @@
       "b82f3443e8ee8b03df001993d0712a25856bece90b89fdcaf3bac714c58760a0",
       "265dd24bfd2a3accd475650cb83a9f0b2f5621b03294259d71d1d30756a146bf",
       "6e5eef962aad111abdecb0b2613f05a5ca1859b74736c51d24ce6b647bf0eb54",
-      "b84038b59dc052b1167f73f79b1b73761f0de74bc598036cd1849c72e25aa5c7"
+      "b84038b59dc052b1167f73f79b1b73761f0de74bc598036cd1849c72e25aa5c7",
+      "6e0d2b995ff47b9f8de031c08f5ae16aea61daae392675c7c200a4aa20f24957"
     ],
-    "revision": 177
+    "revision": 178
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
