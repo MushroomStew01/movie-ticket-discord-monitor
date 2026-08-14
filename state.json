@@ -523,7 +523,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "cc58830d13714bf00c934618df024527ab9763e4fcb7891b6323593e606e8069",
+    "hash": "f116b908f22f88b0528eaa6d85805569e6f6bd135d36fb6186e13373a0f23d06",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -549,8 +549,7 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Cinemas Oakville and VIP",
-        "Cineplex Cinemas Winston Churchill & VIP",
+        "Cineplex Odeon McGillivray Cinemas and VIP",
         "Advance tickets",
         "AUG 21",
         "SEP 9",
@@ -902,7 +901,7 @@
       "b84038b59dc052b1167f73f79b1b73761f0de74bc598036cd1849c72e25aa5c7",
       "6e0d2b995ff47b9f8de031c08f5ae16aea61daae392675c7c200a4aa20f24957"
     ],
-    "revision": 191
+    "revision": 192
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
@@ -950,7 +949,10 @@
       ]
     },
     "sent_event_ids": [],
-    "revision": 1
+    "revision": 1,
+    "consecutive_failures": 1,
+    "last_error": "RuntimeError: Cineplex returned HTTP 404.",
+    "last_error_at_utc": "2026-08-14T20:23:22.601799+00:00"
   },
   "_meta": {
     "last_heartbeat_at_utc": "2026-08-14T08:25:14.967648+00:00"
