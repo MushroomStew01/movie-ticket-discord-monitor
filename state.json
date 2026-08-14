@@ -3,7 +3,7 @@
     "name": "Cineplex Cinemas Kitchener and VIP",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "30ac3c2931bc9ef1b8ca2af7fbd87ce356448c2a1760982013d3ea2e1cb264bf",
+    "hash": "fa4ce626fea2d9590b1ce08d6f3bb0ffdc342539cc53347855fb62593ea9c506",
     "snapshot": {
       "page_title": "Cineplex Cinemas Kitchener and VIP",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-kitchener-and-vip",
@@ -60,11 +60,11 @@
         },
         "title:paw-patrol-the-dino-movie": {
           "title": "Paw Patrol: The Dino Movie",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Paw Patrol: The Dino Movie Advance tickets available",
+          "context": "Paw Patrol: The Dino Movie",
           "url": null
         },
         "title:practical-magic-2": {
@@ -78,11 +78,11 @@
         },
         "title:six-the-musical-live": {
           "title": "SIX: THE MUSICAL LIVE!",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "SIX: THE MUSICAL LIVE! Advance tickets available",
+          "context": "SIX: THE MUSICAL LIVE!",
           "url": null
         },
         "title:spider-man-brand-new-day": {
@@ -96,11 +96,11 @@
         },
         "title:the-end-of-oak-street": {
           "title": "The End of Oak Street",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "The End of Oak Street Advance tickets available",
+          "context": "The End of Oak Street",
           "url": null
         },
         "title:the-odyssey": {
@@ -128,13 +128,13 @@
       "0f44051cefa528ff26cf4f0112d4f6c58d979dfd17322c6e7dc573510bc41560",
       "2fadbb188aec018f9fa1c9d0bd4db90d31383c6812353f2a07fcb6da2feb3805"
     ],
-    "revision": 5
+    "revision": 6
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge": {
     "name": "Cineplex Cinemas Cambridge",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "6f38efaaa26389e123d8b5e6a3112b651b6e19d4eef575225e7c715a00e0ac1a",
+    "hash": "15b294c29115764ec7992e9ff0ace4f5bfa7529f4c09b973cda918c1efb6deca",
     "snapshot": {
       "page_title": "Cineplex Cinemas Cambridge",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge",
@@ -195,11 +195,11 @@
         },
         "title:paw-patrol-the-dino-movie": {
           "title": "Paw Patrol: The Dino Movie",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Paw Patrol: The Dino Movie Advance tickets available",
+          "context": "Paw Patrol: The Dino Movie",
           "url": null
         },
         "title:samson-et-dalila-saint-sa-ns-french-w-e-s-t-metropolitan-opera": {
@@ -257,7 +257,7 @@
       "9d7fb095792f85721a89ce36b1a10d37342ee5e23d9f8b1c7bbf864a2d710965",
       "e40df70b8ca32b55388d79ff62ea71752384151b744d4bd087ab75fac33f6f07"
     ],
-    "revision": 9
+    "revision": 10
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan": {
     "name": "Cineplex Cinemas Vaughan",
@@ -523,7 +523,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "46c158ed8eaefe0121b3df62e70e4b8a12ef337005643f30c773b7ef2fde5af3",
+    "hash": "2bf9b3629aa67d479d0acc87cc5746ce95cb55a39728cdf0e62c646c4b039ee9",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -531,7 +531,6 @@
       "ticket_phrases": [],
       "showtimes": [],
       "dates": [
-        "Aug 14",
         "Aug 15",
         "Aug 17",
         "Aug 21",
@@ -551,7 +550,6 @@
       "relevant_lines": [
         "Cineplex Cinemas Abbotsford and VIP",
         "Advance tickets",
-        "AUG 14",
         "AUG 21",
         "SEP 9",
         "AUG 15",
@@ -563,17 +561,6 @@
         "What are UltraAVX, IMAX, VIP, 4DX, ScreenX and D-BOX?"
       ],
       "movies": {
-        "title:all-wishes-come-true-mandarin-w-chinese-and-e-s-t": {
-          "title": "All Wishes Come True! (Mandarin w/Chinese and e.s.t.)",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [
-            "Aug 14"
-          ],
-          "context": "Advance Tickets AUG 14 All Wishes Come True! (Mandarin w/Chinese and e.s.t.)",
-          "url": "https://www.cineplex.com/movie/all-wishes-come-true-mandarin-wchi"
-        },
         "title:andr-rieu-s-2026-summer-concert-viva-maastricht": {
           "title": "André Rieu's 2026 Summer Concert: Viva Maastricht!",
           "ticket_available": true,
@@ -594,27 +581,14 @@
           "context": "Arabic El Gawahergy (Arabic w/e.s.t.)",
           "url": "https://www.cineplex.com/movie/el-gawahergy-arabic-west"
         },
-        "title:awarapan-2-hindi-w-e-s-t": {
-          "title": "Awarapan 2 (Hindi w/e.s.t.)",
-          "ticket_available": true,
+        "title:chinese-all-wishes-come-true-mandarin-w-chinese-and-e-s-t": {
+          "title": "Chinese All Wishes Come True! (Mandarin w/Chinese and e.s.t.)",
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Aug 14"
-          ],
-          "context": "Advance Tickets AUG 14 Awarapan 2 (Hindi w/e.s.t.)",
-          "url": "https://www.cineplex.com/movie/awarapan-2-hindi-west"
-        },
-        "title:batwara-1947-hindi-w-e-s-t": {
-          "title": "Batwara 1947 (Hindi w/e.s.t.)",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [
-            "Aug 14"
-          ],
-          "context": "Advance Tickets AUG 14 Batwara 1947 (Hindi w/e.s.t.)",
-          "url": "https://www.cineplex.com/movie/batwara-1947-hindi-west"
+          "dates": [],
+          "context": "Chinese All Wishes Come True! (Mandarin w/Chinese and e.s.t.)",
+          "url": "https://www.cineplex.com/movie/all-wishes-come-true-mandarin-wchi"
         },
         "title:ghost-2-big-to-rig": {
           "title": "GHOST: 2 Big To Rig",
@@ -660,6 +634,24 @@
           "context": "HADESTOWN: THE MUSICAL",
           "url": "https://www.cineplex.com/movie/hadestown-the-musical"
         },
+        "title:hindi-awarapan-2-hindi-w-e-s-t": {
+          "title": "Hindi Awarapan 2 (Hindi w/e.s.t.)",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Hindi Awarapan 2 (Hindi w/e.s.t.)",
+          "url": "https://www.cineplex.com/movie/awarapan-2-hindi-west"
+        },
+        "title:hindi-batwara-1947-hindi-w-e-s-t": {
+          "title": "Hindi Batwara 1947 (Hindi w/e.s.t.)",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Hindi Batwara 1947 (Hindi w/e.s.t.)",
+          "url": "https://www.cineplex.com/movie/batwara-1947-hindi-west"
+        },
         "title:hope-korean-w-e-s-t": {
           "title": "Hope (Korean w/e.s.t.)",
           "ticket_available": false,
@@ -691,6 +683,15 @@
           "context": "KATSEYE: WILD HEARTS",
           "url": "https://www.cineplex.com/movie/katseye-wild-hearts"
         },
+        "title:korean-train-to-busan-10th-anniversary-remastered-and-revived-korean-w-e-s-t": {
+          "title": "Korean Train to Busan - 10th Anniversary Remastered & Revived (Korean w/e.s.t.)",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Korean Train to Busan - 10th Anniversary Remastered & Revived (Korean w/e.s.t.)",
+          "url": "https://www.cineplex.com/movie/train-to-busan-10th-anniversary-remastered-rev"
+        },
         "title:mutiny": {
           "title": "Mutiny",
           "ticket_available": true,
@@ -713,13 +714,11 @@
         },
         "title:paw-patrol-the-dino-movie": {
           "title": "Paw Patrol: The Dino Movie",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Aug 14"
-          ],
-          "context": "Advance tickets AUG 14 Paw Patrol: The Dino Movie Watch trailer",
+          "dates": [],
+          "context": "Paw Patrol: The Dino Movie Watch trailer",
           "url": "https://www.cineplex.com/movie/paw-patrol-the-dino-movie"
         },
         "title:punjabi-ishqnama-punjabi-w-e-s-t": {
@@ -760,13 +759,11 @@
         },
         "title:six-the-musical-live": {
           "title": "SIX: THE MUSICAL LIVE!",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Aug 14"
-          ],
-          "context": "Advance tickets AUG 14 SIX: THE MUSICAL LIVE! Watch trailer",
+          "dates": [],
+          "context": "SIX: THE MUSICAL LIVE! Watch trailer",
           "url": "https://www.cineplex.com/movie/six-the-musical-live"
         },
         "title:spa-weekend": {
@@ -791,24 +788,20 @@
         },
         "title:teenage-sex-and-death-at-camp-miasma": {
           "title": "Teenage Sex and Death at Camp Miasma",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Aug 14"
-          ],
-          "context": "Advance tickets AUG 14 Teenage Sex and Death at Camp Miasma Watch trailer",
+          "dates": [],
+          "context": "Teenage Sex and Death at Camp Miasma Watch trailer",
           "url": "https://www.cineplex.com/movie/teenage-sex-and-death-at-camp-miasma"
         },
         "title:the-end-of-oak-street": {
           "title": "The End of Oak Street",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Aug 14"
-          ],
-          "context": "Advance tickets AUG 14 The End of Oak Street Watch trailer",
+          "dates": [],
+          "context": "The End of Oak Street Watch trailer",
           "url": "https://www.cineplex.com/movie/the-end-of-oak-street"
         },
         "title:the-magic-faraway-tree": {
@@ -833,36 +826,21 @@
         },
         "title:the-rivals-of-amziah-king": {
           "title": "The Rivals of Amziah King",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Aug 14"
-          ],
-          "context": "Advance tickets AUG 14 The Rivals of Amziah King Watch trailer",
+          "dates": [],
+          "context": "The Rivals of Amziah King Watch trailer",
           "url": "https://www.cineplex.com/movie/the-rivals-of-amziah-king"
         },
         "title:tony": {
           "title": "Tony",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Aug 14"
-          ],
-          "context": "Advance tickets AUG 14 Tony Watch trailer",
+          "dates": [],
+          "context": "Tony Watch trailer",
           "url": "https://www.cineplex.com/movie/tony"
-        },
-        "title:train-to-busan-10th-anniversary-remastered-and-revived-korean-w-e-s-t": {
-          "title": "Train to Busan - 10th Anniversary Remastered & Revived (Korean w/e.s.t.)",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [
-            "Aug 14"
-          ],
-          "context": "Advance Tickets AUG 14 Train to Busan - 10th Anniversary Remastered & Revived (Korean w/e.s.t.)",
-          "url": "https://www.cineplex.com/movie/train-to-busan-10th-anniversary-remastered-rev"
         },
         "title:vietnamese-mr-hero-vietnamese-w-e-s-t": {
           "title": "Vietnamese Mr. Hero (Vietnamese w/e.s.t.)",
@@ -886,13 +864,11 @@
         },
         "title:your-name-10th-anniversary": {
           "title": "Your Name. 10th Anniversary",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Aug 14"
-          ],
-          "context": "Advance tickets AUG 14 Your Name. 10th Anniversary",
+          "dates": [],
+          "context": "Your Name. 10th Anniversary",
           "url": "https://www.cineplex.com/movie/your-name-10th-anniversary"
         },
         "title:your-name-10th-anniversary-japanese-w-e-s-t": {
@@ -917,9 +893,10 @@
       "20102e390dc09c120134816d1219875cd3ec39d32ed314cd71dd3f0757de3231",
       "b82f3443e8ee8b03df001993d0712a25856bece90b89fdcaf3bac714c58760a0",
       "265dd24bfd2a3accd475650cb83a9f0b2f5621b03294259d71d1d30756a146bf",
-      "6e5eef962aad111abdecb0b2613f05a5ca1859b74736c51d24ce6b647bf0eb54"
+      "6e5eef962aad111abdecb0b2613f05a5ca1859b74736c51d24ce6b647bf0eb54",
+      "b84038b59dc052b1167f73f79b1b73761f0de74bc598036cd1849c72e25aa5c7"
     ],
-    "revision": 176
+    "revision": 177
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
