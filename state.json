@@ -907,39 +907,34 @@
     "name": "Dune: Part 3",
     "type": "movie",
     "snapshot_version": 4,
-    "hash": "f63b6f42098b13fe0d63cdff2530c50dc598eb72354f84fba19b22b3cc499e15",
+    "hash": "d9fef1bc8c08189144ce4a2cf998debbd1edda1ba7e5f34a8f8866f02ea82f6b",
     "snapshot": {
       "page_title": "Dune: Part 3",
       "final_url": "https://www.cineplex.com/movie/dune-part-3",
-      "ticket_available": true,
-      "ticket_phrases": [
-        "Get Advance Tickets"
-      ],
+      "ticket_available": false,
+      "ticket_phrases": [],
       "showtimes": [],
       "dates": [
         "December 18"
       ],
       "formats": [],
       "relevant_lines": [
-        "December 18, 2026",
-        "Get Advance Tickets"
+        "December 18, 2026"
       ]
     },
     "sent_event_ids": [],
-    "revision": 0
+    "revision": 1
   },
   "https://www.cineplex.com/movie/imax70-dune-part-3-the-imax-experience-in-70m": {
     "name": "Dune: Part 3 — IMAX 70MM",
     "type": "movie",
     "snapshot_version": 4,
-    "hash": "1eecb6334c1dbe21985a8c9626de636e159230dc01008cf1f49662df70bf0ceb",
+    "hash": "5a28cc3a05473fcbb9f53c17389da13c213a37e2aea738ed9281bca644fab2fe",
     "snapshot": {
       "page_title": "Dune: Part 3: The IMAX Experience® in 70MM",
       "final_url": "https://www.cineplex.com/movie/imax70-dune-part-3-the-imax-experience-in-70m",
-      "ticket_available": true,
-      "ticket_phrases": [
-        "Get Advance Tickets"
-      ],
+      "ticket_available": false,
+      "ticket_phrases": [],
       "showtimes": [],
       "dates": [
         "December 18"
@@ -950,12 +945,11 @@
       ],
       "relevant_lines": [
         "Dune: Part 3: The IMAX Experience® in 70MM",
-        "December 18, 2026",
-        "Get Advance Tickets"
+        "December 18, 2026"
       ]
     },
     "sent_event_ids": [],
-    "revision": 0
+    "revision": 1
   },
   "_meta": {
     "last_heartbeat_at_utc": "2026-08-14T08:25:14.967648+00:00"
