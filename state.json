@@ -523,7 +523,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "f116b908f22f88b0528eaa6d85805569e6f6bd135d36fb6186e13373a0f23d06",
+    "hash": "e087eb668f972b49d8814c11aea1c6c585e40ad858ebfef5a4a7ea7f66509536",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -549,7 +549,8 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Odeon McGillivray Cinemas and VIP",
+        "Cineplex Cinemas Abbotsford and VIP",
+        "Cineplex Cinemas Seton and VIP",
         "Advance tickets",
         "AUG 21",
         "SEP 9",
@@ -901,29 +902,34 @@
       "b84038b59dc052b1167f73f79b1b73761f0de74bc598036cd1849c72e25aa5c7",
       "6e0d2b995ff47b9f8de031c08f5ae16aea61daae392675c7c200a4aa20f24957"
     ],
-    "revision": 197
+    "revision": 198
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
     "type": "movie",
     "snapshot_version": 4,
-    "hash": "d9fef1bc8c08189144ce4a2cf998debbd1edda1ba7e5f34a8f8866f02ea82f6b",
+    "hash": "f63b6f42098b13fe0d63cdff2530c50dc598eb72354f84fba19b22b3cc499e15",
     "snapshot": {
       "page_title": "Dune: Part 3",
       "final_url": "https://www.cineplex.com/movie/dune-part-3",
-      "ticket_available": false,
-      "ticket_phrases": [],
+      "ticket_available": true,
+      "ticket_phrases": [
+        "Get Advance Tickets"
+      ],
       "showtimes": [],
       "dates": [
         "December 18"
       ],
       "formats": [],
       "relevant_lines": [
-        "December 18, 2026"
+        "December 18, 2026",
+        "Get Advance Tickets"
       ]
     },
-    "sent_event_ids": [],
-    "revision": 1
+    "sent_event_ids": [
+      "163bd3dce71f3372a237e1b1f472809dae0c6cb09c08108268e7efc8ca381a37"
+    ],
+    "revision": 2
   },
   "https://www.cineplex.com/movie/imax70-dune-part-3-the-imax-experience-in-70m": {
     "name": "Dune: Part 3 — IMAX 70MM",
