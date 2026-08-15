@@ -523,7 +523,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "e087eb668f972b49d8814c11aea1c6c585e40ad858ebfef5a4a7ea7f66509536",
+    "hash": "4d33ff8a836982e0887f11eddcdb14b6b657fb31726e5d1ad88f2d01c83fa2e7",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -531,7 +531,6 @@
       "ticket_phrases": [],
       "showtimes": [],
       "dates": [
-        "Aug 15",
         "Aug 17",
         "Aug 21",
         "Aug 26",
@@ -549,12 +548,11 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Cinemas Abbotsford and VIP",
-        "Cineplex Cinemas Seton and VIP",
+        "Cineplex Cinemas Oakville and VIP",
+        "Cineplex Cinemas Winston Churchill & VIP",
         "Advance tickets",
         "AUG 21",
         "SEP 9",
-        "AUG 15",
         "AUG 26",
         "GHOST: 2 Big To Rig - The IMAX Experience®",
         "AUG 29",
@@ -878,13 +876,11 @@
         },
         "title:your-name-10th-anniversary-japanese-w-e-s-t": {
           "title": "Your Name. 10th Anniversary (Japanese w.e.s.t.)",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Aug 15"
-          ],
-          "context": "Advance tickets AUG 15 Your Name. 10th Anniversary (Japanese w.e.s.t.)",
+          "dates": [],
+          "context": "Your Name. 10th Anniversary (Japanese w.e.s.t.)",
           "url": "https://www.cineplex.com/movie/your-name-10th-anniversary-japanese-west"
         }
       }
@@ -902,7 +898,7 @@
       "b84038b59dc052b1167f73f79b1b73761f0de74bc598036cd1849c72e25aa5c7",
       "6e0d2b995ff47b9f8de031c08f5ae16aea61daae392675c7c200a4aa20f24957"
     ],
-    "revision": 200
+    "revision": 201
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
