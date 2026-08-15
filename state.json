@@ -523,7 +523,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "4d33ff8a836982e0887f11eddcdb14b6b657fb31726e5d1ad88f2d01c83fa2e7",
+    "hash": "e3d2a69b0239902d4347c10f4e8d95b342b6ec1456955f77da19403d098cfbc0",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -548,8 +548,8 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Cinemas Oakville and VIP",
-        "Cineplex Cinemas Winston Churchill & VIP",
+        "Cineplex Odeon Westmount Cinemas and VIP",
+        "Cineplex Cinemas Kitchener and VIP",
         "Advance tickets",
         "AUG 21",
         "SEP 9",
@@ -898,7 +898,7 @@
       "b84038b59dc052b1167f73f79b1b73761f0de74bc598036cd1849c72e25aa5c7",
       "6e0d2b995ff47b9f8de031c08f5ae16aea61daae392675c7c200a4aa20f24957"
     ],
-    "revision": 201
+    "revision": 202
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
