@@ -523,7 +523,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "e3d2a69b0239902d4347c10f4e8d95b342b6ec1456955f77da19403d098cfbc0",
+    "hash": "8403f33d04f31a527d8f2774b2bae7d360b299b76897f9abf4db488fdae71d26",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -536,6 +536,7 @@
         "Aug 26",
         "Aug 29",
         "Nov 5",
+        "Sep 2",
         "Sep 30",
         "Sep 9"
       ],
@@ -548,8 +549,8 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Odeon Westmount Cinemas and VIP",
-        "Cineplex Cinemas Kitchener and VIP",
+        "Cineplex Cinemas Abbotsford and VIP",
+        "Cineplex Cinemas Seton and VIP",
         "Advance tickets",
         "AUG 21",
         "SEP 9",
@@ -559,6 +560,8 @@
         "NOV 5",
         "AUG 17",
         "SEP 30",
+        "SEP 2",
+        "Katy Perry: The Lifetimes Tour - Live From Paris - The IMAX Experience®",
         "What are UltraAVX, IMAX, VIP, 4DX, ScreenX and D-BOX?"
       ],
       "movies": {
@@ -675,6 +678,19 @@
           "context": "KATSEYE: WILD HEARTS",
           "url": "https://www.cineplex.com/movie/katseye-wild-hearts"
         },
+        "title:katy-perry-the-lifetimes-tour-live-from-paris-the-imax-experience": {
+          "title": "Katy Perry: The Lifetimes Tour - Live From Paris - The IMAX Experience®",
+          "ticket_available": true,
+          "formats": [
+            "IMAX"
+          ],
+          "showtimes": [],
+          "dates": [
+            "Sep 2"
+          ],
+          "context": "Advance tickets SEP 2 Katy Perry: The Lifetimes Tour - Live From Paris - The IMAX Experience®",
+          "url": "https://www.cineplex.com/movie/imax-katy-perry-the-lifetimes-tour"
+        },
         "title:korean-train-to-busan-10th-anniversary-remastered-and-revived-korean-w-e-s-t": {
           "title": "Korean Train to Busan - 10th Anniversary Remastered & Revived (Korean w/e.s.t.)",
           "ticket_available": false,
@@ -705,15 +721,6 @@
           ],
           "context": "Advance tickets AUG 21 Mutiny Watch trailer",
           "url": "https://www.cineplex.com/movie/mutiny"
-        },
-        "title:nimrods-a-green-day-comedy": {
-          "title": "Nimrods: A Green Day Comedy",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Nimrods: A Green Day Comedy",
-          "url": "https://www.cineplex.com/movie/nimrods-a-green-day-comedy"
         },
         "title:paw-patrol-the-dino-movie": {
           "title": "Paw Patrol: The Dino Movie",
@@ -896,9 +903,10 @@
       "265dd24bfd2a3accd475650cb83a9f0b2f5621b03294259d71d1d30756a146bf",
       "6e5eef962aad111abdecb0b2613f05a5ca1859b74736c51d24ce6b647bf0eb54",
       "b84038b59dc052b1167f73f79b1b73761f0de74bc598036cd1849c72e25aa5c7",
-      "6e0d2b995ff47b9f8de031c08f5ae16aea61daae392675c7c200a4aa20f24957"
+      "6e0d2b995ff47b9f8de031c08f5ae16aea61daae392675c7c200a4aa20f24957",
+      "d27427659e993253a334f0c6d753caff9a7a491497261c634bc0ffe677f0fca1"
     ],
-    "revision": 202
+    "revision": 203
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
