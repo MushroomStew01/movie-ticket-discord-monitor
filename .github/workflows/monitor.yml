@@ -73,6 +73,10 @@ jobs:
           echo "MONITOR_EXIT_CODE=$code" >> "$GITHUB_ENV"
           exit 0
 
+      - name: Build Stewy OS status feed
+        if: always()
+        run: python status.py
+
       - name: Upload failure diagnostics
         if: always() && env.MONITOR_EXIT_CODE != '0'
         uses: actions/upload-artifact@v6
@@ -84,14 +88,14 @@ jobs:
 
       - name: Save meaningful monitor state
         run: |
-          if git diff --quiet -- state.json; then
-            echo "No meaningful state changes to commit."
+          if [ -z "$(git status --porcelain -- state.json status.json)" ]; then
+            echo "No meaningful state or status changes to commit."
             exit 0
           fi
 
           git config user.name "movie-ticket-monitor"
           git config user.email "actions@users.noreply.github.com"
-          git add state.json
+          git add state.json status.json
           git commit -m "Update movie monitor state"
 
           if ! git push; then
