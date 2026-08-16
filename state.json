@@ -515,7 +515,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "623036e4d8e2937a3671eb82888d03d298b0d13cdae598222fdfd28adaa2a2e9",
+    "hash": "a6bddc1c20f561ecbf5c530ff17572883ac6ca0a91e1bf030277656a620db11f",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -528,6 +528,7 @@
         "Aug 26",
         "Aug 29",
         "Nov 5",
+        "Sep 19",
         "Sep 2",
         "Sep 30",
         "Sep 9"
@@ -541,8 +542,7 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Odeon Westmount Cinemas and VIP",
-        "Cineplex Cinemas Kitchener and VIP",
+        "Cineplex Cinemas Abbotsford and VIP",
         "Advance tickets",
         "AUG 21",
         "SEP 9",
@@ -554,6 +554,7 @@
         "SEP 30",
         "SEP 2",
         "Katy Perry: The Lifetimes Tour - Live From Paris - The IMAX Experience®",
+        "SEP 19",
         "What are UltraAVX, IMAX, VIP, 4DX, ScreenX and D-BOX?"
       ],
       "movies": {
@@ -660,15 +661,6 @@
           ],
           "context": "Advance tickets AUG 21 Insidious: Out of the Further Watch trailer",
           "url": "https://www.cineplex.com/movie/insidious-out-of-the-further"
-        },
-        "title:katseye-wild-hearts": {
-          "title": "KATSEYE: WILD HEARTS",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "KATSEYE: WILD HEARTS",
-          "url": "https://www.cineplex.com/movie/katseye-wild-hearts"
         },
         "title:katy-perry-the-lifetimes-tour-live-from-paris-the-imax-experience": {
           "title": "Katy Perry: The Lifetimes Tour - Live From Paris - The IMAX Experience®",
@@ -844,6 +836,17 @@
           "context": "Tony Watch trailer",
           "url": "https://www.cineplex.com/movie/tony"
         },
+        "title:twenty-years-of-the-met-in-cinemas-an-anniversary-celebration-captured-english-w-e-s-t-metropolitan-opera": {
+          "title": "Twenty Years of the Met in Cinemas: An Anniversary Celebration (Captured) English w/e.s.t - Metropolitan Opera",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [
+            "Sep 19"
+          ],
+          "context": "Advance tickets SEP 19 Twenty Years of the Met in Cinemas: An Anniversary Celebration (Captured) English w/e.s.t - Metropolitan Opera",
+          "url": "https://www.cineplex.com/movie/est-twenty-years-of-met-english-west-met"
+        },
         "title:vietnamese-mr-hero-vietnamese-w-e-s-t": {
           "title": "Vietnamese Mr. Hero (Vietnamese w/e.s.t.)",
           "ticket_available": false,
@@ -896,9 +899,10 @@
       "6e5eef962aad111abdecb0b2613f05a5ca1859b74736c51d24ce6b647bf0eb54",
       "b84038b59dc052b1167f73f79b1b73761f0de74bc598036cd1849c72e25aa5c7",
       "6e0d2b995ff47b9f8de031c08f5ae16aea61daae392675c7c200a4aa20f24957",
-      "d27427659e993253a334f0c6d753caff9a7a491497261c634bc0ffe677f0fca1"
+      "d27427659e993253a334f0c6d753caff9a7a491497261c634bc0ffe677f0fca1",
+      "04c1c6492f120b8adab5a42083445e421f2ec8bf45e8b9df07008f69f95dc8ca"
     ],
-    "revision": 249
+    "revision": 250
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
