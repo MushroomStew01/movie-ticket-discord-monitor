@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-16T15:53:07.239441+00:00",
-  "state_id": "6b212aae992534b1ea82534f092fb8cf3e28615dea0ed238833c39beba229526",
+  "updated_at": "2026-08-16T20:53:37.138581+00:00",
+  "state_id": "3aa5137414f45e405f4d164db802bcea488000eb7b61a498f647d5581fa12c50",
   "healthy": true,
   "target_count": 7,
   "failing_targets": [],
@@ -43,7 +43,7 @@
       "name": "Cineplex Cinemas Kitchener and VIP",
       "url": "https://www.cineplex.com/theatre/cineplex-cinemas-kitchener-and-vip",
       "healthy": true,
-      "movie_count": 10,
+      "movie_count": 9,
       "priority": {}
     },
     {
