@@ -3,7 +3,7 @@
     "name": "Cineplex Cinemas Kitchener and VIP",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "02ee0bce78687efe1ff6d2a988dc33db52a402d7dfcc3a8771d78bcbe26cf9f6",
+    "hash": "225714f6d0bcdde0fa7a2e4b3db59c6c5db20482edc521f57612e712d1317b0a",
     "snapshot": {
       "page_title": "Cineplex Cinemas Kitchener and VIP",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-kitchener-and-vip",
@@ -29,15 +29,6 @@
           "showtimes": [],
           "dates": [],
           "context": "Avengers: Doomsday Advance tickets available",
-          "url": null
-        },
-        "title:dune-part-3": {
-          "title": "Dune: Part 3",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Dune: Part 3 Advance tickets available",
           "url": null
         },
         "title:minions-and-monsters": {
@@ -121,7 +112,7 @@
       "749e85ec6472997a4bbf838eda058d2671c2bdf26316f8e8627aabeef3256a3f",
       "1f67ef3e05693f0dae7d8de990bbcd1e4b27ebd7fc42b7e5fc4ef183d4fb7df4"
     ],
-    "revision": 10
+    "revision": 11
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge": {
     "name": "Cineplex Cinemas Cambridge",
@@ -516,7 +507,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "25ac66327d18c652388063d7a12b31114814e9acfaef2ab24d234cfe136dbea4",
+    "hash": "d0c25167198e05561c22166d369db38aca3163dcf6076560980799dddc39a390",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -543,7 +534,7 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Cinemas Abbotsford and VIP",
+        "Cineplex Odeon McGillivray Cinemas and VIP",
         "Advance tickets",
         "AUG 21",
         "SEP 9",
@@ -904,7 +895,7 @@
       "04c1c6492f120b8adab5a42083445e421f2ec8bf45e8b9df07008f69f95dc8ca",
       "9dad90260278e3ce882d142f92688cd683ea20cd058cc80eae7c96afec27dbb1"
     ],
-    "revision": 325
+    "revision": 326
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
