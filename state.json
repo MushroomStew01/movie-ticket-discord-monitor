@@ -506,7 +506,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "1324ab477850ee0aedf8d139d025eac338532d0cafd9f76d3ffc359c50724aac",
+    "hash": "e0bea42b714ea41bb5e96aedcc935d963585bef1909ab5cb5f034b8fbfb5954a",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -520,6 +520,7 @@
         "Nov 5",
         "Sep 19",
         "Sep 2",
+        "Sep 24",
         "Sep 30",
         "Sep 9"
       ],
@@ -532,8 +533,8 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Odeon Westmount Cinemas and VIP",
-        "Cineplex Cinemas Kitchener and VIP",
+        "Cineplex Cinemas Abbotsford and VIP",
+        "Cineplex Cinemas Seton and VIP",
         "Advance tickets",
         "AUG 21",
         "SEP 9",
@@ -545,6 +546,7 @@
         "SEP 2",
         "Katy Perry: The Lifetimes Tour - Live From Paris - The IMAX Experience®",
         "SEP 19",
+        "SEP 24",
         "What are UltraAVX, IMAX, VIP, 4DX, ScreenX and D-BOX?"
       ],
       "movies": {
@@ -741,15 +743,6 @@
           "context": "Punjabi Yaar Jigree Kasooti Degree (Punjabi w/e.s.t.)",
           "url": "https://www.cineplex.com/movie/yaar-jigree-kasooti-degree-punjabi-west"
         },
-        "title:six-the-musical-live": {
-          "title": "SIX: THE MUSICAL LIVE!",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "SIX: THE MUSICAL LIVE! Watch trailer",
-          "url": "https://www.cineplex.com/movie/six-the-musical-live"
-        },
         "title:spa-weekend": {
           "title": "Spa Weekend",
           "ticket_available": true,
@@ -798,6 +791,17 @@
           ],
           "context": "Advance tickets AUG 21 The Magic Faraway Tree Watch trailer",
           "url": "https://www.cineplex.com/movie/the-magic-faraway-tree"
+        },
+        "title:the-misanthrope-national-theatre-live": {
+          "title": "The Misanthrope - National Theatre Live",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [
+            "Sep 24"
+          ],
+          "context": "Advance tickets SEP 24 The Misanthrope - National Theatre Live",
+          "url": "https://www.cineplex.com/movie/the-misanthrope-national-theatre-live"
         },
         "title:the-odyssey": {
           "title": "The Odyssey",
@@ -888,9 +892,10 @@
       "b84038b59dc052b1167f73f79b1b73761f0de74bc598036cd1849c72e25aa5c7",
       "6e0d2b995ff47b9f8de031c08f5ae16aea61daae392675c7c200a4aa20f24957",
       "d27427659e993253a334f0c6d753caff9a7a491497261c634bc0ffe677f0fca1",
-      "04c1c6492f120b8adab5a42083445e421f2ec8bf45e8b9df07008f69f95dc8ca"
+      "04c1c6492f120b8adab5a42083445e421f2ec8bf45e8b9df07008f69f95dc8ca",
+      "9dad90260278e3ce882d142f92688cd683ea20cd058cc80eae7c96afec27dbb1"
     ],
-    "revision": 300
+    "revision": 301
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
