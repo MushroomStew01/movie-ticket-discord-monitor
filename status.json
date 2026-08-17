@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-17T20:37:40.313611+00:00",
-  "state_id": "4e412792a92cec87208bdba1c4f051782febf458ffe98f8e57183e371ee45060",
+  "updated_at": "2026-08-17T23:31:18.886160+00:00",
+  "state_id": "bbd9b67691167b3148cd79a102d2f8c40039e66014dd2e8f94d675ab2259c252",
   "healthy": false,
   "target_count": 7,
   "failing_targets": [
@@ -17,7 +17,7 @@
   "priority": {
     "Dune: Part 3": {
       "title": "Dune: Part 3",
-      "ticket_available": false,
+      "ticket_available": true,
       "theatres": [],
       "showtimes": [],
       "dates": [
