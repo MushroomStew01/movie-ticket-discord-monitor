@@ -1,12 +1,10 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-17T23:31:18.886160+00:00",
-  "state_id": "bbd9b67691167b3148cd79a102d2f8c40039e66014dd2e8f94d675ab2259c252",
-  "healthy": false,
-  "target_count": 7,
-  "failing_targets": [
-    "Dune: Part 3 — IMAX 70MM"
-  ],
+  "updated_at": "2026-08-17T23:52:17.823077+00:00",
+  "state_id": "dd606f85d770e566e7c40a16a507ddf0a53e439ce19943a2087b310185d6ec26",
+  "healthy": true,
+  "target_count": 6,
+  "failing_targets": [],
   "missing_targets": [],
   "theatre_count": 4,
   "healthy_theatre_count": 4,
@@ -23,13 +21,9 @@
       "dates": [
         "December 18"
       ],
-      "formats": [
-        "70MM",
-        "IMAX"
-      ],
+      "formats": [],
       "direct_targets": [
-        "Dune: Part 3",
-        "Dune: Part 3 — IMAX 70MM"
+        "Dune: Part 3"
       ]
     }
   },

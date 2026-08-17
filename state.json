@@ -507,7 +507,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "25ac66327d18c652388063d7a12b31114814e9acfaef2ab24d234cfe136dbea4",
+    "hash": "43592d7bc27c6d7c58a509ba70ed1d1ec5056920f90b1f754481f29640ddb82a",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -534,7 +534,8 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Cinemas Abbotsford and VIP",
+        "Cineplex Cinemas Oakville and VIP",
+        "Cineplex Cinemas Winston Churchill & VIP",
         "Advance tickets",
         "AUG 21",
         "SEP 9",
@@ -895,7 +896,7 @@
       "04c1c6492f120b8adab5a42083445e421f2ec8bf45e8b9df07008f69f95dc8ca",
       "9dad90260278e3ce882d142f92688cd683ea20cd058cc80eae7c96afec27dbb1"
     ],
-    "revision": 334
+    "revision": 335
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
@@ -925,35 +926,6 @@
       "20af9f85bb9be3349435b006c403045da340a617c4f319f21fbf78b4738d7044"
     ],
     "revision": 6
-  },
-  "https://www.cineplex.com/movie/imax70-dune-part-3-the-imax-experience-in-70m": {
-    "name": "Dune: Part 3 — IMAX 70MM",
-    "type": "movie",
-    "snapshot_version": 4,
-    "hash": "5a28cc3a05473fcbb9f53c17389da13c213a37e2aea738ed9281bca644fab2fe",
-    "snapshot": {
-      "page_title": "Dune: Part 3: The IMAX Experience® in 70MM",
-      "final_url": "https://www.cineplex.com/movie/imax70-dune-part-3-the-imax-experience-in-70m",
-      "ticket_available": false,
-      "ticket_phrases": [],
-      "showtimes": [],
-      "dates": [
-        "December 18"
-      ],
-      "formats": [
-        "70MM",
-        "IMAX"
-      ],
-      "relevant_lines": [
-        "Dune: Part 3: The IMAX Experience® in 70MM",
-        "December 18, 2026"
-      ]
-    },
-    "sent_event_ids": [],
-    "revision": 1,
-    "consecutive_failures": 8,
-    "last_error": "RuntimeError: Cineplex returned HTTP 404.",
-    "last_error_at_utc": "2026-08-17T23:31:18.450199+00:00"
   },
   "_meta": {
     "last_heartbeat_at_utc": "2026-08-17T09:28:26.228057+00:00"
