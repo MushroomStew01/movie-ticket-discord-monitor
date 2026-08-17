@@ -1,10 +1,12 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-17T19:19:31.934292+00:00",
-  "state_id": "ea718feabfcb49425aa95830b1017e50b4701a5614cd51c31191d57571ce2b4c",
-  "healthy": true,
+  "updated_at": "2026-08-17T20:37:40.313611+00:00",
+  "state_id": "4e412792a92cec87208bdba1c4f051782febf458ffe98f8e57183e371ee45060",
+  "healthy": false,
   "target_count": 7,
-  "failing_targets": [],
+  "failing_targets": [
+    "Dune: Part 3 — IMAX 70MM"
+  ],
   "missing_targets": [],
   "theatre_count": 4,
   "healthy_theatre_count": 4,
