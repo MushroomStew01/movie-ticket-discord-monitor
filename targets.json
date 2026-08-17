@@ -61,13 +61,6 @@
       "url": "https://www.cineplex.com/movie/dune-part-3",
       "alert_available_on_first_seen": false,
       "watch_keywords": ["get advance tickets", "get tickets", "imax", "70mm", "ultraavx"]
-    },
-    {
-      "name": "Dune: Part 3 — IMAX 70MM",
-      "type": "movie",
-      "url": "https://www.cineplex.com/movie/imax70-dune-part-3-the-imax-experience-in-70m",
-      "alert_available_on_first_seen": false,
-      "watch_keywords": ["get advance tickets", "get tickets", "imax", "70mm"]
     }
   ]
 }
