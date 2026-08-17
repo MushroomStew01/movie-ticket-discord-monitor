@@ -947,9 +947,9 @@
     },
     "sent_event_ids": [],
     "revision": 1,
-    "consecutive_failures": 2,
+    "consecutive_failures": 3,
     "last_error": "RuntimeError: Cineplex returned HTTP 404.",
-    "last_error_at_utc": "2026-08-17T20:59:38.836030+00:00"
+    "last_error_at_utc": "2026-08-17T21:34:47.312404+00:00"
   },
   "_meta": {
     "last_heartbeat_at_utc": "2026-08-17T09:28:26.228057+00:00"
