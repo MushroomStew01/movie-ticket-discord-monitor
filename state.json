@@ -3,7 +3,7 @@
     "name": "Cineplex Cinemas Kitchener and VIP",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "225714f6d0bcdde0fa7a2e4b3db59c6c5db20482edc521f57612e712d1317b0a",
+    "hash": "02ee0bce78687efe1ff6d2a988dc33db52a402d7dfcc3a8771d78bcbe26cf9f6",
     "snapshot": {
       "page_title": "Cineplex Cinemas Kitchener and VIP",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-kitchener-and-vip",
@@ -29,6 +29,15 @@
           "showtimes": [],
           "dates": [],
           "context": "Avengers: Doomsday Advance tickets available",
+          "url": null
+        },
+        "title:dune-part-3": {
+          "title": "Dune: Part 3",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Dune: Part 3 Advance tickets available",
           "url": null
         },
         "title:minions-and-monsters": {
@@ -109,9 +118,10 @@
       "6b665fd23ebdb2326dc3c6e38af109cf03de3a4463b4cdb119bb6870054b67f0",
       "0f44051cefa528ff26cf4f0112d4f6c58d979dfd17322c6e7dc573510bc41560",
       "2fadbb188aec018f9fa1c9d0bd4db90d31383c6812353f2a07fcb6da2feb3805",
-      "749e85ec6472997a4bbf838eda058d2671c2bdf26316f8e8627aabeef3256a3f"
+      "749e85ec6472997a4bbf838eda058d2671c2bdf26316f8e8627aabeef3256a3f",
+      "1f67ef3e05693f0dae7d8de990bbcd1e4b27ebd7fc42b7e5fc4ef183d4fb7df4"
     ],
-    "revision": 9
+    "revision": 10
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge": {
     "name": "Cineplex Cinemas Cambridge",
@@ -506,7 +516,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "11d96b9e01ef8280667ef02c6c5f62b06a7fd832bcebff0c4d7d46d5b2e58790",
+    "hash": "25ac66327d18c652388063d7a12b31114814e9acfaef2ab24d234cfe136dbea4",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -533,8 +543,7 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Odeon Westmount Cinemas and VIP",
-        "Cineplex Cinemas Kitchener and VIP",
+        "Cineplex Cinemas Abbotsford and VIP",
         "Advance tickets",
         "AUG 21",
         "SEP 9",
@@ -895,31 +904,35 @@
       "04c1c6492f120b8adab5a42083445e421f2ec8bf45e8b9df07008f69f95dc8ca",
       "9dad90260278e3ce882d142f92688cd683ea20cd058cc80eae7c96afec27dbb1"
     ],
-    "revision": 324
+    "revision": 325
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
     "type": "movie",
     "snapshot_version": 4,
-    "hash": "d9fef1bc8c08189144ce4a2cf998debbd1edda1ba7e5f34a8f8866f02ea82f6b",
+    "hash": "f63b6f42098b13fe0d63cdff2530c50dc598eb72354f84fba19b22b3cc499e15",
     "snapshot": {
       "page_title": "Dune: Part 3",
       "final_url": "https://www.cineplex.com/movie/dune-part-3",
-      "ticket_available": false,
-      "ticket_phrases": [],
+      "ticket_available": true,
+      "ticket_phrases": [
+        "Get Advance Tickets"
+      ],
       "showtimes": [],
       "dates": [
         "December 18"
       ],
       "formats": [],
       "relevant_lines": [
-        "December 18, 2026"
+        "December 18, 2026",
+        "Get Advance Tickets"
       ]
     },
     "sent_event_ids": [
-      "163bd3dce71f3372a237e1b1f472809dae0c6cb09c08108268e7efc8ca381a37"
+      "163bd3dce71f3372a237e1b1f472809dae0c6cb09c08108268e7efc8ca381a37",
+      "bdd703be65d85cf4e56b91a309c400ae0ff85425c6d82af5e3dcac6f1ff3993d"
     ],
-    "revision": 3
+    "revision": 4
   },
   "https://www.cineplex.com/movie/imax70-dune-part-3-the-imax-experience-in-70m": {
     "name": "Dune: Part 3 — IMAX 70MM",
