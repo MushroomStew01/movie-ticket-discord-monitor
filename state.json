@@ -506,7 +506,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "14be950a929e50072ea3dcc45d486f088b4c0f2ce924b7757f5801bf9805eb51",
+    "hash": "46066db3ee61f32853bc7b190ffdc551865c192395cfea7faa2cfe0c8204492d",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -514,7 +514,6 @@
       "ticket_phrases": [],
       "showtimes": [],
       "dates": [
-        "Aug 17",
         "Aug 21",
         "Aug 26",
         "Aug 29",
@@ -533,7 +532,7 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Odeon McGillivray Cinemas and VIP",
+        "Cineplex Odeon Westmount Cinemas and VIP",
         "Advance tickets",
         "AUG 21",
         "SEP 9",
@@ -541,7 +540,6 @@
         "GHOST: 2 Big To Rig - The IMAX Experience®",
         "AUG 29",
         "NOV 5",
-        "AUG 17",
         "SEP 30",
         "SEP 2",
         "Katy Perry: The Lifetimes Tour - Live From Paris - The IMAX Experience®",
@@ -849,13 +847,11 @@
         },
         "title:your-letter-korean-w-e-s-t": {
           "title": "Your Letter (Korean w/e.s.t.)",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Aug 17"
-          ],
-          "context": "Advance tickets AUG 17 Your Letter (Korean w/e.s.t.)",
+          "dates": [],
+          "context": "Your Letter (Korean w/e.s.t.)",
           "url": "https://www.cineplex.com/movie/your-letter-korean-west"
         },
         "title:your-name-10th-anniversary": {
@@ -893,7 +889,7 @@
       "d27427659e993253a334f0c6d753caff9a7a491497261c634bc0ffe677f0fca1",
       "04c1c6492f120b8adab5a42083445e421f2ec8bf45e8b9df07008f69f95dc8ca"
     ],
-    "revision": 298
+    "revision": 299
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
