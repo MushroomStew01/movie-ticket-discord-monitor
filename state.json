@@ -507,7 +507,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "43592d7bc27c6d7c58a509ba70ed1d1ec5056920f90b1f754481f29640ddb82a",
+    "hash": "976db56b668e5b88e226810bf6ce7fa9c0e0528fd28037c459aa3a1e25046060",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -534,8 +534,7 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Cinemas Oakville and VIP",
-        "Cineplex Cinemas Winston Churchill & VIP",
+        "Cineplex Odeon Westmount Cinemas and VIP",
         "Advance tickets",
         "AUG 21",
         "SEP 9",
@@ -896,28 +895,25 @@
       "04c1c6492f120b8adab5a42083445e421f2ec8bf45e8b9df07008f69f95dc8ca",
       "9dad90260278e3ce882d142f92688cd683ea20cd058cc80eae7c96afec27dbb1"
     ],
-    "revision": 335
+    "revision": 336
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
     "type": "movie",
     "snapshot_version": 4,
-    "hash": "f63b6f42098b13fe0d63cdff2530c50dc598eb72354f84fba19b22b3cc499e15",
+    "hash": "d9fef1bc8c08189144ce4a2cf998debbd1edda1ba7e5f34a8f8866f02ea82f6b",
     "snapshot": {
       "page_title": "Dune: Part 3",
       "final_url": "https://www.cineplex.com/movie/dune-part-3",
-      "ticket_available": true,
-      "ticket_phrases": [
-        "Get Advance Tickets"
-      ],
+      "ticket_available": false,
+      "ticket_phrases": [],
       "showtimes": [],
       "dates": [
         "December 18"
       ],
       "formats": [],
       "relevant_lines": [
-        "December 18, 2026",
-        "Get Advance Tickets"
+        "December 18, 2026"
       ]
     },
     "sent_event_ids": [
@@ -925,7 +921,7 @@
       "bdd703be65d85cf4e56b91a309c400ae0ff85425c6d82af5e3dcac6f1ff3993d",
       "20af9f85bb9be3349435b006c403045da340a617c4f319f21fbf78b4738d7044"
     ],
-    "revision": 6
+    "revision": 7
   },
   "_meta": {
     "last_heartbeat_at_utc": "2026-08-17T09:28:26.228057+00:00"
