@@ -517,7 +517,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "43592d7bc27c6d7c58a509ba70ed1d1ec5056920f90b1f754481f29640ddb82a",
+    "hash": "16dc8be2fe6f69e56b8095ee13b0c60ab908e9e450990ebf14996d973e4ed3fd",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -544,8 +544,8 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Cinemas Oakville and VIP",
-        "Cineplex Cinemas Winston Churchill & VIP",
+        "Cineplex Cinemas Abbotsford and VIP",
+        "Cineplex Cinemas Seton and VIP",
         "Advance tickets",
         "AUG 21",
         "SEP 9",
@@ -665,6 +665,17 @@
           "context": "Advance tickets AUG 21 Insidious: Out of the Further Watch trailer",
           "url": "https://www.cineplex.com/movie/insidious-out-of-the-further"
         },
+        "title:judaa-punjabi-w-e-s-t": {
+          "title": "Judaa (Punjabi w/e.s.t.)",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [
+            "Aug 21"
+          ],
+          "context": "Advance Tickets AUG 21 Judaa (Punjabi w/e.s.t.)",
+          "url": "https://www.cineplex.com/movie/judaa-punjabi-west"
+        },
         "title:katy-perry-the-lifetimes-tour-live-from-paris-the-imax-experience": {
           "title": "Katy Perry: The Lifetimes Tour - Live From Paris - The IMAX Experience®",
           "ticket_available": true,
@@ -677,15 +688,6 @@
           ],
           "context": "Advance tickets SEP 2 Katy Perry: The Lifetimes Tour - Live From Paris - The IMAX Experience®",
           "url": "https://www.cineplex.com/movie/imax-katy-perry-the-lifetimes-tour"
-        },
-        "title:korean-train-to-busan-10th-anniversary-remastered-and-revived-korean-w-e-s-t": {
-          "title": "Korean Train to Busan - 10th Anniversary Remastered & Revived (Korean w/e.s.t.)",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Korean Train to Busan - 10th Anniversary Remastered & Revived (Korean w/e.s.t.)",
-          "url": "https://www.cineplex.com/movie/train-to-busan-10th-anniversary-remastered-rev"
         },
         "title:linkin-park-unshatter": {
           "title": "LINKIN PARK: UNSHATTER",
@@ -841,6 +843,17 @@
           "context": "Tony Watch trailer",
           "url": "https://www.cineplex.com/movie/tony"
         },
+        "title:toxic-hindi-w-e-s-t": {
+          "title": "Toxic (Hindi w/e.s.t.)",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [
+            "Aug 26"
+          ],
+          "context": "Advance Tickets AUG 26 Toxic (Hindi w/e.s.t.)",
+          "url": "https://www.cineplex.com/movie/toxic-hindi-west"
+        },
         "title:twenty-years-of-the-met-in-cinemas-an-anniversary-celebration-captured-english-w-e-s-t-metropolitan-opera": {
           "title": "Twenty Years of the Met in Cinemas: An Anniversary Celebration (Captured) English w/e.s.t - Metropolitan Opera",
           "ticket_available": true,
@@ -851,15 +864,6 @@
           ],
           "context": "Advance tickets SEP 19 Twenty Years of the Met in Cinemas: An Anniversary Celebration (Captured) English w/e.s.t - Metropolitan Opera",
           "url": "https://www.cineplex.com/movie/est-twenty-years-of-met-english-west-met"
-        },
-        "title:vietnamese-mr-hero-vietnamese-w-e-s-t": {
-          "title": "Vietnamese Mr. Hero (Vietnamese w/e.s.t.)",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Vietnamese Mr. Hero (Vietnamese w/e.s.t.) Watch trailer",
-          "url": "https://www.cineplex.com/movie/mr-hero-vietnamese-west"
         },
         "title:your-letter-korean-w-e-s-t": {
           "title": "Your Letter (Korean w/e.s.t.)",
@@ -904,9 +908,10 @@
       "6e0d2b995ff47b9f8de031c08f5ae16aea61daae392675c7c200a4aa20f24957",
       "d27427659e993253a334f0c6d753caff9a7a491497261c634bc0ffe677f0fca1",
       "04c1c6492f120b8adab5a42083445e421f2ec8bf45e8b9df07008f69f95dc8ca",
-      "9dad90260278e3ce882d142f92688cd683ea20cd058cc80eae7c96afec27dbb1"
+      "9dad90260278e3ce882d142f92688cd683ea20cd058cc80eae7c96afec27dbb1",
+      "f320f31ad212c5d88476fb4750ee21373887ae04f6c6e79bf0bc0cb2c18357f9"
     ],
-    "revision": 358
+    "revision": 359
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
