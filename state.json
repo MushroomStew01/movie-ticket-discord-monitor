@@ -400,7 +400,7 @@
     "name": "Cineplex Cinemas Mississauga Square One",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "84f8caeb5a81cdc19d003b9b2f0093071c60e2588b4b20ac4404e1b754c4ce69",
+    "hash": "e73a91ae6c4bdf5b8b6051be03cd8bff204f8ed9df8b11451f2a67075990ef7f",
     "snapshot": {
       "page_title": "Cineplex Cinemas Mississauga Square One",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one",
@@ -414,15 +414,6 @@
         "Advance tickets available"
       ],
       "movies": {
-        "title:ice-cream-man": {
-          "title": "Ice Cream Man",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Ice Cream Man",
-          "url": null
-        },
         "title:insidious-out-of-the-further": {
           "title": "Insidious: Out of the Further",
           "ticket_available": true,
@@ -432,22 +423,13 @@
           "context": "Insidious: Out of the Further Advance tickets available",
           "url": null
         },
-        "title:minions-and-monsters": {
-          "title": "Minions & Monsters",
-          "ticket_available": false,
+        "title:mutiny": {
+          "title": "Mutiny",
+          "ticket_available": true,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Minions & Monsters",
-          "url": null
-        },
-        "title:obsession": {
-          "title": "Obsession",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Obsession",
+          "context": "Mutiny Advance tickets available",
           "url": null
         },
         "title:one-night-only": {
@@ -468,6 +450,15 @@
           "context": "Paw Patrol: The Dino Movie",
           "url": null
         },
+        "title:spa-weekend": {
+          "title": "Spa Weekend",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Spa Weekend Advance tickets available",
+          "url": null
+        },
         "title:spider-man-brand-new-day": {
           "title": "Spider-Man: Brand New Day",
           "ticket_available": false,
@@ -477,13 +468,13 @@
           "context": "Spider-Man: Brand New Day",
           "url": null
         },
-        "title:super-troopers-3": {
-          "title": "Super Troopers 3",
+        "title:teenage-sex-and-death-at-camp-miasma": {
+          "title": "Teenage Sex and Death at Camp Miasma",
           "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Super Troopers 3",
+          "context": "Teenage Sex and Death at Camp Miasma",
           "url": null
         },
         "title:the-end-of-oak-street": {
@@ -495,6 +486,15 @@
           "context": "The End of Oak Street",
           "url": null
         },
+        "title:the-magic-faraway-tree": {
+          "title": "The Magic Faraway Tree",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "The Magic Faraway Tree Advance tickets available",
+          "url": null
+        },
         "title:the-odyssey": {
           "title": "The Odyssey",
           "ticket_available": false,
@@ -504,13 +504,13 @@
           "context": "The Odyssey",
           "url": null
         },
-        "title:toy-story-5": {
-          "title": "Toy Story 5",
+        "title:tony": {
+          "title": "Tony",
           "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Toy Story 5",
+          "context": "Tony",
           "url": null
         }
       }
@@ -521,15 +521,16 @@
       "2cf572e8637b9f1f7ac731e271215018e5e12b932ed081fd3a68e0b39d68a6f2",
       "9112eaec69752a5a814df934861c837492e2df6c7e9620e5e3f438f930a06c41",
       "8db78da0eea2b1930b7ae72944a7e424512412a34f32f5692da80f2f1261b25d",
-      "65ca86e729794709579dfa42d7219a3e723cf947869cf8d706ca73b82d076bff"
+      "65ca86e729794709579dfa42d7219a3e723cf947869cf8d706ca73b82d076bff",
+      "b32ea4a3736b5968108a59becb2d61832e5d08b78bcb806d68909d835eac2934"
     ],
-    "revision": 9
+    "revision": 10
   },
   "https://www.cineplex.com/en?theatresNearYou=true": {
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "6d1e1c524ded908ba1ab0e252c06ca9dd7c71e005c9ca97c9d9810f38a3f160c",
+    "hash": "16dc8be2fe6f69e56b8095ee13b0c60ab908e9e450990ebf14996d973e4ed3fd",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -556,7 +557,8 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Odeon Westmount Cinemas and VIP",
+        "Cineplex Cinemas Abbotsford and VIP",
+        "Cineplex Cinemas Seton and VIP",
         "Advance tickets",
         "AUG 21",
         "SEP 9",
@@ -922,7 +924,7 @@
       "9dad90260278e3ce882d142f92688cd683ea20cd058cc80eae7c96afec27dbb1",
       "f320f31ad212c5d88476fb4750ee21373887ae04f6c6e79bf0bc0cb2c18357f9"
     ],
-    "revision": 371
+    "revision": 372
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
