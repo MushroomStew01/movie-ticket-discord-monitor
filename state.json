@@ -530,7 +530,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "5cc5401588fc8a90c7f4ed0277b011c8172b755f130578fe7598607d4ae2aaed",
+    "hash": "397944548078b0cf99ae2780ae1120e01c1975671b0dffa3deea5dd98e4c0f6e",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -557,8 +557,7 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Cinemas Oakville and VIP",
-        "Cineplex Cinemas Winston Churchill & VIP",
+        "Cineplex Odeon McGillivray Cinemas and VIP",
         "Advance tickets",
         "AUG 21",
         "SEP 9",
@@ -924,7 +923,7 @@
       "9dad90260278e3ce882d142f92688cd683ea20cd058cc80eae7c96afec27dbb1",
       "f320f31ad212c5d88476fb4750ee21373887ae04f6c6e79bf0bc0cb2c18357f9"
     ],
-    "revision": 378
+    "revision": 379
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
@@ -957,6 +956,6 @@
     "revision": 8
   },
   "_meta": {
-    "last_heartbeat_at_utc": "2026-08-18T09:55:37.485631+00:00"
+    "last_heartbeat_at_utc": "2026-08-19T10:05:31.749063+00:00"
   }
 }
