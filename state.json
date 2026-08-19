@@ -138,7 +138,7 @@
     "name": "Cineplex Cinemas Cambridge",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "c7c7f452a82206327a27cfdac7f743e286dfe72311a4e85c635726750baeac40",
+    "hash": "13add754ba2faed379c0e4536e35021aff3c6d1e67001bad1f09f6ef13415c5d",
     "snapshot": {
       "page_title": "Cineplex Cinemas Cambridge",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge",
@@ -159,6 +159,15 @@
           "showtimes": [],
           "dates": [],
           "context": "André Rieu's 2026 Summer Concert: Viva Maastricht! Advance tickets available",
+          "url": null
+        },
+        "title:carmen-encore-bizet-french-w-e-s-t-metropolitan-opera": {
+          "title": "Carmen Encore (Bizet) - French w/e.s.t. – Metropolitan Opera",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Carmen Encore (Bizet) - French w/e.s.t. – Metropolitan Opera Advance tickets available",
           "url": null
         },
         "title:cos-fan-tutte-mozart-italian-w-e-s-t-metropolitan-opera": {
@@ -224,15 +233,6 @@
           "context": "Spider-Man: Brand New Day",
           "url": null
         },
-        "title:super-troopers-3": {
-          "title": "Super Troopers 3",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Super Troopers 3",
-          "url": null
-        },
         "title:the-odyssey": {
           "title": "The Odyssey",
           "ticket_available": false,
@@ -260,15 +260,16 @@
       "2fe1260d36b03ee6b9d799dcb00a198591905fb422617662d9d2934b383c8ae6",
       "9d7fb095792f85721a89ce36b1a10d37342ee5e23d9f8b1c7bbf864a2d710965",
       "e40df70b8ca32b55388d79ff62ea71752384151b744d4bd087ab75fac33f6f07",
-      "14e6b1ad5ee931da85eddfafb6d053cc2c6b9d47c3a566032e2d300bca567e76"
+      "14e6b1ad5ee931da85eddfafb6d053cc2c6b9d47c3a566032e2d300bca567e76",
+      "377b51faed3e760c4a23b44212b494e24b87026084927263750d6c22a38aeb80"
     ],
-    "revision": 11
+    "revision": 12
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan": {
     "name": "Cineplex Cinemas Vaughan",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "8cc175a4a87851d9aa65e01cb84ebbc9d0817319b9c5df93e152e08c853cfdd2",
+    "hash": "8b0de064601ceb5d53dffda51219d73d652b3840333f4f0dc7d4463857fbe8c3",
     "snapshot": {
       "page_title": "Cineplex Cinemas Vaughan",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan",
@@ -336,6 +337,15 @@
           "context": "Teenage Sex and Death at Camp Miasma",
           "url": null
         },
+        "title:the-dog-stars": {
+          "title": "The Dog Stars",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "The Dog Stars Advance tickets available",
+          "url": null
+        },
         "title:the-end-of-oak-street": {
           "title": "The End of Oak Street",
           "ticket_available": false,
@@ -363,15 +373,6 @@
           "context": "The Odyssey",
           "url": null
         },
-        "title:the-rivals-of-amziah-king": {
-          "title": "The Rivals of Amziah King",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "The Rivals of Amziah King",
-          "url": null
-        },
         "title:tony": {
           "title": "Tony",
           "ticket_available": false,
@@ -392,15 +393,16 @@
       "b368af248ba1bc08ac524ea5c1b5e6ecbd0d6023f5f90b6b58da570c3a1c63a8",
       "c7029ffcb49d311c5098f1072fb6ec85a564687360db29c3401682bb536dcdcf",
       "32d09a48d02b812c2efa02f2c3bb3bd3fd965770e17d3f65fb7ef404bb09d415",
-      "faf14cf71f4421bed9fe296d4de031489bc86bf118b0b92314cfffa6d7613018"
+      "faf14cf71f4421bed9fe296d4de031489bc86bf118b0b92314cfffa6d7613018",
+      "874a385d052c3e01d158675f2cd5877b976bc5f475e51b5969e495538a6d938c"
     ],
-    "revision": 13
+    "revision": 14
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one": {
     "name": "Cineplex Cinemas Mississauga Square One",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "e73a91ae6c4bdf5b8b6051be03cd8bff204f8ed9df8b11451f2a67075990ef7f",
+    "hash": "b39407ec531f9b3a5dd4a5ff301689fd0017a5e175f829c23220d9b63032cd9e",
     "snapshot": {
       "page_title": "Cineplex Cinemas Mississauga Square One",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one",
@@ -430,15 +432,6 @@
           "showtimes": [],
           "dates": [],
           "context": "Mutiny Advance tickets available",
-          "url": null
-        },
-        "title:one-night-only": {
-          "title": "One Night Only",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "One Night Only",
           "url": null
         },
         "title:paw-patrol-the-dino-movie": {
@@ -475,6 +468,15 @@
           "showtimes": [],
           "dates": [],
           "context": "Teenage Sex and Death at Camp Miasma",
+          "url": null
+        },
+        "title:the-dog-stars": {
+          "title": "The Dog Stars",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "The Dog Stars Advance tickets available",
           "url": null
         },
         "title:the-end-of-oak-street": {
@@ -522,15 +524,16 @@
       "9112eaec69752a5a814df934861c837492e2df6c7e9620e5e3f438f930a06c41",
       "8db78da0eea2b1930b7ae72944a7e424512412a34f32f5692da80f2f1261b25d",
       "65ca86e729794709579dfa42d7219a3e723cf947869cf8d706ca73b82d076bff",
-      "b32ea4a3736b5968108a59becb2d61832e5d08b78bcb806d68909d835eac2934"
+      "b32ea4a3736b5968108a59becb2d61832e5d08b78bcb806d68909d835eac2934",
+      "fecf0fde72b2e48175161e38ec24bd8323b6678a6148aca8a87c8e6306c34d86"
     ],
-    "revision": 10
+    "revision": 11
   },
   "https://www.cineplex.com/en?theatresNearYou=true": {
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "4deebde42f2afb1964b4b2056df94f0e38fb874dcc686fb2ff849865e8744ae7",
+    "hash": "b0645c28a674e50c06d55ddde0cceca5e72ee2551fd677190c7dbe77cb3ac79e",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -541,11 +544,10 @@
         "Aug 21",
         "Aug 26",
         "Aug 29",
-        "Nov 5",
         "Sep 19",
-        "Sep 2",
-        "Sep 24",
-        "Sep 30",
+        "Sep 23",
+        "Sep 4",
+        "Sep 5",
         "Sep 9"
       ],
       "formats": [
@@ -557,19 +559,17 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Odeon Westmount Cinemas and VIP",
+        "Cineplex Cinemas Abbotsford and VIP",
         "Advance tickets",
         "AUG 21",
-        "SEP 9",
         "AUG 26",
+        "SEP 9",
         "GHOST: 2 Big To Rig - The IMAX Experience®",
         "AUG 29",
-        "NOV 5",
-        "SEP 30",
-        "SEP 2",
-        "Katy Perry: The Lifetimes Tour - Live From Paris - The IMAX Experience®",
+        "SEP 4",
+        "SEP 5",
+        "SEP 23",
         "SEP 19",
-        "SEP 24",
         "What are UltraAVX, IMAX, VIP, 4DX, ScreenX and D-BOX?"
       ],
       "movies": {
@@ -611,6 +611,28 @@
           "context": "Chinese All Wishes Come True! (Mandarin w/Chinese and e.s.t.)",
           "url": "https://www.cineplex.com/movie/all-wishes-come-true-mandarin-wchi"
         },
+        "title:cocoon-one-summer-of-girlhood": {
+          "title": "Cocoon - One Summer of Girlhood",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [
+            "Sep 5"
+          ],
+          "context": "Advance tickets SEP 5 Cocoon - One Summer of Girlhood",
+          "url": "https://www.cineplex.com/movie/cocoon-one-summer-of-girlhood"
+        },
+        "title:cocoon-one-summer-of-girlhood-japanese-w-e-s-t": {
+          "title": "Cocoon - One Summer of Girlhood (Japanese w.e.s.t.)",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [
+            "Sep 4"
+          ],
+          "context": "Advance tickets SEP 4 Cocoon - One Summer of Girlhood (Japanese w.e.s.t.)",
+          "url": "https://www.cineplex.com/movie/cocoon-one-summer-of-girlhood-japanese-w"
+        },
         "title:ghost-2-big-to-rig": {
           "title": "GHOST: 2 Big To Rig",
           "ticket_available": true,
@@ -634,17 +656,6 @@
           ],
           "context": "Advance tickets AUG 26 GHOST: 2 Big To Rig - The IMAX Experience® Watch trailer",
           "url": "https://www.cineplex.com/movie/ghost-2-big-to-rig-the-imax-experience"
-        },
-        "title:golden-boy-national-theatre-live": {
-          "title": "Golden Boy - National Theatre Live",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [
-            "Nov 5"
-          ],
-          "context": "Advance tickets NOV 5 Golden Boy - National Theatre Live",
-          "url": "https://www.cineplex.com/movie/golden-boy-national-theatre-live"
         },
         "title:hindi-awarapan-2-hindi-w-e-s-t": {
           "title": "Hindi Awarapan 2 (Hindi w/e.s.t.)",
@@ -675,6 +686,17 @@
           "context": "Coming Soon SEP 9 Hope (Korean w/e.s.t.) Watch trailer",
           "url": "https://www.cineplex.com/movie/hope-korean-west"
         },
+        "title:hot-spot": {
+          "title": "Hot Spot",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [
+            "Aug 21"
+          ],
+          "context": "Advance tickets AUG 21 Hot Spot Watch trailer",
+          "url": "https://www.cineplex.com/movie/hot-spot"
+        },
         "title:insidious-out-of-the-further": {
           "title": "Insidious: Out of the Further",
           "ticket_available": true,
@@ -697,29 +719,23 @@
           "context": "Advance Tickets AUG 21 Judaa (Punjabi w/e.s.t.)",
           "url": "https://www.cineplex.com/movie/judaa-punjabi-west"
         },
-        "title:katy-perry-the-lifetimes-tour-live-from-paris-the-imax-experience": {
-          "title": "Katy Perry: The Lifetimes Tour - Live From Paris - The IMAX Experience®",
-          "ticket_available": true,
-          "formats": [
-            "IMAX"
-          ],
-          "showtimes": [],
-          "dates": [
-            "Sep 2"
-          ],
-          "context": "Advance tickets SEP 2 Katy Perry: The Lifetimes Tour - Live From Paris - The IMAX Experience®",
-          "url": "https://www.cineplex.com/movie/imax-katy-perry-the-lifetimes-tour"
-        },
-        "title:linkin-park-unshatter": {
-          "title": "LINKIN PARK: UNSHATTER",
-          "ticket_available": true,
+        "title:katseye-wild-hearts": {
+          "title": "KATSEYE: WILD HEARTS",
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Sep 30"
-          ],
-          "context": "Advance tickets SEP 30 LINKIN PARK: UNSHATTER",
-          "url": "https://www.cineplex.com/movie/linkin-park-unshatter"
+          "dates": [],
+          "context": "KATSEYE: WILD HEARTS",
+          "url": "https://www.cineplex.com/movie/katseye-wild-hearts"
+        },
+        "title:korean-train-to-busan-10th-anniversary-remastered-and-revived-korean-w-e-s-t": {
+          "title": "Korean Train to Busan - 10th Anniversary Remastered & Revived (Korean w/e.s.t.)",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Korean Train to Busan - 10th Anniversary Remastered & Revived (Korean w/e.s.t.)",
+          "url": "https://www.cineplex.com/movie/train-to-busan-10th-anniversary-remastered-rev"
         },
         "title:mutiny": {
           "title": "Mutiny",
@@ -741,23 +757,16 @@
           "context": "Paw Patrol: The Dino Movie Watch trailer",
           "url": "https://www.cineplex.com/movie/paw-patrol-the-dino-movie"
         },
-        "title:punjabi-ishqnama-punjabi-w-e-s-t": {
-          "title": "Punjabi Ishqnama (Punjabi w/e.s.t.)",
-          "ticket_available": false,
+        "title:pulp-what-do-you-do-for-an-encore": {
+          "title": "PULP: What Do You Do For An Encore?",
+          "ticket_available": true,
           "formats": [],
           "showtimes": [],
-          "dates": [],
-          "context": "Punjabi Ishqnama (Punjabi w/e.s.t.)",
-          "url": "https://www.cineplex.com/movie/ishqnama-punjabi-west"
-        },
-        "title:punjabi-kankaan-de-ohle-punjabi-w-e-s-t": {
-          "title": "Punjabi Kankaan De Ohle (Punjabi w/e.s.t.)",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Punjabi Kankaan De Ohle (Punjabi w/e.s.t.)",
-          "url": "https://www.cineplex.com/movie/kankaan-de-ohle-punjabi-west"
+          "dates": [
+            "Sep 23"
+          ],
+          "context": "Advance tickets SEP 23 PULP: What Do You Do For An Encore?",
+          "url": "https://www.cineplex.com/movie/pulp-what-do-you-do-for-an-encore"
         },
         "title:punjabi-the-great-punjab-robbery-punjabi-w-e-s-t": {
           "title": "Punjabi The Great Punjab Robbery (Punjabi w/e.s.t.)",
@@ -776,6 +785,15 @@
           "dates": [],
           "context": "Punjabi Yaar Jigree Kasooti Degree (Punjabi w/e.s.t.)",
           "url": "https://www.cineplex.com/movie/yaar-jigree-kasooti-degree-punjabi-west"
+        },
+        "title:six-the-musical-live": {
+          "title": "SIX: THE MUSICAL LIVE!",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "SIX: THE MUSICAL LIVE! Watch trailer",
+          "url": "https://www.cineplex.com/movie/six-the-musical-live"
         },
         "title:spa-weekend": {
           "title": "Spa Weekend",
@@ -826,17 +844,6 @@
           "context": "Advance tickets AUG 21 The Magic Faraway Tree Watch trailer",
           "url": "https://www.cineplex.com/movie/the-magic-faraway-tree"
         },
-        "title:the-misanthrope-national-theatre-live": {
-          "title": "The Misanthrope - National Theatre Live",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [
-            "Sep 24"
-          ],
-          "context": "Advance tickets SEP 24 The Misanthrope - National Theatre Live",
-          "url": "https://www.cineplex.com/movie/the-misanthrope-national-theatre-live"
-        },
         "title:the-odyssey": {
           "title": "The Odyssey",
           "ticket_available": false,
@@ -845,15 +852,6 @@
           "dates": [],
           "context": "The Odyssey Watch trailer",
           "url": "https://www.cineplex.com/movie/the-odyssey"
-        },
-        "title:the-rivals-of-amziah-king": {
-          "title": "The Rivals of Amziah King",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "The Rivals of Amziah King Watch trailer",
-          "url": "https://www.cineplex.com/movie/the-rivals-of-amziah-king"
         },
         "title:tony": {
           "title": "Tony",
@@ -886,14 +884,14 @@
           "context": "Advance tickets SEP 19 Twenty Years of the Met in Cinemas: An Anniversary Celebration (Captured) English w/e.s.t - Metropolitan Opera",
           "url": "https://www.cineplex.com/movie/est-twenty-years-of-met-english-west-met"
         },
-        "title:your-letter-korean-w-e-s-t": {
-          "title": "Your Letter (Korean w/e.s.t.)",
+        "title:vietnamese-mr-hero-vietnamese-w-e-s-t": {
+          "title": "Vietnamese Mr. Hero (Vietnamese w/e.s.t.)",
           "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Your Letter (Korean w/e.s.t.)",
-          "url": "https://www.cineplex.com/movie/your-letter-korean-west"
+          "context": "Vietnamese Mr. Hero (Vietnamese w/e.s.t.) Watch trailer",
+          "url": "https://www.cineplex.com/movie/mr-hero-vietnamese-west"
         },
         "title:your-name-10th-anniversary": {
           "title": "Your Name. 10th Anniversary",
@@ -931,9 +929,10 @@
       "04c1c6492f120b8adab5a42083445e421f2ec8bf45e8b9df07008f69f95dc8ca",
       "9dad90260278e3ce882d142f92688cd683ea20cd058cc80eae7c96afec27dbb1",
       "f320f31ad212c5d88476fb4750ee21373887ae04f6c6e79bf0bc0cb2c18357f9",
-      "7626ff7dc1c473e63f86ef3c1f4915de339cbea1bcffce6306a0e3becc06f70b"
+      "7626ff7dc1c473e63f86ef3c1f4915de339cbea1bcffce6306a0e3becc06f70b",
+      "6df1c00b54c579ad714072d4f02635a086582167850b738acf819d6a14ee08e7"
     ],
-    "revision": 383
+    "revision": 384
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
