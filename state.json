@@ -3,7 +3,7 @@
     "name": "Cineplex Cinemas Kitchener and VIP",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "02ee0bce78687efe1ff6d2a988dc33db52a402d7dfcc3a8771d78bcbe26cf9f6",
+    "hash": "ef0e667d12e05649861e1c1e50d7913d8ae8cd36072d4c332b4e024fd9ff8cdc",
     "snapshot": {
       "page_title": "Cineplex Cinemas Kitchener and VIP",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-kitchener-and-vip",
@@ -22,22 +22,13 @@
         "Tuesdays taste better in Cineplex VIP. Enjoy TACOS & TEQUILA every Tuesday with $5 Tacos and 10$ Select Tequila Drinks"
       ],
       "movies": {
-        "title:avengers-doomsday": {
-          "title": "Avengers: Doomsday",
+        "title:insidious-out-of-the-further": {
+          "title": "Insidious: Out of the Further",
           "ticket_available": true,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Avengers: Doomsday Advance tickets available",
-          "url": null
-        },
-        "title:dune-part-3": {
-          "title": "Dune: Part 3",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Dune: Part 3 Advance tickets available",
+          "context": "Insidious: Out of the Further Advance tickets available",
           "url": null
         },
         "title:minions-and-monsters": {
@@ -58,6 +49,15 @@
           "context": "Moana",
           "url": null
         },
+        "title:mutiny": {
+          "title": "Mutiny",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Mutiny Advance tickets available",
+          "url": null
+        },
         "title:paw-patrol-the-dino-movie": {
           "title": "Paw Patrol: The Dino Movie",
           "ticket_available": false,
@@ -67,13 +67,13 @@
           "context": "Paw Patrol: The Dino Movie",
           "url": null
         },
-        "title:practical-magic-2": {
-          "title": "Practical Magic 2",
+        "title:spa-weekend": {
+          "title": "Spa Weekend",
           "ticket_available": true,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Practical Magic 2 Advance tickets available",
+          "context": "Spa Weekend Advance tickets available",
           "url": null
         },
         "title:spider-man-brand-new-day": {
@@ -103,6 +103,15 @@
           "context": "The Odyssey",
           "url": null
         },
+        "title:tony": {
+          "title": "Tony",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Tony",
+          "url": null
+        },
         "title:toy-story-5": {
           "title": "Toy Story 5",
           "ticket_available": false,
@@ -120,15 +129,16 @@
       "2fadbb188aec018f9fa1c9d0bd4db90d31383c6812353f2a07fcb6da2feb3805",
       "749e85ec6472997a4bbf838eda058d2671c2bdf26316f8e8627aabeef3256a3f",
       "1f67ef3e05693f0dae7d8de990bbcd1e4b27ebd7fc42b7e5fc4ef183d4fb7df4",
-      "e7beaf58871595688ba103ea5ec73d744fc1978a9ae0d78a1aa56d97330275b1"
+      "e7beaf58871595688ba103ea5ec73d744fc1978a9ae0d78a1aa56d97330275b1",
+      "621ef713c5931124e9b7312edab1bd9c0273610ba45b73f83f1a3cbe373cc314"
     ],
-    "revision": 12
+    "revision": 13
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge": {
     "name": "Cineplex Cinemas Cambridge",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "15b294c29115764ec7992e9ff0ace4f5bfa7529f4c09b973cda918c1efb6deca",
+    "hash": "c7c7f452a82206327a27cfdac7f743e286dfe72311a4e85c635726750baeac40",
     "snapshot": {
       "page_title": "Cineplex Cinemas Cambridge",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge",
@@ -151,15 +161,6 @@
           "context": "André Rieu's 2026 Summer Concert: Viva Maastricht! Advance tickets available",
           "url": null
         },
-        "title:carmen-encore-bizet-french-w-e-s-t-metropolitan-opera": {
-          "title": "Carmen Encore (Bizet) - French w/e.s.t. – Metropolitan Opera",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Carmen Encore (Bizet) - French w/e.s.t. – Metropolitan Opera Advance tickets available",
-          "url": null
-        },
         "title:cos-fan-tutte-mozart-italian-w-e-s-t-metropolitan-opera": {
           "title": "Così fan tutte (Mozart) Italian w/e.s.t. – Metropolitan Opera",
           "ticket_available": true,
@@ -169,6 +170,15 @@
           "context": "Così fan tutte (Mozart) Italian w/e.s.t. – Metropolitan Opera Advance tickets available",
           "url": null
         },
+        "title:insidious-out-of-the-further": {
+          "title": "Insidious: Out of the Further",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Insidious: Out of the Further Advance tickets available",
+          "url": null
+        },
         "title:macbeth-verdi-italian-w-e-s-t-metropolitan-opera": {
           "title": "Macbeth (Verdi) Italian w/e.s.t. – Metropolitan Opera",
           "ticket_available": true,
@@ -176,6 +186,15 @@
           "showtimes": [],
           "dates": [],
           "context": "Macbeth (Verdi) Italian w/e.s.t. – Metropolitan Opera Advance tickets available",
+          "url": null
+        },
+        "title:mutiny": {
+          "title": "Mutiny",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Mutiny Advance tickets available",
           "url": null
         },
         "title:one-night-only": {
@@ -194,15 +213,6 @@
           "showtimes": [],
           "dates": [],
           "context": "Paw Patrol: The Dino Movie",
-          "url": null
-        },
-        "title:samson-et-dalila-saint-sa-ns-french-w-e-s-t-metropolitan-opera": {
-          "title": "Samson et Dalila (Saint-Saëns) - French w/e.s.t. - Metropolitan Opera",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Samson et Dalila (Saint-Saëns) - French w/e.s.t. - Metropolitan Opera Advance tickets available",
           "url": null
         },
         "title:spider-man-brand-new-day": {
@@ -249,15 +259,16 @@
       "56fabfc7d83c7098019c8df74ac821d0b1deed4bc8c92ca5bfbbe10e14845a06",
       "2fe1260d36b03ee6b9d799dcb00a198591905fb422617662d9d2934b383c8ae6",
       "9d7fb095792f85721a89ce36b1a10d37342ee5e23d9f8b1c7bbf864a2d710965",
-      "e40df70b8ca32b55388d79ff62ea71752384151b744d4bd087ab75fac33f6f07"
+      "e40df70b8ca32b55388d79ff62ea71752384151b744d4bd087ab75fac33f6f07",
+      "14e6b1ad5ee931da85eddfafb6d053cc2c6b9d47c3a566032e2d300bca567e76"
     ],
-    "revision": 10
+    "revision": 11
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan": {
     "name": "Cineplex Cinemas Vaughan",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "35e7ab591275eb1e595d0fbe54bca79e7633c081e1dd76ede0fe79cf63549171",
+    "hash": "8cc175a4a87851d9aa65e01cb84ebbc9d0817319b9c5df93e152e08c853cfdd2",
     "snapshot": {
       "page_title": "Cineplex Cinemas Vaughan",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan",
@@ -289,15 +300,6 @@
           "context": "Mutiny Advance tickets available",
           "url": null
         },
-        "title:one-night-only": {
-          "title": "One Night Only",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "One Night Only",
-          "url": null
-        },
         "title:paw-patrol-the-dino-movie": {
           "title": "Paw Patrol: The Dino Movie",
           "ticket_available": false,
@@ -323,6 +325,15 @@
           "showtimes": [],
           "dates": [],
           "context": "Spider-Man: Brand New Day",
+          "url": null
+        },
+        "title:teenage-sex-and-death-at-camp-miasma": {
+          "title": "Teenage Sex and Death at Camp Miasma",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Teenage Sex and Death at Camp Miasma",
           "url": null
         },
         "title:the-end-of-oak-street": {
@@ -380,9 +391,10 @@
       "43841752162cee7fa598199a49e5ceac92b2edf711ebaffe51043eb3b92bad7b",
       "b368af248ba1bc08ac524ea5c1b5e6ecbd0d6023f5f90b6b58da570c3a1c63a8",
       "c7029ffcb49d311c5098f1072fb6ec85a564687360db29c3401682bb536dcdcf",
-      "32d09a48d02b812c2efa02f2c3bb3bd3fd965770e17d3f65fb7ef404bb09d415"
+      "32d09a48d02b812c2efa02f2c3bb3bd3fd965770e17d3f65fb7ef404bb09d415",
+      "faf14cf71f4421bed9fe296d4de031489bc86bf118b0b92314cfffa6d7613018"
     ],
-    "revision": 12
+    "revision": 13
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one": {
     "name": "Cineplex Cinemas Mississauga Square One",
@@ -517,7 +529,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "5cc5401588fc8a90c7f4ed0277b011c8172b755f130578fe7598607d4ae2aaed",
+    "hash": "6d1e1c524ded908ba1ab0e252c06ca9dd7c71e005c9ca97c9d9810f38a3f160c",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -544,8 +556,7 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Cinemas Oakville and VIP",
-        "Cineplex Cinemas Winston Churchill & VIP",
+        "Cineplex Odeon Westmount Cinemas and VIP",
         "Advance tickets",
         "AUG 21",
         "SEP 9",
@@ -911,7 +922,7 @@
       "9dad90260278e3ce882d142f92688cd683ea20cd058cc80eae7c96afec27dbb1",
       "f320f31ad212c5d88476fb4750ee21373887ae04f6c6e79bf0bc0cb2c18357f9"
     ],
-    "revision": 370
+    "revision": 371
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
