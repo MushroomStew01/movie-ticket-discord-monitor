@@ -530,7 +530,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "7d98d0d6792d3ac0bf62221ff8ff35c320330dc842cdef3e84b5d4ff56d9118f",
+    "hash": "4deebde42f2afb1964b4b2056df94f0e38fb874dcc686fb2ff849865e8744ae7",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -557,7 +557,7 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Cinemas Abbotsford and VIP",
+        "Cineplex Odeon Westmount Cinemas and VIP",
         "Advance tickets",
         "AUG 21",
         "SEP 9",
@@ -592,6 +592,15 @@
           "dates": [],
           "context": "Arabic El Gawahergy (Arabic w/e.s.t.)",
           "url": "https://www.cineplex.com/movie/el-gawahergy-arabic-west"
+        },
+        "title:avengers-doomsday": {
+          "title": "Avengers Doomsday",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "",
+          "url": "https://www.cineplex.com/movie/avengers-doomsday"
         },
         "title:chinese-all-wishes-come-true-mandarin-w-chinese-and-e-s-t": {
           "title": "Chinese All Wishes Come True! (Mandarin w/Chinese and e.s.t.)",
@@ -921,9 +930,10 @@
       "d27427659e993253a334f0c6d753caff9a7a491497261c634bc0ffe677f0fca1",
       "04c1c6492f120b8adab5a42083445e421f2ec8bf45e8b9df07008f69f95dc8ca",
       "9dad90260278e3ce882d142f92688cd683ea20cd058cc80eae7c96afec27dbb1",
-      "f320f31ad212c5d88476fb4750ee21373887ae04f6c6e79bf0bc0cb2c18357f9"
+      "f320f31ad212c5d88476fb4750ee21373887ae04f6c6e79bf0bc0cb2c18357f9",
+      "7626ff7dc1c473e63f86ef3c1f4915de339cbea1bcffce6306a0e3becc06f70b"
     ],
-    "revision": 382
+    "revision": 383
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
