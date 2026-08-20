@@ -533,7 +533,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "d11d7c43a12c9e2bc9107a77b4821c05a10ece8c4d279e870abed9143e3e9514",
+    "hash": "101514943fa109832a6de36bafb18ea33dd9ae3a798970e0637efff20eac1176",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -559,7 +559,11 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Odeon McGillivray Cinemas and VIP",
+        "Cineplex Cinemas Yonge-Eglinton and VIP",
+        "Cineplex Cinemas Varsity and VIP",
+        "Cineplex VIP Cinemas Don Mills (age restricted 19+)",
+        "Cineplex Cinemas Yonge-Dundas and VIP",
+        "Cineplex Cinemas Queensway and VIP",
         "Advance tickets",
         "AUG 21",
         "AUG 26",
@@ -932,7 +936,7 @@
       "7626ff7dc1c473e63f86ef3c1f4915de339cbea1bcffce6306a0e3becc06f70b",
       "6df1c00b54c579ad714072d4f02635a086582167850b738acf819d6a14ee08e7"
     ],
-    "revision": 402
+    "revision": 403
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
