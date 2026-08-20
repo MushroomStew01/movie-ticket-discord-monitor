@@ -3,7 +3,7 @@
     "name": "Cineplex Cinemas Kitchener and VIP",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "ef0e667d12e05649861e1c1e50d7913d8ae8cd36072d4c332b4e024fd9ff8cdc",
+    "hash": "43ee0ce35003b56e6b61247af663cfaf87553ee6b2329834e23d0693320e1acc",
     "snapshot": {
       "page_title": "Cineplex Cinemas Kitchener and VIP",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-kitchener-and-vip",
@@ -31,15 +31,6 @@
           "context": "Insidious: Out of the Further Advance tickets available",
           "url": null
         },
-        "title:minions-and-monsters": {
-          "title": "Minions & Monsters",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Minions & Monsters",
-          "url": null
-        },
         "title:moana": {
           "title": "Moana",
           "ticket_available": false,
@@ -65,6 +56,15 @@
           "showtimes": [],
           "dates": [],
           "context": "Paw Patrol: The Dino Movie",
+          "url": null
+        },
+        "title:practical-magic-2": {
+          "title": "Practical Magic 2",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Practical Magic 2 Advance tickets available",
           "url": null
         },
         "title:spa-weekend": {
@@ -130,9 +130,10 @@
       "749e85ec6472997a4bbf838eda058d2671c2bdf26316f8e8627aabeef3256a3f",
       "1f67ef3e05693f0dae7d8de990bbcd1e4b27ebd7fc42b7e5fc4ef183d4fb7df4",
       "e7beaf58871595688ba103ea5ec73d744fc1978a9ae0d78a1aa56d97330275b1",
-      "621ef713c5931124e9b7312edab1bd9c0273610ba45b73f83f1a3cbe373cc314"
+      "621ef713c5931124e9b7312edab1bd9c0273610ba45b73f83f1a3cbe373cc314",
+      "51573d75a27205e1f1aee1fea2358fbc17bb321e13e50765182e93f0ea9c8282"
     ],
-    "revision": 13
+    "revision": 14
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge": {
     "name": "Cineplex Cinemas Cambridge",
