@@ -535,7 +535,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "317e02e1c2bb3d29d12550eacf4da8f7fc8e195337aa793146ffbc1d027923d8",
+    "hash": "9f514d887b893f83afe1470b0c71b1d4ae1a0752a58151b86237a42d324e2f0f",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -561,8 +561,7 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Odeon Westmount Cinemas and VIP",
-        "Cineplex Cinemas Kitchener and VIP",
+        "Cineplex Odeon McGillivray Cinemas and VIP",
         "Advance tickets",
         "AUG 21",
         "AUG 26",
@@ -771,6 +770,15 @@
           "context": "Advance tickets SEP 23 PULP: What Do You Do For An Encore?",
           "url": "https://www.cineplex.com/movie/pulp-what-do-you-do-for-an-encore"
         },
+        "title:punjabi-ishqnama-punjabi-w-e-s-t": {
+          "title": "Punjabi Ishqnama (Punjabi w/e.s.t.)",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Punjabi Ishqnama (Punjabi w/e.s.t.)",
+          "url": "https://www.cineplex.com/movie/ishqnama-punjabi-west"
+        },
         "title:punjabi-the-great-punjab-robbery-punjabi-w-e-s-t": {
           "title": "Punjabi The Great Punjab Robbery (Punjabi w/e.s.t.)",
           "ticket_available": false,
@@ -887,15 +895,6 @@
           "context": "Advance tickets SEP 19 Twenty Years of the Met in Cinemas: An Anniversary Celebration (Captured) English w/e.s.t - Metropolitan Opera",
           "url": "https://www.cineplex.com/movie/est-twenty-years-of-met-english-west-met"
         },
-        "title:vietnamese-mr-hero-vietnamese-w-e-s-t": {
-          "title": "Vietnamese Mr. Hero (Vietnamese w/e.s.t.)",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Vietnamese Mr. Hero (Vietnamese w/e.s.t.) Watch trailer",
-          "url": "https://www.cineplex.com/movie/mr-hero-vietnamese-west"
-        },
         "title:your-name-10th-anniversary": {
           "title": "Your Name. 10th Anniversary",
           "ticket_available": false,
@@ -933,9 +932,10 @@
       "9dad90260278e3ce882d142f92688cd683ea20cd058cc80eae7c96afec27dbb1",
       "f320f31ad212c5d88476fb4750ee21373887ae04f6c6e79bf0bc0cb2c18357f9",
       "7626ff7dc1c473e63f86ef3c1f4915de339cbea1bcffce6306a0e3becc06f70b",
-      "6df1c00b54c579ad714072d4f02635a086582167850b738acf819d6a14ee08e7"
+      "6df1c00b54c579ad714072d4f02635a086582167850b738acf819d6a14ee08e7",
+      "8e72ce0cff62e8da9a915c689a6143bbf698d0c84667bf871c7531ca845ce91f"
     ],
-    "revision": 421
+    "revision": 422
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
