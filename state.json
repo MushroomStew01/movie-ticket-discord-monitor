@@ -3,7 +3,7 @@
     "name": "Cineplex Cinemas Kitchener and VIP",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "2fb060999aeaad4de4ee0386884d8bfe7b10284ac3140a39b0fd825e0f2a8c1d",
+    "hash": "6319386ae438cc68ca863741417df5219b386c8ec3f0f7886e5bbaa4b393a121",
     "snapshot": {
       "page_title": "Cineplex Cinemas Kitchener and VIP",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-kitchener-and-vip",
@@ -22,31 +22,31 @@
         "Tuesdays taste better in Cineplex VIP. Enjoy TACOS & TEQUILA every Tuesday with $5 Tacos and 10$ Select Tequila Drinks"
       ],
       "movies": {
-        "title:insidious-out-of-the-further": {
-          "title": "Insidious: Out of the Further",
+        "title:dune-part-3": {
+          "title": "Dune: Part 3",
           "ticket_available": true,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Insidious: Out of the Further Advance tickets available",
+          "context": "Dune: Part 3 Advance tickets available",
           "url": null
         },
-        "title:moana": {
-          "title": "Moana",
+        "title:insidious-out-of-the-further": {
+          "title": "Insidious: Out of the Further",
           "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Moana",
+          "context": "Insidious: Out of the Further",
           "url": null
         },
         "title:mutiny": {
           "title": "Mutiny",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Mutiny Advance tickets available",
+          "context": "Mutiny",
           "url": null
         },
         "title:paw-patrol-the-dino-movie": {
@@ -69,11 +69,11 @@
         },
         "title:spa-weekend": {
           "title": "Spa Weekend",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Spa Weekend Advance tickets available",
+          "context": "Spa Weekend",
           "url": null
         },
         "title:space-jam-a-new-legacy-family-favourites": {
@@ -132,15 +132,16 @@
       "e7beaf58871595688ba103ea5ec73d744fc1978a9ae0d78a1aa56d97330275b1",
       "621ef713c5931124e9b7312edab1bd9c0273610ba45b73f83f1a3cbe373cc314",
       "51573d75a27205e1f1aee1fea2358fbc17bb321e13e50765182e93f0ea9c8282",
-      "49398dfd587ccfefd62c658ef9d0f7c8f99d821cc2c218287478266d4e7240a3"
+      "49398dfd587ccfefd62c658ef9d0f7c8f99d821cc2c218287478266d4e7240a3",
+      "f2f7362959204ce4c39774e955facd8f40e74428fafe06a2e8c29fb163a6bdf7"
     ],
-    "revision": 15
+    "revision": 16
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge": {
     "name": "Cineplex Cinemas Cambridge",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "13add754ba2faed379c0e4536e35021aff3c6d1e67001bad1f09f6ef13415c5d",
+    "hash": "bf08a9eadb58699bb2083cc213a5ff29f0398e0928c0b0aaf3afb82d6a5a2133",
     "snapshot": {
       "page_title": "Cineplex Cinemas Cambridge",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge",
@@ -183,11 +184,11 @@
         },
         "title:insidious-out-of-the-further": {
           "title": "Insidious: Out of the Further",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Insidious: Out of the Further Advance tickets available",
+          "context": "Insidious: Out of the Further",
           "url": null
         },
         "title:macbeth-verdi-italian-w-e-s-t-metropolitan-opera": {
@@ -201,11 +202,11 @@
         },
         "title:mutiny": {
           "title": "Mutiny",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Mutiny Advance tickets available",
+          "context": "Mutiny",
           "url": null
         },
         "title:one-night-only": {
@@ -265,13 +266,13 @@
       "14e6b1ad5ee931da85eddfafb6d053cc2c6b9d47c3a566032e2d300bca567e76",
       "377b51faed3e760c4a23b44212b494e24b87026084927263750d6c22a38aeb80"
     ],
-    "revision": 12
+    "revision": 13
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan": {
     "name": "Cineplex Cinemas Vaughan",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "8b0de064601ceb5d53dffda51219d73d652b3840333f4f0dc7d4463857fbe8c3",
+    "hash": "5b5597a7f994b8797f0a204b6bf551f0a44a327e3d64e649a78475c3ad1a7f31",
     "snapshot": {
       "page_title": "Cineplex Cinemas Vaughan",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan",
@@ -287,20 +288,20 @@
       "movies": {
         "title:insidious-out-of-the-further": {
           "title": "Insidious: Out of the Further",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Insidious: Out of the Further Advance tickets available",
+          "context": "Insidious: Out of the Further",
           "url": null
         },
         "title:mutiny": {
           "title": "Mutiny",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Mutiny Advance tickets available",
+          "context": "Mutiny",
           "url": null
         },
         "title:paw-patrol-the-dino-movie": {
@@ -314,11 +315,11 @@
         },
         "title:spa-weekend": {
           "title": "Spa Weekend",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Spa Weekend Advance tickets available",
+          "context": "Spa Weekend",
           "url": null
         },
         "title:spider-man-brand-new-day": {
@@ -359,11 +360,11 @@
         },
         "title:the-magic-faraway-tree": {
           "title": "The Magic Faraway Tree",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "The Magic Faraway Tree Advance tickets available",
+          "context": "The Magic Faraway Tree",
           "url": null
         },
         "title:the-odyssey": {
@@ -398,13 +399,13 @@
       "faf14cf71f4421bed9fe296d4de031489bc86bf118b0b92314cfffa6d7613018",
       "874a385d052c3e01d158675f2cd5877b976bc5f475e51b5969e495538a6d938c"
     ],
-    "revision": 14
+    "revision": 15
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one": {
     "name": "Cineplex Cinemas Mississauga Square One",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "b39407ec531f9b3a5dd4a5ff301689fd0017a5e175f829c23220d9b63032cd9e",
+    "hash": "a8bc9afd92b6014ffdc042a8bfebddfcbde9dc7d8abca71705d7fb676a0456c4",
     "snapshot": {
       "page_title": "Cineplex Cinemas Mississauga Square One",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one",
@@ -420,20 +421,20 @@
       "movies": {
         "title:insidious-out-of-the-further": {
           "title": "Insidious: Out of the Further",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Insidious: Out of the Further Advance tickets available",
+          "context": "Insidious: Out of the Further",
           "url": null
         },
         "title:mutiny": {
           "title": "Mutiny",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Mutiny Advance tickets available",
+          "context": "Mutiny",
           "url": null
         },
         "title:paw-patrol-the-dino-movie": {
@@ -447,11 +448,11 @@
         },
         "title:spa-weekend": {
           "title": "Spa Weekend",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Spa Weekend Advance tickets available",
+          "context": "Spa Weekend",
           "url": null
         },
         "title:spider-man-brand-new-day": {
@@ -492,11 +493,11 @@
         },
         "title:the-magic-faraway-tree": {
           "title": "The Magic Faraway Tree",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "The Magic Faraway Tree Advance tickets available",
+          "context": "The Magic Faraway Tree",
           "url": null
         },
         "title:the-odyssey": {
@@ -529,13 +530,13 @@
       "b32ea4a3736b5968108a59becb2d61832e5d08b78bcb806d68909d835eac2934",
       "fecf0fde72b2e48175161e38ec24bd8323b6678a6148aca8a87c8e6306c34d86"
     ],
-    "revision": 11
+    "revision": 12
   },
   "https://www.cineplex.com/en?theatresNearYou=true": {
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "9f514d887b893f83afe1470b0c71b1d4ae1a0752a58151b86237a42d324e2f0f",
+    "hash": "953f6c170eecf12600ad66c7ff823822aadcaa6d37f7a68f9366313d64f1593e",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -543,7 +544,6 @@
       "ticket_phrases": [],
       "showtimes": [],
       "dates": [
-        "Aug 21",
         "Aug 26",
         "Aug 29",
         "Sep 19",
@@ -561,9 +561,8 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Odeon McGillivray Cinemas and VIP",
-        "Advance tickets",
-        "AUG 21",
+        "Cineplex Odeon Westmount Cinemas and VIP",
+        "Advance Tickets",
         "AUG 26",
         "SEP 9",
         "GHOST: 2 Big To Rig - The IMAX Experience®",
@@ -690,36 +689,21 @@
         },
         "title:hot-spot": {
           "title": "Hot Spot",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Aug 21"
-          ],
-          "context": "Advance tickets AUG 21 Hot Spot Watch trailer",
+          "dates": [],
+          "context": "Hot Spot Watch trailer",
           "url": "https://www.cineplex.com/movie/hot-spot"
         },
         "title:insidious-out-of-the-further": {
           "title": "Insidious: Out of the Further",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Aug 21"
-          ],
-          "context": "Advance tickets AUG 21 Insidious: Out of the Further Watch trailer",
+          "dates": [],
+          "context": "Insidious: Out of the Further Watch trailer",
           "url": "https://www.cineplex.com/movie/insidious-out-of-the-further"
-        },
-        "title:judaa-punjabi-w-e-s-t": {
-          "title": "Judaa (Punjabi w/e.s.t.)",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [
-            "Aug 21"
-          ],
-          "context": "Advance Tickets AUG 21 Judaa (Punjabi w/e.s.t.)",
-          "url": "https://www.cineplex.com/movie/judaa-punjabi-west"
         },
         "title:katseye-wild-hearts": {
           "title": "KATSEYE: WILD HEARTS",
@@ -741,13 +725,11 @@
         },
         "title:mutiny": {
           "title": "Mutiny",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Aug 21"
-          ],
-          "context": "Advance tickets AUG 21 Mutiny Watch trailer",
+          "dates": [],
+          "context": "Mutiny Watch trailer",
           "url": "https://www.cineplex.com/movie/mutiny"
         },
         "title:paw-patrol-the-dino-movie": {
@@ -779,6 +761,15 @@
           "context": "Punjabi Ishqnama (Punjabi w/e.s.t.)",
           "url": "https://www.cineplex.com/movie/ishqnama-punjabi-west"
         },
+        "title:punjabi-judaa-punjabi-w-e-s-t": {
+          "title": "Punjabi Judaa (Punjabi w/e.s.t.)",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Punjabi Judaa (Punjabi w/e.s.t.)",
+          "url": "https://www.cineplex.com/movie/judaa-punjabi-west"
+        },
         "title:punjabi-the-great-punjab-robbery-punjabi-w-e-s-t": {
           "title": "Punjabi The Great Punjab Robbery (Punjabi w/e.s.t.)",
           "ticket_available": false,
@@ -808,13 +799,11 @@
         },
         "title:spa-weekend": {
           "title": "Spa Weekend",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Aug 21"
-          ],
-          "context": "Advance tickets AUG 21 Spa Weekend Watch trailer",
+          "dates": [],
+          "context": "Spa Weekend Watch trailer",
           "url": "https://www.cineplex.com/movie/spa-weekend"
         },
         "title:spider-man-brand-new-day": {
@@ -846,13 +835,11 @@
         },
         "title:the-magic-faraway-tree": {
           "title": "The Magic Faraway Tree",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Aug 21"
-          ],
-          "context": "Advance tickets AUG 21 The Magic Faraway Tree Watch trailer",
+          "dates": [],
+          "context": "The Magic Faraway Tree Watch trailer",
           "url": "https://www.cineplex.com/movie/the-magic-faraway-tree"
         },
         "title:the-odyssey": {
@@ -933,9 +920,11 @@
       "f320f31ad212c5d88476fb4750ee21373887ae04f6c6e79bf0bc0cb2c18357f9",
       "7626ff7dc1c473e63f86ef3c1f4915de339cbea1bcffce6306a0e3becc06f70b",
       "6df1c00b54c579ad714072d4f02635a086582167850b738acf819d6a14ee08e7",
-      "8e72ce0cff62e8da9a915c689a6143bbf698d0c84667bf871c7531ca845ce91f"
+      "8e72ce0cff62e8da9a915c689a6143bbf698d0c84667bf871c7531ca845ce91f",
+      "e540410fcc451bfab6fb0f94504a409a3c8e4d797521a11f2586d752058a9bb2",
+      "994170e500c0e6d8887ffc6d34c1914be0adba7a9e30770ef4bec1331a22db52"
     ],
-    "revision": 422
+    "revision": 423
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
