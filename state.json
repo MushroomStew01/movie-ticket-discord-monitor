@@ -3,7 +3,7 @@
     "name": "Cineplex Cinemas Kitchener and VIP",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "43ee0ce35003b56e6b61247af663cfaf87553ee6b2329834e23d0693320e1acc",
+    "hash": "2fb060999aeaad4de4ee0386884d8bfe7b10284ac3140a39b0fd825e0f2a8c1d",
     "snapshot": {
       "page_title": "Cineplex Cinemas Kitchener and VIP",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-kitchener-and-vip",
@@ -76,6 +76,15 @@
           "context": "Spa Weekend Advance tickets available",
           "url": null
         },
+        "title:space-jam-a-new-legacy-family-favourites": {
+          "title": "SPACE JAM: A NEW LEGACY - Family Favourites",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "SPACE JAM: A NEW LEGACY - Family Favourites Advance tickets available",
+          "url": null
+        },
         "title:spider-man-brand-new-day": {
           "title": "Spider-Man: Brand New Day",
           "ticket_available": false,
@@ -111,15 +120,6 @@
           "dates": [],
           "context": "Tony",
           "url": null
-        },
-        "title:toy-story-5": {
-          "title": "Toy Story 5",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Toy Story 5",
-          "url": null
         }
       }
     },
@@ -131,9 +131,10 @@
       "1f67ef3e05693f0dae7d8de990bbcd1e4b27ebd7fc42b7e5fc4ef183d4fb7df4",
       "e7beaf58871595688ba103ea5ec73d744fc1978a9ae0d78a1aa56d97330275b1",
       "621ef713c5931124e9b7312edab1bd9c0273610ba45b73f83f1a3cbe373cc314",
-      "51573d75a27205e1f1aee1fea2358fbc17bb321e13e50765182e93f0ea9c8282"
+      "51573d75a27205e1f1aee1fea2358fbc17bb321e13e50765182e93f0ea9c8282",
+      "49398dfd587ccfefd62c658ef9d0f7c8f99d821cc2c218287478266d4e7240a3"
     ],
-    "revision": 14
+    "revision": 15
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge": {
     "name": "Cineplex Cinemas Cambridge",
@@ -534,7 +535,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "0cf71b41066f717791eb5dfec47f2f66a54faa4aff10f2ae61dd3a1ad96468d6",
+    "hash": "317e02e1c2bb3d29d12550eacf4da8f7fc8e195337aa793146ffbc1d027923d8",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -561,6 +562,7 @@
       ],
       "relevant_lines": [
         "Cineplex Odeon Westmount Cinemas and VIP",
+        "Cineplex Cinemas Kitchener and VIP",
         "Advance tickets",
         "AUG 21",
         "AUG 26",
@@ -933,7 +935,7 @@
       "7626ff7dc1c473e63f86ef3c1f4915de339cbea1bcffce6306a0e3becc06f70b",
       "6df1c00b54c579ad714072d4f02635a086582167850b738acf819d6a14ee08e7"
     ],
-    "revision": 420
+    "revision": 421
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
