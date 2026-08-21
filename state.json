@@ -536,7 +536,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "bcb0d0567eaa8cd4f73b576708348d03e5f39e7b6d2f059f208480619496d158",
+    "hash": "50132305d47ebe33c944a747990c2d92a43e7812d54fea8caaa702b701bc9a5b",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -562,6 +562,7 @@
       ],
       "relevant_lines": [
         "Cineplex Cinemas Abbotsford and VIP",
+        "Cineplex Cinemas Seton and VIP",
         "Advance Tickets",
         "AUG 26",
         "SEP 9",
@@ -593,6 +594,15 @@
           "dates": [],
           "context": "Arabic El Gawahergy (Arabic w/e.s.t.)",
           "url": "https://www.cineplex.com/movie/el-gawahergy-arabic-west"
+        },
+        "title:arabic-khali-balak-min-nafsak-arabic-w-e-s-t": {
+          "title": "Arabic Khali Balak Min Nafsak (Arabic w/e.s.t.)",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Arabic Khali Balak Min Nafsak (Arabic w/e.s.t.)",
+          "url": "https://www.cineplex.com/movie/khali-balak-min-nafsak-arabic-west"
         },
         "title:avengers-doomsday": {
           "title": "Avengers Doomsday",
@@ -770,15 +780,6 @@
           "context": "Punjabi Judaa (Punjabi w/e.s.t.)",
           "url": "https://www.cineplex.com/movie/judaa-punjabi-west"
         },
-        "title:punjabi-the-great-punjab-robbery-punjabi-w-e-s-t": {
-          "title": "Punjabi The Great Punjab Robbery (Punjabi w/e.s.t.)",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Punjabi The Great Punjab Robbery (Punjabi w/e.s.t.)",
-          "url": "https://www.cineplex.com/movie/the-great-punjab-robbery-punjabi-west"
-        },
         "title:punjabi-yaar-jigree-kasooti-degree-punjabi-w-e-s-t": {
           "title": "Punjabi Yaar Jigree Kasooti Degree (Punjabi w/e.s.t.)",
           "ticket_available": false,
@@ -922,9 +923,10 @@
       "6df1c00b54c579ad714072d4f02635a086582167850b738acf819d6a14ee08e7",
       "8e72ce0cff62e8da9a915c689a6143bbf698d0c84667bf871c7531ca845ce91f",
       "e540410fcc451bfab6fb0f94504a409a3c8e4d797521a11f2586d752058a9bb2",
-      "994170e500c0e6d8887ffc6d34c1914be0adba7a9e30770ef4bec1331a22db52"
+      "994170e500c0e6d8887ffc6d34c1914be0adba7a9e30770ef4bec1331a22db52",
+      "6705137c04bb28450e4491a22bf6739ed90f5ba0e321d2ab89131c63c996899a"
     ],
-    "revision": 425
+    "revision": 426
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
