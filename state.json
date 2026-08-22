@@ -3,7 +3,7 @@
     "name": "Cineplex Cinemas Kitchener and VIP",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "18ebb04aaad14d3f4f11e1a7124a635c5fdd8defb7929511682a647945d962aa",
+    "hash": "4122030a5bcf19756433d9a15a3c9ca0b0d2f4a691e2c02061d6edf1ded776b7",
     "snapshot": {
       "page_title": "Cineplex Cinemas Kitchener and VIP",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-kitchener-and-vip",
@@ -22,6 +22,15 @@
         "Tuesdays taste better in Cineplex VIP. Enjoy TACOS & TEQUILA every Tuesday with $5 Tacos and 10$ Select Tequila Drinks"
       ],
       "movies": {
+        "title:avengers-doomsday": {
+          "title": "Avengers: Doomsday",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Avengers: Doomsday Advance tickets available",
+          "url": null
+        },
         "title:dune-part-3": {
           "title": "Dune: Part 3",
           "ticket_available": true,
@@ -76,15 +85,6 @@
           "context": "Spa Weekend",
           "url": null
         },
-        "title:space-jam-a-new-legacy-family-favourites": {
-          "title": "SPACE JAM: A NEW LEGACY - Family Favourites",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "SPACE JAM: A NEW LEGACY - Family Favourites",
-          "url": null
-        },
         "title:spider-man-brand-new-day": {
           "title": "Spider-Man: Brand New Day",
           "ticket_available": false,
@@ -133,9 +133,10 @@
       "621ef713c5931124e9b7312edab1bd9c0273610ba45b73f83f1a3cbe373cc314",
       "51573d75a27205e1f1aee1fea2358fbc17bb321e13e50765182e93f0ea9c8282",
       "49398dfd587ccfefd62c658ef9d0f7c8f99d821cc2c218287478266d4e7240a3",
-      "f2f7362959204ce4c39774e955facd8f40e74428fafe06a2e8c29fb163a6bdf7"
+      "f2f7362959204ce4c39774e955facd8f40e74428fafe06a2e8c29fb163a6bdf7",
+      "e99797f65f1f2cb4e94c8020e163ce075d39eb4efe943cf96f87ce27e0eafbed"
     ],
-    "revision": 17
+    "revision": 18
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge": {
     "name": "Cineplex Cinemas Cambridge",
