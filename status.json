@@ -1,20 +1,13 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-22T02:46:11.838565+00:00",
-  "state_id": "fc4e3eacfdb3b413b4fc8c5a95ec419773cda7301738be457bfa687e6a88aad2",
-  "healthy": false,
+  "updated_at": "2026-08-22T03:28:16.075545+00:00",
+  "state_id": "433cf6c5a209548c50f916f5ff46175c8f2e614759ea70d183296cb05e091281",
+  "healthy": true,
   "target_count": 6,
-  "failing_targets": [
-    "Cineplex Cinemas Cambridge",
-    "Cineplex Cinemas Kitchener and VIP",
-    "Cineplex Cinemas Mississauga Square One",
-    "Cineplex Cinemas Vaughan",
-    "Cineplex national movie listings",
-    "Dune: Part 3"
-  ],
+  "failing_targets": [],
   "missing_targets": [],
   "theatre_count": 4,
-  "healthy_theatre_count": 0,
+  "healthy_theatre_count": 4,
   "heartbeat_at": "2026-08-21T10:17:39.800550+00:00",
   "priority_titles": [
     "Dune: Part 3"
@@ -40,14 +33,14 @@
     {
       "name": "Cineplex Cinemas Cambridge",
       "url": "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge",
-      "healthy": false,
+      "healthy": true,
       "movie_count": 11,
       "priority": {}
     },
     {
       "name": "Cineplex Cinemas Kitchener and VIP",
       "url": "https://www.cineplex.com/theatre/cineplex-cinemas-kitchener-and-vip",
-      "healthy": false,
+      "healthy": true,
       "movie_count": 11,
       "priority": {
         "Dune: Part 3": {
@@ -61,14 +54,14 @@
     {
       "name": "Cineplex Cinemas Mississauga Square One",
       "url": "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one",
-      "healthy": false,
+      "healthy": true,
       "movie_count": 11,
       "priority": {}
     },
     {
       "name": "Cineplex Cinemas Vaughan",
       "url": "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan",
-      "healthy": false,
+      "healthy": true,
       "movie_count": 11,
       "priority": {}
     }

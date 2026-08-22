@@ -3,7 +3,7 @@
     "name": "Cineplex Cinemas Kitchener and VIP",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "6319386ae438cc68ca863741417df5219b386c8ec3f0f7886e5bbaa4b393a121",
+    "hash": "18ebb04aaad14d3f4f11e1a7124a635c5fdd8defb7929511682a647945d962aa",
     "snapshot": {
       "page_title": "Cineplex Cinemas Kitchener and VIP",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-kitchener-and-vip",
@@ -78,11 +78,11 @@
         },
         "title:space-jam-a-new-legacy-family-favourites": {
           "title": "SPACE JAM: A NEW LEGACY - Family Favourites",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "SPACE JAM: A NEW LEGACY - Family Favourites Advance tickets available",
+          "context": "SPACE JAM: A NEW LEGACY - Family Favourites",
           "url": null
         },
         "title:spider-man-brand-new-day": {
@@ -135,10 +135,7 @@
       "49398dfd587ccfefd62c658ef9d0f7c8f99d821cc2c218287478266d4e7240a3",
       "f2f7362959204ce4c39774e955facd8f40e74428fafe06a2e8c29fb163a6bdf7"
     ],
-    "revision": 16,
-    "consecutive_failures": 1,
-    "last_error": "RuntimeError: Cineplex returned HTTP 403.",
-    "last_error_at_utc": "2026-08-22T02:45:43.264748+00:00"
+    "revision": 17
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge": {
     "name": "Cineplex Cinemas Cambridge",
@@ -270,10 +267,7 @@
       "377b51faed3e760c4a23b44212b494e24b87026084927263750d6c22a38aeb80",
       "b1f86a36904d614130ae0abfcfca23b832554313ac7a506fa999066ed0088d11"
     ],
-    "revision": 14,
-    "consecutive_failures": 1,
-    "last_error": "RuntimeError: Cineplex returned HTTP 403.",
-    "last_error_at_utc": "2026-08-22T02:45:48.729060+00:00"
+    "revision": 14
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan": {
     "name": "Cineplex Cinemas Vaughan",
@@ -406,10 +400,7 @@
       "faf14cf71f4421bed9fe296d4de031489bc86bf118b0b92314cfffa6d7613018",
       "874a385d052c3e01d158675f2cd5877b976bc5f475e51b5969e495538a6d938c"
     ],
-    "revision": 15,
-    "consecutive_failures": 1,
-    "last_error": "RuntimeError: Cineplex returned HTTP 403.",
-    "last_error_at_utc": "2026-08-22T02:45:54.113202+00:00"
+    "revision": 15
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one": {
     "name": "Cineplex Cinemas Mississauga Square One",
@@ -540,16 +531,13 @@
       "b32ea4a3736b5968108a59becb2d61832e5d08b78bcb806d68909d835eac2934",
       "fecf0fde72b2e48175161e38ec24bd8323b6678a6148aca8a87c8e6306c34d86"
     ],
-    "revision": 12,
-    "consecutive_failures": 1,
-    "last_error": "RuntimeError: Cineplex returned HTTP 403.",
-    "last_error_at_utc": "2026-08-22T02:46:00.493581+00:00"
+    "revision": 12
   },
   "https://www.cineplex.com/en?theatresNearYou=true": {
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "50132305d47ebe33c944a747990c2d92a43e7812d54fea8caaa702b701bc9a5b",
+    "hash": "6bc9c4a943aa700c57887d262b9fe1c6aecc11b1ac1f5e1585523beb76f712e8",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -574,8 +562,8 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Cinemas Abbotsford and VIP",
-        "Cineplex Cinemas Seton and VIP",
+        "Cineplex Cinemas Oakville and VIP",
+        "Cineplex Cinemas Winston Churchill & VIP",
         "Advance Tickets",
         "AUG 26",
         "SEP 9",
@@ -939,10 +927,7 @@
       "994170e500c0e6d8887ffc6d34c1914be0adba7a9e30770ef4bec1331a22db52",
       "6705137c04bb28450e4491a22bf6739ed90f5ba0e321d2ab89131c63c996899a"
     ],
-    "revision": 459,
-    "consecutive_failures": 1,
-    "last_error": "RuntimeError: Cineplex returned HTTP 403.",
-    "last_error_at_utc": "2026-08-22T02:46:06.011675+00:00"
+    "revision": 460
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
@@ -972,10 +957,7 @@
       "20af9f85bb9be3349435b006c403045da340a617c4f319f21fbf78b4738d7044",
       "9db4a116b09a1c30b4559f0c9091e5f93b0773e5c05d7bc52d0714341c3d74c0"
     ],
-    "revision": 8,
-    "consecutive_failures": 1,
-    "last_error": "RuntimeError: Cineplex returned HTTP 403.",
-    "last_error_at_utc": "2026-08-22T02:46:11.361468+00:00"
+    "revision": 8
   },
   "_meta": {
     "last_heartbeat_at_utc": "2026-08-21T10:17:39.800550+00:00"
