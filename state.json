@@ -538,7 +538,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "7d36ca0ae2104a5dc9a9996f26c62ba80a849c213870aee72da3d7e313e57462",
+    "hash": "75154c2d58b4433861ce1b20f55ea174f210b32e9a5db4166c5f8ac6bf948237",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -644,6 +644,15 @@
           ],
           "context": "Advance tickets SEP 4 Cocoon - One Summer of Girlhood (Japanese w.e.s.t.)",
           "url": "https://www.cineplex.com/movie/cocoon-one-summer-of-girlhood-japanese-w"
+        },
+        "title:dune-part-3": {
+          "title": "Dune Part 3",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "",
+          "url": "https://www.cineplex.com/movie/dune-part-3"
         },
         "title:ghost-2-big-to-rig": {
           "title": "GHOST: 2 Big To Rig",
@@ -925,9 +934,10 @@
       "8e72ce0cff62e8da9a915c689a6143bbf698d0c84667bf871c7531ca845ce91f",
       "e540410fcc451bfab6fb0f94504a409a3c8e4d797521a11f2586d752058a9bb2",
       "994170e500c0e6d8887ffc6d34c1914be0adba7a9e30770ef4bec1331a22db52",
-      "6705137c04bb28450e4491a22bf6739ed90f5ba0e321d2ab89131c63c996899a"
+      "6705137c04bb28450e4491a22bf6739ed90f5ba0e321d2ab89131c63c996899a",
+      "36d7f6ce9cc83bbb91fced285f602edb89021ef1eeaf8b0bc1b48b0852561bf7"
     ],
-    "revision": 569
+    "revision": 570
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
