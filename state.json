@@ -142,7 +142,7 @@
     "name": "Cineplex Cinemas Cambridge",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "7eb911729b9f469f3339f6cc9e3bc2d30597bae5240583329d5d4cd88435323a",
+    "hash": "bf08a9eadb58699bb2083cc213a5ff29f0398e0928c0b0aaf3afb82d6a5a2133",
     "snapshot": {
       "page_title": "Cineplex Cinemas Cambridge",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge",
@@ -156,6 +156,15 @@
         "Advance tickets available"
       ],
       "movies": {
+        "title:andr-rieu-s-2026-summer-concert-viva-maastricht": {
+          "title": "André Rieu's 2026 Summer Concert: Viva Maastricht!",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "André Rieu's 2026 Summer Concert: Viva Maastricht! Advance tickets available",
+          "url": null
+        },
         "title:carmen-encore-bizet-french-w-e-s-t-metropolitan-opera": {
           "title": "Carmen Encore (Bizet) - French w/e.s.t. – Metropolitan Opera",
           "ticket_available": true,
@@ -219,15 +228,6 @@
           "context": "Paw Patrol: The Dino Movie",
           "url": null
         },
-        "title:samson-et-dalila-saint-sa-ns-french-w-e-s-t-metropolitan-opera": {
-          "title": "Samson et Dalila (Saint-Saëns) - French w/e.s.t. - Metropolitan Opera",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Samson et Dalila (Saint-Saëns) - French w/e.s.t. - Metropolitan Opera Advance tickets available",
-          "url": null
-        },
         "title:spider-man-brand-new-day": {
           "title": "Spider-Man: Brand New Day",
           "ticket_available": false,
@@ -266,9 +266,10 @@
       "e40df70b8ca32b55388d79ff62ea71752384151b744d4bd087ab75fac33f6f07",
       "14e6b1ad5ee931da85eddfafb6d053cc2c6b9d47c3a566032e2d300bca567e76",
       "377b51faed3e760c4a23b44212b494e24b87026084927263750d6c22a38aeb80",
-      "b1f86a36904d614130ae0abfcfca23b832554313ac7a506fa999066ed0088d11"
+      "b1f86a36904d614130ae0abfcfca23b832554313ac7a506fa999066ed0088d11",
+      "4baa2a5b2d017bec64c79b7f462205589dec7dc55d2a97e96062ca72b0615748"
     ],
-    "revision": 14
+    "revision": 15
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan": {
     "name": "Cineplex Cinemas Vaughan",
@@ -538,7 +539,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "37fa8f16c503c9a099a224652b3892b5a4302a5b77107db3b8ad59251099f1af",
+    "hash": "efc4c8872e2bb3e544af3e7710d49ccb0f8af88eb562af754113e822b4e4288b",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -563,8 +564,7 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Cinemas Oakville and VIP",
-        "Cineplex Cinemas Winston Churchill & VIP",
+        "Cineplex Cinemas Abbotsford and VIP",
         "Advance Tickets",
         "AUG 26",
         "SEP 9",
@@ -938,7 +938,7 @@
       "6705137c04bb28450e4491a22bf6739ed90f5ba0e321d2ab89131c63c996899a",
       "36d7f6ce9cc83bbb91fced285f602edb89021ef1eeaf8b0bc1b48b0852561bf7"
     ],
-    "revision": 575
+    "revision": 576
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
