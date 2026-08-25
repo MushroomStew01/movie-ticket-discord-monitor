@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-25T15:53:31.533893+00:00",
-  "state_id": "17762bc4270f219725bae454fb45137ad4530c21fdec10d6002eb91548222515",
+  "updated_at": "2026-08-25T21:39:00.852131+00:00",
+  "state_id": "cda3408113c8fdf75729ea54523d14d1f69d48065a664b6dbb80ecfb8b87c7ba",
   "healthy": true,
   "target_count": 6,
   "failing_targets": [],
@@ -16,9 +16,7 @@
     "Dune: Part 3": {
       "title": "Dune: Part 3",
       "ticket_available": true,
-      "theatres": [
-        "Cineplex Cinemas Kitchener and VIP"
-      ],
+      "theatres": [],
       "showtimes": [],
       "dates": [
         "December 18"
@@ -42,14 +40,7 @@
       "url": "https://www.cineplex.com/theatre/cineplex-cinemas-kitchener-and-vip",
       "healthy": true,
       "movie_count": 11,
-      "priority": {
-        "Dune: Part 3": {
-          "ticket_available": true,
-          "showtimes": [],
-          "dates": [],
-          "formats": []
-        }
-      }
+      "priority": {}
     },
     {
       "name": "Cineplex Cinemas Mississauga Square One",

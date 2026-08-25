@@ -3,7 +3,7 @@
     "name": "Cineplex Cinemas Kitchener and VIP",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "4122030a5bcf19756433d9a15a3c9ca0b0d2f4a691e2c02061d6edf1ded776b7",
+    "hash": "a8b6b39714fbf979bc83f6ba202ef68f9babe96879e5f27bc612f496c3d533b9",
     "snapshot": {
       "page_title": "Cineplex Cinemas Kitchener and VIP",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-kitchener-and-vip",
@@ -22,22 +22,13 @@
         "Tuesdays taste better in Cineplex VIP. Enjoy TACOS & TEQUILA every Tuesday with $5 Tacos and 10$ Select Tequila Drinks"
       ],
       "movies": {
-        "title:avengers-doomsday": {
-          "title": "Avengers: Doomsday",
+        "title:coyote-vs-acme": {
+          "title": "Coyote vs ACME",
           "ticket_available": true,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Avengers: Doomsday Advance tickets available",
-          "url": null
-        },
-        "title:dune-part-3": {
-          "title": "Dune: Part 3",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Dune: Part 3 Advance tickets available",
+          "context": "Coyote vs ACME Advance tickets available",
           "url": null
         },
         "title:insidious-out-of-the-further": {
@@ -94,6 +85,15 @@
           "context": "Spider-Man: Brand New Day",
           "url": null
         },
+        "title:the-dog-stars": {
+          "title": "The Dog Stars",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "The Dog Stars Advance tickets available",
+          "url": null
+        },
         "title:the-end-of-oak-street": {
           "title": "The End of Oak Street",
           "ticket_available": false,
@@ -134,15 +134,16 @@
       "51573d75a27205e1f1aee1fea2358fbc17bb321e13e50765182e93f0ea9c8282",
       "49398dfd587ccfefd62c658ef9d0f7c8f99d821cc2c218287478266d4e7240a3",
       "f2f7362959204ce4c39774e955facd8f40e74428fafe06a2e8c29fb163a6bdf7",
-      "e99797f65f1f2cb4e94c8020e163ce075d39eb4efe943cf96f87ce27e0eafbed"
+      "e99797f65f1f2cb4e94c8020e163ce075d39eb4efe943cf96f87ce27e0eafbed",
+      "a7ca1e14d3f5da3d74fe2e6e34404597332a93f2f641513cf311e759e7c2c406"
     ],
-    "revision": 18
+    "revision": 19
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge": {
     "name": "Cineplex Cinemas Cambridge",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "bf08a9eadb58699bb2083cc213a5ff29f0398e0928c0b0aaf3afb82d6a5a2133",
+    "hash": "489c4881752b6ba0e85f380eb111474ea1452de44d3a572ced1efbb02903bc2b",
     "snapshot": {
       "page_title": "Cineplex Cinemas Cambridge",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge",
@@ -163,15 +164,6 @@
           "showtimes": [],
           "dates": [],
           "context": "André Rieu's 2026 Summer Concert: Viva Maastricht! Advance tickets available",
-          "url": null
-        },
-        "title:carmen-encore-bizet-french-w-e-s-t-metropolitan-opera": {
-          "title": "Carmen Encore (Bizet) - French w/e.s.t. – Metropolitan Opera",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Carmen Encore (Bizet) - French w/e.s.t. – Metropolitan Opera Advance tickets available",
           "url": null
         },
         "title:cos-fan-tutte-mozart-italian-w-e-s-t-metropolitan-opera": {
@@ -237,6 +229,15 @@
           "context": "Spider-Man: Brand New Day",
           "url": null
         },
+        "title:the-dog-stars": {
+          "title": "The Dog Stars",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "The Dog Stars Advance tickets available",
+          "url": null
+        },
         "title:the-odyssey": {
           "title": "The Odyssey",
           "ticket_available": false,
@@ -269,9 +270,10 @@
       "b1f86a36904d614130ae0abfcfca23b832554313ac7a506fa999066ed0088d11",
       "4baa2a5b2d017bec64c79b7f462205589dec7dc55d2a97e96062ca72b0615748",
       "29452902369526f71cfd9577a28972a45f3c4cff152a61627333a0fb20519c14",
-      "88c3f7538274bf72d35cf4dbb9f03b7446430015183d5877bc9d2845e1d43c72"
+      "88c3f7538274bf72d35cf4dbb9f03b7446430015183d5877bc9d2845e1d43c72",
+      "cddf12af6bc14ef5793b5ffa39a14e07bca51feb53cb3acac4702ae41ac72af7"
     ],
-    "revision": 17
+    "revision": 18
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan": {
     "name": "Cineplex Cinemas Vaughan",
