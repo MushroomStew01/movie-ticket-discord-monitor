@@ -541,7 +541,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "c403a04eb8149c76a1a418540279bd40570f66ae667aabde68a32255cae49d4c",
+    "hash": "666f1688c5a493be42b9a1b6b06751585e4b1fb37d9b7b72a70072365319f985",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -550,6 +550,7 @@
       "showtimes": [],
       "dates": [
         "Aug 26",
+        "Aug 28",
         "Aug 29",
         "Sep 19",
         "Sep 23",
@@ -566,10 +567,12 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Odeon Westmount Cinemas and VIP",
+        "Cineplex Cinemas Abbotsford and VIP",
+        "Cineplex Cinemas Seton and VIP",
         "Advance Tickets",
         "AUG 26",
         "SEP 9",
+        "AUG 28",
         "GHOST: 2 Big To Rig - The IMAX Experience®",
         "AUG 29",
         "SEP 4",
@@ -598,15 +601,6 @@
           "dates": [],
           "context": "Arabic El Gawahergy (Arabic w/e.s.t.)",
           "url": "https://www.cineplex.com/movie/el-gawahergy-arabic-west"
-        },
-        "title:arabic-khali-balak-min-nafsak-arabic-w-e-s-t": {
-          "title": "Arabic Khali Balak Min Nafsak (Arabic w/e.s.t.)",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Arabic Khali Balak Min Nafsak (Arabic w/e.s.t.)",
-          "url": "https://www.cineplex.com/movie/khali-balak-min-nafsak-arabic-west"
         },
         "title:avengers-doomsday": {
           "title": "Avengers Doomsday",
@@ -647,6 +641,17 @@
           ],
           "context": "Advance tickets SEP 4 Cocoon - One Summer of Girlhood (Japanese w.e.s.t.)",
           "url": "https://www.cineplex.com/movie/cocoon-one-summer-of-girlhood-japanese-w"
+        },
+        "title:colony-korean-w-e-s-t": {
+          "title": "Colony (Korean w/e.s.t.)",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [
+            "Aug 28"
+          ],
+          "context": "Advance Tickets AUG 28 Colony (Korean w/e.s.t.) Watch trailer",
+          "url": "https://www.cineplex.com/movie/colony-korean-west"
         },
         "title:dune-part-3": {
           "title": "Dune Part 3",
@@ -938,9 +943,10 @@
       "e540410fcc451bfab6fb0f94504a409a3c8e4d797521a11f2586d752058a9bb2",
       "994170e500c0e6d8887ffc6d34c1914be0adba7a9e30770ef4bec1331a22db52",
       "6705137c04bb28450e4491a22bf6739ed90f5ba0e321d2ab89131c63c996899a",
-      "36d7f6ce9cc83bbb91fced285f602edb89021ef1eeaf8b0bc1b48b0852561bf7"
+      "36d7f6ce9cc83bbb91fced285f602edb89021ef1eeaf8b0bc1b48b0852561bf7",
+      "b6e7cf0d4905992b93b8eb0b13fc5244479c7fda954af00f73cb6139ef2fa3aa"
     ],
-    "revision": 597
+    "revision": 598
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
