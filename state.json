@@ -541,7 +541,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "821d4c91f14b77c32ed6dba798c7be12144f2e4b2239ebcd687cd0cc1d6d88d7",
+    "hash": "b7bf75d8514618d28115c434d12065e94400b43719bf797980ee07a21b1de3ca",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -567,15 +567,15 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Cinemas Oakville and VIP",
-        "Cineplex Cinemas Winston Churchill & VIP",
+        "Cineplex Cinemas Abbotsford and VIP",
+        "Cineplex Cinemas Seton and VIP",
         "Advance Tickets",
         "AUG 26",
         "SEP 9",
+        "SEP 4",
         "AUG 28",
         "GHOST: 2 Big To Rig - The IMAX Experience®",
         "AUG 29",
-        "SEP 4",
         "SEP 5",
         "SEP 23",
         "SEP 19",
@@ -652,6 +652,17 @@
           ],
           "context": "Advance Tickets AUG 28 Colony (Korean w/e.s.t.) Watch trailer",
           "url": "https://www.cineplex.com/movie/colony-korean-west"
+        },
+        "title:dear-you-teochew-with-chinese-and-e-s-t": {
+          "title": "Dear You (Teochew with Chinese and e.s.t.)",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [
+            "Sep 4"
+          ],
+          "context": "Advance Tickets SEP 4 Dear You (Teochew with Chinese and e.s.t.)",
+          "url": "https://www.cineplex.com/movie/dear-you-teochew-with-chinese-and-est"
         },
         "title:dune-part-3": {
           "title": "Dune Part 3",
@@ -779,15 +790,6 @@
           ],
           "context": "Advance tickets SEP 23 PULP: What Do You Do For An Encore?",
           "url": "https://www.cineplex.com/movie/pulp-what-do-you-do-for-an-encore"
-        },
-        "title:punjabi-ishqnama-punjabi-w-e-s-t": {
-          "title": "Punjabi Ishqnama (Punjabi w/e.s.t.)",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Punjabi Ishqnama (Punjabi w/e.s.t.)",
-          "url": "https://www.cineplex.com/movie/ishqnama-punjabi-west"
         },
         "title:punjabi-judaa-punjabi-w-e-s-t": {
           "title": "Punjabi Judaa (Punjabi w/e.s.t.)",
@@ -944,9 +946,10 @@
       "994170e500c0e6d8887ffc6d34c1914be0adba7a9e30770ef4bec1331a22db52",
       "6705137c04bb28450e4491a22bf6739ed90f5ba0e321d2ab89131c63c996899a",
       "36d7f6ce9cc83bbb91fced285f602edb89021ef1eeaf8b0bc1b48b0852561bf7",
-      "b6e7cf0d4905992b93b8eb0b13fc5244479c7fda954af00f73cb6139ef2fa3aa"
+      "b6e7cf0d4905992b93b8eb0b13fc5244479c7fda954af00f73cb6139ef2fa3aa",
+      "a1351a66ef53781304d77d024e224024e0116eb672594f743438d9e576f6b624"
     ],
-    "revision": 602
+    "revision": 603
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
