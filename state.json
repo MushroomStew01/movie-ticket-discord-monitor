@@ -541,7 +541,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "efc4c8872e2bb3e544af3e7710d49ccb0f8af88eb562af754113e822b4e4288b",
+    "hash": "75154c2d58b4433861ce1b20f55ea174f210b32e9a5db4166c5f8ac6bf948237",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -566,7 +566,7 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Cinemas Abbotsford and VIP",
+        "Cineplex Odeon Westmount Cinemas and VIP",
         "Advance Tickets",
         "AUG 26",
         "SEP 9",
@@ -940,7 +940,7 @@
       "6705137c04bb28450e4491a22bf6739ed90f5ba0e321d2ab89131c63c996899a",
       "36d7f6ce9cc83bbb91fced285f602edb89021ef1eeaf8b0bc1b48b0852561bf7"
     ],
-    "revision": 588
+    "revision": 589
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
@@ -973,6 +973,6 @@
     "revision": 8
   },
   "_meta": {
-    "last_heartbeat_at_utc": "2026-08-24T11:05:32.938845+00:00"
+    "last_heartbeat_at_utc": "2026-08-25T11:20:16.129182+00:00"
   }
 }
