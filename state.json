@@ -541,7 +541,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "efc4c8872e2bb3e544af3e7710d49ccb0f8af88eb562af754113e822b4e4288b",
+    "hash": "7985d64126e38d0d8fe9de529e5c453d3ad81ce5efcecffb1a865f4be204a035",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -567,6 +567,7 @@
       ],
       "relevant_lines": [
         "Cineplex Cinemas Abbotsford and VIP",
+        "Cineplex Cinemas Seton and VIP",
         "Advance Tickets",
         "AUG 26",
         "SEP 9",
@@ -940,7 +941,7 @@
       "6705137c04bb28450e4491a22bf6739ed90f5ba0e321d2ab89131c63c996899a",
       "36d7f6ce9cc83bbb91fced285f602edb89021ef1eeaf8b0bc1b48b0852561bf7"
     ],
-    "revision": 581
+    "revision": 582
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
