@@ -546,7 +546,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "c3090213875c662085a9cd8b411ec7a1ad900490fb8e12a48b6506f6a57a1b28",
+    "hash": "e09e40c15fded7d9cf6dba847a94bbfd25c29f7bfd4d12e430c2fedeb5fdcc32",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -575,8 +575,7 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Cinemas Abbotsford and VIP",
-        "Cineplex Cinemas Seton and VIP",
+        "Cineplex Odeon Westmount Cinemas and VIP",
         "Advance tickets",
         "AUG 28",
         "SEP 2",
@@ -614,15 +613,6 @@
           "dates": [],
           "context": "Arabic El Gawahergy (Arabic w/e.s.t.)",
           "url": "https://www.cineplex.com/movie/el-gawahergy-arabic-west"
-        },
-        "title:avengers-doomsday": {
-          "title": "Avengers Doomsday",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "",
-          "url": "https://www.cineplex.com/movie/avengers-doomsday"
         },
         "title:buddy": {
           "title": "Buddy",
@@ -981,7 +971,7 @@
       "0ce9339cd4c703d4db30b741d245572213cf2e91051ad55653cf4dda10c04dd9",
       "43fddccacf126f92e6feca4df6fa013e3c086ecddffbe10f4d0724e3e7d6fb21"
     ],
-    "revision": 628
+    "revision": 629
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
