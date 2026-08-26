@@ -543,7 +543,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "d5e8da23e823e1fc1c74da898c2bb7813b7527b53de25c49fc56f87f127a4c4a",
+    "hash": "9d7e115f2970ee6642a5364e2066e4db2eecdd20eb510bb9c0ed6b026863bacf",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -551,7 +551,6 @@
       "ticket_phrases": [],
       "showtimes": [],
       "dates": [
-        "Aug 26",
         "Aug 28",
         "Aug 29",
         "Sep 19",
@@ -570,9 +569,9 @@
       ],
       "relevant_lines": [
         "Cineplex Cinemas Abbotsford and VIP",
-        "Advance Tickets",
-        "AUG 26",
+        "Cineplex Cinemas Seton and VIP",
         "SEP 9",
+        "Advance Tickets",
         "SEP 4",
         "AUG 28",
         "GHOST: 2 Big To Rig - The IMAX Experience®",
@@ -676,26 +675,22 @@
         },
         "title:ghost-2-big-to-rig": {
           "title": "GHOST: 2 Big To Rig",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Aug 26"
-          ],
-          "context": "Advance tickets AUG 26 GHOST: 2 Big To Rig Watch trailer",
+          "dates": [],
+          "context": "GHOST: 2 Big To Rig Watch trailer",
           "url": "https://www.cineplex.com/movie/ghost-2-big-to-rig"
         },
         "title:ghost-2-big-to-rig-the-imax-experience": {
           "title": "GHOST: 2 Big To Rig - The IMAX Experience®",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [
             "IMAX"
           ],
           "showtimes": [],
-          "dates": [
-            "Aug 26"
-          ],
-          "context": "Advance tickets AUG 26 GHOST: 2 Big To Rig - The IMAX Experience® Watch trailer",
+          "dates": [],
+          "context": "GHOST: 2 Big To Rig - The IMAX Experience® Watch trailer",
           "url": "https://www.cineplex.com/movie/ghost-2-big-to-rig-the-imax-experience"
         },
         "title:hindi-awarapan-2-hindi-w-e-s-t": {
@@ -715,6 +710,15 @@
           "dates": [],
           "context": "Hindi Batwara 1947 (Hindi w/e.s.t.)",
           "url": "https://www.cineplex.com/movie/batwara-1947-hindi-west"
+        },
+        "title:hindi-toxic-hindi-w-e-s-t": {
+          "title": "Hindi Toxic (Hindi w/e.s.t.)",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Hindi Toxic (Hindi w/e.s.t.)",
+          "url": "https://www.cineplex.com/movie/toxic-hindi-west"
         },
         "title:hope-korean-w-e-s-t": {
           "title": "Hope (Korean w/e.s.t.)",
@@ -882,17 +886,6 @@
           "context": "Tony Watch trailer",
           "url": "https://www.cineplex.com/movie/tony"
         },
-        "title:toxic-hindi-w-e-s-t": {
-          "title": "Toxic (Hindi w/e.s.t.)",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [
-            "Aug 26"
-          ],
-          "context": "Advance Tickets AUG 26 Toxic (Hindi w/e.s.t.)",
-          "url": "https://www.cineplex.com/movie/toxic-hindi-west"
-        },
         "title:twenty-years-of-the-met-in-cinemas-an-anniversary-celebration-captured-english-w-e-s-t-metropolitan-opera": {
           "title": "Twenty Years of the Met in Cinemas: An Anniversary Celebration (Captured) English w/e.s.t - Metropolitan Opera",
           "ticket_available": true,
@@ -948,9 +941,10 @@
       "6705137c04bb28450e4491a22bf6739ed90f5ba0e321d2ab89131c63c996899a",
       "36d7f6ce9cc83bbb91fced285f602edb89021ef1eeaf8b0bc1b48b0852561bf7",
       "b6e7cf0d4905992b93b8eb0b13fc5244479c7fda954af00f73cb6139ef2fa3aa",
-      "a1351a66ef53781304d77d024e224024e0116eb672594f743438d9e576f6b624"
+      "a1351a66ef53781304d77d024e224024e0116eb672594f743438d9e576f6b624",
+      "62b5dedd8b500c90caf9b002903a0687ca1a0c2f1fe82550eedbdf96f945276d"
     ],
-    "revision": 610
+    "revision": 611
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
