@@ -546,7 +546,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "e09e40c15fded7d9cf6dba847a94bbfd25c29f7bfd4d12e430c2fedeb5fdcc32",
+    "hash": "4e55f9dd86a89daf7daf2e34828c4658fb12cd4410c164f52002545d6e93d487",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -575,7 +575,7 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Odeon Westmount Cinemas and VIP",
+        "Cineplex Cinemas Abbotsford and VIP",
         "Advance tickets",
         "AUG 28",
         "SEP 2",
@@ -590,7 +590,6 @@
         "Queen Budapest - The IMAX Experience®",
         "NOV 19",
         "AUG 30",
-        "Katy Perry: The Lifetimes Tour - Live From Paris - The IMAX Experience®",
         "What are UltraAVX, IMAX, VIP, 4DX, ScreenX and D-BOX?"
       ],
       "movies": {
@@ -758,13 +757,13 @@
         },
         "title:hope-korean-w-e-s-t": {
           "title": "Hope (Korean w/e.s.t.)",
-          "ticket_available": false,
+          "ticket_available": true,
           "formats": [],
           "showtimes": [],
           "dates": [
             "Sep 9"
           ],
-          "context": "Coming Soon SEP 9 Hope (Korean w/e.s.t.) Watch trailer",
+          "context": "Advance Tickets SEP 9 Hope (Korean w/e.s.t.) Watch trailer",
           "url": "https://www.cineplex.com/movie/hope-korean-west"
         },
         "title:idiots": {
@@ -786,19 +785,6 @@
           "dates": [],
           "context": "Insidious: Out of the Further Watch trailer",
           "url": "https://www.cineplex.com/movie/insidious-out-of-the-further"
-        },
-        "title:katy-perry-the-lifetimes-tour-live-from-paris-the-imax-experience": {
-          "title": "Katy Perry: The Lifetimes Tour - Live From Paris - The IMAX Experience®",
-          "ticket_available": true,
-          "formats": [
-            "IMAX"
-          ],
-          "showtimes": [],
-          "dates": [
-            "Sep 2"
-          ],
-          "context": "Advance tickets SEP 2 Katy Perry: The Lifetimes Tour - Live From Paris - The IMAX Experience®",
-          "url": "https://www.cineplex.com/movie/imax-katy-perry-the-lifetimes-tour"
         },
         "title:korean-train-to-busan-10th-anniversary-remastered-and-revived-korean-w-e-s-t": {
           "title": "Korean Train to Busan - 10th Anniversary Remastered & Revived (Korean w/e.s.t.)",
@@ -837,6 +823,17 @@
           "dates": [],
           "context": "Punjabi Yaar Jigree Kasooti Degree (Punjabi w/e.s.t.)",
           "url": "https://www.cineplex.com/movie/yaar-jigree-kasooti-degree-punjabi-west"
+        },
+        "title:queen-budapest": {
+          "title": "Queen Budapest",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [
+            "Oct 7"
+          ],
+          "context": "Advance tickets OCT 7 Queen Budapest",
+          "url": "https://www.cineplex.com/movie/queen-budapest"
         },
         "title:queen-budapest-the-imax-experience": {
           "title": "Queen Budapest - The IMAX Experience®",
@@ -969,9 +966,11 @@
       "a1351a66ef53781304d77d024e224024e0116eb672594f743438d9e576f6b624",
       "62b5dedd8b500c90caf9b002903a0687ca1a0c2f1fe82550eedbdf96f945276d",
       "0ce9339cd4c703d4db30b741d245572213cf2e91051ad55653cf4dda10c04dd9",
-      "43fddccacf126f92e6feca4df6fa013e3c086ecddffbe10f4d0724e3e7d6fb21"
+      "43fddccacf126f92e6feca4df6fa013e3c086ecddffbe10f4d0724e3e7d6fb21",
+      "0c3ddb2b302651529e7979eda4d56a6a533bee3f75f26f808abcd2801b64abb7",
+      "2fc951b8d17e2bdabd40744b69fc620375de8a02bad34ba52fdcaadcb137a253"
     ],
-    "revision": 629
+    "revision": 630
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
