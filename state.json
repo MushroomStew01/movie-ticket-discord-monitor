@@ -3,7 +3,7 @@
     "name": "Cineplex Cinemas Kitchener and VIP",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "a8b6b39714fbf979bc83f6ba202ef68f9babe96879e5f27bc612f496c3d533b9",
+    "hash": "7ae316aa4cf4430a7bfe52fae3f971c1b8699cd82e4751660ce75adbdc575fdf",
     "snapshot": {
       "page_title": "Cineplex Cinemas Kitchener and VIP",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-kitchener-and-vip",
@@ -24,11 +24,11 @@
       "movies": {
         "title:coyote-vs-acme": {
           "title": "Coyote vs ACME",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Coyote vs ACME Advance tickets available",
+          "context": "Coyote vs ACME",
           "url": null
         },
         "title:insidious-out-of-the-further": {
@@ -87,11 +87,11 @@
         },
         "title:the-dog-stars": {
           "title": "The Dog Stars",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "The Dog Stars Advance tickets available",
+          "context": "The Dog Stars",
           "url": null
         },
         "title:the-end-of-oak-street": {
@@ -137,13 +137,13 @@
       "e99797f65f1f2cb4e94c8020e163ce075d39eb4efe943cf96f87ce27e0eafbed",
       "a7ca1e14d3f5da3d74fe2e6e34404597332a93f2f641513cf311e759e7c2c406"
     ],
-    "revision": 19
+    "revision": 20
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge": {
     "name": "Cineplex Cinemas Cambridge",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "d74814b856482d5ff9e00023fb6782c621f31f4eb2ab2b5f78ffde053c7289f8",
+    "hash": "90b6a33d9aa8bed091d31965dc51dc9b7d7b59066919b064bb358a72f34f0a64",
     "snapshot": {
       "page_title": "Cineplex Cinemas Cambridge",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge",
@@ -231,11 +231,11 @@
         },
         "title:the-dog-stars": {
           "title": "The Dog Stars",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "The Dog Stars Advance tickets available",
+          "context": "The Dog Stars",
           "url": null
         },
         "title:the-odyssey": {
@@ -274,13 +274,13 @@
       "cddf12af6bc14ef5793b5ffa39a14e07bca51feb53cb3acac4702ae41ac72af7",
       "00bf90c0d344becee98d6466e527340ca160f59bc4dda0770567916b12fbd42d"
     ],
-    "revision": 19
+    "revision": 20
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan": {
     "name": "Cineplex Cinemas Vaughan",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "2529c641b08871e3e629330fcfb378afe08adf83993ce8997a0df9bc3d53f290",
+    "hash": "c5f0f03d7cb2522c5a88262ad18a006bdc856d5750cf1f4c07de339df3d57654",
     "snapshot": {
       "page_title": "Cineplex Cinemas Vaughan",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan",
@@ -296,29 +296,29 @@
       "movies": {
         "title:buddy": {
           "title": "Buddy",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Buddy Advance tickets available",
+          "context": "Buddy",
           "url": null
         },
         "title:coyote-vs-acme": {
           "title": "Coyote vs ACME",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Coyote vs ACME Advance tickets available",
+          "context": "Coyote vs ACME",
           "url": null
         },
         "title:finding-emily": {
           "title": "Finding Emily",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Finding Emily Advance tickets available",
+          "context": "Finding Emily",
           "url": null
         },
         "title:insidious-out-of-the-further": {
@@ -368,11 +368,11 @@
         },
         "title:the-dog-stars": {
           "title": "The Dog Stars",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "The Dog Stars Advance tickets available",
+          "context": "The Dog Stars",
           "url": null
         },
         "title:the-odyssey": {
@@ -408,13 +408,13 @@
       "874a385d052c3e01d158675f2cd5877b976bc5f475e51b5969e495538a6d938c",
       "124a5e169485eee81ad12a3cbd2884545081b107c35ca6df38b0c4568affddc6"
     ],
-    "revision": 16
+    "revision": 17
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one": {
     "name": "Cineplex Cinemas Mississauga Square One",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "5d037703d489cab17fb7d9adf6486b6f89b585b6a8c1fed00c43de4e4a18c99e",
+    "hash": "f092aec8573357ca027bce5107949500d979cd62eb42322e9c08c1516819aec8",
     "snapshot": {
       "page_title": "Cineplex Cinemas Mississauga Square One",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one",
@@ -430,11 +430,11 @@
       "movies": {
         "title:coyote-vs-acme": {
           "title": "Coyote vs ACME",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Coyote vs ACME Advance tickets available",
+          "context": "Coyote vs ACME",
           "url": null
         },
         "title:insidious-out-of-the-further": {
@@ -491,22 +491,22 @@
           "context": "Spider-Man: Brand New Day",
           "url": null
         },
-        "title:teenage-sex-and-death-at-camp-miasma": {
-          "title": "Teenage Sex and Death at Camp Miasma",
+        "title:the-dog-stars": {
+          "title": "The Dog Stars",
           "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Teenage Sex and Death at Camp Miasma",
+          "context": "The Dog Stars",
           "url": null
         },
-        "title:the-dog-stars": {
-          "title": "The Dog Stars",
-          "ticket_available": true,
+        "title:the-end-of-oak-street": {
+          "title": "The End of Oak Street",
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "The Dog Stars Advance tickets available",
+          "context": "The End of Oak Street",
           "url": null
         },
         "title:the-odyssey": {
@@ -539,15 +539,16 @@
       "b32ea4a3736b5968108a59becb2d61832e5d08b78bcb806d68909d835eac2934",
       "fecf0fde72b2e48175161e38ec24bd8323b6678a6148aca8a87c8e6306c34d86",
       "cb7086b94e8ef520ef13bb488f4d1262181c8f484dbdc5e31b9d85cfa07fdd6c",
-      "316022ad5487ad3b1c5b168aadbd6822587d7324311bb09fcc471df5ffb0d585"
+      "316022ad5487ad3b1c5b168aadbd6822587d7324311bb09fcc471df5ffb0d585",
+      "d06ff1d50d5f737702a27d534328ba573dc022f6c0563958ae5d95c14e86eaab"
     ],
-    "revision": 14
+    "revision": 15
   },
   "https://www.cineplex.com/en?theatresNearYou=true": {
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "4393a0a8de712745d1ac97e8fc73761330ef5d070d787696328459211dc2b9c3",
+    "hash": "7c6fce6d5596c2cd14812d2109e29dde8d847eeed8bf3d13cb85ae1e5d7f5b0f",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -555,7 +556,6 @@
       "ticket_phrases": [],
       "showtimes": [],
       "dates": [
-        "Aug 28",
         "Aug 29",
         "Aug 30",
         "Nov 19",
@@ -564,7 +564,10 @@
         "Sep 18",
         "Sep 19",
         "Sep 2",
+        "Sep 24",
+        "Sep 30",
         "Sep 4",
+        "Sep 5",
         "Sep 9"
       ],
       "formats": [
@@ -576,10 +579,8 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Cinemas Oakville and VIP",
-        "Cineplex Cinemas Winston Churchill & VIP",
+        "Cineplex Odeon McGillivray Cinemas and VIP",
         "Advance tickets",
-        "AUG 28",
         "SEP 2",
         "SEP 11",
         "SEP 18",
@@ -587,11 +588,13 @@
         "SEP 4",
         "AUG 29",
         "SEP 19",
-        "GHOST: 2 Big To Rig - The IMAX Experience®",
         "OCT 7",
         "NOV 19",
         "AUG 30",
         "Katy Perry: The Lifetimes Tour - Live From Paris - The IMAX Experience®",
+        "SEP 5",
+        "SEP 30",
+        "SEP 24",
         "What are UltraAVX, IMAX, VIP, 4DX, ScreenX and D-BOX?"
       ],
       "movies": {
@@ -606,24 +609,24 @@
           "context": "Advance tickets AUG 29 André Rieu's 2026 Summer Concert: Viva Maastricht! Watch trailer",
           "url": "https://www.cineplex.com/movie/andre-rieus-2026-summer-concert-viva-maastricht"
         },
-        "title:arabic-el-gawahergy-arabic-w-e-s-t": {
-          "title": "Arabic El Gawahergy (Arabic w/e.s.t.)",
+        "title:bol-bhavein-na-bol-punjabi-w-e-s-t": {
+          "title": "Bol Bhavein Na Bol (Punjabi w/e.s.t.)",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [
+            "Sep 4"
+          ],
+          "context": "Coming Soon SEP 4 Bol Bhavein Na Bol (Punjabi w/e.s.t.)",
+          "url": "https://www.cineplex.com/movie/bol-bhavein-na-bol-punjabi-west"
+        },
+        "title:buddy": {
+          "title": "Buddy",
           "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Arabic El Gawahergy (Arabic w/e.s.t.)",
-          "url": "https://www.cineplex.com/movie/el-gawahergy-arabic-west"
-        },
-        "title:buddy": {
-          "title": "Buddy",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [
-            "Aug 28"
-          ],
-          "context": "Advance tickets AUG 28 Buddy Watch trailer",
+          "context": "Buddy Watch trailer",
           "url": "https://www.cineplex.com/movie/buddy-2026"
         },
         "title:chinese-all-wishes-come-true-mandarin-w-chinese-and-e-s-t": {
@@ -634,6 +637,17 @@
           "dates": [],
           "context": "Chinese All Wishes Come True! (Mandarin w/Chinese and e.s.t.)",
           "url": "https://www.cineplex.com/movie/all-wishes-come-true-mandarin-wchi"
+        },
+        "title:cocoon-one-summer-of-girlhood": {
+          "title": "Cocoon - One Summer of Girlhood",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [
+            "Sep 5"
+          ],
+          "context": "Advance tickets SEP 5 Cocoon - One Summer of Girlhood",
+          "url": "https://www.cineplex.com/movie/cocoon-one-summer-of-girlhood"
         },
         "title:cocoon-one-summer-of-girlhood-japanese-w-e-s-t": {
           "title": "Cocoon - One Summer of Girlhood (Japanese w.e.s.t.)",
@@ -646,26 +660,13 @@
           "context": "Advance tickets SEP 4 Cocoon - One Summer of Girlhood (Japanese w.e.s.t.)",
           "url": "https://www.cineplex.com/movie/cocoon-one-summer-of-girlhood-japanese-w"
         },
-        "title:colony-korean-w-e-s-t": {
-          "title": "Colony (Korean w/e.s.t.)",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [
-            "Aug 28"
-          ],
-          "context": "Advance Tickets AUG 28 Colony (Korean w/e.s.t.) Watch trailer",
-          "url": "https://www.cineplex.com/movie/colony-korean-west"
-        },
         "title:coyote-vs-acme": {
           "title": "Coyote vs ACME",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Aug 28"
-          ],
-          "context": "Advance tickets AUG 28 Coyote vs ACME Watch trailer",
+          "dates": [],
+          "context": "Coyote vs ACME Watch trailer",
           "url": "https://www.cineplex.com/movie/coyote-vs-acme-2026"
         },
         "title:dear-you-teochew-with-chinese-and-e-s-t": {
@@ -701,25 +702,21 @@
         },
         "title:finding-emily": {
           "title": "Finding Emily",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Aug 28"
-          ],
-          "context": "Advance tickets AUG 28 Finding Emily Watch trailer",
+          "dates": [],
+          "context": "Finding Emily Watch trailer",
           "url": "https://www.cineplex.com/movie/finding-emily"
         },
-        "title:ghost-2-big-to-rig-the-imax-experience": {
-          "title": "GHOST: 2 Big To Rig - The IMAX Experience®",
+        "title:ghost-2-big-to-rig": {
+          "title": "GHOST: 2 Big To Rig",
           "ticket_available": false,
-          "formats": [
-            "IMAX"
-          ],
+          "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "GHOST: 2 Big To Rig - The IMAX Experience® Watch trailer",
-          "url": "https://www.cineplex.com/movie/ghost-2-big-to-rig-the-imax-experience"
+          "context": "GHOST: 2 Big To Rig Watch trailer",
+          "url": "https://www.cineplex.com/movie/ghost-2-big-to-rig"
         },
         "title:giant-the-play": {
           "title": "GIANT - The Play",
@@ -772,13 +769,11 @@
         },
         "title:idiots": {
           "title": "Idiots",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Aug 28"
-          ],
-          "context": "Advance tickets AUG 28 Idiots Watch trailer",
+          "dates": [],
+          "context": "Idiots Watch trailer",
           "url": "https://www.cineplex.com/movie/idiots"
         },
         "title:insidious-out-of-the-further": {
@@ -803,14 +798,25 @@
           "context": "Advance tickets SEP 2 Katy Perry: The Lifetimes Tour - Live From Paris - The IMAX Experience®",
           "url": "https://www.cineplex.com/movie/imax-katy-perry-the-lifetimes-tour"
         },
-        "title:korean-train-to-busan-10th-anniversary-remastered-and-revived-korean-w-e-s-t": {
-          "title": "Korean Train to Busan - 10th Anniversary Remastered & Revived (Korean w/e.s.t.)",
+        "title:korean-colony-korean-w-e-s-t": {
+          "title": "Korean Colony (Korean w/e.s.t.)",
           "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Korean Train to Busan - 10th Anniversary Remastered & Revived (Korean w/e.s.t.)",
-          "url": "https://www.cineplex.com/movie/train-to-busan-10th-anniversary-remastered-rev"
+          "context": "Korean Colony (Korean w/e.s.t.) Watch trailer",
+          "url": "https://www.cineplex.com/movie/colony-korean-west"
+        },
+        "title:linkin-park-unshatter": {
+          "title": "LINKIN PARK: UNSHATTER",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [
+            "Sep 30"
+          ],
+          "context": "Advance tickets SEP 30 LINKIN PARK: UNSHATTER",
+          "url": "https://www.cineplex.com/movie/linkin-park-unshatter"
         },
         "title:practical-magic-2": {
           "title": "Practical Magic 2",
@@ -863,15 +869,6 @@
           "context": "Coming soon SEP 18 Resident Evil Watch trailer",
           "url": "https://www.cineplex.com/movie/resident-evil-2026"
         },
-        "title:six-the-musical-live": {
-          "title": "SIX: THE MUSICAL LIVE!",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "SIX: THE MUSICAL LIVE! Watch trailer",
-          "url": "https://www.cineplex.com/movie/six-the-musical-live"
-        },
         "title:spider-man-brand-new-day": {
           "title": "Spider-Man: Brand New Day",
           "ticket_available": false,
@@ -883,13 +880,11 @@
         },
         "title:the-dog-stars": {
           "title": "The Dog Stars",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Aug 28"
-          ],
-          "context": "Advance tickets AUG 28 The Dog Stars Watch trailer",
+          "dates": [],
+          "context": "The Dog Stars Watch trailer",
           "url": "https://www.cineplex.com/movie/the-dog-stars"
         },
         "title:the-last-blossom-japanese-w-e-s-t": {
@@ -902,6 +897,17 @@
           ],
           "context": "Advance tickets AUG 30 The Last Blossom (Japanese w.e.s.t.)",
           "url": "https://www.cineplex.com/movie/the-last-blossom-japanese-west"
+        },
+        "title:the-misanthrope-national-theatre-live": {
+          "title": "The Misanthrope - National Theatre Live",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [
+            "Sep 24"
+          ],
+          "context": "Advance tickets SEP 24 The Misanthrope - National Theatre Live",
+          "url": "https://www.cineplex.com/movie/the-misanthrope-national-theatre-live"
         },
         "title:the-odyssey": {
           "title": "The Odyssey",
@@ -922,24 +928,6 @@
           ],
           "context": "Advance tickets SEP 19 Twenty Years of the Met in Cinemas: An Anniversary Celebration (Captured) English w/e.s.t - Metropolitan Opera Watch trailer",
           "url": "https://www.cineplex.com/movie/est-twenty-years-of-met-english-west-met"
-        },
-        "title:your-name-10th-anniversary": {
-          "title": "Your Name. 10th Anniversary",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Your Name. 10th Anniversary",
-          "url": "https://www.cineplex.com/movie/your-name-10th-anniversary"
-        },
-        "title:your-name-10th-anniversary-japanese-w-e-s-t": {
-          "title": "Your Name. 10th Anniversary (Japanese w.e.s.t.)",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Your Name. 10th Anniversary (Japanese w.e.s.t.)",
-          "url": "https://www.cineplex.com/movie/your-name-10th-anniversary-japanese-west"
         }
       }
     },
@@ -974,9 +962,10 @@
       "0c3ddb2b302651529e7979eda4d56a6a533bee3f75f26f808abcd2801b64abb7",
       "2fc951b8d17e2bdabd40744b69fc620375de8a02bad34ba52fdcaadcb137a253",
       "60e6be1fa0ee8fb8a99a48cbe406fd298ee43318bb9d2169f7e945a66a4d9c0c",
-      "20271945312e3d9b5e8f1c6de8b37b9d4b3e0281a24d39006d5e5a8c82773c75"
+      "20271945312e3d9b5e8f1c6de8b37b9d4b3e0281a24d39006d5e5a8c82773c75",
+      "51af724b5fffe129ff1c5c77b64c261bc2248f9d845fb5dbfafc77f7f9052e1a"
     ],
-    "revision": 633
+    "revision": 634
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
