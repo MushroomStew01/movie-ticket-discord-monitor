@@ -414,7 +414,7 @@
     "name": "Cineplex Cinemas Mississauga Square One",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "5aca53c26a91aa9d2c0e063c814ff7ef50e4cf31e73ff19cf52d925a1c2d9f00",
+    "hash": "5d037703d489cab17fb7d9adf6486b6f89b585b6a8c1fed00c43de4e4a18c99e",
     "snapshot": {
       "page_title": "Cineplex Cinemas Mississauga Square One",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one",
@@ -453,6 +453,15 @@
           "showtimes": [],
           "dates": [],
           "context": "Mutiny",
+          "url": null
+        },
+        "title:paw-patrol-the-dino-movie": {
+          "title": "Paw Patrol: The Dino Movie",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Paw Patrol: The Dino Movie",
           "url": null
         },
         "title:practical-magic-2": {
@@ -500,15 +509,6 @@
           "context": "The Dog Stars Advance tickets available",
           "url": null
         },
-        "title:the-magic-faraway-tree": {
-          "title": "The Magic Faraway Tree",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "The Magic Faraway Tree",
-          "url": null
-        },
         "title:the-odyssey": {
           "title": "The Odyssey",
           "ticket_available": false,
@@ -538,15 +538,16 @@
       "65ca86e729794709579dfa42d7219a3e723cf947869cf8d706ca73b82d076bff",
       "b32ea4a3736b5968108a59becb2d61832e5d08b78bcb806d68909d835eac2934",
       "fecf0fde72b2e48175161e38ec24bd8323b6678a6148aca8a87c8e6306c34d86",
-      "cb7086b94e8ef520ef13bb488f4d1262181c8f484dbdc5e31b9d85cfa07fdd6c"
+      "cb7086b94e8ef520ef13bb488f4d1262181c8f484dbdc5e31b9d85cfa07fdd6c",
+      "316022ad5487ad3b1c5b168aadbd6822587d7324311bb09fcc471df5ffb0d585"
     ],
-    "revision": 13
+    "revision": 14
   },
   "https://www.cineplex.com/en?theatresNearYou=true": {
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "7e4ad6e653947ac7d4bf5e7d1c85361e4153d828153009fb13d6ae250c103331",
+    "hash": "4393a0a8de712745d1ac97e8fc73761330ef5d070d787696328459211dc2b9c3",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -558,6 +559,7 @@
         "Aug 29",
         "Aug 30",
         "Nov 19",
+        "Oct 7",
         "Sep 11",
         "Sep 18",
         "Sep 19",
@@ -574,7 +576,8 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Cinemas Abbotsford and VIP",
+        "Cineplex Cinemas Oakville and VIP",
+        "Cineplex Cinemas Winston Churchill & VIP",
         "Advance tickets",
         "AUG 28",
         "SEP 2",
@@ -585,6 +588,7 @@
         "AUG 29",
         "SEP 19",
         "GHOST: 2 Big To Rig - The IMAX Experience®",
+        "OCT 7",
         "NOV 19",
         "AUG 30",
         "Katy Perry: The Lifetimes Tour - Live From Paris - The IMAX Experience®",
@@ -705,15 +709,6 @@
           ],
           "context": "Advance tickets AUG 28 Finding Emily Watch trailer",
           "url": "https://www.cineplex.com/movie/finding-emily"
-        },
-        "title:ghost-2-big-to-rig": {
-          "title": "GHOST: 2 Big To Rig",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "GHOST: 2 Big To Rig Watch trailer",
-          "url": "https://www.cineplex.com/movie/ghost-2-big-to-rig"
         },
         "title:ghost-2-big-to-rig-the-imax-experience": {
           "title": "GHOST: 2 Big To Rig - The IMAX Experience®",
@@ -846,6 +841,17 @@
           "context": "Punjabi Yaar Jigree Kasooti Degree (Punjabi w/e.s.t.)",
           "url": "https://www.cineplex.com/movie/yaar-jigree-kasooti-degree-punjabi-west"
         },
+        "title:queen-budapest": {
+          "title": "Queen Budapest",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [
+            "Oct 7"
+          ],
+          "context": "Advance tickets OCT 7 Queen Budapest",
+          "url": "https://www.cineplex.com/movie/queen-budapest"
+        },
         "title:resident-evil": {
           "title": "Resident Evil",
           "ticket_available": false,
@@ -967,9 +973,10 @@
       "43fddccacf126f92e6feca4df6fa013e3c086ecddffbe10f4d0724e3e7d6fb21",
       "0c3ddb2b302651529e7979eda4d56a6a533bee3f75f26f808abcd2801b64abb7",
       "2fc951b8d17e2bdabd40744b69fc620375de8a02bad34ba52fdcaadcb137a253",
-      "60e6be1fa0ee8fb8a99a48cbe406fd298ee43318bb9d2169f7e945a66a4d9c0c"
+      "60e6be1fa0ee8fb8a99a48cbe406fd298ee43318bb9d2169f7e945a66a4d9c0c",
+      "20271945312e3d9b5e8f1c6de8b37b9d4b3e0281a24d39006d5e5a8c82773c75"
     ],
-    "revision": 632
+    "revision": 633
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
