@@ -143,7 +143,7 @@
     "name": "Cineplex Cinemas Cambridge",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "90b6a33d9aa8bed091d31965dc51dc9b7d7b59066919b064bb358a72f34f0a64",
+    "hash": "2d3ea19a4ae649bfa759441f2bfee030186e3a17048a2c81e1e6a165bbcf81a3",
     "snapshot": {
       "page_title": "Cineplex Cinemas Cambridge",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge",
@@ -159,11 +159,11 @@
       "movies": {
         "title:andr-rieu-s-2026-summer-concert-viva-maastricht": {
           "title": "André Rieu's 2026 Summer Concert: Viva Maastricht!",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "André Rieu's 2026 Summer Concert: Viva Maastricht! Advance tickets available",
+          "context": "André Rieu's 2026 Summer Concert: Viva Maastricht!",
           "url": null
         },
         "title:carmen-encore-bizet-french-w-e-s-t-metropolitan-opera": {
@@ -274,7 +274,7 @@
       "cddf12af6bc14ef5793b5ffa39a14e07bca51feb53cb3acac4702ae41ac72af7",
       "00bf90c0d344becee98d6466e527340ca160f59bc4dda0770567916b12fbd42d"
     ],
-    "revision": 20
+    "revision": 21
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan": {
     "name": "Cineplex Cinemas Vaughan",
@@ -548,7 +548,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "bfe288edf27a575e4d967df45bf670bf3cc47b2b698f998917b2e7e2bd8f946c",
+    "hash": "3da7e510ab2446c14afa508fb4ab9e4dc2a0f03ea19e225391e4ea261244065a",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -556,7 +556,6 @@
       "ticket_phrases": [],
       "showtimes": [],
       "dates": [
-        "Aug 29",
         "Aug 30",
         "Nov 19",
         "Oct 7",
@@ -579,14 +578,13 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Cinemas Abbotsford and VIP",
+        "Cineplex Odeon Westmount Cinemas and VIP",
         "Advance tickets",
         "SEP 2",
         "SEP 11",
         "SEP 18",
         "SEP 9",
         "SEP 4",
-        "AUG 29",
         "SEP 19",
         "OCT 7",
         "NOV 19",
@@ -600,13 +598,11 @@
       "movies": {
         "title:andr-rieu-s-2026-summer-concert-viva-maastricht": {
           "title": "André Rieu's 2026 Summer Concert: Viva Maastricht!",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Aug 29"
-          ],
-          "context": "Advance tickets AUG 29 André Rieu's 2026 Summer Concert: Viva Maastricht! Watch trailer",
+          "dates": [],
+          "context": "André Rieu's 2026 Summer Concert: Viva Maastricht! Watch trailer",
           "url": "https://www.cineplex.com/movie/andre-rieus-2026-summer-concert-viva-maastricht"
         },
         "title:bol-bhavein-na-bol-punjabi-w-e-s-t": {
@@ -977,7 +973,7 @@
       "51af724b5fffe129ff1c5c77b64c261bc2248f9d845fb5dbfafc77f7f9052e1a",
       "c4e43ee3692b2c329c45be70a8129c675da56a99fb94e534be0d4a6f8f747428"
     ],
-    "revision": 635
+    "revision": 636
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
