@@ -143,7 +143,7 @@
     "name": "Cineplex Cinemas Cambridge",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "2d3ea19a4ae649bfa759441f2bfee030186e3a17048a2c81e1e6a165bbcf81a3",
+    "hash": "1bf4a1771e5835df6f37c27fb4dd1274561907452bc927b43b3a7e0c3fd7adfd",
     "snapshot": {
       "page_title": "Cineplex Cinemas Cambridge",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge",
@@ -157,15 +157,6 @@
         "Advance tickets available"
       ],
       "movies": {
-        "title:andr-rieu-s-2026-summer-concert-viva-maastricht": {
-          "title": "André Rieu's 2026 Summer Concert: Viva Maastricht!",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "André Rieu's 2026 Summer Concert: Viva Maastricht!",
-          "url": null
-        },
         "title:carmen-encore-bizet-french-w-e-s-t-metropolitan-opera": {
           "title": "Carmen Encore (Bizet) - French w/e.s.t. – Metropolitan Opera",
           "ticket_available": true,
@@ -220,6 +211,15 @@
           "context": "Paw Patrol: The Dino Movie",
           "url": null
         },
+        "title:samson-et-dalila-saint-sa-ns-french-w-e-s-t-metropolitan-opera": {
+          "title": "Samson et Dalila (Saint-Saëns) - French w/e.s.t. - Metropolitan Opera",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Samson et Dalila (Saint-Saëns) - French w/e.s.t. - Metropolitan Opera Advance tickets available",
+          "url": null
+        },
         "title:spider-man-brand-new-day": {
           "title": "Spider-Man: Brand New Day",
           "ticket_available": false,
@@ -272,9 +272,10 @@
       "29452902369526f71cfd9577a28972a45f3c4cff152a61627333a0fb20519c14",
       "88c3f7538274bf72d35cf4dbb9f03b7446430015183d5877bc9d2845e1d43c72",
       "cddf12af6bc14ef5793b5ffa39a14e07bca51feb53cb3acac4702ae41ac72af7",
-      "00bf90c0d344becee98d6466e527340ca160f59bc4dda0770567916b12fbd42d"
+      "00bf90c0d344becee98d6466e527340ca160f59bc4dda0770567916b12fbd42d",
+      "d8df082a61a40c5191bcacb6f7401d0ee55c7fa6a011318dca56c875e697e19e"
     ],
-    "revision": 21
+    "revision": 22
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan": {
     "name": "Cineplex Cinemas Vaughan",
