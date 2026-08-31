@@ -549,7 +549,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "1edc08cf00fa05c9683de363ea4b3b0e20d776382d20915e05463fed8b581ddf",
+    "hash": "8824859148481ed2f45c97b257a46e945f7754b1d8ae2f15407a701b4206a237",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -579,8 +579,7 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Odeon Westmount Cinemas and VIP",
-        "Cineplex Cinemas Kitchener and VIP",
+        "Cineplex Odeon McGillivray Cinemas and VIP",
         "Advance tickets",
         "SEP 2",
         "SEP 11",
@@ -678,13 +677,13 @@
         },
         "title:dear-you-teochew-with-chinese-and-e-s-t": {
           "title": "Dear You (Teochew with Chinese and e.s.t.)",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [
             "Sep 4"
           ],
-          "context": "Advance Tickets SEP 4 Dear You (Teochew with Chinese and e.s.t.)",
+          "context": "Coming Soon SEP 4 Dear You (Teochew with Chinese and e.s.t.)",
           "url": "https://www.cineplex.com/movie/dear-you-teochew-with-chinese-and-est"
         },
         "title:dune-part-3": {
@@ -924,7 +923,7 @@
           "dates": [
             "Sep 24"
           ],
-          "context": "Advance tickets SEP 24 The Misanthrope - National Theatre Live",
+          "context": "Advance tickets SEP 24 The Misanthrope - National Theatre Live Watch trailer",
           "url": "https://www.cineplex.com/movie/the-misanthrope-national-theatre-live"
         },
         "title:the-odyssey": {
@@ -986,7 +985,7 @@
       "0196ffb1bfbcff40a071c66d74b6fae13fe3c9a016a3159f8ab44fadbeefa06f",
       "e1794544a17411759f5dcee7896250bfa8bc6b8764f01351457e5f39ee843bdb"
     ],
-    "revision": 645
+    "revision": 646
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
