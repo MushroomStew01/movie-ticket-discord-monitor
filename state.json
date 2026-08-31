@@ -549,7 +549,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "7ce92c73fbda3f8f4b0e73165a6287a473d1df8b31b571809b7a97c6dc00a4e6",
+    "hash": "1edc08cf00fa05c9683de363ea4b3b0e20d776382d20915e05463fed8b581ddf",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -579,7 +579,8 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Cinemas Abbotsford and VIP",
+        "Cineplex Odeon Westmount Cinemas and VIP",
+        "Cineplex Cinemas Kitchener and VIP",
         "Advance tickets",
         "SEP 2",
         "SEP 11",
@@ -605,6 +606,15 @@
           "dates": [],
           "context": "André Rieu's 2026 Summer Concert: Viva Maastricht! Watch trailer",
           "url": "https://www.cineplex.com/movie/andre-rieus-2026-summer-concert-viva-maastricht"
+        },
+        "title:avengers-doomsday": {
+          "title": "Avengers Doomsday",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "",
+          "url": "https://www.cineplex.com/movie/avengers-doomsday"
         },
         "title:bol-bhavein-na-bol-punjabi-w-e-s-t": {
           "title": "Bol Bhavein Na Bol (Punjabi w/e.s.t.)",
@@ -973,9 +983,10 @@
       "20271945312e3d9b5e8f1c6de8b37b9d4b3e0281a24d39006d5e5a8c82773c75",
       "51af724b5fffe129ff1c5c77b64c261bc2248f9d845fb5dbfafc77f7f9052e1a",
       "c4e43ee3692b2c329c45be70a8129c675da56a99fb94e534be0d4a6f8f747428",
-      "0196ffb1bfbcff40a071c66d74b6fae13fe3c9a016a3159f8ab44fadbeefa06f"
+      "0196ffb1bfbcff40a071c66d74b6fae13fe3c9a016a3159f8ab44fadbeefa06f",
+      "e1794544a17411759f5dcee7896250bfa8bc6b8764f01351457e5f39ee843bdb"
     ],
-    "revision": 644
+    "revision": 645
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
