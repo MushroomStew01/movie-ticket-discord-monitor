@@ -3,7 +3,7 @@
     "name": "Cineplex Cinemas Kitchener and VIP",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "7ae316aa4cf4430a7bfe52fae3f971c1b8699cd82e4751660ce75adbdc575fdf",
+    "hash": "56179cc579b7940acc005e293754cfac9688ca8872afe397f1e3880783ef8900",
     "snapshot": {
       "page_title": "Cineplex Cinemas Kitchener and VIP",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-kitchener-and-vip",
@@ -67,6 +67,15 @@
           "context": "Practical Magic 2 Advance tickets available",
           "url": null
         },
+        "title:resident-evil": {
+          "title": "Resident Evil",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Resident Evil Advance tickets available",
+          "url": null
+        },
         "title:spa-weekend": {
           "title": "Spa Weekend",
           "ticket_available": false,
@@ -92,15 +101,6 @@
           "showtimes": [],
           "dates": [],
           "context": "The Dog Stars",
-          "url": null
-        },
-        "title:the-end-of-oak-street": {
-          "title": "The End of Oak Street",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "The End of Oak Street",
           "url": null
         },
         "title:the-odyssey": {
@@ -135,9 +135,10 @@
       "49398dfd587ccfefd62c658ef9d0f7c8f99d821cc2c218287478266d4e7240a3",
       "f2f7362959204ce4c39774e955facd8f40e74428fafe06a2e8c29fb163a6bdf7",
       "e99797f65f1f2cb4e94c8020e163ce075d39eb4efe943cf96f87ce27e0eafbed",
-      "a7ca1e14d3f5da3d74fe2e6e34404597332a93f2f641513cf311e759e7c2c406"
+      "a7ca1e14d3f5da3d74fe2e6e34404597332a93f2f641513cf311e759e7c2c406",
+      "36829dc5b98a30474d211eae6561ab418710bd4318ab86b3a49c569fc987edda"
     ],
-    "revision": 20
+    "revision": 21
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge": {
     "name": "Cineplex Cinemas Cambridge",
@@ -281,7 +282,7 @@
     "name": "Cineplex Cinemas Vaughan",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "c5f0f03d7cb2522c5a88262ad18a006bdc856d5750cf1f4c07de339df3d57654",
+    "hash": "c1141d121a2409990c0dd67199d0db9df1c472beb7d1fc2173e85cd96d06a9e3",
     "snapshot": {
       "page_title": "Cineplex Cinemas Vaughan",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan",
@@ -331,15 +332,6 @@
           "context": "Insidious: Out of the Further",
           "url": null
         },
-        "title:mutiny": {
-          "title": "Mutiny",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Mutiny",
-          "url": null
-        },
         "title:practical-magic-2": {
           "title": "Practical Magic 2",
           "ticket_available": true,
@@ -347,6 +339,15 @@
           "showtimes": [],
           "dates": [],
           "context": "Practical Magic 2 Advance tickets available",
+          "url": null
+        },
+        "title:resident-evil": {
+          "title": "Resident Evil",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Resident Evil Advance tickets available",
           "url": null
         },
         "title:spa-weekend": {
@@ -407,15 +408,16 @@
       "32d09a48d02b812c2efa02f2c3bb3bd3fd965770e17d3f65fb7ef404bb09d415",
       "faf14cf71f4421bed9fe296d4de031489bc86bf118b0b92314cfffa6d7613018",
       "874a385d052c3e01d158675f2cd5877b976bc5f475e51b5969e495538a6d938c",
-      "124a5e169485eee81ad12a3cbd2884545081b107c35ca6df38b0c4568affddc6"
+      "124a5e169485eee81ad12a3cbd2884545081b107c35ca6df38b0c4568affddc6",
+      "5039c4823dc9fcbf947f9834ec2840d7cff3e22659b6761ed33207065a03e738"
     ],
-    "revision": 17
+    "revision": 18
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one": {
     "name": "Cineplex Cinemas Mississauga Square One",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "f092aec8573357ca027bce5107949500d979cd62eb42322e9c08c1516819aec8",
+    "hash": "0b734d784ad3d6be606950e68a44dd6f792a614954434c882089d6a9e44489ff",
     "snapshot": {
       "page_title": "Cineplex Cinemas Mississauga Square One",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one",
@@ -474,6 +476,15 @@
           "context": "Practical Magic 2 Advance tickets available",
           "url": null
         },
+        "title:resident-evil": {
+          "title": "Resident Evil",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Resident Evil Advance tickets available",
+          "url": null
+        },
         "title:spa-weekend": {
           "title": "Spa Weekend",
           "ticket_available": false,
@@ -499,15 +510,6 @@
           "showtimes": [],
           "dates": [],
           "context": "The Dog Stars",
-          "url": null
-        },
-        "title:the-end-of-oak-street": {
-          "title": "The End of Oak Street",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "The End of Oak Street",
           "url": null
         },
         "title:the-odyssey": {
@@ -541,15 +543,16 @@
       "fecf0fde72b2e48175161e38ec24bd8323b6678a6148aca8a87c8e6306c34d86",
       "cb7086b94e8ef520ef13bb488f4d1262181c8f484dbdc5e31b9d85cfa07fdd6c",
       "316022ad5487ad3b1c5b168aadbd6822587d7324311bb09fcc471df5ffb0d585",
-      "d06ff1d50d5f737702a27d534328ba573dc022f6c0563958ae5d95c14e86eaab"
+      "d06ff1d50d5f737702a27d534328ba573dc022f6c0563958ae5d95c14e86eaab",
+      "c1e24555ee21b16847c43a0e4cc9989f95f269c40bb5c5241f828b5d3dc7fc8e"
     ],
-    "revision": 15
+    "revision": 16
   },
   "https://www.cineplex.com/en?theatresNearYou=true": {
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "fe3c5624f7b009c199b36e639e089bebd62d207ee68cdfcbe7cf8990356923bf",
+    "hash": "34d95e955c353a1ef485cb0c77b7809d5027ac679b68a1aadf6586965771729e",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -580,8 +583,7 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Cinemas Oakville and VIP",
-        "Cineplex Cinemas Winston Churchill & VIP",
+        "Cineplex Odeon McGillivray Cinemas and VIP",
         "Advance tickets",
         "SEP 2",
         "SEP 11",
@@ -893,13 +895,13 @@
         },
         "title:resident-evil": {
           "title": "Resident Evil",
-          "ticket_available": false,
+          "ticket_available": true,
           "formats": [],
           "showtimes": [],
           "dates": [
             "Sep 18"
           ],
-          "context": "Coming soon SEP 18 Resident Evil Watch trailer",
+          "context": "Advance tickets SEP 18 Resident Evil Watch trailer",
           "url": "https://www.cineplex.com/movie/resident-evil-2026"
         },
         "title:spider-man-brand-new-day": {
@@ -990,9 +992,10 @@
       "0196ffb1bfbcff40a071c66d74b6fae13fe3c9a016a3159f8ab44fadbeefa06f",
       "e1794544a17411759f5dcee7896250bfa8bc6b8764f01351457e5f39ee843bdb",
       "cd483674583f0aa194385d503a28addd5a1771d6fe787b8b51f84080cc4f243c",
-      "204fdbd50c2a85db4bf1a7cda56f7a483683055bda8100bd3015a320f9d53757"
+      "204fdbd50c2a85db4bf1a7cda56f7a483683055bda8100bd3015a320f9d53757",
+      "d4f8bd596bdcbd646723949d9b248481ab43931e8695ac62d98062a590b37bba"
     ],
-    "revision": 649
+    "revision": 650
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
