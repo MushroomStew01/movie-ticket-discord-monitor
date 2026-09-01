@@ -3,7 +3,7 @@
     "name": "Cineplex Cinemas Kitchener and VIP",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "56179cc579b7940acc005e293754cfac9688ca8872afe397f1e3880783ef8900",
+    "hash": "6fe4f4982b05254dccd27fc5784a735ecfb10df7ea195f7e7c476453fc5eae89",
     "snapshot": {
       "page_title": "Cineplex Cinemas Kitchener and VIP",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-kitchener-and-vip",
@@ -31,6 +31,15 @@
           "context": "Coyote vs ACME",
           "url": null
         },
+        "title:fall-2-deadpoint": {
+          "title": "Fall 2: Deadpoint",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Fall 2: Deadpoint Advance tickets available",
+          "url": null
+        },
         "title:insidious-out-of-the-further": {
           "title": "Insidious: Out of the Further",
           "ticket_available": false,
@@ -47,15 +56,6 @@
           "showtimes": [],
           "dates": [],
           "context": "Mutiny",
-          "url": null
-        },
-        "title:paw-patrol-the-dino-movie": {
-          "title": "Paw Patrol: The Dino Movie",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Paw Patrol: The Dino Movie",
           "url": null
         },
         "title:practical-magic-2": {
@@ -136,15 +136,16 @@
       "f2f7362959204ce4c39774e955facd8f40e74428fafe06a2e8c29fb163a6bdf7",
       "e99797f65f1f2cb4e94c8020e163ce075d39eb4efe943cf96f87ce27e0eafbed",
       "a7ca1e14d3f5da3d74fe2e6e34404597332a93f2f641513cf311e759e7c2c406",
-      "36829dc5b98a30474d211eae6561ab418710bd4318ab86b3a49c569fc987edda"
+      "36829dc5b98a30474d211eae6561ab418710bd4318ab86b3a49c569fc987edda",
+      "ac254ef66593e78b8744127a3703c729617f15be36d2443d0eeb1fa6ec1121de"
     ],
-    "revision": 21
+    "revision": 22
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge": {
     "name": "Cineplex Cinemas Cambridge",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "1bf4a1771e5835df6f37c27fb4dd1274561907452bc927b43b3a7e0c3fd7adfd",
+    "hash": "b06e90988379ef25e28153ee8910e79dad8b5f8e9b4d32d8e89f1e19d17fa860",
     "snapshot": {
       "page_title": "Cineplex Cinemas Cambridge",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge",
@@ -158,13 +159,13 @@
         "Advance tickets available"
       ],
       "movies": {
-        "title:carmen-encore-bizet-french-w-e-s-t-metropolitan-opera": {
-          "title": "Carmen Encore (Bizet) - French w/e.s.t. – Metropolitan Opera",
-          "ticket_available": true,
+        "title:buddy": {
+          "title": "Buddy",
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Carmen Encore (Bizet) - French w/e.s.t. – Metropolitan Opera Advance tickets available",
+          "context": "Buddy",
           "url": null
         },
         "title:cos-fan-tutte-mozart-italian-w-e-s-t-metropolitan-opera": {
@@ -174,6 +175,15 @@
           "showtimes": [],
           "dates": [],
           "context": "Così fan tutte (Mozart) Italian w/e.s.t. – Metropolitan Opera Advance tickets available",
+          "url": null
+        },
+        "title:coyote-vs-acme": {
+          "title": "Coyote vs ACME",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Coyote vs ACME",
           "url": null
         },
         "title:insidious-out-of-the-further": {
@@ -210,15 +220,6 @@
           "showtimes": [],
           "dates": [],
           "context": "Paw Patrol: The Dino Movie",
-          "url": null
-        },
-        "title:samson-et-dalila-saint-sa-ns-french-w-e-s-t-metropolitan-opera": {
-          "title": "Samson et Dalila (Saint-Saëns) - French w/e.s.t. - Metropolitan Opera",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Samson et Dalila (Saint-Saëns) - French w/e.s.t. - Metropolitan Opera Advance tickets available",
           "url": null
         },
         "title:spider-man-brand-new-day": {
@@ -274,9 +275,10 @@
       "88c3f7538274bf72d35cf4dbb9f03b7446430015183d5877bc9d2845e1d43c72",
       "cddf12af6bc14ef5793b5ffa39a14e07bca51feb53cb3acac4702ae41ac72af7",
       "00bf90c0d344becee98d6466e527340ca160f59bc4dda0770567916b12fbd42d",
-      "d8df082a61a40c5191bcacb6f7401d0ee55c7fa6a011318dca56c875e697e19e"
+      "d8df082a61a40c5191bcacb6f7401d0ee55c7fa6a011318dca56c875e697e19e",
+      "ad121ed4bb57085f5c02a5abab71e9c1411310b757955cd0ebb60eca7a071a47"
     ],
-    "revision": 22
+    "revision": 23
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan": {
     "name": "Cineplex Cinemas Vaughan",
@@ -552,7 +554,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "34d95e955c353a1ef485cb0c77b7809d5027ac679b68a1aadf6586965771729e",
+    "hash": "a8a876a9a16b22941358d5bde7ad5bb13a47689317203e1de15f0885e17b16cc",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -583,7 +585,8 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Odeon McGillivray Cinemas and VIP",
+        "Cineplex Cinemas Oakville and VIP",
+        "Cineplex Cinemas Winston Churchill & VIP",
         "Advance tickets",
         "SEP 2",
         "SEP 11",
@@ -995,7 +998,7 @@
       "204fdbd50c2a85db4bf1a7cda56f7a483683055bda8100bd3015a320f9d53757",
       "d4f8bd596bdcbd646723949d9b248481ab43931e8695ac62d98062a590b37bba"
     ],
-    "revision": 650
+    "revision": 651
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
