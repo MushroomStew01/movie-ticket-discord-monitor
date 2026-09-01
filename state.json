@@ -549,7 +549,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "8824859148481ed2f45c97b257a46e945f7754b1d8ae2f15407a701b4206a237",
+    "hash": "35e642ec7a7812ac58f2c087255379b21c6fe190cccbebc2b541b164db85f704",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -579,7 +579,8 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Odeon McGillivray Cinemas and VIP",
+        "Cineplex Cinemas Oakville and VIP",
+        "Cineplex Cinemas Winston Churchill & VIP",
         "Advance tickets",
         "SEP 2",
         "SEP 11",
@@ -617,13 +618,13 @@
         },
         "title:bol-bhavein-na-bol-punjabi-w-e-s-t": {
           "title": "Bol Bhavein Na Bol (Punjabi w/e.s.t.)",
-          "ticket_available": false,
+          "ticket_available": true,
           "formats": [],
           "showtimes": [],
           "dates": [
             "Sep 4"
           ],
-          "context": "Coming Soon SEP 4 Bol Bhavein Na Bol (Punjabi w/e.s.t.)",
+          "context": "Advance Tickets SEP 4 Bol Bhavein Na Bol (Punjabi w/e.s.t.)",
           "url": "https://www.cineplex.com/movie/bol-bhavein-na-bol-punjabi-west"
         },
         "title:buddy": {
@@ -677,13 +678,13 @@
         },
         "title:dear-you-teochew-with-chinese-and-e-s-t": {
           "title": "Dear You (Teochew with Chinese and e.s.t.)",
-          "ticket_available": false,
+          "ticket_available": true,
           "formats": [],
           "showtimes": [],
           "dates": [
             "Sep 4"
           ],
-          "context": "Coming Soon SEP 4 Dear You (Teochew with Chinese and e.s.t.)",
+          "context": "Advance Tickets SEP 4 Dear You (Teochew with Chinese and e.s.t.)",
           "url": "https://www.cineplex.com/movie/dear-you-teochew-with-chinese-and-est"
         },
         "title:dune-part-3": {
@@ -817,13 +818,13 @@
         },
         "title:mirzapur-the-movie-hindi-w-e-s-t": {
           "title": "Mirzapur: The Movie (Hindi w/e.s.t.)",
-          "ticket_available": false,
+          "ticket_available": true,
           "formats": [],
           "showtimes": [],
           "dates": [
             "Sep 4"
           ],
-          "context": "Coming Soon SEP 4 Mirzapur: The Movie (Hindi w/e.s.t.)",
+          "context": "Advance Tickets SEP 4 Mirzapur: The Movie (Hindi w/e.s.t.)",
           "url": "https://www.cineplex.com/movie/mirzapur-the-movie-hindi-west"
         },
         "title:practical-magic-2": {
@@ -983,9 +984,10 @@
       "51af724b5fffe129ff1c5c77b64c261bc2248f9d845fb5dbfafc77f7f9052e1a",
       "c4e43ee3692b2c329c45be70a8129c675da56a99fb94e534be0d4a6f8f747428",
       "0196ffb1bfbcff40a071c66d74b6fae13fe3c9a016a3159f8ab44fadbeefa06f",
-      "e1794544a17411759f5dcee7896250bfa8bc6b8764f01351457e5f39ee843bdb"
+      "e1794544a17411759f5dcee7896250bfa8bc6b8764f01351457e5f39ee843bdb",
+      "cd483674583f0aa194385d503a28addd5a1771d6fe787b8b51f84080cc4f243c"
     ],
-    "revision": 646
+    "revision": 647
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
@@ -1018,6 +1020,6 @@
     "revision": 8
   },
   "_meta": {
-    "last_heartbeat_at_utc": "2026-08-31T00:09:33.431395+00:00"
+    "last_heartbeat_at_utc": "2026-09-01T01:28:59.215208+00:00"
   }
 }
