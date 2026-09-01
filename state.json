@@ -549,7 +549,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "35e642ec7a7812ac58f2c087255379b21c6fe190cccbebc2b541b164db85f704",
+    "hash": "f553d6ac2d19b3a93efdbc2cd6c69838c94338e77ed85e2746a1b6d2d4e29b77",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -563,6 +563,7 @@
         "Sep 18",
         "Sep 19",
         "Sep 2",
+        "Sep 21",
         "Sep 23",
         "Sep 24",
         "Sep 30",
@@ -579,8 +580,8 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Cinemas Oakville and VIP",
-        "Cineplex Cinemas Winston Churchill & VIP",
+        "Cineplex Cinemas Abbotsford and VIP",
+        "Cineplex Cinemas Seton and VIP",
         "Advance tickets",
         "SEP 2",
         "SEP 11",
@@ -595,6 +596,7 @@
         "SEP 30",
         "SEP 24",
         "SEP 23",
+        "SEP 21",
         "What are UltraAVX, IMAX, VIP, 4DX, ScreenX and D-BOX?"
       ],
       "movies": {
@@ -675,6 +677,17 @@
           "dates": [],
           "context": "Coyote vs ACME Watch trailer",
           "url": "https://www.cineplex.com/movie/coyote-vs-acme-2026"
+        },
+        "title:crunchyroll-anime-nights-sneak-peek-japanese-w-e-s-t": {
+          "title": "Crunchyroll Anime Nights Sneak Peek! (Japanese w.e.s.t.)",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [
+            "Sep 21"
+          ],
+          "context": "Advance tickets SEP 21 Crunchyroll Anime Nights Sneak Peek! (Japanese w.e.s.t.)",
+          "url": "https://www.cineplex.com/movie/crunchyroll-anime-nights-sneak-peek-japanese"
         },
         "title:dear-you-teochew-with-chinese-and-e-s-t": {
           "title": "Dear You (Teochew with Chinese and e.s.t.)",
@@ -907,15 +920,6 @@
           "context": "The Dog Stars Watch trailer",
           "url": "https://www.cineplex.com/movie/the-dog-stars"
         },
-        "title:the-last-blossom-japanese-w-e-s-t": {
-          "title": "The Last Blossom (Japanese w.e.s.t.)",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "The Last Blossom (Japanese w.e.s.t.)",
-          "url": "https://www.cineplex.com/movie/the-last-blossom-japanese-west"
-        },
         "title:the-misanthrope-national-theatre-live": {
           "title": "The Misanthrope - National Theatre Live",
           "ticket_available": true,
@@ -985,9 +989,10 @@
       "c4e43ee3692b2c329c45be70a8129c675da56a99fb94e534be0d4a6f8f747428",
       "0196ffb1bfbcff40a071c66d74b6fae13fe3c9a016a3159f8ab44fadbeefa06f",
       "e1794544a17411759f5dcee7896250bfa8bc6b8764f01351457e5f39ee843bdb",
-      "cd483674583f0aa194385d503a28addd5a1771d6fe787b8b51f84080cc4f243c"
+      "cd483674583f0aa194385d503a28addd5a1771d6fe787b8b51f84080cc4f243c",
+      "204fdbd50c2a85db4bf1a7cda56f7a483683055bda8100bd3015a320f9d53757"
     ],
-    "revision": 647
+    "revision": 648
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
