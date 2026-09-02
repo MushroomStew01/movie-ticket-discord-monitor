@@ -420,7 +420,7 @@
     "name": "Cineplex Cinemas Mississauga Square One",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "0b734d784ad3d6be606950e68a44dd6f792a614954434c882089d6a9e44489ff",
+    "hash": "3fe15206d7d0efbefb3a4c8c05edd7f11217ecb4ad048236e37216d66ad55515",
     "snapshot": {
       "page_title": "Cineplex Cinemas Mississauga Square One",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one",
@@ -443,6 +443,15 @@
           "context": "Coyote vs ACME",
           "url": null
         },
+        "title:fall-2-deadpoint": {
+          "title": "Fall 2: Deadpoint",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Fall 2: Deadpoint",
+          "url": null
+        },
         "title:insidious-out-of-the-further": {
           "title": "Insidious: Out of the Further",
           "ticket_available": false,
@@ -459,15 +468,6 @@
           "showtimes": [],
           "dates": [],
           "context": "Mutiny",
-          "url": null
-        },
-        "title:paw-patrol-the-dino-movie": {
-          "title": "Paw Patrol: The Dino Movie",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Paw Patrol: The Dino Movie",
           "url": null
         },
         "title:practical-magic-2": {
@@ -547,15 +547,16 @@
       "cb7086b94e8ef520ef13bb488f4d1262181c8f484dbdc5e31b9d85cfa07fdd6c",
       "316022ad5487ad3b1c5b168aadbd6822587d7324311bb09fcc471df5ffb0d585",
       "d06ff1d50d5f737702a27d534328ba573dc022f6c0563958ae5d95c14e86eaab",
-      "c1e24555ee21b16847c43a0e4cc9989f95f269c40bb5c5241f828b5d3dc7fc8e"
+      "c1e24555ee21b16847c43a0e4cc9989f95f269c40bb5c5241f828b5d3dc7fc8e",
+      "fb2cdf75e8b543133c71fbe248e23cdc66c142adeb9a12a30929795cf18e8278"
     ],
-    "revision": 16
+    "revision": 17
   },
   "https://www.cineplex.com/en?theatresNearYou=true": {
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "ed6229ee04b10f0e7796da31048167f4bdd20b9e6a5863d9cae8bf111bf579e3",
+    "hash": "4883a99e91edc384bfab21cb4edcf4f07965faaa516b0ad914ffbaec8f8c6978",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -585,7 +586,8 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Odeon Westmount Cinemas and VIP",
+        "Cineplex Cinemas Abbotsford and VIP",
+        "Cineplex Cinemas Seton and VIP",
         "Advance tickets",
         "SEP 11",
         "SEP 18",
@@ -992,7 +994,7 @@
       "204fdbd50c2a85db4bf1a7cda56f7a483683055bda8100bd3015a320f9d53757",
       "d4f8bd596bdcbd646723949d9b248481ab43931e8695ac62d98062a590b37bba"
     ],
-    "revision": 654
+    "revision": 655
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
