@@ -3,7 +3,7 @@
     "name": "Cineplex Cinemas Kitchener and VIP",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "6fe4f4982b05254dccd27fc5784a735ecfb10df7ea195f7e7c476453fc5eae89",
+    "hash": "5427f25263ea4a4251bf483f7b3e3558a9c0ab38f87a7bbf82f8687245e88469",
     "snapshot": {
       "page_title": "Cineplex Cinemas Kitchener and VIP",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-kitchener-and-vip",
@@ -33,11 +33,11 @@
         },
         "title:fall-2-deadpoint": {
           "title": "Fall 2: Deadpoint",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Fall 2: Deadpoint Advance tickets available",
+          "context": "Fall 2: Deadpoint",
           "url": null
         },
         "title:insidious-out-of-the-further": {
@@ -139,7 +139,7 @@
       "36829dc5b98a30474d211eae6561ab418710bd4318ab86b3a49c569fc987edda",
       "ac254ef66593e78b8744127a3703c729617f15be36d2443d0eeb1fa6ec1121de"
     ],
-    "revision": 22
+    "revision": 23
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge": {
     "name": "Cineplex Cinemas Cambridge",
@@ -284,7 +284,7 @@
     "name": "Cineplex Cinemas Vaughan",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "629f7ded1dc8229cc0510f9f245551f7e5ccd035340b65425a757074141b13a1",
+    "hash": "997e092fbd520b22f237f367866a2598c4d31f04b2e7d7c19b2578dfb2d435ad",
     "snapshot": {
       "page_title": "Cineplex Cinemas Vaughan",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan",
@@ -318,11 +318,11 @@
         },
         "title:fall-2-deadpoint": {
           "title": "Fall 2: Deadpoint",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Fall 2: Deadpoint Advance tickets available",
+          "context": "Fall 2: Deadpoint",
           "url": null
         },
         "title:finding-emily": {
@@ -414,7 +414,7 @@
       "5039c4823dc9fcbf947f9834ec2840d7cff3e22659b6761ed33207065a03e738",
       "52d5f5c433e1a3116a4f11cb11394f079b8023c9f9d5a40e2ca2c14227c37056"
     ],
-    "revision": 19
+    "revision": 20
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one": {
     "name": "Cineplex Cinemas Mississauga Square One",
@@ -555,7 +555,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "a8a876a9a16b22941358d5bde7ad5bb13a47689317203e1de15f0885e17b16cc",
+    "hash": "ed6229ee04b10f0e7796da31048167f4bdd20b9e6a5863d9cae8bf111bf579e3",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -568,7 +568,6 @@
         "Sep 11",
         "Sep 18",
         "Sep 19",
-        "Sep 2",
         "Sep 21",
         "Sep 23",
         "Sep 24",
@@ -586,10 +585,8 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Cinemas Oakville and VIP",
-        "Cineplex Cinemas Winston Churchill & VIP",
+        "Cineplex Odeon Westmount Cinemas and VIP",
         "Advance tickets",
-        "SEP 2",
         "SEP 11",
         "SEP 18",
         "SEP 9",
@@ -717,13 +714,11 @@
         },
         "title:fall-2-deadpoint": {
           "title": "Fall 2: Deadpoint",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Sep 2"
-          ],
-          "context": "Advance tickets SEP 2 Fall 2: Deadpoint Watch trailer",
+          "dates": [],
+          "context": "Fall 2: Deadpoint Watch trailer",
           "url": "https://www.cineplex.com/movie/fall-2-deadpoint"
         },
         "title:finding-emily": {
@@ -804,15 +799,13 @@
         },
         "title:katy-perry-the-lifetimes-tour-live-from-paris-the-imax-experience": {
           "title": "Katy Perry: The Lifetimes Tour - Live From Paris - The IMAX Experience®",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [
             "IMAX"
           ],
           "showtimes": [],
-          "dates": [
-            "Sep 2"
-          ],
-          "context": "Advance tickets SEP 2 Katy Perry: The Lifetimes Tour - Live From Paris - The IMAX Experience®",
+          "dates": [],
+          "context": "Katy Perry: The Lifetimes Tour - Live From Paris - The IMAX Experience®",
           "url": "https://www.cineplex.com/movie/imax-katy-perry-the-lifetimes-tour"
         },
         "title:korean-colony-korean-w-e-s-t": {
@@ -999,7 +992,7 @@
       "204fdbd50c2a85db4bf1a7cda56f7a483683055bda8100bd3015a320f9d53757",
       "d4f8bd596bdcbd646723949d9b248481ab43931e8695ac62d98062a590b37bba"
     ],
-    "revision": 653
+    "revision": 654
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
@@ -1032,6 +1025,6 @@
     "revision": 8
   },
   "_meta": {
-    "last_heartbeat_at_utc": "2026-09-01T01:28:59.215208+00:00"
+    "last_heartbeat_at_utc": "2026-09-02T05:58:07.618169+00:00"
   }
 }
