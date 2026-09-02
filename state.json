@@ -284,7 +284,7 @@
     "name": "Cineplex Cinemas Vaughan",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "c1141d121a2409990c0dd67199d0db9df1c472beb7d1fc2173e85cd96d06a9e3",
+    "hash": "629f7ded1dc8229cc0510f9f245551f7e5ccd035340b65425a757074141b13a1",
     "snapshot": {
       "page_title": "Cineplex Cinemas Vaughan",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan",
@@ -314,6 +314,15 @@
           "showtimes": [],
           "dates": [],
           "context": "Coyote vs ACME",
+          "url": null
+        },
+        "title:fall-2-deadpoint": {
+          "title": "Fall 2: Deadpoint",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Fall 2: Deadpoint Advance tickets available",
           "url": null
         },
         "title:finding-emily": {
@@ -350,15 +359,6 @@
           "showtimes": [],
           "dates": [],
           "context": "Resident Evil Advance tickets available",
-          "url": null
-        },
-        "title:spa-weekend": {
-          "title": "Spa Weekend",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Spa Weekend",
           "url": null
         },
         "title:spider-man-brand-new-day": {
@@ -411,9 +411,10 @@
       "faf14cf71f4421bed9fe296d4de031489bc86bf118b0b92314cfffa6d7613018",
       "874a385d052c3e01d158675f2cd5877b976bc5f475e51b5969e495538a6d938c",
       "124a5e169485eee81ad12a3cbd2884545081b107c35ca6df38b0c4568affddc6",
-      "5039c4823dc9fcbf947f9834ec2840d7cff3e22659b6761ed33207065a03e738"
+      "5039c4823dc9fcbf947f9834ec2840d7cff3e22659b6761ed33207065a03e738",
+      "52d5f5c433e1a3116a4f11cb11394f079b8023c9f9d5a40e2ca2c14227c37056"
     ],
-    "revision": 18
+    "revision": 19
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one": {
     "name": "Cineplex Cinemas Mississauga Square One",
@@ -554,7 +555,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "34d95e955c353a1ef485cb0c77b7809d5027ac679b68a1aadf6586965771729e",
+    "hash": "a8a876a9a16b22941358d5bde7ad5bb13a47689317203e1de15f0885e17b16cc",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -585,7 +586,8 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Odeon McGillivray Cinemas and VIP",
+        "Cineplex Cinemas Oakville and VIP",
+        "Cineplex Cinemas Winston Churchill & VIP",
         "Advance tickets",
         "SEP 2",
         "SEP 11",
@@ -997,7 +999,7 @@
       "204fdbd50c2a85db4bf1a7cda56f7a483683055bda8100bd3015a320f9d53757",
       "d4f8bd596bdcbd646723949d9b248481ab43931e8695ac62d98062a590b37bba"
     ],
-    "revision": 652
+    "revision": 653
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
