@@ -3,7 +3,7 @@
     "name": "Cineplex Cinemas Kitchener and VIP",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "5427f25263ea4a4251bf483f7b3e3558a9c0ab38f87a7bbf82f8687245e88469",
+    "hash": "3a79d65a994cbfdb3bd7146c953816b8b3b3df7fa2a0e4f611a9a05bbd96a1c1",
     "snapshot": {
       "page_title": "Cineplex Cinemas Kitchener and VIP",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-kitchener-and-vip",
@@ -22,6 +22,15 @@
         "Tuesdays taste better in Cineplex VIP. Enjoy TACOS & TEQUILA every Tuesday with $5 Tacos and 10$ Select Tequila Drinks"
       ],
       "movies": {
+        "title:avengers-doomsday": {
+          "title": "Avengers: Doomsday",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Avengers: Doomsday Advance tickets available",
+          "url": null
+        },
         "title:coyote-vs-acme": {
           "title": "Coyote vs ACME",
           "ticket_available": false,
@@ -29,6 +38,15 @@
           "showtimes": [],
           "dates": [],
           "context": "Coyote vs ACME",
+          "url": null
+        },
+        "title:dune-part-3": {
+          "title": "Dune: Part 3",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Dune: Part 3 Advance tickets available",
           "url": null
         },
         "title:fall-2-deadpoint": {
@@ -49,13 +67,13 @@
           "context": "Insidious: Out of the Further",
           "url": null
         },
-        "title:mutiny": {
-          "title": "Mutiny",
-          "ticket_available": false,
+        "title:onslaught": {
+          "title": "Onslaught",
+          "ticket_available": true,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Mutiny",
+          "context": "Onslaught Advance tickets available",
           "url": null
         },
         "title:practical-magic-2": {
@@ -74,15 +92,6 @@
           "showtimes": [],
           "dates": [],
           "context": "Resident Evil Advance tickets available",
-          "url": null
-        },
-        "title:spa-weekend": {
-          "title": "Spa Weekend",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Spa Weekend",
           "url": null
         },
         "title:spider-man-brand-new-day": {
@@ -111,15 +120,6 @@
           "dates": [],
           "context": "The Odyssey",
           "url": null
-        },
-        "title:tony": {
-          "title": "Tony",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Tony",
-          "url": null
         }
       }
     },
@@ -137,15 +137,16 @@
       "e99797f65f1f2cb4e94c8020e163ce075d39eb4efe943cf96f87ce27e0eafbed",
       "a7ca1e14d3f5da3d74fe2e6e34404597332a93f2f641513cf311e759e7c2c406",
       "36829dc5b98a30474d211eae6561ab418710bd4318ab86b3a49c569fc987edda",
-      "ac254ef66593e78b8744127a3703c729617f15be36d2443d0eeb1fa6ec1121de"
+      "ac254ef66593e78b8744127a3703c729617f15be36d2443d0eeb1fa6ec1121de",
+      "e245a5e5c80ae5daf8f8ae17ce7e18c41644109e037f4c14f363dfcc42e0a810"
     ],
-    "revision": 23
+    "revision": 24
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge": {
     "name": "Cineplex Cinemas Cambridge",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "b06e90988379ef25e28153ee8910e79dad8b5f8e9b4d32d8e89f1e19d17fa860",
+    "hash": "9389212e993b7dbc9b39520268dbdf0dae51bd47ca7ca280efbe020c33e33cd3",
     "snapshot": {
       "page_title": "Cineplex Cinemas Cambridge",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge",
@@ -159,6 +160,15 @@
         "Advance tickets available"
       ],
       "movies": {
+        "title:avengers-doomsday": {
+          "title": "Avengers: Doomsday",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Avengers: Doomsday Advance tickets available",
+          "url": null
+        },
         "title:buddy": {
           "title": "Buddy",
           "ticket_available": false,
@@ -193,15 +203,6 @@
           "showtimes": [],
           "dates": [],
           "context": "Insidious: Out of the Further",
-          "url": null
-        },
-        "title:macbeth-verdi-italian-w-e-s-t-metropolitan-opera": {
-          "title": "Macbeth (Verdi) Italian w/e.s.t. – Metropolitan Opera",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Macbeth (Verdi) Italian w/e.s.t. – Metropolitan Opera Advance tickets available",
           "url": null
         },
         "title:mutiny": {
@@ -276,15 +277,16 @@
       "cddf12af6bc14ef5793b5ffa39a14e07bca51feb53cb3acac4702ae41ac72af7",
       "00bf90c0d344becee98d6466e527340ca160f59bc4dda0770567916b12fbd42d",
       "d8df082a61a40c5191bcacb6f7401d0ee55c7fa6a011318dca56c875e697e19e",
-      "ad121ed4bb57085f5c02a5abab71e9c1411310b757955cd0ebb60eca7a071a47"
+      "ad121ed4bb57085f5c02a5abab71e9c1411310b757955cd0ebb60eca7a071a47",
+      "e3fb68f0318987b8ceba5d24aa292f83a64080889e04a48dbb8183bb3e0389a0"
     ],
-    "revision": 23
+    "revision": 24
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan": {
     "name": "Cineplex Cinemas Vaughan",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "997e092fbd520b22f237f367866a2598c4d31f04b2e7d7c19b2578dfb2d435ad",
+    "hash": "96cf04cdfff646c6343871d2fe9ea084b98ecc8e8106eace8fc403ae3b23f435",
     "snapshot": {
       "page_title": "Cineplex Cinemas Vaughan",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan",
@@ -298,13 +300,22 @@
         "Advance tickets available"
       ],
       "movies": {
-        "title:buddy": {
-          "title": "Buddy",
-          "ticket_available": false,
+        "title:avengers-doomsday": {
+          "title": "Avengers: Doomsday",
+          "ticket_available": true,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Buddy",
+          "context": "Avengers: Doomsday Advance tickets available",
+          "url": null
+        },
+        "title:by-any-means": {
+          "title": "By Any Means",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "By Any Means Advance tickets available",
           "url": null
         },
         "title:coyote-vs-acme": {
@@ -316,6 +327,15 @@
           "context": "Coyote vs ACME",
           "url": null
         },
+        "title:dune-part-3": {
+          "title": "Dune: Part 3",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Dune: Part 3 Advance tickets available",
+          "url": null
+        },
         "title:fall-2-deadpoint": {
           "title": "Fall 2: Deadpoint",
           "ticket_available": false,
@@ -325,22 +345,13 @@
           "context": "Fall 2: Deadpoint",
           "url": null
         },
-        "title:finding-emily": {
-          "title": "Finding Emily",
-          "ticket_available": false,
+        "title:onslaught": {
+          "title": "Onslaught",
+          "ticket_available": true,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Finding Emily",
-          "url": null
-        },
-        "title:insidious-out-of-the-further": {
-          "title": "Insidious: Out of the Further",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Insidious: Out of the Further",
+          "context": "Onslaught Advance tickets available",
           "url": null
         },
         "title:practical-magic-2": {
@@ -370,15 +381,6 @@
           "context": "Spider-Man: Brand New Day",
           "url": null
         },
-        "title:the-dog-stars": {
-          "title": "The Dog Stars",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "The Dog Stars",
-          "url": null
-        },
         "title:the-odyssey": {
           "title": "The Odyssey",
           "ticket_available": false,
@@ -388,13 +390,13 @@
           "context": "The Odyssey",
           "url": null
         },
-        "title:tony": {
-          "title": "Tony",
-          "ticket_available": false,
+        "title:the-uprising": {
+          "title": "The Uprising",
+          "ticket_available": true,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Tony",
+          "context": "The Uprising Advance tickets available",
           "url": null
         }
       }
@@ -412,15 +414,16 @@
       "874a385d052c3e01d158675f2cd5877b976bc5f475e51b5969e495538a6d938c",
       "124a5e169485eee81ad12a3cbd2884545081b107c35ca6df38b0c4568affddc6",
       "5039c4823dc9fcbf947f9834ec2840d7cff3e22659b6761ed33207065a03e738",
-      "52d5f5c433e1a3116a4f11cb11394f079b8023c9f9d5a40e2ca2c14227c37056"
+      "52d5f5c433e1a3116a4f11cb11394f079b8023c9f9d5a40e2ca2c14227c37056",
+      "a343c1f9fb12d7ec463d9f3335a5e131b167caf4e6301265ae98ca522ba285ea"
     ],
-    "revision": 20
+    "revision": 21
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one": {
     "name": "Cineplex Cinemas Mississauga Square One",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "3fe15206d7d0efbefb3a4c8c05edd7f11217ecb4ad048236e37216d66ad55515",
+    "hash": "b842df42baa1d61863874ccb77d000b3e2137be0b609973becf9bfe00804cddd",
     "snapshot": {
       "page_title": "Cineplex Cinemas Mississauga Square One",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one",
@@ -434,6 +437,24 @@
         "Advance tickets available"
       ],
       "movies": {
+        "title:avengers-doomsday": {
+          "title": "Avengers: Doomsday",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Avengers: Doomsday Advance tickets available",
+          "url": null
+        },
+        "title:by-any-means": {
+          "title": "By Any Means",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "By Any Means Advance tickets available",
+          "url": null
+        },
         "title:coyote-vs-acme": {
           "title": "Coyote vs ACME",
           "ticket_available": false,
@@ -441,6 +462,15 @@
           "showtimes": [],
           "dates": [],
           "context": "Coyote vs ACME",
+          "url": null
+        },
+        "title:dune-part-3": {
+          "title": "Dune: Part 3",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Dune: Part 3 Advance tickets available",
           "url": null
         },
         "title:fall-2-deadpoint": {
@@ -461,13 +491,13 @@
           "context": "Insidious: Out of the Further",
           "url": null
         },
-        "title:mutiny": {
-          "title": "Mutiny",
-          "ticket_available": false,
+        "title:onslaught": {
+          "title": "Onslaught",
+          "ticket_available": true,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Mutiny",
+          "context": "Onslaught Advance tickets available",
           "url": null
         },
         "title:practical-magic-2": {
@@ -488,15 +518,6 @@
           "context": "Resident Evil Advance tickets available",
           "url": null
         },
-        "title:spa-weekend": {
-          "title": "Spa Weekend",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Spa Weekend",
-          "url": null
-        },
         "title:spider-man-brand-new-day": {
           "title": "Spider-Man: Brand New Day",
           "ticket_available": false,
@@ -506,15 +527,6 @@
           "context": "Spider-Man: Brand New Day",
           "url": null
         },
-        "title:the-dog-stars": {
-          "title": "The Dog Stars",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "The Dog Stars",
-          "url": null
-        },
         "title:the-odyssey": {
           "title": "The Odyssey",
           "ticket_available": false,
@@ -522,15 +534,6 @@
           "showtimes": [],
           "dates": [],
           "context": "The Odyssey",
-          "url": null
-        },
-        "title:tony": {
-          "title": "Tony",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Tony",
           "url": null
         }
       }
@@ -548,15 +551,16 @@
       "316022ad5487ad3b1c5b168aadbd6822587d7324311bb09fcc471df5ffb0d585",
       "d06ff1d50d5f737702a27d534328ba573dc022f6c0563958ae5d95c14e86eaab",
       "c1e24555ee21b16847c43a0e4cc9989f95f269c40bb5c5241f828b5d3dc7fc8e",
-      "fb2cdf75e8b543133c71fbe248e23cdc66c142adeb9a12a30929795cf18e8278"
+      "fb2cdf75e8b543133c71fbe248e23cdc66c142adeb9a12a30929795cf18e8278",
+      "b5a03cda75d88939f8bb012a473044df764cc4826c2284bf5caeb26bd04ab941"
     ],
-    "revision": 17
+    "revision": 18
   },
   "https://www.cineplex.com/en?theatresNearYou=true": {
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "7509bcddf447d4bc99af50f89579c2dee733d9697825b46fd8af66af69317d33",
+    "hash": "e85d90fca8ed760b6cf33a42c9e4f3f10cdeb7c6f81c2fe592c9ac4e3f6842fb",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -564,14 +568,14 @@
       "ticket_phrases": [],
       "showtimes": [],
       "dates": [
-        "Nov 19",
-        "Oct 7",
+        "Dec 18",
         "Sep 11",
         "Sep 18",
         "Sep 19",
         "Sep 21",
         "Sep 23",
         "Sep 24",
+        "Sep 25",
         "Sep 30",
         "Sep 4",
         "Sep 5",
@@ -586,19 +590,19 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Cinemas Abbotsford and VIP",
+        "Cineplex Odeon Westmount Cinemas and VIP",
         "Advance tickets",
         "SEP 11",
         "SEP 18",
-        "SEP 9",
+        "SEP 25",
+        "DEC 18",
         "SEP 4",
+        "SEP 9",
         "SEP 19",
-        "OCT 7",
-        "NOV 19",
+        "SEP 24",
+        "SEP 30",
         "Katy Perry: The Lifetimes Tour - Live From Paris - The IMAX Experience®",
         "SEP 5",
-        "SEP 30",
-        "SEP 24",
         "SEP 23",
         "SEP 21",
         "What are UltraAVX, IMAX, VIP, 4DX, ScreenX and D-BOX?"
@@ -614,12 +618,14 @@
           "url": "https://www.cineplex.com/movie/andre-rieus-2026-summer-concert-viva-maastricht"
         },
         "title:avengers-doomsday": {
-          "title": "Avengers Doomsday",
-          "ticket_available": false,
+          "title": "Avengers: Doomsday",
+          "ticket_available": true,
           "formats": [],
           "showtimes": [],
-          "dates": [],
-          "context": "",
+          "dates": [
+            "Dec 18"
+          ],
+          "context": "Advance tickets DEC 18 Avengers: Doomsday Watch trailer",
           "url": "https://www.cineplex.com/movie/avengers-doomsday"
         },
         "title:bol-bhavein-na-bol-punjabi-w-e-s-t": {
@@ -633,14 +639,16 @@
           "context": "Advance Tickets SEP 4 Bol Bhavein Na Bol (Punjabi w/e.s.t.)",
           "url": "https://www.cineplex.com/movie/bol-bhavein-na-bol-punjabi-west"
         },
-        "title:buddy": {
-          "title": "Buddy",
-          "ticket_available": false,
+        "title:by-any-means": {
+          "title": "By Any Means",
+          "ticket_available": true,
           "formats": [],
           "showtimes": [],
-          "dates": [],
-          "context": "Buddy Watch trailer",
-          "url": "https://www.cineplex.com/movie/buddy-2026"
+          "dates": [
+            "Sep 4"
+          ],
+          "context": "Advance tickets SEP 4 By Any Means Watch trailer",
+          "url": "https://www.cineplex.com/movie/by-any-means"
         },
         "title:chinese-all-wishes-come-true-mandarin-w-chinese-and-e-s-t": {
           "title": "Chinese All Wishes Come True! (Mandarin w/Chinese and e.s.t.)",
@@ -705,12 +713,14 @@
           "url": "https://www.cineplex.com/movie/dear-you-teochew-with-chinese-and-est"
         },
         "title:dune-part-3": {
-          "title": "Dune Part 3",
-          "ticket_available": false,
+          "title": "Dune: Part 3",
+          "ticket_available": true,
           "formats": [],
           "showtimes": [],
-          "dates": [],
-          "context": "",
+          "dates": [
+            "Dec 18"
+          ],
+          "context": "Advance tickets DEC 18 Dune: Part 3 Watch trailer",
           "url": "https://www.cineplex.com/movie/dune-part-3"
         },
         "title:fall-2-deadpoint": {
@@ -722,25 +732,25 @@
           "context": "Fall 2: Deadpoint Watch trailer",
           "url": "https://www.cineplex.com/movie/fall-2-deadpoint"
         },
-        "title:finding-emily": {
-          "title": "Finding Emily",
+        "title:forgotten-island": {
+          "title": "Forgotten Island",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [
+            "Sep 25"
+          ],
+          "context": "Coming soon SEP 25 Forgotten Island Watch trailer",
+          "url": "https://www.cineplex.com/movie/forgotten-island"
+        },
+        "title:ghost-2-big-to-rig": {
+          "title": "GHOST: 2 Big To Rig",
           "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Finding Emily Watch trailer",
-          "url": "https://www.cineplex.com/movie/finding-emily"
-        },
-        "title:giant-the-play": {
-          "title": "GIANT - The Play",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [
-            "Nov 19"
-          ],
-          "context": "Advance tickets NOV 19 GIANT - The Play",
-          "url": "https://www.cineplex.com/movie/giant-the-play"
+          "context": "GHOST: 2 Big To Rig Watch trailer",
+          "url": "https://www.cineplex.com/movie/ghost-2-big-to-rig"
         },
         "title:hindi-awarapan-2-hindi-w-e-s-t": {
           "title": "Hindi Awarapan 2 (Hindi w/e.s.t.)",
@@ -750,15 +760,6 @@
           "dates": [],
           "context": "Hindi Awarapan 2 (Hindi w/e.s.t.)",
           "url": "https://www.cineplex.com/movie/awarapan-2-hindi-west"
-        },
-        "title:hindi-batwara-1947-hindi-w-e-s-t": {
-          "title": "Hindi Batwara 1947 (Hindi w/e.s.t.)",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Hindi Batwara 1947 (Hindi w/e.s.t.)",
-          "url": "https://www.cineplex.com/movie/batwara-1947-hindi-west"
         },
         "title:hindi-toxic-hindi-w-e-s-t": {
           "title": "Hindi Toxic (Hindi w/e.s.t.)",
@@ -779,24 +780,6 @@
           ],
           "context": "Advance Tickets SEP 9 Hope (Korean w/e.s.t.) Watch trailer",
           "url": "https://www.cineplex.com/movie/hope-korean-west"
-        },
-        "title:idiots": {
-          "title": "Idiots",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Idiots Watch trailer",
-          "url": "https://www.cineplex.com/movie/idiots"
-        },
-        "title:insidious-out-of-the-further": {
-          "title": "Insidious: Out of the Further",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Insidious: Out of the Further Watch trailer",
-          "url": "https://www.cineplex.com/movie/insidious-out-of-the-further"
         },
         "title:katy-perry-the-lifetimes-tour-live-from-paris-the-imax-experience": {
           "title": "Katy Perry: The Lifetimes Tour - Live From Paris - The IMAX Experience®",
@@ -880,17 +863,6 @@
           "context": "Punjabi Yaar Jigree Kasooti Degree (Punjabi w/e.s.t.)",
           "url": "https://www.cineplex.com/movie/yaar-jigree-kasooti-degree-punjabi-west"
         },
-        "title:queen-budapest": {
-          "title": "Queen Budapest",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [
-            "Oct 7"
-          ],
-          "context": "Advance tickets OCT 7 Queen Budapest",
-          "url": "https://www.cineplex.com/movie/queen-budapest"
-        },
         "title:resident-evil": {
           "title": "Resident Evil",
           "ticket_available": true,
@@ -902,6 +874,15 @@
           "context": "Advance tickets SEP 18 Resident Evil Watch trailer",
           "url": "https://www.cineplex.com/movie/resident-evil-2026"
         },
+        "title:six-the-musical-live": {
+          "title": "SIX: THE MUSICAL LIVE!",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "SIX: THE MUSICAL LIVE! Watch trailer",
+          "url": "https://www.cineplex.com/movie/six-the-musical-live"
+        },
         "title:spider-man-brand-new-day": {
           "title": "Spider-Man: Brand New Day",
           "ticket_available": false,
@@ -910,15 +891,6 @@
           "dates": [],
           "context": "Spider-Man: Brand New Day Watch trailer",
           "url": "https://www.cineplex.com/movie/spiderman-brand-new-day"
-        },
-        "title:the-dog-stars": {
-          "title": "The Dog Stars",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "The Dog Stars Watch trailer",
-          "url": "https://www.cineplex.com/movie/the-dog-stars"
         },
         "title:the-misanthrope-national-theatre-live": {
           "title": "The Misanthrope - National Theatre Live",
@@ -939,6 +911,17 @@
           "dates": [],
           "context": "The Odyssey Watch trailer",
           "url": "https://www.cineplex.com/movie/the-odyssey"
+        },
+        "title:the-uprising": {
+          "title": "The Uprising",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [
+            "Sep 11"
+          ],
+          "context": "Advance tickets SEP 11 The Uprising Watch trailer",
+          "url": "https://www.cineplex.com/movie/the-uprising"
         },
         "title:twenty-years-of-the-met-in-cinemas-an-anniversary-celebration-captured-english-w-e-s-t-metropolitan-opera": {
           "title": "Twenty Years of the Met in Cinemas: An Anniversary Celebration (Captured) English w/e.s.t - Metropolitan Opera",
@@ -991,9 +974,12 @@
       "e1794544a17411759f5dcee7896250bfa8bc6b8764f01351457e5f39ee843bdb",
       "cd483674583f0aa194385d503a28addd5a1771d6fe787b8b51f84080cc4f243c",
       "204fdbd50c2a85db4bf1a7cda56f7a483683055bda8100bd3015a320f9d53757",
-      "d4f8bd596bdcbd646723949d9b248481ab43931e8695ac62d98062a590b37bba"
+      "d4f8bd596bdcbd646723949d9b248481ab43931e8695ac62d98062a590b37bba",
+      "76fe05a4c00142b415f4b33e3ea07bc577aceb24805888bae9674d1d2fe15da7",
+      "2213873d25e2c1bf4c8432dce5f859725987af84b56f62f2c993688b3864bf10",
+      "79c4ab5e274d7fb0cb9f5915179c19eaa5c96c250aa473e0d3c8b961634f73b0"
     ],
-    "revision": 656
+    "revision": 657
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
