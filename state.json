@@ -560,7 +560,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "cd2fc7c604c42f5a3492f6fa9785808f94323662cd0861c0aa9b2910fa11ce2a",
+    "hash": "901bbfddf0b147acbb530d6a46eb80ff2ef1f191cf80a6529397589781bde2c0",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -578,8 +578,7 @@
         "Sep 25",
         "Sep 30",
         "Sep 4",
-        "Sep 5",
-        "Sep 9"
+        "Sep 5"
       ],
       "formats": [
         "4DX",
@@ -590,14 +589,14 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Odeon McGillivray Cinemas and VIP",
+        "Cineplex Cinemas Abbotsford and VIP",
+        "Cineplex Cinemas Seton and VIP",
         "Advance tickets",
         "SEP 11",
         "SEP 18",
         "SEP 25",
         "DEC 18",
         "SEP 4",
-        "SEP 9",
         "SEP 19",
         "SEP 24",
         "SEP 30",
@@ -769,17 +768,6 @@
           "dates": [],
           "context": "Hindi Toxic (Hindi w/e.s.t.)",
           "url": "https://www.cineplex.com/movie/toxic-hindi-west"
-        },
-        "title:hope-korean-w-e-s-t": {
-          "title": "Hope (Korean w/e.s.t.)",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [
-            "Sep 9"
-          ],
-          "context": "Advance Tickets SEP 9 Hope (Korean w/e.s.t.) Watch trailer",
-          "url": "https://www.cineplex.com/movie/hope-korean-west"
         },
         "title:katy-perry-the-lifetimes-tour-live-from-paris-the-imax-experience": {
           "title": "Katy Perry: The Lifetimes Tour - Live From Paris - The IMAX Experience®",
@@ -979,7 +967,7 @@
       "2213873d25e2c1bf4c8432dce5f859725987af84b56f62f2c993688b3864bf10",
       "79c4ab5e274d7fb0cb9f5915179c19eaa5c96c250aa473e0d3c8b961634f73b0"
     ],
-    "revision": 658
+    "revision": 659
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
