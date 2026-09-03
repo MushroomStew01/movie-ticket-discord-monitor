@@ -560,7 +560,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "5e47e830d97e51141a564cfcdf700e11256fb11555831cc63e712d215b55c5d4",
+    "hash": "09aee89fbe747d34ab7d878bf53dceae3b117d61af59c6290b9b38a5f36bb876",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -589,7 +589,8 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Odeon Westmount Cinemas and VIP",
+        "Cineplex Cinemas Abbotsford and VIP",
+        "Cineplex Cinemas Seton and VIP",
         "Advance tickets",
         "SEP 11",
         "SEP 18",
@@ -910,6 +911,17 @@
           "context": "Advance tickets SEP 11 The Uprising Watch trailer",
           "url": "https://www.cineplex.com/movie/the-uprising"
         },
+        "title:tutt-paini-english-ne-punjabi-w-e-s-t": {
+          "title": "Tutt Paini English Ne (Punjabi w/e.s.t.)",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [
+            "Sep 25"
+          ],
+          "context": "Coming Soon SEP 25 Tutt Paini English Ne (Punjabi w/e.s.t.)",
+          "url": "https://www.cineplex.com/movie/tutt-paini-english-ne-punjabi-west"
+        },
         "title:twenty-years-of-the-met-in-cinemas-an-anniversary-celebration-captured-english-w-e-s-t-metropolitan-opera": {
           "title": "Twenty Years of the Met in Cinemas: An Anniversary Celebration (Captured) English w/e.s.t - Metropolitan Opera",
           "ticket_available": true,
@@ -964,9 +976,10 @@
       "d4f8bd596bdcbd646723949d9b248481ab43931e8695ac62d98062a590b37bba",
       "76fe05a4c00142b415f4b33e3ea07bc577aceb24805888bae9674d1d2fe15da7",
       "2213873d25e2c1bf4c8432dce5f859725987af84b56f62f2c993688b3864bf10",
-      "79c4ab5e274d7fb0cb9f5915179c19eaa5c96c250aa473e0d3c8b961634f73b0"
+      "79c4ab5e274d7fb0cb9f5915179c19eaa5c96c250aa473e0d3c8b961634f73b0",
+      "35c99df4d3a6a62ee4b3f602c2e5f0aa05df4f3b0e7566aef5a0967286278ca6"
     ],
-    "revision": 665
+    "revision": 666
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
