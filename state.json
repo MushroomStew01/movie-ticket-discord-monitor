@@ -561,7 +561,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "9f4172364d449c1020f4a65d54a5178c8dd357510f814dbc404a700394edad0b",
+    "hash": "2f15652c4e839e890e54a64c00b0385cec924ff542a5cf8233270dcbefbf8fe4",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -590,7 +590,8 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Odeon McGillivray Cinemas and VIP",
+        "Cineplex Cinemas Abbotsford and VIP",
+        "Cineplex Cinemas Seton and VIP",
         "Advance tickets",
         "SEP 11",
         "SEP 18",
@@ -599,7 +600,6 @@
         "SEP 19",
         "SEP 24",
         "SEP 30",
-        "Katy Perry: The Lifetimes Tour - Live From Paris - The IMAX Experience®",
         "SEP 5",
         "SEP 23",
         "SEP 21",
@@ -761,16 +761,14 @@
           "context": "Hindi Toxic (Hindi w/e.s.t.)",
           "url": "https://www.cineplex.com/movie/toxic-hindi-west"
         },
-        "title:katy-perry-the-lifetimes-tour-live-from-paris-the-imax-experience": {
-          "title": "Katy Perry: The Lifetimes Tour - Live From Paris - The IMAX Experience®",
+        "title:katy-perry-the-lifetimes-tour": {
+          "title": "Katy Perry: The Lifetimes Tour",
           "ticket_available": false,
-          "formats": [
-            "IMAX"
-          ],
+          "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Katy Perry: The Lifetimes Tour - Live From Paris - The IMAX Experience®",
-          "url": "https://www.cineplex.com/movie/imax-katy-perry-the-lifetimes-tour"
+          "context": "Katy Perry: The Lifetimes Tour",
+          "url": "https://www.cineplex.com/movie/katy-perry-the-lifetimes-tour"
         },
         "title:korean-colony-korean-w-e-s-t": {
           "title": "Korean Colony (Korean w/e.s.t.)",
@@ -982,9 +980,10 @@
       "79c4ab5e274d7fb0cb9f5915179c19eaa5c96c250aa473e0d3c8b961634f73b0",
       "35c99df4d3a6a62ee4b3f602c2e5f0aa05df4f3b0e7566aef5a0967286278ca6",
       "ba82aa62d4f3361c7af9a3c636120c1996201bfe1c4d1e88ff0356f6edfbafea",
-      "aec13961b3b4b349406e5f55a33d7d8cb7c5b9b5601a2f894af8680547e8b781"
+      "aec13961b3b4b349406e5f55a33d7d8cb7c5b9b5601a2f894af8680547e8b781",
+      "14acb32d7dad3729ecebcb23d6a355e2494f39535aa4a5f4468a537d624d99d6"
     ],
-    "revision": 670
+    "revision": 671
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
