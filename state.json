@@ -560,7 +560,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "09aee89fbe747d34ab7d878bf53dceae3b117d61af59c6290b9b38a5f36bb876",
+    "hash": "7a1a94640e986943ea7125c08fa3584334738240c77a2fb78d495848732d9c47",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -589,8 +589,8 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Cinemas Abbotsford and VIP",
-        "Cineplex Cinemas Seton and VIP",
+        "Cineplex Cinemas Oakville and VIP",
+        "Cineplex Cinemas Winston Churchill & VIP",
         "Advance tickets",
         "SEP 11",
         "SEP 18",
@@ -911,6 +911,17 @@
           "context": "Advance tickets SEP 11 The Uprising Watch trailer",
           "url": "https://www.cineplex.com/movie/the-uprising"
         },
+        "title:the-vvaan-force-of-the-forrest-hindi-w-e-s-t": {
+          "title": "The Vvaan: Force of the Forrest (Hindi w/e.s.t.)",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [
+            "Sep 25"
+          ],
+          "context": "Coming Soon SEP 25 The Vvaan: Force of the Forrest (Hindi w/e.s.t.)",
+          "url": "https://www.cineplex.com/movie/the-vvaan-force-of-the-forrest-hindi-west"
+        },
         "title:tutt-paini-english-ne-punjabi-w-e-s-t": {
           "title": "Tutt Paini English Ne (Punjabi w/e.s.t.)",
           "ticket_available": false,
@@ -977,9 +988,10 @@
       "76fe05a4c00142b415f4b33e3ea07bc577aceb24805888bae9674d1d2fe15da7",
       "2213873d25e2c1bf4c8432dce5f859725987af84b56f62f2c993688b3864bf10",
       "79c4ab5e274d7fb0cb9f5915179c19eaa5c96c250aa473e0d3c8b961634f73b0",
-      "35c99df4d3a6a62ee4b3f602c2e5f0aa05df4f3b0e7566aef5a0967286278ca6"
+      "35c99df4d3a6a62ee4b3f602c2e5f0aa05df4f3b0e7566aef5a0967286278ca6",
+      "ba82aa62d4f3361c7af9a3c636120c1996201bfe1c4d1e88ff0356f6edfbafea"
     ],
-    "revision": 666
+    "revision": 667
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
