@@ -3,7 +3,7 @@
     "name": "Cineplex Cinemas Kitchener and VIP",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "3a79d65a994cbfdb3bd7146c953816b8b3b3df7fa2a0e4f611a9a05bbd96a1c1",
+    "hash": "dfbef0d206a546fb2ac7ae6c6443768d6b4c7336869e86aad913da34efe03e57",
     "snapshot": {
       "page_title": "Cineplex Cinemas Kitchener and VIP",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-kitchener-and-vip",
@@ -69,11 +69,11 @@
         },
         "title:onslaught": {
           "title": "Onslaught",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Onslaught Advance tickets available",
+          "context": "Onslaught",
           "url": null
         },
         "title:practical-magic-2": {
@@ -140,13 +140,13 @@
       "ac254ef66593e78b8744127a3703c729617f15be36d2443d0eeb1fa6ec1121de",
       "e245a5e5c80ae5daf8f8ae17ce7e18c41644109e037f4c14f363dfcc42e0a810"
     ],
-    "revision": 24
+    "revision": 25
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge": {
     "name": "Cineplex Cinemas Cambridge",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "9389212e993b7dbc9b39520268dbdf0dae51bd47ca7ca280efbe020c33e33cd3",
+    "hash": "f947fa27bfa1bf805c9fa7828a7ed1a3c7ec7151c2c94ffbb68d50d4765702e8",
     "snapshot": {
       "page_title": "Cineplex Cinemas Cambridge",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge",
@@ -205,13 +205,13 @@
           "context": "Insidious: Out of the Further",
           "url": null
         },
-        "title:mutiny": {
-          "title": "Mutiny",
-          "ticket_available": false,
+        "title:macbeth-verdi-italian-w-e-s-t-metropolitan-opera": {
+          "title": "Macbeth (Verdi) Italian w/e.s.t. – Metropolitan Opera",
+          "ticket_available": true,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Mutiny",
+          "context": "Macbeth (Verdi) Italian w/e.s.t. – Metropolitan Opera Advance tickets available",
           "url": null
         },
         "title:paw-patrol-the-dino-movie": {
@@ -278,15 +278,16 @@
       "00bf90c0d344becee98d6466e527340ca160f59bc4dda0770567916b12fbd42d",
       "d8df082a61a40c5191bcacb6f7401d0ee55c7fa6a011318dca56c875e697e19e",
       "ad121ed4bb57085f5c02a5abab71e9c1411310b757955cd0ebb60eca7a071a47",
-      "e3fb68f0318987b8ceba5d24aa292f83a64080889e04a48dbb8183bb3e0389a0"
+      "e3fb68f0318987b8ceba5d24aa292f83a64080889e04a48dbb8183bb3e0389a0",
+      "ca450aeb69c851671cf49fe98299429a53567f27741abeff2bb1b1f072ceeaef"
     ],
-    "revision": 24
+    "revision": 25
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan": {
     "name": "Cineplex Cinemas Vaughan",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "96cf04cdfff646c6343871d2fe9ea084b98ecc8e8106eace8fc403ae3b23f435",
+    "hash": "b9cc992d3e64218ed9ac1f94795fab256fa06884539a53bf55d48d44cb79c109",
     "snapshot": {
       "page_title": "Cineplex Cinemas Vaughan",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan",
@@ -311,11 +312,11 @@
         },
         "title:by-any-means": {
           "title": "By Any Means",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "By Any Means Advance tickets available",
+          "context": "By Any Means",
           "url": null
         },
         "title:coyote-vs-acme": {
@@ -347,11 +348,11 @@
         },
         "title:onslaught": {
           "title": "Onslaught",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Onslaught Advance tickets available",
+          "context": "Onslaught",
           "url": null
         },
         "title:practical-magic-2": {
@@ -417,13 +418,13 @@
       "52d5f5c433e1a3116a4f11cb11394f079b8023c9f9d5a40e2ca2c14227c37056",
       "a343c1f9fb12d7ec463d9f3335a5e131b167caf4e6301265ae98ca522ba285ea"
     ],
-    "revision": 21
+    "revision": 22
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one": {
     "name": "Cineplex Cinemas Mississauga Square One",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "b842df42baa1d61863874ccb77d000b3e2137be0b609973becf9bfe00804cddd",
+    "hash": "23031e22785093a37a68985c31e0d7ae2f4832824953ae5e9d50b0701251e552",
     "snapshot": {
       "page_title": "Cineplex Cinemas Mississauga Square One",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one",
@@ -448,11 +449,11 @@
         },
         "title:by-any-means": {
           "title": "By Any Means",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "By Any Means Advance tickets available",
+          "context": "By Any Means",
           "url": null
         },
         "title:coyote-vs-acme": {
@@ -493,11 +494,11 @@
         },
         "title:onslaught": {
           "title": "Onslaught",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Onslaught Advance tickets available",
+          "context": "Onslaught",
           "url": null
         },
         "title:practical-magic-2": {
@@ -554,13 +555,13 @@
       "fb2cdf75e8b543133c71fbe248e23cdc66c142adeb9a12a30929795cf18e8278",
       "b5a03cda75d88939f8bb012a473044df764cc4826c2284bf5caeb26bd04ab941"
     ],
-    "revision": 18
+    "revision": 19
   },
   "https://www.cineplex.com/en?theatresNearYou=true": {
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "7a1a94640e986943ea7125c08fa3584334738240c77a2fb78d495848732d9c47",
+    "hash": "7cb25f894428f07ac2ec61b222399807cd6f9ccce4215269cefa15785267246d",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -569,6 +570,7 @@
       "showtimes": [],
       "dates": [
         "Dec 18",
+        "Oct 7",
         "Sep 11",
         "Sep 18",
         "Sep 19",
@@ -577,7 +579,6 @@
         "Sep 24",
         "Sep 25",
         "Sep 30",
-        "Sep 4",
         "Sep 5"
       ],
       "formats": [
@@ -589,14 +590,12 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Cinemas Oakville and VIP",
-        "Cineplex Cinemas Winston Churchill & VIP",
+        "Cineplex Odeon Westmount Cinemas and VIP",
         "Advance tickets",
         "SEP 11",
         "SEP 18",
         "SEP 25",
         "DEC 18",
-        "SEP 4",
         "SEP 19",
         "SEP 24",
         "SEP 30",
@@ -604,6 +603,7 @@
         "SEP 5",
         "SEP 23",
         "SEP 21",
+        "OCT 7",
         "What are UltraAVX, IMAX, VIP, 4DX, ScreenX and D-BOX?"
       ],
       "movies": {
@@ -627,26 +627,13 @@
           "context": "Advance tickets DEC 18 Avengers: Doomsday Watch trailer",
           "url": "https://www.cineplex.com/movie/avengers-doomsday"
         },
-        "title:bol-bhavein-na-bol-punjabi-w-e-s-t": {
-          "title": "Bol Bhavein Na Bol (Punjabi w/e.s.t.)",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [
-            "Sep 4"
-          ],
-          "context": "Advance Tickets SEP 4 Bol Bhavein Na Bol (Punjabi w/e.s.t.)",
-          "url": "https://www.cineplex.com/movie/bol-bhavein-na-bol-punjabi-west"
-        },
         "title:by-any-means": {
           "title": "By Any Means",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Sep 4"
-          ],
-          "context": "Advance tickets SEP 4 By Any Means Watch trailer",
+          "dates": [],
+          "context": "By Any Means Watch trailer",
           "url": "https://www.cineplex.com/movie/by-any-means"
         },
         "title:chinese-all-wishes-come-true-mandarin-w-chinese-and-e-s-t": {
@@ -671,13 +658,11 @@
         },
         "title:cocoon-one-summer-of-girlhood-japanese-w-e-s-t": {
           "title": "Cocoon - One Summer of Girlhood (Japanese w.e.s.t.)",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Sep 4"
-          ],
-          "context": "Advance tickets SEP 4 Cocoon - One Summer of Girlhood (Japanese w.e.s.t.)",
+          "dates": [],
+          "context": "Cocoon - One Summer of Girlhood (Japanese w.e.s.t.)",
           "url": "https://www.cineplex.com/movie/cocoon-one-summer-of-girlhood-japanese-w"
         },
         "title:coyote-vs-acme": {
@@ -702,13 +687,11 @@
         },
         "title:dear-you-teochew-with-chinese-and-e-s-t": {
           "title": "Dear You (Teochew with Chinese and e.s.t.)",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Sep 4"
-          ],
-          "context": "Advance Tickets SEP 4 Dear You (Teochew with Chinese and e.s.t.)",
+          "dates": [],
+          "context": "Dear You (Teochew with Chinese and e.s.t.)",
           "url": "https://www.cineplex.com/movie/dear-you-teochew-with-chinese-and-est"
         },
         "title:dune-part-3": {
@@ -760,6 +743,15 @@
           "context": "Hindi Awarapan 2 (Hindi w/e.s.t.)",
           "url": "https://www.cineplex.com/movie/awarapan-2-hindi-west"
         },
+        "title:hindi-mirzapur-the-movie-hindi-w-e-s-t": {
+          "title": "Hindi Mirzapur: The Movie (Hindi w/e.s.t.)",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Hindi Mirzapur: The Movie (Hindi w/e.s.t.)",
+          "url": "https://www.cineplex.com/movie/mirzapur-the-movie-hindi-west"
+        },
         "title:hindi-toxic-hindi-w-e-s-t": {
           "title": "Hindi Toxic (Hindi w/e.s.t.)",
           "ticket_available": false,
@@ -800,17 +792,6 @@
           "context": "Advance tickets SEP 30 LINKIN PARK: UNSHATTER",
           "url": "https://www.cineplex.com/movie/linkin-park-unshatter"
         },
-        "title:mirzapur-the-movie-hindi-w-e-s-t": {
-          "title": "Mirzapur: The Movie (Hindi w/e.s.t.)",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [
-            "Sep 4"
-          ],
-          "context": "Advance Tickets SEP 4 Mirzapur: The Movie (Hindi w/e.s.t.)",
-          "url": "https://www.cineplex.com/movie/mirzapur-the-movie-hindi-west"
-        },
         "title:practical-magic-2": {
           "title": "Practical Magic 2",
           "ticket_available": true,
@@ -833,6 +814,15 @@
           "context": "Advance tickets SEP 23 PULP: What Do You Do For An Encore?",
           "url": "https://www.cineplex.com/movie/pulp-what-do-you-do-for-an-encore"
         },
+        "title:punjabi-bol-bhavein-na-bol-punjabi-w-e-s-t": {
+          "title": "Punjabi Bol Bhavein Na Bol (Punjabi w/e.s.t.)",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Punjabi Bol Bhavein Na Bol (Punjabi w/e.s.t.)",
+          "url": "https://www.cineplex.com/movie/bol-bhavein-na-bol-punjabi-west"
+        },
         "title:punjabi-judaa-punjabi-w-e-s-t": {
           "title": "Punjabi Judaa (Punjabi w/e.s.t.)",
           "ticket_available": false,
@@ -851,6 +841,17 @@
           "context": "Punjabi Yaar Jigree Kasooti Degree (Punjabi w/e.s.t.)",
           "url": "https://www.cineplex.com/movie/yaar-jigree-kasooti-degree-punjabi-west"
         },
+        "title:queen-budapest": {
+          "title": "Queen Budapest",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [
+            "Oct 7"
+          ],
+          "context": "Advance tickets OCT 7 Queen Budapest",
+          "url": "https://www.cineplex.com/movie/queen-budapest"
+        },
         "title:resident-evil": {
           "title": "Resident Evil",
           "ticket_available": true,
@@ -861,15 +862,6 @@
           ],
           "context": "Advance tickets SEP 18 Resident Evil Watch trailer",
           "url": "https://www.cineplex.com/movie/resident-evil-2026"
-        },
-        "title:six-the-musical-live": {
-          "title": "SIX: THE MUSICAL LIVE!",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "SIX: THE MUSICAL LIVE! Watch trailer",
-          "url": "https://www.cineplex.com/movie/six-the-musical-live"
         },
         "title:spider-man-brand-new-day": {
           "title": "Spider-Man: Brand New Day",
@@ -989,9 +981,10 @@
       "2213873d25e2c1bf4c8432dce5f859725987af84b56f62f2c993688b3864bf10",
       "79c4ab5e274d7fb0cb9f5915179c19eaa5c96c250aa473e0d3c8b961634f73b0",
       "35c99df4d3a6a62ee4b3f602c2e5f0aa05df4f3b0e7566aef5a0967286278ca6",
-      "ba82aa62d4f3361c7af9a3c636120c1996201bfe1c4d1e88ff0356f6edfbafea"
+      "ba82aa62d4f3361c7af9a3c636120c1996201bfe1c4d1e88ff0356f6edfbafea",
+      "aec13961b3b4b349406e5f55a33d7d8cb7c5b9b5601a2f894af8680547e8b781"
     ],
-    "revision": 667
+    "revision": 668
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
