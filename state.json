@@ -561,7 +561,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "643a01541200d17df57b2988bd586f1af1a3b5e14bc447fda89f411634285925",
+    "hash": "2a1d7ed84291b090c232bc404efb1e6541daba74295bbca4e660c4d005731449",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -578,8 +578,7 @@
         "Sep 23",
         "Sep 24",
         "Sep 25",
-        "Sep 30",
-        "Sep 5"
+        "Sep 30"
       ],
       "formats": [
         "4DX",
@@ -591,6 +590,7 @@
       ],
       "relevant_lines": [
         "Cineplex Cinemas Abbotsford and VIP",
+        "Cineplex Cinemas Seton and VIP",
         "Advance tickets",
         "SEP 11",
         "SEP 18",
@@ -599,7 +599,6 @@
         "SEP 19",
         "SEP 24",
         "SEP 30",
-        "SEP 5",
         "SEP 23",
         "SEP 21",
         "OCT 7",
@@ -646,13 +645,11 @@
         },
         "title:cocoon-one-summer-of-girlhood": {
           "title": "Cocoon - One Summer of Girlhood",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Sep 5"
-          ],
-          "context": "Advance tickets SEP 5 Cocoon - One Summer of Girlhood",
+          "dates": [],
+          "context": "Cocoon - One Summer of Girlhood",
           "url": "https://www.cineplex.com/movie/cocoon-one-summer-of-girlhood"
         },
         "title:cocoon-one-summer-of-girlhood-japanese-w-e-s-t": {
@@ -860,6 +857,17 @@
           "context": "Advance tickets SEP 18 Resident Evil Watch trailer",
           "url": "https://www.cineplex.com/movie/resident-evil-2026"
         },
+        "title:singh-vs-kaur-2-punjabi-w-e-s-t": {
+          "title": "Singh vs Kaur 2 (Punjabi w/e.s.t.)",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [
+            "Sep 11"
+          ],
+          "context": "Coming Soon SEP 11 Singh vs Kaur 2 (Punjabi w/e.s.t.)",
+          "url": "https://www.cineplex.com/movie/singh-vs-kaur-2-punjabi-west"
+        },
         "title:spider-man-brand-new-day": {
           "title": "Spider-Man: Brand New Day",
           "ticket_available": false,
@@ -910,17 +918,6 @@
           ],
           "context": "Coming Soon SEP 25 The Vvaan: Force of the Forrest (Hindi w/e.s.t.)",
           "url": "https://www.cineplex.com/movie/the-vvaan-force-of-the-forrest-hindi-west"
-        },
-        "title:tutt-paini-english-ne-punjabi-w-e-s-t": {
-          "title": "Tutt Paini English Ne (Punjabi w/e.s.t.)",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [
-            "Sep 25"
-          ],
-          "context": "Coming Soon SEP 25 Tutt Paini English Ne (Punjabi w/e.s.t.)",
-          "url": "https://www.cineplex.com/movie/tutt-paini-english-ne-punjabi-west"
         },
         "title:twenty-years-of-the-met-in-cinemas-an-anniversary-celebration-captured-english-w-e-s-t-metropolitan-opera": {
           "title": "Twenty Years of the Met in Cinemas: An Anniversary Celebration (Captured) English w/e.s.t - Metropolitan Opera",
@@ -980,9 +977,10 @@
       "35c99df4d3a6a62ee4b3f602c2e5f0aa05df4f3b0e7566aef5a0967286278ca6",
       "ba82aa62d4f3361c7af9a3c636120c1996201bfe1c4d1e88ff0356f6edfbafea",
       "aec13961b3b4b349406e5f55a33d7d8cb7c5b9b5601a2f894af8680547e8b781",
-      "14acb32d7dad3729ecebcb23d6a355e2494f39535aa4a5f4468a537d624d99d6"
+      "14acb32d7dad3729ecebcb23d6a355e2494f39535aa4a5f4468a537d624d99d6",
+      "64d9b3ac2e0584c148c41ab99a6571fcbf470542e6f348a731e5d9d7525f4a6b"
     ],
-    "revision": 675
+    "revision": 676
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
