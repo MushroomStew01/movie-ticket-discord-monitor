@@ -568,7 +568,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "dc0fc35eb3f893da680c445fe21c9b0b6996194fb4b7196f88ac35ad95ca95f9",
+    "hash": "632d1bef546561185bbc0c15e16ce8dc82ab98a9248c23f7c8e1f1e022333fb9",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -577,6 +577,7 @@
       "showtimes": [],
       "dates": [
         "Dec 18",
+        "Oct 22",
         "Oct 7",
         "Sep 11",
         "Sep 18",
@@ -597,7 +598,6 @@
       ],
       "relevant_lines": [
         "Cineplex Odeon Westmount Cinemas and VIP",
-        "Cineplex Cinemas Kitchener and VIP",
         "Advance tickets",
         "SEP 11",
         "SEP 18",
@@ -609,6 +609,7 @@
         "SEP 23",
         "SEP 21",
         "OCT 7",
+        "OCT 22",
         "What are UltraAVX, IMAX, VIP, 4DX, ScreenX and D-BOX?"
       ],
       "movies": {
@@ -717,6 +718,17 @@
           "context": "Fall 2: Deadpoint Watch trailer",
           "url": "https://www.cineplex.com/movie/fall-2-deadpoint"
         },
+        "title:fallen-angels-by-no-l-coward": {
+          "title": "Fallen Angels by Noël Coward",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [
+            "Oct 22"
+          ],
+          "context": "Advance tickets OCT 22 Fallen Angels by Noël Coward",
+          "url": "https://www.cineplex.com/movie/fallen-angels-by-noel-coward"
+        },
         "title:forgotten-island": {
           "title": "Forgotten Island",
           "ticket_available": false,
@@ -763,15 +775,6 @@
           "dates": [],
           "context": "Hindi Toxic (Hindi w/e.s.t.)",
           "url": "https://www.cineplex.com/movie/toxic-hindi-west"
-        },
-        "title:katy-perry-the-lifetimes-tour": {
-          "title": "Katy Perry: The Lifetimes Tour",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Katy Perry: The Lifetimes Tour",
-          "url": "https://www.cineplex.com/movie/katy-perry-the-lifetimes-tour"
         },
         "title:korean-colony-korean-w-e-s-t": {
           "title": "Korean Colony (Korean w/e.s.t.)",
@@ -985,9 +988,10 @@
       "ba82aa62d4f3361c7af9a3c636120c1996201bfe1c4d1e88ff0356f6edfbafea",
       "aec13961b3b4b349406e5f55a33d7d8cb7c5b9b5601a2f894af8680547e8b781",
       "14acb32d7dad3729ecebcb23d6a355e2494f39535aa4a5f4468a537d624d99d6",
-      "64d9b3ac2e0584c148c41ab99a6571fcbf470542e6f348a731e5d9d7525f4a6b"
+      "64d9b3ac2e0584c148c41ab99a6571fcbf470542e6f348a731e5d9d7525f4a6b",
+      "f91b627f07b58113c7aab06a8a581d8bfe769b1d61aa982ed0a354aac18a0732"
     ],
-    "revision": 683
+    "revision": 684
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
