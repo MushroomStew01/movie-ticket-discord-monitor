@@ -3,7 +3,7 @@
     "name": "Cineplex Cinemas Kitchener and VIP",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "dfbe88f84c8628b5d3be94ccbb71af3171317912934d073f160aaab95638cbf8",
+    "hash": "d25a8a9f42a19e8ac859098eb36a6535d83d8d114b09162639ab973b1386031c",
     "snapshot": {
       "page_title": "Cineplex Cinemas Kitchener and VIP",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-kitchener-and-vip",
@@ -85,15 +85,6 @@
           "context": "Onslaught",
           "url": null
         },
-        "title:paw-patrol-the-dino-movie": {
-          "title": "Paw Patrol: The Dino Movie",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Paw Patrol: The Dino Movie",
-          "url": null
-        },
         "title:practical-magic-2": {
           "title": "Practical Magic 2",
           "ticket_available": true,
@@ -112,15 +103,6 @@
           "context": "Resident Evil Advance tickets available",
           "url": null
         },
-        "title:spa-weekend": {
-          "title": "Spa Weekend",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Spa Weekend",
-          "url": null
-        },
         "title:spider-man-brand-new-day": {
           "title": "Spider-Man: Brand New Day",
           "ticket_available": false,
@@ -128,24 +110,6 @@
           "showtimes": [],
           "dates": [],
           "context": "Spider-Man: Brand New Day",
-          "url": null
-        },
-        "title:the-dog-stars": {
-          "title": "The Dog Stars",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "The Dog Stars",
-          "url": null
-        },
-        "title:the-end-of-oak-street": {
-          "title": "The End of Oak Street",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "The End of Oak Street",
           "url": null
         },
         "title:the-odyssey": {
@@ -179,13 +143,13 @@
       "f5807eaff6e1a95cb140dd861af6d9acd75c92edf9c0afcb6d21c9255a7347b5",
       "ae568c4dae551edd5a3320089096bee5c271719a2db2be81cdb9c51a01bde372"
     ],
-    "revision": 30
+    "revision": 31
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge": {
     "name": "Cineplex Cinemas Cambridge",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "0918a833c41dce50c95a3c946625441761a3006877f86e00bb848d73cc38be85",
+    "hash": "2e457efbba214519f70daaaf7d8f965c3ce81c228c92121943d5e296933cae82",
     "snapshot": {
       "page_title": "Cineplex Cinemas Cambridge",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge",
@@ -215,15 +179,6 @@
           "showtimes": [],
           "dates": [],
           "context": "Buddy",
-          "url": null
-        },
-        "title:carmen-encore-bizet-french-w-e-s-t-metropolitan-opera": {
-          "title": "Carmen Encore (Bizet) - French w/e.s.t. – Metropolitan Opera",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Carmen Encore (Bizet) - French w/e.s.t. – Metropolitan Opera Advance tickets available",
           "url": null
         },
         "title:cos-fan-tutte-mozart-italian-w-e-s-t-metropolitan-opera": {
@@ -262,51 +217,6 @@
           "context": "Insidious: Out of the Further",
           "url": null
         },
-        "title:la-fanciulla-del-west-puccini-italian-w-e-s-t-metropolitan-opera": {
-          "title": "La Fanciulla del West (Puccini) Italian w/e.s.t. - Metropolitan Opera",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "La Fanciulla del West (Puccini) Italian w/e.s.t. - Metropolitan Opera Advance tickets available",
-          "url": null
-        },
-        "title:macbeth-verdi-italian-w-e-s-t-metropolitan-opera": {
-          "title": "Macbeth (Verdi) Italian w/e.s.t. – Metropolitan Opera",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Macbeth (Verdi) Italian w/e.s.t. – Metropolitan Opera Advance tickets available",
-          "url": null
-        },
-        "title:manon-massenet-french-w-e-s-t-metropolitan-opera": {
-          "title": "Manon (Massenet) French w/e.s.t. – Metropolitan Opera",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Manon (Massenet) French w/e.s.t. – Metropolitan Opera Advance tickets available",
-          "url": null
-        },
-        "title:otello-verdi-italian-w-e-s-t-metropolitan-opera": {
-          "title": "Otello (Verdi) Italian w/e.s.t. - Metropolitan Opera",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Otello (Verdi) Italian w/e.s.t. - Metropolitan Opera Advance tickets available",
-          "url": null
-        },
-        "title:parsifal-wagner-german-w-e-s-t-metropolitan-opera": {
-          "title": "Parsifal (Wagner) German w/e.s.t. – Metropolitan Opera",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Parsifal (Wagner) German w/e.s.t. – Metropolitan Opera Advance tickets available",
-          "url": null
-        },
         "title:paw-patrol-the-dino-movie": {
           "title": "Paw Patrol: The Dino Movie",
           "ticket_available": false,
@@ -314,24 +224,6 @@
           "showtimes": [],
           "dates": [],
           "context": "Paw Patrol: The Dino Movie",
-          "url": null
-        },
-        "title:samson-et-dalila-saint-sa-ns-french-w-e-s-t-metropolitan-opera": {
-          "title": "Samson et Dalila (Saint-Saëns) - French w/e.s.t. - Metropolitan Opera",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Samson et Dalila (Saint-Saëns) - French w/e.s.t. - Metropolitan Opera Advance tickets available",
-          "url": null
-        },
-        "title:silent-night-kevin-puts-english-w-e-s-t-metropolitan-opera": {
-          "title": "Silent Night (Kevin Puts) English w/e.s.t. – Metropolitan Opera",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Silent Night (Kevin Puts) English w/e.s.t. – Metropolitan Opera Advance tickets available",
           "url": null
         },
         "title:spider-man-brand-new-day": {
@@ -352,15 +244,6 @@
           "context": "The Dog Stars",
           "url": null
         },
-        "title:the-magic-flute-encore-mozart-english-w-e-s-t-metropolitan-opera": {
-          "title": "The Magic Flute Encore (Mozart) English w/e.s.t - Metropolitan Opera",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "The Magic Flute Encore (Mozart) English w/e.s.t - Metropolitan Opera Advance tickets available",
-          "url": null
-        },
         "title:the-odyssey": {
           "title": "The Odyssey",
           "ticket_available": false,
@@ -368,15 +251,6 @@
           "showtimes": [],
           "dates": [],
           "context": "The Odyssey",
-          "url": null
-        },
-        "title:tosca-encore-puccini-italian-w-e-s-t-metropolitan-opera": {
-          "title": "Tosca Encore (Puccini) Italian w/e.s.t. - Metropolitan Opera",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Tosca Encore (Puccini) Italian w/e.s.t. - Metropolitan Opera Advance tickets available",
           "url": null
         },
         "title:twenty-years-of-the-met-in-cinemas-an-anniversary-celebration-captured-english-w-e-s-t-metropolitan-opera": {
@@ -413,13 +287,13 @@
       "7a9175632d43b37886c0aeec29a4abb06de573e1c1bda399e2cc6f5338794165",
       "8898cee9b77247541d3f9df701c8a66df4b57c6ac401685dca9c947dd84a7a80"
     ],
-    "revision": 30
+    "revision": 31
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan": {
     "name": "Cineplex Cinemas Vaughan",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "22b491c53f96654add3ed9e5d3605aaabeacc69403341d135344be794e025f56",
+    "hash": "93e0571acd2d8bb4980ea8d3a7356bbbb5b16119d7a3c81be2cae5176ca8f7b2",
     "snapshot": {
       "page_title": "Cineplex Cinemas Vaughan",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan",
@@ -433,15 +307,6 @@
         "Advance tickets available"
       ],
       "movies": {
-        "title:andr-rieu-s-2026-summer-concert-viva-maastricht": {
-          "title": "André Rieu's 2026 Summer Concert: Viva Maastricht!",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "André Rieu's 2026 Summer Concert: Viva Maastricht!",
-          "url": null
-        },
         "title:avengers-doomsday": {
           "title": "Avengers: Doomsday",
           "ticket_available": true,
@@ -449,42 +314,6 @@
           "showtimes": [],
           "dates": [],
           "context": "Avengers: Doomsday Advance tickets available",
-          "url": null
-        },
-        "title:avengers-endgame-encore": {
-          "title": "Avengers Endgame: Encore",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Avengers Endgame: Encore Advance tickets available",
-          "url": null
-        },
-        "title:awarapan-2-hindi-w-e-s-t": {
-          "title": "Awarapan 2 (Hindi w/e.s.t.)",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Awarapan 2 (Hindi w/e.s.t.)",
-          "url": null
-        },
-        "title:bol-bhavein-na-bol-punjabi-w-e-s-t": {
-          "title": "Bol Bhavein Na Bol (Punjabi w/e.s.t.)",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Bol Bhavein Na Bol (Punjabi w/e.s.t.)",
-          "url": null
-        },
-        "title:buddy": {
-          "title": "Buddy",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Buddy",
           "url": null
         },
         "title:by-any-means": {
@@ -496,42 +325,6 @@
           "context": "By Any Means",
           "url": null
         },
-        "title:carmen-encore-bizet-french-w-e-s-t-metropolitan-opera": {
-          "title": "Carmen Encore (Bizet) - French w/e.s.t. – Metropolitan Opera",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Carmen Encore (Bizet) - French w/e.s.t. – Metropolitan Opera Advance tickets available",
-          "url": null
-        },
-        "title:cars-20th-anniversary": {
-          "title": "Cars 20th Anniversary",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Cars 20th Anniversary",
-          "url": null
-        },
-        "title:cocoon-one-summer-of-girlhood-japanese-w-e-s-t": {
-          "title": "Cocoon - One Summer of Girlhood (Japanese w.e.s.t.)",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Cocoon - One Summer of Girlhood (Japanese w.e.s.t.)",
-          "url": null
-        },
-        "title:cos-fan-tutte-mozart-italian-w-e-s-t-metropolitan-opera": {
-          "title": "Così fan tutte (Mozart) Italian w/e.s.t. – Metropolitan Opera",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Così fan tutte (Mozart) Italian w/e.s.t. – Metropolitan Opera Advance tickets available",
-          "url": null
-        },
         "title:coyote-vs-acme": {
           "title": "Coyote vs ACME",
           "ticket_available": false,
@@ -539,15 +332,6 @@
           "showtimes": [],
           "dates": [],
           "context": "Coyote vs ACME",
-          "url": null
-        },
-        "title:crunchyroll-anime-nights-sneak-peek-japanese-w-e-s-t": {
-          "title": "Crunchyroll Anime Nights Sneak Peek! (Japanese w.e.s.t.)",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Crunchyroll Anime Nights Sneak Peek! (Japanese w.e.s.t.) Advance tickets available",
           "url": null
         },
         "title:dune-part-3": {
@@ -568,24 +352,6 @@
           "context": "Fall 2: Deadpoint",
           "url": null
         },
-        "title:fallen-angels-by-no-l-coward": {
-          "title": "Fallen Angels by Noël Coward",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Fallen Angels by Noël Coward Advance tickets available",
-          "url": null
-        },
-        "title:finding-emily": {
-          "title": "Finding Emily",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Finding Emily",
-          "url": null
-        },
         "title:forgotten-island": {
           "title": "Forgotten Island",
           "ticket_available": true,
@@ -593,168 +359,6 @@
           "showtimes": [],
           "dates": [],
           "context": "Forgotten Island Advance tickets available",
-          "url": null
-        },
-        "title:ghost-in-the-shell": {
-          "title": "Ghost in the Shell",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Ghost in the Shell",
-          "url": null
-        },
-        "title:ghost-in-the-shell-30th-anniversary-4k-japanese-w-e-s-t": {
-          "title": "Ghost in the Shell 30th Anniversary - 4K (Japanese w/e.s.t.)",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Ghost in the Shell 30th Anniversary - 4K (Japanese w/e.s.t.) Advance tickets available",
-          "url": null
-        },
-        "title:giant-the-play": {
-          "title": "GIANT - The Play",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "GIANT - The Play Advance tickets available",
-          "url": null
-        },
-        "title:golden-boy-national-theatre-live": {
-          "title": "Golden Boy - National Theatre Live",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Golden Boy - National Theatre Live Advance tickets available",
-          "url": null
-        },
-        "title:guillermo-del-toro-s-pan-s-labyrinth-20th-anniversary-spanish-w-e-s-t": {
-          "title": "Guillermo del Toro's Pan's Labyrinth 20th Anniversary (Spanish w/e.s.t.)",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Guillermo del Toro's Pan's Labyrinth 20th Anniversary (Spanish w/e.s.t.) Advance tickets available",
-          "url": null
-        },
-        "title:heart-of-the-beast": {
-          "title": "Heart of the Beast",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Heart of the Beast Advance tickets available",
-          "url": null
-        },
-        "title:hope-korean-w-e-s-t": {
-          "title": "Hope (Korean w/e.s.t.)",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Hope (Korean w/e.s.t.) Advance tickets available",
-          "url": null
-        },
-        "title:insidious-out-of-the-further": {
-          "title": "Insidious: Out of the Further",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Insidious: Out of the Further",
-          "url": null
-        },
-        "title:la-fanciulla-del-west-puccini-italian-w-e-s-t-metropolitan-opera": {
-          "title": "La Fanciulla del West (Puccini) Italian w/e.s.t. - Metropolitan Opera",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "La Fanciulla del West (Puccini) Italian w/e.s.t. - Metropolitan Opera Advance tickets available",
-          "url": null
-        },
-        "title:linkin-park-unshatter": {
-          "title": "LINKIN PARK: UNSHATTER",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "LINKIN PARK: UNSHATTER Advance tickets available",
-          "url": null
-        },
-        "title:macbeth-verdi-italian-w-e-s-t-metropolitan-opera": {
-          "title": "Macbeth (Verdi) Italian w/e.s.t. – Metropolitan Opera",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Macbeth (Verdi) Italian w/e.s.t. – Metropolitan Opera Advance tickets available",
-          "url": null
-        },
-        "title:manon-massenet-french-w-e-s-t-metropolitan-opera": {
-          "title": "Manon (Massenet) French w/e.s.t. – Metropolitan Opera",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Manon (Massenet) French w/e.s.t. – Metropolitan Opera Advance tickets available",
-          "url": null
-        },
-        "title:mirzapur-the-movie-hindi-w-e-s-t": {
-          "title": "Mirzapur: The Movie (Hindi w/e.s.t.)",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Mirzapur: The Movie (Hindi w/e.s.t.)",
-          "url": null
-        },
-        "title:mutiny": {
-          "title": "Mutiny",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Mutiny",
-          "url": null
-        },
-        "title:onslaught": {
-          "title": "Onslaught",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Onslaught",
-          "url": null
-        },
-        "title:otello-verdi-italian-w-e-s-t-metropolitan-opera": {
-          "title": "Otello (Verdi) Italian w/e.s.t. - Metropolitan Opera",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Otello (Verdi) Italian w/e.s.t. - Metropolitan Opera Advance tickets available",
-          "url": null
-        },
-        "title:parsifal-wagner-german-w-e-s-t-metropolitan-opera": {
-          "title": "Parsifal (Wagner) German w/e.s.t. – Metropolitan Opera",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Parsifal (Wagner) German w/e.s.t. – Metropolitan Opera Advance tickets available",
-          "url": null
-        },
-        "title:paw-patrol-the-dino-movie": {
-          "title": "Paw Patrol: The Dino Movie",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Paw Patrol: The Dino Movie",
           "url": null
         },
         "title:practical-magic-2": {
@@ -766,24 +370,6 @@
           "context": "Practical Magic 2 Advance tickets available",
           "url": null
         },
-        "title:pulp-what-do-you-do-for-an-encore": {
-          "title": "PULP: What Do You Do For An Encore?",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "PULP: What Do You Do For An Encore? Advance tickets available",
-          "url": null
-        },
-        "title:queen-budapest": {
-          "title": "Queen Budapest",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Queen Budapest Advance tickets available",
-          "url": null
-        },
         "title:resident-evil": {
           "title": "Resident Evil",
           "ticket_available": true,
@@ -791,33 +377,6 @@
           "showtimes": [],
           "dates": [],
           "context": "Resident Evil Advance tickets available",
-          "url": null
-        },
-        "title:samson-et-dalila-saint-sa-ns-french-w-e-s-t-metropolitan-opera": {
-          "title": "Samson et Dalila (Saint-Saëns) - French w/e.s.t. - Metropolitan Opera",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Samson et Dalila (Saint-Saëns) - French w/e.s.t. - Metropolitan Opera Advance tickets available",
-          "url": null
-        },
-        "title:silent-night-kevin-puts-english-w-e-s-t-metropolitan-opera": {
-          "title": "Silent Night (Kevin Puts) English w/e.s.t. – Metropolitan Opera",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Silent Night (Kevin Puts) English w/e.s.t. – Metropolitan Opera Advance tickets available",
-          "url": null
-        },
-        "title:spa-weekend": {
-          "title": "Spa Weekend",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Spa Weekend",
           "url": null
         },
         "title:spider-man-brand-new-day": {
@@ -829,42 +388,6 @@
           "context": "Spider-Man: Brand New Day",
           "url": null
         },
-        "title:the-dog-stars": {
-          "title": "The Dog Stars",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "The Dog Stars",
-          "url": null
-        },
-        "title:the-end-of-oak-street": {
-          "title": "The End of Oak Street",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "The End of Oak Street",
-          "url": null
-        },
-        "title:the-magic-flute-encore-mozart-english-w-e-s-t-metropolitan-opera": {
-          "title": "The Magic Flute Encore (Mozart) English w/e.s.t - Metropolitan Opera",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "The Magic Flute Encore (Mozart) English w/e.s.t - Metropolitan Opera Advance tickets available",
-          "url": null
-        },
-        "title:the-misanthrope-national-theatre-live": {
-          "title": "The Misanthrope - National Theatre Live",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "The Misanthrope - National Theatre Live Advance tickets available",
-          "url": null
-        },
         "title:the-odyssey": {
           "title": "The Odyssey",
           "ticket_available": false,
@@ -874,24 +397,6 @@
           "context": "The Odyssey",
           "url": null
         },
-        "title:the-passion-of-the-christ-2026-event": {
-          "title": "The Passion of the Christ (2026 Event)",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "The Passion of the Christ (2026 Event) Advance tickets available",
-          "url": null
-        },
-        "title:the-transformers-the-movie-the-apology-tour-40th-anniversary": {
-          "title": "The Transformers: The Movie: The Apology Tour 40th Anniversary",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "The Transformers: The Movie: The Apology Tour 40th Anniversary Advance tickets available",
-          "url": null
-        },
         "title:the-uprising": {
           "title": "The Uprising",
           "ticket_available": true,
@@ -899,51 +404,6 @@
           "showtimes": [],
           "dates": [],
           "context": "The Uprising Advance tickets available",
-          "url": null
-        },
-        "title:tosca-encore-puccini-italian-w-e-s-t-metropolitan-opera": {
-          "title": "Tosca Encore (Puccini) Italian w/e.s.t. - Metropolitan Opera",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Tosca Encore (Puccini) Italian w/e.s.t. - Metropolitan Opera Advance tickets available",
-          "url": null
-        },
-        "title:toxic-hindi-w-e-s-t": {
-          "title": "Toxic (Hindi w/e.s.t.)",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Toxic (Hindi w/e.s.t.)",
-          "url": null
-        },
-        "title:twenty-years-of-the-met-in-cinemas-an-anniversary-celebration-captured-english-w-e-s-t-metropolitan-opera": {
-          "title": "Twenty Years of the Met in Cinemas: An Anniversary Celebration (Captured) English w/e.s.t - Metropolitan Opera",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Twenty Years of the Met in Cinemas: An Anniversary Celebration (Captured) English w/e.s.t - Metropolitan Opera Advance tickets available",
-          "url": null
-        },
-        "title:verity": {
-          "title": "Verity",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Verity Advance tickets available",
-          "url": null
-        },
-        "title:verity-early-access-screening": {
-          "title": "Verity - Early Access Screening",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Verity - Early Access Screening Advance tickets available",
           "url": null
         }
       }
@@ -966,13 +426,13 @@
       "e9cd60edb0dcfeb2774bf652a9351c29a2c4bc9df84781abc8417ab544e5716e",
       "4dbd925f9c4a12654b89cd644214302902ef67cdfc4dac0634116a7c2f4f9561"
     ],
-    "revision": 25
+    "revision": 26
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one": {
     "name": "Cineplex Cinemas Mississauga Square One",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "5aa46a901d402b1a01b93616ec62bd6a1af9e6897db7466624aa3295aa283c56",
+    "hash": "23031e22785093a37a68985c31e0d7ae2f4832824953ae5e9d50b0701251e552",
     "snapshot": {
       "page_title": "Cineplex Cinemas Mississauga Square One",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one",
@@ -993,15 +453,6 @@
           "showtimes": [],
           "dates": [],
           "context": "Avengers: Doomsday Advance tickets available",
-          "url": null
-        },
-        "title:bol-bhavein-na-bol-punjabi-w-e-s-t": {
-          "title": "Bol Bhavein Na Bol (Punjabi w/e.s.t.)",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Bol Bhavein Na Bol (Punjabi w/e.s.t.)",
           "url": null
         },
         "title:by-any-means": {
@@ -1040,15 +491,6 @@
           "context": "Fall 2: Deadpoint",
           "url": null
         },
-        "title:heart-of-the-beast": {
-          "title": "Heart of the Beast",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Heart of the Beast Advance tickets available",
-          "url": null
-        },
         "title:insidious-out-of-the-further": {
           "title": "Insidious: Out of the Further",
           "ticket_available": false,
@@ -1056,33 +498,6 @@
           "showtimes": [],
           "dates": [],
           "context": "Insidious: Out of the Further",
-          "url": null
-        },
-        "title:mirzapur-the-movie-hindi-w-e-s-t": {
-          "title": "Mirzapur: The Movie (Hindi w/e.s.t.)",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Mirzapur: The Movie (Hindi w/e.s.t.)",
-          "url": null
-        },
-        "title:mutiny": {
-          "title": "Mutiny",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Mutiny",
-          "url": null
-        },
-        "title:obsession": {
-          "title": "Obsession",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Obsession",
           "url": null
         },
         "title:onslaught": {
@@ -1094,15 +509,6 @@
           "context": "Onslaught",
           "url": null
         },
-        "title:paw-patrol-the-dino-movie": {
-          "title": "Paw Patrol: The Dino Movie",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Paw Patrol: The Dino Movie",
-          "url": null
-        },
         "title:practical-magic-2": {
           "title": "Practical Magic 2",
           "ticket_available": true,
@@ -1110,15 +516,6 @@
           "showtimes": [],
           "dates": [],
           "context": "Practical Magic 2 Advance tickets available",
-          "url": null
-        },
-        "title:queen-budapest": {
-          "title": "Queen Budapest",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Queen Budapest Advance tickets available",
           "url": null
         },
         "title:resident-evil": {
@@ -1139,24 +536,6 @@
           "context": "Spider-Man: Brand New Day",
           "url": null
         },
-        "title:the-dog-stars": {
-          "title": "The Dog Stars",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "The Dog Stars",
-          "url": null
-        },
-        "title:the-end-of-oak-street": {
-          "title": "The End of Oak Street",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "The End of Oak Street",
-          "url": null
-        },
         "title:the-odyssey": {
           "title": "The Odyssey",
           "ticket_available": false,
@@ -1164,33 +543,6 @@
           "showtimes": [],
           "dates": [],
           "context": "The Odyssey",
-          "url": null
-        },
-        "title:toxic-hindi-w-e-s-t": {
-          "title": "Toxic (Hindi w/e.s.t.)",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Toxic (Hindi w/e.s.t.)",
-          "url": null
-        },
-        "title:toy-story-5": {
-          "title": "Toy Story 5",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Toy Story 5",
-          "url": null
-        },
-        "title:verity": {
-          "title": "Verity",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Verity Advance tickets available",
           "url": null
         }
       }
@@ -1214,13 +566,13 @@
       "46d07c8f3409962a04ceafadfbe434b13cf23d0a14ff82a7f8585c36cf3e64e8",
       "61811d2120891831440fb524e5fbf19686f565a861d62b122e9a5385e35157f6"
     ],
-    "revision": 24
+    "revision": 25
   },
   "https://www.cineplex.com/en?theatresNearYou=true": {
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "b6fd17ffef329214515a5afa92f66dfa1fd371bee695f83742af2d116aaebb39",
+    "hash": "9f1ed6d8022c88c026a169d5556c1769b206febd32f2a358bba2984245d83ab9",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -1229,6 +581,7 @@
       "showtimes": [],
       "dates": [
         "Dec 18",
+        "Nov 5",
         "Oct 22",
         "Oct 7",
         "Sep 11",
@@ -1249,8 +602,7 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Cinemas Oakville and VIP",
-        "Cineplex Cinemas Winston Churchill & VIP",
+        "Cineplex Odeon McGillivray Cinemas and VIP",
         "Advance tickets",
         "SEP 11",
         "SEP 18",
@@ -1263,6 +615,7 @@
         "SEP 21",
         "OCT 7",
         "OCT 22",
+        "NOV 5",
         "What are UltraAVX, IMAX, VIP, 4DX, ScreenX and D-BOX?"
       ],
       "movies": {
@@ -1303,15 +656,6 @@
           "dates": [],
           "context": "Chinese All Wishes Come True! (Mandarin w/Chinese and e.s.t.)",
           "url": "https://www.cineplex.com/movie/all-wishes-come-true-mandarin-wchi"
-        },
-        "title:cocoon-one-summer-of-girlhood": {
-          "title": "Cocoon - One Summer of Girlhood",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Cocoon - One Summer of Girlhood",
-          "url": "https://www.cineplex.com/movie/cocoon-one-summer-of-girlhood"
         },
         "title:cocoon-one-summer-of-girlhood-japanese-w-e-s-t": {
           "title": "Cocoon - One Summer of Girlhood (Japanese w.e.s.t.)",
@@ -1384,13 +728,13 @@
         },
         "title:forgotten-island": {
           "title": "Forgotten Island",
-          "ticket_available": false,
+          "ticket_available": true,
           "formats": [],
           "showtimes": [],
           "dates": [
             "Sep 25"
           ],
-          "context": "Coming soon SEP 25 Forgotten Island Watch trailer",
+          "context": "Advance tickets SEP 25 Forgotten Island Watch trailer",
           "url": "https://www.cineplex.com/movie/forgotten-island"
         },
         "title:ghost-2-big-to-rig": {
@@ -1401,6 +745,28 @@
           "dates": [],
           "context": "GHOST: 2 Big To Rig Watch trailer",
           "url": "https://www.cineplex.com/movie/ghost-2-big-to-rig"
+        },
+        "title:golden-boy-national-theatre-live": {
+          "title": "Golden Boy - National Theatre Live",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [
+            "Nov 5"
+          ],
+          "context": "Advance tickets NOV 5 Golden Boy - National Theatre Live",
+          "url": "https://www.cineplex.com/movie/golden-boy-national-theatre-live"
+        },
+        "title:haiwaan-hindi-w-e-s-t": {
+          "title": "Haiwaan (Hindi w/e.s.t.)",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [
+            "Sep 11"
+          ],
+          "context": "Coming Soon SEP 11 Haiwaan (Hindi w/e.s.t.)",
+          "url": "https://www.cineplex.com/movie/haiwaan-hindi-west"
         },
         "title:hindi-awarapan-2-hindi-w-e-s-t": {
           "title": "Hindi Awarapan 2 (Hindi w/e.s.t.)",
@@ -1571,17 +937,6 @@
           "context": "Advance tickets SEP 11 The Uprising Watch trailer",
           "url": "https://www.cineplex.com/movie/the-uprising"
         },
-        "title:the-vvaan-force-of-the-forrest-hindi-w-e-s-t": {
-          "title": "The Vvaan: Force of the Forrest (Hindi w/e.s.t.)",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [
-            "Sep 25"
-          ],
-          "context": "Coming Soon SEP 25 The Vvaan: Force of the Forrest (Hindi w/e.s.t.)",
-          "url": "https://www.cineplex.com/movie/the-vvaan-force-of-the-forrest-hindi-west"
-        },
         "title:twenty-years-of-the-met-in-cinemas-an-anniversary-celebration-captured-english-w-e-s-t-metropolitan-opera": {
           "title": "Twenty Years of the Met in Cinemas: An Anniversary Celebration (Captured) English w/e.s.t - Metropolitan Opera",
           "ticket_available": true,
@@ -1642,9 +997,11 @@
       "aec13961b3b4b349406e5f55a33d7d8cb7c5b9b5601a2f894af8680547e8b781",
       "14acb32d7dad3729ecebcb23d6a355e2494f39535aa4a5f4468a537d624d99d6",
       "64d9b3ac2e0584c148c41ab99a6571fcbf470542e6f348a731e5d9d7525f4a6b",
-      "f91b627f07b58113c7aab06a8a581d8bfe769b1d61aa982ed0a354aac18a0732"
+      "f91b627f07b58113c7aab06a8a581d8bfe769b1d61aa982ed0a354aac18a0732",
+      "c11a6af9ad8a99d3ff8e726369e09e4c4af79d53bdae5cdac2009b9ec9da9fa9",
+      "158c98ba7c5ac734e4fda61b1ba1f0ba54b28c46689c4da2058d5a553061ad32"
     ],
-    "revision": 699
+    "revision": 700
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
@@ -1677,6 +1034,6 @@
     "revision": 8
   },
   "_meta": {
-    "last_heartbeat_at_utc": "2026-09-07T17:54:04.085959+00:00"
+    "last_heartbeat_at_utc": "2026-09-08T18:04:18.703143+00:00"
   }
 }
