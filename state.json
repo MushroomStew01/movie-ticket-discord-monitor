@@ -3,7 +3,7 @@
     "name": "Cineplex Cinemas Kitchener and VIP",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "d25a8a9f42a19e8ac859098eb36a6535d83d8d114b09162639ab973b1386031c",
+    "hash": "707b5751092d601e9155d5f7f3cf30e83e76c754642de6b126294418143d6ff5",
     "snapshot": {
       "page_title": "Cineplex Cinemas Kitchener and VIP",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-kitchener-and-vip",
@@ -67,15 +67,6 @@
           "context": "Forgotten Island Advance tickets available",
           "url": null
         },
-        "title:insidious-out-of-the-further": {
-          "title": "Insidious: Out of the Further",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Insidious: Out of the Further",
-          "url": null
-        },
         "title:onslaught": {
           "title": "Onslaught",
           "ticket_available": false,
@@ -120,6 +111,15 @@
           "dates": [],
           "context": "The Odyssey",
           "url": null
+        },
+        "title:the-uprising": {
+          "title": "The Uprising",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "The Uprising Advance tickets available",
+          "url": null
         }
       }
     },
@@ -141,15 +141,16 @@
       "e245a5e5c80ae5daf8f8ae17ce7e18c41644109e037f4c14f363dfcc42e0a810",
       "c426e55205f52e726b4bd11d7f9dc976912d1b9900f3aa1247e751e4d4e3d225",
       "f5807eaff6e1a95cb140dd861af6d9acd75c92edf9c0afcb6d21c9255a7347b5",
-      "ae568c4dae551edd5a3320089096bee5c271719a2db2be81cdb9c51a01bde372"
+      "ae568c4dae551edd5a3320089096bee5c271719a2db2be81cdb9c51a01bde372",
+      "0b33dcb65edda1506e161a8a3ab8fc7e92ef4b6129158404dd379a812f7dcf4c"
     ],
-    "revision": 31
+    "revision": 32
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge": {
     "name": "Cineplex Cinemas Cambridge",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "2e457efbba214519f70daaaf7d8f965c3ce81c228c92121943d5e296933cae82",
+    "hash": "ab66bc90dbd5bfe1f7727a7106cdd5232694ad518aeda5e2ffc993ea198ebb04",
     "snapshot": {
       "page_title": "Cineplex Cinemas Cambridge",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge",
@@ -179,15 +180,6 @@
           "showtimes": [],
           "dates": [],
           "context": "Buddy",
-          "url": null
-        },
-        "title:cos-fan-tutte-mozart-italian-w-e-s-t-metropolitan-opera": {
-          "title": "Così fan tutte (Mozart) Italian w/e.s.t. – Metropolitan Opera",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Così fan tutte (Mozart) Italian w/e.s.t. – Metropolitan Opera Advance tickets available",
           "url": null
         },
         "title:coyote-vs-acme": {
@@ -224,6 +216,15 @@
           "showtimes": [],
           "dates": [],
           "context": "Paw Patrol: The Dino Movie",
+          "url": null
+        },
+        "title:practical-magic-2": {
+          "title": "Practical Magic 2",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Practical Magic 2 Advance tickets available",
           "url": null
         },
         "title:spider-man-brand-new-day": {
@@ -285,9 +286,10 @@
       "ca450aeb69c851671cf49fe98299429a53567f27741abeff2bb1b1f072ceeaef",
       "b80ab09c1fed57d6128a21e45ed1072f26fd4998e5fd81c3bb56d85f28e46133",
       "7a9175632d43b37886c0aeec29a4abb06de573e1c1bda399e2cc6f5338794165",
-      "8898cee9b77247541d3f9df701c8a66df4b57c6ac401685dca9c947dd84a7a80"
+      "8898cee9b77247541d3f9df701c8a66df4b57c6ac401685dca9c947dd84a7a80",
+      "911f397cb261b98f9007b120f6b0474dd8de3f2c6cec531f5f0317678c65ba85"
     ],
-    "revision": 31
+    "revision": 32
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan": {
     "name": "Cineplex Cinemas Vaughan",
@@ -572,7 +574,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "c26cc4472b253e5857066aa10a0725a6a40c1bb51fb369c6eb2e16ea4fd9cf4b",
+    "hash": "c0121ad74524eacb2548d69c1958735d5460c988d5e95c94f56e2dc0294cb858",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -581,6 +583,7 @@
       "showtimes": [],
       "dates": [
         "Dec 18",
+        "Nov 19",
         "Nov 5",
         "Oct 22",
         "Oct 7",
@@ -602,7 +605,7 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Odeon Westmount Cinemas and VIP",
+        "Cineplex Odeon McGillivray Cinemas and VIP",
         "Advance tickets",
         "SEP 11",
         "SEP 18",
@@ -616,6 +619,7 @@
         "OCT 7",
         "OCT 22",
         "NOV 5",
+        "NOV 19",
         "What are UltraAVX, IMAX, VIP, 4DX, ScreenX and D-BOX?"
       ],
       "movies": {
@@ -737,14 +741,16 @@
           "context": "Advance tickets SEP 25 Forgotten Island Watch trailer",
           "url": "https://www.cineplex.com/movie/forgotten-island"
         },
-        "title:ghost-2-big-to-rig": {
-          "title": "GHOST: 2 Big To Rig",
-          "ticket_available": false,
+        "title:giant-the-play": {
+          "title": "GIANT - The Play",
+          "ticket_available": true,
           "formats": [],
           "showtimes": [],
-          "dates": [],
-          "context": "GHOST: 2 Big To Rig Watch trailer",
-          "url": "https://www.cineplex.com/movie/ghost-2-big-to-rig"
+          "dates": [
+            "Nov 19"
+          ],
+          "context": "Advance tickets NOV 19 GIANT - The Play",
+          "url": "https://www.cineplex.com/movie/giant-the-play"
         },
         "title:golden-boy-national-theatre-live": {
           "title": "Golden Boy - National Theatre Live",
@@ -1000,9 +1006,10 @@
       "f91b627f07b58113c7aab06a8a581d8bfe769b1d61aa982ed0a354aac18a0732",
       "c11a6af9ad8a99d3ff8e726369e09e4c4af79d53bdae5cdac2009b9ec9da9fa9",
       "158c98ba7c5ac734e4fda61b1ba1f0ba54b28c46689c4da2058d5a553061ad32",
-      "fbe48a03d7273852c2bf67b79ca37756ccb6eae75521e0249b43b646398a5509"
+      "fbe48a03d7273852c2bf67b79ca37756ccb6eae75521e0249b43b646398a5509",
+      "50e8109b5a5a2e7801decd816f5b4e18bad81680a7ad8bb656723ab970c7b925"
     ],
-    "revision": 703
+    "revision": 704
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
