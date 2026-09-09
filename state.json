@@ -295,7 +295,7 @@
     "name": "Cineplex Cinemas Vaughan",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "93e0571acd2d8bb4980ea8d3a7356bbbb5b16119d7a3c81be2cae5176ca8f7b2",
+    "hash": "61744e7d8555c31cd39816ae5f1eab64f5a6555a88e95aa809f301ebc59b5382",
     "snapshot": {
       "page_title": "Cineplex Cinemas Vaughan",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan",
@@ -318,15 +318,6 @@
           "context": "Avengers: Doomsday Advance tickets available",
           "url": null
         },
-        "title:by-any-means": {
-          "title": "By Any Means",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "By Any Means",
-          "url": null
-        },
         "title:coyote-vs-acme": {
           "title": "Coyote vs ACME",
           "ticket_available": false,
@@ -345,15 +336,6 @@
           "context": "Dune: Part 3 Advance tickets available",
           "url": null
         },
-        "title:fall-2-deadpoint": {
-          "title": "Fall 2: Deadpoint",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Fall 2: Deadpoint",
-          "url": null
-        },
         "title:forgotten-island": {
           "title": "Forgotten Island",
           "ticket_available": true,
@@ -361,6 +343,15 @@
           "showtimes": [],
           "dates": [],
           "context": "Forgotten Island Advance tickets available",
+          "url": null
+        },
+        "title:oasis-don-t-look-back-in-anger": {
+          "title": "Oasis: Don’t Look Back in Anger",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Oasis: Don’t Look Back in Anger Advance tickets available",
           "url": null
         },
         "title:practical-magic-2": {
@@ -379,6 +370,15 @@
           "showtimes": [],
           "dates": [],
           "context": "Resident Evil Advance tickets available",
+          "url": null
+        },
+        "title:runner": {
+          "title": "Runner",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Runner Advance tickets available",
           "url": null
         },
         "title:spider-man-brand-new-day": {
@@ -426,15 +426,16 @@
       "52d5f5c433e1a3116a4f11cb11394f079b8023c9f9d5a40e2ca2c14227c37056",
       "a343c1f9fb12d7ec463d9f3335a5e131b167caf4e6301265ae98ca522ba285ea",
       "e9cd60edb0dcfeb2774bf652a9351c29a2c4bc9df84781abc8417ab544e5716e",
-      "4dbd925f9c4a12654b89cd644214302902ef67cdfc4dac0634116a7c2f4f9561"
+      "4dbd925f9c4a12654b89cd644214302902ef67cdfc4dac0634116a7c2f4f9561",
+      "07ff457c9f00bbf0636cd8bf694016adc9448fa9a95424bbd1883abf1a979830"
     ],
-    "revision": 26
+    "revision": 27
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one": {
     "name": "Cineplex Cinemas Mississauga Square One",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "0975719494cf6ae93acb9cc9afd8b1e48fa4fa24ccf55c63b0f27a5d721c16d3",
+    "hash": "c7e973af476f85dc2bc3c46b1adbc29041a7ee3517154d5e0b3b8433fbabdfd6",
     "snapshot": {
       "page_title": "Cineplex Cinemas Mississauga Square One",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one",
@@ -493,13 +494,13 @@
           "context": "Fall 2: Deadpoint",
           "url": null
         },
-        "title:onslaught": {
-          "title": "Onslaught",
-          "ticket_available": false,
+        "title:oasis-don-t-look-back-in-anger": {
+          "title": "Oasis: Don’t Look Back in Anger",
+          "ticket_available": true,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Onslaught",
+          "context": "Oasis: Don’t Look Back in Anger Advance tickets available",
           "url": null
         },
         "title:practical-magic-2": {
@@ -567,15 +568,16 @@
       "0439d26e2965d77a95ebb51ac55c00d4bacfa4937342c1f502ac28851c54d7a5",
       "46d07c8f3409962a04ceafadfbe434b13cf23d0a14ff82a7f8585c36cf3e64e8",
       "61811d2120891831440fb524e5fbf19686f565a861d62b122e9a5385e35157f6",
-      "a45d5c709530f400908037cef47437f53d91d435467469ce9b9d77f0fdf26ee3"
+      "a45d5c709530f400908037cef47437f53d91d435467469ce9b9d77f0fdf26ee3",
+      "abaae68f1f9fd4e77bc0baecf8ef1cb0b8c644be7358c9341426eebf4f2e7fc6"
     ],
-    "revision": 26
+    "revision": 27
   },
   "https://www.cineplex.com/en?theatresNearYou=true": {
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "4e297e26723973e6832609089941da1f99d3585bf9ca2c4ae725f79e81dc6acd",
+    "hash": "1cff5a40aabe7685aa36faf0a43454d32dea5e472f33e38f719d33195c13d0b2",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -584,13 +586,13 @@
       "showtimes": [],
       "dates": [
         "Dec 18",
-        "Nov 19",
-        "Nov 5",
-        "Oct 22",
+        "Oct 14",
+        "Oct 4",
         "Oct 7",
         "Sep 11",
         "Sep 18",
         "Sep 19",
+        "Sep 20",
         "Sep 21",
         "Sep 23",
         "Sep 24",
@@ -607,7 +609,6 @@
       ],
       "relevant_lines": [
         "Cineplex Cinemas Abbotsford and VIP",
-        "Cineplex Cinemas Seton and VIP",
         "Advance tickets",
         "SEP 11",
         "SEP 18",
@@ -616,15 +617,26 @@
         "SEP 19",
         "SEP 24",
         "SEP 30",
+        "OCT 14",
+        "SEP 20",
         "SEP 23",
-        "SEP 21",
         "OCT 7",
-        "OCT 22",
-        "NOV 5",
-        "NOV 19",
+        "SEP 21",
+        "OCT 4",
         "What are UltraAVX, IMAX, VIP, 4DX, ScreenX and D-BOX?"
       ],
       "movies": {
+        "title:always-lalisa": {
+          "title": "ALWAYS LALISA",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [
+            "Oct 14"
+          ],
+          "context": "Advance tickets OCT 14 ALWAYS LALISA",
+          "url": "https://www.cineplex.com/movie/always-lalisa"
+        },
         "title:andr-rieu-s-2026-summer-concert-viva-maastricht": {
           "title": "André Rieu's 2026 Summer Concert: Viva Maastricht!",
           "ticket_available": false,
@@ -644,15 +656,6 @@
           ],
           "context": "Advance tickets DEC 18 Avengers: Doomsday Watch trailer",
           "url": "https://www.cineplex.com/movie/avengers-doomsday"
-        },
-        "title:by-any-means": {
-          "title": "By Any Means",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "By Any Means Watch trailer",
-          "url": "https://www.cineplex.com/movie/by-any-means"
         },
         "title:chinese-all-wishes-come-true-mandarin-w-chinese-and-e-s-t": {
           "title": "Chinese All Wishes Come True! (Mandarin w/Chinese and e.s.t.)",
@@ -712,26 +715,6 @@
           "context": "Advance tickets DEC 18 Dune: Part 3 Watch trailer",
           "url": "https://www.cineplex.com/movie/dune-part-3"
         },
-        "title:fall-2-deadpoint": {
-          "title": "Fall 2: Deadpoint",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Fall 2: Deadpoint Watch trailer",
-          "url": "https://www.cineplex.com/movie/fall-2-deadpoint"
-        },
-        "title:fallen-angels-by-no-l-coward": {
-          "title": "Fallen Angels by Noël Coward",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [
-            "Oct 22"
-          ],
-          "context": "Advance tickets OCT 22 Fallen Angels by Noël Coward",
-          "url": "https://www.cineplex.com/movie/fallen-angels-by-noel-coward"
-        },
         "title:forgotten-island": {
           "title": "Forgotten Island",
           "ticket_available": true,
@@ -742,28 +725,6 @@
           ],
           "context": "Advance tickets SEP 25 Forgotten Island Watch trailer",
           "url": "https://www.cineplex.com/movie/forgotten-island"
-        },
-        "title:giant-the-play": {
-          "title": "GIANT - The Play",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [
-            "Nov 19"
-          ],
-          "context": "Advance tickets NOV 19 GIANT - The Play",
-          "url": "https://www.cineplex.com/movie/giant-the-play"
-        },
-        "title:golden-boy-national-theatre-live": {
-          "title": "Golden Boy - National Theatre Live",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [
-            "Nov 5"
-          ],
-          "context": "Advance tickets NOV 5 Golden Boy - National Theatre Live",
-          "url": "https://www.cineplex.com/movie/golden-boy-national-theatre-live"
         },
         "title:haiwaan-hindi-w-e-s-t": {
           "title": "Haiwaan (Hindi w/e.s.t.)",
@@ -822,6 +783,39 @@
           ],
           "context": "Advance tickets SEP 30 LINKIN PARK: UNSHATTER",
           "url": "https://www.cineplex.com/movie/linkin-park-unshatter"
+        },
+        "title:nct-127-5th-tour-neo-city-seoul-the-redline-in-cinemas": {
+          "title": "NCT 127 5TH TOUR ‘NEO CITY : SEOUL - THE REDLINE’ in CINEMAS",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [
+            "Sep 20"
+          ],
+          "context": "Advance tickets SEP 20 NCT 127 5TH TOUR ‘NEO CITY : SEOUL - THE REDLINE’ in CINEMAS",
+          "url": "https://www.cineplex.com/movie/nct-127-5th-tour-neo-city-seoul-the-redline"
+        },
+        "title:ninja-scroll-4k": {
+          "title": "Ninja Scroll 4K",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [
+            "Oct 4"
+          ],
+          "context": "Advance tickets OCT 4 Ninja Scroll 4K",
+          "url": "https://www.cineplex.com/movie/ninja-scroll-4k"
+        },
+        "title:oasis-don-t-look-back-in-anger": {
+          "title": "Oasis: Don’t Look Back in Anger",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [
+            "Sep 11"
+          ],
+          "context": "Advance tickets SEP 11 Oasis: Don’t Look Back in Anger Watch trailer",
+          "url": "https://www.cineplex.com/movie/oasis-dont-look-back-in-anger"
         },
         "title:practical-magic-2": {
           "title": "Practical Magic 2",
@@ -893,6 +887,17 @@
           ],
           "context": "Advance tickets SEP 18 Resident Evil Watch trailer",
           "url": "https://www.cineplex.com/movie/resident-evil-2026"
+        },
+        "title:runner": {
+          "title": "Runner",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [
+            "Sep 11"
+          ],
+          "context": "Advance tickets SEP 11 Runner Watch trailer",
+          "url": "https://www.cineplex.com/movie/runner"
         },
         "title:singh-vs-kaur-2-punjabi-w-e-s-t": {
           "title": "Singh vs Kaur 2 (Punjabi w/e.s.t.)",
@@ -1009,9 +1014,10 @@
       "c11a6af9ad8a99d3ff8e726369e09e4c4af79d53bdae5cdac2009b9ec9da9fa9",
       "158c98ba7c5ac734e4fda61b1ba1f0ba54b28c46689c4da2058d5a553061ad32",
       "fbe48a03d7273852c2bf67b79ca37756ccb6eae75521e0249b43b646398a5509",
-      "50e8109b5a5a2e7801decd816f5b4e18bad81680a7ad8bb656723ab970c7b925"
+      "50e8109b5a5a2e7801decd816f5b4e18bad81680a7ad8bb656723ab970c7b925",
+      "283ef7417848bc41a2f9adbc5cd772a16edb7add4049f7f5ba891c94ab21232b"
     ],
-    "revision": 706
+    "revision": 707
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
@@ -1044,6 +1050,6 @@
     "revision": 8
   },
   "_meta": {
-    "last_heartbeat_at_utc": "2026-09-08T18:04:18.703143+00:00"
+    "last_heartbeat_at_utc": "2026-09-09T18:32:45.617544+00:00"
   }
 }
