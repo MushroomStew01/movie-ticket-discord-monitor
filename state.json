@@ -577,7 +577,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "1cff5a40aabe7685aa36faf0a43454d32dea5e472f33e38f719d33195c13d0b2",
+    "hash": "c6e3adb6c66aa13bae1a5ee8ddbbfbac1b38655b8d57514fd4b93ff5d5791dcd",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -608,7 +608,7 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Cinemas Abbotsford and VIP",
+        "Cineplex Odeon Westmount Cinemas and VIP",
         "Advance tickets",
         "SEP 11",
         "SEP 18",
@@ -621,6 +621,7 @@
         "SEP 20",
         "SEP 23",
         "OCT 7",
+        "Queen Budapest - The IMAX Experience®",
         "SEP 21",
         "OCT 4",
         "What are UltraAVX, IMAX, VIP, 4DX, ScreenX and D-BOX?"
@@ -866,16 +867,18 @@
           "context": "Punjabi Yaar Jigree Kasooti Degree (Punjabi w/e.s.t.)",
           "url": "https://www.cineplex.com/movie/yaar-jigree-kasooti-degree-punjabi-west"
         },
-        "title:queen-budapest": {
-          "title": "Queen Budapest",
-          "ticket_available": true,
-          "formats": [],
+        "title:queen-budapest-the-imax-experience": {
+          "title": "Queen Budapest - The IMAX Experience®",
+          "ticket_available": false,
+          "formats": [
+            "IMAX"
+          ],
           "showtimes": [],
           "dates": [
             "Oct 7"
           ],
-          "context": "Advance tickets OCT 7 Queen Budapest",
-          "url": "https://www.cineplex.com/movie/queen-budapest"
+          "context": "Coming soon OCT 7 Queen Budapest - The IMAX Experience®",
+          "url": "https://www.cineplex.com/movie/queen-budapest-the-imax-experience-2026"
         },
         "title:resident-evil": {
           "title": "Resident Evil",
@@ -1015,9 +1018,10 @@
       "158c98ba7c5ac734e4fda61b1ba1f0ba54b28c46689c4da2058d5a553061ad32",
       "fbe48a03d7273852c2bf67b79ca37756ccb6eae75521e0249b43b646398a5509",
       "50e8109b5a5a2e7801decd816f5b4e18bad81680a7ad8bb656723ab970c7b925",
-      "283ef7417848bc41a2f9adbc5cd772a16edb7add4049f7f5ba891c94ab21232b"
+      "283ef7417848bc41a2f9adbc5cd772a16edb7add4049f7f5ba891c94ab21232b",
+      "0965032793259eb946dd8d730aff071f8bbb450e697155a0d08b89b37b50f9ac"
     ],
-    "revision": 707
+    "revision": 708
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
