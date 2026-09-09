@@ -434,7 +434,7 @@
     "name": "Cineplex Cinemas Mississauga Square One",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "23031e22785093a37a68985c31e0d7ae2f4832824953ae5e9d50b0701251e552",
+    "hash": "0975719494cf6ae93acb9cc9afd8b1e48fa4fa24ccf55c63b0f27a5d721c16d3",
     "snapshot": {
       "page_title": "Cineplex Cinemas Mississauga Square One",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one",
@@ -493,15 +493,6 @@
           "context": "Fall 2: Deadpoint",
           "url": null
         },
-        "title:insidious-out-of-the-further": {
-          "title": "Insidious: Out of the Further",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Insidious: Out of the Further",
-          "url": null
-        },
         "title:onslaught": {
           "title": "Onslaught",
           "ticket_available": false,
@@ -546,6 +537,15 @@
           "dates": [],
           "context": "The Odyssey",
           "url": null
+        },
+        "title:the-uprising": {
+          "title": "The Uprising",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "The Uprising Advance tickets available",
+          "url": null
         }
       }
     },
@@ -566,15 +566,16 @@
       "b5a03cda75d88939f8bb012a473044df764cc4826c2284bf5caeb26bd04ab941",
       "0439d26e2965d77a95ebb51ac55c00d4bacfa4937342c1f502ac28851c54d7a5",
       "46d07c8f3409962a04ceafadfbe434b13cf23d0a14ff82a7f8585c36cf3e64e8",
-      "61811d2120891831440fb524e5fbf19686f565a861d62b122e9a5385e35157f6"
+      "61811d2120891831440fb524e5fbf19686f565a861d62b122e9a5385e35157f6",
+      "a45d5c709530f400908037cef47437f53d91d435467469ce9b9d77f0fdf26ee3"
     ],
-    "revision": 25
+    "revision": 26
   },
   "https://www.cineplex.com/en?theatresNearYou=true": {
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "c0121ad74524eacb2548d69c1958735d5460c988d5e95c94f56e2dc0294cb858",
+    "hash": "f90d8ba428d8373d8830f41f85edd93b4c3aee963cfe39161809cbea0aafcc45",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -605,7 +606,7 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Odeon McGillivray Cinemas and VIP",
+        "Cineplex Odeon Westmount Cinemas and VIP",
         "Advance tickets",
         "SEP 11",
         "SEP 18",
@@ -1009,7 +1010,7 @@
       "fbe48a03d7273852c2bf67b79ca37756ccb6eae75521e0249b43b646398a5509",
       "50e8109b5a5a2e7801decd816f5b4e18bad81680a7ad8bb656723ab970c7b925"
     ],
-    "revision": 704
+    "revision": 705
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
