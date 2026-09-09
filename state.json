@@ -572,7 +572,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "aaef5dcdd26e72d11c0561eb653aff5ba2f4684648adcad7ccb2cfea7eefb7a3",
+    "hash": "c26cc4472b253e5857066aa10a0725a6a40c1bb51fb369c6eb2e16ea4fd9cf4b",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -759,13 +759,13 @@
         },
         "title:haiwaan-hindi-w-e-s-t": {
           "title": "Haiwaan (Hindi w/e.s.t.)",
-          "ticket_available": false,
+          "ticket_available": true,
           "formats": [],
           "showtimes": [],
           "dates": [
             "Sep 11"
           ],
-          "context": "Coming Soon SEP 11 Haiwaan (Hindi w/e.s.t.)",
+          "context": "Advance Tickets SEP 11 Haiwaan (Hindi w/e.s.t.)",
           "url": "https://www.cineplex.com/movie/haiwaan-hindi-west"
         },
         "title:hindi-awarapan-2-hindi-w-e-s-t": {
@@ -888,13 +888,13 @@
         },
         "title:singh-vs-kaur-2-punjabi-w-e-s-t": {
           "title": "Singh vs Kaur 2 (Punjabi w/e.s.t.)",
-          "ticket_available": false,
+          "ticket_available": true,
           "formats": [],
           "showtimes": [],
           "dates": [
             "Sep 11"
           ],
-          "context": "Coming Soon SEP 11 Singh vs Kaur 2 (Punjabi w/e.s.t.)",
+          "context": "Advance Tickets SEP 11 Singh vs Kaur 2 (Punjabi w/e.s.t.)",
           "url": "https://www.cineplex.com/movie/singh-vs-kaur-2-punjabi-west"
         },
         "title:spider-man-brand-new-day": {
@@ -999,9 +999,10 @@
       "64d9b3ac2e0584c148c41ab99a6571fcbf470542e6f348a731e5d9d7525f4a6b",
       "f91b627f07b58113c7aab06a8a581d8bfe769b1d61aa982ed0a354aac18a0732",
       "c11a6af9ad8a99d3ff8e726369e09e4c4af79d53bdae5cdac2009b9ec9da9fa9",
-      "158c98ba7c5ac734e4fda61b1ba1f0ba54b28c46689c4da2058d5a553061ad32"
+      "158c98ba7c5ac734e4fda61b1ba1f0ba54b28c46689c4da2058d5a553061ad32",
+      "fbe48a03d7273852c2bf67b79ca37756ccb6eae75521e0249b43b646398a5509"
     ],
-    "revision": 702
+    "revision": 703
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
