@@ -577,7 +577,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "1882bd4de96b6a39d09e8b5e808c096d03d19f90502b19f6b1241be070576024",
+    "hash": "ab0ea1bc6b39de503cb146fb19e675620052ae52ae7ebae977f0446c74bdf590",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -608,7 +608,8 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Cinemas Abbotsford and VIP",
+        "Cineplex Cinemas Oakville and VIP",
+        "Cineplex Cinemas Winston Churchill & VIP",
         "Advance tickets",
         "SEP 11",
         "SEP 18",
@@ -869,7 +870,7 @@
         },
         "title:queen-budapest-the-imax-experience": {
           "title": "Queen Budapest - The IMAX Experience®",
-          "ticket_available": false,
+          "ticket_available": true,
           "formats": [
             "IMAX"
           ],
@@ -877,7 +878,7 @@
           "dates": [
             "Oct 7"
           ],
-          "context": "Coming soon OCT 7 Queen Budapest - The IMAX Experience®",
+          "context": "Advance tickets OCT 7 Queen Budapest - The IMAX Experience®",
           "url": "https://www.cineplex.com/movie/queen-budapest-the-imax-experience-2026"
         },
         "title:resident-evil": {
@@ -1021,9 +1022,10 @@
       "283ef7417848bc41a2f9adbc5cd772a16edb7add4049f7f5ba891c94ab21232b",
       "0965032793259eb946dd8d730aff071f8bbb450e697155a0d08b89b37b50f9ac",
       "c4e3ae27ec55f19e68f213bd03e04932db583ecd09f609361717c1a3fdf899e6",
-      "231e50c41a30ec51ce61dfba9df0369157552c8cd71ef1fce81684bc5d9ac0f3"
+      "231e50c41a30ec51ce61dfba9df0369157552c8cd71ef1fce81684bc5d9ac0f3",
+      "8a4a1da091c374a57e3d3aebb8855c762211bdc83cedc0c1ee9fc22bb22e1aa8"
     ],
-    "revision": 713
+    "revision": 714
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
@@ -1056,6 +1058,6 @@
     "revision": 8
   },
   "_meta": {
-    "last_heartbeat_at_utc": "2026-09-09T18:32:45.617544+00:00"
+    "last_heartbeat_at_utc": "2026-09-10T20:04:42.308055+00:00"
   }
 }
