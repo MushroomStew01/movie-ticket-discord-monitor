@@ -3,7 +3,7 @@
     "name": "Cineplex Cinemas Kitchener and VIP",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "707b5751092d601e9155d5f7f3cf30e83e76c754642de6b126294418143d6ff5",
+    "hash": "b596f6c80bb6d96ec60935613b888d78510a66e96d5fec1ad1f59cff9c389f53",
     "snapshot": {
       "page_title": "Cineplex Cinemas Kitchener and VIP",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-kitchener-and-vip",
@@ -67,22 +67,22 @@
           "context": "Forgotten Island Advance tickets available",
           "url": null
         },
-        "title:onslaught": {
-          "title": "Onslaught",
+        "title:insidious-out-of-the-further": {
+          "title": "Insidious: Out of the Further",
           "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Onslaught",
+          "context": "Insidious: Out of the Further",
           "url": null
         },
         "title:practical-magic-2": {
           "title": "Practical Magic 2",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Practical Magic 2 Advance tickets available",
+          "context": "Practical Magic 2",
           "url": null
         },
         "title:resident-evil": {
@@ -114,11 +114,11 @@
         },
         "title:the-uprising": {
           "title": "The Uprising",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "The Uprising Advance tickets available",
+          "context": "The Uprising",
           "url": null
         }
       }
@@ -142,15 +142,16 @@
       "c426e55205f52e726b4bd11d7f9dc976912d1b9900f3aa1247e751e4d4e3d225",
       "f5807eaff6e1a95cb140dd861af6d9acd75c92edf9c0afcb6d21c9255a7347b5",
       "ae568c4dae551edd5a3320089096bee5c271719a2db2be81cdb9c51a01bde372",
-      "0b33dcb65edda1506e161a8a3ab8fc7e92ef4b6129158404dd379a812f7dcf4c"
+      "0b33dcb65edda1506e161a8a3ab8fc7e92ef4b6129158404dd379a812f7dcf4c",
+      "454243718c8c72e1acd452732ecad46435be7dad6ca4849c53b1f2f82f1f1018"
     ],
-    "revision": 32
+    "revision": 33
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge": {
     "name": "Cineplex Cinemas Cambridge",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "ab66bc90dbd5bfe1f7727a7106cdd5232694ad518aeda5e2ffc993ea198ebb04",
+    "hash": "447f5d36db26ddd8d9aee89992dd1f853858f5cdf58928f74008fbad2196e738",
     "snapshot": {
       "page_title": "Cineplex Cinemas Cambridge",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge",
@@ -180,6 +181,15 @@
           "showtimes": [],
           "dates": [],
           "context": "Buddy",
+          "url": null
+        },
+        "title:cos-fan-tutte-mozart-italian-w-e-s-t-metropolitan-opera": {
+          "title": "Così fan tutte (Mozart) Italian w/e.s.t. – Metropolitan Opera",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Così fan tutte (Mozart) Italian w/e.s.t. – Metropolitan Opera Advance tickets available",
           "url": null
         },
         "title:coyote-vs-acme": {
@@ -220,11 +230,11 @@
         },
         "title:practical-magic-2": {
           "title": "Practical Magic 2",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Practical Magic 2 Advance tickets available",
+          "context": "Practical Magic 2",
           "url": null
         },
         "title:spider-man-brand-new-day": {
@@ -234,15 +244,6 @@
           "showtimes": [],
           "dates": [],
           "context": "Spider-Man: Brand New Day",
-          "url": null
-        },
-        "title:the-dog-stars": {
-          "title": "The Dog Stars",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "The Dog Stars",
           "url": null
         },
         "title:the-odyssey": {
@@ -287,15 +288,16 @@
       "b80ab09c1fed57d6128a21e45ed1072f26fd4998e5fd81c3bb56d85f28e46133",
       "7a9175632d43b37886c0aeec29a4abb06de573e1c1bda399e2cc6f5338794165",
       "8898cee9b77247541d3f9df701c8a66df4b57c6ac401685dca9c947dd84a7a80",
-      "911f397cb261b98f9007b120f6b0474dd8de3f2c6cec531f5f0317678c65ba85"
+      "911f397cb261b98f9007b120f6b0474dd8de3f2c6cec531f5f0317678c65ba85",
+      "d2426fb4fb15296cb2e08a5873578e6b781b5852337d106d62d77806dcefa446"
     ],
-    "revision": 32
+    "revision": 33
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan": {
     "name": "Cineplex Cinemas Vaughan",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "61744e7d8555c31cd39816ae5f1eab64f5a6555a88e95aa809f301ebc59b5382",
+    "hash": "b1245457c2299d2413da7988941ab2ab613a235d725546f99ae800cff2704db4",
     "snapshot": {
       "page_title": "Cineplex Cinemas Vaughan",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan",
@@ -347,20 +349,20 @@
         },
         "title:oasis-don-t-look-back-in-anger": {
           "title": "Oasis: Don’t Look Back in Anger",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Oasis: Don’t Look Back in Anger Advance tickets available",
+          "context": "Oasis: Don’t Look Back in Anger",
           "url": null
         },
         "title:practical-magic-2": {
           "title": "Practical Magic 2",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Practical Magic 2 Advance tickets available",
+          "context": "Practical Magic 2",
           "url": null
         },
         "title:resident-evil": {
@@ -374,11 +376,11 @@
         },
         "title:runner": {
           "title": "Runner",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Runner Advance tickets available",
+          "context": "Runner",
           "url": null
         },
         "title:spider-man-brand-new-day": {
@@ -401,11 +403,11 @@
         },
         "title:the-uprising": {
           "title": "The Uprising",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "The Uprising Advance tickets available",
+          "context": "The Uprising",
           "url": null
         }
       }
@@ -429,13 +431,13 @@
       "4dbd925f9c4a12654b89cd644214302902ef67cdfc4dac0634116a7c2f4f9561",
       "07ff457c9f00bbf0636cd8bf694016adc9448fa9a95424bbd1883abf1a979830"
     ],
-    "revision": 27
+    "revision": 28
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one": {
     "name": "Cineplex Cinemas Mississauga Square One",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "c7e973af476f85dc2bc3c46b1adbc29041a7ee3517154d5e0b3b8433fbabdfd6",
+    "hash": "f871fcd0c9d26edf682ec5421129dcdeb869292ccedb2dadccacf190acf020ed",
     "snapshot": {
       "page_title": "Cineplex Cinemas Mississauga Square One",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one",
@@ -496,20 +498,20 @@
         },
         "title:oasis-don-t-look-back-in-anger": {
           "title": "Oasis: Don’t Look Back in Anger",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Oasis: Don’t Look Back in Anger Advance tickets available",
+          "context": "Oasis: Don’t Look Back in Anger",
           "url": null
         },
         "title:practical-magic-2": {
           "title": "Practical Magic 2",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Practical Magic 2 Advance tickets available",
+          "context": "Practical Magic 2",
           "url": null
         },
         "title:resident-evil": {
@@ -541,11 +543,11 @@
         },
         "title:the-uprising": {
           "title": "The Uprising",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "The Uprising Advance tickets available",
+          "context": "The Uprising",
           "url": null
         }
       }
@@ -571,13 +573,13 @@
       "a45d5c709530f400908037cef47437f53d91d435467469ce9b9d77f0fdf26ee3",
       "abaae68f1f9fd4e77bc0baecf8ef1cb0b8c644be7358c9341426eebf4f2e7fc6"
     ],
-    "revision": 27
+    "revision": 28
   },
   "https://www.cineplex.com/en?theatresNearYou=true": {
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "951b7aaefdd199c787511b670caf1d42e555d6210f24f1c56cb8ce89abdb30c0",
+    "hash": "7dffdbc0ea400342030466c680dcc3396d6da997af686d374aa93a334fe71714",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -589,7 +591,6 @@
         "Oct 14",
         "Oct 4",
         "Oct 7",
-        "Sep 11",
         "Sep 18",
         "Sep 19",
         "Sep 20",
@@ -608,10 +609,9 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Odeon Westmount Cinemas and VIP",
-        "Cineplex Cinemas Kitchener and VIP",
+        "Cineplex Cinemas Abbotsford and VIP",
+        "Cineplex Cinemas Seton and VIP",
         "Advance tickets",
-        "SEP 11",
         "SEP 18",
         "SEP 25",
         "DEC 18",
@@ -658,6 +658,17 @@
           ],
           "context": "Advance tickets DEC 18 Avengers: Doomsday Watch trailer",
           "url": "https://www.cineplex.com/movie/avengers-doomsday"
+        },
+        "title:azaad-singh-haryanvi-w-e-s-t": {
+          "title": "Azaad Singh (Haryanvi w/e.s.t.)",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [
+            "Sep 18"
+          ],
+          "context": "Coming Soon SEP 18 Azaad Singh (Haryanvi w/e.s.t.)",
+          "url": "https://www.cineplex.com/movie/azaad-singh-haryanvi-west"
         },
         "title:chinese-all-wishes-come-true-mandarin-w-chinese-and-e-s-t": {
           "title": "Chinese All Wishes Come True! (Mandarin w/Chinese and e.s.t.)",
@@ -728,17 +739,6 @@
           "context": "Advance tickets SEP 25 Forgotten Island Watch trailer",
           "url": "https://www.cineplex.com/movie/forgotten-island"
         },
-        "title:haiwaan-hindi-w-e-s-t": {
-          "title": "Haiwaan (Hindi w/e.s.t.)",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [
-            "Sep 11"
-          ],
-          "context": "Advance Tickets SEP 11 Haiwaan (Hindi w/e.s.t.)",
-          "url": "https://www.cineplex.com/movie/haiwaan-hindi-west"
-        },
         "title:hindi-awarapan-2-hindi-w-e-s-t": {
           "title": "Hindi Awarapan 2 (Hindi w/e.s.t.)",
           "ticket_available": false,
@@ -747,6 +747,15 @@
           "dates": [],
           "context": "Hindi Awarapan 2 (Hindi w/e.s.t.)",
           "url": "https://www.cineplex.com/movie/awarapan-2-hindi-west"
+        },
+        "title:hindi-haiwaan-hindi-w-e-s-t": {
+          "title": "Hindi Haiwaan (Hindi w/e.s.t.)",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Hindi Haiwaan (Hindi w/e.s.t.)",
+          "url": "https://www.cineplex.com/movie/haiwaan-hindi-west"
         },
         "title:hindi-mirzapur-the-movie-hindi-w-e-s-t": {
           "title": "Hindi Mirzapur: The Movie (Hindi w/e.s.t.)",
@@ -810,24 +819,20 @@
         },
         "title:oasis-don-t-look-back-in-anger": {
           "title": "Oasis: Don’t Look Back in Anger",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Sep 11"
-          ],
-          "context": "Advance tickets SEP 11 Oasis: Don’t Look Back in Anger Watch trailer",
+          "dates": [],
+          "context": "Oasis: Don’t Look Back in Anger Watch trailer",
           "url": "https://www.cineplex.com/movie/oasis-dont-look-back-in-anger"
         },
         "title:practical-magic-2": {
           "title": "Practical Magic 2",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Sep 11"
-          ],
-          "context": "Advance tickets SEP 11 Practical Magic 2 Watch trailer",
+          "dates": [],
+          "context": "Practical Magic 2 Watch trailer",
           "url": "https://www.cineplex.com/movie/practical-magic-2"
         },
         "title:pulp-what-do-you-do-for-an-encore": {
@@ -850,14 +855,14 @@
           "context": "Punjabi Bol Bhavein Na Bol (Punjabi w/e.s.t.)",
           "url": "https://www.cineplex.com/movie/bol-bhavein-na-bol-punjabi-west"
         },
-        "title:punjabi-judaa-punjabi-w-e-s-t": {
-          "title": "Punjabi Judaa (Punjabi w/e.s.t.)",
+        "title:punjabi-singh-vs-kaur-2-punjabi-w-e-s-t": {
+          "title": "Punjabi Singh vs Kaur 2 (Punjabi w/e.s.t.)",
           "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Punjabi Judaa (Punjabi w/e.s.t.)",
-          "url": "https://www.cineplex.com/movie/judaa-punjabi-west"
+          "context": "Punjabi Singh vs Kaur 2 (Punjabi w/e.s.t.)",
+          "url": "https://www.cineplex.com/movie/singh-vs-kaur-2-punjabi-west"
         },
         "title:punjabi-yaar-jigree-kasooti-degree-punjabi-w-e-s-t": {
           "title": "Punjabi Yaar Jigree Kasooti Degree (Punjabi w/e.s.t.)",
@@ -894,25 +899,12 @@
         },
         "title:runner": {
           "title": "Runner",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Sep 11"
-          ],
-          "context": "Advance tickets SEP 11 Runner Watch trailer",
+          "dates": [],
+          "context": "Runner Watch trailer",
           "url": "https://www.cineplex.com/movie/runner"
-        },
-        "title:singh-vs-kaur-2-punjabi-w-e-s-t": {
-          "title": "Singh vs Kaur 2 (Punjabi w/e.s.t.)",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [
-            "Sep 11"
-          ],
-          "context": "Advance Tickets SEP 11 Singh vs Kaur 2 (Punjabi w/e.s.t.)",
-          "url": "https://www.cineplex.com/movie/singh-vs-kaur-2-punjabi-west"
         },
         "title:spider-man-brand-new-day": {
           "title": "Spider-Man: Brand New Day",
@@ -945,13 +937,11 @@
         },
         "title:the-uprising": {
           "title": "The Uprising",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Sep 11"
-          ],
-          "context": "Advance tickets SEP 11 The Uprising Watch trailer",
+          "dates": [],
+          "context": "The Uprising Watch trailer",
           "url": "https://www.cineplex.com/movie/the-uprising"
         },
         "title:twenty-years-of-the-met-in-cinemas-an-anniversary-celebration-captured-english-w-e-s-t-metropolitan-opera": {
@@ -1023,9 +1013,10 @@
       "0965032793259eb946dd8d730aff071f8bbb450e697155a0d08b89b37b50f9ac",
       "c4e3ae27ec55f19e68f213bd03e04932db583ecd09f609361717c1a3fdf899e6",
       "231e50c41a30ec51ce61dfba9df0369157552c8cd71ef1fce81684bc5d9ac0f3",
-      "8a4a1da091c374a57e3d3aebb8855c762211bdc83cedc0c1ee9fc22bb22e1aa8"
+      "8a4a1da091c374a57e3d3aebb8855c762211bdc83cedc0c1ee9fc22bb22e1aa8",
+      "1f402f3175c60f5232516157d146adb76987ea3ddf59bf3891113f342a27aec5"
     ],
-    "revision": 715
+    "revision": 716
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
