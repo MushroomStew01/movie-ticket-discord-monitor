@@ -151,7 +151,7 @@
     "name": "Cineplex Cinemas Cambridge",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "447f5d36db26ddd8d9aee89992dd1f853858f5cdf58928f74008fbad2196e738",
+    "hash": "6a7204737929600432e329a8efba6fd765fd42ab4ada5eb4ba355ba601016c72",
     "snapshot": {
       "page_title": "Cineplex Cinemas Cambridge",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge",
@@ -219,13 +219,13 @@
           "context": "Insidious: Out of the Further",
           "url": null
         },
-        "title:paw-patrol-the-dino-movie": {
-          "title": "Paw Patrol: The Dino Movie",
-          "ticket_available": false,
+        "title:macbeth-verdi-italian-w-e-s-t-metropolitan-opera": {
+          "title": "Macbeth (Verdi) Italian w/e.s.t. – Metropolitan Opera",
+          "ticket_available": true,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Paw Patrol: The Dino Movie",
+          "context": "Macbeth (Verdi) Italian w/e.s.t. – Metropolitan Opera Advance tickets available",
           "url": null
         },
         "title:practical-magic-2": {
@@ -289,9 +289,10 @@
       "7a9175632d43b37886c0aeec29a4abb06de573e1c1bda399e2cc6f5338794165",
       "8898cee9b77247541d3f9df701c8a66df4b57c6ac401685dca9c947dd84a7a80",
       "911f397cb261b98f9007b120f6b0474dd8de3f2c6cec531f5f0317678c65ba85",
-      "d2426fb4fb15296cb2e08a5873578e6b781b5852337d106d62d77806dcefa446"
+      "d2426fb4fb15296cb2e08a5873578e6b781b5852337d106d62d77806dcefa446",
+      "2e35ecb5d26f605ee07cb7af839490ddb74ec86198a8fe613728bba4de2277cf"
     ],
-    "revision": 33
+    "revision": 34
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan": {
     "name": "Cineplex Cinemas Vaughan",
@@ -580,7 +581,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "9a4387dcf1b75315069e962d6a67ab2ba50898baefa20a7f70929fdb291436ec",
+    "hash": "8567cb515d8e266e0d4e39e0536a718fd8b7dde208c53efbb74faf7b3c36d8f0",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -611,6 +612,7 @@
       ],
       "relevant_lines": [
         "Cineplex Odeon Westmount Cinemas and VIP",
+        "Cineplex Cinemas Kitchener and VIP",
         "Advance tickets",
         "SEP 18",
         "SEP 25",
@@ -1016,7 +1018,7 @@
       "8a4a1da091c374a57e3d3aebb8855c762211bdc83cedc0c1ee9fc22bb22e1aa8",
       "1f402f3175c60f5232516157d146adb76987ea3ddf59bf3891113f342a27aec5"
     ],
-    "revision": 732
+    "revision": 733
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
