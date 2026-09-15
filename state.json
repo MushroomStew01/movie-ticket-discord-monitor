@@ -581,7 +581,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "9a4387dcf1b75315069e962d6a67ab2ba50898baefa20a7f70929fdb291436ec",
+    "hash": "2dae5da0c7b8b4a45b9de78bf6358902784f9f99ba6d58c028a1d88618d5a228",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -611,7 +611,8 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Odeon Westmount Cinemas and VIP",
+        "Cineplex Cinemas Oakville and VIP",
+        "Cineplex Cinemas Winston Churchill & VIP",
         "Advance tickets",
         "SEP 18",
         "SEP 25",
@@ -659,17 +660,6 @@
           ],
           "context": "Advance tickets DEC 18 Avengers: Doomsday Watch trailer",
           "url": "https://www.cineplex.com/movie/avengers-doomsday"
-        },
-        "title:azaad-singh-haryanvi-w-e-s-t": {
-          "title": "Azaad Singh (Haryanvi w/e.s.t.)",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [
-            "Sep 18"
-          ],
-          "context": "Coming Soon SEP 18 Azaad Singh (Haryanvi w/e.s.t.)",
-          "url": "https://www.cineplex.com/movie/azaad-singh-haryanvi-west"
         },
         "title:chinese-all-wishes-come-true-mandarin-w-chinese-and-e-s-t": {
           "title": "Chinese All Wishes Come True! (Mandarin w/Chinese and e.s.t.)",
@@ -740,6 +730,17 @@
           "context": "Advance tickets SEP 25 Forgotten Island Watch trailer",
           "url": "https://www.cineplex.com/movie/forgotten-island"
         },
+        "title:hanuman-ansh-hindi-w-e-s-t": {
+          "title": "Hanuman Ansh (Hindi w/e.s.t.)",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [
+            "Sep 18"
+          ],
+          "context": "Advance Tickets SEP 18 Hanuman Ansh (Hindi w/e.s.t.)",
+          "url": "https://www.cineplex.com/movie/hanuman-ansh-hindi-west"
+        },
         "title:hindi-awarapan-2-hindi-w-e-s-t": {
           "title": "Hindi Awarapan 2 (Hindi w/e.s.t.)",
           "ticket_available": false,
@@ -795,6 +796,17 @@
           ],
           "context": "Advance tickets SEP 30 LINKIN PARK: UNSHATTER",
           "url": "https://www.cineplex.com/movie/linkin-park-unshatter"
+        },
+        "title:mitti-de-putt-punjabi-w-e-s-t": {
+          "title": "Mitti De Putt (Punjabi w/e.s.t.)",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [
+            "Sep 18"
+          ],
+          "context": "Advance Tickets SEP 18 Mitti De Putt (Punjabi w/e.s.t.)",
+          "url": "https://www.cineplex.com/movie/mitti-de-putt-punjabi-west"
         },
         "title:nct-127-5th-tour-neo-city-seoul-the-redline-in-cinemas": {
           "title": "NCT 127 5TH TOUR ‘NEO CITY : SEOUL - THE REDLINE’ in CINEMAS",
@@ -864,15 +876,6 @@
           "dates": [],
           "context": "Punjabi Singh vs Kaur 2 (Punjabi w/e.s.t.)",
           "url": "https://www.cineplex.com/movie/singh-vs-kaur-2-punjabi-west"
-        },
-        "title:punjabi-yaar-jigree-kasooti-degree-punjabi-w-e-s-t": {
-          "title": "Punjabi Yaar Jigree Kasooti Degree (Punjabi w/e.s.t.)",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Punjabi Yaar Jigree Kasooti Degree (Punjabi w/e.s.t.)",
-          "url": "https://www.cineplex.com/movie/yaar-jigree-kasooti-degree-punjabi-west"
         },
         "title:queen-budapest-the-imax-experience": {
           "title": "Queen Budapest - The IMAX Experience®",
@@ -1015,9 +1018,10 @@
       "c4e3ae27ec55f19e68f213bd03e04932db583ecd09f609361717c1a3fdf899e6",
       "231e50c41a30ec51ce61dfba9df0369157552c8cd71ef1fce81684bc5d9ac0f3",
       "8a4a1da091c374a57e3d3aebb8855c762211bdc83cedc0c1ee9fc22bb22e1aa8",
-      "1f402f3175c60f5232516157d146adb76987ea3ddf59bf3891113f342a27aec5"
+      "1f402f3175c60f5232516157d146adb76987ea3ddf59bf3891113f342a27aec5",
+      "4ac6c9fbe0f8807edaeb2dc04f2abdb890b228b5afe1174546b185d7eaa812b3"
     ],
-    "revision": 741
+    "revision": 742
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
