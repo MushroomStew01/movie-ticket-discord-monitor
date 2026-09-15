@@ -151,7 +151,7 @@
     "name": "Cineplex Cinemas Cambridge",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "6a7204737929600432e329a8efba6fd765fd42ab4ada5eb4ba355ba601016c72",
+    "hash": "231d0e3c5fca758f03b8318e4c38c3e22d9ec840b1ae494f9fec0ed2eb23ec91",
     "snapshot": {
       "page_title": "Cineplex Cinemas Cambridge",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge",
@@ -219,13 +219,13 @@
           "context": "Insidious: Out of the Further",
           "url": null
         },
-        "title:macbeth-verdi-italian-w-e-s-t-metropolitan-opera": {
-          "title": "Macbeth (Verdi) Italian w/e.s.t. – Metropolitan Opera",
+        "title:other-mommy": {
+          "title": "Other Mommy",
           "ticket_available": true,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Macbeth (Verdi) Italian w/e.s.t. – Metropolitan Opera Advance tickets available",
+          "context": "Other Mommy Advance tickets available",
           "url": null
         },
         "title:practical-magic-2": {
@@ -290,9 +290,10 @@
       "8898cee9b77247541d3f9df701c8a66df4b57c6ac401685dca9c947dd84a7a80",
       "911f397cb261b98f9007b120f6b0474dd8de3f2c6cec531f5f0317678c65ba85",
       "d2426fb4fb15296cb2e08a5873578e6b781b5852337d106d62d77806dcefa446",
-      "2e35ecb5d26f605ee07cb7af839490ddb74ec86198a8fe613728bba4de2277cf"
+      "2e35ecb5d26f605ee07cb7af839490ddb74ec86198a8fe613728bba4de2277cf",
+      "e52815a1548b9ef0e44542a50029e1dddb4ec8e7a98270e5dd6855edf16b1069"
     ],
-    "revision": 34
+    "revision": 35
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan": {
     "name": "Cineplex Cinemas Vaughan",
@@ -581,7 +582,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "f7e335fca41d39ded3e27f2dfd3074c1cb2e35d503a1a4c57f9b750f9e3cd0e1",
+    "hash": "77c95b249e97f29e1b0a25f3e874ed0eaa9719bed01195397527b53f827793a5",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -660,6 +661,17 @@
           "context": "Advance tickets DEC 18 Avengers: Doomsday Watch trailer",
           "url": "https://www.cineplex.com/movie/avengers-doomsday"
         },
+        "title:azaad-singh-haryanvi-w-e-s-t": {
+          "title": "Azaad Singh (Haryanvi w/e.s.t.)",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [
+            "Sep 18"
+          ],
+          "context": "Advance Tickets SEP 18 Azaad Singh (Haryanvi w/e.s.t.)",
+          "url": "https://www.cineplex.com/movie/azaad-singh-haryanvi-west"
+        },
         "title:chinese-all-wishes-come-true-mandarin-w-chinese-and-e-s-t": {
           "title": "Chinese All Wishes Come True! (Mandarin w/Chinese and e.s.t.)",
           "ticket_available": false,
@@ -697,6 +709,17 @@
           ],
           "context": "Advance tickets SEP 21 Crunchyroll Anime Nights Sneak Peek! (Japanese w.e.s.t.)",
           "url": "https://www.cineplex.com/movie/crunchyroll-anime-nights-sneak-peek-japanese"
+        },
+        "title:daayra-hindi-w-e-s-t": {
+          "title": "Daayra (Hindi w/e.s.t.)",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [
+            "Sep 18"
+          ],
+          "context": "Advance Tickets SEP 18 Daayra (Hindi w/e.s.t.)",
+          "url": "https://www.cineplex.com/movie/daayra-hindi-west"
         },
         "title:dear-you-teochew-with-chinese-and-e-s-t": {
           "title": "Dear You (Teochew with Chinese and e.s.t.)",
@@ -739,24 +762,6 @@
           ],
           "context": "Advance Tickets SEP 18 Hanuman Ansh (Hindi w/e.s.t.)",
           "url": "https://www.cineplex.com/movie/hanuman-ansh-hindi-west"
-        },
-        "title:hindi-awarapan-2-hindi-w-e-s-t": {
-          "title": "Hindi Awarapan 2 (Hindi w/e.s.t.)",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Hindi Awarapan 2 (Hindi w/e.s.t.)",
-          "url": "https://www.cineplex.com/movie/awarapan-2-hindi-west"
-        },
-        "title:hindi-haiwaan-hindi-w-e-s-t": {
-          "title": "Hindi Haiwaan (Hindi w/e.s.t.)",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Hindi Haiwaan (Hindi w/e.s.t.)",
-          "url": "https://www.cineplex.com/movie/haiwaan-hindi-west"
         },
         "title:hindi-mirzapur-the-movie-hindi-w-e-s-t": {
           "title": "Hindi Mirzapur: The Movie (Hindi w/e.s.t.)",
@@ -1018,9 +1023,10 @@
       "231e50c41a30ec51ce61dfba9df0369157552c8cd71ef1fce81684bc5d9ac0f3",
       "8a4a1da091c374a57e3d3aebb8855c762211bdc83cedc0c1ee9fc22bb22e1aa8",
       "1f402f3175c60f5232516157d146adb76987ea3ddf59bf3891113f342a27aec5",
-      "4ac6c9fbe0f8807edaeb2dc04f2abdb890b228b5afe1174546b185d7eaa812b3"
+      "4ac6c9fbe0f8807edaeb2dc04f2abdb890b228b5afe1174546b185d7eaa812b3",
+      "ee6ee29219b6a36cd91565ef6ed4c7c89c860caa10390bf394ae288ea0cb0235"
     ],
-    "revision": 743
+    "revision": 744
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
