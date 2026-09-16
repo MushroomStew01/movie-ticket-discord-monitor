@@ -151,7 +151,7 @@
     "name": "Cineplex Cinemas Cambridge",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "231d0e3c5fca758f03b8318e4c38c3e22d9ec840b1ae494f9fec0ed2eb23ec91",
+    "hash": "66f4902889ba5cb47264204cf7d4176de0536ad160f682672c2235c3e878d2cb",
     "snapshot": {
       "page_title": "Cineplex Cinemas Cambridge",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge",
@@ -181,15 +181,6 @@
           "showtimes": [],
           "dates": [],
           "context": "Buddy",
-          "url": null
-        },
-        "title:cos-fan-tutte-mozart-italian-w-e-s-t-metropolitan-opera": {
-          "title": "Così fan tutte (Mozart) Italian w/e.s.t. – Metropolitan Opera",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Così fan tutte (Mozart) Italian w/e.s.t. – Metropolitan Opera Advance tickets available",
           "url": null
         },
         "title:coyote-vs-acme": {
@@ -237,6 +228,24 @@
           "context": "Practical Magic 2",
           "url": null
         },
+        "title:resident-evil": {
+          "title": "Resident Evil",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Resident Evil Advance tickets available",
+          "url": null
+        },
+        "title:shaun-the-sheep-the-beast-of-mossy-bottom": {
+          "title": "Shaun the Sheep: The Beast of Mossy Bottom",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Shaun the Sheep: The Beast of Mossy Bottom Advance tickets available",
+          "url": null
+        },
         "title:spider-man-brand-new-day": {
           "title": "Spider-Man: Brand New Day",
           "ticket_available": false,
@@ -253,15 +262,6 @@
           "showtimes": [],
           "dates": [],
           "context": "The Odyssey",
-          "url": null
-        },
-        "title:twenty-years-of-the-met-in-cinemas-an-anniversary-celebration-captured-english-w-e-s-t-metropolitan-opera": {
-          "title": "Twenty Years of the Met in Cinemas: An Anniversary Celebration (Captured) English w/e.s.t - Metropolitan Opera",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Twenty Years of the Met in Cinemas: An Anniversary Celebration (Captured) English w/e.s.t - Metropolitan Opera Advance tickets available",
           "url": null
         }
       }
@@ -291,9 +291,10 @@
       "911f397cb261b98f9007b120f6b0474dd8de3f2c6cec531f5f0317678c65ba85",
       "d2426fb4fb15296cb2e08a5873578e6b781b5852337d106d62d77806dcefa446",
       "2e35ecb5d26f605ee07cb7af839490ddb74ec86198a8fe613728bba4de2277cf",
-      "e52815a1548b9ef0e44542a50029e1dddb4ec8e7a98270e5dd6855edf16b1069"
+      "e52815a1548b9ef0e44542a50029e1dddb4ec8e7a98270e5dd6855edf16b1069",
+      "6c7d1e7f4cd77e4788312284d7b055689f3b350550bd343ae01daf8648853f3a"
     ],
-    "revision": 35
+    "revision": 36
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan": {
     "name": "Cineplex Cinemas Vaughan",
@@ -582,7 +583,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "77c95b249e97f29e1b0a25f3e874ed0eaa9719bed01195397527b53f827793a5",
+    "hash": "7e329ef709790fb5371cd7dc128af0f5ca70f705c2ac9fad0fac1684ad763a7a",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -612,7 +613,8 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Odeon McGillivray Cinemas and VIP",
+        "Cineplex Cinemas Oakville and VIP",
+        "Cineplex Cinemas Winston Churchill & VIP",
         "Advance tickets",
         "SEP 18",
         "SEP 25",
@@ -1026,7 +1028,7 @@
       "4ac6c9fbe0f8807edaeb2dc04f2abdb890b228b5afe1174546b185d7eaa812b3",
       "ee6ee29219b6a36cd91565ef6ed4c7c89c860caa10390bf394ae288ea0cb0235"
     ],
-    "revision": 746
+    "revision": 747
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
