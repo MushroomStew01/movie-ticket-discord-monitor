@@ -145,7 +145,10 @@
       "0b33dcb65edda1506e161a8a3ab8fc7e92ef4b6129158404dd379a812f7dcf4c",
       "454243718c8c72e1acd452732ecad46435be7dad6ca4849c53b1f2f82f1f1018"
     ],
-    "revision": 33
+    "revision": 33,
+    "consecutive_failures": 1,
+    "last_error": "RuntimeError: Cineplex returned HTTP 403.",
+    "last_error_at_utc": "2026-09-16T16:53:03.156965+00:00"
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge": {
     "name": "Cineplex Cinemas Cambridge",
@@ -294,7 +297,10 @@
       "e52815a1548b9ef0e44542a50029e1dddb4ec8e7a98270e5dd6855edf16b1069",
       "6c7d1e7f4cd77e4788312284d7b055689f3b350550bd343ae01daf8648853f3a"
     ],
-    "revision": 36
+    "revision": 36,
+    "consecutive_failures": 1,
+    "last_error": "RuntimeError: Cineplex returned HTTP 403.",
+    "last_error_at_utc": "2026-09-16T16:53:08.881325+00:00"
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan": {
     "name": "Cineplex Cinemas Vaughan",
@@ -434,7 +440,10 @@
       "4dbd925f9c4a12654b89cd644214302902ef67cdfc4dac0634116a7c2f4f9561",
       "07ff457c9f00bbf0636cd8bf694016adc9448fa9a95424bbd1883abf1a979830"
     ],
-    "revision": 28
+    "revision": 28,
+    "consecutive_failures": 1,
+    "last_error": "RuntimeError: Cineplex returned HTTP 403.",
+    "last_error_at_utc": "2026-09-16T16:53:14.585274+00:00"
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one": {
     "name": "Cineplex Cinemas Mississauga Square One",
@@ -577,7 +586,10 @@
       "abaae68f1f9fd4e77bc0baecf8ef1cb0b8c644be7358c9341426eebf4f2e7fc6",
       "386187fd00888ccace0b156d0ad5ab95e31c4a362b32e40e9d26f5f52a7ccd2b"
     ],
-    "revision": 29
+    "revision": 29,
+    "consecutive_failures": 1,
+    "last_error": "RuntimeError: Cineplex returned HTTP 403.",
+    "last_error_at_utc": "2026-09-16T16:53:20.345718+00:00"
   },
   "https://www.cineplex.com/en?theatresNearYou=true": {
     "name": "Cineplex national movie listings",
@@ -1028,7 +1040,10 @@
       "4ac6c9fbe0f8807edaeb2dc04f2abdb890b228b5afe1174546b185d7eaa812b3",
       "ee6ee29219b6a36cd91565ef6ed4c7c89c860caa10390bf394ae288ea0cb0235"
     ],
-    "revision": 748
+    "revision": 748,
+    "consecutive_failures": 1,
+    "last_error": "RuntimeError: Cineplex returned HTTP 403.",
+    "last_error_at_utc": "2026-09-16T16:53:26.097871+00:00"
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
@@ -1058,7 +1073,10 @@
       "20af9f85bb9be3349435b006c403045da340a617c4f319f21fbf78b4738d7044",
       "9db4a116b09a1c30b4559f0c9091e5f93b0773e5c05d7bc52d0714341c3d74c0"
     ],
-    "revision": 8
+    "revision": 8,
+    "consecutive_failures": 1,
+    "last_error": "RuntimeError: Cineplex returned HTTP 403.",
+    "last_error_at_utc": "2026-09-16T16:53:31.645247+00:00"
   },
   "_meta": {
     "last_heartbeat_at_utc": "2026-09-16T01:41:56.920168+00:00"
