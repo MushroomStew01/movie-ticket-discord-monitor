@@ -3,7 +3,7 @@
     "name": "Cineplex Cinemas Kitchener and VIP",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "4909d2baca95dac6f1356bb682e512d57d022ffc9dbdcda85b2851afe687f9f1",
+    "hash": "717a93a103b2a7ae3ce41ef6f28518a8195ab1b853f99557943b6b6f351c4a5d",
     "snapshot": {
       "page_title": "Cineplex Cinemas Kitchener and VIP",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-kitchener-and-vip",
@@ -78,20 +78,20 @@
         },
         "title:resident-evil": {
           "title": "Resident Evil",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Resident Evil Advance tickets available",
+          "context": "Resident Evil",
           "url": null
         },
         "title:shaun-the-sheep-the-beast-of-mossy-bottom": {
           "title": "Shaun the Sheep: The Beast of Mossy Bottom",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Shaun the Sheep: The Beast of Mossy Bottom Advance tickets available",
+          "context": "Shaun the Sheep: The Beast of Mossy Bottom",
           "url": null
         },
         "title:spider-man-brand-new-day": {
@@ -146,13 +146,13 @@
       "454243718c8c72e1acd452732ecad46435be7dad6ca4849c53b1f2f82f1f1018",
       "68e7dd691673561e229107bb1b735d040df943b8e7df9e7d4e1870cdc97d4336"
     ],
-    "revision": 34
+    "revision": 35
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge": {
     "name": "Cineplex Cinemas Cambridge",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "1236444646c0d4e1cf3f7a2e77a767bcaf70c08b9e36f8944bdf9dad40819ccf",
+    "hash": "331be39b0e6a89e5de01d69a0c6027f3e65a2eed89b9cccf7e1cf4a706bac413",
     "snapshot": {
       "page_title": "Cineplex Cinemas Cambridge",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge",
@@ -231,20 +231,20 @@
         },
         "title:resident-evil": {
           "title": "Resident Evil",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Resident Evil Advance tickets available",
+          "context": "Resident Evil",
           "url": null
         },
         "title:shaun-the-sheep-the-beast-of-mossy-bottom": {
           "title": "Shaun the Sheep: The Beast of Mossy Bottom",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Shaun the Sheep: The Beast of Mossy Bottom Advance tickets available",
+          "context": "Shaun the Sheep: The Beast of Mossy Bottom",
           "url": null
         },
         "title:spider-man-brand-new-day": {
@@ -296,13 +296,13 @@
       "6c7d1e7f4cd77e4788312284d7b055689f3b350550bd343ae01daf8648853f3a",
       "a2067c1c7f5fe4b36d91cf50490a1374f6cf08770b307a4e3f6c0d7924638b82"
     ],
-    "revision": 37
+    "revision": 38
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan": {
     "name": "Cineplex Cinemas Vaughan",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "6169726b3149be35c481d984ae63232c0aa7c4d29ca84ef1aa828d4a7a921b08",
+    "hash": "5502960bd8c9444c6dcef3e3e3f8c91d65c2b3c3a82b7c2f27a8427316684ab9",
     "snapshot": {
       "page_title": "Cineplex Cinemas Vaughan",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan",
@@ -372,20 +372,20 @@
         },
         "title:resident-evil": {
           "title": "Resident Evil",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Resident Evil Advance tickets available",
+          "context": "Resident Evil",
           "url": null
         },
         "title:shaun-the-sheep-the-beast-of-mossy-bottom": {
           "title": "Shaun the Sheep: The Beast of Mossy Bottom",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Shaun the Sheep: The Beast of Mossy Bottom Advance tickets available",
+          "context": "Shaun the Sheep: The Beast of Mossy Bottom",
           "url": null
         },
         "title:spider-man-brand-new-day": {
@@ -437,13 +437,13 @@
       "07ff457c9f00bbf0636cd8bf694016adc9448fa9a95424bbd1883abf1a979830",
       "4a0dab6bf0d942e30d7274cd2d173b46806485b9cf1b1b8d6bb19ab6ee8dfd55"
     ],
-    "revision": 29
+    "revision": 30
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one": {
     "name": "Cineplex Cinemas Mississauga Square One",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "c51a37a502e84557df3b205360a622b6e6da70e96c469765407ccc45ccfab1dc",
+    "hash": "fa9d0ce2ea07e451d902c1a5c0d13d372a5194385d80d2272de97b71598cba8a",
     "snapshot": {
       "page_title": "Cineplex Cinemas Mississauga Square One",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one",
@@ -513,20 +513,20 @@
         },
         "title:resident-evil": {
           "title": "Resident Evil",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Resident Evil Advance tickets available",
+          "context": "Resident Evil",
           "url": null
         },
         "title:shaun-the-sheep-the-beast-of-mossy-bottom": {
           "title": "Shaun the Sheep: The Beast of Mossy Bottom",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Shaun the Sheep: The Beast of Mossy Bottom Advance tickets available",
+          "context": "Shaun the Sheep: The Beast of Mossy Bottom",
           "url": null
         },
         "title:spider-man-brand-new-day": {
@@ -581,13 +581,13 @@
       "386187fd00888ccace0b156d0ad5ab95e31c4a362b32e40e9d26f5f52a7ccd2b",
       "45e29d645c6e67e90c76070a367608478ecff1400c28638f3a7bd3b295c5b257"
     ],
-    "revision": 30
+    "revision": 31
   },
   "https://www.cineplex.com/en?theatresNearYou=true": {
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "7cd1a6442c2752bc7db175b6a3f2db13ea299e0ca7252624c0a55a7fd73c0f70",
+    "hash": "24793db96e249c1d389f1f1730ce231787da264efaa237142b5d792f3d770d4c",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -600,7 +600,6 @@
         "Oct 14",
         "Oct 24",
         "Oct 30",
-        "Sep 18",
         "Sep 19",
         "Sep 20",
         "Sep 21",
@@ -618,9 +617,8 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Odeon Westmount Cinemas and VIP",
+        "Cineplex Cinemas Abbotsford and VIP",
         "Advance tickets",
-        "SEP 18",
         "SEP 25",
         "DEC 18",
         "SEP 24",
@@ -658,6 +656,15 @@
           "context": "Advance tickets DEC 5 André Rieu's 2026 Christmas Concert: Let it Snow",
           "url": "https://www.cineplex.com/movie/andre-rieus-2026-christmas-concert-let-it-snow"
         },
+        "title:arabic-red-flag-arabic-w-e-s-t": {
+          "title": "Arabic Red Flag (Arabic w/e.s.t.)",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Arabic Red Flag (Arabic w/e.s.t.)",
+          "url": "https://www.cineplex.com/movie/red-flag-arabic-west"
+        },
         "title:avengers-doomsday": {
           "title": "Avengers: Doomsday",
           "ticket_available": true,
@@ -668,17 +675,6 @@
           ],
           "context": "Advance tickets DEC 18 Avengers: Doomsday Watch trailer",
           "url": "https://www.cineplex.com/movie/avengers-doomsday"
-        },
-        "title:azaad-singh-haryanvi-w-e-s-t": {
-          "title": "Azaad Singh (Haryanvi w/e.s.t.)",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [
-            "Sep 18"
-          ],
-          "context": "Advance Tickets SEP 18 Azaad Singh (Haryanvi w/e.s.t.)",
-          "url": "https://www.cineplex.com/movie/azaad-singh-haryanvi-west"
         },
         "title:bts-world-tour-arirang-in-buenos-aires-live-viewing": {
           "title": "BTS WORLD TOUR 'ARIRANG' IN BUENOS AIRES: LIVE VIEWING",
@@ -733,17 +729,6 @@
           "context": "Advance tickets SEP 21 Crunchyroll Anime Nights Sneak Peek! (Japanese w.e.s.t.)",
           "url": "https://www.cineplex.com/movie/crunchyroll-anime-nights-sneak-peek-japanese"
         },
-        "title:daayra-hindi-w-e-s-t": {
-          "title": "Daayra (Hindi w/e.s.t.)",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [
-            "Sep 18"
-          ],
-          "context": "Advance Tickets SEP 18 Daayra (Hindi w/e.s.t.)",
-          "url": "https://www.cineplex.com/movie/daayra-hindi-west"
-        },
         "title:dear-you-teochew-with-chinese-and-e-s-t": {
           "title": "Dear You (Teochew with Chinese and e.s.t.)",
           "ticket_available": false,
@@ -775,17 +760,6 @@
           "context": "Advance tickets SEP 25 Forgotten Island Watch trailer",
           "url": "https://www.cineplex.com/movie/forgotten-island"
         },
-        "title:hanuman-ansh-hindi-w-e-s-t": {
-          "title": "Hanuman Ansh (Hindi w/e.s.t.)",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [
-            "Sep 18"
-          ],
-          "context": "Advance Tickets SEP 18 Hanuman Ansh (Hindi w/e.s.t.)",
-          "url": "https://www.cineplex.com/movie/hanuman-ansh-hindi-west"
-        },
         "title:heart-of-the-beast": {
           "title": "Heart of the Beast",
           "ticket_available": true,
@@ -797,6 +771,33 @@
           "context": "Advance tickets SEP 25 Heart of the Beast Watch trailer",
           "url": "https://www.cineplex.com/movie/heart-of-the-beast"
         },
+        "title:hindi-azaad-singh-haryanvi-w-e-s-t": {
+          "title": "Hindi Azaad Singh (Haryanvi w/e.s.t.)",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Hindi Azaad Singh (Haryanvi w/e.s.t.)",
+          "url": "https://www.cineplex.com/movie/azaad-singh-haryanvi-west"
+        },
+        "title:hindi-daayra-hindi-w-e-s-t": {
+          "title": "Hindi Daayra (Hindi w/e.s.t.)",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Hindi Daayra (Hindi w/e.s.t.)",
+          "url": "https://www.cineplex.com/movie/daayra-hindi-west"
+        },
+        "title:hindi-hanuman-ansh-hindi-w-e-s-t": {
+          "title": "Hindi Hanuman Ansh (Hindi w/e.s.t.)",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Hindi Hanuman Ansh (Hindi w/e.s.t.)",
+          "url": "https://www.cineplex.com/movie/hanuman-ansh-hindi-west"
+        },
         "title:hindi-mirzapur-the-movie-hindi-w-e-s-t": {
           "title": "Hindi Mirzapur: The Movie (Hindi w/e.s.t.)",
           "ticket_available": false,
@@ -805,6 +806,15 @@
           "dates": [],
           "context": "Hindi Mirzapur: The Movie (Hindi w/e.s.t.)",
           "url": "https://www.cineplex.com/movie/mirzapur-the-movie-hindi-west"
+        },
+        "title:hindi-vibe-hindi-w-e-s-t": {
+          "title": "Hindi Vibe (Hindi w/e.s.t.)",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Hindi Vibe (Hindi w/e.s.t.)",
+          "url": "https://www.cineplex.com/movie/vibe-hindi-west"
         },
         "title:korean-colony-korean-w-e-s-t": {
           "title": "Korean Colony (Korean w/e.s.t.)",
@@ -825,17 +835,6 @@
           ],
           "context": "Advance tickets SEP 30 LINKIN PARK: UNSHATTER",
           "url": "https://www.cineplex.com/movie/linkin-park-unshatter"
-        },
-        "title:mitti-de-putt-punjabi-w-e-s-t": {
-          "title": "Mitti De Putt (Punjabi w/e.s.t.)",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [
-            "Sep 18"
-          ],
-          "context": "Advance Tickets SEP 18 Mitti De Putt (Punjabi w/e.s.t.)",
-          "url": "https://www.cineplex.com/movie/mitti-de-putt-punjabi-west"
         },
         "title:nct-127-5th-tour-neo-city-seoul-the-redline-in-cinemas": {
           "title": "NCT 127 5TH TOUR ‘NEO CITY : SEOUL - THE REDLINE’ in CINEMAS",
@@ -879,6 +878,15 @@
           "context": "Advance tickets SEP 23 PULP: What Do You Do For An Encore?",
           "url": "https://www.cineplex.com/movie/pulp-what-do-you-do-for-an-encore"
         },
+        "title:punjabi-mitti-de-putt-punjabi-w-e-s-t": {
+          "title": "Punjabi Mitti De Putt (Punjabi w/e.s.t.)",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Punjabi Mitti De Putt (Punjabi w/e.s.t.)",
+          "url": "https://www.cineplex.com/movie/mitti-de-putt-punjabi-west"
+        },
         "title:punjabi-singh-vs-kaur-2-punjabi-w-e-s-t": {
           "title": "Punjabi Singh vs Kaur 2 (Punjabi w/e.s.t.)",
           "ticket_available": false,
@@ -888,37 +896,22 @@
           "context": "Punjabi Singh vs Kaur 2 (Punjabi w/e.s.t.)",
           "url": "https://www.cineplex.com/movie/singh-vs-kaur-2-punjabi-west"
         },
-        "title:red-flag-arabic-w-e-s-t": {
-          "title": "Red Flag (Arabic w/e.s.t.)",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [
-            "Sep 18"
-          ],
-          "context": "Advance Tickets SEP 18 Red Flag (Arabic w/e.s.t.)",
-          "url": "https://www.cineplex.com/movie/red-flag-arabic-west"
-        },
         "title:resident-evil": {
           "title": "Resident Evil",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Sep 18"
-          ],
-          "context": "Advance tickets SEP 18 Resident Evil Watch trailer",
+          "dates": [],
+          "context": "Resident Evil Watch trailer",
           "url": "https://www.cineplex.com/movie/resident-evil-2026"
         },
         "title:shaun-the-sheep-the-beast-of-mossy-bottom": {
           "title": "Shaun the Sheep: The Beast of Mossy Bottom",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Sep 18"
-          ],
-          "context": "Advance tickets SEP 18 Shaun the Sheep: The Beast of Mossy Bottom Watch trailer",
+          "dates": [],
+          "context": "Shaun the Sheep: The Beast of Mossy Bottom Watch trailer",
           "url": "https://www.cineplex.com/movie/shaun-the-sheep-the-beast-of-mossy-bottom"
         },
         "title:spider-man-brand-new-day": {
@@ -971,17 +964,6 @@
           ],
           "context": "Advance tickets SEP 19 Twenty Years of the Met in Cinemas: An Anniversary Celebration (Captured) English w/e.s.t - Metropolitan Opera Watch trailer",
           "url": "https://www.cineplex.com/movie/est-twenty-years-of-met-english-west-met"
-        },
-        "title:vibe-hindi-w-e-s-t": {
-          "title": "Vibe (Hindi w/e.s.t.)",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [
-            "Sep 18"
-          ],
-          "context": "Advance Tickets SEP 18 Vibe (Hindi w/e.s.t.)",
-          "url": "https://www.cineplex.com/movie/vibe-hindi-west"
         }
       }
     },
@@ -1045,9 +1027,10 @@
       "1f402f3175c60f5232516157d146adb76987ea3ddf59bf3891113f342a27aec5",
       "4ac6c9fbe0f8807edaeb2dc04f2abdb890b228b5afe1174546b185d7eaa812b3",
       "ee6ee29219b6a36cd91565ef6ed4c7c89c860caa10390bf394ae288ea0cb0235",
-      "e7fe52248db63bd965c8c78edd22d1818d82aec4c5256d9c1e4cad9cc762498b"
+      "e7fe52248db63bd965c8c78edd22d1818d82aec4c5256d9c1e4cad9cc762498b",
+      "cd219d66bf6cd046c4dc2c64d4dddb8f76a9d25582e80a2d871b0890f7a5fe85"
     ],
-    "revision": 757
+    "revision": 758
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
@@ -1080,6 +1063,6 @@
     "revision": 8
   },
   "_meta": {
-    "last_heartbeat_at_utc": "2026-09-17T05:25:38.378639+00:00"
+    "last_heartbeat_at_utc": "2026-09-18T06:33:59.506477+00:00"
   }
 }
