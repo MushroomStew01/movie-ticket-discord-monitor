@@ -587,7 +587,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "0e84fbbaca7d86f390eddb78472869c42f5e83a13d2e5317705e88b49bc23ecf",
+    "hash": "28d15af10af4ded0758fcb906d32bf65315b94fb0d358a230ddfd96f26a41188",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -617,8 +617,7 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Cinemas Oakville and VIP",
-        "Cineplex Cinemas Winston Churchill & VIP",
+        "Cineplex Cinemas Abbotsford and VIP",
         "Advance tickets",
         "SEP 25",
         "DEC 18",
@@ -686,7 +685,7 @@
             "Oct 24"
           ],
           "context": "Advance tickets OCT 24 BTS WORLD TOUR 'ARIRANG' IN BUENOS AIRES: LIVE VIEWING",
-          "url": "https://www.cineplex.com/movie/bts-world-tour-arirang-in-buenos-aires-live-viewing"
+          "url": "https://www.cineplex.com/movie/bts-world-tour-arirang-in-buenos-aires"
         },
         "title:bts-world-tour-arirang-in-s-o-paulo-live-viewing": {
           "title": "BTS WORLD TOUR 'ARIRANG' IN SÃO PAULO: LIVE VIEWING",
@@ -1031,7 +1030,7 @@
       "e7fe52248db63bd965c8c78edd22d1818d82aec4c5256d9c1e4cad9cc762498b",
       "cd219d66bf6cd046c4dc2c64d4dddb8f76a9d25582e80a2d871b0890f7a5fe85"
     ],
-    "revision": 759
+    "revision": 760
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
