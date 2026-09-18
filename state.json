@@ -152,7 +152,7 @@
     "name": "Cineplex Cinemas Cambridge",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "66f4902889ba5cb47264204cf7d4176de0536ad160f682672c2235c3e878d2cb",
+    "hash": "1236444646c0d4e1cf3f7a2e77a767bcaf70c08b9e36f8944bdf9dad40819ccf",
     "snapshot": {
       "page_title": "Cineplex Cinemas Cambridge",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge",
@@ -256,13 +256,13 @@
           "context": "Spider-Man: Brand New Day",
           "url": null
         },
-        "title:the-odyssey": {
-          "title": "The Odyssey",
-          "ticket_available": false,
+        "title:twenty-years-of-the-met-in-cinemas-an-anniversary-celebration-captured-english-w-e-s-t-metropolitan-opera": {
+          "title": "Twenty Years of the Met in Cinemas: An Anniversary Celebration (Captured) English w/e.s.t - Metropolitan Opera",
+          "ticket_available": true,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "The Odyssey",
+          "context": "Twenty Years of the Met in Cinemas: An Anniversary Celebration (Captured) English w/e.s.t - Metropolitan Opera Advance tickets available",
           "url": null
         }
       }
@@ -293,9 +293,10 @@
       "d2426fb4fb15296cb2e08a5873578e6b781b5852337d106d62d77806dcefa446",
       "2e35ecb5d26f605ee07cb7af839490ddb74ec86198a8fe613728bba4de2277cf",
       "e52815a1548b9ef0e44542a50029e1dddb4ec8e7a98270e5dd6855edf16b1069",
-      "6c7d1e7f4cd77e4788312284d7b055689f3b350550bd343ae01daf8648853f3a"
+      "6c7d1e7f4cd77e4788312284d7b055689f3b350550bd343ae01daf8648853f3a",
+      "a2067c1c7f5fe4b36d91cf50490a1374f6cf08770b307a4e3f6c0d7924638b82"
     ],
-    "revision": 36
+    "revision": 37
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan": {
     "name": "Cineplex Cinemas Vaughan",
@@ -586,7 +587,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "05a449fabc64afe59465c99a03f2ed416ab913df9fd3062c3460fb4ed51689b0",
+    "hash": "7cd1a6442c2752bc7db175b6a3f2db13ea299e0ca7252624c0a55a7fd73c0f70",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -617,7 +618,7 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Cinemas Abbotsford and VIP",
+        "Cineplex Odeon Westmount Cinemas and VIP",
         "Advance tickets",
         "SEP 18",
         "SEP 25",
@@ -1046,7 +1047,7 @@
       "ee6ee29219b6a36cd91565ef6ed4c7c89c860caa10390bf394ae288ea0cb0235",
       "e7fe52248db63bd965c8c78edd22d1818d82aec4c5256d9c1e4cad9cc762498b"
     ],
-    "revision": 756
+    "revision": 757
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
