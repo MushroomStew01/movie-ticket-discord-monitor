@@ -152,7 +152,7 @@
     "name": "Cineplex Cinemas Cambridge",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "c147a1c71ad9ee93d3ba3b67b35bc91fdd04a39bb7a8d9ca6d49ab3b1523d439",
+    "hash": "c160d5dcd309cc8b059801b9593693d94886be27fe8267c868eb0039cb2381d6",
     "snapshot": {
       "page_title": "Cineplex Cinemas Cambridge",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge",
@@ -166,6 +166,15 @@
         "Advance tickets available"
       ],
       "movies": {
+        "title:andr-rieu-s-2026-christmas-concert-let-it-snow": {
+          "title": "André Rieu's 2026 Christmas Concert: Let it Snow",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "André Rieu's 2026 Christmas Concert: Let it Snow Advance tickets available",
+          "url": null
+        },
         "title:avengers-doomsday": {
           "title": "Avengers: Doomsday",
           "ticket_available": true,
@@ -255,15 +264,6 @@
           "dates": [],
           "context": "Spider-Man: Brand New Day",
           "url": null
-        },
-        "title:twenty-years-of-the-met-in-cinemas-an-anniversary-celebration-captured-english-w-e-s-t-metropolitan-opera": {
-          "title": "Twenty Years of the Met in Cinemas: An Anniversary Celebration (Captured) English w/e.s.t - Metropolitan Opera",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Twenty Years of the Met in Cinemas: An Anniversary Celebration (Captured) English w/e.s.t - Metropolitan Opera",
-          "url": null
         }
       }
     },
@@ -294,9 +294,10 @@
       "2e35ecb5d26f605ee07cb7af839490ddb74ec86198a8fe613728bba4de2277cf",
       "e52815a1548b9ef0e44542a50029e1dddb4ec8e7a98270e5dd6855edf16b1069",
       "6c7d1e7f4cd77e4788312284d7b055689f3b350550bd343ae01daf8648853f3a",
-      "a2067c1c7f5fe4b36d91cf50490a1374f6cf08770b307a4e3f6c0d7924638b82"
+      "a2067c1c7f5fe4b36d91cf50490a1374f6cf08770b307a4e3f6c0d7924638b82",
+      "f97d251e0ff3fbe25ab8857b7f03ee2f190530d247ff9cda948e77a99a97ded3"
     ],
-    "revision": 39
+    "revision": 40
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan": {
     "name": "Cineplex Cinemas Vaughan",
@@ -587,7 +588,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "7bfc9f6c337a59ef741340c48cae22c34f0a9a956e28ddb10fef46be285e49d4",
+    "hash": "1a3e36f83e94494fa8622da90dfd0cf32ba61c1ac3e647fa0b885df512638570",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -616,7 +617,7 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Cinemas Abbotsford and VIP",
+        "Cineplex Odeon McGillivray Cinemas and VIP",
         "Advance tickets",
         "SEP 25",
         "DEC 18",
@@ -1026,7 +1027,7 @@
       "e7fe52248db63bd965c8c78edd22d1818d82aec4c5256d9c1e4cad9cc762498b",
       "cd219d66bf6cd046c4dc2c64d4dddb8f76a9d25582e80a2d871b0890f7a5fe85"
     ],
-    "revision": 765
+    "revision": 766
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
