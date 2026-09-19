@@ -152,7 +152,7 @@
     "name": "Cineplex Cinemas Cambridge",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "331be39b0e6a89e5de01d69a0c6027f3e65a2eed89b9cccf7e1cf4a706bac413",
+    "hash": "c147a1c71ad9ee93d3ba3b67b35bc91fdd04a39bb7a8d9ca6d49ab3b1523d439",
     "snapshot": {
       "page_title": "Cineplex Cinemas Cambridge",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge",
@@ -258,11 +258,11 @@
         },
         "title:twenty-years-of-the-met-in-cinemas-an-anniversary-celebration-captured-english-w-e-s-t-metropolitan-opera": {
           "title": "Twenty Years of the Met in Cinemas: An Anniversary Celebration (Captured) English w/e.s.t - Metropolitan Opera",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Twenty Years of the Met in Cinemas: An Anniversary Celebration (Captured) English w/e.s.t - Metropolitan Opera Advance tickets available",
+          "context": "Twenty Years of the Met in Cinemas: An Anniversary Celebration (Captured) English w/e.s.t - Metropolitan Opera",
           "url": null
         }
       }
@@ -296,7 +296,7 @@
       "6c7d1e7f4cd77e4788312284d7b055689f3b350550bd343ae01daf8648853f3a",
       "a2067c1c7f5fe4b36d91cf50490a1374f6cf08770b307a4e3f6c0d7924638b82"
     ],
-    "revision": 38
+    "revision": 39
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan": {
     "name": "Cineplex Cinemas Vaughan",
@@ -587,7 +587,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "41d8cf4fe6bf73e71fa549c8987159ed9ef328f894641184b4c536b9eb234373",
+    "hash": "178d2304d577dc20a0a3e7ae5db128e67c81e4452a31283b3f51fdeaeb12e216",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -600,7 +600,6 @@
         "Oct 14",
         "Oct 24",
         "Oct 30",
-        "Sep 19",
         "Sep 20",
         "Sep 21",
         "Sep 23",
@@ -617,12 +616,12 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Odeon McGillivray Cinemas and VIP",
+        "Cineplex Cinemas Abbotsford and VIP",
+        "Cineplex Cinemas Seton and VIP",
         "Advance tickets",
         "SEP 25",
         "DEC 18",
         "SEP 24",
-        "SEP 19",
         "DEC 5",
         "SEP 30",
         "OCT 14",
@@ -956,13 +955,11 @@
         },
         "title:twenty-years-of-the-met-in-cinemas-an-anniversary-celebration-captured-english-w-e-s-t-metropolitan-opera": {
           "title": "Twenty Years of the Met in Cinemas: An Anniversary Celebration (Captured) English w/e.s.t - Metropolitan Opera",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Sep 19"
-          ],
-          "context": "Advance tickets SEP 19 Twenty Years of the Met in Cinemas: An Anniversary Celebration (Captured) English w/e.s.t - Metropolitan Opera Watch trailer",
+          "dates": [],
+          "context": "Twenty Years of the Met in Cinemas: An Anniversary Celebration (Captured) English w/e.s.t - Metropolitan Opera Watch trailer",
           "url": "https://www.cineplex.com/movie/est-twenty-years-of-met-english-west-met"
         }
       }
@@ -1030,7 +1027,7 @@
       "e7fe52248db63bd965c8c78edd22d1818d82aec4c5256d9c1e4cad9cc762498b",
       "cd219d66bf6cd046c4dc2c64d4dddb8f76a9d25582e80a2d871b0890f7a5fe85"
     ],
-    "revision": 762
+    "revision": 763
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
