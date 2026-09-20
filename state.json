@@ -588,7 +588,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "1a3e36f83e94494fa8622da90dfd0cf32ba61c1ac3e647fa0b885df512638570",
+    "hash": "641cbefdb01f6e364bbf6b66e00c710d28c37e7ffabb1e8d09d8f925ebbef7d5",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -601,7 +601,6 @@
         "Oct 14",
         "Oct 24",
         "Oct 30",
-        "Sep 20",
         "Sep 21",
         "Sep 23",
         "Sep 24",
@@ -617,7 +616,8 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Odeon McGillivray Cinemas and VIP",
+        "Cineplex Odeon Westmount Cinemas and VIP",
+        "Cineplex Cinemas Kitchener and VIP",
         "Advance tickets",
         "SEP 25",
         "DEC 18",
@@ -627,7 +627,6 @@
         "OCT 14",
         "OCT 24",
         "OCT 30",
-        "SEP 20",
         "SEP 23",
         "SEP 21",
         "What are UltraAVX, IMAX, VIP, 4DX, ScreenX and D-BOX?"
@@ -837,13 +836,11 @@
         },
         "title:nct-127-5th-tour-neo-city-seoul-the-redline-in-cinemas": {
           "title": "NCT 127 5TH TOUR ‘NEO CITY : SEOUL - THE REDLINE’ in CINEMAS",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Sep 20"
-          ],
-          "context": "Advance tickets SEP 20 NCT 127 5TH TOUR ‘NEO CITY : SEOUL - THE REDLINE’ in CINEMAS",
+          "dates": [],
+          "context": "NCT 127 5TH TOUR ‘NEO CITY : SEOUL - THE REDLINE’ in CINEMAS",
           "url": "https://www.cineplex.com/movie/nct-127-5th-tour-neo-city-seoul-the-redline"
         },
         "title:practical-magic-2": {
@@ -1027,7 +1024,7 @@
       "e7fe52248db63bd965c8c78edd22d1818d82aec4c5256d9c1e4cad9cc762498b",
       "cd219d66bf6cd046c4dc2c64d4dddb8f76a9d25582e80a2d871b0890f7a5fe85"
     ],
-    "revision": 768
+    "revision": 769
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
