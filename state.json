@@ -588,7 +588,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "c434a4ef4b7da8d69a7f2ac474d0ca806511ba23b602636a2948a78e406cf5d1",
+    "hash": "a8f3c14d0d66452b801db1216e72a56e4ecd3a6c69c30fd978ee81a3d8403de8",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -601,7 +601,6 @@
         "Oct 14",
         "Oct 24",
         "Oct 30",
-        "Sep 21",
         "Sep 23",
         "Sep 24",
         "Sep 25",
@@ -616,8 +615,8 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Cinemas Abbotsford and VIP",
-        "Cineplex Cinemas Seton and VIP",
+        "Cineplex Odeon Westmount Cinemas and VIP",
+        "Cineplex Cinemas Kitchener and VIP",
         "Advance tickets",
         "SEP 25",
         "DEC 18",
@@ -628,7 +627,6 @@
         "OCT 24",
         "OCT 30",
         "SEP 23",
-        "SEP 21",
         "What are UltraAVX, IMAX, VIP, 4DX, ScreenX and D-BOX?"
       ],
       "movies": {
@@ -718,13 +716,11 @@
         },
         "title:crunchyroll-anime-nights-sneak-peek-japanese-w-e-s-t": {
           "title": "Crunchyroll Anime Nights Sneak Peek! (Japanese w.e.s.t.)",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Sep 21"
-          ],
-          "context": "Advance tickets SEP 21 Crunchyroll Anime Nights Sneak Peek! (Japanese w.e.s.t.)",
+          "dates": [],
+          "context": "Crunchyroll Anime Nights Sneak Peek! (Japanese w.e.s.t.)",
           "url": "https://www.cineplex.com/movie/crunchyroll-anime-nights-sneak-peek-japanese"
         },
         "title:dear-you-teochew-with-chinese-and-e-s-t": {
@@ -1024,7 +1020,7 @@
       "e7fe52248db63bd965c8c78edd22d1818d82aec4c5256d9c1e4cad9cc762498b",
       "cd219d66bf6cd046c4dc2c64d4dddb8f76a9d25582e80a2d871b0890f7a5fe85"
     ],
-    "revision": 774
+    "revision": 775
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
