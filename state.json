@@ -588,7 +588,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "342b0dcec6891f861434dd46c38e1b9b80be43b40694440635af977d5869060f",
+    "hash": "c434a4ef4b7da8d69a7f2ac474d0ca806511ba23b602636a2948a78e406cf5d1",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -616,7 +616,8 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Odeon Westmount Cinemas and VIP",
+        "Cineplex Cinemas Abbotsford and VIP",
+        "Cineplex Cinemas Seton and VIP",
         "Advance tickets",
         "SEP 25",
         "DEC 18",
@@ -1023,7 +1024,7 @@
       "e7fe52248db63bd965c8c78edd22d1818d82aec4c5256d9c1e4cad9cc762498b",
       "cd219d66bf6cd046c4dc2c64d4dddb8f76a9d25582e80a2d871b0890f7a5fe85"
     ],
-    "revision": 773
+    "revision": 774
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
