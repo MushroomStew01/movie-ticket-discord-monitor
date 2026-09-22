@@ -3,7 +3,7 @@
     "name": "Cineplex Cinemas Kitchener and VIP",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "717a93a103b2a7ae3ce41ef6f28518a8195ab1b853f99557943b6b6f351c4a5d",
+    "hash": "0f88fe026dedbc2234040855f1a3acfa162bafc4ddbb4bb887ea06f22cd639f5",
     "snapshot": {
       "page_title": "Cineplex Cinemas Kitchener and VIP",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-kitchener-and-vip",
@@ -31,13 +31,13 @@
           "context": "Avengers: Doomsday Advance tickets available",
           "url": null
         },
-        "title:coyote-vs-acme": {
-          "title": "Coyote vs ACME",
-          "ticket_available": false,
+        "title:avengers-endgame-encore": {
+          "title": "Avengers Endgame: Encore",
+          "ticket_available": true,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Coyote vs ACME",
+          "context": "Avengers Endgame: Encore Advance tickets available",
           "url": null
         },
         "title:dune-part-3": {
@@ -49,15 +49,6 @@
           "context": "Dune: Part 3 Advance tickets available",
           "url": null
         },
-        "title:fall-2-deadpoint": {
-          "title": "Fall 2: Deadpoint",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Fall 2: Deadpoint",
-          "url": null
-        },
         "title:forgotten-island": {
           "title": "Forgotten Island",
           "ticket_available": true,
@@ -67,6 +58,15 @@
           "context": "Forgotten Island Advance tickets available",
           "url": null
         },
+        "title:heart-of-the-beast": {
+          "title": "Heart of the Beast",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Heart of the Beast Advance tickets available",
+          "url": null
+        },
         "title:practical-magic-2": {
           "title": "Practical Magic 2",
           "ticket_available": false,
@@ -74,6 +74,15 @@
           "showtimes": [],
           "dates": [],
           "context": "Practical Magic 2",
+          "url": null
+        },
+        "title:primetime": {
+          "title": "Primetime",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Primetime Advance tickets available",
           "url": null
         },
         "title:resident-evil": {
@@ -111,15 +120,6 @@
           "dates": [],
           "context": "The Odyssey",
           "url": null
-        },
-        "title:the-uprising": {
-          "title": "The Uprising",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "The Uprising",
-          "url": null
         }
       }
     },
@@ -144,15 +144,16 @@
       "ae568c4dae551edd5a3320089096bee5c271719a2db2be81cdb9c51a01bde372",
       "0b33dcb65edda1506e161a8a3ab8fc7e92ef4b6129158404dd379a812f7dcf4c",
       "454243718c8c72e1acd452732ecad46435be7dad6ca4849c53b1f2f82f1f1018",
-      "68e7dd691673561e229107bb1b735d040df943b8e7df9e7d4e1870cdc97d4336"
+      "68e7dd691673561e229107bb1b735d040df943b8e7df9e7d4e1870cdc97d4336",
+      "11c2ff3e54d4d863253a58c154218fdfa1c8d309dcfb5a2bad8bb87aed5fc6f6"
     ],
-    "revision": 35
+    "revision": 36
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge": {
     "name": "Cineplex Cinemas Cambridge",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "c160d5dcd309cc8b059801b9593693d94886be27fe8267c868eb0039cb2381d6",
+    "hash": "9a85934f5c1e4c1b65c2fcfcb13f5e9da275e68f9514215605f6302799f266c3",
     "snapshot": {
       "page_title": "Cineplex Cinemas Cambridge",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge",
@@ -166,15 +167,6 @@
         "Advance tickets available"
       ],
       "movies": {
-        "title:andr-rieu-s-2026-christmas-concert-let-it-snow": {
-          "title": "André Rieu's 2026 Christmas Concert: Let it Snow",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "André Rieu's 2026 Christmas Concert: Let it Snow Advance tickets available",
-          "url": null
-        },
         "title:avengers-doomsday": {
           "title": "Avengers: Doomsday",
           "ticket_available": true,
@@ -209,6 +201,15 @@
           "showtimes": [],
           "dates": [],
           "context": "Forgotten Island Advance tickets available",
+          "url": null
+        },
+        "title:heart-of-the-beast": {
+          "title": "Heart of the Beast",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Heart of the Beast Advance tickets available",
           "url": null
         },
         "title:insidious-out-of-the-further": {
@@ -295,9 +296,10 @@
       "e52815a1548b9ef0e44542a50029e1dddb4ec8e7a98270e5dd6855edf16b1069",
       "6c7d1e7f4cd77e4788312284d7b055689f3b350550bd343ae01daf8648853f3a",
       "a2067c1c7f5fe4b36d91cf50490a1374f6cf08770b307a4e3f6c0d7924638b82",
-      "f97d251e0ff3fbe25ab8857b7f03ee2f190530d247ff9cda948e77a99a97ded3"
+      "f97d251e0ff3fbe25ab8857b7f03ee2f190530d247ff9cda948e77a99a97ded3",
+      "ad4d6433fae52faf1e177e2e4a18b1215b07599d513af92a906897c1d10a0988"
     ],
-    "revision": 40
+    "revision": 41
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan": {
     "name": "Cineplex Cinemas Vaughan",
@@ -588,7 +590,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "ba82ab03dbd7fa191d620b513889ade654af2d9a1b863eee36201d8de8eab289",
+    "hash": "0af0d651f1475753da253a49c6454067a15334afdda471541b0e0c4b99453180",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -615,7 +617,8 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Cinemas Abbotsford and VIP",
+        "Cineplex Cinemas Oakville and VIP",
+        "Cineplex Cinemas Winston Churchill & VIP",
         "Advance tickets",
         "SEP 25",
         "DEC 18",
@@ -1019,7 +1022,7 @@
       "e7fe52248db63bd965c8c78edd22d1818d82aec4c5256d9c1e4cad9cc762498b",
       "cd219d66bf6cd046c4dc2c64d4dddb8f76a9d25582e80a2d871b0890f7a5fe85"
     ],
-    "revision": 780
+    "revision": 781
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
