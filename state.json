@@ -446,7 +446,7 @@
     "name": "Cineplex Cinemas Mississauga Square One",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "fa9d0ce2ea07e451d902c1a5c0d13d372a5194385d80d2272de97b71598cba8a",
+    "hash": "81d205a49feb0bd519c072bb541d8492825f444a97f162dc667d815bcd25967d",
     "snapshot": {
       "page_title": "Cineplex Cinemas Mississauga Square One",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one",
@@ -467,6 +467,15 @@
           "showtimes": [],
           "dates": [],
           "context": "Avengers: Doomsday Advance tickets available",
+          "url": null
+        },
+        "title:avengers-endgame-encore": {
+          "title": "Avengers Endgame: Encore",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Avengers Endgame: Encore Advance tickets available",
           "url": null
         },
         "title:dune-part-3": {
@@ -549,15 +558,6 @@
           "dates": [],
           "context": "The Odyssey",
           "url": null
-        },
-        "title:the-uprising": {
-          "title": "The Uprising",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "The Uprising",
-          "url": null
         }
       }
     },
@@ -582,15 +582,16 @@
       "a45d5c709530f400908037cef47437f53d91d435467469ce9b9d77f0fdf26ee3",
       "abaae68f1f9fd4e77bc0baecf8ef1cb0b8c644be7358c9341426eebf4f2e7fc6",
       "386187fd00888ccace0b156d0ad5ab95e31c4a362b32e40e9d26f5f52a7ccd2b",
-      "45e29d645c6e67e90c76070a367608478ecff1400c28638f3a7bd3b295c5b257"
+      "45e29d645c6e67e90c76070a367608478ecff1400c28638f3a7bd3b295c5b257",
+      "39b577f3b5216084c757a7183426719bec1dceac03f214b3829729fc89d90754"
     ],
-    "revision": 31
+    "revision": 32
   },
   "https://www.cineplex.com/en?theatresNearYou=true": {
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "0af0d651f1475753da253a49c6454067a15334afdda471541b0e0c4b99453180",
+    "hash": "b93ae770bc459de618788f8a915106b7e1a1d773173c85652c26c93ab30395e9",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -617,8 +618,7 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Cinemas Oakville and VIP",
-        "Cineplex Cinemas Winston Churchill & VIP",
+        "Cineplex Odeon McGillivray Cinemas and VIP",
         "Advance tickets",
         "SEP 25",
         "DEC 18",
@@ -1022,7 +1022,7 @@
       "e7fe52248db63bd965c8c78edd22d1818d82aec4c5256d9c1e4cad9cc762498b",
       "cd219d66bf6cd046c4dc2c64d4dddb8f76a9d25582e80a2d871b0890f7a5fe85"
     ],
-    "revision": 781
+    "revision": 782
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
