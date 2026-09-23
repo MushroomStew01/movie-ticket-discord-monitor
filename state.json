@@ -153,7 +153,7 @@
     "name": "Cineplex Cinemas Cambridge",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "9a85934f5c1e4c1b65c2fcfcb13f5e9da275e68f9514215605f6302799f266c3",
+    "hash": "26c7223037850a24e382942cea4d695c90c752a8e8e43b2f399f56a9df0a1648",
     "snapshot": {
       "page_title": "Cineplex Cinemas Cambridge",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge",
@@ -167,6 +167,15 @@
         "Advance tickets available"
       ],
       "movies": {
+        "title:andr-rieu-s-2026-christmas-concert-let-it-snow": {
+          "title": "André Rieu's 2026 Christmas Concert: Let it Snow",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "André Rieu's 2026 Christmas Concert: Let it Snow Advance tickets available",
+          "url": null
+        },
         "title:avengers-doomsday": {
           "title": "Avengers: Doomsday",
           "ticket_available": true,
@@ -210,15 +219,6 @@
           "showtimes": [],
           "dates": [],
           "context": "Heart of the Beast Advance tickets available",
-          "url": null
-        },
-        "title:insidious-out-of-the-further": {
-          "title": "Insidious: Out of the Further",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Insidious: Out of the Further",
           "url": null
         },
         "title:other-mommy": {
@@ -297,9 +297,10 @@
       "6c7d1e7f4cd77e4788312284d7b055689f3b350550bd343ae01daf8648853f3a",
       "a2067c1c7f5fe4b36d91cf50490a1374f6cf08770b307a4e3f6c0d7924638b82",
       "f97d251e0ff3fbe25ab8857b7f03ee2f190530d247ff9cda948e77a99a97ded3",
-      "ad4d6433fae52faf1e177e2e4a18b1215b07599d513af92a906897c1d10a0988"
+      "ad4d6433fae52faf1e177e2e4a18b1215b07599d513af92a906897c1d10a0988",
+      "cbfdab2b4d049aaf16ae01fe165185b0cf9a518d5561ed85794bee1d71c53b5f"
     ],
-    "revision": 41
+    "revision": 42
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan": {
     "name": "Cineplex Cinemas Vaughan",
@@ -591,7 +592,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "b93ae770bc459de618788f8a915106b7e1a1d773173c85652c26c93ab30395e9",
+    "hash": "ba82ab03dbd7fa191d620b513889ade654af2d9a1b863eee36201d8de8eab289",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -618,7 +619,7 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Odeon McGillivray Cinemas and VIP",
+        "Cineplex Cinemas Abbotsford and VIP",
         "Advance tickets",
         "SEP 25",
         "DEC 18",
@@ -1022,7 +1023,7 @@
       "e7fe52248db63bd965c8c78edd22d1818d82aec4c5256d9c1e4cad9cc762498b",
       "cd219d66bf6cd046c4dc2c64d4dddb8f76a9d25582e80a2d871b0890f7a5fe85"
     ],
-    "revision": 782
+    "revision": 783
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
