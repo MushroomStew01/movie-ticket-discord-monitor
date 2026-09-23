@@ -592,7 +592,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "ba82ab03dbd7fa191d620b513889ade654af2d9a1b863eee36201d8de8eab289",
+    "hash": "4ce171a6f29e74f3773b0a6c696fbbfc16ad130494ed9252a7eb279d462956c4",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -605,7 +605,6 @@
         "Oct 14",
         "Oct 24",
         "Oct 30",
-        "Sep 23",
         "Sep 24",
         "Sep 25",
         "Sep 30"
@@ -629,7 +628,6 @@
         "OCT 14",
         "OCT 24",
         "OCT 30",
-        "SEP 23",
         "What are UltraAVX, IMAX, VIP, 4DX, ScreenX and D-BOX?"
       ],
       "movies": {
@@ -674,6 +672,15 @@
           ],
           "context": "Advance tickets DEC 18 Avengers: Doomsday Watch trailer",
           "url": "https://www.cineplex.com/movie/avengers-doomsday"
+        },
+        "title:avengers-endgame-encore": {
+          "title": "Avengers Endgame Encore",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "",
+          "url": "https://www.cineplex.com/movie/avengers-endgame-encore"
         },
         "title:bts-world-tour-arirang-in-buenos-aires-live-viewing": {
           "title": "BTS WORLD TOUR 'ARIRANG' IN BUENOS AIRES: LIVE VIEWING",
@@ -864,13 +871,11 @@
         },
         "title:pulp-what-do-you-do-for-an-encore": {
           "title": "PULP: What Do You Do For An Encore?",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Sep 23"
-          ],
-          "context": "Advance tickets SEP 23 PULP: What Do You Do For An Encore?",
+          "dates": [],
+          "context": "PULP: What Do You Do For An Encore?",
           "url": "https://www.cineplex.com/movie/pulp-what-do-you-do-for-an-encore"
         },
         "title:punjabi-mitti-de-putt-punjabi-w-e-s-t": {
@@ -1021,9 +1026,10 @@
       "4ac6c9fbe0f8807edaeb2dc04f2abdb890b228b5afe1174546b185d7eaa812b3",
       "ee6ee29219b6a36cd91565ef6ed4c7c89c860caa10390bf394ae288ea0cb0235",
       "e7fe52248db63bd965c8c78edd22d1818d82aec4c5256d9c1e4cad9cc762498b",
-      "cd219d66bf6cd046c4dc2c64d4dddb8f76a9d25582e80a2d871b0890f7a5fe85"
+      "cd219d66bf6cd046c4dc2c64d4dddb8f76a9d25582e80a2d871b0890f7a5fe85",
+      "87f4a155d6a756f1647e4911c6a6aa8a5b14c717896afe90a66ef4bd88eb4796"
     ],
-    "revision": 783
+    "revision": 784
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
