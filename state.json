@@ -596,7 +596,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "60eba16ec068a908fc3f8a5375fe21be5b42270597ac755682f059bb428bea67",
+    "hash": "366452a0ebfd12094fb8956477ab61b1168968d179c600aec6a37cbba2089377",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -615,7 +615,6 @@
         "Oct 31",
         "Oct 7",
         "Oct 8",
-        "Sep 24",
         "Sep 25",
         "Sep 30"
       ],
@@ -628,15 +627,14 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Odeon Westmount Cinemas and VIP",
-        "Cineplex Cinemas Kitchener and VIP",
+        "Cineplex Cinemas Oakville and VIP",
+        "Cineplex Cinemas Winston Churchill & VIP",
         "Advance tickets",
         "SEP 25",
         "OCT 2",
         "DEC 18",
         "OCT 3",
         "OCT 31",
-        "SEP 24",
         "SEP 30",
         "OCT 24",
         "OCT 30",
@@ -941,13 +939,11 @@
         },
         "title:the-misanthrope-national-theatre-live": {
           "title": "The Misanthrope - National Theatre Live",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Sep 24"
-          ],
-          "context": "Advance tickets SEP 24 The Misanthrope - National Theatre Live Watch trailer",
+          "dates": [],
+          "context": "The Misanthrope - National Theatre Live Watch trailer",
           "url": "https://www.cineplex.com/movie/the-misanthrope-national-theatre-live"
         },
         "title:the-stunt-driver": {
@@ -1063,7 +1059,7 @@
       "fb2334211bea5010456736e3a1d03af58dcb775ced6c13ebae7ae0740246f294",
       "43769e7e055227e6c2e1552f4405e4a0bb2621f5b95b8bfb75903654da21fc09"
     ],
-    "revision": 789
+    "revision": 790
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
