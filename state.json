@@ -3,7 +3,7 @@
     "name": "Cineplex Cinemas Kitchener and VIP",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "f10dc2a9625ce776018928872a9f1c1cbf729f13cea8e272ee9270fa69b3ac9c",
+    "hash": "b2e606837783a09c775349e896365e926dcecdf63c6c7ae21e292246401d87c7",
     "snapshot": {
       "page_title": "Cineplex Cinemas Kitchener and VIP",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-kitchener-and-vip",
@@ -33,11 +33,11 @@
         },
         "title:avengers-endgame-encore": {
           "title": "Avengers Endgame: Encore",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Avengers Endgame: Encore Advance tickets available",
+          "context": "Avengers Endgame: Encore",
           "url": null
         },
         "title:digger": {
@@ -60,20 +60,20 @@
         },
         "title:forgotten-island": {
           "title": "Forgotten Island",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Forgotten Island Advance tickets available",
+          "context": "Forgotten Island",
           "url": null
         },
         "title:heart-of-the-beast": {
           "title": "Heart of the Beast",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Heart of the Beast Advance tickets available",
+          "context": "Heart of the Beast",
           "url": null
         },
         "title:practical-magic-2": {
@@ -87,11 +87,11 @@
         },
         "title:primetime": {
           "title": "Primetime",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Primetime Advance tickets available",
+          "context": "Primetime",
           "url": null
         },
         "title:resident-evil": {
@@ -148,13 +148,13 @@
       "11c2ff3e54d4d863253a58c154218fdfa1c8d309dcfb5a2bad8bb87aed5fc6f6",
       "7a6c7fb0d5e141ffff4e8f5652a8765f219f8acfcac9295ff7e4d17c370eb1e9"
     ],
-    "revision": 37
+    "revision": 38
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge": {
     "name": "Cineplex Cinemas Cambridge",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "99dd2bb7bf2ef9cef23b561e4f52da77f742e2b9f684df23252e02bf341e5e28",
+    "hash": "d6ab0471954e809cddf9df3c28053b4eff1f97255a29f8bedde89c29aa715158",
     "snapshot": {
       "page_title": "Cineplex Cinemas Cambridge",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge",
@@ -206,20 +206,20 @@
         },
         "title:forgotten-island": {
           "title": "Forgotten Island",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Forgotten Island Advance tickets available",
+          "context": "Forgotten Island",
           "url": null
         },
         "title:heart-of-the-beast": {
           "title": "Heart of the Beast",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Heart of the Beast Advance tickets available",
+          "context": "Heart of the Beast",
           "url": null
         },
         "title:other-mommy": {
@@ -302,13 +302,13 @@
       "cbfdab2b4d049aaf16ae01fe165185b0cf9a518d5561ed85794bee1d71c53b5f",
       "469d641f732c52d03eed9f42ad82c017a8d9b5fe103169d884212576961eeba7"
     ],
-    "revision": 43
+    "revision": 44
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan": {
     "name": "Cineplex Cinemas Vaughan",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "1141bcc2de17d4a882ab563566108ff175984a2bd0c06b3d73ed9d412a79f268",
+    "hash": "f3882cf64c46f4bf38e393eba426b53f954041ff9ba3f12735856f3076cda40c",
     "snapshot": {
       "page_title": "Cineplex Cinemas Vaughan",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan",
@@ -333,11 +333,11 @@
         },
         "title:avengers-endgame-encore": {
           "title": "Avengers Endgame: Encore",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Avengers Endgame: Encore Advance tickets available",
+          "context": "Avengers Endgame: Encore",
           "url": null
         },
         "title:digger": {
@@ -360,20 +360,20 @@
         },
         "title:forgotten-island": {
           "title": "Forgotten Island",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Forgotten Island Advance tickets available",
+          "context": "Forgotten Island",
           "url": null
         },
         "title:heart-of-the-beast": {
           "title": "Heart of the Beast",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Heart of the Beast Advance tickets available",
+          "context": "Heart of the Beast",
           "url": null
         },
         "title:practical-magic-2": {
@@ -387,11 +387,11 @@
         },
         "title:primetime": {
           "title": "Primetime",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Primetime Advance tickets available",
+          "context": "Primetime",
           "url": null
         },
         "title:resident-evil": {
@@ -405,11 +405,11 @@
         },
         "title:the-stunt-driver": {
           "title": "The Stunt Driver",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "The Stunt Driver Advance tickets available",
+          "context": "The Stunt Driver",
           "url": null
         },
         "title:verity": {
@@ -444,13 +444,13 @@
       "4a0dab6bf0d942e30d7274cd2d173b46806485b9cf1b1b8d6bb19ab6ee8dfd55",
       "0fd2a95fc2ca27d4e0db224b1c5a330ae9119ef37ab43a8ab3821cc0a5443356"
     ],
-    "revision": 31
+    "revision": 32
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one": {
     "name": "Cineplex Cinemas Mississauga Square One",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "febb9bfbea358bfdc20c821db3b5c08b8ceccd52fb21aebaadcd016c29b81598",
+    "hash": "37b0b1415859d83fb4a85903b42e245ed8c8795bfe1192e5c4bae7c3365e8576",
     "snapshot": {
       "page_title": "Cineplex Cinemas Mississauga Square One",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one",
@@ -475,11 +475,11 @@
         },
         "title:avengers-endgame-encore": {
           "title": "Avengers Endgame: Encore",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Avengers Endgame: Encore Advance tickets available",
+          "context": "Avengers Endgame: Encore",
           "url": null
         },
         "title:digger": {
@@ -502,20 +502,20 @@
         },
         "title:forgotten-island": {
           "title": "Forgotten Island",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Forgotten Island Advance tickets available",
+          "context": "Forgotten Island",
           "url": null
         },
         "title:heart-of-the-beast": {
           "title": "Heart of the Beast",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Heart of the Beast Advance tickets available",
+          "context": "Heart of the Beast",
           "url": null
         },
         "title:practical-magic-2": {
@@ -529,11 +529,11 @@
         },
         "title:primetime": {
           "title": "Primetime",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Primetime Advance tickets available",
+          "context": "Primetime",
           "url": null
         },
         "title:resident-evil": {
@@ -590,13 +590,13 @@
       "39b577f3b5216084c757a7183426719bec1dceac03f214b3829729fc89d90754",
       "dbff877c57b64a8e6fab328c36f2dfc54f01c237bcafd026e6ca303549da5537"
     ],
-    "revision": 33
+    "revision": 34
   },
   "https://www.cineplex.com/en?theatresNearYou=true": {
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "aff5a133236048b0b19047e6f62fb01b5b587663921ee176fbcedd937fd7e987",
+    "hash": "0f27407e63c3e67015fe6d20d0ee0c0a516bc5c1a1d4e1ab77e1223396d24bb3",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -615,7 +615,6 @@
         "Oct 31",
         "Oct 7",
         "Oct 8",
-        "Sep 25",
         "Sep 30"
       ],
       "formats": [
@@ -630,7 +629,6 @@
         "Cineplex Cinemas Abbotsford and VIP",
         "Cineplex Cinemas Seton and VIP",
         "Advance tickets",
-        "SEP 25",
         "OCT 2",
         "DEC 18",
         "OCT 3",
@@ -680,13 +678,11 @@
         },
         "title:avengers-endgame-encore": {
           "title": "Avengers Endgame: Encore",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Sep 25"
-          ],
-          "context": "Advance tickets SEP 25 Avengers Endgame: Encore Watch trailer",
+          "dates": [],
+          "context": "Avengers Endgame: Encore Watch trailer",
           "url": "https://www.cineplex.com/movie/avengers-endgame-encore"
         },
         "title:bts-world-tour-arirang-in-buenos-aires-live-viewing": {
@@ -766,24 +762,20 @@
         },
         "title:forgotten-island": {
           "title": "Forgotten Island",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Sep 25"
-          ],
-          "context": "Advance tickets SEP 25 Forgotten Island Watch trailer",
+          "dates": [],
+          "context": "Forgotten Island Watch trailer",
           "url": "https://www.cineplex.com/movie/forgotten-island"
         },
         "title:heart-of-the-beast": {
           "title": "Heart of the Beast",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Sep 25"
-          ],
-          "context": "Advance tickets SEP 25 Heart of the Beast Watch trailer",
+          "dates": [],
+          "context": "Heart of the Beast Watch trailer",
           "url": "https://www.cineplex.com/movie/heart-of-the-beast"
         },
         "title:hindi-daayra-hindi-w-e-s-t": {
@@ -813,6 +805,15 @@
           "context": "Hindi Mirzapur: The Movie (Hindi w/e.s.t.)",
           "url": "https://www.cineplex.com/movie/mirzapur-the-movie-hindi-west"
         },
+        "title:hindi-the-vvaan-force-of-the-forrest-hindi-w-e-s-t": {
+          "title": "Hindi The Vvaan: Force of the Forrest (Hindi w/e.s.t.)",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Hindi The Vvaan: Force of the Forrest (Hindi w/e.s.t.)",
+          "url": "https://www.cineplex.com/movie/the-vvaan-force-of-the-forrest-hindi-west"
+        },
         "title:hindi-vibe-hindi-w-e-s-t": {
           "title": "Hindi Vibe (Hindi w/e.s.t.)",
           "ticket_available": false,
@@ -832,17 +833,6 @@
           ],
           "context": "Advance tickets SEP 30 LINKIN PARK: UNSHATTER",
           "url": "https://www.cineplex.com/movie/linkin-park-unshatter"
-        },
-        "title:lutt-mubarak-punjabi-w-e-s-t": {
-          "title": "Lutt Mubarak (Punjabi w/e.s.t.)",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [
-            "Sep 25"
-          ],
-          "context": "Advance Tickets SEP 25 Lutt Mubarak (Punjabi w/e.s.t.)",
-          "url": "https://www.cineplex.com/movie/lutt-mubarak-punjabi-west"
         },
         "title:ozzy-and-black-sabbath-back-to-the-beginning": {
           "title": "Ozzy & Black Sabbath: Back To The Beginning",
@@ -866,14 +856,21 @@
         },
         "title:primetime": {
           "title": "Primetime",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Sep 25"
-          ],
-          "context": "Advance tickets SEP 25 Primetime Watch trailer",
+          "dates": [],
+          "context": "Primetime Watch trailer",
           "url": "https://www.cineplex.com/movie/primetime"
+        },
+        "title:punjabi-lutt-mubarak-punjabi-w-e-s-t": {
+          "title": "Punjabi Lutt Mubarak (Punjabi w/e.s.t.)",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Punjabi Lutt Mubarak (Punjabi w/e.s.t.)",
+          "url": "https://www.cineplex.com/movie/lutt-mubarak-punjabi-west"
         },
         "title:punjabi-mitti-de-putt-punjabi-w-e-s-t": {
           "title": "Punjabi Mitti De Putt (Punjabi w/e.s.t.)",
@@ -892,6 +889,15 @@
           "dates": [],
           "context": "Punjabi Singh vs Kaur 2 (Punjabi w/e.s.t.)",
           "url": "https://www.cineplex.com/movie/singh-vs-kaur-2-punjabi-west"
+        },
+        "title:punjabi-tutt-paini-english-ne-punjabi-w-e-s-t": {
+          "title": "Punjabi Tutt Paini English Ne (Punjabi w/e.s.t.)",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Punjabi Tutt Paini English Ne (Punjabi w/e.s.t.)",
+          "url": "https://www.cineplex.com/movie/tutt-paini-english-ne-punjabi-west"
         },
         "title:queen-budapest-the-imax-experience": {
           "title": "Queen Budapest - The IMAX Experience®",
@@ -948,36 +954,12 @@
         },
         "title:the-stunt-driver": {
           "title": "The Stunt Driver",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Sep 25"
-          ],
-          "context": "Advance tickets SEP 25 The Stunt Driver Watch trailer",
+          "dates": [],
+          "context": "The Stunt Driver Watch trailer",
           "url": "https://www.cineplex.com/movie/the-stunt-driver"
-        },
-        "title:the-vvaan-force-of-the-forrest-hindi-w-e-s-t": {
-          "title": "The Vvaan: Force of the Forrest (Hindi w/e.s.t.)",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [
-            "Sep 25"
-          ],
-          "context": "Advance Tickets SEP 25 The Vvaan: Force of the Forrest (Hindi w/e.s.t.)",
-          "url": "https://www.cineplex.com/movie/the-vvaan-force-of-the-forrest-hindi-west"
-        },
-        "title:tutt-paini-english-ne-punjabi-w-e-s-t": {
-          "title": "Tutt Paini English Ne (Punjabi w/e.s.t.)",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [
-            "Sep 25"
-          ],
-          "context": "Advance Tickets SEP 25 Tutt Paini English Ne (Punjabi w/e.s.t.)",
-          "url": "https://www.cineplex.com/movie/tutt-paini-english-ne-punjabi-west"
         },
         "title:verity": {
           "title": "Verity",
@@ -1057,9 +1039,10 @@
       "87f4a155d6a756f1647e4911c6a6aa8a5b14c717896afe90a66ef4bd88eb4796",
       "61f1d07356a66aab1c9b279a6183ee12b7e7e5bda6b4703aab3762c049a42ee2",
       "fb2334211bea5010456736e3a1d03af58dcb775ced6c13ebae7ae0740246f294",
-      "43769e7e055227e6c2e1552f4405e4a0bb2621f5b95b8bfb75903654da21fc09"
+      "43769e7e055227e6c2e1552f4405e4a0bb2621f5b95b8bfb75903654da21fc09",
+      "c12ebc3e3f5b52993d5c57e9d7a75a03dd69fc745f9e187a9b7fa54f8e969e18"
     ],
-    "revision": 794
+    "revision": 795
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
