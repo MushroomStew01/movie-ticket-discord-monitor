@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-24T19:33:06.736892+00:00",
-  "state_id": "c5cb8e069e3742aa6f2d7a36f1680a84ef5b1e7675f54adfb9b2d625bffc9624",
+  "updated_at": "2026-09-25T22:44:38.277885+00:00",
+  "state_id": "8c7ae187bbfb786d516d6d4680d890a9ce46cb82de2a85cbde241ad14c8bef18",
   "healthy": true,
   "target_count": 6,
   "failing_targets": [],
   "missing_targets": [],
   "theatre_count": 4,
   "healthy_theatre_count": 4,
-  "heartbeat_at": "2026-09-24T19:33:06.628426+00:00",
+  "heartbeat_at": "2026-09-25T22:44:38.183154+00:00",
   "priority_titles": [
     "Dune: Part 3"
   ],
