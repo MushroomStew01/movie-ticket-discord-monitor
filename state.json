@@ -154,7 +154,7 @@
     "name": "Cineplex Cinemas Cambridge",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "d6ab0471954e809cddf9df3c28053b4eff1f97255a29f8bedde89c29aa715158",
+    "hash": "4dd5bf1af84a146d5f0cf3e804be9525589afcbfd86e16b87361a9b4c17bec2c",
     "snapshot": {
       "page_title": "Cineplex Cinemas Cambridge",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge",
@@ -168,6 +168,15 @@
         "Advance tickets available"
       ],
       "movies": {
+        "title:andr-rieu-s-2026-christmas-concert-let-it-snow": {
+          "title": "André Rieu's 2026 Christmas Concert: Let it Snow",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "André Rieu's 2026 Christmas Concert: Let it Snow Advance tickets available",
+          "url": null
+        },
         "title:avengers-doomsday": {
           "title": "Avengers: Doomsday",
           "ticket_available": true,
@@ -249,15 +258,6 @@
           "context": "Resident Evil",
           "url": null
         },
-        "title:shaun-the-sheep-the-beast-of-mossy-bottom": {
-          "title": "Shaun the Sheep: The Beast of Mossy Bottom",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Shaun the Sheep: The Beast of Mossy Bottom",
-          "url": null
-        },
         "title:spider-man-brand-new-day": {
           "title": "Spider-Man: Brand New Day",
           "ticket_available": false,
@@ -300,9 +300,10 @@
       "f97d251e0ff3fbe25ab8857b7f03ee2f190530d247ff9cda948e77a99a97ded3",
       "ad4d6433fae52faf1e177e2e4a18b1215b07599d513af92a906897c1d10a0988",
       "cbfdab2b4d049aaf16ae01fe165185b0cf9a518d5561ed85794bee1d71c53b5f",
-      "469d641f732c52d03eed9f42ad82c017a8d9b5fe103169d884212576961eeba7"
+      "469d641f732c52d03eed9f42ad82c017a8d9b5fe103169d884212576961eeba7",
+      "af4b897e851c9fe32a6eb0fd3e6b6e61c9912da4ab18ad4b6121e4e79669e535"
     ],
-    "revision": 44
+    "revision": 45
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan": {
     "name": "Cineplex Cinemas Vaughan",
