@@ -601,7 +601,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "b0d0f6825101e137d82cc04616bafb15516a71832014093b4412412d25b8dbd8",
+    "hash": "49af1c71ff9ef933c065cd818caa771450c920ac6aae4c7a64609e83dfd5f71c",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -611,7 +611,6 @@
       "dates": [
         "Dec 18",
         "Nov 4",
-        "Oct 14",
         "Oct 2",
         "Oct 24",
         "Oct 28",
@@ -645,30 +644,9 @@
         "OCT 8",
         "OCT 28",
         "NOV 4",
-        "OCT 14",
         "What are UltraAVX, IMAX, VIP, 4DX, ScreenX and D-BOX?"
       ],
       "movies": {
-        "title:always-lalisa": {
-          "title": "ALWAYS LALISA",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [
-            "Oct 14"
-          ],
-          "context": "Advance tickets OCT 14 ALWAYS LALISA Watch trailer",
-          "url": "https://www.cineplex.com/movie/always-lalisa"
-        },
-        "title:arabic-red-flag-arabic-w-e-s-t": {
-          "title": "Arabic Red Flag (Arabic w/e.s.t.)",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Arabic Red Flag (Arabic w/e.s.t.)",
-          "url": "https://www.cineplex.com/movie/red-flag-arabic-west"
-        },
         "title:avengers-doomsday": {
           "title": "Avengers: Doomsday",
           "ticket_available": true,
@@ -848,15 +826,6 @@
           ],
           "context": "Advance tickets OCT 28 Ozzy & Black Sabbath: Back To The Beginning",
           "url": "https://www.cineplex.com/movie/ozzy-black-sabbath-back-to-the-beginning"
-        },
-        "title:practical-magic-2": {
-          "title": "Practical Magic 2",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Practical Magic 2 Watch trailer",
-          "url": "https://www.cineplex.com/movie/practical-magic-2"
         },
         "title:primetime": {
           "title": "Primetime",
@@ -1046,7 +1015,7 @@
       "43769e7e055227e6c2e1552f4405e4a0bb2621f5b95b8bfb75903654da21fc09",
       "c12ebc3e3f5b52993d5c57e9d7a75a03dd69fc745f9e187a9b7fa54f8e969e18"
     ],
-    "revision": 812
+    "revision": 813
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
