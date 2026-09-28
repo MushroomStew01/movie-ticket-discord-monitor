@@ -601,7 +601,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "49af1c71ff9ef933c065cd818caa771450c920ac6aae4c7a64609e83dfd5f71c",
+    "hash": "c60b8b0748586d3d033129d5fc36651e34a196405012ff12b9b0aa09ab983924",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -610,7 +610,6 @@
       "showtimes": [],
       "dates": [
         "Dec 18",
-        "Nov 4",
         "Oct 2",
         "Oct 24",
         "Oct 28",
@@ -643,7 +642,6 @@
         "Queen Budapest - The IMAX Experience®",
         "OCT 8",
         "OCT 28",
-        "NOV 4",
         "What are UltraAVX, IMAX, VIP, 4DX, ScreenX and D-BOX?"
       ],
       "movies": {
@@ -697,7 +695,7 @@
           "dates": [
             "Oct 31"
           ],
-          "context": "Advance tickets OCT 31 Così fan tutte (Mozart) Italian w/e.s.t. ENCORE - Metropolitan Opera",
+          "context": "Advance tickets OCT 31 Così fan tutte (Mozart) Italian w/e.s.t. ENCORE - Metropolitan Opera Watch trailer",
           "url": "https://www.cineplex.com/movie/est-enc-cosi-fan-tutte-mozart-italian-west"
         },
         "title:cos-fan-tutte-mozart-italian-w-e-s-t-metropolitan-opera": {
@@ -708,7 +706,7 @@
           "dates": [
             "Oct 3"
           ],
-          "context": "Advance tickets OCT 3 Così fan tutte (Mozart) Italian w/e.s.t. – Metropolitan Opera",
+          "context": "Advance tickets OCT 3 Così fan tutte (Mozart) Italian w/e.s.t. – Metropolitan Opera Watch trailer",
           "url": "https://www.cineplex.com/movie/est-cosi-fan-tutte-mozart-italian-west-met"
         },
         "title:dear-you-teochew-with-chinese-and-e-s-t": {
@@ -872,6 +870,17 @@
           "context": "Punjabi Tutt Paini English Ne (Punjabi w/e.s.t.)",
           "url": "https://www.cineplex.com/movie/tutt-paini-english-ne-punjabi-west"
         },
+        "title:queen-budapest": {
+          "title": "Queen Budapest",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [
+            "Oct 7"
+          ],
+          "context": "Advance tickets OCT 7 Queen Budapest",
+          "url": "https://www.cineplex.com/movie/queen-budapest"
+        },
         "title:queen-budapest-the-imax-experience": {
           "title": "Queen Budapest - The IMAX Experience®",
           "ticket_available": true,
@@ -884,17 +893,6 @@
           ],
           "context": "Advance tickets OCT 7 Queen Budapest - The IMAX Experience®",
           "url": "https://www.cineplex.com/movie/queen-budapest-the-imax-experience-2026"
-        },
-        "title:rammstein-live-in-mexico-city-german": {
-          "title": "Rammstein - Live in Mexico City (German)",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [
-            "Nov 4"
-          ],
-          "context": "Advance tickets NOV 4 Rammstein - Live in Mexico City (German)",
-          "url": "https://www.cineplex.com/movie/rammstein-live-in-mexico-city-german"
         },
         "title:resident-evil": {
           "title": "Resident Evil",
@@ -1013,9 +1011,10 @@
       "61f1d07356a66aab1c9b279a6183ee12b7e7e5bda6b4703aab3762c049a42ee2",
       "fb2334211bea5010456736e3a1d03af58dcb775ced6c13ebae7ae0740246f294",
       "43769e7e055227e6c2e1552f4405e4a0bb2621f5b95b8bfb75903654da21fc09",
-      "c12ebc3e3f5b52993d5c57e9d7a75a03dd69fc745f9e187a9b7fa54f8e969e18"
+      "c12ebc3e3f5b52993d5c57e9d7a75a03dd69fc745f9e187a9b7fa54f8e969e18",
+      "82b1c51fc91f2b0b0e959509c4bcaa345ff058be7670f7c496be3e59b3107717"
     ],
-    "revision": 813
+    "revision": 814
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
