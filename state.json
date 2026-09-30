@@ -157,7 +157,7 @@
     "name": "Cineplex Cinemas Cambridge",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "4dd5bf1af84a146d5f0cf3e804be9525589afcbfd86e16b87361a9b4c17bec2c",
+    "hash": "7e09cbfd641f865e7af592f9c6c4ac1d0af80375a5c1a0d4c507573b00621ab2",
     "snapshot": {
       "page_title": "Cineplex Cinemas Cambridge",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge",
@@ -171,15 +171,6 @@
         "Advance tickets available"
       ],
       "movies": {
-        "title:andr-rieu-s-2026-christmas-concert-let-it-snow": {
-          "title": "André Rieu's 2026 Christmas Concert: Let it Snow",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "André Rieu's 2026 Christmas Concert: Let it Snow Advance tickets available",
-          "url": null
-        },
         "title:avengers-doomsday": {
           "title": "Avengers: Doomsday",
           "ticket_available": true,
@@ -269,6 +260,15 @@
           "dates": [],
           "context": "Spider-Man: Brand New Day",
           "url": null
+        },
+        "title:verity": {
+          "title": "Verity",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Verity Advance tickets available",
+          "url": null
         }
       }
     },
@@ -306,9 +306,10 @@
       "469d641f732c52d03eed9f42ad82c017a8d9b5fe103169d884212576961eeba7",
       "af4b897e851c9fe32a6eb0fd3e6b6e61c9912da4ab18ad4b6121e4e79669e535",
       "64bf36ed5d62d9d8130285507d6747b612ddb937569e63e8fab07655976c33e4",
-      "04f2cdb5311d7a7782ea75acbb906a54d9d7fd699572a191323cfd42ce6ae8d9"
+      "04f2cdb5311d7a7782ea75acbb906a54d9d7fd699572a191323cfd42ce6ae8d9",
+      "5fe55e47e018ecac1954859c49d0583b04c2915085759b5bf4a757bedda86856"
     ],
-    "revision": 49
+    "revision": 50
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan": {
     "name": "Cineplex Cinemas Vaughan",
@@ -606,7 +607,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "bc66ef191c89c64e19eb133cc3bcc140dc921629885d2700b5fdbb53639792dc",
+    "hash": "53a24c01dddd3fa0157a6915ec152c29118b8e86b9b830bb9560815b97602cb6",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -622,8 +623,7 @@
         "Oct 30",
         "Oct 31",
         "Oct 7",
-        "Oct 8",
-        "Sep 30"
+        "Oct 8"
       ],
       "formats": [
         "4DX",
@@ -634,14 +634,13 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Odeon Westmount Cinemas and VIP",
-        "Cineplex Cinemas Kitchener and VIP",
+        "Cineplex Cinemas Abbotsford and VIP",
+        "Cineplex Cinemas Seton and VIP",
         "Advance tickets",
         "OCT 2",
         "DEC 18",
         "OCT 3",
         "OCT 31",
-        "SEP 30",
         "OCT 24",
         "OCT 30",
         "OCT 7",
@@ -811,13 +810,11 @@
         },
         "title:linkin-park-unshatter": {
           "title": "LINKIN PARK: UNSHATTER",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Sep 30"
-          ],
-          "context": "Advance tickets SEP 30 LINKIN PARK: UNSHATTER",
+          "dates": [],
+          "context": "LINKIN PARK: UNSHATTER",
           "url": "https://www.cineplex.com/movie/linkin-park-unshatter"
         },
         "title:ozzy-and-black-sabbath-back-to-the-beginning": {
@@ -1020,7 +1017,7 @@
       "c12ebc3e3f5b52993d5c57e9d7a75a03dd69fc745f9e187a9b7fa54f8e969e18",
       "82b1c51fc91f2b0b0e959509c4bcaa345ff058be7670f7c496be3e59b3107717"
     ],
-    "revision": 819
+    "revision": 820
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
@@ -1053,6 +1050,6 @@
     "revision": 8
   },
   "_meta": {
-    "last_heartbeat_at_utc": "2026-09-29T06:49:45.543739+00:00"
+    "last_heartbeat_at_utc": "2026-09-30T07:20:34.372799+00:00"
   }
 }
