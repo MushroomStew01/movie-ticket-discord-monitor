@@ -3,7 +3,7 @@
     "name": "Cineplex Cinemas Kitchener and VIP",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "b2e606837783a09c775349e896365e926dcecdf63c6c7ae21e292246401d87c7",
+    "hash": "a4aaf1ceb484daa25c8b48842026afa9fa8a652d284f09ee24615bdb545c8529",
     "snapshot": {
       "page_title": "Cineplex Cinemas Kitchener and VIP",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-kitchener-and-vip",
@@ -112,13 +112,13 @@
           "context": "Spider-Man: Brand New Day",
           "url": null
         },
-        "title:the-odyssey": {
-          "title": "The Odyssey",
-          "ticket_available": false,
+        "title:verity": {
+          "title": "Verity",
+          "ticket_available": true,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "The Odyssey",
+          "context": "Verity Advance tickets available",
           "url": null
         }
       }
@@ -148,9 +148,10 @@
       "11c2ff3e54d4d863253a58c154218fdfa1c8d309dcfb5a2bad8bb87aed5fc6f6",
       "7a6c7fb0d5e141ffff4e8f5652a8765f219f8acfcac9295ff7e4d17c370eb1e9",
       "3fd4ce3d875bb3850d992b8d8b5735466867b917c159156f73a8b2c4af0a3264",
-      "38a531ab08841915b1239b1d1b78c840e239fbf0906bad77ab5002672f1575a7"
+      "38a531ab08841915b1239b1d1b78c840e239fbf0906bad77ab5002672f1575a7",
+      "b34e8f317b2f68e1681bea561c9437c3d98d4aefb47070d7220cffeae17ff06d"
     ],
-    "revision": 42
+    "revision": 43
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge": {
     "name": "Cineplex Cinemas Cambridge",
