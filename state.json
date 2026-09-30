@@ -157,7 +157,7 @@
     "name": "Cineplex Cinemas Cambridge",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "7e09cbfd641f865e7af592f9c6c4ac1d0af80375a5c1a0d4c507573b00621ab2",
+    "hash": "983e6087fd7af34b254d13861f880e1a3647afc2e4da44f329c6f210547fefb8",
     "snapshot": {
       "page_title": "Cineplex Cinemas Cambridge",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge",
@@ -187,15 +187,6 @@
           "showtimes": [],
           "dates": [],
           "context": "Buddy",
-          "url": null
-        },
-        "title:cos-fan-tutte-mozart-italian-w-e-s-t-metropolitan-opera": {
-          "title": "Così fan tutte (Mozart) Italian w/e.s.t. – Metropolitan Opera",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Così fan tutte (Mozart) Italian w/e.s.t. – Metropolitan Opera Advance tickets available",
           "url": null
         },
         "title:coyote-vs-acme": {
@@ -269,6 +260,15 @@
           "dates": [],
           "context": "Verity Advance tickets available",
           "url": null
+        },
+        "title:whalefall": {
+          "title": "Whalefall",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Whalefall Advance tickets available",
+          "url": null
         }
       }
     },
@@ -307,9 +307,10 @@
       "af4b897e851c9fe32a6eb0fd3e6b6e61c9912da4ab18ad4b6121e4e79669e535",
       "64bf36ed5d62d9d8130285507d6747b612ddb937569e63e8fab07655976c33e4",
       "04f2cdb5311d7a7782ea75acbb906a54d9d7fd699572a191323cfd42ce6ae8d9",
-      "5fe55e47e018ecac1954859c49d0583b04c2915085759b5bf4a757bedda86856"
+      "5fe55e47e018ecac1954859c49d0583b04c2915085759b5bf4a757bedda86856",
+      "034afc07cdcfd97eec6b31ff563ecfa49e4cf4697957a82d7f15abd27e068b0c"
     ],
-    "revision": 50
+    "revision": 51
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan": {
     "name": "Cineplex Cinemas Vaughan",
