@@ -157,7 +157,7 @@
     "name": "Cineplex Cinemas Cambridge",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "36692fce9e08dbecb66a5fdfe09aeb861fc3f564a2ca446be7971f27adf94bf9",
+    "hash": "089983ee00a7a5a0b707f0dd38b302e1b160bea678715a89283984fe20e919c8",
     "snapshot": {
       "page_title": "Cineplex Cinemas Cambridge",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge",
@@ -171,6 +171,15 @@
         "Advance tickets available"
       ],
       "movies": {
+        "title:andr-rieu-s-2026-christmas-concert-let-it-snow": {
+          "title": "André Rieu's 2026 Christmas Concert: Let it Snow",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "André Rieu's 2026 Christmas Concert: Let it Snow Advance tickets available",
+          "url": null
+        },
         "title:avengers-doomsday": {
           "title": "Avengers: Doomsday",
           "ticket_available": true,
@@ -187,15 +196,6 @@
           "showtimes": [],
           "dates": [],
           "context": "Così fan tutte (Mozart) Italian w/e.s.t. – Metropolitan Opera Advance tickets available",
-          "url": null
-        },
-        "title:coyote-vs-acme": {
-          "title": "Coyote vs ACME",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Coyote vs ACME",
           "url": null
         },
         "title:forgotten-island": {
@@ -309,9 +309,10 @@
       "04f2cdb5311d7a7782ea75acbb906a54d9d7fd699572a191323cfd42ce6ae8d9",
       "5fe55e47e018ecac1954859c49d0583b04c2915085759b5bf4a757bedda86856",
       "034afc07cdcfd97eec6b31ff563ecfa49e4cf4697957a82d7f15abd27e068b0c",
-      "20d8d27dcad840e26322f0793e93e808c98787c1a20831b77b5f29b3f4821818"
+      "20d8d27dcad840e26322f0793e93e808c98787c1a20831b77b5f29b3f4821818",
+      "d9477d27f37e8500748fc50a2065546eec64d46eccc56543f15f8f32976cae50"
     ],
-    "revision": 52
+    "revision": 53
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan": {
     "name": "Cineplex Cinemas Vaughan",
@@ -462,7 +463,7 @@
     "name": "Cineplex Cinemas Mississauga Square One",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "1a3ee6707942980ef359e8b761fbc2fba35525cd88996712947f059be9f44eb1",
+    "hash": "c80cb6658e7702b169fd14d47f7e89173c52e6c1723acdb276123265d9b06c68",
     "snapshot": {
       "page_title": "Cineplex Cinemas Mississauga Square One",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one",
@@ -539,15 +540,6 @@
           "context": "Heart of the Beast",
           "url": null
         },
-        "title:practical-magic-2": {
-          "title": "Practical Magic 2",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Practical Magic 2",
-          "url": null
-        },
         "title:primetime": {
           "title": "Primetime",
           "ticket_available": false,
@@ -564,6 +556,15 @@
           "showtimes": [],
           "dates": [],
           "context": "Resident Evil",
+          "url": null
+        },
+        "title:spider-man-brand-new-day": {
+          "title": "Spider-Man: Brand New Day",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Spider-Man: Brand New Day",
           "url": null
         },
         "title:verity": {
@@ -603,15 +604,16 @@
       "dbff877c57b64a8e6fab328c36f2dfc54f01c237bcafd026e6ca303549da5537",
       "561d7966428875ebd2a2c1c15d82ec6a06d20e831b523769a8843b34eca5b706",
       "a60a4488a3da1649cff2c26f07ab051daac433b282de7abea88bc52fbb37c99e",
-      "9b249f112b3f4837466b13d6110dbb429accc7dea84d93129f373a2769a92837"
+      "9b249f112b3f4837466b13d6110dbb429accc7dea84d93129f373a2769a92837",
+      "03f06c4f5a52bedc0fc97bb248d7f58950f0e691255e4685e321538fb16945a6"
     ],
-    "revision": 39
+    "revision": 40
   },
   "https://www.cineplex.com/en?theatresNearYou=true": {
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "7f9e5e9c2058bdeca3cbb74c2a26e8227f3c279e6682b80c2557ec5bdce00a94",
+    "hash": "035528b2207b34a977e9b43f8d19a3ae03b287ddfe55d7f9ea9d7c75515a0873",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -639,8 +641,8 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Cinemas Oakville and VIP",
-        "Cineplex Cinemas Winston Churchill & VIP",
+        "Cineplex Odeon Westmount Cinemas and VIP",
+        "Cineplex Cinemas Kitchener and VIP",
         "Advance tickets",
         "OCT 2",
         "DEC 18",
@@ -1031,7 +1033,7 @@
       "82b1c51fc91f2b0b0e959509c4bcaa345ff058be7670f7c496be3e59b3107717",
       "9882a8f6d3a36939e42bcf9936a6a511bcb8fee243e8dc3a904cf2be935150f2"
     ],
-    "revision": 823
+    "revision": 824
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
