@@ -611,7 +611,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "f530cf98ea1010ec97e34d38b781802aa51d5ebe03384bc84962448e7c34d424",
+    "hash": "7f9e5e9c2058bdeca3cbb74c2a26e8227f3c279e6682b80c2557ec5bdce00a94",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -639,8 +639,8 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Cinemas Abbotsford and VIP",
-        "Cineplex Cinemas Seton and VIP",
+        "Cineplex Cinemas Oakville and VIP",
+        "Cineplex Cinemas Winston Churchill & VIP",
         "Advance tickets",
         "OCT 2",
         "DEC 18",
@@ -716,7 +716,7 @@
           "dates": [
             "Oct 24"
           ],
-          "context": "Advance tickets OCT 24 BTS WORLD TOUR 'ARIRANG' IN BUENOS AIRES: LIVE VIEWING",
+          "context": "Advance tickets OCT 24 BTS WORLD TOUR 'ARIRANG' IN BUENOS AIRES: LIVE VIEWING Watch trailer",
           "url": "https://www.cineplex.com/movie/bts-world-tour-arirang-in-buenos-aires"
         },
         "title:bts-world-tour-arirang-in-s-o-paulo-live-viewing": {
@@ -727,7 +727,7 @@
           "dates": [
             "Oct 30"
           ],
-          "context": "Advance tickets OCT 30 BTS WORLD TOUR 'ARIRANG' IN SÃO PAULO: LIVE VIEWING",
+          "context": "Advance tickets OCT 30 BTS WORLD TOUR 'ARIRANG' IN SÃO PAULO: LIVE VIEWING Watch trailer",
           "url": "https://www.cineplex.com/movie/bts-world-tour-arirang-in-sao-paulo"
         },
         "title:cos-fan-tutte-mozart-italian-w-e-s-t-encore-metropolitan-opera": {
@@ -813,7 +813,7 @@
           "dates": [
             "Oct 25"
           ],
-          "context": "Advance tickets OCT 25 ENHYPEN WORLD TOUR 'BLOOD SAGA' (Korean w.e.s.t)",
+          "context": "Advance tickets OCT 25 ENHYPEN WORLD TOUR 'BLOOD SAGA' (Korean w.e.s.t) Watch trailer",
           "url": "https://www.cineplex.com/movie/enhypen-world-tour-blood-saga-korean-west"
         },
         "title:forgotten-island": {
@@ -934,7 +934,7 @@
           "dates": [
             "Oct 26"
           ],
-          "context": "Advance tickets OCT 26 SEVENTEEN WORLD TOUR 'NEW_' (Korean w.e.s.t)",
+          "context": "Advance tickets OCT 26 SEVENTEEN WORLD TOUR 'NEW_' (Korean w.e.s.t) Watch trailer",
           "url": "https://www.cineplex.com/movie/seventeen-world-tour-new_-korean-west"
         },
         "title:tomorrow-x-together-world-tour-act-tomorrow-korean-w-e-s-t": {
@@ -945,7 +945,7 @@
           "dates": [
             "Oct 24"
           ],
-          "context": "Advance tickets OCT 24 TOMORROW X TOGETHER WORLD TOUR 'ACT : TOMORROW' (Korean w.e.s.t)",
+          "context": "Advance tickets OCT 24 TOMORROW X TOGETHER WORLD TOUR 'ACT : TOMORROW' (Korean w.e.s.t) Watch trailer",
           "url": "https://www.cineplex.com/movie/tomorrow-x-together-world-tour-act-tomorrow"
         },
         "title:verity": {
@@ -1031,7 +1031,7 @@
       "82b1c51fc91f2b0b0e959509c4bcaa345ff058be7670f7c496be3e59b3107717",
       "9882a8f6d3a36939e42bcf9936a6a511bcb8fee243e8dc3a904cf2be935150f2"
     ],
-    "revision": 822
+    "revision": 823
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
