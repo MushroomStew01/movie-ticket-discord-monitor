@@ -3,7 +3,7 @@
     "name": "Cineplex Cinemas Kitchener and VIP",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "a4aaf1ceb484daa25c8b48842026afa9fa8a652d284f09ee24615bdb545c8529",
+    "hash": "38aab1a2b3a544bfcc9c80ecf1cf2c11090c40c48c023d13d9a8547f1fd5fdcd",
     "snapshot": {
       "page_title": "Cineplex Cinemas Kitchener and VIP",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-kitchener-and-vip",
@@ -42,11 +42,11 @@
         },
         "title:digger": {
           "title": "Digger",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Digger Advance tickets available",
+          "context": "Digger",
           "url": null
         },
         "title:dune-part-3": {
@@ -114,11 +114,11 @@
         },
         "title:verity": {
           "title": "Verity",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Verity Advance tickets available",
+          "context": "Verity",
           "url": null
         }
       }
@@ -151,7 +151,7 @@
       "38a531ab08841915b1239b1d1b78c840e239fbf0906bad77ab5002672f1575a7",
       "b34e8f317b2f68e1681bea561c9437c3d98d4aefb47070d7220cffeae17ff06d"
     ],
-    "revision": 43
+    "revision": 44
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge": {
     "name": "Cineplex Cinemas Cambridge",
@@ -319,7 +319,7 @@
     "name": "Cineplex Cinemas Vaughan",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "c26050d97a69223baa197bb2f29205e802f4a518bcb40019a6db5571bf022608",
+    "hash": "0f1b93fc499626e23710f94957310a66fda0356a1af982cc3fe821b3b67b905f",
     "snapshot": {
       "page_title": "Cineplex Cinemas Vaughan",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan",
@@ -353,20 +353,20 @@
         },
         "title:beware-boi-na": {
           "title": "Beware Boiúna",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Beware Boiúna Advance tickets available",
+          "context": "Beware Boiúna",
           "url": null
         },
         "title:digger": {
           "title": "Digger",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Digger Advance tickets available",
+          "context": "Digger",
           "url": null
         },
         "title:dune-part-3": {
@@ -425,11 +425,11 @@
         },
         "title:verity": {
           "title": "Verity",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Verity Advance tickets available",
+          "context": "Verity",
           "url": null
         }
       }
@@ -458,7 +458,7 @@
       "88ba5a48a8a1fbf90b8d271ac85f6550b1788862476e6202986674ce3ff5ee72",
       "65e9bcc05106500c78a4654addda0f1aa4be89f32d14c2a2e77f5c63607fe0d1"
     ],
-    "revision": 37
+    "revision": 38
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one": {
     "name": "Cineplex Cinemas Mississauga Square One",
@@ -614,7 +614,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "035528b2207b34a977e9b43f8d19a3ae03b287ddfe55d7f9ea9d7c75515a0873",
+    "hash": "d83ee28b469c2c90b5119f47a7241ac54947e77e11cfe76befb6062d7e92b0d7",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -625,7 +625,6 @@
         "Dec 18",
         "Nov 23",
         "Oct 14",
-        "Oct 2",
         "Oct 24",
         "Oct 25",
         "Oct 26",
@@ -642,10 +641,9 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Odeon Westmount Cinemas and VIP",
-        "Cineplex Cinemas Kitchener and VIP",
+        "Cineplex Cinemas Abbotsford and VIP",
+        "Cineplex Cinemas Seton and VIP",
         "Advance tickets",
-        "OCT 2",
         "DEC 18",
         "OCT 3",
         "OCT 31",
@@ -660,13 +658,11 @@
       "movies": {
         "title:acharya-nepalese-w-e-s-t": {
           "title": "Acharya (Nepalese w/e.s.t.)",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Oct 2"
-          ],
-          "context": "Advance Tickets OCT 2 Acharya (Nepalese w/e.s.t.)",
+          "dates": [],
+          "context": "Acharya (Nepalese w/e.s.t.)",
           "url": "https://www.cineplex.com/movie/acharya-nepalese-west"
         },
         "title:always-lalisa": {
@@ -702,13 +698,11 @@
         },
         "title:beware-boi-na": {
           "title": "Beware Boiúna",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Oct 2"
-          ],
-          "context": "Advance tickets OCT 2 Beware Boiúna Watch trailer",
+          "dates": [],
+          "context": "Beware Boiúna Watch trailer",
           "url": "https://www.cineplex.com/movie/beware-boiuna"
         },
         "title:bts-world-tour-arirang-in-buenos-aires-live-viewing": {
@@ -766,13 +760,11 @@
         },
         "title:digger": {
           "title": "Digger",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Oct 2"
-          ],
-          "context": "Advance tickets OCT 2 Digger Watch trailer",
+          "dates": [],
+          "context": "Digger Watch trailer",
           "url": "https://www.cineplex.com/movie/digger"
         },
         "title:doctor-who-the-satan-pit": {
@@ -785,17 +777,6 @@
           ],
           "context": "Advance tickets NOV 23 Doctor Who: The Satan Pit",
           "url": "https://www.cineplex.com/movie/doctor-who-the-satan-pit"
-        },
-        "title:drishyam-the-conclusion-hindi-w-e-s-t": {
-          "title": "Drishyam - The Conclusion (Hindi w/e.s.t.)",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [
-            "Oct 2"
-          ],
-          "context": "Advance Tickets OCT 2 Drishyam - The Conclusion (Hindi w/e.s.t.)",
-          "url": "https://www.cineplex.com/movie/drishyam-the-conclusion-hindi-west"
         },
         "title:dune-part-3": {
           "title": "Dune: Part 3",
@@ -837,6 +818,15 @@
           "context": "Heart of the Beast Watch trailer",
           "url": "https://www.cineplex.com/movie/heart-of-the-beast"
         },
+        "title:hindi-drishyam-the-conclusion-hindi-w-e-s-t": {
+          "title": "Hindi Drishyam - The Conclusion (Hindi w/e.s.t.)",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Hindi Drishyam - The Conclusion (Hindi w/e.s.t.)",
+          "url": "https://www.cineplex.com/movie/drishyam-the-conclusion-hindi-west"
+        },
         "title:hindi-hanuman-ansh-hindi-w-e-s-t": {
           "title": "Hindi Hanuman Ansh (Hindi w/e.s.t.)",
           "ticket_available": false,
@@ -855,6 +845,15 @@
           "context": "Hindi Mirzapur: The Movie (Hindi w/e.s.t.)",
           "url": "https://www.cineplex.com/movie/mirzapur-the-movie-hindi-west"
         },
+        "title:hindi-prem-keetanu-hindi-w-e-s-t": {
+          "title": "Hindi Prem Keetanu (Hindi w/e.s.t)",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Hindi Prem Keetanu (Hindi w/e.s.t)",
+          "url": "https://www.cineplex.com/movie/prem-keetanu-hindi-west"
+        },
         "title:hindi-the-vvaan-force-of-the-forrest-hindi-w-e-s-t": {
           "title": "Hindi The Vvaan: Force of the Forrest (Hindi w/e.s.t.)",
           "ticket_available": false,
@@ -872,17 +871,6 @@
           "dates": [],
           "context": "LINKIN PARK: UNSHATTER",
           "url": "https://www.cineplex.com/movie/linkin-park-unshatter"
-        },
-        "title:prem-keetanu-hindi-w-e-s-t": {
-          "title": "Prem Keetanu (Hindi w/e.s.t)",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [
-            "Oct 2"
-          ],
-          "context": "Advance Tickets OCT 2 Prem Keetanu (Hindi w/e.s.t)",
-          "url": "https://www.cineplex.com/movie/prem-keetanu-hindi-west"
         },
         "title:primetime": {
           "title": "Primetime",
@@ -953,13 +941,11 @@
         },
         "title:verity": {
           "title": "Verity",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Oct 2"
-          ],
-          "context": "Advance tickets OCT 2 Verity Watch trailer",
+          "dates": [],
+          "context": "Verity Watch trailer",
           "url": "https://www.cineplex.com/movie/verity"
         }
       }
@@ -1032,9 +1018,10 @@
       "43769e7e055227e6c2e1552f4405e4a0bb2621f5b95b8bfb75903654da21fc09",
       "c12ebc3e3f5b52993d5c57e9d7a75a03dd69fc745f9e187a9b7fa54f8e969e18",
       "82b1c51fc91f2b0b0e959509c4bcaa345ff058be7670f7c496be3e59b3107717",
-      "9882a8f6d3a36939e42bcf9936a6a511bcb8fee243e8dc3a904cf2be935150f2"
+      "9882a8f6d3a36939e42bcf9936a6a511bcb8fee243e8dc3a904cf2be935150f2",
+      "ccfd7bea8740c5804823a9bbc872c979011a1ed2351265aa7853056f2ca01e95"
     ],
-    "revision": 824
+    "revision": 825
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
@@ -1067,6 +1054,6 @@
     "revision": 8
   },
   "_meta": {
-    "last_heartbeat_at_utc": "2026-10-01T07:44:51.346067+00:00"
+    "last_heartbeat_at_utc": "2026-10-02T08:55:47.565307+00:00"
   }
 }
