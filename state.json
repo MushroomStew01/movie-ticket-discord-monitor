@@ -157,7 +157,7 @@
     "name": "Cineplex Cinemas Cambridge",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "089983ee00a7a5a0b707f0dd38b302e1b160bea678715a89283984fe20e919c8",
+    "hash": "dde709c0216d5e83912e25ef76ed11b68c9b74b7592af40bf74b45f492f600c2",
     "snapshot": {
       "page_title": "Cineplex Cinemas Cambridge",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge",
@@ -216,6 +216,15 @@
           "context": "Heart of the Beast",
           "url": null
         },
+        "title:macbeth-verdi-italian-w-e-s-t-metropolitan-opera": {
+          "title": "Macbeth (Verdi) Italian w/e.s.t. – Metropolitan Opera",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Macbeth (Verdi) Italian w/e.s.t. – Metropolitan Opera Advance tickets available",
+          "url": null
+        },
         "title:other-mommy": {
           "title": "Other Mommy",
           "ticket_available": true,
@@ -243,22 +252,13 @@
           "context": "Resident Evil",
           "url": null
         },
-        "title:spider-man-brand-new-day": {
-          "title": "Spider-Man: Brand New Day",
+        "title:verity": {
+          "title": "Verity",
           "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Spider-Man: Brand New Day",
-          "url": null
-        },
-        "title:verity": {
-          "title": "Verity",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Verity Advance tickets available",
+          "context": "Verity",
           "url": null
         },
         "title:whalefall": {
@@ -310,9 +310,10 @@
       "5fe55e47e018ecac1954859c49d0583b04c2915085759b5bf4a757bedda86856",
       "034afc07cdcfd97eec6b31ff563ecfa49e4cf4697957a82d7f15abd27e068b0c",
       "20d8d27dcad840e26322f0793e93e808c98787c1a20831b77b5f29b3f4821818",
-      "d9477d27f37e8500748fc50a2065546eec64d46eccc56543f15f8f32976cae50"
+      "d9477d27f37e8500748fc50a2065546eec64d46eccc56543f15f8f32976cae50",
+      "fad84883f7b028a9bfa019261ae4564032ce8feedfd4f2ce73f112f64212abe6"
     ],
-    "revision": 53
+    "revision": 54
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan": {
     "name": "Cineplex Cinemas Vaughan",
@@ -463,7 +464,7 @@
     "name": "Cineplex Cinemas Mississauga Square One",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "c80cb6658e7702b169fd14d47f7e89173c52e6c1723acdb276123265d9b06c68",
+    "hash": "c0a0f339ab7eeb327359491dbd87e1c24cdb99a9118e65bde069489a55d39dbb",
     "snapshot": {
       "page_title": "Cineplex Cinemas Mississauga Square One",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one",
@@ -497,20 +498,20 @@
         },
         "title:beware-boi-na": {
           "title": "Beware Boiúna",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Beware Boiúna Advance tickets available",
+          "context": "Beware Boiúna",
           "url": null
         },
         "title:digger": {
           "title": "Digger",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Digger Advance tickets available",
+          "context": "Digger",
           "url": null
         },
         "title:dune-part-3": {
@@ -569,11 +570,11 @@
         },
         "title:verity": {
           "title": "Verity",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Verity Advance tickets available",
+          "context": "Verity",
           "url": null
         }
       }
@@ -607,7 +608,7 @@
       "9b249f112b3f4837466b13d6110dbb429accc7dea84d93129f373a2769a92837",
       "03f06c4f5a52bedc0fc97bb248d7f58950f0e691255e4685e321538fb16945a6"
     ],
-    "revision": 40
+    "revision": 41
   },
   "https://www.cineplex.com/en?theatresNearYou=true": {
     "name": "Cineplex national movie listings",
