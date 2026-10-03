@@ -157,7 +157,7 @@
     "name": "Cineplex Cinemas Cambridge",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "dde709c0216d5e83912e25ef76ed11b68c9b74b7592af40bf74b45f492f600c2",
+    "hash": "70d7cef90d89ca3970c57ca5b98252dd78730bb3d7d550126f4e8ac225c0a433",
     "snapshot": {
       "page_title": "Cineplex Cinemas Cambridge",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge",
@@ -191,11 +191,11 @@
         },
         "title:cos-fan-tutte-mozart-italian-w-e-s-t-metropolitan-opera": {
           "title": "Così fan tutte (Mozart) Italian w/e.s.t. – Metropolitan Opera",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Così fan tutte (Mozart) Italian w/e.s.t. – Metropolitan Opera Advance tickets available",
+          "context": "Così fan tutte (Mozart) Italian w/e.s.t. – Metropolitan Opera",
           "url": null
         },
         "title:forgotten-island": {
@@ -313,7 +313,7 @@
       "d9477d27f37e8500748fc50a2065546eec64d46eccc56543f15f8f32976cae50",
       "fad84883f7b028a9bfa019261ae4564032ce8feedfd4f2ce73f112f64212abe6"
     ],
-    "revision": 54
+    "revision": 55
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan": {
     "name": "Cineplex Cinemas Vaughan",
@@ -614,7 +614,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "a64e2499c755d6008bd34a40424e6cd46ec4824473e8515ede9476a2a6057117",
+    "hash": "e80e17c8f92f7a48830ac9eb2ca7488b941f28967b116bc7ee58b894db4769d0",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -628,7 +628,6 @@
         "Oct 24",
         "Oct 25",
         "Oct 26",
-        "Oct 3",
         "Oct 30",
         "Oct 31"
       ],
@@ -642,10 +641,8 @@
       ],
       "relevant_lines": [
         "Cineplex Odeon Westmount Cinemas and VIP",
-        "Cineplex Cinemas Kitchener and VIP",
         "Advance tickets",
         "DEC 18",
-        "OCT 3",
         "OCT 31",
         "OCT 14",
         "NOV 23",
@@ -740,13 +737,11 @@
         },
         "title:cos-fan-tutte-mozart-italian-w-e-s-t-metropolitan-opera": {
           "title": "Così fan tutte (Mozart) Italian w/e.s.t. – Metropolitan Opera",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Oct 3"
-          ],
-          "context": "Advance tickets OCT 3 Così fan tutte (Mozart) Italian w/e.s.t. – Metropolitan Opera Watch trailer",
+          "dates": [],
+          "context": "Così fan tutte (Mozart) Italian w/e.s.t. – Metropolitan Opera Watch trailer",
           "url": "https://www.cineplex.com/movie/est-cosi-fan-tutte-mozart-italian-west-met"
         },
         "title:dear-you-teochew-with-chinese-and-e-s-t": {
@@ -1021,7 +1016,7 @@
       "9882a8f6d3a36939e42bcf9936a6a511bcb8fee243e8dc3a904cf2be935150f2",
       "ccfd7bea8740c5804823a9bbc872c979011a1ed2351265aa7853056f2ca01e95"
     ],
-    "revision": 828
+    "revision": 829
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
