@@ -157,7 +157,7 @@
     "name": "Cineplex Cinemas Cambridge",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "70d7cef90d89ca3970c57ca5b98252dd78730bb3d7d550126f4e8ac225c0a433",
+    "hash": "bddcf37e62bcdaae41631fd52f26e9d5960a1cee207a73fc3463354d72e86861",
     "snapshot": {
       "page_title": "Cineplex Cinemas Cambridge",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge",
@@ -189,13 +189,13 @@
           "context": "Avengers: Doomsday Advance tickets available",
           "url": null
         },
-        "title:cos-fan-tutte-mozart-italian-w-e-s-t-metropolitan-opera": {
-          "title": "Così fan tutte (Mozart) Italian w/e.s.t. – Metropolitan Opera",
-          "ticket_available": false,
+        "title:carmen-encore-bizet-french-w-e-s-t-metropolitan-opera": {
+          "title": "Carmen Encore (Bizet) - French w/e.s.t. – Metropolitan Opera",
+          "ticket_available": true,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Così fan tutte (Mozart) Italian w/e.s.t. – Metropolitan Opera",
+          "context": "Carmen Encore (Bizet) - French w/e.s.t. – Metropolitan Opera Advance tickets available",
           "url": null
         },
         "title:forgotten-island": {
@@ -311,9 +311,10 @@
       "034afc07cdcfd97eec6b31ff563ecfa49e4cf4697957a82d7f15abd27e068b0c",
       "20d8d27dcad840e26322f0793e93e808c98787c1a20831b77b5f29b3f4821818",
       "d9477d27f37e8500748fc50a2065546eec64d46eccc56543f15f8f32976cae50",
-      "fad84883f7b028a9bfa019261ae4564032ce8feedfd4f2ce73f112f64212abe6"
+      "fad84883f7b028a9bfa019261ae4564032ce8feedfd4f2ce73f112f64212abe6",
+      "15e9bb9374612f4b968a07559a92c70b112a16bae35e089ca94324de81f15d27"
     ],
-    "revision": 55
+    "revision": 56
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan": {
     "name": "Cineplex Cinemas Vaughan",
@@ -614,7 +615,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "e15c59d67421ce0451e06aff5e65302ba8a2b4402c69fa3d1419c0cc96818dd7",
+    "hash": "e64d90945ad42880f467b6f92f7757ede01513a4fdc4d0cf0182253840a6f5d9",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -640,8 +641,8 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Cinemas Abbotsford and VIP",
-        "Cineplex Cinemas Seton and VIP",
+        "Cineplex Cinemas Oakville and VIP",
+        "Cineplex Cinemas Winston Churchill & VIP",
         "Advance tickets",
         "DEC 18",
         "OCT 31",
@@ -1017,7 +1018,7 @@
       "9882a8f6d3a36939e42bcf9936a6a511bcb8fee243e8dc3a904cf2be935150f2",
       "ccfd7bea8740c5804823a9bbc872c979011a1ed2351265aa7853056f2ca01e95"
     ],
-    "revision": 830
+    "revision": 831
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
