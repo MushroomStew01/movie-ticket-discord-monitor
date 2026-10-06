@@ -615,7 +615,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "ff8dd8bfe0b966ab686173574bb95fe72b5280891a5275f1c07b9816b3cce116",
+    "hash": "04f40a72e43ce4e0be8b5cbdcb4fe6fdf87cb76127d5dbaf9c05a68a3ce42171",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -630,7 +630,8 @@
         "Oct 25",
         "Oct 26",
         "Oct 30",
-        "Oct 31"
+        "Oct 31",
+        "Oct 9"
       ],
       "formats": [
         "4DX",
@@ -641,9 +642,10 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Odeon McGillivray Cinemas and VIP",
+        "Cineplex Cinemas Abbotsford and VIP",
         "Advance tickets",
         "DEC 18",
+        "OCT 9",
         "OCT 31",
         "OCT 14",
         "NOV 23",
@@ -785,6 +787,17 @@
           "context": "Advance tickets DEC 18 Dune: Part 3 Watch trailer",
           "url": "https://www.cineplex.com/movie/dune-part-3"
         },
+        "title:eh-din-roz-ni-aune-punjabi-w-e-s-t": {
+          "title": "Eh Din Roz Ni Aune (Punjabi w/e.s.t.)",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [
+            "Oct 9"
+          ],
+          "context": "Advance Tickets OCT 9 Eh Din Roz Ni Aune (Punjabi w/e.s.t.)",
+          "url": "https://www.cineplex.com/movie/eh-din-roz-ni-aune-punjabi-west"
+        },
         "title:enhypen-world-tour-blood-saga-korean-w-e-s-t": {
           "title": "ENHYPEN WORLD TOUR 'BLOOD SAGA' (Korean w.e.s.t)",
           "ticket_available": true,
@@ -876,15 +889,6 @@
           "dates": [],
           "context": "Primetime Watch trailer",
           "url": "https://www.cineplex.com/movie/primetime"
-        },
-        "title:punjabi-lutt-mubarak-punjabi-w-e-s-t": {
-          "title": "Punjabi Lutt Mubarak (Punjabi w/e.s.t.)",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Punjabi Lutt Mubarak (Punjabi w/e.s.t.)",
-          "url": "https://www.cineplex.com/movie/lutt-mubarak-punjabi-west"
         },
         "title:punjabi-mitti-de-putt-punjabi-w-e-s-t": {
           "title": "Punjabi Mitti De Putt (Punjabi w/e.s.t.)",
@@ -1015,9 +1019,10 @@
       "c12ebc3e3f5b52993d5c57e9d7a75a03dd69fc745f9e187a9b7fa54f8e969e18",
       "82b1c51fc91f2b0b0e959509c4bcaa345ff058be7670f7c496be3e59b3107717",
       "9882a8f6d3a36939e42bcf9936a6a511bcb8fee243e8dc3a904cf2be935150f2",
-      "ccfd7bea8740c5804823a9bbc872c979011a1ed2351265aa7853056f2ca01e95"
+      "ccfd7bea8740c5804823a9bbc872c979011a1ed2351265aa7853056f2ca01e95",
+      "bdf0b21f210dbe47ff4f0b41d0ecfe81b8455eb689978b192a4f7b337d0e7ddf"
     ],
-    "revision": 841
+    "revision": 842
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
