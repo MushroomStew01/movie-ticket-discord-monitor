@@ -157,7 +157,7 @@
     "name": "Cineplex Cinemas Cambridge",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "bddcf37e62bcdaae41631fd52f26e9d5960a1cee207a73fc3463354d72e86861",
+    "hash": "5d7439a8f8e87046a5485fc070c14a980e46f5f22a225a176ff899e1807b7b64",
     "snapshot": {
       "page_title": "Cineplex Cinemas Cambridge",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge",
@@ -187,15 +187,6 @@
           "showtimes": [],
           "dates": [],
           "context": "Avengers: Doomsday Advance tickets available",
-          "url": null
-        },
-        "title:carmen-encore-bizet-french-w-e-s-t-metropolitan-opera": {
-          "title": "Carmen Encore (Bizet) - French w/e.s.t. – Metropolitan Opera",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Carmen Encore (Bizet) - French w/e.s.t. – Metropolitan Opera Advance tickets available",
           "url": null
         },
         "title:forgotten-island": {
@@ -232,6 +223,15 @@
           "showtimes": [],
           "dates": [],
           "context": "Other Mommy Advance tickets available",
+          "url": null
+        },
+        "title:paw-patrol-the-dino-movie": {
+          "title": "Paw Patrol: The Dino Movie",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Paw Patrol: The Dino Movie",
           "url": null
         },
         "title:practical-magic-2": {
@@ -312,9 +312,10 @@
       "20d8d27dcad840e26322f0793e93e808c98787c1a20831b77b5f29b3f4821818",
       "d9477d27f37e8500748fc50a2065546eec64d46eccc56543f15f8f32976cae50",
       "fad84883f7b028a9bfa019261ae4564032ce8feedfd4f2ce73f112f64212abe6",
-      "15e9bb9374612f4b968a07559a92c70b112a16bae35e089ca94324de81f15d27"
+      "15e9bb9374612f4b968a07559a92c70b112a16bae35e089ca94324de81f15d27",
+      "d480667fb0afdb86a45fd7dc2688db6197cc60fcb418c83238cee936e0b4ec15"
     ],
-    "revision": 56
+    "revision": 57
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan": {
     "name": "Cineplex Cinemas Vaughan",
@@ -615,7 +616,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "22757b26f80508bd2e20148f347ca1fe0171c00edfc72475fb6e097ad5a82ba3",
+    "hash": "04f40a72e43ce4e0be8b5cbdcb4fe6fdf87cb76127d5dbaf9c05a68a3ce42171",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -642,8 +643,7 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Cinemas Oakville and VIP",
-        "Cineplex Cinemas Winston Churchill & VIP",
+        "Cineplex Cinemas Abbotsford and VIP",
         "Advance tickets",
         "DEC 18",
         "OCT 9",
@@ -1023,7 +1023,7 @@
       "ccfd7bea8740c5804823a9bbc872c979011a1ed2351265aa7853056f2ca01e95",
       "bdf0b21f210dbe47ff4f0b41d0ecfe81b8455eb689978b192a4f7b337d0e7ddf"
     ],
-    "revision": 843
+    "revision": 844
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
@@ -1056,6 +1056,6 @@
     "revision": 8
   },
   "_meta": {
-    "last_heartbeat_at_utc": "2026-10-06T01:26:56.561517+00:00"
+    "last_heartbeat_at_utc": "2026-10-07T02:30:53.428175+00:00"
   }
 }
