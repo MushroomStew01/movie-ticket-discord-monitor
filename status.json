@@ -1,12 +1,10 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-07T09:12:17.347107+00:00",
-  "state_id": "a5f1e21a977d6ef4d86f034a4a8294e451b7f4f8037550a464fb31211bad83df",
-  "healthy": false,
+  "updated_at": "2026-10-07T16:28:21.413597+00:00",
+  "state_id": "2e09babd10edae85bc183d904c10bf177b9f5a049aa6e2d886e168a1a22801d3",
+  "healthy": true,
   "target_count": 6,
-  "failing_targets": [
-    "Cineplex national movie listings"
-  ],
+  "failing_targets": [],
   "missing_targets": [],
   "theatre_count": 4,
   "healthy_theatre_count": 4,
