@@ -1023,7 +1023,10 @@
       "ccfd7bea8740c5804823a9bbc872c979011a1ed2351265aa7853056f2ca01e95",
       "bdf0b21f210dbe47ff4f0b41d0ecfe81b8455eb689978b192a4f7b337d0e7ddf"
     ],
-    "revision": 844
+    "revision": 844,
+    "consecutive_failures": 1,
+    "last_error": "RuntimeError: The page appears to be an error or access-check page.",
+    "last_error_at_utc": "2026-10-07T09:12:08.548800+00:00"
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
