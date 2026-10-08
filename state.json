@@ -3,7 +3,7 @@
     "name": "Cineplex Cinemas Kitchener and VIP",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "e9ce85ad2d2228b9a8fdd211f50fbe89e1c86d908791aef561784d45ee5e594b",
+    "hash": "1d60e683910de6f25789475212adb1f9a5080ed7b9528ab62f237cf017b18532",
     "snapshot": {
       "page_title": "Cineplex Cinemas Kitchener and VIP",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-kitchener-and-vip",
@@ -76,6 +76,15 @@
           "context": "Other Mommy Advance tickets available",
           "url": null
         },
+        "title:primetime": {
+          "title": "Primetime",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Primetime",
+          "url": null
+        },
         "title:resident-evil": {
           "title": "Resident Evil",
           "ticket_available": false,
@@ -92,15 +101,6 @@
           "showtimes": [],
           "dates": [],
           "context": "Sense and Sensibility Advance tickets available",
-          "url": null
-        },
-        "title:the-odyssey": {
-          "title": "The Odyssey",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "The Odyssey",
           "url": null
         },
         "title:the-social-reckoning": {
@@ -150,9 +150,10 @@
       "3fd4ce3d875bb3850d992b8d8b5735466867b917c159156f73a8b2c4af0a3264",
       "38a531ab08841915b1239b1d1b78c840e239fbf0906bad77ab5002672f1575a7",
       "b34e8f317b2f68e1681bea561c9437c3d98d4aefb47070d7220cffeae17ff06d",
-      "3456c282554de4eb4e54ee55eee9539ccd0b0102b8b255acc7810c6d910e3a09"
+      "3456c282554de4eb4e54ee55eee9539ccd0b0102b8b255acc7810c6d910e3a09",
+      "a851f53cd6db0aa1d25fd9930cb48998bc36eebac1f3534d8fb0d09e70534892"
     ],
-    "revision": 45
+    "revision": 46
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge": {
     "name": "Cineplex Cinemas Cambridge",
@@ -621,7 +622,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "ddddb54e56e182e53982f67c99f9ec78151471c2760db2981458bdbbbcffa67e",
+    "hash": "f6f8b4b38bf9bad3eb980ef7a44fbbc6ad978ac15aadabd171043c31efc2d24a",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -639,7 +640,6 @@
         "Oct 19",
         "Oct 24",
         "Oct 30",
-        "Oct 8",
         "Oct 9"
       ],
       "formats": [
@@ -651,7 +651,8 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Cinemas Abbotsford and VIP",
+        "Cineplex Odeon Westmount Cinemas and VIP",
+        "Cineplex Cinemas Kitchener and VIP",
         "Advance tickets",
         "OCT 9",
         "DEC 18",
@@ -662,7 +663,6 @@
         "OCT 14",
         "NOV 23",
         "Queen Budapest - The IMAX Experience®",
-        "OCT 8",
         "OCT 19",
         "OCT 24",
         "OCT 30",
@@ -886,13 +886,11 @@
         },
         "title:sb19-wakas-at-simula-in-cinemas-filipino-w-e-s-t": {
           "title": "SB19 Wakas at Simula in Cinemas (Filipino w.e.s.t.)",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Oct 8"
-          ],
-          "context": "Advance tickets OCT 8 SB19 Wakas at Simula in Cinemas (Filipino w.e.s.t.) Watch trailer",
+          "dates": [],
+          "context": "SB19 Wakas at Simula in Cinemas (Filipino w.e.s.t.) Watch trailer",
           "url": "https://www.cineplex.com/movie/sb19-wakas-at-simula-in-cinemas-filipino-west"
         },
         "title:sense-and-sensibility": {
@@ -1056,7 +1054,7 @@
       "bdf0b21f210dbe47ff4f0b41d0ecfe81b8455eb689978b192a4f7b337d0e7ddf",
       "be29aed988decf607114253220f590fe2ee7fea658d66f445fa712b04be62969"
     ],
-    "revision": 847
+    "revision": 848
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
@@ -1089,6 +1087,6 @@
     "revision": 8
   },
   "_meta": {
-    "last_heartbeat_at_utc": "2026-10-07T02:30:53.428175+00:00"
+    "last_heartbeat_at_utc": "2026-10-08T07:26:03.380703+00:00"
   }
 }
