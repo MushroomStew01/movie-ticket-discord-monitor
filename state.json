@@ -158,7 +158,7 @@
     "name": "Cineplex Cinemas Cambridge",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "ed4559434e6790b0c49f58a07b2baef5376cdcc4d28cd5723218dc1ed420f605",
+    "hash": "953c437de7b522f0d1b194a65ea9d0265637a3e7c589d5e2bd61032ec3a39c4f",
     "snapshot": {
       "page_title": "Cineplex Cinemas Cambridge",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge",
@@ -188,6 +188,15 @@
           "showtimes": [],
           "dates": [],
           "context": "Avengers: Doomsday Advance tickets available",
+          "url": null
+        },
+        "title:carmen-encore-bizet-french-w-e-s-t-metropolitan-opera": {
+          "title": "Carmen Encore (Bizet) - French w/e.s.t. – Metropolitan Opera",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Carmen Encore (Bizet) - French w/e.s.t. – Metropolitan Opera Advance tickets available",
           "url": null
         },
         "title:clayface": {
@@ -233,15 +242,6 @@
           "showtimes": [],
           "dates": [],
           "context": "Other Mommy Advance tickets available",
-          "url": null
-        },
-        "title:practical-magic-2": {
-          "title": "Practical Magic 2",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Practical Magic 2",
           "url": null
         },
         "title:resident-evil": {
@@ -315,9 +315,10 @@
       "fad84883f7b028a9bfa019261ae4564032ce8feedfd4f2ce73f112f64212abe6",
       "15e9bb9374612f4b968a07559a92c70b112a16bae35e089ca94324de81f15d27",
       "d480667fb0afdb86a45fd7dc2688db6197cc60fcb418c83238cee936e0b4ec15",
-      "269ec81f2cd07fbf07d8520d9987d350f8dfc80b3b3bc10b5fced0e1a07adbdf"
+      "269ec81f2cd07fbf07d8520d9987d350f8dfc80b3b3bc10b5fced0e1a07adbdf",
+      "5947628c264fddad1ef8ea653388c2c0226dd21a97cac03a50f74ae06349b842"
     ],
-    "revision": 58
+    "revision": 59
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan": {
     "name": "Cineplex Cinemas Vaughan",
@@ -620,7 +621,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "e945c4026e321e5a9127952c54115f4891ac743814517064333e9dae9a965f20",
+    "hash": "ddddb54e56e182e53982f67c99f9ec78151471c2760db2981458bdbbbcffa67e",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -650,8 +651,7 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Cinemas Oakville and VIP",
-        "Cineplex Cinemas Winston Churchill & VIP",
+        "Cineplex Cinemas Abbotsford and VIP",
         "Advance tickets",
         "OCT 9",
         "DEC 18",
@@ -1056,7 +1056,7 @@
       "bdf0b21f210dbe47ff4f0b41d0ecfe81b8455eb689978b192a4f7b337d0e7ddf",
       "be29aed988decf607114253220f590fe2ee7fea658d66f445fa712b04be62969"
     ],
-    "revision": 846
+    "revision": 847
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
