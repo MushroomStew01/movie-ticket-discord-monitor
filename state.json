@@ -3,7 +3,7 @@
     "name": "Cineplex Cinemas Kitchener and VIP",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "1d60e683910de6f25789475212adb1f9a5080ed7b9528ab62f237cf017b18532",
+    "hash": "bcfd425020f0c4cc12a6861e1ccf8c0a8856fc128190d14098f642b0c65f720d",
     "snapshot": {
       "page_title": "Cineplex Cinemas Kitchener and VIP",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-kitchener-and-vip",
@@ -69,11 +69,11 @@
         },
         "title:other-mommy": {
           "title": "Other Mommy",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Other Mommy Advance tickets available",
+          "context": "Other Mommy",
           "url": null
         },
         "title:primetime": {
@@ -105,11 +105,11 @@
         },
         "title:the-social-reckoning": {
           "title": "The Social Reckoning",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "The Social Reckoning Advance tickets available",
+          "context": "The Social Reckoning",
           "url": null
         },
         "title:verity": {
@@ -153,13 +153,13 @@
       "3456c282554de4eb4e54ee55eee9539ccd0b0102b8b255acc7810c6d910e3a09",
       "a851f53cd6db0aa1d25fd9930cb48998bc36eebac1f3534d8fb0d09e70534892"
     ],
-    "revision": 46
+    "revision": 47
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge": {
     "name": "Cineplex Cinemas Cambridge",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "953c437de7b522f0d1b194a65ea9d0265637a3e7c589d5e2bd61032ec3a39c4f",
+    "hash": "e8a6903f27d12ea3ef1a7fb9426bf1a438aca559614fe316e26b1260b3f0dab5",
     "snapshot": {
       "page_title": "Cineplex Cinemas Cambridge",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge",
@@ -238,11 +238,11 @@
         },
         "title:other-mommy": {
           "title": "Other Mommy",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Other Mommy Advance tickets available",
+          "context": "Other Mommy",
           "url": null
         },
         "title:resident-evil": {
@@ -319,13 +319,13 @@
       "269ec81f2cd07fbf07d8520d9987d350f8dfc80b3b3bc10b5fced0e1a07adbdf",
       "5947628c264fddad1ef8ea653388c2c0226dd21a97cac03a50f74ae06349b842"
     ],
-    "revision": 59
+    "revision": 60
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan": {
     "name": "Cineplex Cinemas Vaughan",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "8e1265bb69fa79c2487cc04d8f89b7ac20a379faaa2eab9eb223d183674631e6",
+    "hash": "a470e7ffeb1ae6e1b5672ed77c4ae517551bfea84ae1340272316af392fdad18",
     "snapshot": {
       "page_title": "Cineplex Cinemas Vaughan",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan",
@@ -368,11 +368,11 @@
         },
         "title:other-mommy": {
           "title": "Other Mommy",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Other Mommy Advance tickets available",
+          "context": "Other Mommy",
           "url": null
         },
         "title:resident-evil": {
@@ -413,11 +413,11 @@
         },
         "title:the-social-reckoning": {
           "title": "The Social Reckoning",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "The Social Reckoning Advance tickets available",
+          "context": "The Social Reckoning",
           "url": null
         },
         "title:verity": {
@@ -465,13 +465,13 @@
       "65e9bcc05106500c78a4654addda0f1aa4be89f32d14c2a2e77f5c63607fe0d1",
       "1758ba350341b7822235a76624b1d86ecd46f70a591e91d3ee90d001d1abd1c9"
     ],
-    "revision": 39
+    "revision": 40
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one": {
     "name": "Cineplex Cinemas Mississauga Square One",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "e31a81f5a3177ef622462580fa695a4605f67801b85bdeed51ade32320a1d6f4",
+    "hash": "89f936cf066ce0a391a7482d7d851f4b510650182dd7e86525cc1a7c00c3d96a",
     "snapshot": {
       "page_title": "Cineplex Cinemas Mississauga Square One",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one",
@@ -514,11 +514,11 @@
         },
         "title:other-mommy": {
           "title": "Other Mommy",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Other Mommy Advance tickets available",
+          "context": "Other Mommy",
           "url": null
         },
         "title:resident-evil": {
@@ -559,11 +559,11 @@
         },
         "title:the-social-reckoning": {
           "title": "The Social Reckoning",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "The Social Reckoning Advance tickets available",
+          "context": "The Social Reckoning",
           "url": null
         },
         "title:verity": {
@@ -616,13 +616,13 @@
       "03f06c4f5a52bedc0fc97bb248d7f58950f0e691255e4685e321538fb16945a6",
       "396415a07d39e214f33c7b1d76617ced6351e2427dc7475aa6b000e6c2adaac2"
     ],
-    "revision": 42
+    "revision": 43
   },
   "https://www.cineplex.com/en?theatresNearYou=true": {
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "f6f8b4b38bf9bad3eb980ef7a44fbbc6ad978ac15aadabd171043c31efc2d24a",
+    "hash": "dd281a35e1fe796a3addc76c4b89f7e7669ab1ec1112dc11ab7ac77194f96e89",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -639,8 +639,7 @@
         "Oct 17",
         "Oct 19",
         "Oct 24",
-        "Oct 30",
-        "Oct 9"
+        "Oct 30"
       ],
       "formats": [
         "4DX",
@@ -651,10 +650,9 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Odeon Westmount Cinemas and VIP",
-        "Cineplex Cinemas Kitchener and VIP",
+        "Cineplex Cinemas Oakville and VIP",
+        "Cineplex Cinemas Winston Churchill & VIP",
         "Advance tickets",
-        "OCT 9",
         "DEC 18",
         "OCT 16",
         "NOV 13",
@@ -713,6 +711,15 @@
           "context": "Advance tickets OCT 30 BTS WORLD TOUR 'ARIRANG' IN SÃO PAULO: LIVE VIEWING Watch trailer",
           "url": "https://www.cineplex.com/movie/bts-world-tour-arirang-in-sao-paulo"
         },
+        "title:cantonese-v-cantonese-w-chinese-and-e-s-t": {
+          "title": "Cantonese V (Cantonese w/Chinese and e.s.t.)",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Cantonese V (Cantonese w/Chinese and e.s.t.)",
+          "url": "https://www.cineplex.com/movie/v-cantonese-wchinese-and-est"
+        },
         "title:dear-you-teochew-with-chinese-and-e-s-t": {
           "title": "Dear You (Teochew with Chinese and e.s.t.)",
           "ticket_available": false,
@@ -752,17 +759,6 @@
           ],
           "context": "Advance tickets DEC 18 Dune: Part 3 Watch trailer",
           "url": "https://www.cineplex.com/movie/dune-part-3"
-        },
-        "title:eh-din-roz-ni-aune-punjabi-w-e-s-t": {
-          "title": "Eh Din Roz Ni Aune (Punjabi w/e.s.t.)",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [
-            "Oct 9"
-          ],
-          "context": "Advance Tickets OCT 9 Eh Din Roz Ni Aune (Punjabi w/e.s.t.)",
-          "url": "https://www.cineplex.com/movie/eh-din-roz-ni-aune-punjabi-west"
         },
         "title:hadoota-arabic-w-e-s-t": {
           "title": "Hadoota (Arabic w/e.s.t.)",
@@ -824,27 +820,32 @@
           "context": "Advance tickets OCT 17 Macbeth (Verdi) Italian w/e.s.t. – Metropolitan Opera Watch trailer",
           "url": "https://www.cineplex.com/movie/est-macbeth-verdi-italian-west-met"
         },
-        "title:once-upon-a-time-in-the-middle-east-mandarin-w-chinese-and-e-s-t": {
-          "title": "Once Upon a Time in the Middle East (Mandarin w/Chinese and e.s.t.)",
-          "ticket_available": true,
+        "title:mandarin-once-upon-a-time-in-the-middle-east-mandarin-w-chinese-and-e-s-t": {
+          "title": "Mandarin Once Upon a Time in the Middle East (Mandarin w/Chinese and e.s.t.)",
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Oct 9"
-          ],
-          "context": "Advance Tickets OCT 9 Once Upon a Time in the Middle East (Mandarin w/Chinese and e.s.t.)",
+          "dates": [],
+          "context": "Mandarin Once Upon a Time in the Middle East (Mandarin w/Chinese and e.s.t.)",
           "url": "https://www.cineplex.com/movie/once-upon-a-time-in-the-middle-east-mandarin-w"
         },
         "title:other-mommy": {
           "title": "Other Mommy",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Oct 9"
-          ],
-          "context": "Advance tickets OCT 9 Other Mommy Watch trailer",
+          "dates": [],
+          "context": "Other Mommy Watch trailer",
           "url": "https://www.cineplex.com/movie/other-mommy"
+        },
+        "title:punjabi-eh-din-roz-ni-aune-punjabi-w-e-s-t": {
+          "title": "Punjabi Eh Din Roz Ni Aune (Punjabi w/e.s.t.)",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Punjabi Eh Din Roz Ni Aune (Punjabi w/e.s.t.)",
+          "url": "https://www.cineplex.com/movie/eh-din-roz-ni-aune-punjabi-west"
         },
         "title:punjabi-mitti-de-putt-punjabi-w-e-s-t": {
           "title": "Punjabi Mitti De Putt (Punjabi w/e.s.t.)",
@@ -917,25 +918,12 @@
         },
         "title:the-social-reckoning": {
           "title": "The Social Reckoning",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Oct 9"
-          ],
-          "context": "Advance tickets OCT 9 The Social Reckoning Watch trailer",
+          "dates": [],
+          "context": "The Social Reckoning Watch trailer",
           "url": "https://www.cineplex.com/movie/the-social-reckoning"
-        },
-        "title:v-cantonese-w-chinese-and-e-s-t": {
-          "title": "V (Cantonese w/Chinese and e.s.t.)",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [
-            "Oct 9"
-          ],
-          "context": "Advance Tickets OCT 9 V (Cantonese w/Chinese and e.s.t.)",
-          "url": "https://www.cineplex.com/movie/v-cantonese-wchinese-and-est"
         },
         "title:verity": {
           "title": "Verity",
@@ -1052,9 +1040,10 @@
       "9882a8f6d3a36939e42bcf9936a6a511bcb8fee243e8dc3a904cf2be935150f2",
       "ccfd7bea8740c5804823a9bbc872c979011a1ed2351265aa7853056f2ca01e95",
       "bdf0b21f210dbe47ff4f0b41d0ecfe81b8455eb689978b192a4f7b337d0e7ddf",
-      "be29aed988decf607114253220f590fe2ee7fea658d66f445fa712b04be62969"
+      "be29aed988decf607114253220f590fe2ee7fea658d66f445fa712b04be62969",
+      "373f74ea2a31f92b65b61b8b0a92fafb71eccf597248da3ed2b34a854864a2b4"
     ],
-    "revision": 851
+    "revision": 852
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
