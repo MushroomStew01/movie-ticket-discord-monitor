@@ -625,7 +625,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "599012990135a20ac3cc01f4dd82b1d0ffd8693ee55802226cc9623db79db193",
+    "hash": "0195cbf4dcd77f5e0aca544a016d62074da8c5cdc38a611482ff996689e7fde4",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -652,8 +652,8 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Cinemas Oakville and VIP",
-        "Cineplex Cinemas Winston Churchill & VIP",
+        "Cineplex Cinemas Abbotsford and VIP",
+        "Cineplex Cinemas Seton and VIP",
         "Advance tickets",
         "DEC 18",
         "OCT 16",
@@ -942,6 +942,15 @@
           "context": "Verity Watch trailer",
           "url": "https://www.cineplex.com/movie/verity"
         },
+        "title:view-movie-details-for-resident-evil": {
+          "title": "View movie details for Resident Evil",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "",
+          "url": "https://www.cineplex.com/movie/resident-evil-2026"
+        },
         "title:whalefall": {
           "title": "Whalefall",
           "ticket_available": true,
@@ -1059,9 +1068,10 @@
       "bdf0b21f210dbe47ff4f0b41d0ecfe81b8455eb689978b192a4f7b337d0e7ddf",
       "be29aed988decf607114253220f590fe2ee7fea658d66f445fa712b04be62969",
       "373f74ea2a31f92b65b61b8b0a92fafb71eccf597248da3ed2b34a854864a2b4",
-      "83aadb544ab37e3c27f5abfcd737fbaf352deb982465fff6870839d7475f9d66"
+      "83aadb544ab37e3c27f5abfcd737fbaf352deb982465fff6870839d7475f9d66",
+      "40e868ac94b09c4a6c81d71f035aa4dd3354e44fd1397c67a4124051309b96c5"
     ],
-    "revision": 868
+    "revision": 869
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
