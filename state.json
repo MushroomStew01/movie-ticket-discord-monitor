@@ -3,7 +3,7 @@
     "name": "Cineplex Cinemas Kitchener and VIP",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "6e1104622861e37eb5e8c45b115b413aa21259682c9c4b5260cb9f624596d4d9",
+    "hash": "f99928d820115c7f2dcd213f69fc5068f40860100cceb644cfec75835af05b9c",
     "snapshot": {
       "page_title": "Cineplex Cinemas Kitchener and VIP",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-kitchener-and-vip",
@@ -31,13 +31,13 @@
           "context": "Avengers: Doomsday Advance tickets available",
           "url": null
         },
-        "title:digger": {
-          "title": "Digger",
-          "ticket_available": false,
+        "title:clayface": {
+          "title": "Clayface",
+          "ticket_available": true,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Digger",
+          "context": "Clayface Advance tickets available",
           "url": null
         },
         "title:dune-part-3": {
@@ -56,6 +56,15 @@
           "showtimes": [],
           "dates": [],
           "context": "Forgotten Island",
+          "url": null
+        },
+        "title:heart-of-the-beast": {
+          "title": "Heart of the Beast",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Heart of the Beast",
           "url": null
         },
         "title:other-mommy": {
@@ -92,15 +101,6 @@
           "showtimes": [],
           "dates": [],
           "context": "Street Fighter Advance tickets available",
-          "url": null
-        },
-        "title:the-social-reckoning": {
-          "title": "The Social Reckoning",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "The Social Reckoning",
           "url": null
         },
         "title:verity": {
@@ -152,9 +152,10 @@
       "b34e8f317b2f68e1681bea561c9437c3d98d4aefb47070d7220cffeae17ff06d",
       "3456c282554de4eb4e54ee55eee9539ccd0b0102b8b255acc7810c6d910e3a09",
       "a851f53cd6db0aa1d25fd9930cb48998bc36eebac1f3534d8fb0d09e70534892",
-      "be9fd1eea811bca75213ace6dac8731d3bfab8d57dc8c934c3f55dbf254a62f6"
+      "be9fd1eea811bca75213ace6dac8731d3bfab8d57dc8c934c3f55dbf254a62f6",
+      "5feae79b4e154857e0ca02547f35634ba670c83cd44121f514334c3e6bd6e23c"
     ],
-    "revision": 48
+    "revision": 49
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge": {
     "name": "Cineplex Cinemas Cambridge",
@@ -327,7 +328,7 @@
     "name": "Cineplex Cinemas Vaughan",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "6bcf4a0c78dff4000be3a43578736301c228cc9c2cb9a372f0e2779b4cf19e1e",
+    "hash": "73af83a98b4e8ae68e6fc9712793d4f93e44743ce7f1d1233e11459718d3ae12",
     "snapshot": {
       "page_title": "Cineplex Cinemas Vaughan",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan",
@@ -350,13 +351,13 @@
           "context": "Avengers: Doomsday Advance tickets available",
           "url": null
         },
-        "title:digger": {
-          "title": "Digger",
-          "ticket_available": false,
+        "title:clayface": {
+          "title": "Clayface",
+          "ticket_available": true,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Digger",
+          "context": "Clayface Advance tickets available",
           "url": null
         },
         "title:dune-part-3": {
@@ -368,6 +369,15 @@
           "context": "Dune: Part 3 Advance tickets available",
           "url": null
         },
+        "title:forgotten-island": {
+          "title": "Forgotten Island",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Forgotten Island",
+          "url": null
+        },
         "title:other-mommy": {
           "title": "Other Mommy",
           "ticket_available": false,
@@ -375,15 +385,6 @@
           "showtimes": [],
           "dates": [],
           "context": "Other Mommy",
-          "url": null
-        },
-        "title:resident-evil": {
-          "title": "Resident Evil",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Resident Evil",
           "url": null
         },
         "title:sense-and-sensibility": {
@@ -404,24 +405,6 @@
           "context": "Street Fighter Advance tickets available",
           "url": null
         },
-        "title:the-social-reckoning": {
-          "title": "The Social Reckoning",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "The Social Reckoning",
-          "url": null
-        },
-        "title:verity": {
-          "title": "Verity",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Verity",
-          "url": null
-        },
         "title:whalefall": {
           "title": "Whalefall",
           "ticket_available": true,
@@ -429,6 +412,24 @@
           "showtimes": [],
           "dates": [],
           "context": "Whalefall Advance tickets available",
+          "url": null
+        },
+        "title:wicker": {
+          "title": "Wicker",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Wicker Advance tickets available",
+          "url": null
+        },
+        "title:wildwood": {
+          "title": "Wildwood",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Wildwood Advance tickets available",
           "url": null
         },
         "title:you-can-see-everything": {
@@ -466,15 +467,16 @@
       "88ba5a48a8a1fbf90b8d271ac85f6550b1788862476e6202986674ce3ff5ee72",
       "65e9bcc05106500c78a4654addda0f1aa4be89f32d14c2a2e77f5c63607fe0d1",
       "1758ba350341b7822235a76624b1d86ecd46f70a591e91d3ee90d001d1abd1c9",
-      "744c50001bcd436ac9476c8cfa866c9d001496cf9de93fb3b803cf8681d5df24"
+      "744c50001bcd436ac9476c8cfa866c9d001496cf9de93fb3b803cf8681d5df24",
+      "c62272d88752e2ccc7c6a1dbdaf3ad0de39df2df0d275abc5cba4f132e6c18cf"
     ],
-    "revision": 41
+    "revision": 42
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one": {
     "name": "Cineplex Cinemas Mississauga Square One",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "89f936cf066ce0a391a7482d7d851f4b510650182dd7e86525cc1a7c00c3d96a",
+    "hash": "4775ac6d40d58ccde22a141fe12eef4efa55811ba894f8f78f68a0490abd6f81",
     "snapshot": {
       "page_title": "Cineplex Cinemas Mississauga Square One",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one",
@@ -497,13 +499,13 @@
           "context": "Avengers: Doomsday Advance tickets available",
           "url": null
         },
-        "title:digger": {
-          "title": "Digger",
-          "ticket_available": false,
+        "title:clayface": {
+          "title": "Clayface",
+          "ticket_available": true,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Digger",
+          "context": "Clayface Advance tickets available",
           "url": null
         },
         "title:dune-part-3": {
@@ -513,6 +515,15 @@
           "showtimes": [],
           "dates": [],
           "context": "Dune: Part 3 Advance tickets available",
+          "url": null
+        },
+        "title:forgotten-island": {
+          "title": "Forgotten Island",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Forgotten Island",
           "url": null
         },
         "title:other-mommy": {
@@ -558,15 +569,6 @@
           "showtimes": [],
           "dates": [],
           "context": "The Odyssey",
-          "url": null
-        },
-        "title:the-social-reckoning": {
-          "title": "The Social Reckoning",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "The Social Reckoning",
           "url": null
         },
         "title:verity": {
@@ -617,15 +619,16 @@
       "a60a4488a3da1649cff2c26f07ab051daac433b282de7abea88bc52fbb37c99e",
       "9b249f112b3f4837466b13d6110dbb429accc7dea84d93129f373a2769a92837",
       "03f06c4f5a52bedc0fc97bb248d7f58950f0e691255e4685e321538fb16945a6",
-      "396415a07d39e214f33c7b1d76617ced6351e2427dc7475aa6b000e6c2adaac2"
+      "396415a07d39e214f33c7b1d76617ced6351e2427dc7475aa6b000e6c2adaac2",
+      "5260e139606b704054a8e5876cb67f2b03a3121e537c9ffcfdcacdecd74d6844"
     ],
-    "revision": 43
+    "revision": 44
   },
   "https://www.cineplex.com/en?theatresNearYou=true": {
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "0e06ec5efeb456d0d9c8a49a26402c3e3ab6392c613207acfe23907e6d3718d9",
+    "hash": "a5b92f7a6140b4e276c37b05dc607149788682e6a30c3ffc7798d33c25af3148",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -634,13 +637,16 @@
       "showtimes": [],
       "dates": [
         "Dec 18",
-        "Nov 13",
+        "Nov 1",
         "Nov 21",
         "Nov 23",
+        "Nov 7",
         "Oct 16",
         "Oct 17",
-        "Oct 19",
+        "Oct 22",
+        "Oct 23",
         "Oct 24",
+        "Oct 28",
         "Oct 30"
       ],
       "formats": [
@@ -652,21 +658,35 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Odeon Westmount Cinemas and VIP",
+        "Cineplex Cinemas Abbotsford and VIP",
+        "Cineplex Cinemas Seton and VIP",
         "Advance tickets",
-        "DEC 18",
         "OCT 16",
-        "NOV 13",
+        "DEC 18",
+        "OCT 23",
+        "OCT 22",
+        "OCT 28",
+        "OCT 30",
         "OCT 17",
         "NOV 21",
         "NOV 23",
-        "Queen Budapest - The IMAX Experience®",
-        "OCT 19",
         "OCT 24",
-        "OCT 30",
+        "NOV 1",
+        "NOV 7",
         "What are UltraAVX, IMAX, VIP, 4DX, ScreenX and D-BOX?"
       ],
       "movies": {
+        "title:agbara-nla-the-return-yoruba-w-e-s-t": {
+          "title": "Agbara Nla: The Return (Yoruba w/e.s.t.)",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [
+            "Oct 16"
+          ],
+          "context": "Advance Tickets OCT 16 Agbara Nla: The Return (Yoruba w/e.s.t.)",
+          "url": "https://www.cineplex.com/movie/agbara-nla-the-return-yoruba-west"
+        },
         "title:always-lalisa": {
           "title": "ALWAYS LALISA",
           "ticket_available": false,
@@ -675,6 +695,15 @@
           "dates": [],
           "context": "ALWAYS LALISA Watch trailer",
           "url": "https://www.cineplex.com/movie/always-lalisa"
+        },
+        "title:arabic-matloob-aelian-arabic-w-e-s-t": {
+          "title": "Arabic Matloob Aelian (Arabic w/e.s.t.)",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Arabic Matloob Aelian (Arabic w/e.s.t.)",
+          "url": "https://www.cineplex.com/movie/matloob-aelian-arabic-west"
         },
         "title:avengers-doomsday": {
           "title": "Avengers: Doomsday",
@@ -686,17 +715,6 @@
           ],
           "context": "Advance tickets DEC 18 Avengers: Doomsday Watch trailer",
           "url": "https://www.cineplex.com/movie/avengers-doomsday"
-        },
-        "title:bts-world-tour-arirang-in-buenos-aires-live-viewing": {
-          "title": "BTS WORLD TOUR 'ARIRANG' IN BUENOS AIRES: LIVE VIEWING",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [
-            "Oct 24"
-          ],
-          "context": "Advance tickets OCT 24 BTS WORLD TOUR 'ARIRANG' IN BUENOS AIRES: LIVE VIEWING Watch trailer",
-          "url": "https://www.cineplex.com/movie/bts-world-tour-arirang-in-buenos-aires"
         },
         "title:bts-world-tour-arirang-in-s-o-paulo-live-viewing": {
           "title": "BTS WORLD TOUR 'ARIRANG' IN SÃO PAULO: LIVE VIEWING",
@@ -720,30 +738,14 @@
         },
         "title:clayface": {
           "title": "Clayface",
-          "ticket_available": false,
+          "ticket_available": true,
           "formats": [],
           "showtimes": [],
-          "dates": [],
-          "context": "",
+          "dates": [
+            "Oct 23"
+          ],
+          "context": "Advance tickets OCT 23 Clayface Watch trailer",
           "url": "https://www.cineplex.com/movie/clayface"
-        },
-        "title:dear-you-teochew-with-chinese-and-e-s-t": {
-          "title": "Dear You (Teochew with Chinese and e.s.t.)",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Dear You (Teochew with Chinese and e.s.t.)",
-          "url": "https://www.cineplex.com/movie/dear-you-teochew-with-chinese-and-est"
-        },
-        "title:digger": {
-          "title": "Digger",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Digger Watch trailer",
-          "url": "https://www.cineplex.com/movie/digger"
         },
         "title:doctor-who-the-satan-pit": {
           "title": "Doctor Who: The Satan Pit",
@@ -767,16 +769,25 @@
           "context": "Advance tickets DEC 18 Dune: Part 3 Watch trailer",
           "url": "https://www.cineplex.com/movie/dune-part-3"
         },
-        "title:hadoota-arabic-w-e-s-t": {
-          "title": "Hadoota (Arabic w/e.s.t.)",
-          "ticket_available": false,
+        "title:fallen-angels-by-no-l-coward": {
+          "title": "Fallen Angels by Noël Coward",
+          "ticket_available": true,
           "formats": [],
           "showtimes": [],
           "dates": [
-            "Nov 13"
+            "Oct 22"
           ],
-          "context": "Coming Soon NOV 13 Hadoota (Arabic w/e.s.t.)",
-          "url": "https://www.cineplex.com/movie/hadoota-arabic-west"
+          "context": "Advance tickets OCT 22 Fallen Angels by Noël Coward",
+          "url": "https://www.cineplex.com/movie/fallen-angels-by-noel-coward"
+        },
+        "title:forgotten-island": {
+          "title": "Forgotten Island",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Forgotten Island Watch trailer",
+          "url": "https://www.cineplex.com/movie/forgotten-island"
         },
         "title:hindi-drishyam-the-conclusion-hindi-w-e-s-t": {
           "title": "Hindi Drishyam - The Conclusion (Hindi w/e.s.t.)",
@@ -787,23 +798,16 @@
           "context": "Hindi Drishyam - The Conclusion (Hindi w/e.s.t.)",
           "url": "https://www.cineplex.com/movie/drishyam-the-conclusion-hindi-west"
         },
-        "title:hindi-hanuman-ansh-hindi-w-e-s-t": {
-          "title": "Hindi Hanuman Ansh (Hindi w/e.s.t.)",
-          "ticket_available": false,
+        "title:hybe-cheering-party-korean-w-e-s-t": {
+          "title": "HYBE CHEERING PARTY (Korean w.e.s.t)",
+          "ticket_available": true,
           "formats": [],
           "showtimes": [],
-          "dates": [],
-          "context": "Hindi Hanuman Ansh (Hindi w/e.s.t.)",
-          "url": "https://www.cineplex.com/movie/hanuman-ansh-hindi-west"
-        },
-        "title:hindi-mirzapur-the-movie-hindi-w-e-s-t": {
-          "title": "Hindi Mirzapur: The Movie (Hindi w/e.s.t.)",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Hindi Mirzapur: The Movie (Hindi w/e.s.t.)",
-          "url": "https://www.cineplex.com/movie/mirzapur-the-movie-hindi-west"
+          "dates": [
+            "Oct 24"
+          ],
+          "context": "Advance tickets OCT 24 HYBE CHEERING PARTY (Korean w.e.s.t) Watch trailer",
+          "url": "https://www.cineplex.com/movie/hybe-cheering-party-korean-west"
         },
         "title:macbeth-verdi-italian-w-e-s-t-encore-metropolitan-opera": {
           "title": "Macbeth (Verdi) Italian w/e.s.t. ENCORE – Metropolitan Opera",
@@ -827,6 +831,17 @@
           "context": "Advance tickets OCT 17 Macbeth (Verdi) Italian w/e.s.t. – Metropolitan Opera Watch trailer",
           "url": "https://www.cineplex.com/movie/est-macbeth-verdi-italian-west-met"
         },
+        "title:man-in-motion-the-rick-hansen-story": {
+          "title": "MAN IN MOTION: THE RICK HANSEN STORY",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [
+            "Nov 1"
+          ],
+          "context": "Advance tickets NOV 1 MAN IN MOTION: THE RICK HANSEN STORY Watch trailer",
+          "url": "https://www.cineplex.com/movie/man-in-motion-the-rick-hansen-story"
+        },
         "title:mandarin-once-upon-a-time-in-the-middle-east-mandarin-w-chinese-and-e-s-t": {
           "title": "Mandarin Once Upon a Time in the Middle East (Mandarin w/Chinese and e.s.t.)",
           "ticket_available": false,
@@ -835,6 +850,17 @@
           "dates": [],
           "context": "Mandarin Once Upon a Time in the Middle East (Mandarin w/Chinese and e.s.t.) Watch trailer",
           "url": "https://www.cineplex.com/movie/once-upon-a-time-in-the-middle-east-mandarin-w"
+        },
+        "title:mr-and-mrs-pardon-mandarin-w-e-s-t": {
+          "title": "Mr. & Mrs. Pardon (Mandarin w/e.s.t.)",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [
+            "Oct 16"
+          ],
+          "context": "Advance Tickets OCT 16 Mr. & Mrs. Pardon (Mandarin w/e.s.t.)",
+          "url": "https://www.cineplex.com/movie/mr-mrs-pardon-mandarin-west"
         },
         "title:other-mommy": {
           "title": "Other Mommy",
@@ -845,6 +871,17 @@
           "context": "Other Mommy Watch trailer",
           "url": "https://www.cineplex.com/movie/other-mommy"
         },
+        "title:ozzy-and-black-sabbath-back-to-the-beginning": {
+          "title": "Ozzy & Black Sabbath: Back To The Beginning",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [
+            "Oct 28"
+          ],
+          "context": "Advance tickets OCT 28 Ozzy & Black Sabbath: Back To The Beginning Watch trailer",
+          "url": "https://www.cineplex.com/movie/ozzy-black-sabbath-back-to-the-beginning"
+        },
         "title:punjabi-eh-din-roz-ni-aune-punjabi-w-e-s-t": {
           "title": "Punjabi Eh Din Roz Ni Aune (Punjabi w/e.s.t.)",
           "ticket_available": false,
@@ -854,52 +891,16 @@
           "context": "Punjabi Eh Din Roz Ni Aune (Punjabi w/e.s.t.)",
           "url": "https://www.cineplex.com/movie/eh-din-roz-ni-aune-punjabi-west"
         },
-        "title:punjabi-mitti-de-putt-punjabi-w-e-s-t": {
-          "title": "Punjabi Mitti De Putt (Punjabi w/e.s.t.)",
-          "ticket_available": false,
+        "title:ranabaali-hindi-w-e-s-t": {
+          "title": "Ranabaali (Hindi w/e.s.t.)",
+          "ticket_available": true,
           "formats": [],
           "showtimes": [],
-          "dates": [],
-          "context": "Punjabi Mitti De Putt (Punjabi w/e.s.t.)",
-          "url": "https://www.cineplex.com/movie/mitti-de-putt-punjabi-west"
-        },
-        "title:punjabi-tutt-paini-english-ne-punjabi-w-e-s-t": {
-          "title": "Punjabi Tutt Paini English Ne (Punjabi w/e.s.t.)",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Punjabi Tutt Paini English Ne (Punjabi w/e.s.t.)",
-          "url": "https://www.cineplex.com/movie/tutt-paini-english-ne-punjabi-west"
-        },
-        "title:queen-budapest": {
-          "title": "Queen Budapest",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Queen Budapest Watch trailer",
-          "url": "https://www.cineplex.com/movie/queen-budapest"
-        },
-        "title:queen-budapest-the-imax-experience": {
-          "title": "Queen Budapest - The IMAX Experience®",
-          "ticket_available": false,
-          "formats": [
-            "IMAX"
+          "dates": [
+            "Oct 23"
           ],
-          "showtimes": [],
-          "dates": [],
-          "context": "Queen Budapest - The IMAX Experience® Watch trailer",
-          "url": "https://www.cineplex.com/movie/queen-budapest-the-imax-experience-2026"
-        },
-        "title:sb19-wakas-at-simula-in-cinemas-filipino-w-e-s-t": {
-          "title": "SB19 Wakas at Simula in Cinemas (Filipino w.e.s.t.)",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "SB19 Wakas at Simula in Cinemas (Filipino w.e.s.t.) Watch trailer",
-          "url": "https://www.cineplex.com/movie/sb19-wakas-at-simula-in-cinemas-filipino-west"
+          "context": "Advance Tickets OCT 23 Ranabaali (Hindi w/e.s.t.)",
+          "url": "https://www.cineplex.com/movie/ranabaali-hindi-west"
         },
         "title:sense-and-sensibility": {
           "title": "Sense and Sensibility",
@@ -912,6 +913,17 @@
           "context": "Advance tickets OCT 16 Sense and Sensibility Watch trailer",
           "url": "https://www.cineplex.com/movie/sense-and-sensibility-2026"
         },
+        "title:stray-kids-world-tour-run-it-live-viewing": {
+          "title": "Stray Kids World Tour RUN IT LIVE VIEWING",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [
+            "Nov 7"
+          ],
+          "context": "Advance tickets NOV 7 Stray Kids World Tour RUN IT LIVE VIEWING",
+          "url": "https://www.cineplex.com/movie/stray-kids-world-tour-run-it-live-viewing"
+        },
         "title:street-fighter": {
           "title": "Street Fighter",
           "ticket_available": true,
@@ -923,32 +935,27 @@
           "context": "Advance tickets OCT 16 Street Fighter Watch trailer",
           "url": "https://www.cineplex.com/movie/street-fighter-2026"
         },
-        "title:the-social-reckoning": {
-          "title": "The Social Reckoning",
-          "ticket_available": false,
+        "title:tazza-the-song-of-beelzebub-korean-w-e-s-t": {
+          "title": "Tazza: The Song of Beelzebub (Korean w/e.s.t.)",
+          "ticket_available": true,
           "formats": [],
           "showtimes": [],
-          "dates": [],
-          "context": "The Social Reckoning Watch trailer",
-          "url": "https://www.cineplex.com/movie/the-social-reckoning"
+          "dates": [
+            "Oct 16"
+          ],
+          "context": "Advance Tickets OCT 16 Tazza: The Song of Beelzebub (Korean w/e.s.t.)",
+          "url": "https://www.cineplex.com/movie/tazza-the-song-of-beelzebub-korean-west"
         },
-        "title:verity": {
-          "title": "Verity",
-          "ticket_available": false,
+        "title:thaapi-punjabi-w-e-s-t": {
+          "title": "Thaapi (Punjabi w/e.s.t.)",
+          "ticket_available": true,
           "formats": [],
           "showtimes": [],
-          "dates": [],
-          "context": "Verity Watch trailer",
-          "url": "https://www.cineplex.com/movie/verity"
-        },
-        "title:view-movie-details-for-resident-evil": {
-          "title": "View movie details for Resident Evil",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "",
-          "url": "https://www.cineplex.com/movie/resident-evil-2026"
+          "dates": [
+            "Oct 16"
+          ],
+          "context": "Advance Tickets OCT 16 Thaapi (Punjabi w/e.s.t.)",
+          "url": "https://www.cineplex.com/movie/thaapi-punjabi-west"
         },
         "title:whalefall": {
           "title": "Whalefall",
@@ -970,6 +977,17 @@
           "context": "",
           "url": "https://www.cineplex.com/movie/wicker"
         },
+        "title:wildwood": {
+          "title": "Wildwood",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [
+            "Oct 23"
+          ],
+          "context": "Advance tickets OCT 23 Wildwood Watch trailer",
+          "url": "https://www.cineplex.com/movie/wildwood"
+        },
         "title:you-can-see-everything": {
           "title": "You Can See Everything",
           "ticket_available": true,
@@ -980,17 +998,6 @@
           ],
           "context": "Advance tickets OCT 16 You Can See Everything Watch trailer",
           "url": "https://www.cineplex.com/movie/you-can-see-everything"
-        },
-        "title:yuri-on-ice-10th-anniversary-japanese-w-e-s-t": {
-          "title": "Yuri!!! on ICE 10th Anniversary (Japanese w.e.s.t)",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [
-            "Oct 19"
-          ],
-          "context": "Advance tickets OCT 19 Yuri!!! on ICE 10th Anniversary (Japanese w.e.s.t) Watch trailer",
-          "url": "https://www.cineplex.com/movie/yuri-on-ice-10th-anniversary-japanese-west"
         }
       }
     },
@@ -1068,9 +1075,12 @@
       "be29aed988decf607114253220f590fe2ee7fea658d66f445fa712b04be62969",
       "373f74ea2a31f92b65b61b8b0a92fafb71eccf597248da3ed2b34a854864a2b4",
       "83aadb544ab37e3c27f5abfcd737fbaf352deb982465fff6870839d7475f9d66",
-      "40e868ac94b09c4a6c81d71f035aa4dd3354e44fd1397c67a4124051309b96c5"
+      "40e868ac94b09c4a6c81d71f035aa4dd3354e44fd1397c67a4124051309b96c5",
+      "1e0727e980d2c3d77d37060ab77e4b0eb661c8206a0b81996bfafabd9aedc896",
+      "3f4bf1424664881ce137150ad8fc80b39ec12c5356cf711c2f2d8116a41e5ed4",
+      "942b86dec76133cb39bd04f0d7949ec505d9281d555d78aad59dc124b85ea58d"
     ],
-    "revision": 870
+    "revision": 871
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
