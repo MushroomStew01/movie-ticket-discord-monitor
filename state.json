@@ -634,7 +634,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "f3ac94a49274b9f10452742bed124248cd8e30ee73b3e16450682261c41c4ed4",
+    "hash": "15b111e1ed77817f5c7608b36bb4f68f3fa8bfae37e111c4fb0d61cf21cfc05f",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -663,8 +663,8 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Cinemas Oakville and VIP",
-        "Cineplex Cinemas Winston Churchill & VIP",
+        "Cineplex Odeon Westmount Cinemas and VIP",
+        "Cineplex Cinemas Kitchener and VIP",
         "Advance tickets",
         "DEC 18",
         "OCT 23",
@@ -869,7 +869,7 @@
           "showtimes": [],
           "dates": [],
           "context": "Mandarin Once Upon a Time in the Middle East (Mandarin w/Chinese and e.s.t.) Watch trailer",
-          "url": "https://www.cineplex.com/movie/once-upon-a-time-in-the-middle-east-mandarin-w"
+          "url": "https://www.cineplex.com/movie/once-upon-a-time-in-the-middle-east-mandarin-wchinese-and-est"
         },
         "title:other-mommy": {
           "title": "Other Mommy",
@@ -1069,7 +1069,7 @@
       "942b86dec76133cb39bd04f0d7949ec505d9281d555d78aad59dc124b85ea58d",
       "10ab3f48213fc867e0edc31a27ddd7908852b7d5786852e619752feb0771121a"
     ],
-    "revision": 882
+    "revision": 883
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
