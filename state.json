@@ -633,7 +633,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "a5b92f7a6140b4e276c37b05dc607149788682e6a30c3ffc7798d33c25af3148",
+    "hash": "8f546da12c468ad531f3d038e6e64e447530f313da91512ebb3023600a0ba70c",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -663,8 +663,8 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Cinemas Abbotsford and VIP",
-        "Cineplex Cinemas Seton and VIP",
+        "Cineplex Odeon Westmount Cinemas and VIP",
+        "Cineplex Cinemas Kitchener and VIP",
         "Advance tickets",
         "OCT 16",
         "DEC 18",
@@ -898,13 +898,13 @@
         },
         "title:ranabaali-hindi-w-e-s-t": {
           "title": "Ranabaali (Hindi w/e.s.t.)",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [
             "Oct 23"
           ],
-          "context": "Advance Tickets OCT 23 Ranabaali (Hindi w/e.s.t.)",
+          "context": "Coming Soon OCT 23 Ranabaali (Hindi w/e.s.t.)",
           "url": "https://www.cineplex.com/movie/ranabaali-hindi-west"
         },
         "title:sense-and-sensibility": {
@@ -1085,7 +1085,7 @@
       "3f4bf1424664881ce137150ad8fc80b39ec12c5356cf711c2f2d8116a41e5ed4",
       "942b86dec76133cb39bd04f0d7949ec505d9281d555d78aad59dc124b85ea58d"
     ],
-    "revision": 877
+    "revision": 878
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
