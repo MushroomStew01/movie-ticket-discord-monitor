@@ -3,7 +3,7 @@
     "name": "Cineplex Cinemas Kitchener and VIP",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "f99928d820115c7f2dcd213f69fc5068f40860100cceb644cfec75835af05b9c",
+    "hash": "4b8e78bcb51cfae956581823723f089b331248af6b6adae1e297f2b53103d9ea",
     "snapshot": {
       "page_title": "Cineplex Cinemas Kitchener and VIP",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-kitchener-and-vip",
@@ -87,20 +87,20 @@
         },
         "title:sense-and-sensibility": {
           "title": "Sense and Sensibility",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Sense and Sensibility Advance tickets available",
+          "context": "Sense and Sensibility",
           "url": null
         },
         "title:street-fighter": {
           "title": "Street Fighter",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Street Fighter Advance tickets available",
+          "context": "Street Fighter",
           "url": null
         },
         "title:verity": {
@@ -114,11 +114,11 @@
         },
         "title:you-can-see-everything": {
           "title": "You Can See Everything",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "You Can See Everything Advance tickets available",
+          "context": "You Can See Everything",
           "url": null
         }
       }
@@ -156,13 +156,13 @@
       "5feae79b4e154857e0ca02547f35634ba670c83cd44121f514334c3e6bd6e23c",
       "33e1e421a988dbbcc238102dbd3bc076d5c3dd86791b19dda2db17062eb026de"
     ],
-    "revision": 51
+    "revision": 52
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge": {
     "name": "Cineplex Cinemas Cambridge",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "bdaa1039cd67fa13143f32a566675ababc0b5be8eff18c6ab50f263cdf1bd215",
+    "hash": "d7f42324d94ddf7f397a62e947f31ff8e238f00854cb0aec6778713f0c0aa7f6",
     "snapshot": {
       "page_title": "Cineplex Cinemas Cambridge",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge",
@@ -194,6 +194,15 @@
           "context": "Avengers: Doomsday Advance tickets available",
           "url": null
         },
+        "title:carmen-encore-bizet-french-w-e-s-t-metropolitan-opera": {
+          "title": "Carmen Encore (Bizet) - French w/e.s.t. – Metropolitan Opera",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Carmen Encore (Bizet) - French w/e.s.t. – Metropolitan Opera Advance tickets available",
+          "url": null
+        },
         "title:clayface": {
           "title": "Clayface",
           "ticket_available": true,
@@ -210,15 +219,6 @@
           "showtimes": [],
           "dates": [],
           "context": "Forgotten Island",
-          "url": null
-        },
-        "title:heart-of-the-beast": {
-          "title": "Heart of the Beast",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Heart of the Beast",
           "url": null
         },
         "title:macbeth-verdi-italian-w-e-s-t-metropolitan-opera": {
@@ -250,11 +250,11 @@
         },
         "title:street-fighter": {
           "title": "Street Fighter",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Street Fighter Advance tickets available",
+          "context": "Street Fighter",
           "url": null
         },
         "title:verity": {
@@ -268,11 +268,11 @@
         },
         "title:whalefall": {
           "title": "Whalefall",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Whalefall Advance tickets available",
+          "context": "Whalefall",
           "url": null
         }
       }
@@ -322,15 +322,16 @@
       "269ec81f2cd07fbf07d8520d9987d350f8dfc80b3b3bc10b5fced0e1a07adbdf",
       "5947628c264fddad1ef8ea653388c2c0226dd21a97cac03a50f74ae06349b842",
       "3bb4f8eef674ecbca62424ab8ce4aa6b2a095deea8b56aad6db342400bbf169e",
-      "dfd12f4a29a2be2c581f9cec2885e8feacb2b643242f75ed7567e1ea65f8b304"
+      "dfd12f4a29a2be2c581f9cec2885e8feacb2b643242f75ed7567e1ea65f8b304",
+      "edd7f77009fbf62d9dd992e99af3575bdd1e46c04e4eafa04f3e9498ef59876a"
     ],
-    "revision": 63
+    "revision": 64
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan": {
     "name": "Cineplex Cinemas Vaughan",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "73af83a98b4e8ae68e6fc9712793d4f93e44743ce7f1d1233e11459718d3ae12",
+    "hash": "36597ff537f77ce919a8171bebdcc6cc151536572db781c9af5a76523f982d8f",
     "snapshot": {
       "page_title": "Cineplex Cinemas Vaughan",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan",
@@ -391,29 +392,29 @@
         },
         "title:sense-and-sensibility": {
           "title": "Sense and Sensibility",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Sense and Sensibility Advance tickets available",
+          "context": "Sense and Sensibility",
           "url": null
         },
         "title:street-fighter": {
           "title": "Street Fighter",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Street Fighter Advance tickets available",
+          "context": "Street Fighter",
           "url": null
         },
         "title:whalefall": {
           "title": "Whalefall",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Whalefall Advance tickets available",
+          "context": "Whalefall",
           "url": null
         },
         "title:wicker": {
@@ -436,11 +437,11 @@
         },
         "title:you-can-see-everything": {
           "title": "You Can See Everything",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "You Can See Everything Advance tickets available",
+          "context": "You Can See Everything",
           "url": null
         }
       }
@@ -474,13 +475,13 @@
       "0829340cc4bc9d3b2039ea55e51efd4669f80e850bf004e781749343fddbab14",
       "5db7cfb18539addd265ff9f6a6c8fb81e4d6d598558ba4e864451359c8d45ed5"
     ],
-    "revision": 44
+    "revision": 45
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one": {
     "name": "Cineplex Cinemas Mississauga Square One",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "4775ac6d40d58ccde22a141fe12eef4efa55811ba894f8f78f68a0490abd6f81",
+    "hash": "dcb55da63f6d26694cf672d0973a4e0fcb7e4b74547dd9d85d1cf818753ead66",
     "snapshot": {
       "page_title": "Cineplex Cinemas Mississauga Square One",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one",
@@ -550,20 +551,20 @@
         },
         "title:sense-and-sensibility": {
           "title": "Sense and Sensibility",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Sense and Sensibility Advance tickets available",
+          "context": "Sense and Sensibility",
           "url": null
         },
         "title:street-fighter": {
           "title": "Street Fighter",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Street Fighter Advance tickets available",
+          "context": "Street Fighter",
           "url": null
         },
         "title:the-odyssey": {
@@ -586,11 +587,11 @@
         },
         "title:whalefall": {
           "title": "Whalefall",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Whalefall Advance tickets available",
+          "context": "Whalefall",
           "url": null
         }
       }
@@ -627,13 +628,13 @@
       "5260e139606b704054a8e5876cb67f2b03a3121e537c9ffcfdcacdecd74d6844",
       "46e42d5a2ac9f6911e23e4e7ecd7186acde50046df1063429f940d067ce0535c"
     ],
-    "revision": 46
+    "revision": 47
   },
   "https://www.cineplex.com/en?theatresNearYou=true": {
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "8f546da12c468ad531f3d038e6e64e447530f313da91512ebb3023600a0ba70c",
+    "hash": "2c8a62e05e70963b7cb7747829c0099e0d1f7d41387266068309d232b71f4fe2",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -646,7 +647,6 @@
         "Nov 21",
         "Nov 23",
         "Nov 7",
-        "Oct 16",
         "Oct 17",
         "Oct 22",
         "Oct 23",
@@ -663,10 +663,8 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Odeon Westmount Cinemas and VIP",
-        "Cineplex Cinemas Kitchener and VIP",
+        "Cineplex Odeon McGillivray Cinemas and VIP",
         "Advance tickets",
-        "OCT 16",
         "DEC 18",
         "OCT 23",
         "OCT 22",
@@ -683,13 +681,11 @@
       "movies": {
         "title:agbara-nla-the-return-yoruba-w-e-s-t": {
           "title": "Agbara Nla: The Return (Yoruba w/e.s.t.)",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Oct 16"
-          ],
-          "context": "Advance Tickets OCT 16 Agbara Nla: The Return (Yoruba w/e.s.t.)",
+          "dates": [],
+          "context": "Agbara Nla: The Return (Yoruba w/e.s.t.)",
           "url": "https://www.cineplex.com/movie/agbara-nla-the-return-yoruba-west"
         },
         "title:always-lalisa": {
@@ -814,6 +810,15 @@
           "context": "Advance tickets OCT 24 HYBE CHEERING PARTY (Korean w.e.s.t) Watch trailer",
           "url": "https://www.cineplex.com/movie/hybe-cheering-party-korean-west"
         },
+        "title:korean-tazza-the-song-of-beelzebub-korean-w-e-s-t": {
+          "title": "Korean Tazza: The Song of Beelzebub (Korean w/e.s.t.)",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Korean Tazza: The Song of Beelzebub (Korean w/e.s.t.)",
+          "url": "https://www.cineplex.com/movie/tazza-the-song-of-beelzebub-korean-west"
+        },
         "title:macbeth-verdi-italian-w-e-s-t-encore-metropolitan-opera": {
           "title": "Macbeth (Verdi) Italian w/e.s.t. ENCORE – Metropolitan Opera",
           "ticket_available": true,
@@ -847,6 +852,15 @@
           "context": "Advance tickets NOV 1 MAN IN MOTION: THE RICK HANSEN STORY Watch trailer",
           "url": "https://www.cineplex.com/movie/man-in-motion-the-rick-hansen-story"
         },
+        "title:mandarin-mr-and-mrs-pardon-mandarin-w-e-s-t": {
+          "title": "Mandarin Mr. & Mrs. Pardon (Mandarin w/e.s.t.)",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Mandarin Mr. & Mrs. Pardon (Mandarin w/e.s.t.)",
+          "url": "https://www.cineplex.com/movie/mr-mrs-pardon-mandarin-west"
+        },
         "title:mandarin-once-upon-a-time-in-the-middle-east-mandarin-w-chinese-and-e-s-t": {
           "title": "Mandarin Once Upon a Time in the Middle East (Mandarin w/Chinese and e.s.t.)",
           "ticket_available": false,
@@ -855,17 +869,6 @@
           "dates": [],
           "context": "Mandarin Once Upon a Time in the Middle East (Mandarin w/Chinese and e.s.t.) Watch trailer",
           "url": "https://www.cineplex.com/movie/once-upon-a-time-in-the-middle-east-mandarin-w"
-        },
-        "title:mr-and-mrs-pardon-mandarin-w-e-s-t": {
-          "title": "Mr. & Mrs. Pardon (Mandarin w/e.s.t.)",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [
-            "Oct 16"
-          ],
-          "context": "Advance Tickets OCT 16 Mr. & Mrs. Pardon (Mandarin w/e.s.t.)",
-          "url": "https://www.cineplex.com/movie/mr-mrs-pardon-mandarin-west"
         },
         "title:other-mommy": {
           "title": "Other Mommy",
@@ -896,6 +899,15 @@
           "context": "Punjabi Eh Din Roz Ni Aune (Punjabi w/e.s.t.)",
           "url": "https://www.cineplex.com/movie/eh-din-roz-ni-aune-punjabi-west"
         },
+        "title:punjabi-thaapi-punjabi-w-e-s-t": {
+          "title": "Punjabi Thaapi (Punjabi w/e.s.t.)",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Punjabi Thaapi (Punjabi w/e.s.t.)",
+          "url": "https://www.cineplex.com/movie/thaapi-punjabi-west"
+        },
         "title:ranabaali-hindi-w-e-s-t": {
           "title": "Ranabaali (Hindi w/e.s.t.)",
           "ticket_available": false,
@@ -909,13 +921,11 @@
         },
         "title:sense-and-sensibility": {
           "title": "Sense and Sensibility",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Oct 16"
-          ],
-          "context": "Advance tickets OCT 16 Sense and Sensibility Watch trailer",
+          "dates": [],
+          "context": "Sense and Sensibility Watch trailer",
           "url": "https://www.cineplex.com/movie/sense-and-sensibility-2026"
         },
         "title:stray-kids-world-tour-run-it-live-viewing": {
@@ -931,46 +941,20 @@
         },
         "title:street-fighter": {
           "title": "Street Fighter",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Oct 16"
-          ],
-          "context": "Advance tickets OCT 16 Street Fighter Watch trailer",
+          "dates": [],
+          "context": "Street Fighter Watch trailer",
           "url": "https://www.cineplex.com/movie/street-fighter-2026"
-        },
-        "title:tazza-the-song-of-beelzebub-korean-w-e-s-t": {
-          "title": "Tazza: The Song of Beelzebub (Korean w/e.s.t.)",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [
-            "Oct 16"
-          ],
-          "context": "Advance Tickets OCT 16 Tazza: The Song of Beelzebub (Korean w/e.s.t.)",
-          "url": "https://www.cineplex.com/movie/tazza-the-song-of-beelzebub-korean-west"
-        },
-        "title:thaapi-punjabi-w-e-s-t": {
-          "title": "Thaapi (Punjabi w/e.s.t.)",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [
-            "Oct 16"
-          ],
-          "context": "Advance Tickets OCT 16 Thaapi (Punjabi w/e.s.t.)",
-          "url": "https://www.cineplex.com/movie/thaapi-punjabi-west"
         },
         "title:whalefall": {
           "title": "Whalefall",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Oct 16"
-          ],
-          "context": "Advance tickets OCT 16 Whalefall Watch trailer",
+          "dates": [],
+          "context": "Whalefall Watch trailer",
           "url": "https://www.cineplex.com/movie/whalefall"
         },
         "title:wicker": {
@@ -995,13 +979,11 @@
         },
         "title:you-can-see-everything": {
           "title": "You Can See Everything",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Oct 16"
-          ],
-          "context": "Advance tickets OCT 16 You Can See Everything Watch trailer",
+          "dates": [],
+          "context": "You Can See Everything Watch trailer",
           "url": "https://www.cineplex.com/movie/you-can-see-everything"
         }
       }
@@ -1083,9 +1065,10 @@
       "40e868ac94b09c4a6c81d71f035aa4dd3354e44fd1397c67a4124051309b96c5",
       "1e0727e980d2c3d77d37060ab77e4b0eb661c8206a0b81996bfafabd9aedc896",
       "3f4bf1424664881ce137150ad8fc80b39ec12c5356cf711c2f2d8116a41e5ed4",
-      "942b86dec76133cb39bd04f0d7949ec505d9281d555d78aad59dc124b85ea58d"
+      "942b86dec76133cb39bd04f0d7949ec505d9281d555d78aad59dc124b85ea58d",
+      "10ab3f48213fc867e0edc31a27ddd7908852b7d5786852e619752feb0771121a"
     ],
-    "revision": 878
+    "revision": 879
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
@@ -1118,6 +1101,6 @@
     "revision": 8
   },
   "_meta": {
-    "last_heartbeat_at_utc": "2026-10-15T01:28:54.782025+00:00"
+    "last_heartbeat_at_utc": "2026-10-16T05:01:20.401567+00:00"
   }
 }
