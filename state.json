@@ -162,7 +162,7 @@
     "name": "Cineplex Cinemas Cambridge",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "d7f42324d94ddf7f397a62e947f31ff8e238f00854cb0aec6778713f0c0aa7f6",
+    "hash": "b6388418e95f0749b9268fe0867d2b7df47b950e640f9d7c3b41ac45a66c532b",
     "snapshot": {
       "page_title": "Cineplex Cinemas Cambridge",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge",
@@ -223,11 +223,11 @@
         },
         "title:macbeth-verdi-italian-w-e-s-t-metropolitan-opera": {
           "title": "Macbeth (Verdi) Italian w/e.s.t. – Metropolitan Opera",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Macbeth (Verdi) Italian w/e.s.t. – Metropolitan Opera Advance tickets available",
+          "context": "Macbeth (Verdi) Italian w/e.s.t. – Metropolitan Opera",
           "url": null
         },
         "title:other-mommy": {
@@ -325,7 +325,7 @@
       "dfd12f4a29a2be2c581f9cec2885e8feacb2b643242f75ed7567e1ea65f8b304",
       "edd7f77009fbf62d9dd992e99af3575bdd1e46c04e4eafa04f3e9498ef59876a"
     ],
-    "revision": 64
+    "revision": 65
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan": {
     "name": "Cineplex Cinemas Vaughan",
@@ -634,7 +634,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "064ad82f7c4fd31e9edf3e3d22eabbf328ddc8eee72c758b5614a2912f329895",
+    "hash": "ce96b53435a89cf4857c9442936cb9c7d245e538083ded70137bdaa8b679b791",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -647,7 +647,6 @@
         "Nov 21",
         "Nov 23",
         "Nov 7",
-        "Oct 17",
         "Oct 22",
         "Oct 23",
         "Oct 24",
@@ -671,7 +670,6 @@
         "OCT 22",
         "OCT 28",
         "OCT 30",
-        "OCT 17",
         "NOV 21",
         "NOV 23",
         "OCT 24",
@@ -833,13 +831,11 @@
         },
         "title:macbeth-verdi-italian-w-e-s-t-metropolitan-opera": {
           "title": "Macbeth (Verdi) Italian w/e.s.t. – Metropolitan Opera",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Oct 17"
-          ],
-          "context": "Advance tickets OCT 17 Macbeth (Verdi) Italian w/e.s.t. – Metropolitan Opera Watch trailer",
+          "dates": [],
+          "context": "Macbeth (Verdi) Italian w/e.s.t. – Metropolitan Opera Watch trailer",
           "url": "https://www.cineplex.com/movie/est-macbeth-verdi-italian-west-met"
         },
         "title:man-in-motion-the-rick-hansen-story": {
@@ -1069,7 +1065,7 @@
       "942b86dec76133cb39bd04f0d7949ec505d9281d555d78aad59dc124b85ea58d",
       "10ab3f48213fc867e0edc31a27ddd7908852b7d5786852e619752feb0771121a"
     ],
-    "revision": 884
+    "revision": 885
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
@@ -1102,6 +1098,6 @@
     "revision": 8
   },
   "_meta": {
-    "last_heartbeat_at_utc": "2026-10-16T05:01:20.401567+00:00"
+    "last_heartbeat_at_utc": "2026-10-17T05:44:26.128923+00:00"
   }
 }
