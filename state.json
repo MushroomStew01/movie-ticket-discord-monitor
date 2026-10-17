@@ -162,7 +162,7 @@
     "name": "Cineplex Cinemas Cambridge",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "b6388418e95f0749b9268fe0867d2b7df47b950e640f9d7c3b41ac45a66c532b",
+    "hash": "d5f1ca7401a3ab0b910ed9136947358eb993eba9f75d1e518b497620ba1e0e9a",
     "snapshot": {
       "page_title": "Cineplex Cinemas Cambridge",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge",
@@ -221,15 +221,6 @@
           "context": "Forgotten Island",
           "url": null
         },
-        "title:macbeth-verdi-italian-w-e-s-t-metropolitan-opera": {
-          "title": "Macbeth (Verdi) Italian w/e.s.t. – Metropolitan Opera",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Macbeth (Verdi) Italian w/e.s.t. – Metropolitan Opera",
-          "url": null
-        },
         "title:other-mommy": {
           "title": "Other Mommy",
           "ticket_available": false,
@@ -246,6 +237,15 @@
           "showtimes": [],
           "dates": [],
           "context": "Resident Evil",
+          "url": null
+        },
+        "title:samson-et-dalila-saint-sa-ns-french-w-e-s-t-metropolitan-opera": {
+          "title": "Samson et Dalila (Saint-Saëns) - French w/e.s.t. - Metropolitan Opera",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Samson et Dalila (Saint-Saëns) - French w/e.s.t. - Metropolitan Opera Advance tickets available",
           "url": null
         },
         "title:street-fighter": {
@@ -323,9 +323,10 @@
       "5947628c264fddad1ef8ea653388c2c0226dd21a97cac03a50f74ae06349b842",
       "3bb4f8eef674ecbca62424ab8ce4aa6b2a095deea8b56aad6db342400bbf169e",
       "dfd12f4a29a2be2c581f9cec2885e8feacb2b643242f75ed7567e1ea65f8b304",
-      "edd7f77009fbf62d9dd992e99af3575bdd1e46c04e4eafa04f3e9498ef59876a"
+      "edd7f77009fbf62d9dd992e99af3575bdd1e46c04e4eafa04f3e9498ef59876a",
+      "dfdfda757f665318e7502af8e40024be3789a229be44d259aec75062103adf82"
     ],
-    "revision": 65
+    "revision": 66
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan": {
     "name": "Cineplex Cinemas Vaughan",
@@ -634,7 +635,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "ce96b53435a89cf4857c9442936cb9c7d245e538083ded70137bdaa8b679b791",
+    "hash": "8f0433ee559e658249dbe1f8ddaeccc7a37158cd5be85b29a8d0f4b446799b4c",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -662,8 +663,8 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Cinemas Oakville and VIP",
-        "Cineplex Cinemas Winston Churchill & VIP",
+        "Cineplex Cinemas Abbotsford and VIP",
+        "Cineplex Cinemas Seton and VIP",
         "Advance tickets",
         "DEC 18",
         "OCT 23",
@@ -956,11 +957,13 @@
         },
         "title:wicker": {
           "title": "Wicker",
-          "ticket_available": false,
+          "ticket_available": true,
           "formats": [],
           "showtimes": [],
-          "dates": [],
-          "context": "",
+          "dates": [
+            "Oct 23"
+          ],
+          "context": "Advance tickets OCT 23 Wicker Watch trailer",
           "url": "https://www.cineplex.com/movie/wicker"
         },
         "title:wildwood": {
@@ -1063,9 +1066,11 @@
       "1e0727e980d2c3d77d37060ab77e4b0eb661c8206a0b81996bfafabd9aedc896",
       "3f4bf1424664881ce137150ad8fc80b39ec12c5356cf711c2f2d8116a41e5ed4",
       "942b86dec76133cb39bd04f0d7949ec505d9281d555d78aad59dc124b85ea58d",
-      "10ab3f48213fc867e0edc31a27ddd7908852b7d5786852e619752feb0771121a"
+      "10ab3f48213fc867e0edc31a27ddd7908852b7d5786852e619752feb0771121a",
+      "3c28b041703bf92c224dfff92e4267902d9917cd9589519a6d0d6913d636a8f9",
+      "bbf4d6bde2a75eda27ca2fe17a6a329723aded6f4e65c7048f3945aa9718251c"
     ],
-    "revision": 887
+    "revision": 888
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
