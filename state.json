@@ -162,7 +162,7 @@
     "name": "Cineplex Cinemas Cambridge",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "6a6da226ff82e75caa2d20fae4afeb7363616a2d5a4107ee12bd6bd636ade466",
+    "hash": "1df06859badf48130c63cfb148df61a4a6d5d1541cef561438098159cfb31ce6",
     "snapshot": {
       "page_title": "Cineplex Cinemas Cambridge",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge",
@@ -248,13 +248,13 @@
           "context": "Street Fighter",
           "url": null
         },
-        "title:the-magic-flute-encore-mozart-english-w-e-s-t-metropolitan-opera": {
-          "title": "The Magic Flute Encore (Mozart) English w/e.s.t - Metropolitan Opera",
+        "title:the-cat-in-the-hat": {
+          "title": "The Cat in the Hat",
           "ticket_available": true,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "The Magic Flute Encore (Mozart) English w/e.s.t - Metropolitan Opera Advance tickets available",
+          "context": "The Cat in the Hat Advance tickets available",
           "url": null
         },
         "title:verity": {
@@ -325,9 +325,10 @@
       "dfd12f4a29a2be2c581f9cec2885e8feacb2b643242f75ed7567e1ea65f8b304",
       "edd7f77009fbf62d9dd992e99af3575bdd1e46c04e4eafa04f3e9498ef59876a",
       "dfdfda757f665318e7502af8e40024be3789a229be44d259aec75062103adf82",
-      "55e557edc5a6f428e34c51720ab3fc3fcf563bfc048c2542cd965b3e26df8bdf"
+      "55e557edc5a6f428e34c51720ab3fc3fcf563bfc048c2542cd965b3e26df8bdf",
+      "d78a2978ae9a27b839e4b1471aedc843ed3307c5089197c800f9de03cd927eb0"
     ],
-    "revision": 67
+    "revision": 68
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan": {
     "name": "Cineplex Cinemas Vaughan",
@@ -636,7 +637,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "232b021df3f99eb1251098fd6ab120b557d55866bd928fa48e57194f74d0a386",
+    "hash": "2ad7efd62f88d2f16348962b3504062b9089c0a5b0147d019ace124df9b86cd7",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -664,8 +665,7 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Odeon Westmount Cinemas and VIP",
-        "Cineplex Cinemas Kitchener and VIP",
+        "Cineplex Odeon McGillivray Cinemas and VIP",
         "Advance tickets",
         "DEC 18",
         "OCT 23",
@@ -1071,7 +1071,7 @@
       "3c28b041703bf92c224dfff92e4267902d9917cd9589519a6d0d6913d636a8f9",
       "bbf4d6bde2a75eda27ca2fe17a6a329723aded6f4e65c7048f3945aa9718251c"
     ],
-    "revision": 898
+    "revision": 899
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
