@@ -3,7 +3,7 @@
     "name": "Cineplex Cinemas Kitchener and VIP",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "4b8e78bcb51cfae956581823723f089b331248af6b6adae1e297f2b53103d9ea",
+    "hash": "2501afd673113758d5da17dd09110a696a4ab9c9e549e830306a5bc802736791",
     "snapshot": {
       "page_title": "Cineplex Cinemas Kitchener and VIP",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-kitchener-and-vip",
@@ -40,13 +40,13 @@
           "context": "Clayface Advance tickets available",
           "url": null
         },
-        "title:dune-part-3": {
-          "title": "Dune: Part 3",
+        "title:dune-part-three": {
+          "title": "Dune: Part Three",
           "ticket_available": true,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Dune: Part 3 Advance tickets available",
+          "context": "Dune: Part Three Advance tickets available",
           "url": null
         },
         "title:forgotten-island": {
@@ -154,15 +154,16 @@
       "a851f53cd6db0aa1d25fd9930cb48998bc36eebac1f3534d8fb0d09e70534892",
       "be9fd1eea811bca75213ace6dac8731d3bfab8d57dc8c934c3f55dbf254a62f6",
       "5feae79b4e154857e0ca02547f35634ba670c83cd44121f514334c3e6bd6e23c",
-      "33e1e421a988dbbcc238102dbd3bc076d5c3dd86791b19dda2db17062eb026de"
+      "33e1e421a988dbbcc238102dbd3bc076d5c3dd86791b19dda2db17062eb026de",
+      "93a8040acaab68d60d666a9de329dd9070ec85b476e95f644082699e7243c660"
     ],
-    "revision": 52
+    "revision": 53
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge": {
     "name": "Cineplex Cinemas Cambridge",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "325484e7c1b2d658ca5c2684514dabc033d54d8167edc6371e480c726fe841aa",
+    "hash": "237b1524c8c25bf4ca293ab132cd314ee8a7997d75d547f36b95a5ede4cac73f",
     "snapshot": {
       "page_title": "Cineplex Cinemas Cambridge",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge",
@@ -212,13 +213,13 @@
           "context": "Clayface Advance tickets available",
           "url": null
         },
-        "title:dune-part-3": {
-          "title": "Dune: Part 3",
+        "title:dune-part-three": {
+          "title": "Dune: Part Three",
           "ticket_available": true,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Dune: Part 3 Advance tickets available",
+          "context": "Dune: Part Three Advance tickets available",
           "url": null
         },
         "title:other-mommy": {
@@ -327,15 +328,16 @@
       "dfdfda757f665318e7502af8e40024be3789a229be44d259aec75062103adf82",
       "55e557edc5a6f428e34c51720ab3fc3fcf563bfc048c2542cd965b3e26df8bdf",
       "d78a2978ae9a27b839e4b1471aedc843ed3307c5089197c800f9de03cd927eb0",
-      "6ffc3c23732e08dd5ee11fa1166bf6f54537911aa115b639dcdfb9846ca4fa68"
+      "6ffc3c23732e08dd5ee11fa1166bf6f54537911aa115b639dcdfb9846ca4fa68",
+      "8d6e157ccc80cff82054b2fc2cea9145800b6328ad3159800df36ce8f4b3b977"
     ],
-    "revision": 69
+    "revision": 70
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan": {
     "name": "Cineplex Cinemas Vaughan",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "36597ff537f77ce919a8171bebdcc6cc151536572db781c9af5a76523f982d8f",
+    "hash": "4e24dfe8540b6f35c5ab10c9f7c2b4006cb16bfef884e0d0249dba86be65694a",
     "snapshot": {
       "page_title": "Cineplex Cinemas Vaughan",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan",
@@ -367,13 +369,13 @@
           "context": "Clayface Advance tickets available",
           "url": null
         },
-        "title:dune-part-3": {
-          "title": "Dune: Part 3",
+        "title:dune-part-three": {
+          "title": "Dune: Part Three",
           "ticket_available": true,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Dune: Part 3 Advance tickets available",
+          "context": "Dune: Part Three Advance tickets available",
           "url": null
         },
         "title:forgotten-island": {
@@ -477,9 +479,10 @@
       "744c50001bcd436ac9476c8cfa866c9d001496cf9de93fb3b803cf8681d5df24",
       "c62272d88752e2ccc7c6a1dbdaf3ad0de39df2df0d275abc5cba4f132e6c18cf",
       "0829340cc4bc9d3b2039ea55e51efd4669f80e850bf004e781749343fddbab14",
-      "5db7cfb18539addd265ff9f6a6c8fb81e4d6d598558ba4e864451359c8d45ed5"
+      "5db7cfb18539addd265ff9f6a6c8fb81e4d6d598558ba4e864451359c8d45ed5",
+      "f3be8092f69a4096fe3f95691d15a49a8f376750ccb843cc37770f0e98bf64f3"
     ],
-    "revision": 45
+    "revision": 46
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one": {
     "name": "Cineplex Cinemas Mississauga Square One",
@@ -638,7 +641,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "2ad7efd62f88d2f16348962b3504062b9089c0a5b0147d019ace124df9b86cd7",
+    "hash": "86205161a4bb18ec1a46e521931f5762c025bc97bb4711d2f489d792edc47957",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -762,15 +765,24 @@
           "url": "https://www.cineplex.com/movie/doctor-who-the-satan-pit"
         },
         "title:dune-part-3": {
-          "title": "Dune: Part 3",
+          "title": "Dune Part 3",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "",
+          "url": "https://www.cineplex.com/movie/dune-part-3"
+        },
+        "title:dune-part-three": {
+          "title": "Dune: Part Three",
           "ticket_available": true,
           "formats": [],
           "showtimes": [],
           "dates": [
             "Dec 18"
           ],
-          "context": "Advance tickets DEC 18 Dune: Part 3 Watch trailer",
-          "url": "https://www.cineplex.com/movie/dune-part-3"
+          "context": "Advance tickets DEC 18 Dune: Part Three Watch trailer",
+          "url": "https://www.cineplex.com/movie/dune-part-three"
         },
         "title:fallen-angels-by-no-l-coward": {
           "title": "Fallen Angels by Noël Coward",
@@ -1070,17 +1082,18 @@
       "942b86dec76133cb39bd04f0d7949ec505d9281d555d78aad59dc124b85ea58d",
       "10ab3f48213fc867e0edc31a27ddd7908852b7d5786852e619752feb0771121a",
       "3c28b041703bf92c224dfff92e4267902d9917cd9589519a6d0d6913d636a8f9",
-      "bbf4d6bde2a75eda27ca2fe17a6a329723aded6f4e65c7048f3945aa9718251c"
+      "bbf4d6bde2a75eda27ca2fe17a6a329723aded6f4e65c7048f3945aa9718251c",
+      "b13b15c1bf158724c82256e57110481b94a762999f8bac438d7802caf6668e5b"
     ],
-    "revision": 901
+    "revision": 902
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
     "type": "movie",
     "snapshot_version": 4,
-    "hash": "f63b6f42098b13fe0d63cdff2530c50dc598eb72354f84fba19b22b3cc499e15",
+    "hash": "062cd4465eb58592190962e6896dfb5d07ba28d3a3f4e85a84ad8269728006dc",
     "snapshot": {
-      "page_title": "Dune: Part 3",
+      "page_title": "Dune: Part Three",
       "final_url": "https://www.cineplex.com/movie/dune-part-3",
       "ticket_available": true,
       "ticket_phrases": [
@@ -1102,9 +1115,9 @@
       "20af9f85bb9be3349435b006c403045da340a617c4f319f21fbf78b4738d7044",
       "9db4a116b09a1c30b4559f0c9091e5f93b0773e5c05d7bc52d0714341c3d74c0"
     ],
-    "revision": 8
+    "revision": 9
   },
   "_meta": {
-    "last_heartbeat_at_utc": "2026-10-19T12:55:46.172819+00:00"
+    "last_heartbeat_at_utc": "2026-10-20T15:43:13.771208+00:00"
   }
 }
