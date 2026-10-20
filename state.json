@@ -488,7 +488,7 @@
     "name": "Cineplex Cinemas Mississauga Square One",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "dcb55da63f6d26694cf672d0973a4e0fcb7e4b74547dd9d85d1cf818753ead66",
+    "hash": "e38282d20527a259baf7896f595cc4b16c19f6604b693f309b98b77d2b1e6579",
     "snapshot": {
       "page_title": "Cineplex Cinemas Mississauga Square One",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one",
@@ -520,13 +520,13 @@
           "context": "Clayface Advance tickets available",
           "url": null
         },
-        "title:dune-part-3": {
-          "title": "Dune: Part 3",
+        "title:dune-part-three": {
+          "title": "Dune: Part Three",
           "ticket_available": true,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Dune: Part 3 Advance tickets available",
+          "context": "Dune: Part Three Advance tickets available",
           "url": null
         },
         "title:forgotten-island": {
@@ -633,15 +633,16 @@
       "03f06c4f5a52bedc0fc97bb248d7f58950f0e691255e4685e321538fb16945a6",
       "396415a07d39e214f33c7b1d76617ced6351e2427dc7475aa6b000e6c2adaac2",
       "5260e139606b704054a8e5876cb67f2b03a3121e537c9ffcfdcacdecd74d6844",
-      "46e42d5a2ac9f6911e23e4e7ecd7186acde50046df1063429f940d067ce0535c"
+      "46e42d5a2ac9f6911e23e4e7ecd7186acde50046df1063429f940d067ce0535c",
+      "5d50af2d8d4f118194701af724a42f59e3a20923f868966ed5ada5f969d7d2ac"
     ],
-    "revision": 47
+    "revision": 48
   },
   "https://www.cineplex.com/en?theatresNearYou=true": {
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "86205161a4bb18ec1a46e521931f5762c025bc97bb4711d2f489d792edc47957",
+    "hash": "f814e3c5d398d692f7f9efa3f01abc032b93defddba80c6e548ae643f6b882bc",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -922,13 +923,13 @@
         },
         "title:ranabaali-hindi-w-e-s-t": {
           "title": "Ranabaali (Hindi w/e.s.t.)",
-          "ticket_available": false,
+          "ticket_available": true,
           "formats": [],
           "showtimes": [],
           "dates": [
             "Oct 23"
           ],
-          "context": "Coming Soon OCT 23 Ranabaali (Hindi w/e.s.t.)",
+          "context": "Advance Tickets OCT 23 Ranabaali (Hindi w/e.s.t.)",
           "url": "https://www.cineplex.com/movie/ranabaali-hindi-west"
         },
         "title:sense-and-sensibility": {
@@ -1083,9 +1084,10 @@
       "10ab3f48213fc867e0edc31a27ddd7908852b7d5786852e619752feb0771121a",
       "3c28b041703bf92c224dfff92e4267902d9917cd9589519a6d0d6913d636a8f9",
       "bbf4d6bde2a75eda27ca2fe17a6a329723aded6f4e65c7048f3945aa9718251c",
-      "b13b15c1bf158724c82256e57110481b94a762999f8bac438d7802caf6668e5b"
+      "b13b15c1bf158724c82256e57110481b94a762999f8bac438d7802caf6668e5b",
+      "880a6a3689794145abfe1fac39af065c3876b2bf8038a567441b3404c663d57e"
     ],
-    "revision": 902
+    "revision": 903
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
