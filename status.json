@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-19T12:55:46.304033+00:00",
-  "state_id": "b62273457f8f05669fc4dcfe58d6a67579c418163fff4f3e7dea79a9ddb538bf",
+  "updated_at": "2026-10-20T06:06:15.586971+00:00",
+  "state_id": "f6669101fda148140d954fed92bd9afac7bab71b77d2fc4e25269ac857e95cb3",
   "healthy": true,
   "target_count": 6,
   "failing_targets": [],
@@ -17,6 +17,7 @@
       "title": "Dune: Part 3",
       "ticket_available": true,
       "theatres": [
+        "Cineplex Cinemas Cambridge",
         "Cineplex Cinemas Kitchener and VIP",
         "Cineplex Cinemas Mississauga Square One",
         "Cineplex Cinemas Vaughan"
@@ -37,7 +38,14 @@
       "url": "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge",
       "healthy": true,
       "movie_count": 11,
-      "priority": {}
+      "priority": {
+        "Dune: Part 3": {
+          "ticket_available": true,
+          "showtimes": [],
+          "dates": [],
+          "formats": []
+        }
+      }
     },
     {
       "name": "Cineplex Cinemas Kitchener and VIP",
