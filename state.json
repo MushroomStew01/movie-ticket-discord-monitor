@@ -3,7 +3,7 @@
     "name": "Cineplex Cinemas Kitchener and VIP",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "2501afd673113758d5da17dd09110a696a4ab9c9e549e830306a5bc802736791",
+    "hash": "1b2efc3191b318ec6bc0af3e9a62f738f9f3a2d878eb625a5e6bdbeb1bdf7f56",
     "snapshot": {
       "page_title": "Cineplex Cinemas Kitchener and VIP",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-kitchener-and-vip",
@@ -58,15 +58,6 @@
           "context": "Forgotten Island",
           "url": null
         },
-        "title:heart-of-the-beast": {
-          "title": "Heart of the Beast",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Heart of the Beast",
-          "url": null
-        },
         "title:other-mommy": {
           "title": "Other Mommy",
           "ticket_available": false,
@@ -103,13 +94,22 @@
           "context": "Street Fighter",
           "url": null
         },
-        "title:verity": {
-          "title": "Verity",
-          "ticket_available": false,
+        "title:wicker": {
+          "title": "Wicker",
+          "ticket_available": true,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Verity",
+          "context": "Wicker Advance tickets available",
+          "url": null
+        },
+        "title:wildwood": {
+          "title": "Wildwood",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Wildwood Advance tickets available",
           "url": null
         },
         "title:you-can-see-everything": {
@@ -155,15 +155,16 @@
       "be9fd1eea811bca75213ace6dac8731d3bfab8d57dc8c934c3f55dbf254a62f6",
       "5feae79b4e154857e0ca02547f35634ba670c83cd44121f514334c3e6bd6e23c",
       "33e1e421a988dbbcc238102dbd3bc076d5c3dd86791b19dda2db17062eb026de",
-      "93a8040acaab68d60d666a9de329dd9070ec85b476e95f644082699e7243c660"
+      "93a8040acaab68d60d666a9de329dd9070ec85b476e95f644082699e7243c660",
+      "1a04fca50a8c624a239ffc870287503c417e88303a08aaa29b03e6c95cee97ac"
     ],
-    "revision": 53
+    "revision": 54
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge": {
     "name": "Cineplex Cinemas Cambridge",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "237b1524c8c25bf4ca293ab132cd314ee8a7997d75d547f36b95a5ede4cac73f",
+    "hash": "abe770c6918fe5ce9291d3f1bb0ade7808e8949d9b570a7941d8981f5cca339a",
     "snapshot": {
       "page_title": "Cineplex Cinemas Cambridge",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge",
@@ -195,15 +196,6 @@
           "context": "Avengers: Doomsday Advance tickets available",
           "url": null
         },
-        "title:carmen-encore-bizet-french-w-e-s-t-metropolitan-opera": {
-          "title": "Carmen Encore (Bizet) - French w/e.s.t. – Metropolitan Opera",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Carmen Encore (Bizet) - French w/e.s.t. – Metropolitan Opera Advance tickets available",
-          "url": null
-        },
         "title:clayface": {
           "title": "Clayface",
           "ticket_available": true,
@@ -220,6 +212,15 @@
           "showtimes": [],
           "dates": [],
           "context": "Dune: Part Three Advance tickets available",
+          "url": null
+        },
+        "title:hexed": {
+          "title": "Hexed",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Hexed Advance tickets available",
           "url": null
         },
         "title:other-mommy": {
@@ -329,9 +330,10 @@
       "55e557edc5a6f428e34c51720ab3fc3fcf563bfc048c2542cd965b3e26df8bdf",
       "d78a2978ae9a27b839e4b1471aedc843ed3307c5089197c800f9de03cd927eb0",
       "6ffc3c23732e08dd5ee11fa1166bf6f54537911aa115b639dcdfb9846ca4fa68",
-      "8d6e157ccc80cff82054b2fc2cea9145800b6328ad3159800df36ce8f4b3b977"
+      "8d6e157ccc80cff82054b2fc2cea9145800b6328ad3159800df36ce8f4b3b977",
+      "b17b88873630ce53de7f4f5405cb30eb6f284e621f0098e379ef878716a11bd2"
     ],
-    "revision": 70
+    "revision": 71
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan": {
     "name": "Cineplex Cinemas Vaughan",
@@ -488,7 +490,7 @@
     "name": "Cineplex Cinemas Mississauga Square One",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "e38282d20527a259baf7896f595cc4b16c19f6604b693f309b98b77d2b1e6579",
+    "hash": "2e5f718f7d8fea89d14ee135a6aa01dfbbd2d96908783923a2d682ef66feab9b",
     "snapshot": {
       "page_title": "Cineplex Cinemas Mississauga Square One",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one",
@@ -547,15 +549,6 @@
           "context": "Other Mommy",
           "url": null
         },
-        "title:resident-evil": {
-          "title": "Resident Evil",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Resident Evil",
-          "url": null
-        },
         "title:sense-and-sensibility": {
           "title": "Sense and Sensibility",
           "ticket_available": false,
@@ -574,24 +567,6 @@
           "context": "Street Fighter",
           "url": null
         },
-        "title:the-odyssey": {
-          "title": "The Odyssey",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "The Odyssey",
-          "url": null
-        },
-        "title:verity": {
-          "title": "Verity",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Verity",
-          "url": null
-        },
         "title:whalefall": {
           "title": "Whalefall",
           "ticket_available": false,
@@ -599,6 +574,33 @@
           "showtimes": [],
           "dates": [],
           "context": "Whalefall",
+          "url": null
+        },
+        "title:wicker": {
+          "title": "Wicker",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Wicker Advance tickets available",
+          "url": null
+        },
+        "title:wildwood": {
+          "title": "Wildwood",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Wildwood Advance tickets available",
+          "url": null
+        },
+        "title:you-can-see-everything": {
+          "title": "You Can See Everything",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "You Can See Everything",
           "url": null
         }
       }
@@ -634,15 +636,16 @@
       "396415a07d39e214f33c7b1d76617ced6351e2427dc7475aa6b000e6c2adaac2",
       "5260e139606b704054a8e5876cb67f2b03a3121e537c9ffcfdcacdecd74d6844",
       "46e42d5a2ac9f6911e23e4e7ecd7186acde50046df1063429f940d067ce0535c",
-      "5d50af2d8d4f118194701af724a42f59e3a20923f868966ed5ada5f969d7d2ac"
+      "5d50af2d8d4f118194701af724a42f59e3a20923f868966ed5ada5f969d7d2ac",
+      "5ada2a6d9818311d5fe8b91ddb3859ecb019ef80df07c1aa4bd3fb8f63d70add"
     ],
-    "revision": 48
+    "revision": 49
   },
   "https://www.cineplex.com/en?theatresNearYou=true": {
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "f814e3c5d398d692f7f9efa3f01abc032b93defddba80c6e548ae643f6b882bc",
+    "hash": "794e8c35b1cb997844ca987d6866d6bf24e0c207a1df901937af7dade240930f",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -670,7 +673,8 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Odeon McGillivray Cinemas and VIP",
+        "Cineplex Cinemas Oakville and VIP",
+        "Cineplex Cinemas Winston Churchill & VIP",
         "Advance tickets",
         "DEC 18",
         "OCT 23",
@@ -1087,7 +1091,7 @@
       "b13b15c1bf158724c82256e57110481b94a762999f8bac438d7802caf6668e5b",
       "880a6a3689794145abfe1fac39af065c3876b2bf8038a567441b3404c663d57e"
     ],
-    "revision": 903
+    "revision": 904
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
