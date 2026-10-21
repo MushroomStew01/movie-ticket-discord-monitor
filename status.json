@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-20T15:43:13.843142+00:00",
-  "state_id": "a238ed7e34fea2f0d8d177b5a094cba93947f79a1754496431ca7aa9a4d1a5f5",
+  "updated_at": "2026-10-21T15:24:44.795624+00:00",
+  "state_id": "8cdda92f52507d7ec97cee24b4d056d9fca22a5c28e453f8ad46c1cf68b86343",
   "healthy": true,
   "target_count": 6,
   "failing_targets": [],
@@ -65,7 +65,7 @@
       "name": "Cineplex Cinemas Mississauga Square One",
       "url": "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one",
       "healthy": true,
-      "movie_count": 11,
+      "movie_count": 10,
       "priority": {
         "Dune: Part 3": {
           "ticket_available": true,
@@ -79,7 +79,7 @@
       "name": "Cineplex Cinemas Vaughan",
       "url": "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan",
       "healthy": true,
-      "movie_count": 11,
+      "movie_count": 10,
       "priority": {
         "Dune: Part 3": {
           "ticket_available": true,
