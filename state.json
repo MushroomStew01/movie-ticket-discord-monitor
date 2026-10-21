@@ -164,7 +164,7 @@
     "name": "Cineplex Cinemas Cambridge",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "a6eef0bb5c974847347dc3cd206c9b9b20e7fe6867ed31c310749147cc83686c",
+    "hash": "8ff51672fcabe0b6b3ace914b36044a9c99ea50c02948673a3d052447c1a5845",
     "snapshot": {
       "page_title": "Cineplex Cinemas Cambridge",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge",
@@ -185,6 +185,15 @@
           "showtimes": [],
           "dates": [],
           "context": "Avengers: Doomsday Advance tickets available",
+          "url": null
+        },
+        "title:carmen-encore-bizet-french-w-e-s-t-metropolitan-opera": {
+          "title": "Carmen Encore (Bizet) - French w/e.s.t. – Metropolitan Opera",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Carmen Encore (Bizet) - French w/e.s.t. – Metropolitan Opera Advance tickets available",
           "url": null
         },
         "title:clayface": {
@@ -221,15 +230,6 @@
           "showtimes": [],
           "dates": [],
           "context": "Other Mommy",
-          "url": null
-        },
-        "title:resident-evil": {
-          "title": "Resident Evil",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Resident Evil",
           "url": null
         },
         "title:street-fighter": {
@@ -332,9 +332,10 @@
       "6ffc3c23732e08dd5ee11fa1166bf6f54537911aa115b639dcdfb9846ca4fa68",
       "8d6e157ccc80cff82054b2fc2cea9145800b6328ad3159800df36ce8f4b3b977",
       "b17b88873630ce53de7f4f5405cb30eb6f284e621f0098e379ef878716a11bd2",
-      "7e6c0f5b60492384ad0d41e70a26eb12a45ffc0385ddfefdd7efaa00ef279860"
+      "7e6c0f5b60492384ad0d41e70a26eb12a45ffc0385ddfefdd7efaa00ef279860",
+      "11a4320384bc7ace090915ad7744b62b50690841896658767b98fb0482531328"
     ],
-    "revision": 72
+    "revision": 73
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan": {
     "name": "Cineplex Cinemas Vaughan",
@@ -643,7 +644,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "4c6e559483baa7247bd5e3ce3ffff4fdedfad707048b0ac8e3f8e0d667d11daa",
+    "hash": "83e6e9a233e0726806f494c4e9a7b03fa27c9112a48887104d1eec77ab0e8c22",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -672,8 +673,7 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Cinemas Abbotsford and VIP",
-        "Cineplex Cinemas Seton and VIP",
+        "Cineplex Odeon McGillivray Cinemas and VIP",
         "Advance tickets",
         "OCT 23",
         "DEC 18",
@@ -1114,7 +1114,7 @@
       "d6e0328b672f7866613c3f57c1686f13fe6c890d9c39595b936b27867b759182",
       "dfc39ca6784af16487b2b877f10c4b6735083b4faab1b790b6a966020fab5125"
     ],
-    "revision": 909
+    "revision": 910
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
@@ -1145,9 +1145,9 @@
       "9db4a116b09a1c30b4559f0c9091e5f93b0773e5c05d7bc52d0714341c3d74c0"
     ],
     "revision": 9,
-    "consecutive_failures": 1,
+    "consecutive_failures": 2,
     "last_error": "RuntimeError: Cineplex returned HTTP 404.",
-    "last_error_at_utc": "2026-10-21T19:24:37.912430+00:00"
+    "last_error_at_utc": "2026-10-21T22:30:30.603399+00:00"
   },
   "_meta": {
     "last_heartbeat_at_utc": "2026-10-20T15:43:13.771208+00:00"
