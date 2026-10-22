@@ -644,7 +644,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "338d1a9f99645b70876119dd8805b2e2f82d752bb0f09c96ba0d959eaeb85a0b",
+    "hash": "48b5732fcf6aea41841fab1bba561dbef055c7ded8eab050c77e72da95d2b1bf",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -672,7 +672,7 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Cinemas Abbotsford and VIP",
+        "Cineplex Odeon Westmount Cinemas and VIP",
         "Advance tickets",
         "OCT 23",
         "DEC 18",
@@ -1112,7 +1112,7 @@
       "0eae71d21c94dbd4d31375a56fcbfc2519c4a95014747133fa4a307e257d77ef",
       "07af2c1375b095d5a69fb82970e259c72def85d883fc178969cd4db8e2799de2"
     ],
-    "revision": 915
+    "revision": 916
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
@@ -1143,9 +1143,9 @@
       "9db4a116b09a1c30b4559f0c9091e5f93b0773e5c05d7bc52d0714341c3d74c0"
     ],
     "revision": 9,
-    "consecutive_failures": 7,
+    "consecutive_failures": 8,
     "last_error": "RuntimeError: Cineplex returned HTTP 404.",
-    "last_error_at_utc": "2026-10-22T19:35:16.460432+00:00"
+    "last_error_at_utc": "2026-10-22T22:31:26.848236+00:00"
   },
   "_meta": {
     "last_heartbeat_at_utc": "2026-10-20T15:43:13.771208+00:00"
