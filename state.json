@@ -644,7 +644,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "f03dc82c68c5c06220527ada7d5a4099103b2c91a14b743afd25e60534d57d5e",
+    "hash": "1d74d5b6cd523ab0cccd551b4cb78f6c49cd156617828494a4191f3b5c3e00ac",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -672,8 +672,7 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Cinemas Abbotsford and VIP",
-        "Cineplex Cinemas Seton and VIP",
+        "Cineplex Odeon McGillivray Cinemas and VIP",
         "Advance tickets",
         "OCT 23",
         "DEC 18",
@@ -1111,7 +1110,7 @@
       "d6e0328b672f7866613c3f57c1686f13fe6c890d9c39595b936b27867b759182",
       "dfc39ca6784af16487b2b877f10c4b6735083b4faab1b790b6a966020fab5125"
     ],
-    "revision": 912
+    "revision": 913
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
@@ -1142,9 +1141,9 @@
       "9db4a116b09a1c30b4559f0c9091e5f93b0773e5c05d7bc52d0714341c3d74c0"
     ],
     "revision": 9,
-    "consecutive_failures": 4,
+    "consecutive_failures": 5,
     "last_error": "RuntimeError: Cineplex returned HTTP 404.",
-    "last_error_at_utc": "2026-10-22T05:31:35.134449+00:00"
+    "last_error_at_utc": "2026-10-22T10:33:36.523121+00:00"
   },
   "_meta": {
     "last_heartbeat_at_utc": "2026-10-20T15:43:13.771208+00:00"
