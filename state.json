@@ -644,7 +644,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "4c6e559483baa7247bd5e3ce3ffff4fdedfad707048b0ac8e3f8e0d667d11daa",
+    "hash": "f03dc82c68c5c06220527ada7d5a4099103b2c91a14b743afd25e60534d57d5e",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -655,7 +655,6 @@
         "Dec 18",
         "Nov 23",
         "Nov 7",
-        "Oct 22",
         "Oct 23",
         "Oct 24",
         "Oct 25",
@@ -682,7 +681,6 @@
         "OCT 28",
         "OCT 30",
         "NOV 23",
-        "OCT 22",
         "NOV 7",
         "OCT 24",
         "OCT 25",
@@ -811,13 +809,11 @@
         },
         "title:fallen-angels-by-no-l-coward": {
           "title": "Fallen Angels by Noël Coward",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Oct 22"
-          ],
-          "context": "Advance tickets OCT 22 Fallen Angels by Noël Coward",
+          "dates": [],
+          "context": "Fallen Angels by Noël Coward",
           "url": "https://www.cineplex.com/movie/fallen-angels-by-noel-coward"
         },
         "title:go-for-broke-2-mandarin-w-chinese-and-e-s-t": {
@@ -1115,7 +1111,7 @@
       "d6e0328b672f7866613c3f57c1686f13fe6c890d9c39595b936b27867b759182",
       "dfc39ca6784af16487b2b877f10c4b6735083b4faab1b790b6a966020fab5125"
     ],
-    "revision": 911
+    "revision": 912
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
@@ -1146,9 +1142,9 @@
       "9db4a116b09a1c30b4559f0c9091e5f93b0773e5c05d7bc52d0714341c3d74c0"
     ],
     "revision": 9,
-    "consecutive_failures": 3,
+    "consecutive_failures": 4,
     "last_error": "RuntimeError: Cineplex returned HTTP 404.",
-    "last_error_at_utc": "2026-10-22T00:52:23.341143+00:00"
+    "last_error_at_utc": "2026-10-22T05:31:35.134449+00:00"
   },
   "_meta": {
     "last_heartbeat_at_utc": "2026-10-20T15:43:13.771208+00:00"
