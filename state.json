@@ -644,7 +644,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "1d74d5b6cd523ab0cccd551b4cb78f6c49cd156617828494a4191f3b5c3e00ac",
+    "hash": "db4a5929605d946c2794dc90af37be7bea5540e94858544498b1926f3ac7cac8",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -672,7 +672,7 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Odeon McGillivray Cinemas and VIP",
+        "Cineplex Cinemas Abbotsford and VIP",
         "Advance tickets",
         "OCT 23",
         "DEC 18",
@@ -982,13 +982,13 @@
           "context": "Advance Tickets OCT 23 Udta Teer (Hindi w/e.s.t.)",
           "url": "https://www.cineplex.com/movie/udta-teer-hindi-west"
         },
-        "title:whalefall": {
-          "title": "Whalefall",
+        "title:view-movie-details-for-whalefall": {
+          "title": "View movie details for Whalefall",
           "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Whalefall Watch trailer",
+          "context": "",
           "url": "https://www.cineplex.com/movie/whalefall"
         },
         "title:wicker": {
@@ -1108,9 +1108,10 @@
       "b13b15c1bf158724c82256e57110481b94a762999f8bac438d7802caf6668e5b",
       "880a6a3689794145abfe1fac39af065c3876b2bf8038a567441b3404c663d57e",
       "d6e0328b672f7866613c3f57c1686f13fe6c890d9c39595b936b27867b759182",
-      "dfc39ca6784af16487b2b877f10c4b6735083b4faab1b790b6a966020fab5125"
+      "dfc39ca6784af16487b2b877f10c4b6735083b4faab1b790b6a966020fab5125",
+      "0eae71d21c94dbd4d31375a56fcbfc2519c4a95014747133fa4a307e257d77ef"
     ],
-    "revision": 913
+    "revision": 914
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
@@ -1141,9 +1142,9 @@
       "9db4a116b09a1c30b4559f0c9091e5f93b0773e5c05d7bc52d0714341c3d74c0"
     ],
     "revision": 9,
-    "consecutive_failures": 5,
+    "consecutive_failures": 6,
     "last_error": "RuntimeError: Cineplex returned HTTP 404.",
-    "last_error_at_utc": "2026-10-22T10:33:36.523121+00:00"
+    "last_error_at_utc": "2026-10-22T15:39:58.564785+00:00"
   },
   "_meta": {
     "last_heartbeat_at_utc": "2026-10-20T15:43:13.771208+00:00"
