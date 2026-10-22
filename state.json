@@ -644,7 +644,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "db4a5929605d946c2794dc90af37be7bea5540e94858544498b1926f3ac7cac8",
+    "hash": "338d1a9f99645b70876119dd8805b2e2f82d752bb0f09c96ba0d959eaeb85a0b",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -982,13 +982,13 @@
           "context": "Advance Tickets OCT 23 Udta Teer (Hindi w/e.s.t.)",
           "url": "https://www.cineplex.com/movie/udta-teer-hindi-west"
         },
-        "title:view-movie-details-for-whalefall": {
-          "title": "View movie details for Whalefall",
+        "title:whalefall": {
+          "title": "Whalefall",
           "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "",
+          "context": "Whalefall Watch trailer",
           "url": "https://www.cineplex.com/movie/whalefall"
         },
         "title:wicker": {
@@ -1109,9 +1109,10 @@
       "880a6a3689794145abfe1fac39af065c3876b2bf8038a567441b3404c663d57e",
       "d6e0328b672f7866613c3f57c1686f13fe6c890d9c39595b936b27867b759182",
       "dfc39ca6784af16487b2b877f10c4b6735083b4faab1b790b6a966020fab5125",
-      "0eae71d21c94dbd4d31375a56fcbfc2519c4a95014747133fa4a307e257d77ef"
+      "0eae71d21c94dbd4d31375a56fcbfc2519c4a95014747133fa4a307e257d77ef",
+      "07af2c1375b095d5a69fb82970e259c72def85d883fc178969cd4db8e2799de2"
     ],
-    "revision": 914
+    "revision": 915
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
@@ -1142,9 +1143,9 @@
       "9db4a116b09a1c30b4559f0c9091e5f93b0773e5c05d7bc52d0714341c3d74c0"
     ],
     "revision": 9,
-    "consecutive_failures": 6,
+    "consecutive_failures": 7,
     "last_error": "RuntimeError: Cineplex returned HTTP 404.",
-    "last_error_at_utc": "2026-10-22T15:39:58.564785+00:00"
+    "last_error_at_utc": "2026-10-22T19:35:16.460432+00:00"
   },
   "_meta": {
     "last_heartbeat_at_utc": "2026-10-20T15:43:13.771208+00:00"
