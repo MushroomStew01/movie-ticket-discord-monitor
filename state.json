@@ -3,7 +3,7 @@
     "name": "Cineplex Cinemas Kitchener and VIP",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "1b2efc3191b318ec6bc0af3e9a62f738f9f3a2d878eb625a5e6bdbeb1bdf7f56",
+    "hash": "9b3b32b5971b9e0b1247a65590874d84546a6db1ca7cd01b55569f97e71b4c23",
     "snapshot": {
       "page_title": "Cineplex Cinemas Kitchener and VIP",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-kitchener-and-vip",
@@ -33,11 +33,11 @@
         },
         "title:clayface": {
           "title": "Clayface",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Clayface Advance tickets available",
+          "context": "Clayface",
           "url": null
         },
         "title:dune-part-three": {
@@ -96,20 +96,20 @@
         },
         "title:wicker": {
           "title": "Wicker",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Wicker Advance tickets available",
+          "context": "Wicker",
           "url": null
         },
         "title:wildwood": {
           "title": "Wildwood",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Wildwood Advance tickets available",
+          "context": "Wildwood",
           "url": null
         },
         "title:you-can-see-everything": {
@@ -158,13 +158,13 @@
       "93a8040acaab68d60d666a9de329dd9070ec85b476e95f644082699e7243c660",
       "1a04fca50a8c624a239ffc870287503c417e88303a08aaa29b03e6c95cee97ac"
     ],
-    "revision": 54
+    "revision": 55
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge": {
     "name": "Cineplex Cinemas Cambridge",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "8ff51672fcabe0b6b3ace914b36044a9c99ea50c02948673a3d052447c1a5845",
+    "hash": "da4ac42718f9718794c62510ccad35e0248ad21d904030861cc4912bef46628a",
     "snapshot": {
       "page_title": "Cineplex Cinemas Cambridge",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge",
@@ -198,11 +198,11 @@
         },
         "title:clayface": {
           "title": "Clayface",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Clayface Advance tickets available",
+          "context": "Clayface",
           "url": null
         },
         "title:dune-part-three": {
@@ -270,11 +270,11 @@
         },
         "title:wildwood": {
           "title": "Wildwood",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Wildwood Advance tickets available",
+          "context": "Wildwood",
           "url": null
         }
       }
@@ -335,13 +335,13 @@
       "7e6c0f5b60492384ad0d41e70a26eb12a45ffc0385ddfefdd7efaa00ef279860",
       "11a4320384bc7ace090915ad7744b62b50690841896658767b98fb0482531328"
     ],
-    "revision": 73
+    "revision": 74
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan": {
     "name": "Cineplex Cinemas Vaughan",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "6420082926549c20c460308475c2b7e916a71317a2e8a7d8cfaf831f6a68db4f",
+    "hash": "ef184105f29729838535d232d3725c9a3bad30ee725eec5433000fb510e95e5f",
     "snapshot": {
       "page_title": "Cineplex Cinemas Vaughan",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan",
@@ -360,11 +360,11 @@
       "movies": {
         "title:a-talent-for-murder": {
           "title": "A Talent for Murder",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "A Talent for Murder Advance tickets available",
+          "context": "A Talent for Murder",
           "url": null
         },
         "title:avengers-doomsday": {
@@ -378,11 +378,11 @@
         },
         "title:clayface": {
           "title": "Clayface",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Clayface Advance tickets available",
+          "context": "Clayface",
           "url": null
         },
         "title:dune-part-three": {
@@ -396,13 +396,13 @@
         },
         "title:other-mommy": {
           "title": "Other Mommy",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [
             "Sun"
           ],
-          "context": "Other Mommy Klara and the Sun Advance tickets available",
+          "context": "Other Mommy Klara and the Sun",
           "url": null
         },
         "title:street-fighter": {
@@ -425,20 +425,20 @@
         },
         "title:wicker": {
           "title": "Wicker",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Wicker Advance tickets available",
+          "context": "Wicker",
           "url": null
         },
         "title:wildwood": {
           "title": "Wildwood",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Wildwood Advance tickets available",
+          "context": "Wildwood",
           "url": null
         },
         "title:you-can-see-everything": {
@@ -485,13 +485,13 @@
       "61179732d6b20ad68a3fa18ed79327238286460a6cf6f56324a04c6bb6c98c3f",
       "73606cecfe7379ab20f51e08a8e9a8cb402b9fcd3696662eb43af6a3b40648bc"
     ],
-    "revision": 47
+    "revision": 48
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one": {
     "name": "Cineplex Cinemas Mississauga Square One",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "5f31af77e3b83145d0c864ea1cce4fc5711038d3128890d9b21a6afe7972dcc8",
+    "hash": "685a87900958d9be963ffd1646947ea379504f69a3cfba43c94c63e6cfecafb7",
     "snapshot": {
       "page_title": "Cineplex Cinemas Mississauga Square One",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one",
@@ -519,11 +519,11 @@
         },
         "title:clayface": {
           "title": "Clayface",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Clayface Advance tickets available",
+          "context": "Clayface",
           "url": null
         },
         "title:dune-part-three": {
@@ -537,13 +537,13 @@
         },
         "title:other-mommy": {
           "title": "Other Mommy",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [
             "Sun"
           ],
-          "context": "Other Mommy Klara and the Sun Advance tickets available",
+          "context": "Other Mommy Klara and the Sun",
           "url": null
         },
         "title:sense-and-sensibility": {
@@ -575,20 +575,20 @@
         },
         "title:wicker": {
           "title": "Wicker",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Wicker Advance tickets available",
+          "context": "Wicker",
           "url": null
         },
         "title:wildwood": {
           "title": "Wildwood",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Wildwood Advance tickets available",
+          "context": "Wildwood",
           "url": null
         },
         "title:you-can-see-everything": {
@@ -638,13 +638,13 @@
       "2e265136b9d17d888caf0c3ff6ee481dca5eb1469e97233343c6ce397a712612",
       "c4e1e260db899919fb1a9fb3cbe98525ce1bbdf8c7d7b7a32c5a705627b7ccf0"
     ],
-    "revision": 50
+    "revision": 51
   },
   "https://www.cineplex.com/en?theatresNearYou=true": {
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "c07bb58b073269b7036140a7343a7cc7339f3af7fe389931f06a837ba7647d2d",
+    "hash": "f52ee80ad71012468487ec69d55ea160a7fd36cbb35889c725276b478b4e40df",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -655,7 +655,6 @@
         "Dec 18",
         "Nov 23",
         "Nov 7",
-        "Oct 23",
         "Oct 24",
         "Oct 25",
         "Oct 26",
@@ -672,9 +671,9 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Odeon McGillivray Cinemas and VIP",
+        "Cineplex Cinemas Oakville and VIP",
+        "Cineplex Cinemas Winston Churchill & VIP",
         "Advance tickets",
-        "OCT 23",
         "DEC 18",
         "Klara and the Sun",
         "OCT 28",
@@ -689,25 +688,12 @@
       "movies": {
         "title:a-talent-for-murder": {
           "title": "A Talent for Murder",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Oct 23"
-          ],
-          "context": "Advance tickets OCT 23 A Talent for Murder Watch trailer",
+          "dates": [],
+          "context": "A Talent for Murder Watch trailer",
           "url": "https://www.cineplex.com/movie/a-talent-for-murder"
-        },
-        "title:always-yours-never-mine-tagalog-w-e-s-t": {
-          "title": "Always Yours, Never Mine (Tagalog w/e.s.t.)",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [
-            "Oct 23"
-          ],
-          "context": "Advance Tickets OCT 23 Always Yours, Never Mine (Tagalog w/e.s.t.)",
-          "url": "https://www.cineplex.com/movie/always-yours-never-mine-tagalog-west"
         },
         "title:avengers-doomsday": {
           "title": "Avengers: Doomsday",
@@ -744,25 +730,12 @@
         },
         "title:clayface": {
           "title": "Clayface",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [
-            "Oct 23"
-          ],
-          "context": "Advance tickets OCT 23 Clayface Watch trailer",
-          "url": "https://www.cineplex.com/movie/clayface"
-        },
-        "title:daudaak-punjabi-w-e-s-t": {
-          "title": "Daudaak (Punjabi w/e.s.t.)",
           "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Oct 23"
-          ],
-          "context": "Coming Soon OCT 23 Daudaak (Punjabi w/e.s.t.)",
-          "url": "https://www.cineplex.com/movie/daudaak-punjabi-west"
+          "dates": [],
+          "context": "Clayface Watch trailer",
+          "url": "https://www.cineplex.com/movie/clayface"
         },
         "title:doctor-who-the-satan-pit": {
           "title": "Doctor Who: The Satan Pit",
@@ -815,17 +788,6 @@
           "context": "Fallen Angels by Noël Coward",
           "url": "https://www.cineplex.com/movie/fallen-angels-by-noel-coward"
         },
-        "title:go-for-broke-2-mandarin-w-chinese-and-e-s-t": {
-          "title": "Go for Broke 2 (Mandarin w/Chinese and e.s.t.)",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [
-            "Oct 23"
-          ],
-          "context": "Advance Tickets OCT 23 Go for Broke 2 (Mandarin w/Chinese and e.s.t.)",
-          "url": "https://www.cineplex.com/movie/go-for-broke-2-mandarin-wchinese-and-est"
-        },
         "title:hindi-drishyam-the-conclusion-hindi-w-e-s-t": {
           "title": "Hindi Drishyam - The Conclusion (Hindi w/e.s.t.)",
           "ticket_available": false,
@@ -834,6 +796,33 @@
           "dates": [],
           "context": "Hindi Drishyam - The Conclusion (Hindi w/e.s.t.)",
           "url": "https://www.cineplex.com/movie/drishyam-the-conclusion-hindi-west"
+        },
+        "title:hindi-pehla-pyaar-doosri-baar-hindi-w-e-s-t": {
+          "title": "Hindi Pehla Pyaar Doosri Baar (Hindi w/e.s.t)",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Hindi Pehla Pyaar Doosri Baar (Hindi w/e.s.t)",
+          "url": "https://www.cineplex.com/movie/pehla-pyaar-doosri-baar-hindi-west"
+        },
+        "title:hindi-ranabaali-hindi-w-e-s-t": {
+          "title": "Hindi Ranabaali (Hindi w/e.s.t.)",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Hindi Ranabaali (Hindi w/e.s.t.)",
+          "url": "https://www.cineplex.com/movie/ranabaali-hindi-west"
+        },
+        "title:hindi-udta-teer-hindi-w-e-s-t": {
+          "title": "Hindi Udta Teer (Hindi w/e.s.t.)",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Hindi Udta Teer (Hindi w/e.s.t.)",
+          "url": "https://www.cineplex.com/movie/udta-teer-hindi-west"
         },
         "title:hybe-cheering-party-korean-w-e-s-t": {
           "title": "HYBE CHEERING PARTY (Korean w.e.s.t)",
@@ -848,25 +837,31 @@
         },
         "title:klara-and-the-sun": {
           "title": "Klara and the Sun",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [
-            "Oct 23",
-            "Sun"
-          ],
-          "context": "Advance tickets OCT 23 Klara and the Sun Watch trailer",
-          "url": "https://www.cineplex.com/movie/klara-and-the-sun"
-        },
-        "title:kung-fu-soccer-mandarin-w-chinese-and-e-s-t": {
-          "title": "Kung Fu Soccer (Mandarin w/Chinese and e.s.t)",
           "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [
-            "Oct 23"
+            "Sun"
           ],
-          "context": "Coming Soon OCT 23 Kung Fu Soccer (Mandarin w/Chinese and e.s.t)",
+          "context": "Klara and the Sun Watch trailer",
+          "url": "https://www.cineplex.com/movie/klara-and-the-sun"
+        },
+        "title:mandarin-go-for-broke-2-mandarin-w-chinese-and-e-s-t": {
+          "title": "Mandarin Go for Broke 2 (Mandarin w/Chinese and e.s.t.)",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Mandarin Go for Broke 2 (Mandarin w/Chinese and e.s.t.)",
+          "url": "https://www.cineplex.com/movie/go-for-broke-2-mandarin-wchinese-and-est"
+        },
+        "title:mandarin-kung-fu-soccer-mandarin-w-chinese-and-e-s-t": {
+          "title": "Mandarin Kung Fu Soccer (Mandarin w/Chinese and e.s.t)",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Mandarin Kung Fu Soccer (Mandarin w/Chinese and e.s.t)",
           "url": "https://www.cineplex.com/movie/kung-fu-soccer-mandarin-wchinese-and-est"
         },
         "title:mandarin-mr-and-mrs-pardon-mandarin-w-e-s-t": {
@@ -907,27 +902,14 @@
           "context": "Advance tickets OCT 28 Ozzy & Black Sabbath: Back To The Beginning Watch trailer",
           "url": "https://www.cineplex.com/movie/ozzy-black-sabbath-back-to-the-beginning"
         },
-        "title:pehla-pyaar-doosri-baar-hindi-w-e-s-t": {
-          "title": "Pehla Pyaar Doosri Baar (Hindi w/e.s.t)",
-          "ticket_available": true,
+        "title:punjabi-daudaak-punjabi-w-e-s-t": {
+          "title": "Punjabi Daudaak (Punjabi w/e.s.t.)",
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Oct 23"
-          ],
-          "context": "Advance Tickets OCT 23 Pehla Pyaar Doosri Baar (Hindi w/e.s.t)",
-          "url": "https://www.cineplex.com/movie/pehla-pyaar-doosri-baar-hindi-west"
-        },
-        "title:ranabaali-hindi-w-e-s-t": {
-          "title": "Ranabaali (Hindi w/e.s.t.)",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [
-            "Oct 23"
-          ],
-          "context": "Advance Tickets OCT 23 Ranabaali (Hindi w/e.s.t.)",
-          "url": "https://www.cineplex.com/movie/ranabaali-hindi-west"
+          "dates": [],
+          "context": "Punjabi Daudaak (Punjabi w/e.s.t.)",
+          "url": "https://www.cineplex.com/movie/daudaak-punjabi-west"
         },
         "title:seventeen-world-tour-new-korean-w-e-s-t": {
           "title": "SEVENTEEN WORLD TOUR 'NEW_' (Korean w.e.s.t)",
@@ -960,6 +942,15 @@
           "context": "Street Fighter Watch trailer",
           "url": "https://www.cineplex.com/movie/street-fighter-2026"
         },
+        "title:tagalog-always-yours-never-mine-tagalog-w-e-s-t": {
+          "title": "Tagalog Always Yours, Never Mine (Tagalog w/e.s.t.)",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Tagalog Always Yours, Never Mine (Tagalog w/e.s.t.)",
+          "url": "https://www.cineplex.com/movie/always-yours-never-mine-tagalog-west"
+        },
         "title:tomorrow-x-together-world-tour-act-tomorrow-korean-w-e-s-t": {
           "title": "TOMORROW X TOGETHER WORLD TOUR 'ACT : TOMORROW' (Korean w.e.s.t)",
           "ticket_available": true,
@@ -970,17 +961,6 @@
           ],
           "context": "Advance tickets OCT 24 TOMORROW X TOGETHER WORLD TOUR 'ACT : TOMORROW' (Korean w.e.s.t) Watch trailer",
           "url": "https://www.cineplex.com/movie/tomorrow-x-together-world-tour-act-tomorrow"
-        },
-        "title:udta-teer-hindi-w-e-s-t": {
-          "title": "Udta Teer (Hindi w/e.s.t.)",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [
-            "Oct 23"
-          ],
-          "context": "Advance Tickets OCT 23 Udta Teer (Hindi w/e.s.t.)",
-          "url": "https://www.cineplex.com/movie/udta-teer-hindi-west"
         },
         "title:view-movie-details-for-whalefall": {
           "title": "View movie details for Whalefall",
@@ -993,24 +973,20 @@
         },
         "title:wicker": {
           "title": "Wicker",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Oct 23"
-          ],
-          "context": "Advance tickets OCT 23 Wicker Watch trailer",
+          "dates": [],
+          "context": "Wicker Watch trailer",
           "url": "https://www.cineplex.com/movie/wicker"
         },
         "title:wildwood": {
           "title": "Wildwood",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Oct 23"
-          ],
-          "context": "Advance tickets OCT 23 Wildwood Watch trailer",
+          "dates": [],
+          "context": "Wildwood Watch trailer",
           "url": "https://www.cineplex.com/movie/wildwood"
         },
         "title:you-can-see-everything": {
@@ -1111,9 +1087,10 @@
       "dfc39ca6784af16487b2b877f10c4b6735083b4faab1b790b6a966020fab5125",
       "0eae71d21c94dbd4d31375a56fcbfc2519c4a95014747133fa4a307e257d77ef",
       "07af2c1375b095d5a69fb82970e259c72def85d883fc178969cd4db8e2799de2",
-      "76a5ed4634b1d20263fbea92dc79bc4d6ada0785495f22c46100fd0a18e2d7f7"
+      "76a5ed4634b1d20263fbea92dc79bc4d6ada0785495f22c46100fd0a18e2d7f7",
+      "ccfddddc4ee738aded6c404822c2bdd99bd970a4476f2df1e1fa7ba41b0e54b5"
     ],
-    "revision": 917
+    "revision": 918
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
@@ -1144,9 +1121,9 @@
       "9db4a116b09a1c30b4559f0c9091e5f93b0773e5c05d7bc52d0714341c3d74c0"
     ],
     "revision": 9,
-    "consecutive_failures": 9,
+    "consecutive_failures": 10,
     "last_error": "RuntimeError: Cineplex returned HTTP 404.",
-    "last_error_at_utc": "2026-10-23T00:53:35.346803+00:00"
+    "last_error_at_utc": "2026-10-23T05:29:49.556041+00:00"
   },
   "_meta": {
     "last_heartbeat_at_utc": "2026-10-20T15:43:13.771208+00:00"
