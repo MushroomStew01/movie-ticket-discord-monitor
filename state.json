@@ -644,7 +644,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "4bffaf053d7e6bf8edd7325310be89b92615dd5b8a5aaaf48c34ca0221c36aea",
+    "hash": "54a6a005aa7075bc87052354b8aaebc21936e9b1ca6df2d47c1a02de15582af4",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -671,8 +671,7 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Cinemas Oakville and VIP",
-        "Cineplex Cinemas Winston Churchill & VIP",
+        "Cineplex Odeon McGillivray Cinemas and VIP",
         "Advance tickets",
         "DEC 18",
         "Klara and the Sun",
@@ -962,13 +961,13 @@
           "context": "Advance tickets OCT 24 TOMORROW X TOGETHER WORLD TOUR 'ACT : TOMORROW' (Korean w.e.s.t) Watch trailer",
           "url": "https://www.cineplex.com/movie/tomorrow-x-together-world-tour-act-tomorrow"
         },
-        "title:whalefall": {
-          "title": "Whalefall",
+        "title:view-movie-details-for-whalefall": {
+          "title": "View movie details for Whalefall",
           "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Whalefall Watch trailer",
+          "context": "",
           "url": "https://www.cineplex.com/movie/whalefall"
         },
         "title:wicker": {
@@ -1089,9 +1088,10 @@
       "07af2c1375b095d5a69fb82970e259c72def85d883fc178969cd4db8e2799de2",
       "76a5ed4634b1d20263fbea92dc79bc4d6ada0785495f22c46100fd0a18e2d7f7",
       "ccfddddc4ee738aded6c404822c2bdd99bd970a4476f2df1e1fa7ba41b0e54b5",
-      "71a2dfa17ba2f9f484225c7d0096bcb02a077ce8a04cb727f16f208cc654a26e"
+      "71a2dfa17ba2f9f484225c7d0096bcb02a077ce8a04cb727f16f208cc654a26e",
+      "a38c4c94e5109361df14051535687e30bdc1b6d191dcee3ec489c1374ec1ef39"
     ],
-    "revision": 919
+    "revision": 920
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
@@ -1122,9 +1122,9 @@
       "9db4a116b09a1c30b4559f0c9091e5f93b0773e5c05d7bc52d0714341c3d74c0"
     ],
     "revision": 9,
-    "consecutive_failures": 11,
+    "consecutive_failures": 12,
     "last_error": "RuntimeError: Cineplex returned HTTP 404.",
-    "last_error_at_utc": "2026-10-23T10:28:16.423488+00:00"
+    "last_error_at_utc": "2026-10-23T15:19:24.628425+00:00"
   },
   "_meta": {
     "last_heartbeat_at_utc": "2026-10-20T15:43:13.771208+00:00"
