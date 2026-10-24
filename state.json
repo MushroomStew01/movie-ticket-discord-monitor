@@ -644,7 +644,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "4bffaf053d7e6bf8edd7325310be89b92615dd5b8a5aaaf48c34ca0221c36aea",
+    "hash": "b732a1b7ea98c74c7fe9d7eb35d2c2fa5c6a172a7a420e4bd3c540a307065bdd",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -655,7 +655,6 @@
         "Dec 18",
         "Nov 23",
         "Nov 7",
-        "Oct 24",
         "Oct 25",
         "Oct 26",
         "Oct 28",
@@ -680,7 +679,6 @@
         "OCT 30",
         "NOV 23",
         "NOV 7",
-        "OCT 24",
         "OCT 25",
         "OCT 26",
         "What are UltraAVX, IMAX, VIP, 4DX, ScreenX and D-BOX?"
@@ -708,13 +706,11 @@
         },
         "title:bts-world-tour-arirang-in-buenos-aires-live-viewing": {
           "title": "BTS WORLD TOUR 'ARIRANG' IN BUENOS AIRES: LIVE VIEWING",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Oct 24"
-          ],
-          "context": "Advance tickets OCT 24 BTS WORLD TOUR 'ARIRANG' IN BUENOS AIRES: LIVE VIEWING Watch trailer",
+          "dates": [],
+          "context": "BTS WORLD TOUR 'ARIRANG' IN BUENOS AIRES: LIVE VIEWING Watch trailer",
           "url": "https://www.cineplex.com/movie/bts-world-tour-arirang-in-buenos-aires"
         },
         "title:bts-world-tour-arirang-in-s-o-paulo-live-viewing": {
@@ -826,13 +822,11 @@
         },
         "title:hybe-cheering-party-korean-w-e-s-t": {
           "title": "HYBE CHEERING PARTY (Korean w.e.s.t)",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Oct 24"
-          ],
-          "context": "Advance tickets OCT 24 HYBE CHEERING PARTY (Korean w.e.s.t) Watch trailer",
+          "dates": [],
+          "context": "HYBE CHEERING PARTY (Korean w.e.s.t) Watch trailer",
           "url": "https://www.cineplex.com/movie/hybe-cheering-party-korean-west"
         },
         "title:klara-and-the-sun": {
@@ -953,22 +947,20 @@
         },
         "title:tomorrow-x-together-world-tour-act-tomorrow-korean-w-e-s-t": {
           "title": "TOMORROW X TOGETHER WORLD TOUR 'ACT : TOMORROW' (Korean w.e.s.t)",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [
-            "Oct 24"
-          ],
-          "context": "Advance tickets OCT 24 TOMORROW X TOGETHER WORLD TOUR 'ACT : TOMORROW' (Korean w.e.s.t) Watch trailer",
-          "url": "https://www.cineplex.com/movie/tomorrow-x-together-world-tour-act-tomorrow"
-        },
-        "title:whalefall": {
-          "title": "Whalefall",
           "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Whalefall Watch trailer",
+          "context": "TOMORROW X TOGETHER WORLD TOUR 'ACT : TOMORROW' (Korean w.e.s.t) Watch trailer",
+          "url": "https://www.cineplex.com/movie/tomorrow-x-together-world-tour-act-tomorrow"
+        },
+        "title:view-movie-details-for-whalefall": {
+          "title": "View movie details for Whalefall",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "",
           "url": "https://www.cineplex.com/movie/whalefall"
         },
         "title:wicker": {
@@ -1091,9 +1083,10 @@
       "ccfddddc4ee738aded6c404822c2bdd99bd970a4476f2df1e1fa7ba41b0e54b5",
       "71a2dfa17ba2f9f484225c7d0096bcb02a077ce8a04cb727f16f208cc654a26e",
       "a38c4c94e5109361df14051535687e30bdc1b6d191dcee3ec489c1374ec1ef39",
-      "909819e80ba91a5ea63430c0298a6eebf33614e3e00069673b2b091c1289ed2a"
+      "909819e80ba91a5ea63430c0298a6eebf33614e3e00069673b2b091c1289ed2a",
+      "5c05ba6b542b1bed8879592051a474b9a7ee973cf854dd5ae529a947d92e43ab"
     ],
-    "revision": 922
+    "revision": 923
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
@@ -1124,9 +1117,9 @@
       "9db4a116b09a1c30b4559f0c9091e5f93b0773e5c05d7bc52d0714341c3d74c0"
     ],
     "revision": 9,
-    "consecutive_failures": 15,
+    "consecutive_failures": 16,
     "last_error": "RuntimeError: Cineplex returned HTTP 404.",
-    "last_error_at_utc": "2026-10-24T00:51:16.317884+00:00"
+    "last_error_at_utc": "2026-10-24T05:09:27.919695+00:00"
   },
   "_meta": {
     "last_heartbeat_at_utc": "2026-10-20T15:43:13.771208+00:00"
