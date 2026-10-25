@@ -644,7 +644,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "d27dc708be845b87d16572ec2ab690e4f9c708bc190722da8a5d58bd97f6f80a",
+    "hash": "abb2455771dd9d4ad9501bfb3f5102ca9b8849d265d4b41b58d7fff55fe6fdd2",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -655,7 +655,6 @@
         "Dec 18",
         "Nov 23",
         "Nov 7",
-        "Oct 25",
         "Oct 26",
         "Oct 28",
         "Oct 30",
@@ -671,6 +670,7 @@
       ],
       "relevant_lines": [
         "Cineplex Cinemas Abbotsford and VIP",
+        "Cineplex Cinemas Seton and VIP",
         "Advance tickets",
         "DEC 18",
         "Klara and the Sun",
@@ -678,7 +678,6 @@
         "OCT 30",
         "NOV 23",
         "NOV 7",
-        "OCT 25",
         "OCT 26",
         "What are UltraAVX, IMAX, VIP, 4DX, ScreenX and D-BOX?"
       ],
@@ -765,13 +764,11 @@
         },
         "title:enhypen-world-tour-blood-saga-korean-w-e-s-t": {
           "title": "ENHYPEN WORLD TOUR 'BLOOD SAGA' (Korean w.e.s.t)",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Oct 25"
-          ],
-          "context": "Advance tickets OCT 25 ENHYPEN WORLD TOUR 'BLOOD SAGA' (Korean w.e.s.t) Watch trailer",
+          "dates": [],
+          "context": "ENHYPEN WORLD TOUR 'BLOOD SAGA' (Korean w.e.s.t) Watch trailer",
           "url": "https://www.cineplex.com/movie/enhypen-world-tour-blood-saga-korean-west"
         },
         "title:fallen-angels-by-no-l-coward": {
@@ -953,13 +950,13 @@
           "context": "TOMORROW X TOGETHER WORLD TOUR 'ACT : TOMORROW' (Korean w.e.s.t) Watch trailer",
           "url": "https://www.cineplex.com/movie/tomorrow-x-together-world-tour-act-tomorrow"
         },
-        "title:view-movie-details-for-whalefall": {
-          "title": "View movie details for Whalefall",
+        "title:whalefall": {
+          "title": "Whalefall",
           "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "",
+          "context": "Whalefall Watch trailer",
           "url": "https://www.cineplex.com/movie/whalefall"
         },
         "title:wicker": {
@@ -1087,9 +1084,10 @@
       "c09b26a536f4c9d045c74a804ee6d9451573062bc73c2ad9c303efcd748fe221",
       "6b463eeaf5143c92e35c5ccb3a747c137153d4ee1500b08f47ef6dfa8d034b99",
       "4fae28867d4fa488fc7894f5a31b60d392481d670a5f39a608486c8baf1da740",
-      "f6094996290bc8884af46ffe4b20408f7deb3a6c5e4f236b732faf887635118c"
+      "f6094996290bc8884af46ffe4b20408f7deb3a6c5e4f236b732faf887635118c",
+      "a7135cce9142d640d2794a22cfcc77caae6773e6c837c92b5e451106d7d1ce32"
     ],
-    "revision": 929
+    "revision": 930
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
@@ -1120,9 +1118,9 @@
       "9db4a116b09a1c30b4559f0c9091e5f93b0773e5c05d7bc52d0714341c3d74c0"
     ],
     "revision": 9,
-    "consecutive_failures": 23,
+    "consecutive_failures": 24,
     "last_error": "RuntimeError: Cineplex returned HTTP 404.",
-    "last_error_at_utc": "2026-10-25T01:33:34.994298+00:00"
+    "last_error_at_utc": "2026-10-25T06:42:57.175911+00:00"
   },
   "_meta": {
     "last_heartbeat_at_utc": "2026-10-20T15:43:13.771208+00:00"
