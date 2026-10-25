@@ -644,7 +644,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "03e26fb484b0346d28e3f0fa7dec0baf83fac94251e2b231f56840950fbd7dd3",
+    "hash": "1933c0a1787a7e0069aff82395e240d220f0723cabaee7efc154e2855fd63df6",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -950,13 +950,13 @@
           "context": "TOMORROW X TOGETHER WORLD TOUR 'ACT : TOMORROW' (Korean w.e.s.t) Watch trailer",
           "url": "https://www.cineplex.com/movie/tomorrow-x-together-world-tour-act-tomorrow"
         },
-        "title:whalefall": {
-          "title": "Whalefall",
+        "title:view-movie-details-for-whalefall": {
+          "title": "View movie details for Whalefall",
           "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Whalefall Watch trailer",
+          "context": "",
           "url": "https://www.cineplex.com/movie/whalefall"
         },
         "title:wicker": {
@@ -1085,9 +1085,10 @@
       "6b463eeaf5143c92e35c5ccb3a747c137153d4ee1500b08f47ef6dfa8d034b99",
       "4fae28867d4fa488fc7894f5a31b60d392481d670a5f39a608486c8baf1da740",
       "f6094996290bc8884af46ffe4b20408f7deb3a6c5e4f236b732faf887635118c",
-      "a7135cce9142d640d2794a22cfcc77caae6773e6c837c92b5e451106d7d1ce32"
+      "a7135cce9142d640d2794a22cfcc77caae6773e6c837c92b5e451106d7d1ce32",
+      "805bf644510b2feb16d75e2bb2a410c9440109bb8b3326ee6d01f873e996f2bc"
     ],
-    "revision": 931
+    "revision": 932
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
@@ -1118,9 +1119,9 @@
       "9db4a116b09a1c30b4559f0c9091e5f93b0773e5c05d7bc52d0714341c3d74c0"
     ],
     "revision": 9,
-    "consecutive_failures": 25,
+    "consecutive_failures": 26,
     "last_error": "RuntimeError: Cineplex returned HTTP 404.",
-    "last_error_at_utc": "2026-10-25T12:01:14.686205+00:00"
+    "last_error_at_utc": "2026-10-25T16:00:35.176078+00:00"
   },
   "_meta": {
     "last_heartbeat_at_utc": "2026-10-20T15:43:13.771208+00:00"
