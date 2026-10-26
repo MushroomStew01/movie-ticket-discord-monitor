@@ -644,7 +644,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "4e0cf0135af27c0e0932ae53b867d6b9b9238d032d42cb6fa6f2a1e17a5b77c0",
+    "hash": "a81086ab6210167183655e42cfa4d40b6fafacaa529c8d535ca745c3fd2d9ac0",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -655,7 +655,6 @@
         "Dec 18",
         "Nov 23",
         "Nov 7",
-        "Oct 26",
         "Oct 28",
         "Oct 30",
         "Sun"
@@ -677,7 +676,6 @@
         "OCT 30",
         "NOV 23",
         "NOV 7",
-        "OCT 26",
         "What are UltraAVX, IMAX, VIP, 4DX, ScreenX and D-BOX?"
       ],
       "movies": {
@@ -902,13 +900,11 @@
         },
         "title:seventeen-world-tour-new-korean-w-e-s-t": {
           "title": "SEVENTEEN WORLD TOUR 'NEW_' (Korean w.e.s.t)",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Oct 26"
-          ],
-          "context": "Advance tickets OCT 26 SEVENTEEN WORLD TOUR 'NEW_' (Korean w.e.s.t) Watch trailer",
+          "dates": [],
+          "context": "SEVENTEEN WORLD TOUR 'NEW_' (Korean w.e.s.t) Watch trailer",
           "url": "https://www.cineplex.com/movie/seventeen-world-tour-new_-korean-west"
         },
         "title:stray-kids-world-tour-run-it-live-viewing": {
@@ -949,13 +945,13 @@
           "context": "TOMORROW X TOGETHER WORLD TOUR 'ACT : TOMORROW' (Korean w.e.s.t) Watch trailer",
           "url": "https://www.cineplex.com/movie/tomorrow-x-together-world-tour-act-tomorrow"
         },
-        "title:view-movie-details-for-whalefall": {
-          "title": "View movie details for Whalefall",
+        "title:whalefall": {
+          "title": "Whalefall",
           "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "",
+          "context": "Whalefall Watch trailer",
           "url": "https://www.cineplex.com/movie/whalefall"
         },
         "title:wicker": {
@@ -1087,9 +1083,10 @@
       "a7135cce9142d640d2794a22cfcc77caae6773e6c837c92b5e451106d7d1ce32",
       "805bf644510b2feb16d75e2bb2a410c9440109bb8b3326ee6d01f873e996f2bc",
       "310efe388a5db7ee4cc99684be612ee753fbe82e3cb8eea0ffb200689afb7093",
-      "9160c17768fd71e413b6215e1e3ad0371614fe770ff4f35dcccc2aa6cc787d01"
+      "9160c17768fd71e413b6215e1e3ad0371614fe770ff4f35dcccc2aa6cc787d01",
+      "8787dcea9bc81b59540a0ba85cf3ed8844dc69a27d685ad9afa6be6984c9aefa"
     ],
-    "revision": 936
+    "revision": 937
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
@@ -1120,9 +1117,9 @@
       "9db4a116b09a1c30b4559f0c9091e5f93b0773e5c05d7bc52d0714341c3d74c0"
     ],
     "revision": 9,
-    "consecutive_failures": 30,
+    "consecutive_failures": 31,
     "last_error": "RuntimeError: Cineplex returned HTTP 404.",
-    "last_error_at_utc": "2026-10-26T01:23:14.540322+00:00"
+    "last_error_at_utc": "2026-10-26T06:27:46.722463+00:00"
   },
   "_meta": {
     "last_heartbeat_at_utc": "2026-10-20T15:43:13.771208+00:00"
