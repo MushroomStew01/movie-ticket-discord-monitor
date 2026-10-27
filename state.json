@@ -644,7 +644,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "6639b10c3aa47c6aa4cb81cf2f3925ab459f289de7ac5a05d5700276a2133b57",
+    "hash": "b7d74d0bda239e12947d3f4d70a99b747055d9f1ba60f8a92835a5233723ad5f",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -668,8 +668,8 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Cinemas Oakville and VIP",
-        "Cineplex Cinemas Winston Churchill & VIP",
+        "Cineplex Odeon Westmount Cinemas and VIP",
+        "Cineplex Cinemas Kitchener and VIP",
         "Advance tickets",
         "DEC 18",
         "Klara and the Sun",
@@ -739,15 +739,6 @@
           ],
           "context": "Advance tickets NOV 23 Doctor Who: The Satan Pit",
           "url": "https://www.cineplex.com/movie/doctor-who-the-satan-pit"
-        },
-        "title:dune-part-3": {
-          "title": "Dune Part 3",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "",
-          "url": "https://www.cineplex.com/movie/dune-part-3"
         },
         "title:dune-part-three": {
           "title": "Dune: Part Three",
@@ -946,13 +937,13 @@
           "context": "TOMORROW X TOGETHER WORLD TOUR 'ACT : TOMORROW' (Korean w.e.s.t) Watch trailer",
           "url": "https://www.cineplex.com/movie/tomorrow-x-together-world-tour-act-tomorrow"
         },
-        "title:whalefall": {
-          "title": "Whalefall",
+        "title:view-movie-details-for-whalefall": {
+          "title": "View movie details for Whalefall",
           "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Whalefall Watch trailer",
+          "context": "",
           "url": "https://www.cineplex.com/movie/whalefall"
         },
         "title:wicker": {
@@ -1089,9 +1080,10 @@
       "61b4994c21b95eec77ce1181215fdb3ef769a99af48cf511d47efaf19b401cc1",
       "e518ce7c059e5919c41510eaeff979fdeb3760258fc3c68da4e43f6a4fcfb0f5",
       "0b668cec1b5bd3f801d502cf21c9e1d1a4d7ab6804a7a35883b9f77f5d7f6587",
-      "df0ea938e4ec035668ed8391dd1f32f84c9b6d46720b9eaa901933836b10953e"
+      "df0ea938e4ec035668ed8391dd1f32f84c9b6d46720b9eaa901933836b10953e",
+      "fc2e3fff9f2adc798c61162d185924a216e5fb0eff6faeba64d7562d0b97ec57"
     ],
-    "revision": 943
+    "revision": 944
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
@@ -1121,12 +1113,9 @@
       "20af9f85bb9be3349435b006c403045da340a617c4f319f21fbf78b4738d7044",
       "9db4a116b09a1c30b4559f0c9091e5f93b0773e5c05d7bc52d0714341c3d74c0"
     ],
-    "revision": 9,
-    "consecutive_failures": 38,
-    "last_error": "RuntimeError: Cineplex returned HTTP 404.",
-    "last_error_at_utc": "2026-10-27T18:54:52.629381+00:00"
+    "revision": 9
   },
   "_meta": {
-    "last_heartbeat_at_utc": "2026-10-20T15:43:13.771208+00:00"
+    "last_heartbeat_at_utc": "2026-10-27T22:42:11.535414+00:00"
   }
 }
