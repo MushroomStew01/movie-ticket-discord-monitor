@@ -644,7 +644,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "750637c18ffe378b693466cb425e82dd114521c3fe03c9f2f0c5e14c77f55890",
+    "hash": "81ef3681b81477dc17386e105766a6b3e57d96c3ee7c8bcf1bd556b14b16c39d",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -669,7 +669,6 @@
       ],
       "relevant_lines": [
         "Cineplex Cinemas Abbotsford and VIP",
-        "Cineplex Cinemas Seton and VIP",
         "Advance tickets",
         "DEC 18",
         "Klara and the Sun",
@@ -1089,7 +1088,7 @@
       "61b4994c21b95eec77ce1181215fdb3ef769a99af48cf511d47efaf19b401cc1",
       "e518ce7c059e5919c41510eaeff979fdeb3760258fc3c68da4e43f6a4fcfb0f5"
     ],
-    "revision": 940
+    "revision": 941
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
@@ -1120,9 +1119,9 @@
       "9db4a116b09a1c30b4559f0c9091e5f93b0773e5c05d7bc52d0714341c3d74c0"
     ],
     "revision": 9,
-    "consecutive_failures": 35,
+    "consecutive_failures": 36,
     "last_error": "RuntimeError: Cineplex returned HTTP 404.",
-    "last_error_at_utc": "2026-10-27T02:12:43.018896+00:00"
+    "last_error_at_utc": "2026-10-27T07:42:45.154851+00:00"
   },
   "_meta": {
     "last_heartbeat_at_utc": "2026-10-20T15:43:13.771208+00:00"
