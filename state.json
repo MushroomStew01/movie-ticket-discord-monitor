@@ -644,7 +644,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "b7d74d0bda239e12947d3f4d70a99b747055d9f1ba60f8a92835a5233723ad5f",
+    "hash": "1e1849e959952becaceec4de3583566dfb02d5e4463f62c1e173555e3a854896",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -668,8 +668,8 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Odeon Westmount Cinemas and VIP",
-        "Cineplex Cinemas Kitchener and VIP",
+        "Cineplex Cinemas Abbotsford and VIP",
+        "Cineplex Cinemas Seton and VIP",
         "Advance tickets",
         "DEC 18",
         "Klara and the Sun",
@@ -937,13 +937,13 @@
           "context": "TOMORROW X TOGETHER WORLD TOUR 'ACT : TOMORROW' (Korean w.e.s.t) Watch trailer",
           "url": "https://www.cineplex.com/movie/tomorrow-x-together-world-tour-act-tomorrow"
         },
-        "title:view-movie-details-for-whalefall": {
-          "title": "View movie details for Whalefall",
+        "title:whalefall": {
+          "title": "Whalefall",
           "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "",
+          "context": "Whalefall Watch trailer",
           "url": "https://www.cineplex.com/movie/whalefall"
         },
         "title:wicker": {
@@ -1081,9 +1081,10 @@
       "e518ce7c059e5919c41510eaeff979fdeb3760258fc3c68da4e43f6a4fcfb0f5",
       "0b668cec1b5bd3f801d502cf21c9e1d1a4d7ab6804a7a35883b9f77f5d7f6587",
       "df0ea938e4ec035668ed8391dd1f32f84c9b6d46720b9eaa901933836b10953e",
-      "fc2e3fff9f2adc798c61162d185924a216e5fb0eff6faeba64d7562d0b97ec57"
+      "fc2e3fff9f2adc798c61162d185924a216e5fb0eff6faeba64d7562d0b97ec57",
+      "e7b0ce0966c0bdf424454904347d3da136a9e7a92954244c94bf728dde79e05a"
     ],
-    "revision": 944
+    "revision": 945
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
