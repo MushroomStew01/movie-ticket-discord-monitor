@@ -164,7 +164,7 @@
     "name": "Cineplex Cinemas Cambridge",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "ff1b648f404c237681465b360b78ce7112936ae06c0a50ff6bf0fa0353af8ff2",
+    "hash": "8e405f923e8d19e6e47c1a8036a973b772995d637cb2606f3a677308fe70ca23",
     "snapshot": {
       "page_title": "Cineplex Cinemas Cambridge",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge",
@@ -232,13 +232,13 @@
           "context": "Street Fighter",
           "url": null
         },
-        "title:the-cat-in-the-hat": {
-          "title": "The Cat in the Hat",
+        "title:the-hunger-games-sunrise-on-the-reaping": {
+          "title": "The Hunger Games: Sunrise on the Reaping",
           "ticket_available": true,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "The Cat in the Hat Advance tickets available",
+          "context": "The Hunger Games: Sunrise on the Reaping Advance tickets available",
           "url": null
         },
         "title:verity": {
@@ -334,15 +334,16 @@
       "b17b88873630ce53de7f4f5405cb30eb6f284e621f0098e379ef878716a11bd2",
       "7e6c0f5b60492384ad0d41e70a26eb12a45ffc0385ddfefdd7efaa00ef279860",
       "11a4320384bc7ace090915ad7744b62b50690841896658767b98fb0482531328",
-      "4bf170fd6c2284ee7bf0608587e121b922f900e961493fb5b46f00e8ee7d967c"
+      "4bf170fd6c2284ee7bf0608587e121b922f900e961493fb5b46f00e8ee7d967c",
+      "8009fbbc8529331d0fac815088da4c69da480e391e9074026ce8c344adf1fef9"
     ],
-    "revision": 75
+    "revision": 76
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan": {
     "name": "Cineplex Cinemas Vaughan",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "ef184105f29729838535d232d3725c9a3bad30ee725eec5433000fb510e95e5f",
+    "hash": "1f46002810ffcdfc96ccb05add345edff45806c1344eb6bf13f363a75544f116",
     "snapshot": {
       "page_title": "Cineplex Cinemas Vaughan",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan",
@@ -359,15 +360,6 @@
         "Klara and the Sun"
       ],
       "movies": {
-        "title:a-talent-for-murder": {
-          "title": "A Talent for Murder",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "A Talent for Murder",
-          "url": null
-        },
         "title:avengers-doomsday": {
           "title": "Avengers: Doomsday",
           "ticket_available": true,
@@ -400,10 +392,17 @@
           "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Sun"
-          ],
-          "context": "Other Mommy Klara and the Sun",
+          "dates": [],
+          "context": "Other Mommy",
+          "url": null
+        },
+        "title:sense-and-sensibility": {
+          "title": "Sense and Sensibility",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Sense and Sensibility",
           "url": null
         },
         "title:street-fighter": {
@@ -411,8 +410,10 @@
           "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [],
-          "context": "Street Fighter",
+          "dates": [
+            "Sun"
+          ],
+          "context": "Street Fighter Klara and the Sun",
           "url": null
         },
         "title:whalefall": {
@@ -484,15 +485,17 @@
       "f3be8092f69a4096fe3f95691d15a49a8f376750ccb843cc37770f0e98bf64f3",
       "9808a42a124f374335896925d9fd27b16018e2f808b7c5e3fcc098c4cfe9ce17",
       "61179732d6b20ad68a3fa18ed79327238286460a6cf6f56324a04c6bb6c98c3f",
-      "73606cecfe7379ab20f51e08a8e9a8cb402b9fcd3696662eb43af6a3b40648bc"
+      "73606cecfe7379ab20f51e08a8e9a8cb402b9fcd3696662eb43af6a3b40648bc",
+      "bc56aa1041454abb53d15697d2789b0fa6580adc7fdfa6a20d3c12fe27ca7e41",
+      "f53b208bc8c2fd7890ec9254866df25a136193623d6e53d6778a16c1969f7d76"
     ],
-    "revision": 48
+    "revision": 49
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one": {
     "name": "Cineplex Cinemas Mississauga Square One",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "685a87900958d9be963ffd1646947ea379504f69a3cfba43c94c63e6cfecafb7",
+    "hash": "fd2023052c393fe599702efdceca882ac31f4d710452f6d4decec44df3f74a8e",
     "snapshot": {
       "page_title": "Cineplex Cinemas Mississauga Square One",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one",
@@ -541,10 +544,8 @@
           "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Sun"
-          ],
-          "context": "Other Mommy Klara and the Sun",
+          "dates": [],
+          "context": "Other Mommy",
           "url": null
         },
         "title:sense-and-sensibility": {
@@ -561,8 +562,10 @@
           "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [],
-          "context": "Street Fighter",
+          "dates": [
+            "Sun"
+          ],
+          "context": "Street Fighter Klara and the Sun",
           "url": null
         },
         "title:whalefall": {
@@ -637,15 +640,16 @@
       "5d50af2d8d4f118194701af724a42f59e3a20923f868966ed5ada5f969d7d2ac",
       "5ada2a6d9818311d5fe8b91ddb3859ecb019ef80df07c1aa4bd3fb8f63d70add",
       "2e265136b9d17d888caf0c3ff6ee481dca5eb1469e97233343c6ce397a712612",
-      "c4e1e260db899919fb1a9fb3cbe98525ce1bbdf8c7d7b7a32c5a705627b7ccf0"
+      "c4e1e260db899919fb1a9fb3cbe98525ce1bbdf8c7d7b7a32c5a705627b7ccf0",
+      "4820d21b8da13757b6c7854c56eb281ae072b4f9e8f10f5e13177a0f09b02afd"
     ],
-    "revision": 51
+    "revision": 52
   },
   "https://www.cineplex.com/en?theatresNearYou=true": {
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "775a90b53319ab5a8ffc56eb6b6d19730bb97cf37da23f47db03a2f9f1352543",
+    "hash": "0abd7d46845d4f16f2261bd3c1cae0520e6ad2d5f4861ec47896a5825cd45178",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -654,9 +658,14 @@
       "showtimes": [],
       "dates": [
         "Dec 18",
+        "Nov 14",
+        "Nov 19",
         "Nov 23",
+        "Nov 5",
         "Nov 7",
+        "Nov 8",
         "Oct 30",
+        "Oct 31",
         "Sun"
       ],
       "formats": [
@@ -668,26 +677,21 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Cinemas Abbotsford and VIP",
-        "Cineplex Cinemas Seton and VIP",
+        "Cineplex Odeon Westmount Cinemas and VIP",
         "Advance tickets",
         "DEC 18",
         "Klara and the Sun",
+        "NOV 5",
         "OCT 30",
-        "NOV 23",
+        "NOV 8",
         "NOV 7",
+        "NOV 23",
+        "OCT 31",
+        "NOV 14",
+        "NOV 19",
         "What are UltraAVX, IMAX, VIP, 4DX, ScreenX and D-BOX?"
       ],
       "movies": {
-        "title:a-talent-for-murder": {
-          "title": "A Talent for Murder",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "A Talent for Murder Watch trailer",
-          "url": "https://www.cineplex.com/movie/a-talent-for-murder"
-        },
         "title:avengers-doomsday": {
           "title": "Avengers: Doomsday",
           "ticket_available": true,
@@ -699,15 +703,6 @@
           "context": "Advance tickets DEC 18 Avengers: Doomsday Watch trailer",
           "url": "https://www.cineplex.com/movie/avengers-doomsday"
         },
-        "title:bts-world-tour-arirang-in-buenos-aires-live-viewing": {
-          "title": "BTS WORLD TOUR 'ARIRANG' IN BUENOS AIRES: LIVE VIEWING",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "BTS WORLD TOUR 'ARIRANG' IN BUENOS AIRES: LIVE VIEWING Watch trailer",
-          "url": "https://www.cineplex.com/movie/bts-world-tour-arirang-in-buenos-aires"
-        },
         "title:bts-world-tour-arirang-in-s-o-paulo-live-viewing": {
           "title": "BTS WORLD TOUR 'ARIRANG' IN SÃO PAULO: LIVE VIEWING",
           "ticket_available": true,
@@ -718,6 +713,17 @@
           ],
           "context": "Advance tickets OCT 30 BTS WORLD TOUR 'ARIRANG' IN SÃO PAULO: LIVE VIEWING Watch trailer",
           "url": "https://www.cineplex.com/movie/bts-world-tour-arirang-in-sao-paulo"
+        },
+        "title:carmen-encore-bizet-french-w-e-s-t-metropolitan-opera": {
+          "title": "Carmen Encore (Bizet) - French w/e.s.t. – Metropolitan Opera",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [
+            "Nov 14"
+          ],
+          "context": "Advance tickets NOV 14 Carmen Encore (Bizet) - French w/e.s.t. – Metropolitan Opera Watch trailer",
+          "url": "https://www.cineplex.com/movie/est-enc-carmen-encore-bizet-french-west"
         },
         "title:clayface": {
           "title": "Clayface",
@@ -750,23 +756,49 @@
           "context": "Advance tickets DEC 18 Dune: Part Three Watch trailer",
           "url": "https://www.cineplex.com/movie/dune-part-three"
         },
-        "title:enhypen-world-tour-blood-saga-korean-w-e-s-t": {
-          "title": "ENHYPEN WORLD TOUR 'BLOOD SAGA' (Korean w.e.s.t)",
-          "ticket_available": false,
+        "title:festive-fun-with-peppa-cinema-experience": {
+          "title": "Festive Fun with Peppa Cinema Experience",
+          "ticket_available": true,
           "formats": [],
           "showtimes": [],
-          "dates": [],
-          "context": "ENHYPEN WORLD TOUR 'BLOOD SAGA' (Korean w.e.s.t) Watch trailer",
-          "url": "https://www.cineplex.com/movie/enhypen-world-tour-blood-saga-korean-west"
+          "dates": [
+            "Nov 14"
+          ],
+          "context": "Advance tickets NOV 14 Festive Fun with Peppa Cinema Experience Watch trailer",
+          "url": "https://www.cineplex.com/movie/festive-fun-with-peppa-cinema-experience"
         },
-        "title:fallen-angels-by-no-l-coward": {
-          "title": "Fallen Angels by Noël Coward",
-          "ticket_available": false,
+        "title:giant-the-play": {
+          "title": "GIANT - The Play",
+          "ticket_available": true,
           "formats": [],
           "showtimes": [],
-          "dates": [],
-          "context": "Fallen Angels by Noël Coward",
-          "url": "https://www.cineplex.com/movie/fallen-angels-by-noel-coward"
+          "dates": [
+            "Nov 19"
+          ],
+          "context": "Advance tickets NOV 19 GIANT - The Play",
+          "url": "https://www.cineplex.com/movie/giant-the-play"
+        },
+        "title:golden-boy-national-theatre-live": {
+          "title": "Golden Boy - National Theatre Live",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [
+            "Nov 5"
+          ],
+          "context": "Advance tickets NOV 5 Golden Boy - National Theatre Live Watch trailer",
+          "url": "https://www.cineplex.com/movie/golden-boy-national-theatre-live"
+        },
+        "title:heated-rivalry-marathon": {
+          "title": "HEATED RIVALRY - MARATHON",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [
+            "Nov 8"
+          ],
+          "context": "Advance tickets NOV 8 HEATED RIVALRY - MARATHON",
+          "url": "https://www.cineplex.com/movie/heated-rivalry-marathon"
         },
         "title:hindi-drishyam-the-conclusion-hindi-w-e-s-t": {
           "title": "Hindi Drishyam - The Conclusion (Hindi w/e.s.t.)",
@@ -777,24 +809,6 @@
           "context": "Hindi Drishyam - The Conclusion (Hindi w/e.s.t.)",
           "url": "https://www.cineplex.com/movie/drishyam-the-conclusion-hindi-west"
         },
-        "title:hindi-pehla-pyaar-doosri-baar-hindi-w-e-s-t": {
-          "title": "Hindi Pehla Pyaar Doosri Baar (Hindi w/e.s.t)",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Hindi Pehla Pyaar Doosri Baar (Hindi w/e.s.t)",
-          "url": "https://www.cineplex.com/movie/pehla-pyaar-doosri-baar-hindi-west"
-        },
-        "title:hindi-ranabaali-hindi-w-e-s-t": {
-          "title": "Hindi Ranabaali (Hindi w/e.s.t.)",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Hindi Ranabaali (Hindi w/e.s.t.)",
-          "url": "https://www.cineplex.com/movie/ranabaali-hindi-west"
-        },
         "title:hindi-udta-teer-hindi-w-e-s-t": {
           "title": "Hindi Udta Teer (Hindi w/e.s.t.)",
           "ticket_available": false,
@@ -803,15 +817,6 @@
           "dates": [],
           "context": "Hindi Udta Teer (Hindi w/e.s.t.)",
           "url": "https://www.cineplex.com/movie/udta-teer-hindi-west"
-        },
-        "title:hybe-cheering-party-korean-w-e-s-t": {
-          "title": "HYBE CHEERING PARTY (Korean w.e.s.t)",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "HYBE CHEERING PARTY (Korean w.e.s.t) Watch trailer",
-          "url": "https://www.cineplex.com/movie/hybe-cheering-party-korean-west"
         },
         "title:klara-and-the-sun": {
           "title": "Klara and the Sun",
@@ -832,15 +837,6 @@
           "dates": [],
           "context": "Mandarin Go for Broke 2 (Mandarin w/Chinese and e.s.t.)",
           "url": "https://www.cineplex.com/movie/go-for-broke-2-mandarin-wchinese-and-est"
-        },
-        "title:mandarin-kung-fu-soccer-mandarin-w-chinese-and-e-s-t": {
-          "title": "Mandarin Kung Fu Soccer (Mandarin w/Chinese and e.s.t)",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Mandarin Kung Fu Soccer (Mandarin w/Chinese and e.s.t)",
-          "url": "https://www.cineplex.com/movie/kung-fu-soccer-mandarin-wchinese-and-est"
         },
         "title:mandarin-mr-and-mrs-pardon-mandarin-w-e-s-t": {
           "title": "Mandarin Mr. & Mrs. Pardon (Mandarin w/e.s.t.)",
@@ -878,23 +874,47 @@
           "context": "Ozzy & Black Sabbath: Back To The Beginning Watch trailer",
           "url": "https://www.cineplex.com/movie/ozzy-black-sabbath-back-to-the-beginning"
         },
-        "title:punjabi-daudaak-punjabi-w-e-s-t": {
-          "title": "Punjabi Daudaak (Punjabi w/e.s.t.)",
-          "ticket_available": false,
+        "title:patakka-guddiyan-punjabi-w-e-s-t": {
+          "title": "Patakka Guddiyan (Punjabi w/e.s.t.)",
+          "ticket_available": true,
           "formats": [],
           "showtimes": [],
-          "dates": [],
-          "context": "Punjabi Daudaak (Punjabi w/e.s.t.)",
-          "url": "https://www.cineplex.com/movie/daudaak-punjabi-west"
+          "dates": [
+            "Oct 30"
+          ],
+          "context": "Advance Tickets OCT 30 Patakka Guddiyan (Punjabi w/e.s.t.)",
+          "url": "https://www.cineplex.com/movie/patakka-guddiyan-punjabi-west"
         },
-        "title:seventeen-world-tour-new-korean-w-e-s-t": {
-          "title": "SEVENTEEN WORLD TOUR 'NEW_' (Korean w.e.s.t)",
+        "title:pee-mak-filipino-w-e-s-t": {
+          "title": "Pee Mak (Filipino w/e.s.t.)",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [
+            "Oct 30"
+          ],
+          "context": "Advance Tickets OCT 30 Pee Mak (Filipino w/e.s.t.)",
+          "url": "https://www.cineplex.com/movie/pee-mak-filipino-west"
+        },
+        "title:punjabi-eh-din-roz-ni-aune-punjabi-w-e-s-t": {
+          "title": "Punjabi Eh Din Roz Ni Aune (Punjabi w/e.s.t.)",
           "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "SEVENTEEN WORLD TOUR 'NEW_' (Korean w.e.s.t) Watch trailer",
-          "url": "https://www.cineplex.com/movie/seventeen-world-tour-new_-korean-west"
+          "context": "Punjabi Eh Din Roz Ni Aune (Punjabi w/e.s.t.)",
+          "url": "https://www.cineplex.com/movie/eh-din-roz-ni-aune-punjabi-west"
+        },
+        "title:ramayana-hindi-w-e-s-t": {
+          "title": "Ramayana (Hindi w/e.s.t.)",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [
+            "Nov 5"
+          ],
+          "context": "Advance Tickets NOV 5 Ramayana (Hindi w/e.s.t.) Watch trailer",
+          "url": "https://www.cineplex.com/movie/est-ramayana-hindi-west"
         },
         "title:stray-kids-world-tour-run-it-live-viewing": {
           "title": "Stray Kids World Tour RUN IT LIVE VIEWING",
@@ -916,6 +936,17 @@
           "context": "Street Fighter Watch trailer",
           "url": "https://www.cineplex.com/movie/street-fighter-2026"
         },
+        "title:super-simple-songs": {
+          "title": "Super Simple Songs",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [
+            "Oct 31"
+          ],
+          "context": "Advance tickets OCT 31 Super Simple Songs Watch trailer",
+          "url": "https://www.cineplex.com/movie/super-simple-songs"
+        },
         "title:tagalog-always-yours-never-mine-tagalog-w-e-s-t": {
           "title": "Tagalog Always Yours, Never Mine (Tagalog w/e.s.t.)",
           "ticket_available": false,
@@ -925,22 +956,22 @@
           "context": "Tagalog Always Yours, Never Mine (Tagalog w/e.s.t.)",
           "url": "https://www.cineplex.com/movie/always-yours-never-mine-tagalog-west"
         },
-        "title:tomorrow-x-together-world-tour-act-tomorrow-korean-w-e-s-t": {
-          "title": "TOMORROW X TOGETHER WORLD TOUR 'ACT : TOMORROW' (Korean w.e.s.t)",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "TOMORROW X TOGETHER WORLD TOUR 'ACT : TOMORROW' (Korean w.e.s.t) Watch trailer",
-          "url": "https://www.cineplex.com/movie/tomorrow-x-together-world-tour-act-tomorrow"
-        },
-        "title:view-movie-details-for-whalefall": {
-          "title": "View movie details for Whalefall",
+        "title:view-movie-details-for-sense-and-sensibility": {
+          "title": "View movie details for Sense and Sensibility",
           "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
           "context": "",
+          "url": "https://www.cineplex.com/movie/sense-and-sensibility-2026"
+        },
+        "title:whalefall": {
+          "title": "Whalefall",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Whalefall Watch trailer",
           "url": "https://www.cineplex.com/movie/whalefall"
         },
         "title:wicker": {
@@ -1080,9 +1111,10 @@
       "df0ea938e4ec035668ed8391dd1f32f84c9b6d46720b9eaa901933836b10953e",
       "fc2e3fff9f2adc798c61162d185924a216e5fb0eff6faeba64d7562d0b97ec57",
       "e7b0ce0966c0bdf424454904347d3da136a9e7a92954244c94bf728dde79e05a",
-      "0cbd64aa4e895eddba163927a8c00d8916ea650bb3090ee77194fe10e0e65b33"
+      "0cbd64aa4e895eddba163927a8c00d8916ea650bb3090ee77194fe10e0e65b33",
+      "07ba2d7527dc10a2827926bca575caa2b0f981c71441c8a0508d2131a4c93286"
     ],
-    "revision": 947
+    "revision": 948
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
