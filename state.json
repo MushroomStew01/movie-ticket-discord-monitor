@@ -649,7 +649,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "0abd7d46845d4f16f2261bd3c1cae0520e6ad2d5f4861ec47896a5825cd45178",
+    "hash": "66da879c565b690f27ce7f9cfbe6c44170fe593baae846aadf22fc8cedbea447",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -677,7 +677,7 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Odeon Westmount Cinemas and VIP",
+        "Cineplex Odeon McGillivray Cinemas and VIP",
         "Advance tickets",
         "DEC 18",
         "Klara and the Sun",
@@ -1114,7 +1114,7 @@
       "0cbd64aa4e895eddba163927a8c00d8916ea650bb3090ee77194fe10e0e65b33",
       "07ba2d7527dc10a2827926bca575caa2b0f981c71441c8a0508d2131a4c93286"
     ],
-    "revision": 948
+    "revision": 949
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
@@ -1147,6 +1147,6 @@
     "revision": 9
   },
   "_meta": {
-    "last_heartbeat_at_utc": "2026-10-27T22:42:11.535414+00:00"
+    "last_heartbeat_at_utc": "2026-10-28T23:29:37.329563+00:00"
   }
 }
