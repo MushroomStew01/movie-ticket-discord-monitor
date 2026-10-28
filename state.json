@@ -164,7 +164,7 @@
     "name": "Cineplex Cinemas Cambridge",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "da4ac42718f9718794c62510ccad35e0248ad21d904030861cc4912bef46628a",
+    "hash": "ff1b648f404c237681465b360b78ce7112936ae06c0a50ff6bf0fa0353af8ff2",
     "snapshot": {
       "page_title": "Cineplex Cinemas Cambridge",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge",
@@ -185,15 +185,6 @@
           "showtimes": [],
           "dates": [],
           "context": "Avengers: Doomsday Advance tickets available",
-          "url": null
-        },
-        "title:carmen-encore-bizet-french-w-e-s-t-metropolitan-opera": {
-          "title": "Carmen Encore (Bizet) - French w/e.s.t. – Metropolitan Opera",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Carmen Encore (Bizet) - French w/e.s.t. – Metropolitan Opera Advance tickets available",
           "url": null
         },
         "title:clayface": {
@@ -276,6 +267,15 @@
           "dates": [],
           "context": "Wildwood",
           "url": null
+        },
+        "title:you-can-see-everything": {
+          "title": "You Can See Everything",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "You Can See Everything",
+          "url": null
         }
       }
     },
@@ -333,9 +333,10 @@
       "8d6e157ccc80cff82054b2fc2cea9145800b6328ad3159800df36ce8f4b3b977",
       "b17b88873630ce53de7f4f5405cb30eb6f284e621f0098e379ef878716a11bd2",
       "7e6c0f5b60492384ad0d41e70a26eb12a45ffc0385ddfefdd7efaa00ef279860",
-      "11a4320384bc7ace090915ad7744b62b50690841896658767b98fb0482531328"
+      "11a4320384bc7ace090915ad7744b62b50690841896658767b98fb0482531328",
+      "4bf170fd6c2284ee7bf0608587e121b922f900e961493fb5b46f00e8ee7d967c"
     ],
-    "revision": 74
+    "revision": 75
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan": {
     "name": "Cineplex Cinemas Vaughan",
@@ -644,7 +645,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "1e1849e959952becaceec4de3583566dfb02d5e4463f62c1e173555e3a854896",
+    "hash": "4183e2db79ed9a3200510ca0cc72dd979e4fe1e757f0e6e812f1be510d7bd569",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -655,7 +656,6 @@
         "Dec 18",
         "Nov 23",
         "Nov 7",
-        "Oct 28",
         "Oct 30",
         "Sun"
       ],
@@ -668,12 +668,10 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Cinemas Abbotsford and VIP",
-        "Cineplex Cinemas Seton and VIP",
+        "Cineplex Odeon McGillivray Cinemas and VIP",
         "Advance tickets",
         "DEC 18",
         "Klara and the Sun",
-        "OCT 28",
         "OCT 30",
         "NOV 23",
         "NOV 7",
@@ -872,13 +870,11 @@
         },
         "title:ozzy-and-black-sabbath-back-to-the-beginning": {
           "title": "Ozzy & Black Sabbath: Back To The Beginning",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Oct 28"
-          ],
-          "context": "Advance tickets OCT 28 Ozzy & Black Sabbath: Back To The Beginning Watch trailer",
+          "dates": [],
+          "context": "Ozzy & Black Sabbath: Back To The Beginning Watch trailer",
           "url": "https://www.cineplex.com/movie/ozzy-black-sabbath-back-to-the-beginning"
         },
         "title:punjabi-daudaak-punjabi-w-e-s-t": {
@@ -937,13 +933,13 @@
           "context": "TOMORROW X TOGETHER WORLD TOUR 'ACT : TOMORROW' (Korean w.e.s.t) Watch trailer",
           "url": "https://www.cineplex.com/movie/tomorrow-x-together-world-tour-act-tomorrow"
         },
-        "title:whalefall": {
-          "title": "Whalefall",
+        "title:view-movie-details-for-whalefall": {
+          "title": "View movie details for Whalefall",
           "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Whalefall Watch trailer",
+          "context": "",
           "url": "https://www.cineplex.com/movie/whalefall"
         },
         "title:wicker": {
@@ -1082,9 +1078,10 @@
       "0b668cec1b5bd3f801d502cf21c9e1d1a4d7ab6804a7a35883b9f77f5d7f6587",
       "df0ea938e4ec035668ed8391dd1f32f84c9b6d46720b9eaa901933836b10953e",
       "fc2e3fff9f2adc798c61162d185924a216e5fb0eff6faeba64d7562d0b97ec57",
-      "e7b0ce0966c0bdf424454904347d3da136a9e7a92954244c94bf728dde79e05a"
+      "e7b0ce0966c0bdf424454904347d3da136a9e7a92954244c94bf728dde79e05a",
+      "0cbd64aa4e895eddba163927a8c00d8916ea650bb3090ee77194fe10e0e65b33"
     ],
-    "revision": 945
+    "revision": 946
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
