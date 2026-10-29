@@ -649,7 +649,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "a45e6b06be2f61cd973047068043b62a14701e97e7e3cc8a5a4bf64251564e43",
+    "hash": "7847312334d9f4f57090dfd2058b895306e54056c60a601ed0fba18a11936899",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -965,6 +965,15 @@
           "context": "Tagalog Always Yours, Never Mine (Tagalog w/e.s.t.)",
           "url": "https://www.cineplex.com/movie/always-yours-never-mine-tagalog-west"
         },
+        "title:the-hunger-games-sunrise-on-the-reaping": {
+          "title": "The Hunger Games Sunrise On The Reaping",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "",
+          "url": "https://www.cineplex.com/movie/the-hunger-games-sunrise-on-the-reaping"
+        },
         "title:whalefall": {
           "title": "Whalefall",
           "ticket_available": false,
@@ -1113,9 +1122,10 @@
       "e7b0ce0966c0bdf424454904347d3da136a9e7a92954244c94bf728dde79e05a",
       "0cbd64aa4e895eddba163927a8c00d8916ea650bb3090ee77194fe10e0e65b33",
       "07ba2d7527dc10a2827926bca575caa2b0f981c71441c8a0508d2131a4c93286",
-      "27684dc900bf6d8e0e1ae0a239c836e2cc56e39b6e0eb354e2536a7663147427"
+      "27684dc900bf6d8e0e1ae0a239c836e2cc56e39b6e0eb354e2536a7663147427",
+      "7a92d4666fa5edd9218568aec36cdd98b2326299750be9025041c8db1787f48d"
     ],
-    "revision": 951
+    "revision": 952
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
