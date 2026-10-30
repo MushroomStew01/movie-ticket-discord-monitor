@@ -652,7 +652,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "ba924d13d3dadd77a26135974f220337da188c777958d5c100be821fec47cd58",
+    "hash": "2012618388faa0d266ad779a1697e9605a1f57251c0994166827424fda0d3d67",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -679,7 +679,8 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Odeon McGillivray Cinemas and VIP",
+        "Cineplex Cinemas Oakville and VIP",
+        "Cineplex Cinemas Winston Churchill & VIP",
         "Advance tickets",
         "DEC 18",
         "Klara and the Sun",
@@ -911,6 +912,15 @@
           "context": "Advance Tickets NOV 5 Ramayana (Hindi w/e.s.t.) Watch trailer",
           "url": "https://www.cineplex.com/movie/est-ramayana-hindi-west"
         },
+        "title:sense-and-sensibility": {
+          "title": "Sense and Sensibility",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Sense and Sensibility Watch trailer",
+          "url": "https://www.cineplex.com/movie/sense-and-sensibility-2026"
+        },
         "title:stray-kids-world-tour-run-it-live-viewing": {
           "title": "Stray Kids World Tour RUN IT LIVE VIEWING",
           "ticket_available": true,
@@ -959,15 +969,6 @@
           "dates": [],
           "context": "",
           "url": "https://www.cineplex.com/movie/the-hunger-games-sunrise-on-the-reaping"
-        },
-        "title:view-movie-details-for-sense-and-sensibility": {
-          "title": "View movie details for Sense and Sensibility",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "",
-          "url": "https://www.cineplex.com/movie/sense-and-sensibility-2026"
         },
         "title:whalefall": {
           "title": "Whalefall",
@@ -1120,9 +1121,10 @@
       "27684dc900bf6d8e0e1ae0a239c836e2cc56e39b6e0eb354e2536a7663147427",
       "7a92d4666fa5edd9218568aec36cdd98b2326299750be9025041c8db1787f48d",
       "3c9c893c1a996fe005b0bcd0c15a4643321d5ab925cea3a78ea6675abcbc9bc9",
-      "1da4e454794bbdcb940e88d882ec522281a492267485b16ee72fc74b35fccf56"
+      "1da4e454794bbdcb940e88d882ec522281a492267485b16ee72fc74b35fccf56",
+      "147334e9d5da65fa1e87fb1ec76a1ec30cf4ecebfa2990f3c50cd60d67437b4b"
     ],
-    "revision": 955
+    "revision": 956
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
