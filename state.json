@@ -496,7 +496,7 @@
     "name": "Cineplex Cinemas Mississauga Square One",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "112f0f46f722bc8e55469420de6af3e130c6b10eab478bcea467a4aa9c3d5df2",
+    "hash": "4182b8120cdc8a96a75815d311c026b1d5fd46bc3628672975263636cc925082",
     "snapshot": {
       "page_title": "Cineplex Cinemas Mississauga Square One",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one",
@@ -569,13 +569,13 @@
           "context": "Street Fighter Klara and the Sun",
           "url": null
         },
-        "title:whalefall": {
-          "title": "Whalefall",
+        "title:verity": {
+          "title": "Verity",
           "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Whalefall",
+          "context": "Verity",
           "url": null
         },
         "title:wicker": {
@@ -643,15 +643,16 @@
       "2e265136b9d17d888caf0c3ff6ee481dca5eb1469e97233343c6ce397a712612",
       "c4e1e260db899919fb1a9fb3cbe98525ce1bbdf8c7d7b7a32c5a705627b7ccf0",
       "4820d21b8da13757b6c7854c56eb281ae072b4f9e8f10f5e13177a0f09b02afd",
-      "a995dcfed75ad6414cae5fd74f164f084d8b075d0c32e4b2a8bc1ced98899bba"
+      "a995dcfed75ad6414cae5fd74f164f084d8b075d0c32e4b2a8bc1ced98899bba",
+      "c9b11baf74797571261ceb9f948acfe56a059b71c77716ee0fc572aa2eb6155a"
     ],
-    "revision": 53
+    "revision": 54
   },
   "https://www.cineplex.com/en?theatresNearYou=true": {
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "9eee50726a87bd73e57801b7cd5124e1b80eb8164174409e6f2865221f7fcda5",
+    "hash": "ba924d13d3dadd77a26135974f220337da188c777958d5c100be821fec47cd58",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -666,7 +667,6 @@
         "Nov 5",
         "Nov 7",
         "Nov 8",
-        "Oct 30",
         "Oct 31",
         "Sun"
       ],
@@ -684,7 +684,6 @@
         "DEC 18",
         "Klara and the Sun",
         "NOV 5",
-        "OCT 30",
         "NOV 8",
         "NOV 7",
         "NOV 23",
@@ -707,13 +706,11 @@
         },
         "title:bts-world-tour-arirang-in-s-o-paulo-live-viewing": {
           "title": "BTS WORLD TOUR 'ARIRANG' IN SÃO PAULO: LIVE VIEWING",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Oct 30"
-          ],
-          "context": "Advance tickets OCT 30 BTS WORLD TOUR 'ARIRANG' IN SÃO PAULO: LIVE VIEWING Watch trailer",
+          "dates": [],
+          "context": "BTS WORLD TOUR 'ARIRANG' IN SÃO PAULO: LIVE VIEWING Watch trailer",
           "url": "https://www.cineplex.com/movie/bts-world-tour-arirang-in-sao-paulo"
         },
         "title:carmen-encore-bizet-french-w-e-s-t-metropolitan-opera": {
@@ -768,6 +765,15 @@
           ],
           "context": "Advance tickets NOV 14 Festive Fun with Peppa Cinema Experience Watch trailer",
           "url": "https://www.cineplex.com/movie/festive-fun-with-peppa-cinema-experience"
+        },
+        "title:filipino-pee-mak-filipino-w-e-s-t": {
+          "title": "Filipino Pee Mak (Filipino w/e.s.t.)",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Filipino Pee Mak (Filipino w/e.s.t.)",
+          "url": "https://www.cineplex.com/movie/pee-mak-filipino-west"
         },
         "title:giant-the-play": {
           "title": "GIANT - The Play",
@@ -876,28 +882,6 @@
           "context": "Ozzy & Black Sabbath: Back To The Beginning Watch trailer",
           "url": "https://www.cineplex.com/movie/ozzy-black-sabbath-back-to-the-beginning"
         },
-        "title:patakka-guddiyan-punjabi-w-e-s-t": {
-          "title": "Patakka Guddiyan (Punjabi w/e.s.t.)",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [
-            "Oct 30"
-          ],
-          "context": "Advance Tickets OCT 30 Patakka Guddiyan (Punjabi w/e.s.t.)",
-          "url": "https://www.cineplex.com/movie/patakka-guddiyan-punjabi-west"
-        },
-        "title:pee-mak-filipino-w-e-s-t": {
-          "title": "Pee Mak (Filipino w/e.s.t.)",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [
-            "Oct 30"
-          ],
-          "context": "Advance Tickets OCT 30 Pee Mak (Filipino w/e.s.t.)",
-          "url": "https://www.cineplex.com/movie/pee-mak-filipino-west"
-        },
         "title:punjabi-eh-din-roz-ni-aune-punjabi-w-e-s-t": {
           "title": "Punjabi Eh Din Roz Ni Aune (Punjabi w/e.s.t.)",
           "ticket_available": false,
@@ -906,6 +890,15 @@
           "dates": [],
           "context": "Punjabi Eh Din Roz Ni Aune (Punjabi w/e.s.t.)",
           "url": "https://www.cineplex.com/movie/eh-din-roz-ni-aune-punjabi-west"
+        },
+        "title:punjabi-patakka-guddiyan-punjabi-w-e-s-t": {
+          "title": "Punjabi Patakka Guddiyan (Punjabi w/e.s.t.)",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Punjabi Patakka Guddiyan (Punjabi w/e.s.t.)",
+          "url": "https://www.cineplex.com/movie/patakka-guddiyan-punjabi-west"
         },
         "title:ramayana-hindi-w-e-s-t": {
           "title": "Ramayana (Hindi w/e.s.t.)",
@@ -1126,9 +1119,10 @@
       "07ba2d7527dc10a2827926bca575caa2b0f981c71441c8a0508d2131a4c93286",
       "27684dc900bf6d8e0e1ae0a239c836e2cc56e39b6e0eb354e2536a7663147427",
       "7a92d4666fa5edd9218568aec36cdd98b2326299750be9025041c8db1787f48d",
-      "3c9c893c1a996fe005b0bcd0c15a4643321d5ab925cea3a78ea6675abcbc9bc9"
+      "3c9c893c1a996fe005b0bcd0c15a4643321d5ab925cea3a78ea6675abcbc9bc9",
+      "1da4e454794bbdcb940e88d882ec522281a492267485b16ee72fc74b35fccf56"
     ],
-    "revision": 954
+    "revision": 955
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
