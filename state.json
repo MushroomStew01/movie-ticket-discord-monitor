@@ -164,7 +164,7 @@
     "name": "Cineplex Cinemas Cambridge",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "8e405f923e8d19e6e47c1a8036a973b772995d637cb2606f3a677308fe70ca23",
+    "hash": "fc1923c769d4cb56ee8ab539d42069b7fcd73f2feeac3553746d9238e5d8d956",
     "snapshot": {
       "page_title": "Cineplex Cinemas Cambridge",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge",
@@ -232,6 +232,15 @@
           "context": "Street Fighter",
           "url": null
         },
+        "title:the-cat-in-the-hat": {
+          "title": "The Cat in the Hat",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "The Cat in the Hat Advance tickets available",
+          "url": null
+        },
         "title:the-hunger-games-sunrise-on-the-reaping": {
           "title": "The Hunger Games: Sunrise on the Reaping",
           "ticket_available": true,
@@ -239,15 +248,6 @@
           "showtimes": [],
           "dates": [],
           "context": "The Hunger Games: Sunrise on the Reaping Advance tickets available",
-          "url": null
-        },
-        "title:verity": {
-          "title": "Verity",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Verity",
           "url": null
         },
         "title:whalefall": {
@@ -335,9 +335,10 @@
       "7e6c0f5b60492384ad0d41e70a26eb12a45ffc0385ddfefdd7efaa00ef279860",
       "11a4320384bc7ace090915ad7744b62b50690841896658767b98fb0482531328",
       "4bf170fd6c2284ee7bf0608587e121b922f900e961493fb5b46f00e8ee7d967c",
-      "8009fbbc8529331d0fac815088da4c69da480e391e9074026ce8c344adf1fef9"
+      "8009fbbc8529331d0fac815088da4c69da480e391e9074026ce8c344adf1fef9",
+      "701d6fadfe25ac7e2699e78438eecd8f161cbaf3ec65922dbd6f43751274a526"
     ],
-    "revision": 76
+    "revision": 77
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan": {
     "name": "Cineplex Cinemas Vaughan",
@@ -495,7 +496,7 @@
     "name": "Cineplex Cinemas Mississauga Square One",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "fd2023052c393fe599702efdceca882ac31f4d710452f6d4decec44df3f74a8e",
+    "hash": "112f0f46f722bc8e55469420de6af3e130c6b10eab478bcea467a4aa9c3d5df2",
     "snapshot": {
       "page_title": "Cineplex Cinemas Mississauga Square One",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one",
@@ -548,13 +549,13 @@
           "context": "Other Mommy",
           "url": null
         },
-        "title:sense-and-sensibility": {
-          "title": "Sense and Sensibility",
+        "title:resident-evil": {
+          "title": "Resident Evil",
           "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Sense and Sensibility",
+          "context": "Resident Evil",
           "url": null
         },
         "title:street-fighter": {
@@ -641,15 +642,16 @@
       "5ada2a6d9818311d5fe8b91ddb3859ecb019ef80df07c1aa4bd3fb8f63d70add",
       "2e265136b9d17d888caf0c3ff6ee481dca5eb1469e97233343c6ce397a712612",
       "c4e1e260db899919fb1a9fb3cbe98525ce1bbdf8c7d7b7a32c5a705627b7ccf0",
-      "4820d21b8da13757b6c7854c56eb281ae072b4f9e8f10f5e13177a0f09b02afd"
+      "4820d21b8da13757b6c7854c56eb281ae072b4f9e8f10f5e13177a0f09b02afd",
+      "a995dcfed75ad6414cae5fd74f164f084d8b075d0c32e4b2a8bc1ced98899bba"
     ],
-    "revision": 52
+    "revision": 53
   },
   "https://www.cineplex.com/en?theatresNearYou=true": {
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "e2331758447d8fa7cec2342f766f477a0d31967ff7adcf2c02074268a7ad8b5e",
+    "hash": "9eee50726a87bd73e57801b7cd5124e1b80eb8164174409e6f2865221f7fcda5",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -677,8 +679,7 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Cinemas Oakville and VIP",
-        "Cineplex Cinemas Winston Churchill & VIP",
+        "Cineplex Odeon McGillivray Cinemas and VIP",
         "Advance tickets",
         "DEC 18",
         "Klara and the Sun",
@@ -1127,7 +1128,7 @@
       "7a92d4666fa5edd9218568aec36cdd98b2326299750be9025041c8db1787f48d",
       "3c9c893c1a996fe005b0bcd0c15a4643321d5ab925cea3a78ea6675abcbc9bc9"
     ],
-    "revision": 953
+    "revision": 954
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
@@ -1160,6 +1161,6 @@
     "revision": 9
   },
   "_meta": {
-    "last_heartbeat_at_utc": "2026-10-28T23:29:37.329563+00:00"
+    "last_heartbeat_at_utc": "2026-10-30T00:18:13.038374+00:00"
   }
 }
