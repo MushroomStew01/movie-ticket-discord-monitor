@@ -652,7 +652,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "5e4b78fabebc1b3fd02a213d956d1da0acb5d242532d75b96bb710b03e19dbdd",
+    "hash": "18bccdd9ccde4d0b22a028dd64af90999ee1e109c53b9448708e824e8d7f1c66",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -667,7 +667,6 @@
         "Nov 5",
         "Nov 7",
         "Nov 8",
-        "Oct 31",
         "Sun"
       ],
       "formats": [
@@ -679,8 +678,8 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Odeon Westmount Cinemas and VIP",
-        "Cineplex Cinemas Kitchener and VIP",
+        "Cineplex Cinemas Oakville and VIP",
+        "Cineplex Cinemas Winston Churchill & VIP",
         "Advance tickets",
         "DEC 18",
         "Klara and the Sun",
@@ -688,7 +687,6 @@
         "NOV 8",
         "NOV 7",
         "NOV 23",
-        "OCT 31",
         "NOV 14",
         "NOV 19",
         "What are UltraAVX, IMAX, VIP, 4DX, ScreenX and D-BOX?"
@@ -934,13 +932,11 @@
         },
         "title:super-simple-songs": {
           "title": "Super Simple Songs",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Oct 31"
-          ],
-          "context": "Advance tickets OCT 31 Super Simple Songs Watch trailer",
+          "dates": [],
+          "context": "Super Simple Songs Watch trailer",
           "url": "https://www.cineplex.com/movie/super-simple-songs"
         },
         "title:tagalog-always-yours-never-mine-tagalog-w-e-s-t": {
@@ -1125,7 +1121,7 @@
       "147334e9d5da65fa1e87fb1ec76a1ec30cf4ecebfa2990f3c50cd60d67437b4b",
       "0cf635567744fef2ddcc9802cca393a41c5deb46e3535083550c135104ad0e96"
     ],
-    "revision": 958
+    "revision": 959
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
