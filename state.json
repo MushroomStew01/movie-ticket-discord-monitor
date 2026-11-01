@@ -3,7 +3,7 @@
     "name": "Cineplex Cinemas Kitchener and VIP",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "9b3b32b5971b9e0b1247a65590874d84546a6db1ca7cd01b55569f97e71b4c23",
+    "hash": "d168fe46975aa9777300ed658c31c95e291a0f48a26de3312901cd9a0a7eb8a0",
     "snapshot": {
       "page_title": "Cineplex Cinemas Kitchener and VIP",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-kitchener-and-vip",
@@ -49,15 +49,6 @@
           "context": "Dune: Part Three Advance tickets available",
           "url": null
         },
-        "title:forgotten-island": {
-          "title": "Forgotten Island",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Forgotten Island",
-          "url": null
-        },
         "title:other-mommy": {
           "title": "Other Mommy",
           "ticket_available": false,
@@ -92,6 +83,15 @@
           "showtimes": [],
           "dates": [],
           "context": "Street Fighter",
+          "url": null
+        },
+        "title:verity": {
+          "title": "Verity",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Verity",
           "url": null
         },
         "title:wicker": {
@@ -156,9 +156,10 @@
       "5feae79b4e154857e0ca02547f35634ba670c83cd44121f514334c3e6bd6e23c",
       "33e1e421a988dbbcc238102dbd3bc076d5c3dd86791b19dda2db17062eb026de",
       "93a8040acaab68d60d666a9de329dd9070ec85b476e95f644082699e7243c660",
-      "1a04fca50a8c624a239ffc870287503c417e88303a08aaa29b03e6c95cee97ac"
+      "1a04fca50a8c624a239ffc870287503c417e88303a08aaa29b03e6c95cee97ac",
+      "d0af7bcf8583722032ff0c9f1f9aa7cc66df518489a878467162f2db50ac54e3"
     ],
-    "revision": 55
+    "revision": 56
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge": {
     "name": "Cineplex Cinemas Cambridge",
@@ -654,7 +655,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "60e3ae851dc9e4dea689a514b8372b65c44df5ff26ce60936b54c66ff21fe2e1",
+    "hash": "f9f90b2477141d4b1d973709f2c5666a888e15cc5c8967247378dafccbf80b2b",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -680,7 +681,8 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Odeon Westmount Cinemas and VIP",
+        "Cineplex Cinemas Abbotsford and VIP",
+        "Cineplex Cinemas Seton and VIP",
         "Advance tickets",
         "DEC 18",
         "Klara and the Sun",
@@ -911,6 +913,15 @@
           "context": "Advance Tickets NOV 5 Ramayana (Hindi w/e.s.t.) Watch trailer",
           "url": "https://www.cineplex.com/movie/est-ramayana-hindi-west"
         },
+        "title:sense-and-sensibility": {
+          "title": "Sense and Sensibility",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Sense and Sensibility Watch trailer",
+          "url": "https://www.cineplex.com/movie/sense-and-sensibility-2026"
+        },
         "title:stray-kids-world-tour-run-it-live-viewing": {
           "title": "Stray Kids World Tour RUN IT LIVE VIEWING",
           "ticket_available": true,
@@ -957,15 +968,6 @@
           "dates": [],
           "context": "",
           "url": "https://www.cineplex.com/movie/the-hunger-games-sunrise-on-the-reaping"
-        },
-        "title:view-movie-details-for-sense-and-sensibility": {
-          "title": "View movie details for Sense and Sensibility",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "",
-          "url": "https://www.cineplex.com/movie/sense-and-sensibility-2026"
         },
         "title:whalefall": {
           "title": "Whalefall",
@@ -1124,9 +1126,10 @@
       "179e6542ea806b9c9f8db061ef573c4aec60b1d7573cce2b42a9afeb836b6f67",
       "36c864610639661ff65149fef31c522cc4f7ee79514ca81a45815df10a062db6",
       "401e7b82336f69b88800a1dd4c2b64a457d015f6b8c7b482cd5e8089b3167c22",
-      "cb886ed305d7b41f938d8f6c84dec31af7e04b998a698c45e504c12c6d648c6d"
+      "cb886ed305d7b41f938d8f6c84dec31af7e04b998a698c45e504c12c6d648c6d",
+      "f6f84158f8d7fcf627f207fdc7f757f2293fcc3b5d602321abac1098cb7d4ba2"
     ],
-    "revision": 966
+    "revision": 967
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
