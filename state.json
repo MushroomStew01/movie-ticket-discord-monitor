@@ -3,13 +3,18 @@
     "name": "Cineplex Cinemas Kitchener and VIP",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "d168fe46975aa9777300ed658c31c95e291a0f48a26de3312901cd9a0a7eb8a0",
+    "hash": "5f0ff268c83209b919997f7e392f5e0927db20324f2b1d4691af5ebd75e8a3ff",
     "snapshot": {
       "page_title": "Cineplex Cinemas Kitchener and VIP",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-kitchener-and-vip",
       "ticket_available": true,
       "ticket_phrases": [],
-      "showtimes": [],
+      "showtimes": [
+        "10:00 AM",
+        "10:15 AM",
+        "10:30 AM",
+        "10:45 AM"
+      ],
       "dates": [],
       "formats": [
         "VIP"
@@ -18,6 +23,10 @@
         "Cineplex Cinemas Kitchener and VIP",
         "Valid physical government ID may be required for admittance to the Cineplex VIP area. Access to VIP theatres is restricted to individuals who are legal drinking age (18+ in Alberta, Manitoba, and Quebec, 19+ in the rest of Canada), regardless of the film's rating.",
         "Get Tickets",
+        "10:00 AM",
+        "10:15 AM",
+        "10:30 AM",
+        "10:45 AM",
         "Advance tickets available",
         "Tuesdays taste better in Cineplex VIP. Enjoy TACOS & TEQUILA every Tuesday with $5 Tacos and 10$ Select Tequila Drinks"
       ],
@@ -94,6 +103,50 @@
           "context": "Verity",
           "url": null
         },
+        "title:view-movie-details-for-a-minecraft-movie": {
+          "title": "View movie details for A Minecraft Movie",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [
+            "10:45 AM"
+          ],
+          "dates": [],
+          "context": "A Minecraft Movie 10:45 AM",
+          "url": "https://www.cineplex.com/movie/a-minecraft-movie-2026"
+        },
+        "title:view-movie-details-for-paddington-2": {
+          "title": "View movie details for Paddington 2",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [
+            "10:15 AM"
+          ],
+          "dates": [],
+          "context": "Paddington 2 10:15 AM",
+          "url": "https://www.cineplex.com/movie/paddington-2-2026"
+        },
+        "title:view-movie-details-for-the-lego-movie": {
+          "title": "View movie details for The Lego Movie",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [
+            "10:30 AM"
+          ],
+          "dates": [],
+          "context": "The Lego Movie 10:30 AM",
+          "url": "https://www.cineplex.com/movie/the-lego-movie-community-day"
+        },
+        "title:view-movie-details-for-tom-and-jerry": {
+          "title": "View movie details for Tom & Jerry",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [
+            "10:00 AM"
+          ],
+          "dates": [],
+          "context": "Tom & Jerry 10:00 AM",
+          "url": "https://www.cineplex.com/movie/tom-jerry-2026"
+        },
         "title:wicker": {
           "title": "Wicker",
           "ticket_available": false,
@@ -157,25 +210,36 @@
       "33e1e421a988dbbcc238102dbd3bc076d5c3dd86791b19dda2db17062eb026de",
       "93a8040acaab68d60d666a9de329dd9070ec85b476e95f644082699e7243c660",
       "1a04fca50a8c624a239ffc870287503c417e88303a08aaa29b03e6c95cee97ac",
-      "d0af7bcf8583722032ff0c9f1f9aa7cc66df518489a878467162f2db50ac54e3"
+      "d0af7bcf8583722032ff0c9f1f9aa7cc66df518489a878467162f2db50ac54e3",
+      "afcf9062010ffc78abdc09cd5609932f20165111eb7f90ac32d6a1ed68229598",
+      "16db30b47a20dd094d12b85b9461138fc458aa849537cab52389b5041694b7a1"
     ],
-    "revision": 56
+    "revision": 57
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge": {
     "name": "Cineplex Cinemas Cambridge",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "fc1923c769d4cb56ee8ab539d42069b7fcd73f2feeac3553746d9238e5d8d956",
+    "hash": "0c90c5720288e5d654aeb10fde5f00597bf49a0e858ac7a8ba9dab63bc7ef1a9",
     "snapshot": {
       "page_title": "Cineplex Cinemas Cambridge",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge",
       "ticket_available": true,
       "ticket_phrases": [],
-      "showtimes": [],
+      "showtimes": [
+        "10:00 AM",
+        "10:15 AM",
+        "10:30 AM",
+        "10:45 AM"
+      ],
       "dates": [],
       "formats": [],
       "relevant_lines": [
         "Get Tickets",
+        "10:00 AM",
+        "10:15 AM",
+        "10:30 AM",
+        "10:45 AM",
         "Advance tickets available"
       ],
       "movies": {
@@ -250,6 +314,50 @@
           "dates": [],
           "context": "The Hunger Games: Sunrise on the Reaping Advance tickets available",
           "url": null
+        },
+        "title:view-movie-details-for-a-minecraft-movie": {
+          "title": "View movie details for A Minecraft Movie",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [
+            "10:45 AM"
+          ],
+          "dates": [],
+          "context": "A Minecraft Movie 10:45 AM",
+          "url": "https://www.cineplex.com/movie/a-minecraft-movie-2026"
+        },
+        "title:view-movie-details-for-paddington-2": {
+          "title": "View movie details for Paddington 2",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [
+            "10:15 AM"
+          ],
+          "dates": [],
+          "context": "Paddington 2 10:15 AM",
+          "url": "https://www.cineplex.com/movie/paddington-2-2026"
+        },
+        "title:view-movie-details-for-the-lego-movie": {
+          "title": "View movie details for The Lego Movie",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [
+            "10:30 AM"
+          ],
+          "dates": [],
+          "context": "The Lego Movie 10:30 AM",
+          "url": "https://www.cineplex.com/movie/the-lego-movie-community-day"
+        },
+        "title:view-movie-details-for-tom-and-jerry": {
+          "title": "View movie details for Tom & Jerry",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [
+            "10:00 AM"
+          ],
+          "dates": [],
+          "context": "Tom & Jerry 10:00 AM",
+          "url": "https://www.cineplex.com/movie/tom-jerry-2026"
         },
         "title:whalefall": {
           "title": "Whalefall",
@@ -337,27 +445,38 @@
       "11a4320384bc7ace090915ad7744b62b50690841896658767b98fb0482531328",
       "4bf170fd6c2284ee7bf0608587e121b922f900e961493fb5b46f00e8ee7d967c",
       "8009fbbc8529331d0fac815088da4c69da480e391e9074026ce8c344adf1fef9",
-      "701d6fadfe25ac7e2699e78438eecd8f161cbaf3ec65922dbd6f43751274a526"
+      "701d6fadfe25ac7e2699e78438eecd8f161cbaf3ec65922dbd6f43751274a526",
+      "6aec91f0bbd7606c75242a897aede7450e7cb376a2765175220b1e4a91d57195",
+      "80aaed72b2bdef338ccbdeae312f3af16e58933c0a6cc395512ee83fe42dc8b0"
     ],
-    "revision": 77
+    "revision": 78
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan": {
     "name": "Cineplex Cinemas Vaughan",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "1f46002810ffcdfc96ccb05add345edff45806c1344eb6bf13f363a75544f116",
+    "hash": "21c3d10d5a491fc80c400408c4129dbaa8e67e05fec62b9a80b8e9ad8dfe87b4",
     "snapshot": {
       "page_title": "Cineplex Cinemas Vaughan",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan",
       "ticket_available": true,
       "ticket_phrases": [],
-      "showtimes": [],
+      "showtimes": [
+        "10:00 AM",
+        "10:15 AM",
+        "10:30 AM",
+        "10:45 AM"
+      ],
       "dates": [
         "Sun"
       ],
       "formats": [],
       "relevant_lines": [
         "Get Tickets",
+        "10:00 AM",
+        "10:15 AM",
+        "10:30 AM",
+        "10:45 AM",
         "Advance tickets available",
         "Klara and the Sun"
       ],
@@ -417,6 +536,50 @@
           ],
           "context": "Street Fighter Klara and the Sun",
           "url": null
+        },
+        "title:view-movie-details-for-a-minecraft-movie": {
+          "title": "View movie details for A Minecraft Movie",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [
+            "10:45 AM"
+          ],
+          "dates": [],
+          "context": "A Minecraft Movie 10:45 AM",
+          "url": "https://www.cineplex.com/movie/a-minecraft-movie-2026"
+        },
+        "title:view-movie-details-for-paddington-2": {
+          "title": "View movie details for Paddington 2",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [
+            "10:15 AM"
+          ],
+          "dates": [],
+          "context": "Paddington 2 10:15 AM",
+          "url": "https://www.cineplex.com/movie/paddington-2-2026"
+        },
+        "title:view-movie-details-for-the-lego-movie": {
+          "title": "View movie details for The Lego Movie",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [
+            "10:30 AM"
+          ],
+          "dates": [],
+          "context": "The Lego Movie 10:30 AM",
+          "url": "https://www.cineplex.com/movie/the-lego-movie-community-day"
+        },
+        "title:view-movie-details-for-tom-and-jerry": {
+          "title": "View movie details for Tom & Jerry",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [
+            "10:00 AM"
+          ],
+          "dates": [],
+          "context": "Tom & Jerry 10:00 AM",
+          "url": "https://www.cineplex.com/movie/tom-jerry-2026"
         },
         "title:whalefall": {
           "title": "Whalefall",
@@ -490,27 +653,38 @@
       "73606cecfe7379ab20f51e08a8e9a8cb402b9fcd3696662eb43af6a3b40648bc",
       "bc56aa1041454abb53d15697d2789b0fa6580adc7fdfa6a20d3c12fe27ca7e41",
       "f53b208bc8c2fd7890ec9254866df25a136193623d6e53d6778a16c1969f7d76",
-      "9c4fff37c7dc368a7a94b6c8b866321fc34b1740576da7d14c9cb6b8c7cee223"
+      "9c4fff37c7dc368a7a94b6c8b866321fc34b1740576da7d14c9cb6b8c7cee223",
+      "4fd77a017f5c78ede797c2b078dd2f64fb6b496f52896aa6144ef40819fc93a0",
+      "eba6a2723a25d17b74a3edf801c58a69b42952b4f01067569c7c65a64ce3b776"
     ],
-    "revision": 51
+    "revision": 52
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one": {
     "name": "Cineplex Cinemas Mississauga Square One",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "4182b8120cdc8a96a75815d311c026b1d5fd46bc3628672975263636cc925082",
+    "hash": "ac780a34d032080a95d0bf590fcef82f61093d01275331d2fe2839e7974cd2f6",
     "snapshot": {
       "page_title": "Cineplex Cinemas Mississauga Square One",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one",
       "ticket_available": true,
       "ticket_phrases": [],
-      "showtimes": [],
+      "showtimes": [
+        "10:00 AM",
+        "10:15 AM",
+        "10:30 AM",
+        "10:45 AM"
+      ],
       "dates": [
         "Sun"
       ],
       "formats": [],
       "relevant_lines": [
         "Get Tickets",
+        "10:00 AM",
+        "10:15 AM",
+        "10:30 AM",
+        "10:45 AM",
         "Advance tickets available",
         "Klara and the Sun"
       ],
@@ -580,6 +754,50 @@
           "context": "Verity",
           "url": null
         },
+        "title:view-movie-details-for-a-minecraft-movie": {
+          "title": "View movie details for A Minecraft Movie",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [
+            "10:45 AM"
+          ],
+          "dates": [],
+          "context": "A Minecraft Movie 10:45 AM",
+          "url": "https://www.cineplex.com/movie/a-minecraft-movie-2026"
+        },
+        "title:view-movie-details-for-paddington-2": {
+          "title": "View movie details for Paddington 2",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [
+            "10:15 AM"
+          ],
+          "dates": [],
+          "context": "Paddington 2 10:15 AM",
+          "url": "https://www.cineplex.com/movie/paddington-2-2026"
+        },
+        "title:view-movie-details-for-the-lego-movie": {
+          "title": "View movie details for The Lego Movie",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [
+            "10:30 AM"
+          ],
+          "dates": [],
+          "context": "The Lego Movie 10:30 AM",
+          "url": "https://www.cineplex.com/movie/the-lego-movie-community-day"
+        },
+        "title:view-movie-details-for-tom-and-jerry": {
+          "title": "View movie details for Tom & Jerry",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [
+            "10:00 AM"
+          ],
+          "dates": [],
+          "context": "Tom & Jerry 10:00 AM",
+          "url": "https://www.cineplex.com/movie/tom-jerry-2026"
+        },
         "title:wicker": {
           "title": "Wicker",
           "ticket_available": false,
@@ -647,15 +865,17 @@
       "4820d21b8da13757b6c7854c56eb281ae072b4f9e8f10f5e13177a0f09b02afd",
       "a995dcfed75ad6414cae5fd74f164f084d8b075d0c32e4b2a8bc1ced98899bba",
       "c9b11baf74797571261ceb9f948acfe56a059b71c77716ee0fc572aa2eb6155a",
-      "b0e79a4a435eede1879a1862ad43b58468f5b76500939e097da6e687556485c7"
+      "b0e79a4a435eede1879a1862ad43b58468f5b76500939e097da6e687556485c7",
+      "bb89160953ba9ce02c8b6dd44e14f536c42207faa837864ff2ae62ca65177ffc",
+      "89a1ed342c929eff9de5b6cdd6b01d2c1b2306d36fa401e91e8dcf54d74281a1"
     ],
-    "revision": 56
+    "revision": 57
   },
   "https://www.cineplex.com/en?theatresNearYou=true": {
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "b4fdf58526afee8e4608260fa1bf346a99b35ec8c8b44ba6db26975d84a1b6da",
+    "hash": "f2458ab36cea891b53940bb17e27d81f2b7f4f54164044785a7c3c1a449e92ab",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -681,7 +901,8 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Odeon McGillivray Cinemas and VIP",
+        "Cineplex Cinemas Oakville and VIP",
+        "Cineplex Cinemas Winston Churchill & VIP",
         "Advance tickets",
         "DEC 18",
         "Klara and the Sun",
@@ -1130,7 +1351,7 @@
       "949c4a414358caf79c6194de06535a7a9edfa5672d0c6a30c71e41c9a71255ed",
       "4cdc8571fd0ae75ee6c2125063c9cf03d09f12483fad0d4716f3dea07588417f"
     ],
-    "revision": 970
+    "revision": 971
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
