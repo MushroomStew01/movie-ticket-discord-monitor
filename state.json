@@ -875,7 +875,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "e4183cd70a1ee5fbe75a75734ccaf2119fe9edd2f4bf6672c825ffc78d95e012",
+    "hash": "f9f90b2477141d4b1d973709f2c5666a888e15cc5c8967247378dafccbf80b2b",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -1133,6 +1133,15 @@
           "context": "Advance Tickets NOV 5 Ramayana (Hindi w/e.s.t.) Watch trailer",
           "url": "https://www.cineplex.com/movie/est-ramayana-hindi-west"
         },
+        "title:sense-and-sensibility": {
+          "title": "Sense and Sensibility",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Sense and Sensibility Watch trailer",
+          "url": "https://www.cineplex.com/movie/sense-and-sensibility-2026"
+        },
         "title:stray-kids-world-tour-run-it-live-viewing": {
           "title": "Stray Kids World Tour RUN IT LIVE VIEWING",
           "ticket_available": true,
@@ -1179,15 +1188,6 @@
           "dates": [],
           "context": "",
           "url": "https://www.cineplex.com/movie/the-hunger-games-sunrise-on-the-reaping"
-        },
-        "title:view-movie-details-for-sense-and-sensibility": {
-          "title": "View movie details for Sense and Sensibility",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "",
-          "url": "https://www.cineplex.com/movie/sense-and-sensibility-2026"
         },
         "title:whalefall": {
           "title": "Whalefall",
@@ -1350,9 +1350,10 @@
       "f6f84158f8d7fcf627f207fdc7f757f2293fcc3b5d602321abac1098cb7d4ba2",
       "949c4a414358caf79c6194de06535a7a9edfa5672d0c6a30c71e41c9a71255ed",
       "4cdc8571fd0ae75ee6c2125063c9cf03d09f12483fad0d4716f3dea07588417f",
-      "dc6f7b627e84101741adaab1ec995a48ea78aefcbd8b1e349dcb7a91c4745cfd"
+      "dc6f7b627e84101741adaab1ec995a48ea78aefcbd8b1e349dcb7a91c4745cfd",
+      "91974db49ad801ac3aaa5cb4607d4c675fa55e178c4b595dfd62ef6d09214daf"
     ],
-    "revision": 973
+    "revision": 974
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
