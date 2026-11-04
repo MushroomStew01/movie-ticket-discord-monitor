@@ -3,7 +3,7 @@
     "name": "Cineplex Cinemas Kitchener and VIP",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "c51bcd999380f792e8ac8412bc6d25125ae0bb672c731328ee05e249a41a6bf1",
+    "hash": "a14bf051f6cd25c5563bcb6ad190ca47134bae1eebf8e8a199a661e021eae830",
     "snapshot": {
       "page_title": "Cineplex Cinemas Kitchener and VIP",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-kitchener-and-vip",
@@ -85,6 +85,15 @@
           "context": "Street Fighter",
           "url": null
         },
+        "title:the-cat-in-the-hat": {
+          "title": "The Cat in the Hat",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "The Cat in the Hat Advance tickets available",
+          "url": null
+        },
         "title:the-hunger-games-sunrise-on-the-reaping": {
           "title": "The Hunger Games: Sunrise on the Reaping",
           "ticket_available": true,
@@ -92,15 +101,6 @@
           "showtimes": [],
           "dates": [],
           "context": "The Hunger Games: Sunrise on the Reaping Advance tickets available",
-          "url": null
-        },
-        "title:verity": {
-          "title": "Verity",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Verity",
           "url": null
         },
         "title:view-movie-details-for-a-minecraft-movie": {
@@ -213,15 +213,16 @@
       "d0af7bcf8583722032ff0c9f1f9aa7cc66df518489a878467162f2db50ac54e3",
       "afcf9062010ffc78abdc09cd5609932f20165111eb7f90ac32d6a1ed68229598",
       "16db30b47a20dd094d12b85b9461138fc458aa849537cab52389b5041694b7a1",
-      "d495e1d8f74d479351f453f7d7bf72eadac6ad30da455b240a453724405a9e21"
+      "d495e1d8f74d479351f453f7d7bf72eadac6ad30da455b240a453724405a9e21",
+      "d930cb4a7fc01df6a06fdb2146d055ee1442ac725a3ed1d46f00bdd070a6305f"
     ],
-    "revision": 58
+    "revision": 59
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge": {
     "name": "Cineplex Cinemas Cambridge",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "82263522db9168862dc6087e5df5e1d25d7aa9d41ee992f84adb9db0b549d34b",
+    "hash": "b4412365fed5d6445b7b55ec5b2598ff9678ce9fc07a560cca9b9f3e4b656947",
     "snapshot": {
       "page_title": "Cineplex Cinemas Cambridge",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge",
@@ -251,6 +252,15 @@
           "showtimes": [],
           "dates": [],
           "context": "Avengers: Doomsday Advance tickets available",
+          "url": null
+        },
+        "title:carmen-encore-bizet-french-w-e-s-t-metropolitan-opera": {
+          "title": "Carmen Encore (Bizet) - French w/e.s.t. – Metropolitan Opera",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Carmen Encore (Bizet) - French w/e.s.t. – Metropolitan Opera Advance tickets available",
           "url": null
         },
         "title:clayface": {
@@ -360,15 +370,6 @@
           "context": "Tom & Jerry 10:00 AM",
           "url": "https://www.cineplex.com/movie/tom-jerry-2026"
         },
-        "title:whalefall": {
-          "title": "Whalefall",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Whalefall",
-          "url": null
-        },
         "title:wildwood": {
           "title": "Wildwood",
           "ticket_available": false,
@@ -449,15 +450,16 @@
       "701d6fadfe25ac7e2699e78438eecd8f161cbaf3ec65922dbd6f43751274a526",
       "6aec91f0bbd7606c75242a897aede7450e7cb376a2765175220b1e4a91d57195",
       "80aaed72b2bdef338ccbdeae312f3af16e58933c0a6cc395512ee83fe42dc8b0",
-      "effd56e7c19904e5f18d6ead359607a5809483bb908a59310a9388f07929cc4b"
+      "effd56e7c19904e5f18d6ead359607a5809483bb908a59310a9388f07929cc4b",
+      "ff866de95c904f070bf24e662fce00df16db70405ca7483daaa73d8881fd3583"
     ],
-    "revision": 79
+    "revision": 80
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan": {
     "name": "Cineplex Cinemas Vaughan",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "8370e99414b8f27675a91d8ccd22b0acccb89e730a68d48763acf53b3ac60837",
+    "hash": "ee1560ce953d2be06dc2da570a93e59129ce7b16de4e8eee7d8eab1dc421a59a",
     "snapshot": {
       "page_title": "Cineplex Cinemas Vaughan",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan",
@@ -507,6 +509,15 @@
           "context": "Dune: Part Three Advance tickets available",
           "url": null
         },
+        "title:hexed": {
+          "title": "Hexed",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Hexed Advance tickets available",
+          "url": null
+        },
         "title:other-mommy": {
           "title": "Other Mommy",
           "ticket_available": false,
@@ -525,15 +536,6 @@
           "context": "Resident Evil",
           "url": null
         },
-        "title:sense-and-sensibility": {
-          "title": "Sense and Sensibility",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Sense and Sensibility",
-          "url": null
-        },
         "title:street-fighter": {
           "title": "Street Fighter",
           "ticket_available": false,
@@ -541,6 +543,15 @@
           "showtimes": [],
           "dates": [],
           "context": "Street Fighter",
+          "url": null
+        },
+        "title:verity": {
+          "title": "Verity",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Verity",
           "url": null
         },
         "title:view-movie-details-for-a-minecraft-movie": {
@@ -586,15 +597,6 @@
           "dates": [],
           "context": "Tom & Jerry 10:00 AM",
           "url": "https://www.cineplex.com/movie/tom-jerry-2026"
-        },
-        "title:whalefall": {
-          "title": "Whalefall",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Whalefall",
-          "url": null
         },
         "title:wicker": {
           "title": "Wicker",
@@ -662,9 +664,10 @@
       "9c4fff37c7dc368a7a94b6c8b866321fc34b1740576da7d14c9cb6b8c7cee223",
       "4fd77a017f5c78ede797c2b078dd2f64fb6b496f52896aa6144ef40819fc93a0",
       "eba6a2723a25d17b74a3edf801c58a69b42952b4f01067569c7c65a64ce3b776",
-      "340bf0f996f74af4118ca9ee64f970b16a419775e5098bb90da241be0863cedc"
+      "340bf0f996f74af4118ca9ee64f970b16a419775e5098bb90da241be0863cedc",
+      "c279fce37988a0f821baeff8515fee9dbb59cc8493a73d5092cc3ba47e1f6f53"
     ],
-    "revision": 53
+    "revision": 54
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one": {
     "name": "Cineplex Cinemas Mississauga Square One",
@@ -882,7 +885,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "2b021333f8603dbac644eb19417f017c07580824407bbff99d80308d888db04d",
+    "hash": "96098d8e593152fdd70e45244cf9603d9489c4a5e8789e675c4cd7a743816cc4",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -908,8 +911,8 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Cinemas Abbotsford and VIP",
-        "Cineplex Cinemas Seton and VIP",
+        "Cineplex Odeon Westmount Cinemas and VIP",
+        "Cineplex Cinemas Kitchener and VIP",
         "Advance tickets",
         "DEC 18",
         "Klara and the Sun",
@@ -1014,6 +1017,15 @@
           ],
           "context": "Advance tickets NOV 19 GIANT - The Play",
           "url": "https://www.cineplex.com/movie/giant-the-play"
+        },
+        "title:godzilla-minus-zero-japanese-west": {
+          "title": "Godzilla Minus Zero Japanese West",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "",
+          "url": "https://www.cineplex.com/movie/godzilla-minus-zero-japanese-west"
         },
         "title:golden-boy-national-theatre-live": {
           "title": "Golden Boy - National Theatre Live",
@@ -1177,6 +1189,15 @@
           "dates": [],
           "context": "Tagalog Always Yours, Never Mine (Tagalog w/e.s.t.)",
           "url": "https://www.cineplex.com/movie/always-yours-never-mine-tagalog-west"
+        },
+        "title:the-cat-in-the-hat": {
+          "title": "The Cat In The Hat",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "",
+          "url": "https://www.cineplex.com/movie/the-cat-in-the-hat"
         },
         "title:the-hunger-games-sunrise-on-the-reaping": {
           "title": "The Hunger Games Sunrise On The Reaping",
@@ -1359,9 +1380,10 @@
       "4cdc8571fd0ae75ee6c2125063c9cf03d09f12483fad0d4716f3dea07588417f",
       "dc6f7b627e84101741adaab1ec995a48ea78aefcbd8b1e349dcb7a91c4745cfd",
       "91974db49ad801ac3aaa5cb4607d4c675fa55e178c4b595dfd62ef6d09214daf",
-      "ecd4b4c2ed844f7d05a216e36d4b2fe493a800ea82bffb1b44dcbd4cd7065de8"
+      "ecd4b4c2ed844f7d05a216e36d4b2fe493a800ea82bffb1b44dcbd4cd7065de8",
+      "8f7565fbdec3737786f1a8b42ebb0c5a70659f469ea7b29c1ffbaba120ce27a2"
     ],
-    "revision": 975
+    "revision": 976
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
@@ -1394,6 +1416,6 @@
     "revision": 9
   },
   "_meta": {
-    "last_heartbeat_at_utc": "2026-11-03T09:45:35.992783+00:00"
+    "last_heartbeat_at_utc": "2026-11-04T09:46:31.489033+00:00"
   }
 }
