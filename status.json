@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-04T09:46:31.580557+00:00",
-  "state_id": "4c85d3c2fcae4d0d7220915b7d0f885fa42f4ce0cd273171283d20b788cdcf38",
+  "updated_at": "2026-11-04T22:50:52.285153+00:00",
+  "state_id": "91cffbc2c21a7e2720ca83787ee885853fc27d377e0d8f3ae36ff0829d455c07",
   "healthy": true,
   "target_count": 6,
   "failing_targets": [],
@@ -65,7 +65,7 @@
       "name": "Cineplex Cinemas Mississauga Square One",
       "url": "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one",
       "healthy": true,
-      "movie_count": 14,
+      "movie_count": 15,
       "priority": {
         "Dune: Part 3": {
           "ticket_available": true,
