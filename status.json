@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-03T09:45:36.107740+00:00",
-  "state_id": "f6d1720ae8ef87555bab51e300af17e6c8d5cdf7211069883d86c0d586fe674f",
+  "updated_at": "2026-11-04T02:30:01.419879+00:00",
+  "state_id": "c9f64c4cdd2392512cd269aaed12b08baca0eb245423e1a34611de0c3b66c081",
   "healthy": true,
   "target_count": 6,
   "failing_targets": [],
@@ -79,7 +79,7 @@
       "name": "Cineplex Cinemas Vaughan",
       "url": "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan",
       "healthy": true,
-      "movie_count": 14,
+      "movie_count": 15,
       "priority": {
         "Dune: Part 3": {
           "ticket_available": true,
