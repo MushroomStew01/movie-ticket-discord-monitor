@@ -223,7 +223,7 @@
     "name": "Cineplex Cinemas Cambridge",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "32a7be5296f4dac4a922f05952623d4ccdc860ac1ab14571b312c116e11396f1",
+    "hash": "05f6aa193be3f16dd332907d80fd2b64692fb7d61c5db8fcda4adb946e1baecd",
     "snapshot": {
       "page_title": "Cineplex Cinemas Cambridge",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge",
@@ -255,15 +255,6 @@
           "context": "Avengers: Doomsday Advance tickets available",
           "url": null
         },
-        "title:carmen-encore-bizet-french-w-e-s-t-metropolitan-opera": {
-          "title": "Carmen Encore (Bizet) - French w/e.s.t. – Metropolitan Opera",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Carmen Encore (Bizet) - French w/e.s.t. – Metropolitan Opera Advance tickets available",
-          "url": null
-        },
         "title:clayface": {
           "title": "Clayface",
           "ticket_available": false,
@@ -280,6 +271,15 @@
           "showtimes": [],
           "dates": [],
           "context": "Dune: Part Three Advance tickets available",
+          "url": null
+        },
+        "title:focker-in-law": {
+          "title": "Focker in-Law",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Focker in-Law Advance tickets available",
           "url": null
         },
         "title:godzilla-minus-zero-japanese-w-e-s-t": {
@@ -454,15 +454,16 @@
       "effd56e7c19904e5f18d6ead359607a5809483bb908a59310a9388f07929cc4b",
       "ff866de95c904f070bf24e662fce00df16db70405ca7483daaa73d8881fd3583",
       "9433deb5b200ba931108303bf2777e9f3a8f34fb4e34be2cebcf86c9c3a14654",
-      "06df908ab6986a3f81bf635c0cdc5b61909e68f39081c43df2d859c870d178c9"
+      "06df908ab6986a3f81bf635c0cdc5b61909e68f39081c43df2d859c870d178c9",
+      "a9777d6c1607ad614e7e5e7bb4bc4afb89d0c030c0c35c1af871d508ef809a35"
     ],
-    "revision": 83
+    "revision": 84
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan": {
     "name": "Cineplex Cinemas Vaughan",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "5632443abea56a73f26b9095e4e3c7928186befac9b8a36d542a62e10fd72c71",
+    "hash": "1321c2a145526bbeaa086133279b8c4002815934259d250c04672f8652bc55f7",
     "snapshot": {
       "page_title": "Cineplex Cinemas Vaughan",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan",
@@ -512,6 +513,15 @@
           "context": "Ebenezer Advance tickets available",
           "url": null
         },
+        "title:focker-in-law": {
+          "title": "Focker in-Law",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Focker in-Law Advance tickets available",
+          "url": null
+        },
         "title:godzilla-minus-zero-japanese-w-e-s-t": {
           "title": "Godzilla Minus Zero (Japanese w/e.s.t.)",
           "ticket_available": true,
@@ -528,15 +538,6 @@
           "showtimes": [],
           "dates": [],
           "context": "Hexed Advance tickets available",
-          "url": null
-        },
-        "title:how-to-rob-a-bank": {
-          "title": "How to Rob a Bank",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "How to Rob a Bank Advance tickets available",
           "url": null
         },
         "title:ramayana-english-dubbed": {
@@ -669,15 +670,16 @@
       "eba6a2723a25d17b74a3edf801c58a69b42952b4f01067569c7c65a64ce3b776",
       "340bf0f996f74af4118ca9ee64f970b16a419775e5098bb90da241be0863cedc",
       "c279fce37988a0f821baeff8515fee9dbb59cc8493a73d5092cc3ba47e1f6f53",
-      "a60488aa220e5ce6eecedacf136206cc5b5bb06889a93d8ccae6a271c9adc266"
+      "a60488aa220e5ce6eecedacf136206cc5b5bb06889a93d8ccae6a271c9adc266",
+      "7d7cadc04bc61ae450e295e296577f8328169a31868504dcc66adce6449536d5"
     ],
-    "revision": 57
+    "revision": 58
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one": {
     "name": "Cineplex Cinemas Mississauga Square One",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "250a2df5fa849303e3c267ccfc42a4878381aec61e56d32326a5b656b0d8726d",
+    "hash": "b75671ade4a250435394048e2b31c24a29933e3be54a8815c6f77c008fabee09",
     "snapshot": {
       "page_title": "Cineplex Cinemas Mississauga Square One",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one",
@@ -727,6 +729,15 @@
           "context": "Ebenezer Advance tickets available",
           "url": null
         },
+        "title:focker-in-law": {
+          "title": "Focker in-Law",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Focker in-Law Advance tickets available",
+          "url": null
+        },
         "title:godzilla-minus-zero-japanese-w-e-s-t": {
           "title": "Godzilla Minus Zero (Japanese w/e.s.t.)",
           "ticket_available": true,
@@ -743,15 +754,6 @@
           "showtimes": [],
           "dates": [],
           "context": "Hexed Advance tickets available",
-          "url": null
-        },
-        "title:how-to-rob-a-bank": {
-          "title": "How to Rob a Bank",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "How to Rob a Bank Advance tickets available",
           "url": null
         },
         "title:ramayana-english-dubbed": {
@@ -886,15 +888,16 @@
       "b0e79a4a435eede1879a1862ad43b58468f5b76500939e097da6e687556485c7",
       "bb89160953ba9ce02c8b6dd44e14f536c42207faa837864ff2ae62ca65177ffc",
       "89a1ed342c929eff9de5b6cdd6b01d2c1b2306d36fa401e91e8dcf54d74281a1",
-      "35c2b88303de5d050e55adaf5e27eb98720e1a1e06fcdcc5635d4037dd87c7ea"
+      "35c2b88303de5d050e55adaf5e27eb98720e1a1e06fcdcc5635d4037dd87c7ea",
+      "41f9b7b20cd29beee85416edf5b46f3f493f7a46c7c64031fa028b1bb7713531"
     ],
-    "revision": 60
+    "revision": 61
   },
   "https://www.cineplex.com/en?theatresNearYou=true": {
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "8db95c8705ab5a272794a3f1c635063c31b571c97d57110a5af7bcd48b8d25b8",
+    "hash": "a66afcb6be2c1b1e6634b06878e3f34bcd99807d844b1a2b82d0fcf9daa521ed",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -904,6 +907,7 @@
       "dates": [
         "Dec 18",
         "Dec 5",
+        "Nov 13",
         "Nov 14",
         "Nov 19",
         "Nov 20",
@@ -928,6 +932,7 @@
         "DEC 18",
         "NOV 20",
         "NOV 25",
+        "NOV 13",
         "Ramayana (Hindi w/e.s.t.) - An IMAX 3D Experience",
         "NOV 8",
         "NOV 7",
@@ -1004,6 +1009,17 @@
           "context": "Advance tickets DEC 18 Dune: Part Three Watch trailer",
           "url": "https://www.cineplex.com/movie/dune-part-three"
         },
+        "title:ebenezer": {
+          "title": "Ebenezer",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [
+            "Nov 13"
+          ],
+          "context": "Advance tickets NOV 13 Ebenezer Watch trailer",
+          "url": "https://www.cineplex.com/movie/ebenezer"
+        },
         "title:english-dubbed-ramayana-english-dubbed": {
           "title": "English (dubbed) Ramayana (English Dubbed)",
           "ticket_available": false,
@@ -1026,13 +1042,13 @@
         },
         "title:focker-in-law": {
           "title": "Focker in-Law",
-          "ticket_available": false,
+          "ticket_available": true,
           "formats": [],
           "showtimes": [],
           "dates": [
             "Nov 25"
           ],
-          "context": "Coming soon NOV 25 Focker in-Law Watch trailer",
+          "context": "Advance tickets NOV 25 Focker in-Law Watch trailer",
           "url": "https://www.cineplex.com/movie/fockerinlaw"
         },
         "title:giant-the-play": {
@@ -1215,15 +1231,6 @@
           "context": "Advance tickets NOV 20 The Hunger Games: Sunrise on the Reaping Watch trailer",
           "url": "https://www.cineplex.com/movie/the-hunger-games-sunrise-on-the-reaping"
         },
-        "title:view-movie-details-for-ebenezer": {
-          "title": "View movie details for Ebenezer",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "",
-          "url": "https://www.cineplex.com/movie/ebenezer"
-        },
         "title:wild-horse-nine": {
           "title": "Wild Horse Nine",
           "ticket_available": true,
@@ -1378,9 +1385,11 @@
       "ebe17fef8e14fb788806438be02db8bd991c971db5364638baf594f1ffe41dae",
       "c863f6d3d73f3a9c7fc6d727617355a6f195fdd6ff5a5f8a614d321bd57c509a",
       "1f45934b71f482d2ff1b9dedcb60a5b3f0c684b6bc6b0ebe213a497eb7fd1ff7",
-      "894a5b5f987ec9420759864113d4c80b9024f86b33766719ca4628d33afe0e39"
+      "894a5b5f987ec9420759864113d4c80b9024f86b33766719ca4628d33afe0e39",
+      "63512e4d0ec64d3ccca93a2faff799734cdd14646a5eef0217bf00b7c3fa8289",
+      "3529bd023facc2e13810382513b9375c17c2e2b66b1c7fac954b27eb23dbe862"
     ],
-    "revision": 980
+    "revision": 981
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
