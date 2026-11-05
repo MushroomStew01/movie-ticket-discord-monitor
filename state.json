@@ -3,7 +3,7 @@
     "name": "Cineplex Cinemas Kitchener and VIP",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "fc6abdcf37fddc6d4365cd4aa0be9c89f5f54dd53edd1bed4bfc71b8584a9ba8",
+    "hash": "c084b364522b9300f7d88129f2cd16d99738f269394a9744ae3b6deac9e0be2b",
     "snapshot": {
       "page_title": "Cineplex Cinemas Kitchener and VIP",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-kitchener-and-vip",
@@ -103,7 +103,7 @@
           ],
           "dates": [],
           "context": "A Minecraft Movie 10:45 AM",
-          "url": "https://www.cineplex.com/movie/a-minecraft-movie-2026"
+          "url": "https://www.cineplex.com/movie/a-minecraft-movie-community-day"
         },
         "title:view-movie-details-for-paddington-2": {
           "title": "View movie details for Paddington 2",
@@ -114,7 +114,7 @@
           ],
           "dates": [],
           "context": "Paddington 2 10:15 AM",
-          "url": "https://www.cineplex.com/movie/paddington-2-2026"
+          "url": "https://www.cineplex.com/movie/paddington-2-community-day"
         },
         "title:view-movie-details-for-the-lego-movie": {
           "title": "View movie details for The Lego Movie",
@@ -136,7 +136,7 @@
           ],
           "dates": [],
           "context": "Tom & Jerry 10:00 AM",
-          "url": "https://www.cineplex.com/movie/tom-jerry-2026"
+          "url": "https://www.cineplex.com/movie/tom-jerry-community-day"
         },
         "title:wicker": {
           "title": "Wicker",
@@ -217,13 +217,13 @@
       "d930cb4a7fc01df6a06fdb2146d055ee1442ac725a3ed1d46f00bdd070a6305f",
       "5cd042fd555ab537dc27676f5869d8433829ded87a3860d71cd26c39d5aae53e"
     ],
-    "revision": 60
+    "revision": 61
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge": {
     "name": "Cineplex Cinemas Cambridge",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "037917d462218244d6f5c8bbcc0c2a315b115a3321725cc53611eae191342509",
+    "hash": "297690c88f387b7356a1f02265357f99f422a2b2c4ca5fe4e070b1e13add70e8",
     "snapshot": {
       "page_title": "Cineplex Cinemas Cambridge",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge",
@@ -253,6 +253,15 @@
           "showtimes": [],
           "dates": [],
           "context": "Avengers: Doomsday Advance tickets available",
+          "url": null
+        },
+        "title:carmen-encore-bizet-french-w-e-s-t-metropolitan-opera": {
+          "title": "Carmen Encore (Bizet) - French w/e.s.t. – Metropolitan Opera",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Carmen Encore (Bizet) - French w/e.s.t. – Metropolitan Opera Advance tickets available",
           "url": null
         },
         "title:clayface": {
@@ -300,15 +309,6 @@
           "context": "Ramayana (English Dubbed) Advance tickets available",
           "url": null
         },
-        "title:street-fighter": {
-          "title": "Street Fighter",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Street Fighter",
-          "url": null
-        },
         "title:the-cat-in-the-hat": {
           "title": "The Cat in the Hat",
           "ticket_available": true,
@@ -336,7 +336,7 @@
           ],
           "dates": [],
           "context": "A Minecraft Movie 10:45 AM",
-          "url": "https://www.cineplex.com/movie/a-minecraft-movie-2026"
+          "url": "https://www.cineplex.com/movie/a-minecraft-movie-community-day"
         },
         "title:view-movie-details-for-paddington-2": {
           "title": "View movie details for Paddington 2",
@@ -347,7 +347,7 @@
           ],
           "dates": [],
           "context": "Paddington 2 10:15 AM",
-          "url": "https://www.cineplex.com/movie/paddington-2-2026"
+          "url": "https://www.cineplex.com/movie/paddington-2-community-day"
         },
         "title:view-movie-details-for-the-lego-movie": {
           "title": "View movie details for The Lego Movie",
@@ -369,7 +369,7 @@
           ],
           "dates": [],
           "context": "Tom & Jerry 10:00 AM",
-          "url": "https://www.cineplex.com/movie/tom-jerry-2026"
+          "url": "https://www.cineplex.com/movie/tom-jerry-community-day"
         },
         "title:wildwood": {
           "title": "Wildwood",
@@ -453,15 +453,16 @@
       "80aaed72b2bdef338ccbdeae312f3af16e58933c0a6cc395512ee83fe42dc8b0",
       "effd56e7c19904e5f18d6ead359607a5809483bb908a59310a9388f07929cc4b",
       "ff866de95c904f070bf24e662fce00df16db70405ca7483daaa73d8881fd3583",
-      "9433deb5b200ba931108303bf2777e9f3a8f34fb4e34be2cebcf86c9c3a14654"
+      "9433deb5b200ba931108303bf2777e9f3a8f34fb4e34be2cebcf86c9c3a14654",
+      "06df908ab6986a3f81bf635c0cdc5b61909e68f39081c43df2d859c870d178c9"
     ],
-    "revision": 81
+    "revision": 82
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan": {
     "name": "Cineplex Cinemas Vaughan",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "8f3086f272f49aedf194da3788716f8dfd24cced8af8a3c314c72c0fe7aece4d",
+    "hash": "c1e36220f16329059d3d3b67e151cd53c742a1ddfcf8b225142d5a80fd606d13",
     "snapshot": {
       "page_title": "Cineplex Cinemas Vaughan",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan",
@@ -574,7 +575,7 @@
           ],
           "dates": [],
           "context": "A Minecraft Movie 10:45 AM",
-          "url": "https://www.cineplex.com/movie/a-minecraft-movie-2026"
+          "url": "https://www.cineplex.com/movie/a-minecraft-movie-community-day"
         },
         "title:view-movie-details-for-paddington-2": {
           "title": "View movie details for Paddington 2",
@@ -585,7 +586,7 @@
           ],
           "dates": [],
           "context": "Paddington 2 10:15 AM",
-          "url": "https://www.cineplex.com/movie/paddington-2-2026"
+          "url": "https://www.cineplex.com/movie/paddington-2-community-day"
         },
         "title:view-movie-details-for-the-lego-movie": {
           "title": "View movie details for The Lego Movie",
@@ -607,7 +608,7 @@
           ],
           "dates": [],
           "context": "Tom & Jerry 10:00 AM",
-          "url": "https://www.cineplex.com/movie/tom-jerry-2026"
+          "url": "https://www.cineplex.com/movie/tom-jerry-community-day"
         },
         "title:wild-horse-nine": {
           "title": "Wild Horse Nine",
@@ -670,13 +671,13 @@
       "c279fce37988a0f821baeff8515fee9dbb59cc8493a73d5092cc3ba47e1f6f53",
       "a60488aa220e5ce6eecedacf136206cc5b5bb06889a93d8ccae6a271c9adc266"
     ],
-    "revision": 55
+    "revision": 56
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one": {
     "name": "Cineplex Cinemas Mississauga Square One",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "e1de5f7166def69ef0c0070c876724703856e1a7d7b705e566f0cfb9e04980ca",
+    "hash": "94887ad35b2a7793546124ec4cadaff990e2bc7d40421b6b87cd7cc21ebb1b86",
     "snapshot": {
       "page_title": "Cineplex Cinemas Mississauga Square One",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one",
@@ -789,7 +790,7 @@
           ],
           "dates": [],
           "context": "A Minecraft Movie 10:45 AM",
-          "url": "https://www.cineplex.com/movie/a-minecraft-movie-2026"
+          "url": "https://www.cineplex.com/movie/a-minecraft-movie-community-day"
         },
         "title:view-movie-details-for-paddington-2": {
           "title": "View movie details for Paddington 2",
@@ -800,7 +801,7 @@
           ],
           "dates": [],
           "context": "Paddington 2 10:15 AM",
-          "url": "https://www.cineplex.com/movie/paddington-2-2026"
+          "url": "https://www.cineplex.com/movie/paddington-2-community-day"
         },
         "title:view-movie-details-for-the-lego-movie": {
           "title": "View movie details for The Lego Movie",
@@ -822,7 +823,7 @@
           ],
           "dates": [],
           "context": "Tom & Jerry 10:00 AM",
-          "url": "https://www.cineplex.com/movie/tom-jerry-2026"
+          "url": "https://www.cineplex.com/movie/tom-jerry-community-day"
         },
         "title:wild-horse-nine": {
           "title": "Wild Horse Nine",
@@ -887,13 +888,13 @@
       "89a1ed342c929eff9de5b6cdd6b01d2c1b2306d36fa401e91e8dcf54d74281a1",
       "35c2b88303de5d050e55adaf5e27eb98720e1a1e06fcdcc5635d4037dd87c7ea"
     ],
-    "revision": 58
+    "revision": 59
   },
   "https://www.cineplex.com/en?theatresNearYou=true": {
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "8d9ed33fa7d3cbd53c9b95855126db103ec4610b0b24054c1949deb9e654ebb9",
+    "hash": "d4c3ecb50edf6bd993bf2d34ddb2c2b086aeb6a8609bc306e77e8328bf4daa62",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -903,7 +904,6 @@
       "dates": [
         "Dec 18",
         "Dec 5",
-        "Nov 13",
         "Nov 14",
         "Nov 19",
         "Nov 20",
@@ -923,14 +923,13 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Odeon Westmount Cinemas and VIP",
+        "Cineplex Cinemas Abbotsford and VIP",
         "Advance tickets",
         "NOV 6",
         "NOV 5",
         "DEC 18",
         "NOV 20",
         "NOV 25",
-        "NOV 13",
         "Ramayana (Hindi w/e.s.t.) - An IMAX 3D Experience",
         "NOV 8",
         "NOV 7",
@@ -1006,17 +1005,6 @@
           ],
           "context": "Advance tickets DEC 18 Dune: Part Three Watch trailer",
           "url": "https://www.cineplex.com/movie/dune-part-three"
-        },
-        "title:ebenezer": {
-          "title": "Ebenezer",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [
-            "Nov 13"
-          ],
-          "context": "Advance tickets NOV 13 Ebenezer Watch trailer",
-          "url": "https://www.cineplex.com/movie/ebenezer"
         },
         "title:festive-fun-with-peppa-cinema-experience": {
           "title": "Festive Fun with Peppa Cinema Experience",
@@ -1237,6 +1225,15 @@
           "context": "Advance tickets NOV 20 The Hunger Games: Sunrise on the Reaping Watch trailer",
           "url": "https://www.cineplex.com/movie/the-hunger-games-sunrise-on-the-reaping"
         },
+        "title:view-movie-details-for-ebenezer": {
+          "title": "View movie details for Ebenezer",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "",
+          "url": "https://www.cineplex.com/movie/ebenezer"
+        },
         "title:wild-horse-nine": {
           "title": "Wild Horse Nine",
           "ticket_available": true,
@@ -1389,9 +1386,10 @@
       "c724ec3f8ccd13b1b4715bbd5378e75c40267a802313f610097f48c6dcdb2f6a",
       "f15fea701264fdbadbfe535bf6ff780bc42fabdce61e641345ac65383f8fbc66",
       "ebe17fef8e14fb788806438be02db8bd991c971db5364638baf594f1ffe41dae",
-      "c863f6d3d73f3a9c7fc6d727617355a6f195fdd6ff5a5f8a614d321bd57c509a"
+      "c863f6d3d73f3a9c7fc6d727617355a6f195fdd6ff5a5f8a614d321bd57c509a",
+      "1f45934b71f482d2ff1b9dedcb60a5b3f0c684b6bc6b0ebe213a497eb7fd1ff7"
     ],
-    "revision": 978
+    "revision": 979
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
