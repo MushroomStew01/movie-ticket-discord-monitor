@@ -223,7 +223,7 @@
     "name": "Cineplex Cinemas Cambridge",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "297690c88f387b7356a1f02265357f99f422a2b2c4ca5fe4e070b1e13add70e8",
+    "hash": "32a7be5296f4dac4a922f05952623d4ccdc860ac1ab14571b312c116e11396f1",
     "snapshot": {
       "page_title": "Cineplex Cinemas Cambridge",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge",
@@ -302,11 +302,11 @@
         },
         "title:ramayana-english-dubbed": {
           "title": "Ramayana (English Dubbed)",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Ramayana (English Dubbed) Advance tickets available",
+          "context": "Ramayana (English Dubbed)",
           "url": null
         },
         "title:the-cat-in-the-hat": {
@@ -456,13 +456,13 @@
       "9433deb5b200ba931108303bf2777e9f3a8f34fb4e34be2cebcf86c9c3a14654",
       "06df908ab6986a3f81bf635c0cdc5b61909e68f39081c43df2d859c870d178c9"
     ],
-    "revision": 82
+    "revision": 83
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan": {
     "name": "Cineplex Cinemas Vaughan",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "c1e36220f16329059d3d3b67e151cd53c742a1ddfcf8b225142d5a80fd606d13",
+    "hash": "5632443abea56a73f26b9095e4e3c7928186befac9b8a36d542a62e10fd72c71",
     "snapshot": {
       "page_title": "Cineplex Cinemas Vaughan",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan",
@@ -541,11 +541,11 @@
         },
         "title:ramayana-english-dubbed": {
           "title": "Ramayana (English Dubbed)",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Ramayana (English Dubbed) Advance tickets available",
+          "context": "Ramayana (English Dubbed)",
           "url": null
         },
         "title:the-cat-in-the-hat": {
@@ -671,13 +671,13 @@
       "c279fce37988a0f821baeff8515fee9dbb59cc8493a73d5092cc3ba47e1f6f53",
       "a60488aa220e5ce6eecedacf136206cc5b5bb06889a93d8ccae6a271c9adc266"
     ],
-    "revision": 56
+    "revision": 57
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one": {
     "name": "Cineplex Cinemas Mississauga Square One",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "94887ad35b2a7793546124ec4cadaff990e2bc7d40421b6b87cd7cc21ebb1b86",
+    "hash": "250a2df5fa849303e3c267ccfc42a4878381aec61e56d32326a5b656b0d8726d",
     "snapshot": {
       "page_title": "Cineplex Cinemas Mississauga Square One",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one",
@@ -756,11 +756,11 @@
         },
         "title:ramayana-english-dubbed": {
           "title": "Ramayana (English Dubbed)",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Ramayana (English Dubbed) Advance tickets available",
+          "context": "Ramayana (English Dubbed)",
           "url": null
         },
         "title:the-cat-in-the-hat": {
@@ -888,13 +888,13 @@
       "89a1ed342c929eff9de5b6cdd6b01d2c1b2306d36fa401e91e8dcf54d74281a1",
       "35c2b88303de5d050e55adaf5e27eb98720e1a1e06fcdcc5635d4037dd87c7ea"
     ],
-    "revision": 59
+    "revision": 60
   },
   "https://www.cineplex.com/en?theatresNearYou=true": {
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "d4c3ecb50edf6bd993bf2d34ddb2c2b086aeb6a8609bc306e77e8328bf4daa62",
+    "hash": "8db95c8705ab5a272794a3f1c635063c31b571c97d57110a5af7bcd48b8d25b8",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -909,7 +909,6 @@
         "Nov 20",
         "Nov 23",
         "Nov 25",
-        "Nov 5",
         "Nov 6",
         "Nov 7",
         "Nov 8"
@@ -926,7 +925,6 @@
         "Cineplex Cinemas Abbotsford and VIP",
         "Advance tickets",
         "NOV 6",
-        "NOV 5",
         "DEC 18",
         "NOV 20",
         "NOV 25",
@@ -1006,6 +1004,15 @@
           "context": "Advance tickets DEC 18 Dune: Part Three Watch trailer",
           "url": "https://www.cineplex.com/movie/dune-part-three"
         },
+        "title:english-dubbed-ramayana-english-dubbed": {
+          "title": "English (dubbed) Ramayana (English Dubbed)",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "English (dubbed) Ramayana (English Dubbed) Watch trailer",
+          "url": "https://www.cineplex.com/movie/ramayana-english-dubbed"
+        },
         "title:festive-fun-with-peppa-cinema-experience": {
           "title": "Festive Fun with Peppa Cinema Experience",
           "ticket_available": true,
@@ -1052,13 +1059,11 @@
         },
         "title:golden-boy-national-theatre-live": {
           "title": "Golden Boy - National Theatre Live",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Nov 5"
-          ],
-          "context": "Advance tickets NOV 5 Golden Boy - National Theatre Live Watch trailer",
+          "dates": [],
+          "context": "Golden Boy - National Theatre Live Watch trailer",
           "url": "https://www.cineplex.com/movie/golden-boy-national-theatre-live"
         },
         "title:heated-rivalry-marathon": {
@@ -1091,6 +1096,26 @@
           "dates": [],
           "context": "Hindi Drishyam - The Conclusion (Hindi w/e.s.t.)",
           "url": "https://www.cineplex.com/movie/drishyam-the-conclusion-hindi-west"
+        },
+        "title:hindi-ramayana-hindi-w-e-s-t": {
+          "title": "Hindi Ramayana (Hindi w/e.s.t.)",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Hindi Ramayana (Hindi w/e.s.t.) Watch trailer",
+          "url": "https://www.cineplex.com/movie/est-ramayana-hindi-west"
+        },
+        "title:hindi-ramayana-hindi-w-e-s-t-an-imax-3d-experience": {
+          "title": "Hindi Ramayana (Hindi w/e.s.t.) - An IMAX 3D Experience",
+          "ticket_available": false,
+          "formats": [
+            "IMAX"
+          ],
+          "showtimes": [],
+          "dates": [],
+          "context": "Hindi Ramayana (Hindi w/e.s.t.) - An IMAX 3D Experience Watch trailer",
+          "url": "https://www.cineplex.com/movie/imax3dest-ramayana-hindi-west-the-imax"
         },
         "title:hindi-udta-teer-hindi-w-e-s-t": {
           "title": "Hindi Udta Teer (Hindi w/e.s.t.)",
@@ -1138,41 +1163,6 @@
           "dates": [],
           "context": "Punjabi Patakka Guddiyan (Punjabi w/e.s.t.)",
           "url": "https://www.cineplex.com/movie/patakka-guddiyan-punjabi-west"
-        },
-        "title:ramayana-english-dubbed": {
-          "title": "Ramayana (English Dubbed)",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [
-            "Nov 5"
-          ],
-          "context": "Advance tickets NOV 5 Ramayana (English Dubbed) Watch trailer",
-          "url": "https://www.cineplex.com/movie/ramayana-english-dubbed"
-        },
-        "title:ramayana-hindi-w-e-s-t": {
-          "title": "Ramayana (Hindi w/e.s.t.)",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [
-            "Nov 5"
-          ],
-          "context": "Advance Tickets NOV 5 Ramayana (Hindi w/e.s.t.) Watch trailer",
-          "url": "https://www.cineplex.com/movie/est-ramayana-hindi-west"
-        },
-        "title:ramayana-hindi-w-e-s-t-an-imax-3d-experience": {
-          "title": "Ramayana (Hindi w/e.s.t.) - An IMAX 3D Experience",
-          "ticket_available": true,
-          "formats": [
-            "IMAX"
-          ],
-          "showtimes": [],
-          "dates": [
-            "Nov 5"
-          ],
-          "context": "Advance Tickets NOV 5 Ramayana (Hindi w/e.s.t.) - An IMAX 3D Experience Watch trailer",
-          "url": "https://www.cineplex.com/movie/imax3dest-ramayana-hindi-west-the-imax"
         },
         "title:rammstein-live-in-mexico-city-german": {
           "title": "Rammstein - Live in Mexico City (German)",
@@ -1387,9 +1377,10 @@
       "f15fea701264fdbadbfe535bf6ff780bc42fabdce61e641345ac65383f8fbc66",
       "ebe17fef8e14fb788806438be02db8bd991c971db5364638baf594f1ffe41dae",
       "c863f6d3d73f3a9c7fc6d727617355a6f195fdd6ff5a5f8a614d321bd57c509a",
-      "1f45934b71f482d2ff1b9dedcb60a5b3f0c684b6bc6b0ebe213a497eb7fd1ff7"
+      "1f45934b71f482d2ff1b9dedcb60a5b3f0c684b6bc6b0ebe213a497eb7fd1ff7",
+      "894a5b5f987ec9420759864113d4c80b9024f86b33766719ca4628d33afe0e39"
     ],
-    "revision": 979
+    "revision": 980
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
@@ -1422,6 +1413,6 @@
     "revision": 9
   },
   "_meta": {
-    "last_heartbeat_at_utc": "2026-11-04T09:46:31.489033+00:00"
+    "last_heartbeat_at_utc": "2026-11-05T09:58:19.095163+00:00"
   }
 }
