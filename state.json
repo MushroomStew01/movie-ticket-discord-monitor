@@ -3,7 +3,7 @@
     "name": "Cineplex Cinemas Kitchener and VIP",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "c084b364522b9300f7d88129f2cd16d99738f269394a9744ae3b6deac9e0be2b",
+    "hash": "817df4e5d1fd092581a45cfd3599b4d28ee4f8b081302eb0e2dbdac231087ec9",
     "snapshot": {
       "page_title": "Cineplex Cinemas Kitchener and VIP",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-kitchener-and-vip",
@@ -28,7 +28,7 @@
         "10:30 AM",
         "10:45 AM",
         "Advance tickets available",
-        "Tuesdays taste better in Cineplex VIP. Enjoy TACOS & TEQUILA every Tuesday with $5 Tacos and 10$ Select Tequila Drinks"
+        "Tuesdays taste better in Cineplex VIP. Enjoy TACOS & TEQUILA every Tuesday with $5 Tacos and $10 Select Tequila Drinks"
       ],
       "movies": {
         "title:avengers-doomsday": {
@@ -217,7 +217,7 @@
       "d930cb4a7fc01df6a06fdb2146d055ee1442ac725a3ed1d46f00bdd070a6305f",
       "5cd042fd555ab537dc27676f5869d8433829ded87a3860d71cd26c39d5aae53e"
     ],
-    "revision": 61
+    "revision": 62
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge": {
     "name": "Cineplex Cinemas Cambridge",
@@ -897,7 +897,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "a66afcb6be2c1b1e6634b06878e3f34bcd99807d844b1a2b82d0fcf9daa521ed",
+    "hash": "3260abcdc9bb5e991e62f2308fae8ac4f7fc27fae2672d7f79d91af04410249e",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -926,7 +926,8 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Cinemas Abbotsford and VIP",
+        "Cineplex Cinemas Oakville and VIP",
+        "Cineplex Cinemas Winston Churchill & VIP",
         "Advance tickets",
         "NOV 6",
         "DEC 18",
@@ -1389,7 +1390,7 @@
       "63512e4d0ec64d3ccca93a2faff799734cdd14646a5eef0217bf00b7c3fa8289",
       "3529bd023facc2e13810382513b9375c17c2e2b66b1c7fac954b27eb23dbe862"
     ],
-    "revision": 981
+    "revision": 982
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
