@@ -3,7 +3,7 @@
     "name": "Cineplex Cinemas Kitchener and VIP",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "817df4e5d1fd092581a45cfd3599b4d28ee4f8b081302eb0e2dbdac231087ec9",
+    "hash": "a58d01f2f82883943095f9f7c6aa3aa413d14f51d773b6aa7cd538eb394ba5a7",
     "snapshot": {
       "page_title": "Cineplex Cinemas Kitchener and VIP",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-kitchener-and-vip",
@@ -60,11 +60,11 @@
         },
         "title:godzilla-minus-zero-japanese-w-e-s-t": {
           "title": "Godzilla Minus Zero (Japanese w/e.s.t.)",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Godzilla Minus Zero (Japanese w/e.s.t.) Advance tickets available",
+          "context": "Godzilla Minus Zero (Japanese w/e.s.t.)",
           "url": null
         },
         "title:other-mommy": {
@@ -78,11 +78,11 @@
         },
         "title:the-cat-in-the-hat": {
           "title": "The Cat in the Hat",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "The Cat in the Hat Advance tickets available",
+          "context": "The Cat in the Hat",
           "url": null
         },
         "title:the-hunger-games-sunrise-on-the-reaping": {
@@ -149,11 +149,11 @@
         },
         "title:wild-horse-nine": {
           "title": "Wild Horse Nine",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Wild Horse Nine Advance tickets available",
+          "context": "Wild Horse Nine",
           "url": null
         },
         "title:wildwood": {
@@ -217,13 +217,13 @@
       "d930cb4a7fc01df6a06fdb2146d055ee1442ac725a3ed1d46f00bdd070a6305f",
       "5cd042fd555ab537dc27676f5869d8433829ded87a3860d71cd26c39d5aae53e"
     ],
-    "revision": 62
+    "revision": 63
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge": {
     "name": "Cineplex Cinemas Cambridge",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "a27c6dfa86981230820446684402cadab89f5dd0c48019c51cf380a32554936a",
+    "hash": "8c33fd5e48b5255fcd5bf639da11938805a5081f182df95af66302c03eb87937",
     "snapshot": {
       "page_title": "Cineplex Cinemas Cambridge",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge",
@@ -293,11 +293,11 @@
         },
         "title:godzilla-minus-zero-japanese-w-e-s-t": {
           "title": "Godzilla Minus Zero (Japanese w/e.s.t.)",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Godzilla Minus Zero (Japanese w/e.s.t.) Advance tickets available",
+          "context": "Godzilla Minus Zero (Japanese w/e.s.t.)",
           "url": null
         },
         "title:hexed": {
@@ -311,11 +311,11 @@
         },
         "title:the-cat-in-the-hat": {
           "title": "The Cat in the Hat",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "The Cat in the Hat Advance tickets available",
+          "context": "The Cat in the Hat",
           "url": null
         },
         "title:the-hunger-games-sunrise-on-the-reaping": {
@@ -458,13 +458,13 @@
       "a9777d6c1607ad614e7e5e7bb4bc4afb89d0c030c0c35c1af871d508ef809a35",
       "0d430748fead043e6a77da6a35ddc4b30f4fc30c4c49daec3dda17bcde9d3620"
     ],
-    "revision": 85
+    "revision": 86
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan": {
     "name": "Cineplex Cinemas Vaughan",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "1321c2a145526bbeaa086133279b8c4002815934259d250c04672f8652bc55f7",
+    "hash": "f8bdac758289c6a1cc39f6a20408107a71660161f727a272673f04ee9f4bb264",
     "snapshot": {
       "page_title": "Cineplex Cinemas Vaughan",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan",
@@ -525,11 +525,11 @@
         },
         "title:godzilla-minus-zero-japanese-w-e-s-t": {
           "title": "Godzilla Minus Zero (Japanese w/e.s.t.)",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Godzilla Minus Zero (Japanese w/e.s.t.) Advance tickets available",
+          "context": "Godzilla Minus Zero (Japanese w/e.s.t.)",
           "url": null
         },
         "title:hexed": {
@@ -552,11 +552,11 @@
         },
         "title:the-cat-in-the-hat": {
           "title": "The Cat in the Hat",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "The Cat in the Hat Advance tickets available",
+          "context": "The Cat in the Hat",
           "url": null
         },
         "title:the-hunger-games-sunrise-on-the-reaping": {
@@ -614,11 +614,11 @@
         },
         "title:wild-horse-nine": {
           "title": "Wild Horse Nine",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Wild Horse Nine Advance tickets available",
+          "context": "Wild Horse Nine",
           "url": null
         },
         "title:you-can-see-everything": {
@@ -674,13 +674,13 @@
       "a60488aa220e5ce6eecedacf136206cc5b5bb06889a93d8ccae6a271c9adc266",
       "7d7cadc04bc61ae450e295e296577f8328169a31868504dcc66adce6449536d5"
     ],
-    "revision": 58
+    "revision": 59
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one": {
     "name": "Cineplex Cinemas Mississauga Square One",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "b75671ade4a250435394048e2b31c24a29933e3be54a8815c6f77c008fabee09",
+    "hash": "73925857d03b8aa2674f5170f70e817d21354d2be819d55147b05f893447ba2f",
     "snapshot": {
       "page_title": "Cineplex Cinemas Mississauga Square One",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one",
@@ -741,11 +741,11 @@
         },
         "title:godzilla-minus-zero-japanese-w-e-s-t": {
           "title": "Godzilla Minus Zero (Japanese w/e.s.t.)",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Godzilla Minus Zero (Japanese w/e.s.t.) Advance tickets available",
+          "context": "Godzilla Minus Zero (Japanese w/e.s.t.)",
           "url": null
         },
         "title:hexed": {
@@ -768,11 +768,11 @@
         },
         "title:the-cat-in-the-hat": {
           "title": "The Cat in the Hat",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "The Cat in the Hat Advance tickets available",
+          "context": "The Cat in the Hat",
           "url": null
         },
         "title:the-hunger-games-sunrise-on-the-reaping": {
@@ -830,11 +830,11 @@
         },
         "title:wild-horse-nine": {
           "title": "Wild Horse Nine",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Wild Horse Nine Advance tickets available",
+          "context": "Wild Horse Nine",
           "url": null
         },
         "title:you-can-see-everything": {
@@ -892,13 +892,13 @@
       "35c2b88303de5d050e55adaf5e27eb98720e1a1e06fcdcc5635d4037dd87c7ea",
       "41f9b7b20cd29beee85416edf5b46f3f493f7a46c7c64031fa028b1bb7713531"
     ],
-    "revision": 61
+    "revision": 62
   },
   "https://www.cineplex.com/en?theatresNearYou=true": {
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "b9f87d6e65adfd59c22b7c4a8aa2b2306f917408d69682c4835979461d13a218",
+    "hash": "d48ebc2b708bfdac920b003729daba9066ee7f0bb3711e7dcebb86aae4b78aee",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -914,7 +914,6 @@
         "Nov 20",
         "Nov 23",
         "Nov 25",
-        "Nov 6",
         "Nov 7",
         "Nov 8"
       ],
@@ -927,10 +926,9 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Odeon Westmount Cinemas and VIP",
-        "Cineplex Cinemas Kitchener and VIP",
+        "Cineplex Cinemas Oakville and VIP",
+        "Cineplex Cinemas Winston Churchill & VIP",
         "Advance tickets",
-        "NOV 6",
         "DEC 18",
         "NOV 20",
         "NOV 25",
@@ -1042,6 +1040,15 @@
           "context": "Advance tickets NOV 14 Festive Fun with Peppa Cinema Experience Watch trailer",
           "url": "https://www.cineplex.com/movie/festive-fun-with-peppa-cinema-experience"
         },
+        "title:filipino-pee-mak-filipino-w-e-s-t": {
+          "title": "Filipino Pee Mak (Filipino w/e.s.t.)",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Filipino Pee Mak (Filipino w/e.s.t.)",
+          "url": "https://www.cineplex.com/movie/pee-mak-filipino-west"
+        },
         "title:focker-in-law": {
           "title": "Focker in-Law",
           "ticket_available": true,
@@ -1066,13 +1073,11 @@
         },
         "title:godzilla-minus-zero-japanese-w-e-s-t": {
           "title": "Godzilla Minus Zero (Japanese w/e.s.t.)",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Nov 6"
-          ],
-          "context": "Advance tickets NOV 6 Godzilla Minus Zero (Japanese w/e.s.t.) Watch trailer",
+          "dates": [],
+          "context": "Godzilla Minus Zero (Japanese w/e.s.t.) Watch trailer",
           "url": "https://www.cineplex.com/movie/godzilla-minus-zero-japanese-west"
         },
         "title:golden-boy-national-theatre-live": {
@@ -1144,6 +1149,15 @@
           "context": "Hindi Udta Teer (Hindi w/e.s.t.)",
           "url": "https://www.cineplex.com/movie/udta-teer-hindi-west"
         },
+        "title:korean-paradise-lost-korean-w-e-s-t": {
+          "title": "Korean Paradise Lost (Korean w/e.s.t.)",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Korean Paradise Lost (Korean w/e.s.t.)",
+          "url": "https://www.cineplex.com/movie/paradise-lost-korean-west"
+        },
         "title:mandarin-once-upon-a-time-in-the-middle-east-mandarin-w-chinese-and-e-s-t": {
           "title": "Mandarin Once Upon a Time in the Middle East (Mandarin w/Chinese and e.s.t.)",
           "ticket_available": false,
@@ -1153,17 +1167,6 @@
           "context": "Mandarin Once Upon a Time in the Middle East (Mandarin w/Chinese and e.s.t.) Watch trailer",
           "url": "https://www.cineplex.com/movie/once-upon-a-time-in-the-middle-east-mandarin-wchinese-and-est"
         },
-        "title:paradise-lost-korean-w-e-s-t": {
-          "title": "Paradise Lost (Korean w/e.s.t.)",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [
-            "Nov 6"
-          ],
-          "context": "Advance Tickets NOV 6 Paradise Lost (Korean w/e.s.t.)",
-          "url": "https://www.cineplex.com/movie/paradise-lost-korean-west"
-        },
         "title:punjabi-eh-din-roz-ni-aune-punjabi-w-e-s-t": {
           "title": "Punjabi Eh Din Roz Ni Aune (Punjabi w/e.s.t.)",
           "ticket_available": false,
@@ -1172,15 +1175,6 @@
           "dates": [],
           "context": "Punjabi Eh Din Roz Ni Aune (Punjabi w/e.s.t.)",
           "url": "https://www.cineplex.com/movie/eh-din-roz-ni-aune-punjabi-west"
-        },
-        "title:punjabi-patakka-guddiyan-punjabi-w-e-s-t": {
-          "title": "Punjabi Patakka Guddiyan (Punjabi w/e.s.t.)",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Punjabi Patakka Guddiyan (Punjabi w/e.s.t.)",
-          "url": "https://www.cineplex.com/movie/patakka-guddiyan-punjabi-west"
         },
         "title:rammstein-live-in-mexico-city-german": {
           "title": "Rammstein - Live in Mexico City (German)",
@@ -1213,13 +1207,11 @@
         },
         "title:the-cat-in-the-hat": {
           "title": "The Cat in the Hat",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Nov 6"
-          ],
-          "context": "Advance tickets NOV 6 The Cat in the Hat Watch trailer",
+          "dates": [],
+          "context": "The Cat in the Hat Watch trailer",
           "url": "https://www.cineplex.com/movie/the-cat-in-the-hat"
         },
         "title:the-hunger-games-sunrise-on-the-reaping": {
@@ -1235,13 +1227,11 @@
         },
         "title:wild-horse-nine": {
           "title": "Wild Horse Nine",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Nov 6"
-          ],
-          "context": "Advance tickets NOV 6 Wild Horse Nine Watch trailer",
+          "dates": [],
+          "context": "Wild Horse Nine Watch trailer",
           "url": "https://www.cineplex.com/movie/wild-horse-nine"
         },
         "title:you-can-see-everything": {
@@ -1389,9 +1379,10 @@
       "1f45934b71f482d2ff1b9dedcb60a5b3f0c684b6bc6b0ebe213a497eb7fd1ff7",
       "894a5b5f987ec9420759864113d4c80b9024f86b33766719ca4628d33afe0e39",
       "63512e4d0ec64d3ccca93a2faff799734cdd14646a5eef0217bf00b7c3fa8289",
-      "3529bd023facc2e13810382513b9375c17c2e2b66b1c7fac954b27eb23dbe862"
+      "3529bd023facc2e13810382513b9375c17c2e2b66b1c7fac954b27eb23dbe862",
+      "388ec2208c82b33fa8f7d1c548618544d33c745c7041a1459703b22f844886b6"
     ],
-    "revision": 983
+    "revision": 984
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
@@ -1424,6 +1415,6 @@
     "revision": 9
   },
   "_meta": {
-    "last_heartbeat_at_utc": "2026-11-05T09:58:19.095163+00:00"
+    "last_heartbeat_at_utc": "2026-11-06T10:07:05.904862+00:00"
   }
 }
