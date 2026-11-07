@@ -898,7 +898,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "0033ab9bddf11360190381c8f459281fc5a3628034eaa50f87b4f3971fde38da",
+    "hash": "886f0c1c952c077664797d430a37a829ccd105c75ccff798149a7050a6cb4f64",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -908,7 +908,6 @@
       "dates": [
         "Dec 18",
         "Dec 5",
-        "Nov 13",
         "Nov 14",
         "Nov 19",
         "Nov 20",
@@ -931,7 +930,6 @@
         "DEC 18",
         "NOV 20",
         "NOV 25",
-        "NOV 13",
         "Ramayana (Hindi w/e.s.t.) - An IMAX 3D Experience",
         "NOV 8",
         "NOV 23",
@@ -1006,17 +1004,6 @@
           ],
           "context": "Advance tickets DEC 18 Dune: Part Three Watch trailer",
           "url": "https://www.cineplex.com/movie/dune-part-three"
-        },
-        "title:ebenezer": {
-          "title": "Ebenezer",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [
-            "Nov 13"
-          ],
-          "context": "Advance tickets NOV 13 Ebenezer Watch trailer",
-          "url": "https://www.cineplex.com/movie/ebenezer"
         },
         "title:english-dubbed-ramayana-english-dubbed": {
           "title": "English (dubbed) Ramayana (English Dubbed)",
@@ -1221,6 +1208,15 @@
           "context": "Advance tickets NOV 20 The Hunger Games: Sunrise on the Reaping Watch trailer",
           "url": "https://www.cineplex.com/movie/the-hunger-games-sunrise-on-the-reaping"
         },
+        "title:view-movie-details-for-ebenezer": {
+          "title": "View movie details for Ebenezer",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "",
+          "url": "https://www.cineplex.com/movie/ebenezer"
+        },
         "title:wild-horse-nine": {
           "title": "Wild Horse Nine",
           "ticket_available": false,
@@ -1380,9 +1376,10 @@
       "b058f11148d1ea90ea8be5b63a85635432e00033980f031792ace3ad4a0dc25a",
       "a88b4ea02ee059cec70181cbc7516abebe04c036be222ef4bde018f58e56b25d",
       "09de146030c197b1c078ba4665106dad91dbf7ccde8964c3e740deb54f15cd27",
-      "78ba9867b0bb3edef41acfacef18d1497ea059a6578990aab3a4c33f6a636b42"
+      "78ba9867b0bb3edef41acfacef18d1497ea059a6578990aab3a4c33f6a636b42",
+      "fc50688ae50bc00836206b2a976aab003d1c75e02bb2769039422b4ebddb19c3"
     ],
-    "revision": 990
+    "revision": 991
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
