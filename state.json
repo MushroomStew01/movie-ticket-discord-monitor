@@ -898,7 +898,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "ec4fd6f302e1c2cceea2fe43de39e554ddf929a98dcd42b79bf06c670fe4b3a4",
+    "hash": "fef4663bc933cb5d9558e06c91ff757558dd3152ee1e62987eaeb1c94d570938",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -913,7 +913,6 @@
         "Nov 20",
         "Nov 23",
         "Nov 25",
-        "Nov 7",
         "Nov 8"
       ],
       "formats": [
@@ -932,7 +931,6 @@
         "NOV 25",
         "Ramayana (Hindi w/e.s.t.) - An IMAX 3D Experience",
         "NOV 8",
-        "NOV 7",
         "NOV 23",
         "NOV 14",
         "NOV 19",
@@ -1173,13 +1171,11 @@
         },
         "title:stray-kids-world-tour-run-it-live-viewing": {
           "title": "Stray Kids World Tour RUN IT LIVE VIEWING",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Nov 7"
-          ],
-          "context": "Advance tickets NOV 7 Stray Kids World Tour RUN IT LIVE VIEWING Watch trailer",
+          "dates": [],
+          "context": "Stray Kids World Tour RUN IT LIVE VIEWING Watch trailer",
           "url": "https://www.cineplex.com/movie/stray-kids-world-tour-run-it-live-viewing"
         },
         "title:tagalog-always-yours-never-mine-tagalog-w-e-s-t": {
@@ -1380,7 +1376,7 @@
       "a88b4ea02ee059cec70181cbc7516abebe04c036be222ef4bde018f58e56b25d",
       "09de146030c197b1c078ba4665106dad91dbf7ccde8964c3e740deb54f15cd27"
     ],
-    "revision": 987
+    "revision": 988
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
