@@ -464,7 +464,7 @@
     "name": "Cineplex Cinemas Vaughan",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "f8bdac758289c6a1cc39f6a20408107a71660161f727a272673f04ee9f4bb264",
+    "hash": "beda70d3af59a8c3449dad56190c40fb5ede3c192e2b96323a272a789f14fe62",
     "snapshot": {
       "page_title": "Cineplex Cinemas Vaughan",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan",
@@ -541,13 +541,13 @@
           "context": "Hexed Advance tickets available",
           "url": null
         },
-        "title:ramayana-english-dubbed": {
-          "title": "Ramayana (English Dubbed)",
-          "ticket_available": false,
+        "title:how-to-rob-a-bank": {
+          "title": "How to Rob a Bank",
+          "ticket_available": true,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Ramayana (English Dubbed)",
+          "context": "How to Rob a Bank Advance tickets available",
           "url": null
         },
         "title:the-cat-in-the-hat": {
@@ -672,9 +672,10 @@
       "340bf0f996f74af4118ca9ee64f970b16a419775e5098bb90da241be0863cedc",
       "c279fce37988a0f821baeff8515fee9dbb59cc8493a73d5092cc3ba47e1f6f53",
       "a60488aa220e5ce6eecedacf136206cc5b5bb06889a93d8ccae6a271c9adc266",
-      "7d7cadc04bc61ae450e295e296577f8328169a31868504dcc66adce6449536d5"
+      "7d7cadc04bc61ae450e295e296577f8328169a31868504dcc66adce6449536d5",
+      "58e3d3fadfbfa147aad8d8469d25f3b354a291984a9861e34bc2a8cc98621c06"
     ],
-    "revision": 59
+    "revision": 60
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one": {
     "name": "Cineplex Cinemas Mississauga Square One",
@@ -898,7 +899,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "5ad6da6410e8c7005bbe879b1d2e9bf685c28ce5d5855c470ce467fffd0b255c",
+    "hash": "2b75657babe19b13575e2dbad805d8cea5c4909810582eabb9e0bf249ee88a17",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -908,7 +909,6 @@
       "dates": [
         "Dec 18",
         "Dec 5",
-        "Nov 13",
         "Nov 14",
         "Nov 19",
         "Nov 20",
@@ -924,12 +924,12 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Odeon Westmount Cinemas and VIP",
+        "Cineplex Cinemas Oakville and VIP",
+        "Cineplex Cinemas Winston Churchill & VIP",
         "Advance tickets",
         "DEC 18",
         "NOV 20",
         "NOV 25",
-        "NOV 13",
         "Ramayana (Hindi w/e.s.t.) - An IMAX 3D Experience",
         "NOV 23",
         "NOV 14",
@@ -1003,17 +1003,6 @@
           ],
           "context": "Advance tickets DEC 18 Dune: Part Three Watch trailer",
           "url": "https://www.cineplex.com/movie/dune-part-three"
-        },
-        "title:ebenezer": {
-          "title": "Ebenezer",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [
-            "Nov 13"
-          ],
-          "context": "Advance tickets NOV 13 Ebenezer Watch trailer",
-          "url": "https://www.cineplex.com/movie/ebenezer"
         },
         "title:english-dubbed-ramayana-english-dubbed": {
           "title": "English (dubbed) Ramayana (English Dubbed)",
@@ -1216,6 +1205,15 @@
           "context": "Advance tickets NOV 20 The Hunger Games: Sunrise on the Reaping Watch trailer",
           "url": "https://www.cineplex.com/movie/the-hunger-games-sunrise-on-the-reaping"
         },
+        "title:view-movie-details-for-ebenezer": {
+          "title": "View movie details for Ebenezer",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "",
+          "url": "https://www.cineplex.com/movie/ebenezer"
+        },
         "title:wild-horse-nine": {
           "title": "Wild Horse Nine",
           "ticket_available": false,
@@ -1377,9 +1375,10 @@
       "09de146030c197b1c078ba4665106dad91dbf7ccde8964c3e740deb54f15cd27",
       "78ba9867b0bb3edef41acfacef18d1497ea059a6578990aab3a4c33f6a636b42",
       "fc50688ae50bc00836206b2a976aab003d1c75e02bb2769039422b4ebddb19c3",
-      "4b52f31d4630642b9dc3d7d4e733927d5374a64c037b61a7a363ee9ba57413cf"
+      "4b52f31d4630642b9dc3d7d4e733927d5374a64c037b61a7a363ee9ba57413cf",
+      "a4c44b0441832625d237ad53ed5db007dbd84dcca4a09636266147e96a5d2c2f"
     ],
-    "revision": 994
+    "revision": 995
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
