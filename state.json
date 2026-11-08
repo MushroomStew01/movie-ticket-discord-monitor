@@ -899,7 +899,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "2b75657babe19b13575e2dbad805d8cea5c4909810582eabb9e0bf249ee88a17",
+    "hash": "d27f68f5540bd7d29bced52b60640b38055e764e333e1863e9a61c04b3c43332",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -909,6 +909,7 @@
       "dates": [
         "Dec 18",
         "Dec 5",
+        "Nov 13",
         "Nov 14",
         "Nov 19",
         "Nov 20",
@@ -924,12 +925,12 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Cinemas Oakville and VIP",
-        "Cineplex Cinemas Winston Churchill & VIP",
+        "Cineplex Odeon McGillivray Cinemas and VIP",
         "Advance tickets",
         "DEC 18",
         "NOV 20",
         "NOV 25",
+        "NOV 13",
         "Ramayana (Hindi w/e.s.t.) - An IMAX 3D Experience",
         "NOV 23",
         "NOV 14",
@@ -1003,6 +1004,17 @@
           ],
           "context": "Advance tickets DEC 18 Dune: Part Three Watch trailer",
           "url": "https://www.cineplex.com/movie/dune-part-three"
+        },
+        "title:ebenezer": {
+          "title": "Ebenezer",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [
+            "Nov 13"
+          ],
+          "context": "Advance tickets NOV 13 Ebenezer Watch trailer",
+          "url": "https://www.cineplex.com/movie/ebenezer"
         },
         "title:english-dubbed-ramayana-english-dubbed": {
           "title": "English (dubbed) Ramayana (English Dubbed)",
@@ -1205,15 +1217,6 @@
           "context": "Advance tickets NOV 20 The Hunger Games: Sunrise on the Reaping Watch trailer",
           "url": "https://www.cineplex.com/movie/the-hunger-games-sunrise-on-the-reaping"
         },
-        "title:view-movie-details-for-ebenezer": {
-          "title": "View movie details for Ebenezer",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "",
-          "url": "https://www.cineplex.com/movie/ebenezer"
-        },
         "title:wild-horse-nine": {
           "title": "Wild Horse Nine",
           "ticket_available": false,
@@ -1376,9 +1379,10 @@
       "78ba9867b0bb3edef41acfacef18d1497ea059a6578990aab3a4c33f6a636b42",
       "fc50688ae50bc00836206b2a976aab003d1c75e02bb2769039422b4ebddb19c3",
       "4b52f31d4630642b9dc3d7d4e733927d5374a64c037b61a7a363ee9ba57413cf",
-      "a4c44b0441832625d237ad53ed5db007dbd84dcca4a09636266147e96a5d2c2f"
+      "a4c44b0441832625d237ad53ed5db007dbd84dcca4a09636266147e96a5d2c2f",
+      "911eb844396cde4691b5851c5c60faee129bdf7ba0724eeaeee9cf6bc034a187"
     ],
-    "revision": 995
+    "revision": 996
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
