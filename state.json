@@ -898,7 +898,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "fcc9bed32c7e824b46a433c759f3ae8496629c2fdad38709dbc5b71ce87c948c",
+    "hash": "6f5712b8bca1d50f60b69b2b75fece30e2d8785910be01be3ceeb02ebe85cf12",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -912,8 +912,7 @@
         "Nov 19",
         "Nov 20",
         "Nov 23",
-        "Nov 25",
-        "Nov 8"
+        "Nov 25"
       ],
       "formats": [
         "4DX",
@@ -924,14 +923,12 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Cinemas Oakville and VIP",
-        "Cineplex Cinemas Winston Churchill & VIP",
+        "Cineplex Odeon Westmount Cinemas and VIP",
         "Advance tickets",
         "DEC 18",
         "NOV 20",
         "NOV 25",
         "Ramayana (Hindi w/e.s.t.) - An IMAX 3D Experience",
-        "NOV 8",
         "NOV 23",
         "NOV 14",
         "NOV 19",
@@ -1076,13 +1073,11 @@
         },
         "title:heated-rivalry-marathon": {
           "title": "HEATED RIVALRY - MARATHON",
-          "ticket_available": true,
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
-          "dates": [
-            "Nov 8"
-          ],
-          "context": "Advance tickets NOV 8 HEATED RIVALRY - MARATHON",
+          "dates": [],
+          "context": "HEATED RIVALRY - MARATHON",
           "url": "https://www.cineplex.com/movie/heated-rivalry-marathon"
         },
         "title:hexed": {
@@ -1379,7 +1374,7 @@
       "78ba9867b0bb3edef41acfacef18d1497ea059a6578990aab3a4c33f6a636b42",
       "fc50688ae50bc00836206b2a976aab003d1c75e02bb2769039422b4ebddb19c3"
     ],
-    "revision": 992
+    "revision": 993
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
