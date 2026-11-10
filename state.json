@@ -899,7 +899,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "6321def4a81bdf4f39d66e594d692daaf9dd60b854f5847a20d5b64720567187",
+    "hash": "863e80258e8e31a208d438ddc1eddf5eae2ab1209491036eb91d78fa0935cecb",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -909,6 +909,7 @@
       "dates": [
         "Dec 18",
         "Dec 5",
+        "Nov 13",
         "Nov 14",
         "Nov 19",
         "Nov 20",
@@ -924,11 +925,13 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Odeon McGillivray Cinemas and VIP",
+        "Cineplex Cinemas Abbotsford and VIP",
+        "Cineplex Cinemas Seton and VIP",
         "Advance tickets",
         "DEC 18",
         "NOV 20",
         "NOV 25",
+        "NOV 13",
         "Ramayana (Hindi w/e.s.t.) - An IMAX 3D Experience",
         "NOV 23",
         "NOV 14",
@@ -945,7 +948,7 @@
           "dates": [
             "Dec 5"
           ],
-          "context": "Advance tickets DEC 5 André Rieu's 2026 Christmas Concert: Let it Snow",
+          "context": "Advance tickets DEC 5 André Rieu's 2026 Christmas Concert: Let it Snow Watch trailer",
           "url": "https://www.cineplex.com/movie/andre-rieus-2026-christmas-concert-let-it-snow"
         },
         "title:avengers-doomsday": {
@@ -989,7 +992,7 @@
           "dates": [
             "Nov 23"
           ],
-          "context": "Advance tickets NOV 23 Doctor Who: The Satan Pit",
+          "context": "Advance tickets NOV 23 Doctor Who: The Satan Pit Watch trailer",
           "url": "https://www.cineplex.com/movie/doctor-who-the-satan-pit"
         },
         "title:dune-part-three": {
@@ -1022,15 +1025,6 @@
           ],
           "context": "Advance tickets NOV 14 Festive Fun with Peppa Cinema Experience Watch trailer",
           "url": "https://www.cineplex.com/movie/festive-fun-with-peppa-cinema-experience"
-        },
-        "title:filipino-pee-mak-filipino-w-e-s-t": {
-          "title": "Filipino Pee Mak (Filipino w/e.s.t.)",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Filipino Pee Mak (Filipino w/e.s.t.)",
-          "url": "https://www.cineplex.com/movie/pee-mak-filipino-west"
         },
         "title:focker-in-law": {
           "title": "Focker in-Law",
@@ -1165,6 +1159,17 @@
           "dates": [],
           "context": "Rammstein - Live in Mexico City (German) Watch trailer",
           "url": "https://www.cineplex.com/movie/rammstein-live-in-mexico-city-german"
+        },
+        "title:remember-filipino-w-e-s-t": {
+          "title": "Remember (Filipino w/e.s.t.)",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [
+            "Nov 13"
+          ],
+          "context": "Advance Tickets NOV 13 Remember (Filipino w/e.s.t.)",
+          "url": "https://www.cineplex.com/movie/remember-filipino-west"
         },
         "title:stray-kids-world-tour-run-it-live-viewing": {
           "title": "Stray Kids World Tour RUN IT LIVE VIEWING",
@@ -1379,9 +1384,10 @@
       "911eb844396cde4691b5851c5c60faee129bdf7ba0724eeaeee9cf6bc034a187",
       "1fd4de37ff969831ffd4d6962a9f06a665526d8f63873265c6d693b15af721a8",
       "b222c9fa5bb8421dac39f9f7bf99659ff8a7064bb2889f1a9413c5d14aea6c1a",
-      "a268c143c8a42b005cd7a4647424b945c345f31ece8d769848fd9f325744218f"
+      "a268c143c8a42b005cd7a4647424b945c345f31ece8d769848fd9f325744218f",
+      "c6720db0e175d566cfe06376470e7ca06321ee82c3785ae6ea2c8309622f257a"
     ],
-    "revision": 999
+    "revision": 1000
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
