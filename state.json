@@ -899,7 +899,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "a23c05d1c08d155ae628e8552a528bea81ab6fd1bfb15b3254467aa78802cafe",
+    "hash": "dab441cb02bfa6ac0451ff7abea943d6b37ff1d096d43861fb06c35f70a2df3b",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -925,14 +925,13 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Odeon Westmount Cinemas and VIP",
-        "Cineplex Cinemas Kitchener and VIP",
+        "Cineplex Cinemas Oakville and VIP",
+        "Cineplex Cinemas Winston Churchill & VIP",
         "Advance tickets",
         "DEC 18",
         "NOV 20",
         "NOV 25",
         "NOV 13",
-        "Ramayana (Hindi w/e.s.t.) - An IMAX 3D Experience",
         "NOV 23",
         "NOV 14",
         "NOV 19",
@@ -1006,6 +1005,17 @@
           "context": "Advance tickets DEC 18 Dune: Part Three Watch trailer",
           "url": "https://www.cineplex.com/movie/dune-part-three"
         },
+        "title:ek-onkar-punjabi-w-e-s-t": {
+          "title": "Ek Onkar (Punjabi w/e.s.t.)",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [
+            "Nov 13"
+          ],
+          "context": "Advance Tickets NOV 13 Ek Onkar (Punjabi w/e.s.t.)",
+          "url": "https://www.cineplex.com/movie/ek-onkar-punjabi-west"
+        },
         "title:english-dubbed-ramayana-english-dubbed": {
           "title": "English (dubbed) Ramayana (English Dubbed)",
           "ticket_available": false,
@@ -1066,6 +1076,17 @@
           "context": "Golden Boy - National Theatre Live Watch trailer",
           "url": "https://www.cineplex.com/movie/golden-boy-national-theatre-live"
         },
+        "title:hadoota-arabic-w-e-s-t": {
+          "title": "Hadoota (Arabic w/e.s.t.)",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [
+            "Nov 13"
+          ],
+          "context": "Advance Tickets NOV 13 Hadoota (Arabic w/e.s.t.)",
+          "url": "https://www.cineplex.com/movie/duplicatehadoota-arabic-west"
+        },
         "title:heated-rivalry-marathon": {
           "title": "HEATED RIVALRY - MARATHON",
           "ticket_available": false,
@@ -1103,17 +1124,6 @@
           "dates": [],
           "context": "Hindi Ramayana (Hindi w/e.s.t.) Watch trailer",
           "url": "https://www.cineplex.com/movie/est-ramayana-hindi-west"
-        },
-        "title:hindi-ramayana-hindi-w-e-s-t-an-imax-3d-experience": {
-          "title": "Hindi Ramayana (Hindi w/e.s.t.) - An IMAX 3D Experience",
-          "ticket_available": false,
-          "formats": [
-            "IMAX"
-          ],
-          "showtimes": [],
-          "dates": [],
-          "context": "Hindi Ramayana (Hindi w/e.s.t.) - An IMAX 3D Experience Watch trailer",
-          "url": "https://www.cineplex.com/movie/imax3dest-ramayana-hindi-west-the-imax"
         },
         "title:hindi-udta-teer-hindi-w-e-s-t": {
           "title": "Hindi Udta Teer (Hindi w/e.s.t.)",
@@ -1159,17 +1169,6 @@
           "dates": [],
           "context": "Rammstein - Live in Mexico City (German) Watch trailer",
           "url": "https://www.cineplex.com/movie/rammstein-live-in-mexico-city-german"
-        },
-        "title:remember-filipino-w-e-s-t": {
-          "title": "Remember (Filipino w/e.s.t.)",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [
-            "Nov 13"
-          ],
-          "context": "Advance Tickets NOV 13 Remember (Filipino w/e.s.t.)",
-          "url": "https://www.cineplex.com/movie/remember-filipino-west"
         },
         "title:stray-kids-world-tour-run-it-live-viewing": {
           "title": "Stray Kids World Tour RUN IT LIVE VIEWING",
@@ -1385,9 +1384,10 @@
       "1fd4de37ff969831ffd4d6962a9f06a665526d8f63873265c6d693b15af721a8",
       "b222c9fa5bb8421dac39f9f7bf99659ff8a7064bb2889f1a9413c5d14aea6c1a",
       "a268c143c8a42b005cd7a4647424b945c345f31ece8d769848fd9f325744218f",
-      "c6720db0e175d566cfe06376470e7ca06321ee82c3785ae6ea2c8309622f257a"
+      "c6720db0e175d566cfe06376470e7ca06321ee82c3785ae6ea2c8309622f257a",
+      "9023562ab8dc79c7ddfb130f4e8c79b3f71ccd92cdc1ae8073a58f076043086b"
     ],
-    "revision": 1001
+    "revision": 1002
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
