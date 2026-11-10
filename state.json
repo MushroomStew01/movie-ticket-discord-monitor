@@ -3,7 +3,7 @@
     "name": "Cineplex Cinemas Kitchener and VIP",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "a58d01f2f82883943095f9f7c6aa3aa413d14f51d773b6aa7cd538eb394ba5a7",
+    "hash": "c2f09b0632b5f68e08084fd43b5adcf01181d24077de0f57e32b54e2a67be65d",
     "snapshot": {
       "page_title": "Cineplex Cinemas Kitchener and VIP",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-kitchener-and-vip",
@@ -58,6 +58,15 @@
           "context": "Dune: Part Three Advance tickets available",
           "url": null
         },
+        "title:ebenezer": {
+          "title": "Ebenezer",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Ebenezer Advance tickets available",
+          "url": null
+        },
         "title:godzilla-minus-zero-japanese-w-e-s-t": {
           "title": "Godzilla Minus Zero (Japanese w/e.s.t.)",
           "ticket_available": false,
@@ -65,15 +74,6 @@
           "showtimes": [],
           "dates": [],
           "context": "Godzilla Minus Zero (Japanese w/e.s.t.)",
-          "url": null
-        },
-        "title:other-mommy": {
-          "title": "Other Mommy",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Other Mommy",
           "url": null
         },
         "title:the-cat-in-the-hat": {
@@ -215,9 +215,10 @@
       "16db30b47a20dd094d12b85b9461138fc458aa849537cab52389b5041694b7a1",
       "d495e1d8f74d479351f453f7d7bf72eadac6ad30da455b240a453724405a9e21",
       "d930cb4a7fc01df6a06fdb2146d055ee1442ac725a3ed1d46f00bdd070a6305f",
-      "5cd042fd555ab537dc27676f5869d8433829ded87a3860d71cd26c39d5aae53e"
+      "5cd042fd555ab537dc27676f5869d8433829ded87a3860d71cd26c39d5aae53e",
+      "bb6748cfc0ff5dc07c382fb6fb176c2df6435dac143d37fdbe2cbcba284584ca"
     ],
-    "revision": 63
+    "revision": 64
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge": {
     "name": "Cineplex Cinemas Cambridge",
@@ -899,7 +900,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "dab441cb02bfa6ac0451ff7abea943d6b37ff1d096d43861fb06c35f70a2df3b",
+    "hash": "8e9a71961d931377faea46a824ccca564617f51014b2d4f4d59c98a2e7ac7bb8",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -925,8 +926,7 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Cinemas Oakville and VIP",
-        "Cineplex Cinemas Winston Churchill & VIP",
+        "Cineplex Odeon McGillivray Cinemas and VIP",
         "Advance tickets",
         "DEC 18",
         "NOV 20",
@@ -1387,7 +1387,7 @@
       "c6720db0e175d566cfe06376470e7ca06321ee82c3785ae6ea2c8309622f257a",
       "9023562ab8dc79c7ddfb130f4e8c79b3f71ccd92cdc1ae8073a58f076043086b"
     ],
-    "revision": 1002
+    "revision": 1003
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
@@ -1420,6 +1420,6 @@
     "revision": 9
   },
   "_meta": {
-    "last_heartbeat_at_utc": "2026-11-09T20:43:40.456751+00:00"
+    "last_heartbeat_at_utc": "2026-11-10T23:18:36.511704+00:00"
   }
 }
