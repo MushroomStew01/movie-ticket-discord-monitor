@@ -224,7 +224,7 @@
     "name": "Cineplex Cinemas Cambridge",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "8c33fd5e48b5255fcd5bf639da11938805a5081f182df95af66302c03eb87937",
+    "hash": "81f5e86c46d60560f959d34f5fb293113e3a384cac32c687d47671ced8879129",
     "snapshot": {
       "page_title": "Cineplex Cinemas Cambridge",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-cambridge",
@@ -254,15 +254,6 @@
           "showtimes": [],
           "dates": [],
           "context": "Avengers: Doomsday Advance tickets available",
-          "url": null
-        },
-        "title:carmen-encore-bizet-french-w-e-s-t-metropolitan-opera": {
-          "title": "Carmen Encore (Bizet) - French w/e.s.t. – Metropolitan Opera",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Carmen Encore (Bizet) - French w/e.s.t. – Metropolitan Opera Advance tickets available",
           "url": null
         },
         "title:clayface": {
@@ -308,6 +299,15 @@
           "showtimes": [],
           "dates": [],
           "context": "Hexed Advance tickets available",
+          "url": null
+        },
+        "title:how-to-rob-a-bank": {
+          "title": "How to Rob a Bank",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "How to Rob a Bank Advance tickets available",
           "url": null
         },
         "title:the-cat-in-the-hat": {
@@ -457,9 +457,10 @@
       "9433deb5b200ba931108303bf2777e9f3a8f34fb4e34be2cebcf86c9c3a14654",
       "06df908ab6986a3f81bf635c0cdc5b61909e68f39081c43df2d859c870d178c9",
       "a9777d6c1607ad614e7e5e7bb4bc4afb89d0c030c0c35c1af871d508ef809a35",
-      "0d430748fead043e6a77da6a35ddc4b30f4fc30c4c49daec3dda17bcde9d3620"
+      "0d430748fead043e6a77da6a35ddc4b30f4fc30c4c49daec3dda17bcde9d3620",
+      "9488e3c192d5f840ccb741b1a6de212369d3fde2e3d24c29c9a7b5a507592f5d"
     ],
-    "revision": 86
+    "revision": 87
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan": {
     "name": "Cineplex Cinemas Vaughan",
