@@ -902,7 +902,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "8e9a71961d931377faea46a824ccca564617f51014b2d4f4d59c98a2e7ac7bb8",
+    "hash": "1949619148e3fc474e35500bed4837e724e25acdd92c2f4d6650687639fa7d4a",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -928,7 +928,7 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Odeon McGillivray Cinemas and VIP",
+        "Cineplex Cinemas Abbotsford and VIP",
         "Advance tickets",
         "DEC 18",
         "NOV 20",
@@ -1007,6 +1007,15 @@
           "context": "Advance tickets DEC 18 Dune: Part Three Watch trailer",
           "url": "https://www.cineplex.com/movie/dune-part-three"
         },
+        "title:ebenezer": {
+          "title": "Ebenezer",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "",
+          "url": "https://www.cineplex.com/movie/ebenezer"
+        },
         "title:ek-onkar-punjabi-w-e-s-t": {
           "title": "Ek Onkar (Punjabi w/e.s.t.)",
           "ticket_available": true,
@@ -1049,6 +1058,15 @@
           "context": "Advance tickets NOV 25 Focker in-Law Watch trailer",
           "url": "https://www.cineplex.com/movie/focker-inlaw"
         },
+        "title:ghost-soldier": {
+          "title": "Ghost Soldier",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "",
+          "url": "https://www.cineplex.com/movie/ghost-soldier"
+        },
         "title:giant-the-play": {
           "title": "GIANT - The Play",
           "ticket_available": true,
@@ -1087,7 +1105,7 @@
             "Nov 13"
           ],
           "context": "Advance Tickets NOV 13 Hadoota (Arabic w/e.s.t.)",
-          "url": "https://www.cineplex.com/movie/duplicatehadoota-arabic-west"
+          "url": "https://www.cineplex.com/movie/hadoota-arabic-west"
         },
         "title:heated-rivalry-marathon": {
           "title": "HEATED RIVALRY - MARATHON",
@@ -1135,6 +1153,15 @@
           "dates": [],
           "context": "Hindi Udta Teer (Hindi w/e.s.t.)",
           "url": "https://www.cineplex.com/movie/udta-teer-hindi-west"
+        },
+        "title:how-to-rob-a-bank": {
+          "title": "How To Rob A Bank",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "",
+          "url": "https://www.cineplex.com/movie/how-to-rob-a-bank"
         },
         "title:korean-paradise-lost-korean-w-e-s-t": {
           "title": "Korean Paradise Lost (Korean w/e.s.t.)",
@@ -1209,15 +1236,6 @@
           ],
           "context": "Advance tickets NOV 20 The Hunger Games: Sunrise on the Reaping Watch trailer",
           "url": "https://www.cineplex.com/movie/the-hunger-games-sunrise-on-the-reaping"
-        },
-        "title:view-movie-details-for-ebenezer": {
-          "title": "View movie details for Ebenezer",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "",
-          "url": "https://www.cineplex.com/movie/ebenezer"
         },
         "title:wild-horse-nine": {
           "title": "Wild Horse Nine",
@@ -1387,9 +1405,10 @@
       "b222c9fa5bb8421dac39f9f7bf99659ff8a7064bb2889f1a9413c5d14aea6c1a",
       "a268c143c8a42b005cd7a4647424b945c345f31ece8d769848fd9f325744218f",
       "c6720db0e175d566cfe06376470e7ca06321ee82c3785ae6ea2c8309622f257a",
-      "9023562ab8dc79c7ddfb130f4e8c79b3f71ccd92cdc1ae8073a58f076043086b"
+      "9023562ab8dc79c7ddfb130f4e8c79b3f71ccd92cdc1ae8073a58f076043086b",
+      "8b47e225e56408b7d54d9b66a03d4fdc08fe78bea56f77ef1e78f90bbd88cf3d"
     ],
-    "revision": 1003
+    "revision": 1004
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
