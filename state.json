@@ -466,7 +466,7 @@
     "name": "Cineplex Cinemas Vaughan",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "f8bdac758289c6a1cc39f6a20408107a71660161f727a272673f04ee9f4bb264",
+    "hash": "179b57163fe0e70666903bdd16f461d13eba97c8de7329817c01cfbf9fe92a27",
     "snapshot": {
       "page_title": "Cineplex Cinemas Vaughan",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan",
@@ -525,6 +525,15 @@
           "context": "Focker in-Law Advance tickets available",
           "url": null
         },
+        "title:ghost-soldier": {
+          "title": "Ghost Soldier",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Ghost Soldier",
+          "url": null
+        },
         "title:godzilla-minus-zero-japanese-w-e-s-t": {
           "title": "Godzilla Minus Zero (Japanese w/e.s.t.)",
           "ticket_available": false,
@@ -534,13 +543,13 @@
           "context": "Godzilla Minus Zero (Japanese w/e.s.t.)",
           "url": null
         },
-        "title:hexed": {
-          "title": "Hexed",
+        "title:how-to-rob-a-bank": {
+          "title": "How to Rob a Bank",
           "ticket_available": true,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Hexed Advance tickets available",
+          "context": "How to Rob a Bank Advance tickets available",
           "url": null
         },
         "title:ramayana-english-dubbed": {
@@ -552,15 +561,6 @@
           "context": "Ramayana (English Dubbed)",
           "url": null
         },
-        "title:the-cat-in-the-hat": {
-          "title": "The Cat in the Hat",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "The Cat in the Hat",
-          "url": null
-        },
         "title:the-hunger-games-sunrise-on-the-reaping": {
           "title": "The Hunger Games: Sunrise on the Reaping",
           "ticket_available": true,
@@ -568,6 +568,15 @@
           "showtimes": [],
           "dates": [],
           "context": "The Hunger Games: Sunrise on the Reaping Advance tickets available",
+          "url": null
+        },
+        "title:victorian-psycho": {
+          "title": "Victorian Psycho",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "Victorian Psycho Advance tickets available",
           "url": null
         },
         "title:view-movie-details-for-a-minecraft-movie": {
@@ -622,15 +631,6 @@
           "dates": [],
           "context": "Wild Horse Nine",
           "url": null
-        },
-        "title:you-can-see-everything": {
-          "title": "You Can See Everything",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "You Can See Everything",
-          "url": null
         }
       }
     },
@@ -676,15 +676,16 @@
       "a60488aa220e5ce6eecedacf136206cc5b5bb06889a93d8ccae6a271c9adc266",
       "7d7cadc04bc61ae450e295e296577f8328169a31868504dcc66adce6449536d5",
       "58e3d3fadfbfa147aad8d8469d25f3b354a291984a9861e34bc2a8cc98621c06",
-      "295afde0eb335db0f02a2eba711ae6b796ec763fac2163e10668018cc142a2d4"
+      "295afde0eb335db0f02a2eba711ae6b796ec763fac2163e10668018cc142a2d4",
+      "252acffa8738acfcf70fda64fa9e5ae4ebe955f92aac8f3705540e53b25828d0"
     ],
-    "revision": 61
+    "revision": 62
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one": {
     "name": "Cineplex Cinemas Mississauga Square One",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "73925857d03b8aa2674f5170f70e817d21354d2be819d55147b05f893447ba2f",
+    "hash": "1c1bfa63699b0ea0c5a1352b0ab5bc650e8badbfa82da323feb1ef132da59d62",
     "snapshot": {
       "page_title": "Cineplex Cinemas Mississauga Square One",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one",
@@ -752,13 +753,22 @@
           "context": "Godzilla Minus Zero (Japanese w/e.s.t.)",
           "url": null
         },
-        "title:hexed": {
-          "title": "Hexed",
+        "title:how-to-rob-a-bank": {
+          "title": "How to Rob a Bank",
           "ticket_available": true,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Hexed Advance tickets available",
+          "context": "How to Rob a Bank Advance tickets available",
+          "url": null
+        },
+        "title:i-play-rocky": {
+          "title": "I Play Rocky",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "I Play Rocky Advance tickets available",
           "url": null
         },
         "title:ramayana-english-dubbed": {
@@ -840,15 +850,6 @@
           "dates": [],
           "context": "Wild Horse Nine",
           "url": null
-        },
-        "title:you-can-see-everything": {
-          "title": "You Can See Everything",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "You Can See Everything",
-          "url": null
         }
       }
     },
@@ -894,15 +895,16 @@
       "bb89160953ba9ce02c8b6dd44e14f536c42207faa837864ff2ae62ca65177ffc",
       "89a1ed342c929eff9de5b6cdd6b01d2c1b2306d36fa401e91e8dcf54d74281a1",
       "35c2b88303de5d050e55adaf5e27eb98720e1a1e06fcdcc5635d4037dd87c7ea",
-      "41f9b7b20cd29beee85416edf5b46f3f493f7a46c7c64031fa028b1bb7713531"
+      "41f9b7b20cd29beee85416edf5b46f3f493f7a46c7c64031fa028b1bb7713531",
+      "e354076530d914e2552a7238912ce5dc8bcc4fe9ab8f4fcd05a553d8ecddc970"
     ],
-    "revision": 62
+    "revision": 63
   },
   "https://www.cineplex.com/en?theatresNearYou=true": {
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "1949619148e3fc474e35500bed4837e724e25acdd92c2f4d6650687639fa7d4a",
+    "hash": "f4f0b47eb4fc03bfb239a95f0fac6395ea5434371c4c084c99ac8ffb1645b277",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -911,13 +913,17 @@
       "showtimes": [],
       "dates": [
         "Dec 18",
+        "Dec 3",
+        "Dec 30",
         "Dec 5",
         "Nov 13",
         "Nov 14",
         "Nov 19",
         "Nov 20",
+        "Nov 21",
         "Nov 23",
-        "Nov 25"
+        "Nov 25",
+        "Nov 27"
       ],
       "formats": [
         "4DX",
@@ -928,15 +934,20 @@
         "VIP"
       ],
       "relevant_lines": [
-        "Cineplex Cinemas Abbotsford and VIP",
+        "Cineplex Odeon Westmount Cinemas and VIP",
+        "Cineplex Cinemas Kitchener and VIP",
         "Advance tickets",
-        "DEC 18",
         "NOV 20",
-        "NOV 25",
         "NOV 13",
+        "DEC 18",
+        "NOV 25",
+        "NOV 27",
         "NOV 23",
+        "NOV 21",
         "NOV 14",
         "NOV 19",
+        "DEC 3",
+        "DEC 30",
         "DEC 5",
         "What are UltraAVX, IMAX, VIP, 4DX, ScreenX and D-BOX?"
       ],
@@ -963,6 +974,28 @@
           "context": "Advance tickets DEC 18 Avengers: Doomsday Watch trailer",
           "url": "https://www.cineplex.com/movie/avengers-doomsday"
         },
+        "title:bts-world-tour-arirang-in-jakarta-live-viewing": {
+          "title": "BTS WORLD TOUR 'ARIRANG' IN JAKARTA: LIVE VIEWING",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [
+            "Dec 30"
+          ],
+          "context": "Advance tickets DEC 30 BTS WORLD TOUR 'ARIRANG' IN JAKARTA: LIVE VIEWING Watch trailer",
+          "url": "https://www.cineplex.com/movie/bts-world-tour-arirang-in-jakarta"
+        },
+        "title:bts-world-tour-arirang-in-kaohsiung-live-viewing": {
+          "title": "BTS WORLD TOUR 'ARIRANG' IN KAOHSIUNG: LIVE VIEWING",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [
+            "Nov 21"
+          ],
+          "context": "Advance tickets NOV 21 BTS WORLD TOUR 'ARIRANG' IN KAOHSIUNG: LIVE VIEWING Watch trailer",
+          "url": "https://www.cineplex.com/movie/bts-world-tour-arirang-in-kaoh"
+        },
         "title:carmen-encore-bizet-french-w-e-s-t-metropolitan-opera": {
           "title": "Carmen Encore (Bizet) - French w/e.s.t. – Metropolitan Opera",
           "ticket_available": true,
@@ -973,17 +1006,6 @@
           ],
           "context": "Advance tickets NOV 14 Carmen Encore (Bizet) - French w/e.s.t. – Metropolitan Opera Watch trailer",
           "url": "https://www.cineplex.com/movie/est-enc-carmen-encore-bizet-french-west"
-        },
-        "title:concert-de-no-l-2026-d-andr-rieu-let-it-snow": {
-          "title": "Concert De Noël 2026 D'André Rieu : Let It Snow",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [
-            "Dec 5"
-          ],
-          "context": "Advance tickets DEC 5 Concert De Noël 2026 D'André Rieu : Let It Snow",
-          "url": "https://www.cineplex.com/movie/concert-de-noel-2026-dandre-rieu-let-it-snow"
         },
         "title:doctor-who-the-satan-pit": {
           "title": "Doctor Who: The Satan Pit",
@@ -1009,11 +1031,13 @@
         },
         "title:ebenezer": {
           "title": "Ebenezer",
-          "ticket_available": false,
+          "ticket_available": true,
           "formats": [],
           "showtimes": [],
-          "dates": [],
-          "context": "",
+          "dates": [
+            "Nov 13"
+          ],
+          "context": "Advance tickets NOV 13 Ebenezer Watch trailer",
           "url": "https://www.cineplex.com/movie/ebenezer"
         },
         "title:ek-onkar-punjabi-w-e-s-t": {
@@ -1064,7 +1088,7 @@
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "",
+          "context": "Ghost Soldier Watch trailer",
           "url": "https://www.cineplex.com/movie/ghost-soldier"
         },
         "title:giant-the-play": {
@@ -1084,7 +1108,7 @@
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "Godzilla Minus Zero (Japanese w/e.s.t.) Watch trailer",
+          "context": "Godzilla Minus Zero (Japanese w/e.s.t.)",
           "url": "https://www.cineplex.com/movie/godzilla-minus-zero-japanese-west"
         },
         "title:golden-boy-national-theatre-live": {
@@ -1107,6 +1131,17 @@
           "context": "Advance Tickets NOV 13 Hadoota (Arabic w/e.s.t.)",
           "url": "https://www.cineplex.com/movie/hadoota-arabic-west"
         },
+        "title:har-maidan-fateh-punjabi-w-e-s-t": {
+          "title": "Har Maidan Fateh (Punjabi w/e.s.t.)",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [
+            "Nov 27"
+          ],
+          "context": "Coming Soon NOV 27 Har Maidan Fateh (Punjabi w/e.s.t.)",
+          "url": "https://www.cineplex.com/movie/har-maidan-fateh-punjabi-west"
+        },
         "title:heated-rivalry-marathon": {
           "title": "HEATED RIVALRY - MARATHON",
           "ticket_available": false,
@@ -1115,17 +1150,6 @@
           "dates": [],
           "context": "HEATED RIVALRY - MARATHON",
           "url": "https://www.cineplex.com/movie/heated-rivalry-marathon"
-        },
-        "title:hexed": {
-          "title": "Hexed",
-          "ticket_available": true,
-          "formats": [],
-          "showtimes": [],
-          "dates": [
-            "Nov 25"
-          ],
-          "context": "Advance tickets NOV 25 Hexed Watch trailer",
-          "url": "https://www.cineplex.com/movie/hexed"
         },
         "title:hindi-drishyam-the-conclusion-hindi-w-e-s-t": {
           "title": "Hindi Drishyam - The Conclusion (Hindi w/e.s.t.)",
@@ -1155,22 +1179,15 @@
           "url": "https://www.cineplex.com/movie/udta-teer-hindi-west"
         },
         "title:how-to-rob-a-bank": {
-          "title": "How To Rob A Bank",
-          "ticket_available": false,
+          "title": "How to Rob a Bank",
+          "ticket_available": true,
           "formats": [],
           "showtimes": [],
-          "dates": [],
-          "context": "",
+          "dates": [
+            "Nov 13"
+          ],
+          "context": "Advance tickets NOV 13 How to Rob a Bank Watch trailer",
           "url": "https://www.cineplex.com/movie/how-to-rob-a-bank"
-        },
-        "title:korean-paradise-lost-korean-w-e-s-t": {
-          "title": "Korean Paradise Lost (Korean w/e.s.t.)",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Korean Paradise Lost (Korean w/e.s.t.)",
-          "url": "https://www.cineplex.com/movie/paradise-lost-korean-west"
         },
         "title:mandarin-once-upon-a-time-in-the-middle-east-mandarin-w-chinese-and-e-s-t": {
           "title": "Mandarin Once Upon a Time in the Middle East (Mandarin w/Chinese and e.s.t.)",
@@ -1181,50 +1198,27 @@
           "context": "Mandarin Once Upon a Time in the Middle East (Mandarin w/Chinese and e.s.t.) Watch trailer",
           "url": "https://www.cineplex.com/movie/once-upon-a-time-in-the-middle-east-mandarin-wchinese-and-est"
         },
-        "title:punjabi-eh-din-roz-ni-aune-punjabi-w-e-s-t": {
-          "title": "Punjabi Eh Din Roz Ni Aune (Punjabi w/e.s.t.)",
-          "ticket_available": false,
+        "title:prince-3121-las-vegas-live": {
+          "title": "Prince 3121 Las Vegas Live",
+          "ticket_available": true,
           "formats": [],
           "showtimes": [],
-          "dates": [],
-          "context": "Punjabi Eh Din Roz Ni Aune (Punjabi w/e.s.t.)",
-          "url": "https://www.cineplex.com/movie/eh-din-roz-ni-aune-punjabi-west"
+          "dates": [
+            "Dec 3"
+          ],
+          "context": "Advance tickets DEC 3 Prince 3121 Las Vegas Live",
+          "url": "https://www.cineplex.com/movie/prince-3121-las-vegas-live"
         },
-        "title:rammstein-live-in-mexico-city-german": {
-          "title": "Rammstein - Live in Mexico City (German)",
-          "ticket_available": false,
+        "title:remember-filipino-w-e-s-t": {
+          "title": "Remember (Filipino w/e.s.t.)",
+          "ticket_available": true,
           "formats": [],
           "showtimes": [],
-          "dates": [],
-          "context": "Rammstein - Live in Mexico City (German) Watch trailer",
-          "url": "https://www.cineplex.com/movie/rammstein-live-in-mexico-city-german"
-        },
-        "title:stray-kids-world-tour-run-it-live-viewing": {
-          "title": "Stray Kids World Tour RUN IT LIVE VIEWING",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Stray Kids World Tour RUN IT LIVE VIEWING Watch trailer",
-          "url": "https://www.cineplex.com/movie/stray-kids-world-tour-run-it-live-viewing"
-        },
-        "title:tagalog-always-yours-never-mine-tagalog-w-e-s-t": {
-          "title": "Tagalog Always Yours, Never Mine (Tagalog w/e.s.t.)",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "Tagalog Always Yours, Never Mine (Tagalog w/e.s.t.)",
-          "url": "https://www.cineplex.com/movie/always-yours-never-mine-tagalog-west"
-        },
-        "title:the-cat-in-the-hat": {
-          "title": "The Cat in the Hat",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "The Cat in the Hat Watch trailer",
-          "url": "https://www.cineplex.com/movie/the-cat-in-the-hat"
+          "dates": [
+            "Nov 13"
+          ],
+          "context": "Advance Tickets NOV 13 Remember (Filipino w/e.s.t.)",
+          "url": "https://www.cineplex.com/movie/remember-filipino-west"
         },
         "title:the-hunger-games-sunrise-on-the-reaping": {
           "title": "The Hunger Games: Sunrise on the Reaping",
@@ -1237,6 +1231,26 @@
           "context": "Advance tickets NOV 20 The Hunger Games: Sunrise on the Reaping Watch trailer",
           "url": "https://www.cineplex.com/movie/the-hunger-games-sunrise-on-the-reaping"
         },
+        "title:traces-of-justice-mandarin-w-chinese-and-e-s-t": {
+          "title": "Traces of Justice (Mandarin w/Chinese and e.s.t.)",
+          "ticket_available": true,
+          "formats": [],
+          "showtimes": [],
+          "dates": [
+            "Nov 13"
+          ],
+          "context": "Advance Tickets NOV 13 Traces of Justice (Mandarin w/Chinese and e.s.t.)",
+          "url": "https://www.cineplex.com/movie/traces-of-justice-mandarin-wchinese-and-est"
+        },
+        "title:view-movie-details-for-victorian-psycho": {
+          "title": "View movie details for Victorian Psycho",
+          "ticket_available": false,
+          "formats": [],
+          "showtimes": [],
+          "dates": [],
+          "context": "",
+          "url": "https://www.cineplex.com/movie/victorian-psycho"
+        },
         "title:wild-horse-nine": {
           "title": "Wild Horse Nine",
           "ticket_available": false,
@@ -1245,15 +1259,6 @@
           "dates": [],
           "context": "Wild Horse Nine Watch trailer",
           "url": "https://www.cineplex.com/movie/wild-horse-nine"
-        },
-        "title:you-can-see-everything": {
-          "title": "You Can See Everything",
-          "ticket_available": false,
-          "formats": [],
-          "showtimes": [],
-          "dates": [],
-          "context": "You Can See Everything Watch trailer",
-          "url": "https://www.cineplex.com/movie/you-can-see-everything"
         }
       }
     },
@@ -1406,9 +1411,12 @@
       "a268c143c8a42b005cd7a4647424b945c345f31ece8d769848fd9f325744218f",
       "c6720db0e175d566cfe06376470e7ca06321ee82c3785ae6ea2c8309622f257a",
       "9023562ab8dc79c7ddfb130f4e8c79b3f71ccd92cdc1ae8073a58f076043086b",
-      "8b47e225e56408b7d54d9b66a03d4fdc08fe78bea56f77ef1e78f90bbd88cf3d"
+      "8b47e225e56408b7d54d9b66a03d4fdc08fe78bea56f77ef1e78f90bbd88cf3d",
+      "1f0d4c6a89c1e99d09cb7f83d7fba4b79834f014cff7c61ca5c8362941d20143",
+      "65eb7c5089cebe7a63b876d1744e6bbcd51ffe330ff11e5491aa8bcf34b7dd1c",
+      "c3ad917329925a687f70bcd8e892de96f899ab710cf8872af92ea5a8710f0885"
     ],
-    "revision": 1004
+    "revision": 1005
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
@@ -1441,6 +1449,6 @@
     "revision": 9
   },
   "_meta": {
-    "last_heartbeat_at_utc": "2026-11-10T23:18:36.511704+00:00"
+    "last_heartbeat_at_utc": "2026-11-11T23:40:36.153546+00:00"
   }
 }
