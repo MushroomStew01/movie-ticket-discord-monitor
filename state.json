@@ -466,7 +466,7 @@
     "name": "Cineplex Cinemas Vaughan",
     "type": "theatre",
     "snapshot_version": 4,
-    "hash": "beda70d3af59a8c3449dad56190c40fb5ede3c192e2b96323a272a789f14fe62",
+    "hash": "f8bdac758289c6a1cc39f6a20408107a71660161f727a272673f04ee9f4bb264",
     "snapshot": {
       "page_title": "Cineplex Cinemas Vaughan",
       "final_url": "https://www.cineplex.com/theatre/cineplex-cinemas-vaughan",
@@ -543,13 +543,13 @@
           "context": "Hexed Advance tickets available",
           "url": null
         },
-        "title:how-to-rob-a-bank": {
-          "title": "How to Rob a Bank",
-          "ticket_available": true,
+        "title:ramayana-english-dubbed": {
+          "title": "Ramayana (English Dubbed)",
+          "ticket_available": false,
           "formats": [],
           "showtimes": [],
           "dates": [],
-          "context": "How to Rob a Bank Advance tickets available",
+          "context": "Ramayana (English Dubbed)",
           "url": null
         },
         "title:the-cat-in-the-hat": {
@@ -675,9 +675,10 @@
       "c279fce37988a0f821baeff8515fee9dbb59cc8493a73d5092cc3ba47e1f6f53",
       "a60488aa220e5ce6eecedacf136206cc5b5bb06889a93d8ccae6a271c9adc266",
       "7d7cadc04bc61ae450e295e296577f8328169a31868504dcc66adce6449536d5",
-      "58e3d3fadfbfa147aad8d8469d25f3b354a291984a9861e34bc2a8cc98621c06"
+      "58e3d3fadfbfa147aad8d8469d25f3b354a291984a9861e34bc2a8cc98621c06",
+      "295afde0eb335db0f02a2eba711ae6b796ec763fac2163e10668018cc142a2d4"
     ],
-    "revision": 60
+    "revision": 61
   },
   "https://www.cineplex.com/theatre/cineplex-cinemas-mississauga-square-one": {
     "name": "Cineplex Cinemas Mississauga Square One",
