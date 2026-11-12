@@ -904,7 +904,7 @@
     "name": "Cineplex national movie listings",
     "type": "listing",
     "snapshot_version": 4,
-    "hash": "f4f0b47eb4fc03bfb239a95f0fac6395ea5434371c4c084c99ac8ffb1645b277",
+    "hash": "fcbfc6be58d92ecc53aada156e225b7fdf0d9e2536c7e04bc2b3abb1d601228f",
     "snapshot": {
       "page_title": "",
       "final_url": "https://www.cineplex.com/",
@@ -1206,7 +1206,7 @@
           "dates": [
             "Dec 3"
           ],
-          "context": "Advance tickets DEC 3 Prince 3121 Las Vegas Live",
+          "context": "Advance tickets DEC 3 Prince 3121 Las Vegas Live Watch trailer",
           "url": "https://www.cineplex.com/movie/prince-3121-las-vegas-live"
         },
         "title:remember-filipino-w-e-s-t": {
@@ -1416,7 +1416,7 @@
       "65eb7c5089cebe7a63b876d1744e6bbcd51ffe330ff11e5491aa8bcf34b7dd1c",
       "c3ad917329925a687f70bcd8e892de96f899ab710cf8872af92ea5a8710f0885"
     ],
-    "revision": 1005
+    "revision": 1006
   },
   "https://www.cineplex.com/movie/dune-part-3": {
     "name": "Dune: Part 3",
